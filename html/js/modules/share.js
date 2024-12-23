@@ -1,10 +1,16 @@
-import { root } from 'postcss';
-
 // named export module
 export const share = {
   init() {
     function stickyShare(entries, observer) {
-      console.log(entries[0]);
+      entries.forEach((entry) => {
+        const ele = entry.target;
+        console.log(entry.isIntersecting);
+        if (entry.isIntersecting) {
+          ele.classList.add('sticky');
+        } else {
+          ele.classList.remove('sticky');
+        }
+      });
     }
     let options = {
       root: null,
