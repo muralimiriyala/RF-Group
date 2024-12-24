@@ -18,11 +18,28 @@ export const share = {
             scroll <= ele.offsetTop - $height + ele.clientHeight - $iconsHeight
           ) {
             ele.classList.add('sticky');
+            _.$share.style.top = `${$height}px`;
           } else {
             ele.classList.remove('sticky');
+            _.$share.style.top = `${0}px`;
           }
         }
         document.addEventListener('scroll', myscroll);
+
+        // console.log(ele.offsetTop);
+        // console.log(ele.clientHeight);
+        // console.log(ele.offsetTop + ele.clientHeight, 'ele height');
+        // const eleTop = Math.floor(entry.boundingClientRect.top);
+        // if (entry.isIntersecting) {
+        //   ele.classList.add('sticky');
+        // } else if (!entry.isIntersecting) {
+        //   ele.classList.remove('sticky');
+        // }
+        // if (ele === nextele) {
+        //   if (entry.isIntersecting) {
+        //     ele.classList.remove('sticky');
+        //   }
+        // }
       });
     }
     let options = {
@@ -37,4 +54,3 @@ export const share = {
     });
   },
 };
-a;
