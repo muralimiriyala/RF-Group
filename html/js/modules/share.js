@@ -8,33 +8,45 @@ export const share = {
     const _ = this;
     const $height = _.$ele.getBoundingClientRect().height;
     const $iconsHeight = _.$share.getBoundingClientRect().height;
-    function stickyShare(entries) {
+
+    function stickyShare(entries, observer) {
       entries.forEach((entry) => {
         const ele = entry.target;
-        function myscroll() {
-          scroll = Math.floor(window.scrollY);
-          if (
-            scroll >= ele.offsetTop - $height &&
-            scroll <= ele.offsetTop - $height + ele.clientHeight - $iconsHeight
-          ) {
-            ele.classList.add('sticky');
-          } else {
-            ele.classList.remove('sticky');
-          }
+
+        if (entry.isIntersecting) {
+          // When the element intersects, add the scroll event listener
+          const myscroll = () => {
+            scroll = Math.floor(window.scrollY);
+            if (
+              scroll >= ele.offsetTop - $height &&
+              scroll <=
+                ele.offsetTop - $height + ele.clientHeight - $iconsHeight
+            ) {
+              ele.classList.add('sticky');
+            } else {
+              ele.classList.remove('sticky');
+            }
+          };
+          myscroll();
+
+          document.addEventListener('scroll', myscroll);
+
+          // Stop observing the element once we've added the scroll event listener
+          observer.unobserve(entry.target);
         }
-        document.addEventListener('scroll', myscroll);
       });
     }
-    let options = {
+
+    const options = {
       root: null,
       rootMargin: '0px 0px 0px 0px',
       threshold: 0,
     };
+
     const observer = new IntersectionObserver(stickyShare, options);
-    const targetElement = _.$sticky;
-    targetElement.forEach((targetEle) => {
-      observer.observe(targetEle);
+
+    _.$sticky.forEach((targetEle) => {
+      observer.observe(targetEle); // observing each element
     });
   },
 };
-a;
