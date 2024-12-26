@@ -1,3 +1,5 @@
+'use strict';
+
 import { jqueryselectBox } from './lib/jquery.selectBox.js';
 
 import { menu } from './modules/menu';
