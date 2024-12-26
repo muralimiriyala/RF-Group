@@ -4,8 +4,9 @@ export const share = {
   $sticky: document.querySelectorAll('.sticky__share'),
   $share: document.querySelector('.share-icons'),
   init() {
-    let scroll = Math.floor(window.scrollY);
     const _ = this;
+    if (!_.$sticky || !_.$share) return;
+    let scroll = Math.floor(window.scrollY);
     const $height = _.$ele.getBoundingClientRect().height;
     const $iconsHeight = _.$share.getBoundingClientRect().height;
 

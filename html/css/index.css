@@ -1,9 +1,17 @@
 
+
+/*-- From common elements css --*/
 @import './elements/_reset.css';
 
 
 
-header{position: fixed; top: 0; left: 0; width: 100%; height: 80px; z-index: 800; background-color: brown;}
-main{padding-top: 80px;}
-.share-icons{position: absolute; top: 0; right: 0;}
-.sticky .share-icons{position: fixed; top: 80px;}
+/*-- From page's css --*/
+
+
+/*-- From common section css --*/
+
+
+/*-- From 3rd part css's --*/
+@import './lib/slick.css';
+
+
