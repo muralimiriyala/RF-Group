@@ -8,3 +8,47 @@ Description:
 Version: 2024-12-24
 Text Domain: RF Group
 */
+
+@font-face {
+    font-family: 'Blackbird';
+    src: url('./fonts/Blackbird-Light.otf') format('opentype'), url('./fonts/Blackbird-Light.woff2') format('woff2'), url('./fonts/Blackbird-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Blackbird';
+    src: url('./fonts/Blackbird-Regular.otf') format('opentype'), url('./fonts/Blackbird-Regular.woff2') format('woff2'), url('./fonts/Blackbird-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Blackbird';
+    src: url('./fonts/Blackbird-Medium.otf') format('opentype'), url('./fonts/Blackbird-Medium.otf') format('woff2'), url('./fonts/Blackbird-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Blackbird';
+    src: url('./fonts/Blackbird-Demi.otf') format('opentype'), url('./fonts/Blackbird-Demi.woff2') format('woff2'),
+        url('./fonts/Blackbird-Demi.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Blackbird';
+    src: url('./fonts/Blackbird-Bold.otf') format('opentype'), url('./fonts/Blackbird-Bold.woff2') format('woff2'), url('./fonts/Blackbird-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Blackbird';
+    src: url('./fonts/Blackbird-Italic.otf') format('opentype'), url('./fonts/Blackbird-Medium.woff2') format('woff2'), url('./fonts/Blackbird-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
