@@ -11,7 +11,9 @@
 /*-- From common section css --*/
 
 
-/*-- From 3rd part css's --*/
+/*-- From 3rd party css's --*/
 @import './lib/slick.css';
+@import './lib/magnific-popup.css';
+@import './lib/jquery.selectBox.css';
 
 
