@@ -34,6 +34,7 @@
   "dependencies": {
     "jquery": "^3.7.1",
     "magnific-popup": "^1.2.0",
-    "slick-slider": "^1.8.2"
+    "slick-slider": "^1.8.2",
+    "youtube-background": "^1.1.8"
   }
 }
