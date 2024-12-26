@@ -63,7 +63,7 @@ legend {white-space: normal;}
 table, th, td {border: 1px solid rgba(0, 0, 0, 0.1);}
 table {margin: 52px 0 49px; border-collapse: separate; border-spacing: 0; border-width: 1px; max-width: 100%; width: 100%; border-radius: 8px;}
 table tr td:first-child {text-align: left;}
-th {border-width: 0; padding: 11px 16px 12px; background-color: var(--Accent); color: var(--White); border-radius: 0; font-family: var(--base-font); font-weight: 700;}
+th {border-width: 0; padding: 11px 16px 12px; background-color: var(--Accent); color: var(--White); border-radius: 0; font-family: var(--body-font); font-weight: 700;}
 th span.icon{font-size: 0.875rem; margin-left: 4px; top: 0px; position: relative; }
 td {border-width: 0; padding: 13px 15px 11px; text-align: center; border-bottom: 1px solid rgba(0,0,0,.1); vertical-align: middle; font-size: 1rem; line-height: 1.5rem;}
 table tr:nth-child(odd) td{background-color: rgba(0,0,0, 0.02);}
@@ -84,7 +84,7 @@ hr.sm-line{background-color: var(--Accent); height: 2px; border-radius: 1px; mar
 
 
 /* Buttons */
-.button, button, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{padding: 15px 24px; font-size: 1.125rem; font-weight: 700; line-height: 125%; font-family: var(--base-font); display: inline-block; background: linear-gradient(180deg, rgba(18, 39, 80, 0.00) 0%, rgba(18, 39, 80, 0.50) 60%), var(--Accent); color: var(--White); border: none; border-radius: 28px; cursor: pointer; vertical-align: middle; text-decoration: none; text-transform: none; text-align: center; outline: 0; position: relative; -webkit-writing-mode: horizontal-tb; -ms-writing-mode: horizontal-tb; writing-mode: horizontal-tb; text-orientation: mixed; box-shadow: none; transition: var(--b-transition); z-index: 1; margin: 0;  transition: all .5s ease;}
+.button, button, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{padding: 15px 24px; font-size: 1.125rem; font-weight: 700; line-height: 125%; font-family: var(--body-font); display: inline-block; background: linear-gradient(180deg, rgba(18, 39, 80, 0.00) 0%, rgba(18, 39, 80, 0.50) 60%), var(--Accent); color: var(--White); border: none; border-radius: 28px; cursor: pointer; vertical-align: middle; text-decoration: none; text-transform: none; text-align: center; outline: 0; position: relative; -webkit-writing-mode: horizontal-tb; -ms-writing-mode: horizontal-tb; writing-mode: horizontal-tb; text-orientation: mixed; box-shadow: none; transition: var(--b-transition); z-index: 1; margin: 0;  transition: all .5s ease;}
 .button:hover, button:hover, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover{background: linear-gradient(180deg, rgba(18, 39, 80, 0.00) 0%, rgba(18, 39, 80, 0.50) 100%), var(--Accent); border-radius: 16px; color: var(--White);}
 
 .button.btn-transparent{padding: 12px 13px 12px 12px; border-radius: 24px; border: 4px solid var(--Orange); background: transparent;}
@@ -104,7 +104,7 @@ hr.sm-line{background-color: var(--Accent); height: 2px; border-radius: 1px; mar
 
 .button.btn-sm{padding: 12px 17px 12px; font-size: 1rem;}
 
-span.text-link{gap: 8px; font-size: 1rem; line-height: 1.5rem; font-family: var(--base-font);}
+span.text-link{gap: 8px; font-size: 1rem; line-height: 1.5rem; font-family: var(--body-font);}
 span.text-link i{top: 3px; left: 0; position: relative; color: var(--Light-Blue); font-size: 1.25rem; line-height: 1.25rem; overflow: hidden;}
 span.text-link.white{color: var(--White);}
 span.text-link.blue{color: var(--Blue);}
@@ -167,7 +167,7 @@ img.aligncenter{margin: 25px auto; clear: both;}
 
 
 /*-- custom css starts here --*/
-body{margin: 0; font-size: 1.125rem; line-height: 1.688rem; font-weight: 400; font-family: var(--base-font); position: relative; color: var(--Raisin-Black); background-color: var(--Eggshell); overflow-x: hidden;}
+body{margin: 0; font-size: 1.125rem; line-height: 1.688rem; font-weight: 400; font-family: var(--body-font); position: relative; color: var(--Raisin-Black); background-color: var(--Eggshell); overflow-x: hidden;}
 .d-block{display: block;}
 span.optional-text.ls-07{letter-spacing: 0.7px;}
 span.optional-text{color: var(--Accent); display: block; font-size: 0.875rem; font-weight: 800; line-height: 0.875rem; letter-spacing: 1.4px; margin-bottom: 30px; text-transform: uppercase;}
