@@ -32,6 +32,7 @@
     "webpack-dev-server": "^5.2.0"
   },
   "dependencies": {
+    "gsap": "^3.12.5",
     "jquery": "^3.7.1",
     "magnific-popup": "^1.2.0",
     "slick-slider": "^1.8.2",
