@@ -1,0 +1,6 @@
+
+
+form.srch-form input{width: 0;}
+form.srch-form.open input{width: 100%;}
+button.btn-srch{font-size: 0; line-height: 0;}
+button.btn-srch i{font-size: 20px; color: var(--black);}

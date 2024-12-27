@@ -4,6 +4,8 @@
 @import './elements/_fonts.css';
 @import './elements/_color.css';
 @import './elements/_reset.css';
+@import './elements/_header.css';
+@import './elements/_search.css';
 @import './elements/_selectbox.css';
 
 
