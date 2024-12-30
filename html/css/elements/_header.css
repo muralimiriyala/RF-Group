@@ -30,6 +30,7 @@ header.scrolly-header{transform: translateY(-100%);}
 
 /* media css starts here */
 @media screen and (min-width: 1024px) {
+    .site-main-cover{padding-top: 104px;}
     li.no-link > a{pointer-events: none !important;}
     ul.main_menu > li.nav-features > ul > li.hide-nav-desktop{display: none;}
     
@@ -38,6 +39,11 @@ header.scrolly-header{transform: translateY(-100%);}
     .humburger-btn{display: none;}
 
     .header_right{gap: 0 40px; flex: 1; justify-content: flex-end;}
+
+    ul.top-nav{margin: 0; width: fit-content;}
+    ul.top-nav li{margin: 0; text-transform: uppercase;}
+    ul.top-nav li::before{display: none;}
+    ul.top-nav li a{font-size: 12px; line-height: 100%; letter-spacing: 0.24px;}
    
     ul.main_menu{margin: 0; gap: 0 41px; flex: 1; width: fit-content; justify-content: flex-end;}
     ul.main_menu li::before{display: none;}

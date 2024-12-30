@@ -1,6 +1,7 @@
 'use strict';
 
 import { jqueryselectBox } from './lib/jquery.selectBox.js';
+// import { DrawSVGPluginme } from './lib/DrawSVGPlugin.min.js';
 
 import { menu } from './modules/menu';
 import { search } from './modules/search';
@@ -9,6 +10,9 @@ import { slick } from './modules/customSlick';
 import { share } from './modules/share';
 import { selectBox } from './modules/selectBox';
 import { magnificPopup } from './modules/magnificPopup';
+import { gsapanim } from './modules/gsap.js';
+import { gsapscroll } from './modules/gsapscroll.js';
+import { animations } from './modules/animations.js';
 
 (function () {
   menu.init();
@@ -19,4 +23,7 @@ import { magnificPopup } from './modules/magnificPopup';
   jqueryselectBox.init();
   selectBox.init();
   magnificPopup.init();
+  gsapanim.init();
+  gsapscroll.init();
+  animations.init();
 })();
