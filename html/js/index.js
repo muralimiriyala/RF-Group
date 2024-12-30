@@ -12,7 +12,7 @@ import { selectBox } from './modules/selectBox';
 import { magnificPopup } from './modules/magnificPopup';
 import { gsapanim } from './modules/gsap.js';
 import { gsapscroll } from './modules/gsapscroll.js';
-import { animations } from './modules/animations.js';
+// import { animations } from './modules/animations.js';
 
 (function () {
   menu.init();
@@ -25,5 +25,5 @@ import { animations } from './modules/animations.js';
   magnificPopup.init();
   gsapanim.init();
   gsapscroll.init();
-  animations.init();
+  // animations.init();
 })();
