@@ -3,6 +3,7 @@
 /*-- From common elements css --*/
 @import './elements/_fonts.css';
 @import './elements/_color.css';
+@import './elements/_animations.css';
 @import './elements/_reset.css';
 @import './elements/_header.css';
 @import './elements/_search.css';
