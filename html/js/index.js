@@ -9,6 +9,7 @@ import { slick } from './modules/customSlick';
 import { share } from './modules/share';
 import { selectBox } from './modules/selectBox';
 import { magnificPopup } from './modules/magnificPopup';
+import { gsapanim } from './modules/gsapanimation.js';
 
 (function () {
   menu.init();
@@ -19,4 +20,5 @@ import { magnificPopup } from './modules/magnificPopup';
   jqueryselectBox.init();
   selectBox.init();
   magnificPopup.init();
+  gsapanim.init();
 })();
