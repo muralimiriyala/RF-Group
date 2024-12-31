@@ -2,29 +2,34 @@
 .customer-support-main{padding: 80px 0; gap:0 78px;}
 .customer-support-list{font-size: 16px; font-weight: 400; line-height: 150%; color: var(--Text-Gray)}
 .customer-support-list h2{font-size: 32px; font-weight: 600;}
-.customer-support-icon img{width: 48px; height: 48px; object-fit: contain; margin-bottom: 16px;}
+.customer-support-icon{max-width: 48px; height: auto; margin-bottom: 16px;}
+.customer-support-icon svg, .customer-support-icon img{object-fit: contain; }
 
 .customer-support-list-3 { flex: 0 0 calc(33.333% - 52px); }
 
 
 
-.customer-links{margin: 0; color: var(--Black);}
-.customer-links > li{ line-height: 100%; margin-bottom: 16px;}
-.customer-links > li a{ font-weight: 700; font-size: 18px; gap: 12px;}
-.customer-links > li i{color: var(--Blue); font-size: 20px; font-weight: 400; width: 20px; text-align: center;}
-.customer-links > li::before{display: none;}
-.customer-links > li:last-child{display: flex; gap: 12px;}
+ul.customer-links{margin: 0; color: var(--Black);}
+ul.customer-links > li{ line-height: 100%; margin-bottom: 16px;}
+ul.customer-links > li > a{ font-weight: 700; font-size: 18px; gap: 12px;}
+ul.customer-links > li i{color: var(--Blue); font-size: 20px; font-weight: 400; width: 20px; text-align: center;}
+ul.customer-links > li::before{display: none;}
+ul.customer-links > li:last-child{display: flex; gap: 12px;}
 
+@media only screen  and (min-width: 1024px){
+
+}
+@media only screen and (max-width: 1023px) and (min-width: 730px){
+
+}
 @media only screen and (max-width: 729px) and (min-width: 200px){
 
+    .customer-support-main{display: block;}
     .customer-support-list{margin-bottom: 48px;}
 
-    .customer-support-main{display: block;}
-    .customer-links{display: flex; gap: 12px}
-    .customer-links li {flex: 0 0 48%; border: 1px solid var(--Blue);}
-    .customer-links > li a{flex-direction: row-reverse; color: var(--Black); justify-content: space-between; padding: 14px 12px;}
-    .customer-links > li a:hover{color: var(--Blue);}
-
-
+    ul.customer-links{display: flex; gap: 12px}
+    ul.customer-links > li {flex: 0 0 48%; border: 1px solid var(--Blue);}
+    ul.customer-links > li > a{flex-direction: row-reverse; color: var(--Black); justify-content: space-between; padding: 14px 12px;}
+    ul.customer-links > li > a:hover{color: var(--Blue);}
 }
     
