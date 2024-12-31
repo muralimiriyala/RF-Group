@@ -166,6 +166,11 @@ img.aligncenter{margin: 25px auto; clear: both;}
 .flex-col{flex-direction: column;}
 
 
+/*-- grid css starts here --*/
+.grid{display: grid;}
+
+
+
 /*-- custom css starts here --*/
 body{margin: 0; font-size: 1.125rem; line-height: 1.688rem; font-weight: 400; font-family: var(--body-font); position: relative; color: var(--Black); background-color: var(--Eggshell); overflow-x: hidden;}
 .d-block{display: block;}
