@@ -17,6 +17,7 @@
 /*-- From common section css --*/
 @import url('./sections/_cta.css');
 @import url('./sections/_contact-section.css');
+@import url('./sections/_customer-support-section.css');
 
 /*-- From 3rd party css's --*/
 @import './lib/slick.css';

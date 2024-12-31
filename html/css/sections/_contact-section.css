@@ -3,10 +3,16 @@
 .contact-left span.optional-text{margin-bottom: 16px;}
 .contact-left h1{font-size: 40px; font-weight: 600; line-height: 125%; letter-spacing: -0.8px;}
 .contact-left hr{width: 64px; height: 2px; background-color: var(--Blue); margin: 0 0 16px;}
-.contact-left p{font-weight: 400; line-height: 150%; color: var(--Text-Gray);}
+.contact-left p{font-weight: 400; line-height: 150%; color: var(--Text-Gray); font-size: 16px;}
+
 
 .contact-links{margin: 0; color: var(--black);}
 .contact-links > li{ line-height: 100%;}
 .contact-links > li:has(a) a{ font-weight: 700; font-size: 18px; gap: 12px;}
-.contact-links > li i{color: var(--Blue); font-size: 20px; font-weight: 400;}
-/* .contact-links > li a i{ font-size: 20px; font-weight: 400;} */
+.contact-links > li i{color: var(--Blue); font-size: 20px; font-weight: 400; width: 20px; text-align: center;}
+.contact-links > li::before{display: none;}
+.contact-links > li:last-child{display: flex; gap: 12px;}
+
+.contact-address span{font-size: 14px; line-height: 125%; margin-bottom: 5px; display: block;}
+
+
