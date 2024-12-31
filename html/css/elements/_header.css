@@ -44,7 +44,9 @@ header.scrolly-header{transform: translateY(-100%);}
     ul.top-nav li{margin: 0; text-transform: uppercase;}
     ul.top-nav li::before{display: none;}
     ul.top-nav li a{align-items: center; display: flex; gap: 6px; font-size: 12px; line-height: 100%; letter-spacing: 0.24px; font-weight: 500; color: var(--Black-75);}
-   
+    ul.top-nav li a:hover{color: var(--Blue);}
+    ul.lang{margin: 0; position: absolute;}
+
     nav.navigation{padding-right: 50px; width: fit-content; margin-left: auto;}
     ul.main_menu{margin: 0; gap: 0 25px; flex: 1; justify-content: flex-end;}
     ul.main_menu li::before{display: none;}
@@ -186,6 +188,7 @@ header.scrolly-header{transform: translateY(-100%);}
     header.gray-header:not(.sticky-header) span.black-logo{display: block;}
     header.sticky-header span.black-logo{display: none;}
     header.gray-header:not(.sticky-header) ul.main_menu > li > a{ color: var(--Black); }
+    header.gray-header:not(.sticky-header) ul.main_menu > li > a:hover{color: var(--Blue);}
     header.gray-header ul.main_menu > li > a{padding: 16px 0;}
 
     .site-black-top{padding-top: 72px;}
