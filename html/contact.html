@@ -30,34 +30,44 @@
     <link rel="stylesheet" href="./style.bundle.css?v=619078" media="all">
 </head>
 <body>
-<header class="site-header gray-header">
-    <div class="container lg">
-        <div class="header flex flex-vcenter">
-            <div class="logo">
-                <a href="index.html">
-                    <img width="206" height="56" src="images/logo.svg" alt="logo">
-                </a>
+    <header class="site-header gray-header">
+        <div class="container lg">
+            <div class="header flex flex-vcenter">
+                <div class="logo">
+                    <a href="index.html">
+                        <img width="206" height="56" src="images/logo.svg" alt="logo">
+                    </a>
+                </div>
+                <div role="button" aria-label="Open menu" class="humburger-btn absolute radius-12">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="header_right relative">
+                    <ul class="top-nav flex flex-end">
+                        <li><a href=""><i class="fa-regular fa-calendar"></i>Appointment</a></li>
+                        <li><a href=""><i class="fa-regular fa-phone"></i>Callback</a></li>
+                        <li><a href=""><i class="fa-regular fa-user"></i>Login</a></li>
+                        <li><a href="">BHS</a></li>
+                    </ul>
+                    <nav role="navigation" class="navigation flex relative">
+                      <ul class="main_menu flex">
+                          <li><a href="#">Individuals</a></li>
+                          <li><a href="#">Businesses</a></li>
+                          <li><a href="#">Advice</a></li>
+                          <li><a href="#">About</a></li>
+                          <li><a href="#">News</a></li>
+                          <li><a href="#">Contact</a></li>
+                      </ul>
+                      <form action="" class="srch-form flex">
+                          <input type="text" placeholder="Search here">
+                          <button class="btn-srch" type="submit">Search<i class="fa-regular fa-magnifying-glass"></i></button>
+                      </form>
+                    </div>
+                </div>
             </div>
-            <div role="button" aria-label="Open menu" class="humburger-btn absolute radius-12">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <ul class="main_menu flex">
-                <li><a href="#">Individuals</a></li>
-                <li><a href="#">Businesses</a></li>
-                <li><a href="#">Advice</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-            <form action="" class="srch-form">
-                <input type="text" placeholder="Search here">
-                <button class="btn-srch" type="submit">Search<i class="fa-regular fa-magnifying-glass"></i></button>
-            </form>
         </div>
-    </div>
-</header>
+    </header>
 <main class="site-main-cover">
   <section class="contact-section">
     <div class="container">
@@ -71,9 +81,12 @@
                     <li><a class="flex flex-vcenter" href=""><i class="fa-regular fa-phone-volume"></i>(242) 603-6000</a></li>
                     <li><a class="flex flex-vcenter" href=""><i class="fa-regular fa-fax"></i>(242) 603-XXXX</a></li>
                     <li><a class="flex flex-vcenter" href=""><i class="fa-regular fa-at"></i>info@rfgroup.com</a></li>
-                    <li><i class="fa-regular fa-location-dot"></i>RF BANK & TRUST — BAHAMAS 
-                       <p> RF House <br>East Hill Stree <br>Nassau, The Bahamas</p>
-                        </li>
+                    <li><i class="fa-regular fa-location-dot"></i>
+                        <div class="contact-address">
+                            <span>RF BANK & TRUST — BAHAMAS </span>
+                            <p> RF House <br>East Hill Stree <br>Nassau, The Bahamas</p>
+                       </div>
+                    </li>
                 </ul>
             </div>
             <div class="contact-right">
@@ -85,15 +98,60 @@
     </div>
   </section>
 
+  <div class="divider">
+    <div class="container">
+        <hr class="divider-line">
+    </div>
+  </div>
+
   <section class="customer-support-section">
     <div class="container">
-        <div class="customer-support-main flex">
+        <div class="customer-support-main grid">
             <div class="customer-support-list">
                 <div class="customer-support-icon flex">
-                    
+                    <figure class="object-fit" role="none">
+                        <img src="images/chat-icon.svg" alt="chat-icon">
+                    </figure>  
 
                 </div>
+                <h2 class="h4">General Inquiries</h2>
+                <p>Link mask editor object arrow line rotate text stroke. Auto text polygon shadow follower edit link invite figma. Flatten variant italic effect.</p>
+                <ul class="contact-links">
+                    <li><a class="flex flex-vcenter" href=""><i class="fa-regular fa-phone-volume"></i>(242) 603-6000</a></li>
+                    <li><a class="flex flex-vcenter" href=""><i class="fa-regular fa-at"></i>info@rfgroup.com</a></li>
+                </ul>
 
+             </div>
+
+             <div class="customer-support-list">
+                <div class="customer-support-icon flex">
+                    <figure class="object-fit" role="none">
+                        <img src="images/customer-support-icon.svg" alt="carrers-icon">
+                    </figure>
+
+                </div>
+                <h2 class="h4">Customer Service</h2>
+                <p>Link mask editor object arrow line rotate text stroke. Auto text polygon shadow follower edit link invite figma. Flatten variant italic effect.</p>
+                <ul class="contact-links">
+                    <li><a class="flex flex-vcenter" href=""><i class="fa-regular fa-phone-volume"></i>(242) 603-6000</a></li>
+                    <li><a class="flex flex-vcenter" href=""><i class="fa-regular fa-at"></i>info@rfgroup.com</a></li>
+                </ul>
+
+             </div>
+
+             <div class="customer-support-list">
+                <div class="customer-support-icon flex">
+                    <figure class="object-fit" role="none">
+                        <img src="images/careers-icon.svg" alt="carrers-icon">
+                    </figure>
+
+                </div>
+                <h2 class="h4">Careers</h2>
+                <p>Link mask editor object arrow line rotate text stroke. Auto text polygon shadow follower edit link invite figma. Flatten variant italic effect.</p>
+                <ul class="contact-links">
+                    <li><a class="flex flex-vcenter" href=""><i class="fa-regular fa-phone-volume"></i>(242) 603-6000</a></li>
+                    <li><a class="flex flex-vcenter" href=""><i class="fa-regular fa-at"></i>info@rfgroup.com</a></li>
+                </ul>
 
              </div>
 
