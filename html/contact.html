@@ -30,34 +30,44 @@
     <link rel="stylesheet" href="./style.bundle.css?v=619078" media="all">
 </head>
 <body>
-<header class="site-header gray-header">
-    <div class="container lg">
-        <div class="header flex flex-vcenter">
-            <div class="logo">
-                <a href="index.html">
-                    <img width="206" height="56" src="images/logo.svg" alt="logo">
-                </a>
+    <header class="site-header gray-header">
+        <div class="container lg">
+            <div class="header flex flex-vcenter">
+                <div class="logo">
+                    <a href="index.html">
+                        <img width="206" height="56" src="images/logo.svg" alt="logo">
+                    </a>
+                </div>
+                <div role="button" aria-label="Open menu" class="humburger-btn absolute radius-12">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="header_right relative">
+                    <ul class="top-nav flex flex-end">
+                        <li><a href=""><i class="fa-regular fa-calendar"></i>Appointment</a></li>
+                        <li><a href=""><i class="fa-regular fa-phone"></i>Callback</a></li>
+                        <li><a href=""><i class="fa-regular fa-user"></i>Login</a></li>
+                        <li><a href="">BHS</a></li>
+                    </ul>
+                    <nav role="navigation" class="navigation flex relative">
+                      <ul class="main_menu flex">
+                          <li><a href="#">Individuals</a></li>
+                          <li><a href="#">Businesses</a></li>
+                          <li><a href="#">Advice</a></li>
+                          <li><a href="#">About</a></li>
+                          <li><a href="#">News</a></li>
+                          <li><a href="#">Contact</a></li>
+                      </ul>
+                      <form action="" class="srch-form flex">
+                          <input type="text" placeholder="Search here">
+                          <button class="btn-srch" type="submit">Search<i class="fa-regular fa-magnifying-glass"></i></button>
+                      </form>
+                    </div>
+                </div>
             </div>
-            <div role="button" aria-label="Open menu" class="humburger-btn absolute radius-12">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <ul class="main_menu flex">
-                <li><a href="#">Individuals</a></li>
-                <li><a href="#">Businesses</a></li>
-                <li><a href="#">Advice</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-            <form action="" class="srch-form">
-                <input type="text" placeholder="Search here">
-                <button class="btn-srch" type="submit">Search<i class="fa-regular fa-magnifying-glass"></i></button>
-            </form>
         </div>
-    </div>
-</header>
+    </header>
 <main class="site-main-cover">
   <section class="contact-section">
     <div class="container">
@@ -96,10 +106,12 @@
 
   <section class="customer-support-section">
     <div class="container">
-        <div class="customer-support-main flex">
+        <div class="customer-support-main grid">
             <div class="customer-support-list">
                 <div class="customer-support-icon flex">
-                    
+                    <figure class="object-fit" role="none">
+                        <img src="images/chat-icon.svg" alt="chat-icon">
+                    </figure>  
 
                 </div>
                 <h2 class="h4">General Inquiries</h2>
@@ -113,7 +125,9 @@
 
              <div class="customer-support-list">
                 <div class="customer-support-icon flex">
-                    
+                    <figure class="object-fit" role="none">
+                        <img src="images/customer-support-icon.svg" alt="carrers-icon">
+                    </figure>
 
                 </div>
                 <h2 class="h4">Customer Service</h2>
@@ -127,7 +141,9 @@
 
              <div class="customer-support-list">
                 <div class="customer-support-icon flex">
-                    
+                    <figure class="object-fit" role="none">
+                        <img src="images/careers-icon.svg" alt="carrers-icon">
+                    </figure>
 
                 </div>
                 <h2 class="h4">Careers</h2>
