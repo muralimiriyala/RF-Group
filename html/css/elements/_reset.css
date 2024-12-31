@@ -172,7 +172,7 @@ img.aligncenter{margin: 25px auto; clear: both;}
 
 
 /*-- custom css starts here --*/
-body{margin: 0; font-size: 1.125rem; line-height: 1.688rem; font-weight: 400; font-family: var(--body-font); position: relative; color: var(--Black); background-color: var(--Eggshell); overflow-x: hidden;}
+body{margin: 0; font-size: 18px; line-height: 150%; font-weight: 400; font-family: var(--body-font); position: relative; color: var(--Black); background-color: transparent; overflow-x: hidden;}
 .d-block{display: block;}
 span.optional-text.ls-07{letter-spacing: 0.7px;}
 span.optional-text{color: var(--Blue); display: block; font-size: 18px; font-weight: 700; line-height: 100%; letter-spacing: 0; margin-bottom: 20px; text-transform: capitalize;}
