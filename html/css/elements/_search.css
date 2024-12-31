@@ -1,6 +1,8 @@
 
 
-form.srch-form input{width: 0;}
-form.srch-form.open input{width: 100%;}
-button.btn-srch{font-size: 0; line-height: 0; padding: 0;}
-button.btn-srch i{font-size: 20px; color: var(--black);}
+form.srch-form{width: 24px; top: 0; right: 0;  position: absolute; z-index: 1800;}
+form.srch-form.open{width: 100%; transition: all 1s ease;}
+form.srch-form input{background-color: transparent;}
+form.srch-form.open input{background-color: var(--White);}
+button.btn-srch{font-size: 0; line-height: 0; padding: 0; top: 15px; right: 0; position: absolute;}
+button.btn-srch i{font-size: 24px; line-height: 24px; color: var(--Black);}

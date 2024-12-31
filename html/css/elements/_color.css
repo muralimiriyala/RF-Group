@@ -1,7 +1,8 @@
 :root{
-    --black: #000;
-    --black-5: rgb(0 0 0 / 5%);
-    --black-10: rgb(0 0 0 / 10%);
+    --Black: #000;
+    --Black-5: rgb(0 0 0 / 5%);
+    --Black-10: rgb(0 0 0 / 10%);
+    --Black-75: rgb(0 0 0 / 75%);
     --White-50: rgb(255 255 255 / 50%);
     --White-60: rgb(255 255 255 / 60%);
     --White-90: rgb(255 255 255 / 90%);
@@ -11,4 +12,5 @@
     --Background-Gray: #F2F2F2;
     --Blue: #2772DB;
     --Text-Gray: #666;
+    
 }

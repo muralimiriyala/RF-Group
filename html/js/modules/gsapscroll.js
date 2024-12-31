@@ -5,6 +5,7 @@ gsap.registerPlugin(ScrollTrigger);
 export const gsapscroll = {
   header: document.querySelector('header'),
   uiele: document.querySelectorAll('[data-animate]'),
+
   init() {
     const __ = this;
     const $height = Math.ceil(__.header.getBoundingClientRect().height);
@@ -18,18 +19,17 @@ export const gsapscroll = {
         scrollTrigger: {
           trigger: ele,
           start: `${$top}% bottom`,
-          end: `bottom 22%`,
+          end: `bottom ${$bottom}%`,
           scrub: true,
-          onEnter: function () {
-            ele.classList.add('visible');
-            timeline.play();
+          toggleClass: 'visible',
+          onEnter: () => {
+            timeline?.play();
           },
-          onEnterBack: function () {
-            ele.classList.add('visible');
-            timeline.play();
+          onEnterBack: () => {
+            timeline?.play();
           },
-          onLeave: function () {
-            timeline.pause();
+          onLeave: () => {
+            timeline?.pause();
           },
         },
       });

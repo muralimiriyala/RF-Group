@@ -8,16 +8,16 @@ a{color: var(--Accent);text-decoration: none; transition: var(--b-transition);}
 a:focus {outline: none;}
 a:hover, a:active {outline: 0;}
 a:hover{color: var(--Sky-Blue);}
-p a{background-color: rgba(164,39,143,.15); color: var(--Raisin-Black); border-radius: 4px; font-weight: 700; padding: 0 6px;}
+p a{background-color: rgba(164,39,143,.15); color: var(--Black); border-radius: 4px; font-weight: 700; padding: 0 6px;}
 p a:hover{color: var(--Accent);}
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{clear: both; margin: 0; color: var(--Raisin-Black); font-weight: 800; font-family: var(--heading-font); text-transform: none;}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{clear: both; margin: 0; color: var(--Black); font-weight: 800; font-family: var(--heading-font); text-transform: none;}
 .h1, h1{font-size: 3rem; line-height: 3.75rem; margin-bottom: 25px; letter-spacing: -0.48px;}
 .h2, h2{font-size: 3rem; line-height: 3rem; margin-bottom: 20px;}
 .h3, h3{font-size: 2.5rem; line-height: 3.125rem; margin-bottom: 19px; letter-spacing: -0.4px;}
 .h4, h4{font-size: 2rem; line-height: 2.5rem; margin-bottom: 20px; letter-spacing: -0.32px;}
 .h5, h5{font-size: 1.5rem; line-height: 1.875rem; margin-bottom: 19px; letter-spacing: -0.24px;}
 .h6, h6{font-size: 1.25rem; line-height: 1.563rem; margin-bottom: 18px; letter-spacing: -0.2px;}
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{color: var(--Raisin-Black);}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{color: var(--Black);}
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover{color: var(--Accent);}
 address{font-size: 1.125rem; line-height: 1.5rem; margin-bottom: 24px;}
 abbr[title] {border-bottom: 1px dotted var(--Navy); cursor: help;}
@@ -40,16 +40,16 @@ sup {bottom: 1ex;}
 sub {top: 0;}
 dl{margin-bottom: 24px; font-size: 1rem; line-height: 1.75rem; font-weight: 600;}
 dl:last-child{margin-bottom: 0;}
-dl dt::before{width: 29px; height: 1px; margin-right: 11px; background-color: var(--Raisin-Black); content: ""; display: inline-block; vertical-align: middle;}
+dl dt::before{width: 29px; height: 1px; margin-right: 11px; background-color: var(--Black); content: ""; display: inline-block; vertical-align: middle;}
 blockquote dl dt::before{background-color: var(--White);}
 dd {margin-bottom: 24px;}
 ul {list-style: none; margin: 0 0 26px 26px;}
 ul > li {counter-increment: li; position: relative; margin-bottom: 8px;}
-ul > li:before{top: 10px; left: -16px; width: 5px; height: 5px; border-radius: 50%; opacity: 1; background-color: var(--Raisin-Black); content: ""; position: absolute;} 
+ul > li:before{top: 10px; left: -16px; width: 5px; height: 5px; border-radius: 50%; opacity: 1; background-color: var(--Black); content: ""; position: absolute;} 
 li > ul {margin: 25px 0 26px 25px;}
 ol {counter-reset: section; list-style: none; margin: 0 0 28px 28px;}
 ol > li {counter-increment: li; position: relative; margin-bottom: 8px;}
-ol > li:before{color: var(--Raisin-Black); counter-increment: section; content: counter(section, decimal) "."; top: 0px; left: -22px; position: absolute; font-size: 1.125rem; line-height: 1.688rem;}
+ol > li:before{color: var(--Black); counter-increment: section; content: counter(section, decimal) "."; top: 0px; left: -22px; position: absolute; font-size: 1.125rem; line-height: 1.688rem;}
 li > ol {margin: 25px 0 26px 25px;}
 ol[style='list-style-type: upper-roman;']{margin-left: 22px;}
 ol[style='list-style-type: upper-roman;'] > li::before{display: none;}
@@ -74,12 +74,12 @@ td:first-child{border-radius: 0 0 0 8px}
 td:last-child{border-radius: 0 0 8px 0;}
 
 caption, td, th{text-align: left;}
-del {color: var(--Raisin-Black);}
+del {color: var(--Black);}
 hr{ margin: 0 0 16px; height: 2px; width: 64px; display: block; border: none; border-radius: 2px; background: var(--Blue);}
 hr.light-blue-line{margin: 0; flex: 1; width: 100%; height: 1px; background-color: var(--Light-Blue);}
 hr.sm-line{background-color: var(--Blue); height: 2px; border-radius: 1px; margin: 32px 0;}
-::selection {background-color: var(--Raisin-Black); color: var(--White);}
-::-moz-selection {background-color: var(--Raisin-Black); color: var(--White);}
+::selection {background-color: var(--Black); color: var(--White);}
+::-moz-selection {background-color: var(--Black); color: var(--White);}
 
 
 
@@ -90,7 +90,7 @@ hr.sm-line{background-color: var(--Blue); height: 2px; border-radius: 1px; margi
 .button.btn-transparent{padding: 12px 13px 12px 12px; border-radius: 24px; border: 4px solid var(--Orange); background: transparent;}
 .button.btn-transparent:hover{background: var(--Orange); border-color: var(--Orange);}
 
-.button.btn-transparent-accent3{padding: 12px 13px 12px 12px; border-radius: 28px; border: 2px solid var(--Accent-3); background: transparent; color: var(--Raisin-Black);}
+.button.btn-transparent-accent3{padding: 12px 13px 12px 12px; border-radius: 28px; border: 2px solid var(--Accent-3); background: transparent; color: var(--Black);}
 .button.btn-transparent-accent3:hover{background: var(--Accent-3); border-color: var(--Accent-3); color: var(--White);}
 
 .button.btn-white{background: var(--White); color: var(--Accent);}
@@ -117,7 +117,7 @@ a.text-link{gap: 8px; align-items: center; font-size: 1.125rem; line-height: 1.4
 a.text-link em{color: var(--Accent); font-size: 1rem; left: 0; line-height: 1.5rem; position: relative; top: 0; transition: all .5s ease;}
 a.text-link.white{color: var(--White);}
 a.text-link.white:hover em{color: var(--White);}
-a.text-link.black{color: var(--Raisin-Black);}
+a.text-link.black{color: var(--Black);}
 a.text-link.black:hover{color: var(--Accent);}
 a.text-link.blue{color: var(--Blue);}
 a.text-link:hover em{left: 8px;}
@@ -167,7 +167,7 @@ img.aligncenter{margin: 25px auto; clear: both;}
 
 
 /*-- custom css starts here --*/
-body{margin: 0; font-size: 1.125rem; line-height: 1.688rem; font-weight: 400; font-family: var(--body-font); position: relative; color: var(--Raisin-Black); background-color: var(--Eggshell); overflow-x: hidden;}
+body{margin: 0; font-size: 1.125rem; line-height: 1.688rem; font-weight: 400; font-family: var(--body-font); position: relative; color: var(--Black); background-color: var(--Eggshell); overflow-x: hidden;}
 .d-block{display: block;}
 span.optional-text.ls-07{letter-spacing: 0.7px;}
 span.optional-text{color: var(--Blue); display: block; font-size: 18px; font-weight: 700; line-height: 100%; letter-spacing: 0; margin-bottom: 20px; text-transform: capitalize;}
@@ -286,7 +286,7 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 .inverted ul > li > a{color: var(--White);}
 .inverted ul > li > a:hover{color: var(--Accent);}
 
-.dark-text{color: var(--Raisin-Black);}
+.dark-text{color: var(--Black);}
 .dark-text h1, .dark-text h2, .dark-text h3, .dark-text h4, .dark-text h5, .dark-text h6{color: var(--Navy);}
 .dark-text .h1, .dark-text .h2, .dark-text .h3, .dark-text .h4, .dark-text .h5, .dark-text .h6{color: var(--Navy);}
 .dark-text h1 a, .dark-text h2 a, .dark-text h3 a, .dark-text h4 a{color: var(--Navy);}
@@ -363,7 +363,7 @@ ul.slick-dots:not(.pagination) li button{display: none; padding: 0;}
 
 .demo-accent3{background: var(--Translucent-2);}
 .demo-accent3 .button{background: linear-gradient(180deg, rgba(18, 39, 80, 0.00) 0%, rgba(18, 39, 80, 0.50) 60%), var(--Accent-3); color: var(--White); line-height: 1.125rem;}
-.demo-accent3 .book-demo-call{color: var(--Raisin-Black); font-size: 1.125rem;}
+.demo-accent3 .book-demo-call{color: var(--Black); font-size: 1.125rem;}
 .demo-accent3 .book-demo-call svg path{fill: var(--Accent-3);}
 .demo-accent3 .book-demo-call:hover{color: var(--Accent-3);}
 .demo-accent3 .book-demo-call:hover svg path{fill: var(--Accent-3);}
@@ -445,7 +445,7 @@ ul.slick-dots:not(.pagination) li button{display: none; padding: 0;}
     .book-demo-btn{padding: 4px; width: 100%; margin: 0 auto;}
     .book-demo-call{flex: 1; justify-content: center; padding-right: 13px;}
 
-    .slick-dots li > a{font-size: 1.5rem; line-height: normal; font-weight: 800; color: var(--Raisin-Black);}
+    .slick-dots li > a{font-size: 1.5rem; line-height: normal; font-weight: 800; color: var(--Black);}
     .culture-slash, .benefit-slash, .ftr-slash, .training-slash, .accreditation-slash{margin: 0 4px; color: var(--Accent-2); font-weight: 300;}
 
 }

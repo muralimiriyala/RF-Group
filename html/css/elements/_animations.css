@@ -5,12 +5,10 @@
 /* ----------------------------------------------------------------------------- */
 
 
-/* [data-animate]{visibility: hidden; opacity: 0; transition: all 0.5s ease;}
-[data-animate].visible{visibility: visible; opacity: 1; } */
 
-
-*[data-animate] {
+*[data-animate]:not([data-animate='ui ui-icon']){
     visibility: hidden;
+    transition: all 1s ease;
     -webkit-animation-delay: 0.15s;
             animation-delay: 0.15s;
     -webkit-animation-duration: 0.75s;
@@ -20,7 +18,7 @@
     -webkit-animation-timing-function: ease-out;
             animation-timing-function: ease-out;
   }
-  *[data-animate].visible {
+  *[data-animate]:not([data-animate='ui ui-icon']).visible {
     visibility: visible;
   }
   

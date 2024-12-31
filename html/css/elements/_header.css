@@ -1,12 +1,12 @@
 
 
 header.site-header{min-height: 104px; top: 0; left: 0; width: 100%; height: auto; transition: all 0.5s ease;  position: fixed; z-index: 800; }
-header.sticky-header, header.black-header{z-index: 850; background-color: var(--Raisin-Black);}
+header.sticky-header, header.black-header{z-index: 850; background-color: var(--Black);}
 
 header.gray-header:not(.sticky-header)::before{width: 100%; height: 100%; top: 0; left: 0; position: absolute; content: ""; display: block; background-color: var(--Background-Gray); z-index: -1;}
  
 .logo a{width: 100%; height: 100%; display: block;} 
-.logo a img{width: 100%; object-fit: cover;}
+.logo a img{width: 100%; object-fit: contain;}
 
 .header_btns .button.gray{color: var(--Navy);}
 .header_btns .button.gray:hover{color: var(--White);}
@@ -35,17 +35,18 @@ header.scrolly-header{transform: translateY(-100%);}
     ul.main_menu > li.nav-features > ul > li.hide-nav-desktop{display: none;}
     
     .header{ gap: 16px; position: relative;}
-    .logo{flex: 0 0 264px;}
+    .logo{flex: 0 0 206px;}
     .humburger-btn{display: none;}
 
-    .header_right{gap: 0 40px; flex: 1; justify-content: flex-end;}
+    .header_right{gap: 0 40px;  flex: 1; justify-content: flex-end;}
 
-    ul.top-nav{margin: 0; width: fit-content;}
+    ul.top-nav{margin: 18px 0 20px; gap: 0 25px; justify-content: flex-end;}
     ul.top-nav li{margin: 0; text-transform: uppercase;}
     ul.top-nav li::before{display: none;}
-    ul.top-nav li a{font-size: 12px; line-height: 100%; letter-spacing: 0.24px;}
+    ul.top-nav li a{align-items: center; display: flex; gap: 6px; font-size: 12px; line-height: 100%; letter-spacing: 0.24px; font-weight: 500; color: var(--Black-75);}
    
-    ul.main_menu{margin: 0; gap: 0 41px; flex: 1; width: fit-content; justify-content: flex-end;}
+    nav.navigation{padding-right: 50px; width: fit-content; margin-left: auto;}
+    ul.main_menu{margin: 0; gap: 0 25px; flex: 1; justify-content: flex-end;}
     ul.main_menu li::before{display: none;}
     ul.main_menu > li{margin: 0;}
     ul.main_menu > li > a{padding: 28px 0 28px; display: block; color: var(--White); font-size: 18px; font-weight: 500; line-height: 122%; position: relative; z-index: 821;}
@@ -61,10 +62,10 @@ header.scrolly-header{transform: translateY(-100%);}
 
     ul.main_menu > li > ul > li:not(.nav-gradient-bar).hide-nav-desktop{display: none;}
     ul.main_menu > li > ul > li:not(.nav-gradient-bar).current_page_item > a{color: var(--Accent);}
-    ul.main_menu > li > ul > li:not(.nav-gradient-bar) > a{font-size: 1rem; line-height: 1.375rem; font-weight: 800; display: block; color: var(--Raisin-Black);}
+    ul.main_menu > li > ul > li:not(.nav-gradient-bar) > a{font-size: 1rem; line-height: 1.375rem; font-weight: 800; display: block; color: var(--Black);}
     ul.main_menu > li > ul > li:not(.nav-gradient-bar) > a:hover{color: var(--Accent);}
     ul.main_menu > li > ul > li > ul{margin: 22px 0 25px 21px;}
-    ul.main_menu > li > ul > li > ul > li > a{font-size: 1rem; line-height: 1.375rem; font-weight: 700; display: block; color: var(--Raisin-Black);}
+    ul.main_menu > li > ul > li > ul > li > a{font-size: 1rem; line-height: 1.375rem; font-weight: 700; display: block; color: var(--Black);}
     ul.main_menu > li > ul > li > ul > li > a:hover{color: var(--Accent);}
     
 
@@ -132,7 +133,7 @@ header.scrolly-header{transform: translateY(-100%);}
     flex: 0 0 256px;
     font-size: 1rem;
     line-height: 1.5;
-    color: var(--Raisin-Black);
+    color: var(--Black);
     }
     .nav-products-text > p{margin-bottom: 20px;}
     .nav-products-order span{
@@ -151,7 +152,7 @@ header.scrolly-header{transform: translateY(-100%);}
         left: 0;
         position: absolute;
     }
-    .nav-products-order span a{color: var(--Raisin-Black);}
+    .nav-products-order span a{color: var(--Black);}
     .nav-products-order span a:hover{color: var(--Accent);}
     ul.main_menu > li.nav-products > ul > li.nav-sub-products > ul > li > a img{display: none;}
     ul.main_menu > li.nav-products > ul > li.nav-sub-products > ul > li > a span{display: none;}
@@ -174,7 +175,7 @@ header.scrolly-header{transform: translateY(-100%);}
     ul.main_menu > li.nav-features > ul > li:not(.nav-gradient-bar ) > a{ padding: 13px 10px 13px 40px; position: relative; color: var(--Gray-2); font-size: 0.875rem; font-weight: 400; line-height: 150%; border-radius: 20px; border: 4px solid transparent; }
     ul.main_menu > li.nav-features > ul > li:not(.nav-gradient-bar ).current_page_item > a, ul.main_menu > li.nav-features > ul > li:not(.nav-gradient-bar ) > a:hover{ background-color: transparent; border-color: var(--Translucent); }
     ul.main_menu > li.nav-features > ul > li:not(.nav-gradient-bar ) > a > img{width: 23px; top: 12px; left: 10px; position: absolute;}
-    ul.main_menu > li.nav-features > ul > li:not(.nav-gradient-bar) > a span{transition: var(--b-transition); padding-bottom: 5px; color: var(--Raisin-Black); font-size: 1rem; font-weight: 800; line-height: 125%; letter-spacing: -0.16px;  display: block;}
+    ul.main_menu > li.nav-features > ul > li:not(.nav-gradient-bar) > a span{transition: var(--b-transition); padding-bottom: 5px; color: var(--Black); font-size: 1rem; font-weight: 800; line-height: 125%; letter-spacing: -0.16px;  display: block;}
     ul.main_menu > li.nav-features > ul > li:not(.nav-gradient-bar) > a:hover span{color: var(--Accent);}
     li.nav-gradient-bar{ font-weight: 800; text-align: center; border-radius: 0px 0px 24px 24px; background: linear-gradient(180deg, rgba(18, 39, 80, 0.00) 0%, rgba(18, 39, 80, 0.50) 100%), var(--Accent); color: var(--White);}
     li.nav-gradient-bar > a{padding: 20px; display: block; color: var(--White);}
@@ -184,8 +185,8 @@ header.scrolly-header{transform: translateY(-100%);}
     header.gray-header:not(.sticky-header) span.white-logo{display: none;}
     header.gray-header:not(.sticky-header) span.black-logo{display: block;}
     header.sticky-header span.black-logo{display: none;}
-    header.gray-header:not(.sticky-header) ul.main_menu > li > a{ color: var(--Raisin-Black); }
-    header.gray-header ul.main_menu > li > a{padding: 20px 0;}
+    header.gray-header:not(.sticky-header) ul.main_menu > li > a{ color: var(--Black); }
+    header.gray-header ul.main_menu > li > a{padding: 16px 0;}
 
     .site-black-top{padding-top: 72px;}
     .site-white-top{padding-top: 56px;}
@@ -242,16 +243,16 @@ header.scrolly-header{transform: translateY(-100%);}
     ul.main_menu li::before{display: none;}
     ul.main_menu > li:first-child > a{padding-top: 26px;}
     ul.main_menu > li:last-child > a{padding-bottom: 25px;}
-    ul.main_menu > li > a{padding: 14px 48px 14px 20px; border-bottom: 1px solid transparent; display: block; color: var(--Raisin-Black); font-family: var(--base-font); font-size: 1.25rem; font-weight: 700; line-height: 1.25rem; position: relative;}
+    ul.main_menu > li > a{padding: 14px 48px 14px 20px; border-bottom: 1px solid transparent; display: block; color: var(--Blue); font-family: var(--base-font); font-size: 1.25rem; font-weight: 700; line-height: 1.25rem; position: relative;}
     ul.main_menu > li.current_page_ancestor > a, ul.main_menu > li > a:hover, ul.main_menu > li.current-menu-item > a{color: var(--Accent);}
-    ul.main_menu > li > a.active{ padding: 29px 48px 24px; border-bottom-color: var(--Translucent); background-color: var(--Eggshell); color: var(--Raisin-Black); font-size: 0.875rem; font-weight: 800; line-height: 100%; letter-spacing: 1.12px; text-transform: uppercase; text-align: center;}
+    ul.main_menu > li > a.active{ padding: 29px 48px 24px; border-bottom-color: var(--Translucent); background-color: var(--Eggshell); color: var(--Black); font-size: 0.875rem; font-weight: 800; line-height: 100%; letter-spacing: 1.12px; text-transform: uppercase; text-align: center;}
     ul.main_menu > li.menu-item-has-children > a::after{ width: 22px; height: 14px; background-repeat: no-repeat; background-size: contain; top: 50%; transform: translateY(-50%); right: 21px; content: "";display: block; position: absolute; }
     ul.main_menu > li.menu-item-has-children > a.active::after{ transform: translateY(-50%) rotate(90deg); right: auto; left: 16px; }
     ul.main_menu > li > ul{max-height: 0; overflow: hidden; margin: 0; padding: 0 20px; transition: max-height 0.8s; border-radius: 0px 0px 24px 24px; background: var(--Eggshell); }
     ul.main_menu > li > ul > li:first-child{padding-top: 20px; margin-bottom: 0;}
     ul.main_menu > li > ul > li:not(.nav-gradient-bar){padding-bottom: 8px;}
     ul.main_menu > li > ul > li{margin: 0 0 12px;}
-    ul.main_menu > li > ul > li:not(.nav-gradient-bar) > a{color: var(--Raisin-Black); font-family: var(--base-font); font-size: 1rem; font-weight: 800; line-height: 1.5rem; display: block; position: relative;}
+    ul.main_menu > li > ul > li:not(.nav-gradient-bar) > a{color: var(--Black); font-family: var(--base-font); font-size: 1rem; font-weight: 800; line-height: 1.5rem; display: block; position: relative;}
     ul.main_menu > li > ul > li.current_page_item > a{color: var(--Accent);}
     ul.main_menu > li > ul > li.nav-gradient-bar.current_page_item > a{color: var(--White);}
     ul.main_menu > li > ul > li.nav-gradient-bar.current_page_item > a:hover{color: var(--White-90);}
@@ -261,7 +262,7 @@ header.scrolly-header{transform: translateY(-100%);}
     ul.main_menu > li > ul > li > ul{margin: 21px 0 0 13px; padding: 0 0 8px;}
     ul.main_menu > li > ul > li > ul > li{margin-bottom: 12px;}
     ul.main_menu > li > ul > li > ul > li:last-child{margin-bottom: 0;}
-    ul.main_menu > li > ul > li > ul > li > a{color: var(--Raisin-Black);
+    ul.main_menu > li > ul > li > ul > li > a{color: var(--Black);
         display: block;
         font-family: var(--base-font);
         font-size: 1rem;
@@ -277,21 +278,21 @@ header.scrolly-header{transform: translateY(-100%);}
     ul.main_menu > li.nav-products > ul > li.nav-sub-products > ul{ padding: 0; margin: 0; }
     ul.main_menu > li.nav-products > ul > li > ul{padding: 0; margin: 0;}
     ul.main_menu > li.nav-products > ul > li > ul > li{margin-bottom: 18px;}
-    ul.main_menu > li.nav-products > ul > li > ul > li > a{padding-left: 38px; color: var(--Raisin-Black); font-size: 1.25rem; font-weight: 800; line-height: 1.563rem; letter-spacing: -0.2px; }
+    ul.main_menu > li.nav-products > ul > li > ul > li > a{padding-left: 38px; color: var(--Black); font-size: 1.25rem; font-weight: 800; line-height: 1.563rem; letter-spacing: -0.2px; }
     ul.main_menu > li.nav-products > ul > li > ul > li > a:hover{color: var(--Accent);}
     ul.main_menu > li.nav-products > ul > li.nav-sub-products > ul > li > a{ color: var(--Accent); }
     ul.main_menu > li.nav-products > ul > li.nav-sub-products > ul > li.current_page_item > a, 
-    ul.main_menu > li.nav-products > ul > li.nav-sub-products > ul > li > a:hover{ color: var(--Raisin-Black); }
-    ul.main_menu > li.nav-products > ul > li.nav-sub-products:nth-child(2) > ul > li > a{color: var(--Raisin-Black);}
+    ul.main_menu > li.nav-products > ul > li.nav-sub-products > ul > li > a:hover{ color: var(--Black); }
+    ul.main_menu > li.nav-products > ul > li.nav-sub-products:nth-child(2) > ul > li > a{color: var(--Black);}
     ul.main_menu > li.nav-products > ul > li.nav-sub-products:nth-child(2) > ul > li.current_page_item > a, ul.main_menu > li.nav-products > ul > li.nav-sub-products:nth-child(2) > ul > li > a:hover{color: var(--Accent);}
     
 
     ul.main_menu > li.nav-products > ul > li > ul > li > a img{top: -1px; left: 0; width: 24px; height: auto; position: absolute;}
 
 
-    ul.main_menu > li.nav-features > ul > li:not(.nav-gradient-bar) > a{padding-left: 32px; position: relative; color: var(--Raisin-Black); font-size: 1rem; font-weight: 800; line-height: 150%;}
+    ul.main_menu > li.nav-features > ul > li:not(.nav-gradient-bar) > a{padding-left: 32px; position: relative; color: var(--Black); font-size: 1rem; font-weight: 800; line-height: 150%;}
     ul.main_menu > li.nav-features > ul > li:not(.nav-gradient-bar) > a > img{width: 23px; top: -1px; left: 0; position: absolute;}
-    ul.main_menu > li.nav-features > ul > li:not(.nav-gradient-bar) > a span{padding-bottom: 5px; color: var(--Raisin-Black); font-size: 1rem; font-weight: 800; line-height: 125%; letter-spacing: -0.16px;  display: block; transition: var(--b-transition);}
+    ul.main_menu > li.nav-features > ul > li:not(.nav-gradient-bar) > a span{padding-bottom: 5px; color: var(--Black); font-size: 1rem; font-weight: 800; line-height: 125%; letter-spacing: -0.16px;  display: block; transition: var(--b-transition);}
     ul.main_menu > li.nav-features > ul > li:not(.nav-gradient-bar) > a:hover span{color: var(--Accent);}
     ul.main_menu > li.nav-features > ul > li:not(.nav-gradient-bar) > a p{display: none;}
     ul.main_menu > li.nav-features > ul > li.nav-gradient-bar{margin-bottom: 20px;}
