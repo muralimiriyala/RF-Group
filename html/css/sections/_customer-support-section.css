@@ -11,7 +11,7 @@
 
 ul.customer-links{margin: 0; color: var(--Black);}
 ul.customer-links > li{ line-height: 100%; margin-bottom: 16px;}
-ul.customer-links > li > a{ font-weight: 700; font-size: 18px; gap: 12px;}
+ul.customer-links > li > a{width: fit-content; font-weight: 700; font-size: 18px; gap: 12px;}
 ul.customer-links > li i{color: var(--Blue); font-size: 20px; font-weight: 400; width: 20px; text-align: center;}
 ul.customer-links > li::before{display: none;}
 ul.customer-links > li:last-child{display: flex; gap: 12px;}
