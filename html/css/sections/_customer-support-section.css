@@ -26,6 +26,7 @@ ul.customer-links > li:last-child{display: flex; gap: 12px;}
 
 
 
+    
 }
 /* For Mobile upto 810 Resolution */
 @media only screen and (max-width: 809px) and (min-width: 200px){

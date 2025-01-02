@@ -458,9 +458,7 @@ ul.slick-dots:not(.pagination) li button{display: none; padding: 0;}
     caption, td, th{font-size: 0.813rem; line-height: 1rem;}
     td{padding: 13px 10px 11px;}
 }
-
 @media screen and (max-width: 374px) and (min-width: 200px){
     .book-demo-btn .button{font-size: 0.938rem;}
     .book-demo-call{padding-right: 0; }
 }
-
