@@ -4,6 +4,7 @@ import { jqueryselectBox } from './lib/jquery.selectBox.js';
 // import { DrawSVGPluginme } from './lib/DrawSVGPlugin.min.js';
 
 import { menu } from './modules/menu';
+import { modal } from './modules/modal.js';
 import { search } from './modules/search';
 import { iframe } from './modules/iframe.js';
 import { slick } from './modules/customSlick';
@@ -15,6 +16,7 @@ import { gsapscroll } from './modules/gsapscroll.js';
 
 (function () {
   menu.init();
+  modal.init();
   search.init();
   iframe.init();
   slick.init();

@@ -7,6 +7,7 @@
 @import './elements/_reset.css';
 @import './elements/_header.css';
 @import './elements/_footer.css';
+@import './elements/_modal.css';
 @import './elements/_search.css';
 @import './elements/_selectbox.css';
 @import './elements/_transitions.css';
