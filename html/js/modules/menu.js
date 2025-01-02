@@ -3,6 +3,8 @@ export const menu = {
   $nav: document.querySelector('.header_right'),
   $btn: document.querySelector('.humburger-btn'),
   $login: document.querySelector('.user-login'),
+  $tpages: [...document.querySelectorAll('body.page-template-about-bio')],
+  $site: document.querySelector('main.site-main-cover'),
   init() {
     const _ = this;
     _.$btn.addEventListener('click', (e) => {
@@ -13,8 +15,11 @@ export const menu = {
 
     _.$login.addEventListener('click', (e) => {
       const ___ = this;
-
-      console.log(___);
+    });
+    _.$tpages.forEach((ele) => {
+      const _ = this;
+      console.log(this);
+      _.$site.classList.add('transparent');
     });
   },
 };
