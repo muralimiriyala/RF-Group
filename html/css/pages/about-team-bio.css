@@ -1,4 +1,15 @@
 .about-bio-main{gap: 80px;}
 .about-bio-left{flex: 0 0 350px;}
-.about-bio-right{flex: 0 0 calc(100% - 430px)}
+.about-bio-right{flex: 0 0 calc(100% - 430px); background-color: var(--White); padding: 80px;}
 .about-bio-list{background-color: var(--White);}
+.about-bio-con{font-size: 18px; padding: 40px 28px 40px 40px; font-weight: 700; line-height: 100%;}
+.about-bio-img:after{position: absolute; background: var(--Blue); width: 100%; height: 12px; bottom: 0; left: 0; display: block; content:""; z-index: 1;}
+ul.bio-links{margin: 0 ;}
+ul.bio-links > li{margin-bottom: 20px;}
+ul.bio-links > li:last-child{margin-bottom: 0;}
+ul.bio-links > li:before{display: none;}
+ul.bio-links > li {gap: 0 12px; display: flex;}
+ul.bio-links > li:has(a) a{gap: 0 12px;}
+ul.bio-links > li i{font-size: 20px;  font-weight: 400; color: var(--Blue); width: 20px; text-align: center;}
+
+.blue-block{display: block; content: ""; bottom: -100px; left: 0; width: 100%; height: auto; background-color: var(--Blue); color: var(--White);}

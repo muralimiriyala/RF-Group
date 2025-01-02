@@ -6,9 +6,9 @@
 .contact-left p{font-weight: 400; line-height: 150%; color: var(--Text-Gray); font-size: 18px;}
 
 
-.contact-links{margin: 0; color: var(--Black);}
+.contact-links{margin: 0; color: var(--Black); font-weight: 700; font-size: 18px;}
 .contact-links > li{ line-height: 100%; margin-bottom: 16px;}
-.contact-links > li:has(a) a{width: fit-content; font-weight: 700; font-size: 18px; gap: 12px;}
+.contact-links > li:has(a) a{width: fit-content;  gap: 12px;}
 .contact-links > li i{color: var(--Blue); font-size: 20px; font-weight: 400; width: 20px; text-align: center;}
 .contact-links > li::before{display: none;}
 .contact-links > li:last-child{display: flex; gap: 12px; margin-bottom: 0;}
