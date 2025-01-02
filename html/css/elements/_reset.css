@@ -4,12 +4,12 @@ html.js{margin-top: 0 !important;}
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {display: block;}
 audio, canvas, video {display: inline-block; max-width: 100%;}
 html{overflow-y: scroll; overflow-x: hidden; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; height: 100%; box-sizing: border-box; scroll-behavior: smooth;}
-a{color: var(--Accent);text-decoration: none; transition: var(--b-transition);}
+a{color: var(--Blue);text-decoration: none; transition: var(--b-transition);}
 a:focus {outline: none;}
 a:hover, a:active {outline: 0;}
 a:hover{color: var(--Blue);}
 p a{background-color: rgba(164,39,143,.15); color: var(--Black); border-radius: 4px; font-weight: 700; padding: 0 6px;}
-p a:hover{color: var(--Accent);}
+p a:hover{color: var(--Blue);}
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{clear: both; margin: 0; color: var(--Black); font-weight: 800; font-family: var(--heading-font); text-transform: none;}
 .h1, h1{font-size: 3rem; line-height: 3.75rem; margin-bottom: 25px; letter-spacing: -0.48px;}
 .h2, h2{font-size: 3rem; line-height: 3rem; margin-bottom: 20px;}
@@ -18,7 +18,7 @@ p a:hover{color: var(--Accent);}
 .h5, h5{font-size: 1.5rem; line-height: 1.875rem; margin-bottom: 19px; letter-spacing: -0.24px;}
 .h6, h6{font-size: 1.25rem; line-height: 1.563rem; margin-bottom: 18px; letter-spacing: -0.2px;}
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{color: var(--Black);}
-h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover{color: var(--Accent);}
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover{color: var(--Blue);}
 address{font-size: 1.125rem; line-height: 1.5rem; margin-bottom: 24px;}
 abbr[title] {border-bottom: 1px dotted var(--Navy); cursor: help;}
 b, strong {font-weight: 700;}
@@ -28,7 +28,7 @@ p:last-child{margin-bottom: 0;}
 code, kbd, tt, var, samp, pre {font-size: 0.938rem; -webkit-hyphens: none; -moz-hyphens: none; -ms-hyphens: none; hyphens: none; line-height: 1.6;}
 pre {border: 1px solid rgba(0, 0, 0, 0.1); -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; margin-bottom: 24px; max-width: 100%; overflow: auto; padding: 12px; white-space: pre; white-space: pre-wrap; word-wrap: break-word;}
 blockquote, q{-webkit-hyphens: none; -moz-hyphens: none; -ms-hyphens: none; hyphens: none; quotes: none; }
-blockquote{padding: 32px; margin: 56px 0 56px; background: linear-gradient(180deg,rgba(18,39,80,.19) 0,rgba(18,39,80,.75) 100%),var(--Accent); color: var(--White); font-size: 1.75rem;line-height: 2.625rem; font-weight: 400; font-family: var(--heading-font); font-style: normal; position: relative; border-radius: 24px;}
+blockquote{padding: 32px; margin: 56px 0 56px; background: linear-gradient(180deg,rgba(18,39,80,.19) 0,rgba(18,39,80,.75) 100%),var(--Blue); color: var(--White); font-size: 1.75rem;line-height: 2.625rem; font-weight: 400; font-family: var(--heading-font); font-style: normal; position: relative; border-radius: 24px;}
 blockquote p::before{content: "“";}
 blockquote p::after{content: "”";}
 blockquote cite, blockquote small {font-size: 1rem;}
@@ -63,7 +63,7 @@ legend {white-space: normal;}
 table, th, td {border: 1px solid rgba(0, 0, 0, 0.1);}
 table {margin: 52px 0 49px; border-collapse: separate; border-spacing: 0; border-width: 1px; max-width: 100%; width: 100%; border-radius: 8px;}
 table tr td:first-child {text-align: left;}
-th {border-width: 0; padding: 11px 16px 12px; background-color: var(--Accent); color: var(--White); border-radius: 0; font-family: var(--body-font); font-weight: 700;}
+th {border-width: 0; padding: 11px 16px 12px; background-color: var(--Blue); color: var(--White); border-radius: 0; font-family: var(--body-font); font-weight: 700;}
 th span.icon{font-size: 0.875rem; margin-left: 4px; top: 0px; position: relative; }
 td {border-width: 0; padding: 13px 15px 11px; text-align: center; border-bottom: 1px solid rgba(0,0,0,.1); vertical-align: middle; font-size: 1rem; line-height: 1.5rem;}
 table tr:nth-child(odd) td{background-color: rgba(0,0,0, 0.02);}
@@ -84,8 +84,8 @@ hr.sm-line{background-color: var(--Blue); height: 2px; border-radius: 1px; margi
 
 
 /* Buttons */
-.button, button, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{padding: 15px 24px; font-size: 1.125rem; font-weight: 700; line-height: 125%; font-family: var(--body-font); display: inline-block; background: linear-gradient(180deg, rgba(18, 39, 80, 0.00) 0%, rgba(18, 39, 80, 0.50) 60%), var(--Accent); color: var(--White); border: none; border-radius: 28px; cursor: pointer; vertical-align: middle; text-decoration: none; text-transform: none; text-align: center; outline: 0; position: relative; -webkit-writing-mode: horizontal-tb; -ms-writing-mode: horizontal-tb; writing-mode: horizontal-tb; text-orientation: mixed; box-shadow: none; transition: var(--b-transition); z-index: 1; margin: 0;  transition: all .5s ease;}
-.button:hover, button:hover, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover{background: linear-gradient(180deg, rgba(18, 39, 80, 0.00) 0%, rgba(18, 39, 80, 0.50) 100%), var(--Accent); border-radius: 16px; color: var(--White);}
+.button, button, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{padding: 15px 24px; font-size: 1.125rem; font-weight: 700; line-height: 125%; font-family: var(--body-font); display: inline-block; background: linear-gradient(180deg, rgba(18, 39, 80, 0.00) 0%, rgba(18, 39, 80, 0.50) 60%), var(--Blue); color: var(--White); border: none; border-radius: 28px; cursor: pointer; vertical-align: middle; text-decoration: none; text-transform: none; text-align: center; outline: 0; position: relative; -webkit-writing-mode: horizontal-tb; -ms-writing-mode: horizontal-tb; writing-mode: horizontal-tb; text-orientation: mixed; box-shadow: none; transition: var(--b-transition); z-index: 1; margin: 0;  transition: all .5s ease;}
+.button:hover, button:hover, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover{background: linear-gradient(180deg, rgba(18, 39, 80, 0.00) 0%, rgba(18, 39, 80, 0.50) 100%), var(--Blue); border-radius: 16px; color: var(--White);}
 
 .button.btn-transparent{padding: 12px 13px 12px 12px; border-radius: 24px; border: 4px solid var(--Orange); background: transparent;}
 .button.btn-transparent:hover{background: var(--Orange); border-color: var(--Orange);}
@@ -93,8 +93,8 @@ hr.sm-line{background-color: var(--Blue); height: 2px; border-radius: 1px; margi
 .button.btn-transparent-accent3{padding: 12px 13px 12px 12px; border-radius: 28px; border: 2px solid var(--Accent-3); background: transparent; color: var(--Black);}
 .button.btn-transparent-accent3:hover{background: var(--Accent-3); border-color: var(--Accent-3); color: var(--White);}
 
-.button.btn-white{background: var(--White); color: var(--Accent);}
-.button.btn-white:hover{background: var(--Accent); color: var(--White);}
+.button.btn-white{background: var(--White); color: var(--Blue);}
+.button.btn-white:hover{background: var(--Blue); color: var(--White);}
 
 .button.btn-accent2{background: linear-gradient(180deg, rgba(18, 39, 80, 0.00) 0%, rgba(18, 39, 80, 0.50) 60%), var(--Accent-2); color: var(--White);}
 .button.btn-accent2:hover{background: linear-gradient(180deg, rgba(18, 39, 80, 0.00) 0%, rgba(18, 39, 80, 0.50) 100%), var(--Accent-2);}
@@ -114,11 +114,11 @@ span.text-link.navy i{color: var(--Navy);}
 
 
 a.text-link{gap: 8px; align-items: center; font-size: 1.125rem; line-height: 1.406rem; letter-spacing: -0.18px;}
-a.text-link em{color: var(--Accent); font-size: 1rem; left: 0; line-height: 1.5rem; position: relative; top: 0; transition: all .5s ease;}
+a.text-link em{color: var(--Blue); font-size: 1rem; left: 0; line-height: 1.5rem; position: relative; top: 0; transition: all .5s ease;}
 a.text-link.white{color: var(--White);}
 a.text-link.white:hover em{color: var(--White);}
 a.text-link.black{color: var(--Black);}
-a.text-link.black:hover{color: var(--Accent);}
+a.text-link.black:hover{color: var(--Blue);}
 a.text-link.blue{color: var(--Blue);}
 a.text-link:hover em{left: 8px;}
 a.text-link.navy{color: var(--Navy);}
@@ -248,11 +248,11 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 .play-btn-bg img{margin-left: 3px; transform: scale(1); transition: all 0.3s ease-in-out;}
 .play-btn-bg:hover img{transform: scale(1.125);}
 .play-btn-bg:hover::before{opacity: 1;}
-.play-btn-bg > span.circle{background: linear-gradient(180deg,rgba(18,39,80,0) 0,rgba(18,39,80,.5) 100%),var(--Accent); z-index: 3; }
+.play-btn-bg > span.circle{background: linear-gradient(180deg,rgba(18,39,80,0) 0,rgba(18,39,80,.5) 100%),var(--Blue); z-index: 3; }
 .play-btn-bg > span.circle:after{ left: calc(50% + 1px); width: 31px; height: 31px; top: 50%; transform: translate(-50%,-50%); background-repeat: no-repeat; background-size: contain; background-position: center; content: ""; display: block; position: absolute; transition-duration: 0.5s; transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275); transition-property: all; transition-delay: 0s; }
 .play-btn-bg > span.circle:hover:after{ transform: translate(-50%,-50%) scale(1.1); }
 .play-btn-bg > span { transition: all 0.5s ease; transition-delay: 0s; border-radius: 50%; bottom: 0; content: " "; left: 0; position: absolute; right: 0; top: 0; }
-.play-btn-bg > span:not(:first-child){transform: scale(1); background: linear-gradient(180deg, rgba(18, 39, 80, 0.00) 0%, rgba(18, 39, 80, 0.50) 100%), var(--Accent); }
+.play-btn-bg > span:not(:first-child){transform: scale(1); background: linear-gradient(180deg, rgba(18, 39, 80, 0.00) 0%, rgba(18, 39, 80, 0.50) 100%), var(--Blue); }
 .play-btn-bg > span:not(:first-child):nth-child(2) {width: 112px; height: 112px;background: rgba(18, 39, 80, 0.40); left: 50%; transform: translate(-50%, -50%); top: 50%; z-index: 2;}
 .play-btn-bg > span:not(:first-child):nth-child(3) {width: 143px; height: 143px; background: rgba(18, 39, 80, 0.2); left: 50%; transform: translate(-50%, -50%); top: 50%; z-index: 1; opacity: 0; transition: opacity 1s ease; animation: playCircle 3s linear forwards infinite;}
 .play-btn-bg:hover > span:not(:first-child):nth-child(3){opacity: 1;}
@@ -284,12 +284,12 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 .inverted h1, .inverted h2, .inverted h3, .inverted h4, .inverted h5, .inverted h6{color: var(--White);}
 .inverted .h1, .inverted .h2, .inverted .h3, .inverted .h4, .inverted .h5, .inverted .h6{color: var(--White);}
 .inverted h1 a, .inverted h2 a, .inverted h3 a, .inverted h4 a{color: var(--White);}
-.inverted h1 a:hover, .inverted h2 a:hover, .inverted h3 a:hover, .inverted h4 a:hover{color: var(--Accent);}
+.inverted h1 a:hover, .inverted h2 a:hover, .inverted h3 a:hover, .inverted h4 a:hover{color: var(--Blue);}
 .inverted dl dt::before{background-color: var(--White);}
 .inverted p a{color: var(--White);}
 .inverted p a:hover{color: var(--Orange);}
 .inverted ul > li > a{color: var(--White);}
-.inverted ul > li > a:hover{color: var(--Accent);}
+.inverted ul > li > a:hover{color: var(--Blue);}
 
 .dark-text{color: var(--Black);}
 .dark-text h1, .dark-text h2, .dark-text h3, .dark-text h4, .dark-text h5, .dark-text h6{color: var(--Navy);}
@@ -314,7 +314,7 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 
 
 button.slick-arrow{width: 56px; height: 56px; padding: 0; font-size: 1.5rem; line-height: 1.5rem; position: relative; z-index: 1; cursor: pointer; transition: var(--b-transition); color: var(--White); background: linear-gradient(180deg, rgba(18, 39, 80, 0.00) 0%, rgba(18, 39, 80, 0.50) 100%), var(--Earthy-Blue);}
-button.slick-arrow:hover{background-color: var(--Accent);}
+button.slick-arrow:hover{background-color: var(--Blue);}
 button.slick-arrow.slick-disabled{pointer-events: none; background: linear-gradient(180deg, rgba(18, 39, 80, 0.00) 0%, rgba(18, 39, 80, 0.50) 100%);}
 span.slick-prev-arrow{ transform: scaleX(-1); }
 
@@ -361,7 +361,7 @@ ul.slick-dots:not(.pagination) li button{display: none; padding: 0;}
 }
 
 .demo-white{background: rgba(48, 33, 53, 0.50);}
-.demo-white .button{background: var(--White); color: var(--Accent);}
+.demo-white .button{background: var(--White); color: var(--Blue);}
 .demo-white .book-demo-call{color: var(--White);}
 .demo-white .book-demo-call:hover{color: var(--Sky-Blue);}
 .demo-white .book-demo-call:hover svg path{fill: var(--Sky-Blue);}
