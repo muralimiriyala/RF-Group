@@ -11,7 +11,7 @@ function resolve(dir) {
 module.exports = {
   mode: 'production', // Set production mode for minification
   entry: {
-    core: './js/index.js',
+    core: './js/core.js',
     style: './css/core.css',
   },
   output: {

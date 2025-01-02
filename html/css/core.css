@@ -11,8 +11,7 @@
 @import './elements/_search.css';
 @import './elements/_selectbox.css';
 @import './elements/_transitions.css';
-
-
+@import './elements/_404.css';
 
 /*-- From page's css --*/
 @import url('./pages/about-team-bio.css');
