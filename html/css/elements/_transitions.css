@@ -5,3 +5,4 @@
     --b-transition-6: all 0.6s ease;
 }
 .transition{transition: var(--b-transition);}
+.transition-3{transition: var(--b-transition-3);}
