@@ -22,11 +22,6 @@ export const menu = {
       const ___ = this;
     });
 
-    _.$tpages.forEach((ele) => {
-      const _ = this;
-      _.$site.classList.add('transparent');
-    });
-
     _.$gpages.forEach((ele) => {
       const _ = this;
       _.$ele.classList.add('gray-header');
