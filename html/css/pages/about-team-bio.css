@@ -1,0 +1,4 @@
+.about-bio-main{gap: 80px;}
+.about-bio-left{flex: 0 0 350px;}
+.about-bio-right{flex: 0 0 calc(100% - 430px)}
+.about-bio-list{}
