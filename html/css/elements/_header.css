@@ -175,12 +175,12 @@ header.scrolly-header{transform: translateY(-100%);}
     .header-overlay.open { visibility:visible; opacity:1 }
     .h-mob-overlay{display: none;}
 
+    .user-login{display: none;}
 }
 @media screen and (min-width: 1280px){
     ul.main_menu > li.nav-features > ul{max-width: 1204px;}
 }
 @media screen and (max-width: 1279px) and (min-width: 1024px){
-    .logo{flex: 0 0 234px;}
     .header_right{gap: 0 26px;}
     ul.main_menu{gap: 0 26px;}
     ul.main_menu > li.nav-features > ul{padding: 16px 12px 0;}
