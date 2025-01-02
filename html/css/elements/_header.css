@@ -33,8 +33,7 @@ header.scrolly-header{transform: translateY(-100%);}
 
 /* media css starts here */
 @media screen and (min-width: 1024px) {
-    .site-main-cover{padding-top: 104px;}
-    .site-main-cover.transparent{padding-top: 0;}
+    .site-main-cover.site-gray{padding-top: 104px;}
     li.no-link > a{pointer-events: none !important;}
     ul.main_menu > li.nav-features > ul > li.hide-nav-desktop{display: none;}
     

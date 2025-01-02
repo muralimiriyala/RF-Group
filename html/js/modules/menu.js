@@ -4,6 +4,11 @@ export const menu = {
   $btn: document.querySelector('.humburger-btn'),
   $login: document.querySelector('.user-login'),
   $tpages: [...document.querySelectorAll('body.page-template-about-bio')],
+  $gpages: [
+    ...document.querySelectorAll(
+      'body.page-template-contact, body.page-template-404'
+    ),
+  ],
   $site: document.querySelector('main.site-main-cover'),
   init() {
     const _ = this;
@@ -16,10 +21,16 @@ export const menu = {
     _.$login.addEventListener('click', (e) => {
       const ___ = this;
     });
+
     _.$tpages.forEach((ele) => {
       const _ = this;
-      console.log(this);
       _.$site.classList.add('transparent');
+    });
+
+    _.$gpages.forEach((ele) => {
+      const _ = this;
+      _.$ele.classList.add('gray-header');
+      _.$site.classList.add('site-gray');
     });
   },
 };
