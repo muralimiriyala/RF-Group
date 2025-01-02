@@ -306,7 +306,7 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 .clamp-3{ -webkit-line-clamp: 3; }
 
 .white-bg{background-color: var(--White);}
-.gray-bg{background: var(--Background);}
+.gray-bg{background: var(--Gray);}
 .navy-bg{background: var(--Navy);}
 .blue-bg{background-color: var(--Blue);}
 .orange-tint-bg{background: var(--Orange-Tint-Bg);}
