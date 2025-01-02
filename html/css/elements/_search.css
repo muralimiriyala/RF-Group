@@ -6,5 +6,6 @@ form.srch-form input{padding-right: 51px; background-color: transparent;}
 form.srch-form.open input{background-color: var(--White);}
 button.btn-srch{font-size: 0; line-height: 0; padding: 0; top: 14px; right: 0; position: absolute;}
 form.srch-form.open button.btn-srch{right: 15px;}
-button.btn-srch i{font-size: 24px; line-height: 24px; color: var(--Black);}
+button.btn-srch i{font-size: 24px; line-height: 24px; color: var(--White);}
+header.gray-header:not(.sticky-header) button.btn-srch i{color: var(--Black);}
 button.btn-srch:hover i{color: var(--Blue);}

@@ -5,8 +5,11 @@ header.sticky-header, header.black-header{z-index: 850; background-color: var(--
 
 header.gray-header:not(.sticky-header)::before{width: 100%; height: 100%; top: 0; left: 0; position: absolute; content: ""; display: block; background-color: var(--Background-Gray); z-index: -1;}
  
-.logo a{width: 100%; height: 100%; display: block;} 
+.logo a{width: 100%; height: 100%; display: block; position: relative;} 
 .logo a img{width: 100%; object-fit: contain;}
+img.black-logo{top: 0; left: 0; position: absolute;}
+header.gray-header:not(.sticky-header) img.white-logo, img.black-logo{opacity: 0; visibility: hidden;}
+header.gray-header:not(.sticky-header) img.black-logo{opacity: 1; visibility: visible;}
 
 .header_btns .button.gray{color: var(--Navy);}
 .header_btns .button.gray:hover{color: var(--White);}
@@ -30,8 +33,7 @@ header.scrolly-header{transform: translateY(-100%);}
 
 /* media css starts here */
 @media screen and (min-width: 1024px) {
-    .site-main-cover{padding-top: 104px;}
-    .site-main-cover.transparent{padding-top: 0;}
+    .site-main-cover.site-gray{padding-top: 104px;}
     li.no-link > a{pointer-events: none !important;}
     ul.main_menu > li.nav-features > ul > li.hide-nav-desktop{display: none;}
     
@@ -46,14 +48,14 @@ header.scrolly-header{transform: translateY(-100%);}
     ul.top-nav > li:not(:last-child){margin-left: 25px;}
     ul.top-nav > li:last-child{margin-left: 20px;}
     ul.top-nav > li::before{display: none;}
-    ul.top-nav > li > a{padding: 4px 0; align-items: center; display: flex; gap: 6px; font-size: 12px; line-height: 100%; letter-spacing: 0.24px; font-weight: 500; color: var(--Black-75);}
+    ul.top-nav > li > a{padding: 4px 0; align-items: center; display: flex; gap: 6px; font-size: 12px; line-height: 100%; letter-spacing: 0.24px; font-weight: 500; color: var(--White);}
     ul.top-nav > li > a:hover{color: var(--Blue); }
     ul.top-nav > li > a:hover i{font-size: 11.5px;}
     ul.top-nav > li > a:not(.bhs)::after, ul.top-nav > li > a:not(.bhs)::before{width: 0%; height: 1px; bottom: 0; left: 0; position: absolute; background-color: var(--Blue); display: block; content: ""; display: block; opacity: 0; transition: all 0.5s ease;}
     ul.top-nav > li > a:hover:not(.bhs)::after, ul.top-nav > li > a:hover:not(.bhs)::before{width: 50%; opacity: 1;}
     ul.top-nav > li > a:not(.bhs)::before{width: 25%;}
     ul.top-nav > li > a:hover:not(.bhs)::after{left: 50%; transition-delay: 0.125s;}
-
+    header.gray-header:not(.sticky-header) ul.top-nav > li > a{color: var(--Black-75);}
 
     ul.top-nav > li > ul.lang{margin: 0; padding: 0.25rem 0.5rem 0.5rem; gap: 0.5rem; width: 100%; height: auto; overflow-y: auto; background-color: var(--White); border-top-left-radius: 0; border-top-right-radius: 0; flex-direction: column; position: absolute; z-index: 2; visibility: hidden; opacity: 0;}
     ul.top-nav > li:hover > ul.lang{visibility: visible; opacity: 1;}
@@ -77,6 +79,8 @@ header.scrolly-header{transform: translateY(-100%);}
     ul.main_menu > li > a::after{width: 0%; height: 8px; bottom: -4px; left: 0; right: 0; opacity: 0; position: absolute; content: ""; display: block; border-radius: 0; border-radius: 4px; background: linear-gradient(180deg, rgba(18, 39, 80, 0.00) 0%, rgba(18, 39, 80, 0.50) 100%), var(--Accent); transition: var(--b-transition); margin-left: auto; margin-right: auto; z-index: 12;}
     ul.main_menu > li.current-menu-parent > a::after,  ul.main_menu > li.current-page-ancestor > a::after, ul.main_menu > li.current-menu-item > a::after, ul.main_menu > li:hover > a::after{opacity: 1; width: 64px; left: calc(50% - 1px); transform: translateX(-50%);}
 
+   
+
     ul.main_menu > li.current-menu-parent > a, ul.main_menu > li.current-page-ancestor > a, ul.main_menu > li.current-menu-item > a, ul.main_menu > li > a:hover{color: var(--White);}
     ul.main_menu > li.button{padding: 0;}
     ul.main_menu > li.button > a{padding: 12px 17px 12px}
@@ -92,6 +96,8 @@ header.scrolly-header{transform: translateY(-100%);}
     ul.main_menu > li > ul > li > ul > li > a{font-size: 1rem; line-height: 1.375rem; font-weight: 700; display: block; color: var(--Black);}
     ul.main_menu > li > ul > li > ul > li > a:hover{color: var(--Accent);}
     
+
+
 
     ul.main_menu > li.nav-products{position: static;}
     ul.main_menu > li.nav-products > ul{max-width: 1120px; border-radius: 0 0 24px 24px; padding: 0; width: 100%; background-color: var(--Eggshell); }
