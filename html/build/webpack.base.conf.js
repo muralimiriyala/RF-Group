@@ -12,7 +12,7 @@ module.exports = {
   mode: 'production', // Set production mode for minification
   entry: {
     core: './js/index.js',
-    style: './css/index.css',
+    style: './css/core.css',
   },
   output: {
     path: path.resolve(__dirname, '../dist'),
