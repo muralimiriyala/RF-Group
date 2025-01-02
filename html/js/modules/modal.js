@@ -21,7 +21,7 @@ export const modal = {
         let $overlay = $(_.$window);
         $overlay.fadeToggle(900);
         let $main = $(_.$main);
-        $main.fadeToggle(800);
+        $main.fadeToggle(700);
       }
     };
     let id = null;
@@ -40,11 +40,10 @@ export const modal = {
     _.$close.addEventListener('click', modal);
     let modalClose = function (e) {
       if (e.target.contains(_.$center)) {
-        $(_.$window).fadeOut(800);
-        $(_.$main).fadeOut(800);
+        $(_.$window).fadeOut(700);
+        $(_.$main).fadeOut(700);
       }
     };
     _.$body.addEventListener('click', modalClose);
   },
 };
-export default modal;
