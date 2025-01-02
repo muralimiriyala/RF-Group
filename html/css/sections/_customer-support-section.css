@@ -16,14 +16,16 @@ ul.customer-links > li i{color: var(--Blue); font-size: 20px; font-weight: 400; 
 ul.customer-links > li::before{display: none;}
 ul.customer-links > li:last-child{display: flex; gap: 12px;}
 
+/* For 1024 Resolution Above Desktop */
 @media only screen  and (min-width: 1024px){
 
 }
-@media only screen and (max-width: 1023px) and (min-width: 730px){
+/* For Ipad/Tablet upto 810 Resolution */
+@media only screen and (max-width: 1023px) and (min-width: 810px){
 
 }
-@media only screen and (max-width: 729px) and (min-width: 200px){
-
+/* For Mobile upto 810 Resolution */
+@media only screen and (max-width: 809px) and (min-width: 200px){
     .customer-support-main{display: block;}
     .customer-support-list{margin-bottom: 48px;}
 
