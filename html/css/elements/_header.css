@@ -184,12 +184,13 @@ header.scrolly-header{transform: translateY(-100%);}
     ul.main_menu > li.nav-products > ul > li.nav-sub-products > ul > li > ul{width: 908px;}
     ul.main_menu > li.nav-products > ul > li.nav-sub-products > ul > li > ul > li > a{align-items: center;}
 }
-@media screen and (max-width: 1023px) and (min-width: 768px){
+@media screen and (max-width: 1023px) and (min-width: 810px){
     .header_bar_main{max-height: 62px; min-height: 62px; overflow: hidden;}
 }
 @media screen and (max-width: 1023px) and (min-width: 200px){
     .header{padding: 16px 0; gap: 16px; position: relative; z-index: 2;}
     .logo{flex: 0 0 218px; position: relative; z-index: 1;}
+    .site-main-cover{padding-top: 104px;}
 
     span.black-logo{display: none;}
     span.black-logo img{max-width: 218px;}
