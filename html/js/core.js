@@ -13,6 +13,7 @@ import { selectBox } from './modules/selectBox.js';
 import { magnificPopup } from './modules/magnificPopup.js';
 import { gsapanim } from './modules/gsap.js';
 import { gsapscroll } from './modules/gsapscroll.js';
+import { uiAccordion } from './modules/accordion.js';
 
 (function () {
   menu.init();
@@ -26,4 +27,5 @@ import { gsapscroll } from './modules/gsapscroll.js';
   magnificPopup.init();
   gsapanim.init();
   gsapscroll.init();
+  uiAccordion.init();
 })();
