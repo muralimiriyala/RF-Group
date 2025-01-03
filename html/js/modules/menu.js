@@ -12,6 +12,18 @@ export const menu = {
   $site: document.querySelector('main.site-main-cover'),
   init() {
     const _ = this;
+    if (!_.$ele) return;
+
+    const scroll = () => {
+      const $scrolly = Number(window.scrollY);
+      if ($scrolly > 0) {
+        _.$ele.classList.add('sticky-header');
+      } else {
+        _.$ele.classList.remove('sticky-header');
+      }
+    };
+    window.addEventListener('scroll', scroll);
+
     _.$btn.addEventListener('click', (e) => {
       const __ = e.currentTarget;
       __.classList.toggle('open');

@@ -1,6 +1,6 @@
 
-.about-bio-section{position: relative; width: 100%; background: var(--Black); opacity: 0.6}
-.about-bio-main{gap: 80px;}
+.about-bio-overlay{width: 100%; background: var(--Black); opacity: 0.6; z-index: 0;}
+.about-bio-main{gap: 80px; padding: 200px 0 200px;}
 .about-bio-left{flex: 0 0 350px;}
 .about-bio-right{flex: 0 0 calc(100% - 430px); background-color: var(--White); padding: 80px;}
 .about-bio-list{background-color: var(--White);}
@@ -11,7 +11,8 @@ ul.bio-links > li{margin-bottom: 20px;}
 ul.bio-links > li:last-child{margin-bottom: 0;}
 ul.bio-links > li:before{display: none;}
 ul.bio-links > li {gap: 0 12px; display: flex;}
-ul.bio-links > li:has(a) a{gap: 0 12px;}
+ul.bio-links > li:has(a) a{gap: 0 12px; color: var(--Black);}
+ul.bio-links > li:has(a) a:hover{color: var(--Blue);}
 ul.bio-links > li i{font-size: 20px;  font-weight: 400; color: var(--Blue); width: 20px; text-align: center;}
 
 .blue-block{display: block; content: ""; bottom: -100px; left: 0; width: 100%; height: auto; background-color: var(--Blue); color: var(--White);}
