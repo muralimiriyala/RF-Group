@@ -1,3 +1,5 @@
+
+.about-bio-section{position: relative; width: 100%; background: var(--Black); opacity: 0.6}
 .about-bio-main{gap: 80px;}
 .about-bio-left{flex: 0 0 350px;}
 .about-bio-right{flex: 0 0 calc(100% - 430px); background-color: var(--White); padding: 80px;}
