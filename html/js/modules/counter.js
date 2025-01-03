@@ -3,6 +3,7 @@ export const counter = {
   $ele: document.querySelectorAll('[data-count-to]'),
   init() {
     const _ = this;
+    if (!_.$ele) return;
     _.$ele.forEach(($el) => {
       const $target = $el.getAttribute('id');
       $el.counter = new CountUp(
