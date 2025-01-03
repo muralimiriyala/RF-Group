@@ -1,8 +1,8 @@
 
 .about-bio-overlay{width: 100%; background: var(--Black); opacity: 0.6; z-index: 0;}
-.about-bio-main{gap: 80px; padding: 200px 0 200px;}
+.about-bio-main{gap: 80px; padding: 144px 0 258px;;}
 .about-bio-left{flex: 0 0 350px;}
-.about-bio-right{flex: 0 0 calc(100% - 430px); background-color: var(--White); padding: 80px;}
+.about-bio-right{flex: 0 0 calc(100% - 430px); background-color: var(--White); }
 .about-bio-list{background-color: var(--White);}
 .about-bio-con{font-size: 18px; padding: 40px 28px 40px 40px; font-weight: 700; line-height: 100%;}
 .about-bio-img:after{position: absolute; background: var(--Blue); width: 100%; height: 12px; bottom: 0; left: 0; display: block; content:""; z-index: 1;}
@@ -15,4 +15,19 @@ ul.bio-links > li:has(a) a{gap: 0 12px; color: var(--Black);}
 ul.bio-links > li:has(a) a:hover{color: var(--Blue);}
 ul.bio-links > li i{font-size: 20px;  font-weight: 400; color: var(--Blue); width: 20px; text-align: center;}
 
-.blue-block{display: block; content: ""; bottom: -100px; left: 0; width: 100%; height: auto; background-color: var(--Blue); color: var(--White);}
+.about-bio-right-main{color: var(--Text-Gray); padding: 80px ;}
+.about-bio-right-main h1{font-weight: 600; letter-spacing: -0.96px; margin-bottom: 2px;}
+.about-bio-right-main span{color: var(--Blue); font-weight: 700; line-height: 100%; display: block; margin-bottom: 40px;}
+.about-bio-right-main p{margin-bottom: 40px;}
+.about-bio-right-main span + p{margin-bottom: 16px;}
+.about-bio-right-main .h4{font-weight: 600; font-size: 28px; letter-spacing: -0.56px; line-height: 125%; margin-bottom: 16px;}
+.about-bio-right-main .h4 + p{margin-bottom: 16px;}
+.about-bio-right-main ul{margin: 0 0 90px 26px;}
+.about-bio-right-main ul > li::before {left: -17px; top: 13px; background-color: var(--Text-Gray);}
+
+.blue-block-main{width: 100%; bottom: -220px; left: 0; height: auto; display: block; content: "";}
+.blue-block{padding: 40px;}
+.blue-block-content { background-color: var(--Blue); padding: 40px; text-align: center; color: var(--White)}
+.blue-block-content p{font-size: 18px; font-weight: 700; line-height: 100%; margin-bottom: 24px;}
+.blue-block-content h3{font-size: 40px; font-weight: 600; line-height: 125%; letter-spacing: -0.8px; color: var(--White); margin-bottom: 24px;}
+.btn-wrap{padding: 8px; display: flex; gap: 8px; border: 1px solid var(--White); width: fit-content; margin: 0 auto;}
