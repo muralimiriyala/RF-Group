@@ -16,6 +16,7 @@
 
 /*-- From page's css --*/
 @import url('./pages/about-team-bio.css');
+@import url('./pages/faq-page.css');
 
 
 
@@ -24,6 +25,7 @@
 @import url('./sections/_cta.css');
 @import url('./sections/_contact-section.css');
 @import url('./sections/_customer-support-section.css');
+@import url('./sections/_have-questions-section.css');
 
 /*-- From 3rd party css's --*/
 @import './lib/slick.css';

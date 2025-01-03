@@ -250,8 +250,9 @@
       transform: translateY(-6%);
     }
   }
-[data-animate="64"]{width: 0; transition: all 1s ease;}
-[data-animate="64"].visible{width: 80px;}
+[data-animate*="64"]{width: 0; transition: all 1s ease;}
+[data-animate*="64"].visible{width: 64px;}
+[data-animate*="black"]{background-color: var(--Black); opacity: 0.5;}
 
 [data-animate="80"]{width: 0; transition: all 1s ease;}
 [data-animate="80"].visible{width: 80px;}

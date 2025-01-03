@@ -64,13 +64,11 @@ header.scrolly-header{transform: translateY(-100%);}
     ul.top-nav > li > ul.lang > li > a{color: var(--Black); font-size: 12px; line-height: 100%; letter-spacing: 0.24px; font-weight: 700; display: block;}
     ul.top-nav > li > ul.lang > li > a:hover{color: var(--Blue);}
    
-   
     ul.top-nav > li > a.bhs{padding: 5px 6px 6px; font-weight: 700; background-color: var(--Black);}
     ul.top-nav > li > a.bhs img{top: 1px; position: relative;}
     header.gray-header:not(.sticky-header) ul.top-nav > li > a.bhs{background-color: var(--White); color: var(--Black);}
     header.sticky-header ul.top-nav > li > a.bhs{background-color: var(--White); color: var(--Black);}
     
-
     nav.navigation{padding-right: 49px; width: fit-content; margin-left: auto;}
     
     

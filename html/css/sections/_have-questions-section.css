@@ -1,0 +1,8 @@
+
+
+
+/* media css starts here */
+@media only screen  and (min-width: 1024px){
+    .have-questions-bg{height: calc(100% - 80px); top: auto; bottom: 0;}
+    .have-questions-main{grid-template-columns: 350px auto;}
+}

@@ -1,7 +1,7 @@
 .contact-main{padding: 80px 0;}
 .contact-left{flex: 0 0 350px;}
 .contact-left span.optional-text{margin-bottom: 16px;}
-.contact-left h1{font-size: 40px; font-weight: 600; line-height: 125%; letter-spacing: -0.8px; margin-bottom: 16px;}
+.contact-left h1{margin-bottom: 16px;}
 
 .contact-left p{font-weight: 400; line-height: 150%; color: var(--Text-Gray); font-size: 18px;}
 
