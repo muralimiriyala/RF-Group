@@ -4,10 +4,15 @@ export const counter = {
   init() {
     const _ = this;
     _.$ele.forEach(($el) => {
-      $el.counter = new CountUp($el, $el.getAttribute('data-count-to'), {
-        startVal: Number($($el).html()) > 1 ? Number($($el).html()) : '',
-        duration: Number(($el.getAttribute('data-duration') / 1000) * 1),
-      });
+      const $target = $el.getAttribute('id');
+      $el.counter = new CountUp(
+        `${$target}`,
+        $el.getAttribute('data-count-to'),
+        {
+          startVal: 0,
+          duration: Number(($el.getAttribute('data-duration') / 1000) * 1),
+        }
+      );
     });
   },
 };
