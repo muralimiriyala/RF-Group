@@ -1,13 +1,9 @@
 
-.customer-support-main{padding: 80px 0; gap:0 78px;}
+.customer-support-main{padding: 80px 0;}
 .customer-support-list{font-size: 16px; font-weight: 400; line-height: 150%; color: var(--Text-Gray)}
 .customer-support-list h2{font-size: 32px; font-weight: 600; line-height: 125%; margin-bottom: 16px;}
 .customer-support-icon{max-width: 48px; height: auto; margin-bottom: 16px;}
 .customer-support-icon svg, .customer-support-icon img{object-fit: contain; }
-
-.customer-support-list-3 { flex: 0 0 calc(33.333% - 52px); }
-
-
 
 ul.customer-links{margin: 0; color: var(--Black);}
 ul.customer-links > li{ line-height: 100%; margin-bottom: 16px;}
@@ -17,33 +13,30 @@ ul.customer-links > li i{color: var(--Blue); font-size: 20px; font-weight: 400; 
 ul.customer-links > li::before{display: none;}
 ul.customer-links > li:last-child{display: flex; gap: 12px; }
 
-/* For 1024 Resolution Above Desktop */
+
+/* media css starts here */
 @media only screen  and (min-width: 1024px){
+    .customer-support-main{gap:0 78px;}
+    .customer-support-list-3 { flex: 0 0 calc(33.333% - 52px); }
+    .customer-support-list-2 { flex: 0 0 calc(50% - 39px); }
     ul.customer-links > li > a{width: fit-content;}
     ul.customer-links > li:last-child{margin-bottom: 0;}
 }
-@media only screen and (max-width: 1199px) and (min-width: 1024px){
-.customer-support-main { gap: 0 64px;}
-.customer-support-list-3 { flex: 0 0 calc(33.333% - 44px); }
-
-
-
-
+@media only screen  and (min-width: 810px){
+    .customer-support-list-1 { flex: 1}
 }
-
-
-
-/* For Ipad/Tablet upto 810 Resolution */
+@media only screen and (max-width: 1199px) and (min-width: 1024px){
+    .customer-support-main { gap: 0 64px;}
+    .customer-support-list-3 { flex: 0 0 calc(33.333% - 44px); }
+    .customer-support-list-2 { flex: 0 0 calc(50% - 32px); }
+}
 @media only screen and (max-width: 1023px) and (min-width: 810px){
     .customer-support-main{padding: 64px 0; gap: 0 40px;}
     .customer-support-list-3 { flex: 0 0 calc(33.333% - 28px); }
+    .customer-support-list-2 { flex: 0 0 calc(50% - 20px); }
     .customer-support-list h2 { font-size: 28px;}
-    ul.customer-links > li:last-child{margin-bottom: 0;}
-
-
-    
+    ul.customer-links > li:last-child{margin-bottom: 0;}   
 }
-/* For Mobile upto 810 Resolution */
 @media only screen and (max-width: 809px) and (min-width: 200px){
     .customer-support-main{display: block; padding: 40px 0;}
     .customer-support-list{margin-bottom: 48px;}
@@ -53,4 +46,3 @@ ul.customer-links > li:last-child{display: flex; gap: 12px; }
     ul.customer-links > li > a{flex-direction: row-reverse; color: var(--Black); justify-content: space-between; padding: 14px 12px;}
     ul.customer-links > li > a:hover{color: var(--Blue);}
 }
-    
