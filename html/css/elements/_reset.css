@@ -168,6 +168,8 @@ img.aligncenter{margin: 25px auto; clear: both;}
 
 /*-- grid css starts here --*/
 .grid{display: grid;}
+.gap-col-80{column-gap: 80px;}
+.gap-col-40{column-gap: 40px;}
 
 
 
