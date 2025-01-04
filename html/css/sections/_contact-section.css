@@ -3,34 +3,26 @@
 .contact-left span.optional-text{margin-bottom: 16px;}
 .contact-left h1{margin-bottom: 16px;}
 
-.contact-left p{font-weight: 400; line-height: 150%; color: var(--Text-Gray); font-size: 18px;}
 
-
-ul.contact-links{margin: 0; color: var(--Black); font-weight: 700; font-size: 18px;}
+ul.contact-links{margin: 0;}
 ul.contact-links > li{ line-height: 100%; margin-bottom: 16px;}
-ul.contact-links > li:has(a) a{width: fit-content;  gap: 12px; color: var(--Black);}
+ul.contact-links > li:has(a) a{width: fit-content;  gap: 12px; color: var(--Black);  font-weight: 700; font-size: 18px;}
 ul.contact-links > li:has(a) a:hover{color: var(--Blue);}
 ul.contact-links > li i{color: var(--Blue); font-size: 20px; font-weight: 400; width: 20px; text-align: center;}
 ul.contact-links > li::before{display: none;}
 ul.contact-links > li:last-child{display: flex; gap: 12px; margin-bottom: 0;}
 
-.contact-address span{font-size: 14px; line-height: 125%; margin-bottom: 5px; display: block;}
+.contact-address{font-size: 16px; line-height: 150%;  color: var(--Text-Gray);}
+.contact-address span{margin-bottom: 5px; font-weight: 700; font-size: 14px; line-height: 125%; letter-spacing: 0.7px; display: block; color: var(--Black);}
 
 
-
-
-@media only screen and (max-width: 1023px) and (min-width: 810px){
-.contact-left h1{font-size: 36px;}
-
-
-
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    ul.contact-links{padding-top: 5px;}
 }
-
-
+@media only screen and (max-width: 1023px) and (min-width: 810px){
+    .contact-left h1{font-size: 36px;}
+}
 @media only screen and (max-width: 809px) and (min-width: 200px){
-.contact-main{display: block; padding: 40px 0;}
-
-
-
-
+    .contact-main{display: block; padding: 40px 0;}
 }
