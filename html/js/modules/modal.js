@@ -13,7 +13,6 @@ export const modal = {
   $close: document.querySelector('.modal-main .modal-close'),
   init() {
     const _ = this;
-
     let modal = (e) => {
       e.preventDefault();
       e.target.classList.toggle('open');
@@ -36,8 +35,11 @@ export const modal = {
       if (ele) ele.click();
     }
 
+    // close button
     if (!_.$close) return false;
     _.$close.addEventListener('click', modal);
+
+    // click on body tag
     let modalClose = function (e) {
       if (e.target.contains(_.$center)) {
         $(_.$window).fadeOut(700);

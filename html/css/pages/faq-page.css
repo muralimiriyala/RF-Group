@@ -1,8 +1,28 @@
 
+.faqs-text span.optional-text{margin-bottom: 22px;}
+.faqs-text h1{margin-bottom: 26px;}
+.faqs-desc{margin-bottom: 40px;}
+
+
+form.srch-faqs-form{border: 1px solid var(--Text-Gray); margin-bottom: 37px;} 
+form.srch-faqs-form input{font-size: 18px; line-height: 18px; font-weight: 400; color: var(--Black-50);}
+button[type="submit"].srch-faqs-btn{right: 16px; top: 50%; transform: translateY(-50%); padding: 0; background-color: transparent; color: var(--Blue);}
+button[type="submit"].srch-faqs-btn:hover{color: var(--Black);}
+
+ul.faqs-links{margin: 0 0 35px;}
+ul.faqs-links li{margin: 0 0 9px;}
+ul.faqs-links li::before{display: none;}
+ul.faqs-links li a{color: var(--Black);}
+ul.faqs-links li a:hover{color: var(--Blue);}
+
+.faqs-text h2 a{color: var(--Blue);}
+.faqs-text h2 a:hover{color: var(--Black);}
+
 
 /* media css starts here */
 @media only screen  and (min-width: 1024px){
-    .faqs-main{padding: 80px 0 80px; grid-template-columns: 350px auto;}
+    .faqs-main{padding: 78px 0 18px; grid-template-columns: 350px auto;}
+    .faqs-text{padding-top: 2px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 810px){
  

@@ -6,7 +6,7 @@ export const menu = {
   $tpages: [...document.querySelectorAll('body.page-template-about-bio')],
   $gpages: [
     ...document.querySelectorAll(
-      'body.page-template-contact, body.page-template-404'
+      'body.page-template-contact, body.page-template-faqs, body.page-template-404'
     ),
   ],
   $site: document.querySelector('main.site-main-cover'),
@@ -14,15 +14,26 @@ export const menu = {
     const _ = this;
     if (!_.$ele) return;
 
+    _.$gpages.forEach(() => {
+      const _ = this;
+      _.$ele.classList.add('gray-header');
+      _.$site.classList.add('site-gray');
+    });
+
+    // scrolly
+    console.log();
     let $scrolly = 0;
     const scroll = () => {
       $scrolly = Number(window.scrollY);
-      $scrolly > 0
-        ? _.$ele.classList.add('sticky-header')
-        : _.$ele.classList.remove('sticky-header');
+      if (!_.$ele.classList.contains('gray-header')) {
+        $scrolly > 0
+          ? _.$ele.classList.add('gray-header')
+          : _.$ele.classList.remove('gray-header');
+      }
     };
     window.addEventListener('scroll', scroll);
     window.addEventListener('load', scroll);
+    // scrolly
 
     _.$btn.addEventListener('click', (e) => {
       const __ = e.currentTarget;
@@ -32,12 +43,6 @@ export const menu = {
 
     _.$login.addEventListener('click', (e) => {
       const ___ = this;
-    });
-
-    _.$gpages.forEach((ele) => {
-      const _ = this;
-      _.$ele.classList.add('gray-header');
-      _.$site.classList.add('site-gray');
     });
   },
 };

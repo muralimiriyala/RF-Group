@@ -30,9 +30,9 @@ ul.bio-links > li i{font-size: 20px;  font-weight: 400; color: var(--Blue); widt
 .blue-block-content { background-color: var(--Blue); padding: 40px; text-align: center; color: var(--White)}
 .blue-block-content p{font-size: 18px; font-weight: 700; line-height: 100%; margin-bottom: 24px;}
 .blue-block-content h3{font-size: 40px; font-weight: 600; line-height: 125%; letter-spacing: -0.8px; color: var(--White); margin-bottom: 24px;}
-.btn-wrap{padding: 8px; display: flex; gap: 8px; border: 1px solid var(--White); width: fit-content; margin: 0 auto;}
-
-
+.btn-wrap-main { max-width: 514px; width: 100%; display: block; margin: 0 auto;}
+.blue-btn-wrap{padding: 8px; display: flex; gap: 8px; border: 1px solid var(--White); }
+.blue-btn-wrap .button{width: 100%; gap: 8px; justify-content: center; font-size: 16px; padding: 15px 16px;}
 
 @media only screen and (max-width: 1199px) and (min-width: 1024px){
     .about-bio-main{gap: 40px;}
@@ -64,6 +64,7 @@ ul.bio-links > li i{font-size: 20px;  font-weight: 400; color: var(--Blue); widt
     .blue-block-content{padding: 32px;}
     .blue-block-main { margin-top: -105px;}
     .blue-block-content h3{font-size: 36px; letter-spacing: -0.72px;}
+    .blue-block{padding: 40px 40px 0 40px;}
 }
 
 @media only screen and (max-width: 809px) and (min-width: 200px){
@@ -79,8 +80,8 @@ ul.bio-links > li i{font-size: 20px;  font-weight: 400; color: var(--Blue); widt
     .blue-block-content {padding: 24px;}
     .blue-block-content p{font-size: 16px; margin-bottom: 24px;}
     .blue-block-content h3{font-size: 28px;}
-    .btn-wrap{display: block; width: inherit;}
-    .btn-wrap .button{width: 100%; gap: 8px; justify-content: center; font-size: 16px; padding: 13px 14px;}
-    .btn-wrap .button.btn-white{margin-bottom: 8px;}
+    .blue-btn-wrap{display: block; width: inherit;}
+    .blue-btn-wrap .button{width: 100%; gap: 8px; justify-content: center; font-size: 16px; padding: 13px 14px;}
+    .blue-btn-wrap .button.btn-white{margin-bottom: 8px;}
 
 }
