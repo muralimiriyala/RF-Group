@@ -78,6 +78,7 @@ del {color: var(--Black);}
 /*-- gray hr line --*/
 hr{margin: 0 0 38px; width: 100%; height: 2px; display: block; border: none; border-radius: 1px; background-color: var(--Gray);}
 hr[data-animate]{ margin: 0 0 16px; height: 2px; width: 0%; background-color: var(--Blue);}
+hr[data-animate*='black']{background-color: var(--Black);}
 hr.light-blue-line{margin: 0; flex: 1; width: 100%; height: 1px; background-color: var(--Light-Blue);}
 hr.sm-line{background-color: var(--Blue); height: 2px; border-radius: 1px; margin: 32px 0;}
 ::selection {background-color: var(--Black); color: var(--White);}
@@ -162,10 +163,11 @@ img.aligncenter{margin: 25px auto; clear: both;}
 
 
 /*-- custom css starts here --*/
-body{margin: 0; font-size: 18px; line-height: 150%; font-weight: 300; font-family: var(--body-font); position: relative; color: var(--Text-Gray); background-color: transparent; overflow-x: hidden;}
+body{margin: 0; font-size: 18px; line-height: 150%; letter-spacing: 0.1px; font-weight: 300; font-family: var(--body-font); position: relative; color: var(--Text-Gray); background-color: transparent; overflow-x: hidden;}
 .d-block{display: block;}
 span.optional-text.ls-07{letter-spacing: 0.7px;}
-span.optional-text{color: var(--Blue); display: block; font-size: 18px; font-weight: 700; line-height: 100%; letter-spacing: 0; margin-bottom: 20px; text-transform: capitalize;}
+span.optional-text{color: var(--Blue); display: block; font-size: 18px; font-weight: 700; line-height: 100%; letter-spacing: 0; margin-bottom: 20px; text-transform: none;}
+span.optional-text.white{color: var(--White);}
 span.optional-text.blue{color: var(--Blue);-webkit-text-fill-color: var(--Blue); opacity: 0.6; background: none;}
 span.optional-text.light-blue{color: var(--Light-Blue); }
 span.optional-text.grey{color: var(--Gray);-webkit-text-fill-color: var(--Gray); opacity: 0.5; background: none; margin-bottom: 4px;}
@@ -177,6 +179,10 @@ span.optional-text.lg{margin-bottom: 8px; font-size: 1.125rem; line-height: 1.12
 .optional-blue svg{left: 0; position: absolute;}
 .optional-blue span{opacity: 0.6; padding-top: 5px; display: block;}
 .optional-blue.no_svg{padding-left: 0;}
+
+.text-black{color: var(--Black);}
+.text-black.opa-50{color: var(--Black-50);}
+
 .f-300{font-weight: 300;}
 .f-400{font-weight: 400;}
 .f-500{font-weight: 500;}
@@ -186,9 +192,9 @@ span.optional-text.lg{margin-bottom: 8px; font-size: 1.125rem; line-height: 1.12
 
 .fs-0{font-size: 0; line-height: 0;}
 .fs-12{font-size: 0.75rem; line-height: 1.25rem;}
-.fs-14{font-size: 0.875rem; line-height: 1.313rem;}
+.fs-14{font-size: 14px; line-height: 125%;}/*-- Dont change here --*/
 .fs-15{font-size: 0.938rem; line-height: 1.188rem;}
-.fs-16{font-size: 1rem; line-height: 1.5rem;}
+.fs-16{font-size: 16px; line-height: 150%;}/*-- Dont change here --*/
 .fs-18{font-size: 1.125rem; line-height: 1.688rem;}
 .fs-20{font-size: 1.25rem; line-height: 1.875rem;}
 .fs-22{font-size: 1.375rem; line-height: 2.063rem;}
@@ -279,6 +285,7 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 .inverted p a:hover{color: var(--Orange);}
 .inverted ul > li > a{color: var(--White);}
 .inverted ul > li > a:hover{color: var(--Blue);}
+.inverted ul > li > a.black:hover{color: var(--Black);}
 
 .dark-text{color: var(--Black);}
 .dark-text h1, .dark-text h2, .dark-text h3, .dark-text h4, .dark-text h5, .dark-text h6{color: var(--Navy);}

@@ -1,4 +1,13 @@
 
+.have-questions-main{padding: 79px 80px;}
+.have-questions-text h2{margin-bottom: 26px;}
+.have-questions-text p{margin-bottom: 20px;}
+.have-questions-text hr[data-animate]{margin-bottom: 20px;}
+span.have-questions-trust{letter-spacing: 0.7px;}
+ul.have-questions-links{margin: 0; padding-top: 6px;}
+ul.have-questions-links li{margin: 0 0 4px;}
+ul.have-questions-links li::before{display: none;}
+ul.have-questions-links li a{gap: 8px;}
 
 
 /* media css starts here */
