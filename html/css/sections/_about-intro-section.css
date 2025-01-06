@@ -16,7 +16,7 @@
     .about-intro-head h1{flex: 0 0 435px; margin-bottom: 0;}
     .about-intro-head > p{flex: 0 0 calc(100% - 475px);  margin-bottom: 0;}
 
-    .about-intro-stats{gap: 40px}
+    .about-intro-stats{gap: 40px;}
     .about-intro-lists{flex: 0 0 calc(25% -  30px);}
 
 
