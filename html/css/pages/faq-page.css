@@ -1,8 +1,12 @@
 
+.faqs-text{letter-spacing: 0.1px;}
+.faqs-text span.optional-text{margin-bottom: 22px;}
+.faqs-text h1{margin-bottom: 26px;}
 
 /* media css starts here */
 @media only screen  and (min-width: 1024px){
-    .faqs-main{padding: 80px 0 80px; grid-template-columns: 350px auto;}
+    .faqs-main{padding: 78px 0 80px; grid-template-columns: 350px auto;}
+    .faqs-text{padding-top: 2px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 810px){
  
