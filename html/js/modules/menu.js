@@ -34,7 +34,7 @@ export const menu = {
       window.addEventListener('scroll', scroll);
       window.addEventListener('load', scroll);
     }
-    // scrolly
+    // scrolly with
 
     _.$btn.addEventListener('click', (e) => {
       const __ = e.currentTarget;
