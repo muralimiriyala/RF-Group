@@ -17,6 +17,7 @@ export const uiAccordion = {
                 item.dataset.open = 'false';
                 const itemHeader = item.querySelector(aHeader);
                 if (itemHeader) {
+                  itemHeader.parentElement.classList.remove('open');
                   itemHeader.classList.remove('open');
                 }
                 const itemContent = item.querySelector(aContent);
@@ -27,10 +28,12 @@ export const uiAccordion = {
             });
             // Open the clicked one
             el.dataset.open = 'true';
+            header.parentElement.classList.add('open');
             header.classList.add('open');
             content.style.maxHeight = `${content.scrollHeight}px`;
           } else {
             el.dataset.open = 'false';
+            header.parentElement.classList.remove('open');
             header.classList.remove('open');
             content.style.maxHeight = '';
           }
