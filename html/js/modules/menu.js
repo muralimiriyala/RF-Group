@@ -6,7 +6,7 @@ export const menu = {
   $tpages: [...document.querySelectorAll('body.page-template-about-bio')],
   $gpages: [
     ...document.querySelectorAll(
-      'body.page-template-contact, body.page-template-404'
+      'body.page-template-contact, body.page-template-faqs, body.page-template-404'
     ),
   ],
   $site: document.querySelector('main.site-main-cover'),

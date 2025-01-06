@@ -8,6 +8,7 @@ ul.have-questions-links{margin: 0; padding-top: 6px;}
 ul.have-questions-links li{margin: 0 0 4px;}
 ul.have-questions-links li::before{display: none;}
 ul.have-questions-links li a{gap: 8px;}
+ul.have-questions-links li a.black:hover{color: var(--Black-50);}
 
 
 /* media css starts here */
