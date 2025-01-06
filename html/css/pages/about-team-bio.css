@@ -30,8 +30,9 @@ ul.bio-links > li i{font-size: 20px;  font-weight: 400; color: var(--Blue); widt
 .blue-block-content { background-color: var(--Blue); padding: 40px; text-align: center; color: var(--White)}
 .blue-block-content p{font-size: 18px; font-weight: 700; line-height: 100%; margin-bottom: 24px;}
 .blue-block-content h3{font-size: 40px; font-weight: 600; line-height: 125%; letter-spacing: -0.8px; color: var(--White); margin-bottom: 24px;}
-.btn-wrap{padding: 8px; display: flex; gap: 8px; border: 1px solid var(--White); width: fit-content; margin: 0 auto;}
-
+.btn-wrap{padding: 8px; display: flex; gap: 8px; border: 1px solid var(--White);  margin: 0 auto;}
+.btn-wrap .button{width: 100%; gap: 8px; justify-content: center; font-size: 16px; padding: 15px 16px;}
+    .btn-wrap .button.btn-white{margin-bottom: 8px;}
 
 
 @media only screen and (max-width: 1199px) and (min-width: 1024px){
