@@ -24,17 +24,15 @@ export const menu = {
     let $scrolly = 0;
     const scroll = () => {
       $scrolly = Number(window.scrollY);
-      if ($scrolly > 0) {
-        _.$ele.classList.add('gray-header');
-      } else {
-        _.$ele.classList.remove('gray-header');
-      }
+      $scrolly > 0
+        ? _.$ele.classList.add('gray-header')
+        : _.$ele.classList.remove('gray-header');
     };
     if (!_.$gpages[0]) {
       window.addEventListener('scroll', scroll);
       window.addEventListener('load', scroll);
     }
-    // scrolly
+    // scrolly with
 
     _.$btn.addEventListener('click', (e) => {
       const __ = e.currentTarget;
