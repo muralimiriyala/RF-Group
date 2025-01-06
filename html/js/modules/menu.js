@@ -21,14 +21,15 @@ export const menu = {
     });
 
     // scrolly
-    console.log();
     let $scrolly = 0;
     const scroll = () => {
       $scrolly = Number(window.scrollY);
-      if (!_.$ele.classList.contains('gray-header')) {
-        $scrolly > 0
-          ? _.$ele.classList.add('gray-header')
-          : _.$ele.classList.remove('gray-header');
+      if ($scrolly > 0) {
+        if (!_.$ele.classList.contains('gray-header')) {
+          _.$ele.classList.add('gray-header');
+        }
+      } else {
+        _.$ele.classList.remove('gray-header');
       }
     };
     window.addEventListener('scroll', scroll);
