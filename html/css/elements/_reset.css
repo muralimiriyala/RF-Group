@@ -75,7 +75,9 @@ td:last-child{border-radius: 0 0 8px 0;}
 
 caption, td, th{text-align: left;}
 del {color: var(--Black);}
-hr{ margin: 0 0 16px; height: 2px; width: 64px; display: block; border: none; border-radius: 2px; background: var(--Blue);}
+/*-- gray hr line --*/
+hr{margin: 0 0 38px; width: 100%; height: 2px; display: block; border: none; border-radius: 1px; background-color: var(--Gray);}
+hr[data-animate]{ margin: 0 0 16px; height: 2px; width: 0%; background-color: var(--Blue);}
 hr.light-blue-line{margin: 0; flex: 1; width: 100%; height: 1px; background-color: var(--Light-Blue);}
 hr.sm-line{background-color: var(--Blue); height: 2px; border-radius: 1px; margin: 32px 0;}
 ::selection {background-color: var(--Black); color: var(--White);}
@@ -97,17 +99,10 @@ hr.sm-line{background-color: var(--Blue); height: 2px; border-radius: 1px; margi
 
 .button.btn-sm{padding: 12px 17px 12px; font-size: 1rem;}
 
-span.text-link{gap: 8px; font-size: 1rem; line-height: 1.5rem; font-family: var(--body-font);}
-span.text-link i{top: 3px; left: 0; position: relative; color: var(--Light-Blue); font-size: 1.25rem; line-height: 1.25rem; overflow: hidden;}
-span.text-link.white{color: var(--White);}
-span.text-link.blue{color: var(--Blue);}
-span.text-link:hover i{left: 8px;}
-span.text-link.navy{color: var(--Navy);}
-span.text-link.navy i{color: var(--Navy);}
 
-
-a.text-link{gap: 8px; align-items: center; font-size: 1.125rem; line-height: 1.406rem; letter-spacing: -0.18px;}
-a.text-link em{color: var(--Blue); font-size: 1rem; left: 0; line-height: 1.5rem; position: relative; top: 0; transition: all .5s ease;}
+a.text-link{gap: 8px; align-items: center; font-size: 1.125rem; line-height: 100%; letter-spacing: 0; color: var(--Black);}
+a.text-link i{color: var(--Blue); font-size: 20px; left: 0; position: relative; top: 0; transition: all .5s ease;}
+a.text-link:hover{color: var(--Blue);}
 a.text-link.white{color: var(--White);}
 a.text-link.white:hover em{color: var(--White);}
 a.text-link.black{color: var(--Black);}
