@@ -1,15 +1,15 @@
 export const navigator = {
   init() {
-    const platform = window.navigator.userAgent;
-    console.log(platform, 'plat21');
-    if (typeof navigator !== 'undefined' && navigator.userAgent) {
-      if (navigator.userAgent.indexOf('Win') !== -1) {
-        console.log('The user is on a Windows operating system.');
-      } else {
-        console.log('The user is not on a Windows operating system.');
+    function getOS() {
+      let userAgent = window.navigator.userAgent.toLowerCase(),
+        macosPlatforms = /(macintosh|macintel|macppc|mac68k|macos)/i,
+        windowsPlatforms = /(win32|win64|windows|wince)/i;
+      if (macosPlatforms.test(userAgent)) {
+        return 'mac-os';
+      } else if (windowsPlatforms.test(userAgent)) {
+        return 'windows';
       }
-    } else {
-      console.log('navigator is not available in this environment.');
     }
+    document.querySelector('body').classList.add(getOS());
   },
 };
