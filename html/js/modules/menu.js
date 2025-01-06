@@ -30,7 +30,7 @@ export const menu = {
         _.$ele.classList.remove('gray-header');
       }
     };
-    if (!_.$gpages) {
+    if (!_.$gpages[0]) {
       window.addEventListener('scroll', scroll);
       window.addEventListener('load', scroll);
     }
