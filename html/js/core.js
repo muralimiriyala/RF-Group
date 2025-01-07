@@ -3,7 +3,6 @@
 import { jqueryselectBox } from './lib/jquery.selectBox.js';
 // import { DrawSVGPluginme } from './lib/DrawSVGPlugin.min.js';
 
-import { navigator } from './modules/navigator.js';
 import { menu } from './modules/menu.js';
 import { modal } from './modules/modal.js';
 import { search } from './modules/search.js';
@@ -18,7 +17,6 @@ import { counter } from './modules/counter.js';
 import { gsapscroll } from './modules/gsapscroll.js';
 
 (function () {
-  navigator.init();
   menu.init();
   modal.init();
   search.init();
