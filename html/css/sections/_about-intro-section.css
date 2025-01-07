@@ -8,6 +8,7 @@
 .about-intro-head > p{font-size: 20px; font-weight: 400; line-height: 150%;}
 
 .about-intro-stats{padding: 40px 0 0;}
+.about-intro-lists span{font-size: 72px; line-height: 100%; text-transform: uppercase; font-weight: 700; color: var(--Black); margin-bottom: 20px; }
 
 
 @media only screen and (min-width: 1024px){
