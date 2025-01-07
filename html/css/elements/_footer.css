@@ -121,6 +121,6 @@ ul.copyrights-menu > li > a:hover{color: var(--Blue);}
 }
 @media screen and (max-width: 389px) and (min-width: 200px) {
     ul.social-icons{gap: normal; justify-content: space-between;}
-    ul.footer-address > li > a{font-size: 14px;}
+    ul.footer-address > li > a{font-size: 14px; padding: 15px 12px;}
     ul.footer-address i{font-size: 14px;}
 }
