@@ -421,8 +421,10 @@ ul.slick-dots:not(.pagination) li button{display: none; padding: 0;}
     .hide-mobile{display: none;} 
 
     .h1, h1{font-size: 40px; letter-spacing: -0.8px;}
-    .h2, h2{font-size: 28px;}
-    .h3, h3{font-size: 2rem; line-height: 2.5rem; letter-spacing: -0.32px;}
+    .h2, h2{font-size: 28px; letter-spacing: -0.56px;}
+    .h3, h3{font-size: 24px; letter-spacing: -0.48px;}
+    .h4, h4{font-size: 20px; letter-spacing: -0.4px;}
+    .h5, h6{font-size: 18px; letter-spacing: -0.36px;}
 
     .button.btn-transparent{font-size: 16px;}
     a.text-link{font-size: 16px;}
