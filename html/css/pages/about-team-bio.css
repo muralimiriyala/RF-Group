@@ -61,7 +61,6 @@ ul.bio-links > li i{font-size: 20px;  font-weight: 400; color: var(--Blue); widt
 
     .about-bio-right-main {padding: 64px 40px;}
     .blue-block-desc{padding: 32px;}
-    /* .blue-block-wrap { margin-top: -105px;} */
     .blue-block-desc h3{font-size: 36px; letter-spacing: -0.72px;}
     .blue-block{padding: 40px 40px 0 40px;}
 }
@@ -83,4 +82,15 @@ ul.bio-links > li i{font-size: 20px;  font-weight: 400; color: var(--Blue); widt
     .blue-block-btn{display: block; width: inherit;}
     .blue-block-btn .button{width: 100%; gap: 8px; justify-content: center; font-size: 16px; padding: 13px 14px;}
     .blue-block-btn .button.btn-white{margin-bottom: 8px;}
+}
+
+
+@media only screen and (max-width: 374px) and (min-width: 200px){
+    .about-bio-con {padding: 16px 16px 20px;}
+    ul.bio-links > li{font-size: 15px;}
+    .about-bio-right-main { padding: 16px; }
+    .blue-block-desc h3 {padding: 0;}
+
+
+
 }
