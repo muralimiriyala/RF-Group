@@ -77,6 +77,12 @@ ul.copyrights-menu > li > a:hover{color: var(--Blue);}
     .footer-top{margin-bottom: 40px;}
     .footer-top-lt{width: 100%; margin-bottom: 32px;}
     .footer-top-rt{width: 100%;}
+    ul.footer-lists{align-items: flex-start; gap: 16px;}
+    ul.footer-lists > li{width: 100%; margin-bottom: 0;}
+    ul.footer-lists > li > a{font-size: 16px; line-height: 24px; font-weight: 600; justify-content: space-between; align-items: center;}
+    ul.footer-lists > li:first-child > a:hover{color: var(--Black);}
+    ul.footer-lists > li > a.btn-transparent{color: var(--White);}
+    ul.footer-lists > li > a.btn-transparent:hover{color: var(--Blue);}
     .footer-flag-name{display: none;}
     .footer-address-main{width: 100%; display: flex; gap: 12px;}
     .footer-address-main::before{display: none;}
