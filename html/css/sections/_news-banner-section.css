@@ -1,7 +1,20 @@
 
 .news-banner-title h1{margin-bottom: 0;}
+.news-item-text{flex: 1; background-color: var(--White); padding: 40px;}
+.news-item-image{flex: 1;}
+
+
+ul.category-lists{margin: 0;}
+ul.category-lists > li{margin: 0;}
+ul.category-lists > li::before{display: none;}
+ul.category-lists > li > a{gap: 8px; font-size: 16px; line-height: 16px; font-weight: 700;}
 
 @media screen and (min-width: 1024px) {
     .news-banner-main{padding: 160px 0 80px;}
     .news-banner-head{gap: 30px; justify-content: space-between;}
+
+    .news-banner-lists{gap: 40px;}
+    .news-banner-item{flex: 1;}
+    .news-banner-item:nth-child(1){flex: 0 0 calc(100% - 452px);}
+    .news-banner-item:nth-child(2){flex: 0 0 412px; }
 }
