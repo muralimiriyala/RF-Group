@@ -102,7 +102,7 @@ hr.sm-line{background-color: var(--Blue); height: 2px; border-radius: 1px; margi
 
 
 a.text-link{gap: 8px; align-items: center; font-size: 1.125rem; line-height: 100%; letter-spacing: 0; color: var(--Black);}
-a.text-link em{color: var(--Blue); font-size: 20px; left: 0; position: relative; top: 0; transition: all .5s ease;}
+a.text-link em{color: var(--Blue); font-size: 20px; left: 0; position: relative; top: 1px; transition: all .5s ease;}
 a.text-link:hover{color: var(--Blue);}
 a.text-link.white{color: var(--White);}
 a.text-link.white:hover em{color: var(--White);}
@@ -123,6 +123,13 @@ a.text-link i{color: var(--Blue);}
 .text-btn-link.sm{font-size: 1rem; line-height: 1rem; }
 .text-btn-link.sm span{border-width: 6px;}
 .text-btn-link.sm svg{width: 23px;}
+
+/*-- line animation --*/
+.line-anim::before, .line-anim::after{width: 12.5%; height: 1px; bottom: 0; position: absolute; background-color: var(--Blue); display: block; content: ""; display: block; opacity: 0; transition: all 0.5s ease;}
+.line-anim::before{left: auto; right: 50%;}
+.line-anim::after{left: 50%; right: auto}
+.line-anim:hover::before, .line-anim:hover::after{width: 50%; opacity: 1;}
+.line-anim:hover::after{transition-delay: 0.125s;}
 
 /* Responsive images. Fluid images for posts, comments, and widgets */
 embed, iframe, object, video{margin: 0; max-width: 100%; border-radius: 0; display: block; object-fit: cover;}
