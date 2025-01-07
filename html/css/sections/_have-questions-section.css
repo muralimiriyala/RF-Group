@@ -13,6 +13,7 @@ ul.have-questions-links li a.black:hover{color: var(--Black-50);}
 
 /* media css starts here */
 @media only screen  and (min-width: 1024px){
+    .have-questions-section{padding-bottom: 80px;}
     .have-questions-bg{height: calc(100% - 80px); top: auto; bottom: 0;}
     .have-questions-main{padding: 79px 80px; grid-template-columns: 350px auto;}
 }

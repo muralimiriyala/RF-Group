@@ -83,14 +83,13 @@ header.scrolly-header{transform: translateY(-100%);}
     ul.main_menu > li.current-menu-parent > a, ul.main_menu > li.current-page-ancestor > a, ul.main_menu > li.current-menu-item > a, ul.main_menu > li > a:hover{color: var(--White);}
     ul.main_menu > li.button{padding: 0;}
     ul.main_menu > li.button > a{padding: 12px 17px 12px}
-    ul.main_menu > li > ul{visibility: hidden; opacity: 0; transition: visibility 0.3s ease, opacity 0.3s ease, transform 0.3s ease; pointer-events: none; margin: 0; padding: 21px 32px 15px; min-width: 300px; left: 50%; transform: translateX(-50%); border-radius: 0 0 8px 8px; background-color: var(--White); position: absolute; box-shadow: 0 6px 12px 0 rgba(24,42,84,.1); z-index: 820;}
+    ul.main_menu > li > ul{visibility: hidden; opacity: 0; transition: visibility 0.3s ease, opacity 0.3s ease, transform 0.3s ease; pointer-events: none; margin: 0; padding: 21px 32px 15px; min-width: 300px; left: 50%; transform: translateX(-50%); position: absolute; z-index: 820; border: 1px solid var(--Blue); border-top-color: transparent;}
+    ul.main_menu > li > ul::before{width: calc(100% - 16px); height: calc(100% - 8px); top: 0; left: 8px; content: ""; display: block; position: absolute; background-color: var(--White);}
     ul.main_menu > li:hover > ul{visibility: visible; opacity: 1; pointer-events: all;}
     ul.main_menu > li > ul > li{margin: 0 0 11px;}
-
-    ul.main_menu > li > ul > li:not(.nav-gradient-bar).hide-nav-desktop{display: none;}
-    ul.main_menu > li > ul > li:not(.nav-gradient-bar).current_page_item > a{color: var(--Blue);}
-    ul.main_menu > li > ul > li:not(.nav-gradient-bar) > a{font-size: 1rem; line-height: 1.375rem; font-weight: 800; display: block; color: var(--Black);}
-    ul.main_menu > li > ul > li:not(.nav-gradient-bar) > a:hover{color: var(--Blue);}
+    ul.main_menu > li > ul > li > a{gap: 10px; display: flex; flex-wrap: wrap; font-size: 1rem; line-height: 150%; font-weight: 700; color: var(--Black);}
+    ul.main_menu > li > ul > li > a:hover{color: var(--Blue);}
+    ul.main_menu > li > ul > li > a img{width: 25px; object-fit: contain;}
     ul.main_menu > li > ul > li > ul{margin: 22px 0 25px 21px;}
     ul.main_menu > li > ul > li > ul > li > a{font-size: 1rem; line-height: 1.375rem; font-weight: 700; display: block; color: var(--Black);}
     ul.main_menu > li > ul > li > ul > li > a:hover{color: var(--Blue);}
@@ -236,11 +235,11 @@ header.scrolly-header{transform: translateY(-100%);}
     ul.main_menu > li > ul > li:first-child{padding-top: 20px; margin-bottom: 0;}
     ul.main_menu > li > ul > li:not(.nav-gradient-bar){padding-bottom: 8px;}
     ul.main_menu > li > ul > li{margin: 0 0 12px;}
-    ul.main_menu > li > ul > li:not(.nav-gradient-bar) > a{color: var(--Black); font-family: var(--base-font); font-size: 1rem; font-weight: 800; line-height: 1.5rem; display: block; position: relative;}
+    ul.main_menu > li > ul > li > a{color: var(--Black); font-family: var(--base-font); font-size: 1rem; font-weight: 800; line-height: 1.5rem; display: block; position: relative;}
     ul.main_menu > li > ul > li.current_page_item > a{color: var(--Blue);}
     ul.main_menu > li > ul > li.nav-gradient-bar.current_page_item > a{color: var(--White);}
     ul.main_menu > li > ul > li.nav-gradient-bar.current_page_item > a:hover{color: var(--White-90);}
-    ul.main_menu > li > ul > li:not(.nav-gradient-bar) > a:hover, ul.main_menu > li > ul > li.current_page_item > a:hover{color: var(--Blue);}
+    ul.main_menu > li > ul > li > a:hover, ul.main_menu > li > ul > li.current_page_item > a:hover{color: var(--Blue);}
     ul.main_menu > li > ul > li.menu-item-has-children > a::after{top: calc(50% + 1px); transform: translateY(-50%); right: 0; width: 15px; height: 9px; background-repeat: no-repeat; content: ""; display: block; position: absolute;}
     ul.main_menu > li > ul > li.menu-item-has-children > a.active::after{transform: translateY(-50%) scaleY(-1);}
     ul.main_menu > li > ul > li > ul{margin: 21px 0 0 13px; padding: 0 0 8px;}
