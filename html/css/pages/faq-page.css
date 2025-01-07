@@ -15,6 +15,7 @@ ul.faqs-links li::before{display: none;}
 ul.faqs-links li a{color: var(--Black); gap: 8px;}
 ul.faqs-links li a:hover{color: var(--Blue);}
 ul.faqs-links li a i{color: var(--Blue);}
+ul.faqs-links li a:hover i{transform: translateX(8px);}
 
 .faqs-text h2 a{color: var(--Blue);}
 .faqs-text h2 a:hover{color: var(--Black);}

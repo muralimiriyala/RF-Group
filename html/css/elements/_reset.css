@@ -102,7 +102,7 @@ hr.sm-line{background-color: var(--Blue); height: 2px; border-radius: 1px; margi
 
 
 a.text-link{gap: 8px; align-items: center; font-size: 1.125rem; line-height: 100%; letter-spacing: 0; color: var(--Black);}
-a.text-link em{color: var(--Blue); font-size: 20px; left: 0; position: relative; top: 0; transition: all .5s ease;}
+a.text-link em{color: var(--Blue); font-size: 20px; left: 0; position: relative; top: 1px; transition: all .5s ease;}
 a.text-link:hover{color: var(--Blue);}
 a.text-link.white{color: var(--White);}
 a.text-link.white:hover em{color: var(--White);}
