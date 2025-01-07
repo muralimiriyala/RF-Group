@@ -68,6 +68,8 @@ ul.bio-links > li i{font-size: 20px;  font-weight: 400; color: var(--Blue); widt
 @media only screen and (max-width: 809px) and (min-width: 200px){
     .about-bio-con{padding: 24px;}
     .about-bio-left{margin: 0 0 24px;}
+    .about-bio-info h1 {font-size: 36px; line-height: 125%; letter-spacing: -0.72px;}
+    ul.bio-links > li {margin-bottom: 12px;}
     .about-bio-right-main{padding: 40px 24px 32px;}
     .about-bio-right-main p { font-size: 16px; line-height: 150%; margin-bottom: 24px;}
     .about-bio-right-main .h4 { font-size: 20px; letter-spacing: -0.4px;}
