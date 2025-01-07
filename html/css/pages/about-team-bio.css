@@ -79,7 +79,7 @@ ul.bio-links > li i{font-size: 20px;  font-weight: 400; color: var(--Blue); widt
     .blue-block{padding: 0;}
     .blue-block-desc {padding: 24px;}
     .blue-block-desc p{font-size: 16px; margin-bottom: 24px;}
-    .blue-block-desc h3{font-size: 28px;}
+    .blue-block-desc h3{font-size: 28px; padding: 0 20px;}
     .blue-block-btn{display: block; width: inherit;}
     .blue-block-btn .button{width: 100%; gap: 8px; justify-content: center; font-size: 16px; padding: 13px 14px;}
     .blue-block-btn .button.btn-white{margin-bottom: 8px;}
