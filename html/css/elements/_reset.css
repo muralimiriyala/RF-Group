@@ -122,6 +122,13 @@ a.text-link.navy i{color: var(--Navy);}
 .text-btn-link.sm span{border-width: 6px;}
 .text-btn-link.sm svg{width: 23px;}
 
+/*-- line animation --*/
+.line-anim::before, .line-anim::after{width: 12.5%; height: 1px; bottom: 0; position: absolute; background-color: var(--Blue); display: block; content: ""; display: block; opacity: 0; transition: all 0.5s ease;}
+.line-anim::before{left: auto; right: 50%;}
+.line-anim::after{left: 50%; right: auto}
+.line-anim:hover::before, .line-anim:hover::after{width: 50%; opacity: 1;}
+.line-anim:hover::after{transition-delay: 0.125s;}
+
 /* Responsive images. Fluid images for posts, comments, and widgets */
 embed, iframe, object, video{margin: 0; max-width: 100%; border-radius: 0; display: block; object-fit: cover;}
 p > embed, p > iframe, p > object, span > embed, span > iframe, span > object {margin-bottom: 0;}
