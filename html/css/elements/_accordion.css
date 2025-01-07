@@ -1,14 +1,13 @@
 
 .accordion-list.white { background-color: var(--White); } 
-.accordion-list{margin-bottom: 18px; padding: 4px; border: 1px solid transparent;} 
+.accordion-list{margin-bottom: 18px;} 
 .accordion-list:last-child { margin-bottom: 0; } 
-.accordion-list.open, .accordion-list.open:hover{border-color: var(--Gray);}
-.accordion-list:hover{border-color: var(--Blue);}
-.accordion-list::before{ transition: all 0.5s ease; width: calc(100% - 8px); height: calc(100% - 8px); top: 4px; left: 4px; background: var(--Gray); position: absolute; content: ""; display: block; z-index: -1;}
-.accordion-list:hover::before{background: var(--Light-Blue);}
-.accordion-list.open:hover::before{background: var(--Gray);}
-.accordion-header{padding: 17px 64px 21px 21px; color: var(--Black); font-size: 16px; line-height: 150%; cursor: pointer; position: relative; font-weight: 700;} 
-
+.accordion-header{padding: 17px 64px 21px 21px; border: 1px solid transparent; color: var(--Black); font-size: 16px; line-height: 150%; cursor: pointer; position: relative; font-weight: 700; z-index: 1;}  
+.accordion-header::before, .accordion-desc::before{ transition: all 0.5s ease; width: calc(100% - 8px); height: calc(100% - 8px); top: 4px; left: 4px; background: var(--Gray); position: absolute; content: ""; display: block; z-index: -1;}
+.accordion-header:hover{border-color: var(--Blue);}
+.accordion-header.open, .accordion-header.open:hover{border-color: var(--Gray); border-bottom-color: transparent;}
+.accordion-header:hover::before{background: var(--Light-Blue);}
+.accordion-header.open:hover::before{background: var(--Gray);}
 
 .accordion-header:hover, .accordion-header.open{font-weight: 400;}
 .accordion-plus{left: auto; right: 20px; top: calc(50% + 1px); transform: translateY(-50%); max-width: 18px; flex-direction: column;}
@@ -18,8 +17,9 @@
 .accordion-header.open svg{ transform: rotate(180deg); } 
 
 
-.accordion-content { max-height: 0; transition: max-height 0.9s; overflow: hidden; } 
-.accordion-desc {padding: 10px 24px 24px;}
+.accordion-content{border: 1px solid transparent; margin-top: -2px; max-height: 0; transition: max-height 0.9s; overflow: hidden; } 
+.open .accordion-content{border-color: var(--Gray); border-top-color: transparent; }
+.accordion-desc {padding: 12px 24px 29px;}
 .accordion-desc ul>li::before { top: 8px; left: -20px; width: 6px; height: 6px; } 
 .accordion-desc ol { margin: 0 0 28px 29px; }
 .accordion-desc ol > li::before { top: 0; left: -20px; font-size: 1.125rem; line-height: 1.688rem; } 
