@@ -123,6 +123,7 @@ a.text-link.navy i{color: var(--Navy);}
 .text-btn-link.sm svg{width: 23px;}
 
 /*-- line animation --*/
+.line-anim{position: relative;}
 .line-anim::before, .line-anim::after{width: 12.5%; height: 1px; bottom: 0; position: absolute; background-color: var(--Blue); display: block; content: ""; display: block; opacity: 0; transition: all 0.5s ease;}
 .line-anim::before{left: auto; right: 50%;}
 .line-anim::after{left: 50%; right: auto}
