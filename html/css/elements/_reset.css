@@ -113,6 +113,8 @@ a.text-link:hover em{left: 8px;}
 a.text-link.navy{color: var(--Navy);}
 a.text-link.navy i{color: var(--Navy);}
 
+a.text-link i{color: var(--Blue);}
+
 .text-btn-link{display: inline-flex; align-items: center; color: var(--White); font-size: 1.25rem; line-height: 100%;}
 .text-btn-link:hover{color: var(--White);}
 .text-btn-link > span{padding: 10px 16px 10px; flex: 1; border-radius: 28px; border: 8px solid var(--Orange); display: inline-block;}

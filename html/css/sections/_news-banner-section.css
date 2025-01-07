@@ -1,0 +1,7 @@
+
+.news-banner-title h1{margin-bottom: 0;}
+
+@media screen and (min-width: 1024px) {
+    .news-banner-main{padding: 160px 0 80px;}
+    .news-banner-head{gap: 30px; justify-content: space-between;}
+}
