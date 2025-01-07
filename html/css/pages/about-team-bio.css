@@ -6,7 +6,7 @@
 .about-bio-list{background-color: var(--White);}
 .about-bio-con{font-size: 18px; padding: 40px 28px 40px 40px; font-weight: 700; line-height: 100%;}
 .about-bio-img:after{position: absolute; background: var(--Blue); width: 100%; height: 12px; bottom: 0; left: 0; display: block; content:""; z-index: 1;}
-ul.bio-links{margin: 0 ;}
+ul.bio-links{margin: 0; color: var(--Black);}
 ul.bio-links > li{margin-bottom: 20px;}
 ul.bio-links > li:last-child{margin-bottom: 0;}
 ul.bio-links > li:before{display: none;}
@@ -15,8 +15,8 @@ ul.bio-links > li:has(a) a{gap: 0 12px; color: var(--Black);}
 ul.bio-links > li:has(a) a:hover{color: var(--Blue);}
 ul.bio-links > li i{font-size: 20px;  font-weight: 400; color: var(--Blue); width: 20px; text-align: center;}
 
-.about-bio-right-main{color: var(--Text-Gray); padding: 80px ; background-color: var(--White);}
-.about-bio-info h1{font-weight: 600; letter-spacing: -0.96px; margin-bottom: 2px;}
+.about-bio-right-main{color: var(--Text-Gray); padding: 78px 80px 80px ; background-color: var(--White);}
+.about-bio-info h1{font-size: 48px; letter-spacing: -0.96px; margin-bottom: 2px;}
 .about-bio-info span{color: var(--Blue); font-weight: 700; line-height: 100%; display: block; margin-bottom: 40px;}
 .about-bio-right-main p{margin-bottom: 40px;}
 .about-bio-info + p{margin-bottom: 16px;}
@@ -25,7 +25,7 @@ ul.bio-links > li i{font-size: 20px;  font-weight: 400; color: var(--Blue); widt
 .about-bio-right-main ul{margin: 0 0 90px 26px;}
 .about-bio-right-main ul > li::before {left: -17px; top: 13px; background-color: var(--Text-Gray);}
 
-.blue-block-wrap{position: relative; margin-top: -100px; padding: 40px; z-index: 1;}
+.blue-block-wrap{position: relative; z-index: 1;}
 .blue-block-desc { background-color: var(--Blue); padding: 40px; text-align: center; color: var(--White)}
 .blue-block-desc p{font-size: 18px; font-weight: 700; line-height: 100%; margin-bottom: 24px;}
 .blue-block-desc h3{font-size: 40px; font-weight: 600; line-height: 125%; letter-spacing: -0.8px; color: var(--White); margin-bottom: 24px;}
@@ -33,24 +33,20 @@ ul.bio-links > li i{font-size: 20px;  font-weight: 400; color: var(--Blue); widt
 .blue-block-btn{padding: 8px; display: flex; gap: 8px; border: 1px solid var(--White); }
 .blue-block-btn .button{width: 100%; gap: 8px; justify-content: center; font-size: 16px; padding: 15px 16px;}
 
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .blue-block-wrap{margin-top: -100px; padding: 40px;}
+}
 @media only screen and (max-width: 1199px) and (min-width: 1024px){
     .about-bio-main{gap: 40px;}
     .about-bio-right { flex: 0 0 calc(100% - 390px); }
     .about-bio-right-main{padding: 40px;}
     .about-bio-right-main h1 {font-size: 40px;}
-
-
-
 }
 @media only screen and (max-width: 1023px) and (min-width: 200px){
     .about-bio-main{display: block; padding: 40px 0;}
     .about-bio-info span {margin-bottom: 20px;}
-
-
-
-
 }
-
 @media only screen and (max-width: 1023px) and (min-width: 810px){
     .about-bio-left{margin: 0 0 40px;}
     .about-bio-list{display: flex; flex-wrap: wrap; align-items: center; }
@@ -65,7 +61,6 @@ ul.bio-links > li i{font-size: 20px;  font-weight: 400; color: var(--Blue); widt
     .blue-block-desc h3{font-size: 36px; letter-spacing: -0.72px;}
     .blue-block{padding: 40px 40px 0 40px;}
 }
-
 @media only screen and (max-width: 809px) and (min-width: 200px){
     .about-bio-con{padding: 24px;}
     .about-bio-left{margin: 0 0 24px;}
@@ -82,5 +77,4 @@ ul.bio-links > li i{font-size: 20px;  font-weight: 400; color: var(--Blue); widt
     .blue-block-btn{display: block; width: inherit;}
     .blue-block-btn .button{width: 100%; gap: 8px; justify-content: center; font-size: 16px; padding: 13px 14px;}
     .blue-block-btn .button.btn-white{margin-bottom: 8px;}
-
 }
