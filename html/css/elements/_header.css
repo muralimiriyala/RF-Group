@@ -202,7 +202,8 @@ header.scrolly-header{transform: translateY(-100%);}
 
     .header{padding: 12px 0; gap: 16px; justify-content: center; position: relative; z-index: 2;}
     .logo{flex: 0 0 164px; position: relative; z-index: 1;}
-    .site-main-cover{padding-top: 68px;}
+    .site-main-cover.site-gray{padding-top: 68px;}
+
 
     span.black-logo{display: none;}
     span.black-logo img{max-width: 218px;}

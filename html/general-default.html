@@ -8,7 +8,7 @@
     <meta name="keywords" content="HTML, CSS, XML, PHP, JavaScript, jQuery">
     <meta name="description" content="RF Group Development">
     <!-- Title -->
-    <title>RF Group: 404 Page</title>
+    <title>RF Group: General Default Page</title>
 
     <!-- Favicons -->
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="./style.css" media="all">
     <link rel="stylesheet" href="./style.bundle.css?v=619078" media="all">
 </head>
-<body class="page-template-404">
+<body>
   <header class="site-header">
     <div class="container">
         <div class="header flex flex-vcenter">
@@ -83,16 +83,35 @@
     </div>
 </header>
 <main class="site-main-cover">
-<section class="page-not-section">
-    <div class="container">
-        <div class="page-not-main aligncenter">
-            <div class="page-not-text">
-                <span class="optional-text green">404 page not found</span>
-                <h1>Oops !</h1>
-                <p>The page you are looking for might have been removed had its name changed or is temporarily unavailable.</p>
-                <a href="index.html" class="button back">Back to Home</a>
+<section class="default-banner-section relative">
+    <div class="default-banner-image background-bg">
+        <picture class="object-fit default-banner-thumb">
+            <source srcset="images/default-banner@2x.jpg" media="(min-width: 768px)">
+            <img src="images/default-banner-mob@2x.jpg" alt="default-banner">
+        </picture>
+        <div class="default-banner-overlay background-bg black-bg"></div>
+    </div>
+    <div class="container mobile-0">
+        <div class="default-banner-text fs-20">
+            <span class="optional-text">Optional preheader</span>
+            <h1>Default template</h1>
+            <hr data-animate="64">
+            <p>A short excerpt can optionally appear here to introduce the page euismod cras porttitor felis malesuada quam aliquet porttitor lacus. Sed accumsan</p>
+            <div class="default-banner-btn flex flex-vcenter">
+                <a href="#" class="button btn-transparent text-white">Optional CTA</a>
+                <a href="#" class="text-link inline-flex f-800 white">Secondary CTA<em class="fa-sharp fa-regular fa-arrow-right"></em></a>
             </div>
         </div>
+    </div>
+</section>  
+<section class="default-article-section">
+    <div class="container">
+        <article class="default-article">
+            <h2>Short subhead if necessary</h2>
+        </article>
+        <aside class="default-aside">
+
+        </aside>
     </div>
 </section>
 </main>

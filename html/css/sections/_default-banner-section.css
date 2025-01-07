@@ -1,0 +1,24 @@
+
+.default-banner-section{background: #302135;  margin-top: -1px;}
+.default-banner-overlay{opacity: 0.7; z-index: 0;}
+
+.default-banner-text{color: var(--White);}
+.default-banner-text h1{color: var(--White);}
+.default-banner-text hr[data-animate]{margin-bottom: 24px;}
+.default-banner-text p{margin-bottom: 24px;}
+.default-banner-btn{gap: 16px;}
+
+.default-banner-text.no_about_banner_img{max-width: 100%;}
+
+/*-- media css --*/
+@media screen and (min-width: 1024px) {
+    .default-banner-text{padding: 161px 0 178px; max-width: 695px;}
+}
+@media screen and (max-width: 1023px) and (min-width: 810px) {
+    .default-banner-text{padding: 144px 0 80px;}
+}
+@media screen and (max-width: 809px) and (min-width: 200px) {
+    .default-banner-image{position: relative;}
+    .default-banner-text{padding: 40px 20px 80px; font-size: 18px; background-color: var(--Black); }
+    .default-banner-text h1{margin-bottom: 26px;}
+}

@@ -29,6 +29,10 @@
 @import url('./sections/_have-questions-section.css');
 @import url('./sections/_about-intro-section.css');
 
+
+@import url('./sections/_default-banner-section.css');
+
+
 /*-- From 3rd party css's --*/
 @import './lib/slick.css';
 @import './lib/magnific-popup.css';
