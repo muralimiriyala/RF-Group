@@ -38,7 +38,7 @@ ul.bio-links > li i{font-size: 20px;  font-weight: 400; color: var(--Blue); widt
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .about-bio-right-main ul{margin: 0 0 90px 26px;}
+    .about-bio-right-main ul{margin: 0 0 70px 26px;}
     .blue-block-wrap{margin-top: -100px; padding: 40px;}
 }
 @media only screen and (max-width: 1199px) and (min-width: 1024px){
