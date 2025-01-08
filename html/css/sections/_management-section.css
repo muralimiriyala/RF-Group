@@ -2,15 +2,15 @@
 .management-block{color: var(--White); text-align: center; }
 .management-block p{font-size: 18px; font-weight: 700; line-height: 100%;}
 .management-block h3{font-size: 40px; font-weight: 600; line-height: 125%; letter-spacing: -0.8px; color: var(--White); margin-bottom: 32px;}
-.navy-block-btns { display: block; margin: 0 auto; max-width: 514px; width: 100%; }
+.navy-block-btns { display: block; margin: 0 auto; max-width: 458px; width: 100%; }
   .navy-block-btn { border: 1px solid var(--White); display: flex; gap: 8px; padding: 8px; }
   .navy-block-btn .button.btn-white { color: var(--Black); }
-  .navy-block-btn .button { font-size: 18px; gap: 8px; justify-content: center; padding: 15px 10px; width: 100%; }
+  .navy-block-btn .button { font-size: 16px; gap: 8px; justify-content: center; padding: 8px 12px; width: 100%; }
   .navy-block-btn .button.btn-white i { color: var(--Navy); }
 
-  .management-team-row{gap: 40px; margin: -84px 0 80px;}
-  .management-team-image img{width: 160px; border: 8px solid rgba(0, 0, 0, 0.1); border-radius: 120px;}
-.management-team-list{flex: 0 0 calc(25% - 40px); text-align: center; }
+.management-team-row{ margin: -84px 0 80px;}
+.management-team-image img{width: 160px; border: 8px solid rgba(0, 0, 0, 0.1); border-radius: 120px;}
+.management-team-list{ text-align: center; }
 .management-team-image{margin-bottom: 12px;}
 .management-team-info h4{font-size: 24px; font-weight: 600; line-height: 125%; letter-spacing: -0.48px; margin-bottom: 0;}
 .management-team-info span{font-size: 14px; color: var(--Text-Gray); font-weight: 400;}
@@ -18,3 +18,23 @@
 .management-team-info hr{ background-color: var(--Navy); border: none; border-radius: 1px; display: block; height: 2px; width: 64px; margin: 16px auto 16px;}
 
 .management-section{background-image: linear-gradient(to top,var(--White) calc(100% - var(--top-value)),var(--Gray) var(--top-value));}
+.management-team-info a{color: var(--Black); font-weight: 700; font-size: 16px; line-height: 150%;}
+.management-team-info a:hover{color: var(--Blue);}
+
+
+/*-- media css --*/
+@media only screen and (min-width: 1024px){
+    .management-team-row{gap: 40px;}
+    .management-team-list{flex: 0 0 calc(25% - 40px); }
+
+}
+
+
+@media only screen and (max-width: 1199px) and (min-width: 1024px){
+
+.management-team-row { gap: 20px;}
+.management-team-list { flex: 0 0 calc(25% - 15px);}
+
+
+
+}

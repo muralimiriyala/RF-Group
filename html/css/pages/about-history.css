@@ -19,7 +19,7 @@ ul.about-history-years > li a:hover::before{opacity: 1;}
 .about-history-intro p{margin-bottom: 16px;}
 .about-history-list:last-child{margin-bottom: 0;}
 .about-history-list:before{position: absolute; display: block; content: ""; top: 0; left: 0; width: 4px; height: 100%; background-color: var(--Blue);}
-
+.about-history-intro ul > li:last-child{margin-bottom: 0;}
 
 
 @media only screen and (min-width: 1024px){
@@ -33,5 +33,15 @@ ul.about-history-years > li a:hover::before{opacity: 1;}
     .about-history-intro{flex: 0 0 calc(100% - 182px);}
 
 
+
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 810px){
+    .about-history-main{gap: 40px; padding: 64px 0;}
+    .about-history-aside{flex: 0 0 78px;}
+    .about-history-article{flex: 0 0 calc(100% - 118px)}
+
+    .about-history-list {padding: 32px; margin-bottom: 32px;}
+    .about-history-list .about-history-num {font-size: 48px; letter-spacing: -0.96px;}
 
 }
