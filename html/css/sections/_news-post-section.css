@@ -1,6 +1,12 @@
 
 .news-post-section{background-color: var(--Background-Gray);}
 
+ul.filter-links{margin: 0; gap: 12px;}
+ul.filter-links > li{margin: 0;}
+ul.filter-links > li::before{display: none;}
+ul.filter-links > li > a{font-size: 20px; line-height: 20px; padding: 14px 16px 10px; display: inline-block; font-family: var(--heading-font);  color: var(--Text-Gray); font-weight: 600; border-bottom: 4px solid var(--White);}
+ul.filter-links > li > a.active{background-color: var(--White); color: var(--Black);}
+
 @media screen and (min-width: 1024px) {
     .news-post-main{padding: 80px 0;}
 }
