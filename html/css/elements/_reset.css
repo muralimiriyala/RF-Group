@@ -192,6 +192,9 @@ span.optional-text.lg{margin-bottom: 8px; font-size: 1.125rem; line-height: 1.12
 
 .text-black{color: var(--Black);}
 .text-black.opa-50{color: var(--Black-50);}
+.text-blue{color: var(--Blue);}
+.text-upper{text-transform: uppercase;}
+.text-lower{text-transform: uppercase;}
 
 .f-300{font-weight: 300;}
 .f-400{font-weight: 400;}
@@ -212,6 +215,7 @@ span.optional-text.lg{margin-bottom: 8px; font-size: 1.125rem; line-height: 1.12
 .fs-24{font-size: 1.5rem; line-height: 1.875rem;}
 .fs-32{ font-size: 2rem; line-height: 2rem; }
 .fs-40{ font-size: 2.5rem; line-height: 2.5rem;}
+.fs-72{font-size: 72px; line-height: 125%;}
 .lh-100{line-height: 100%;}
 .lh-125{line-height: 125%;}
 .lh-150{line-height: 150%;}
