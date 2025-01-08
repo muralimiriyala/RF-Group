@@ -1,4 +1,7 @@
 
+
+:root{ --top-value: 80px; --low-value: 40px; }
+.have-questions-section{background-image: linear-gradient(to top, var(--Gray) calc(100% - var(--low-value)) , var(--White) var(--low-value));}
 .have-questions-bg{top: auto; bottom: 0;}
 .have-questions-text h2{margin-bottom: 26px;}
 .have-questions-text p{margin-bottom: 20px;}
@@ -13,15 +16,14 @@ ul.have-questions-links li a.black:hover{color: var(--Black-50);}
 
 /* media css starts here */
 @media only screen  and (min-width: 1024px){
-    .have-questions-section{padding-bottom: 80px;}
-    .have-questions-bg{height: calc(100% - 80px); top: auto; bottom: 0;}
+    .have-questions-section{padding-bottom: 80px; background-image: linear-gradient(to top, var(--Gray) calc(100% - var(--top-value)) , var(--White) var(--top-value));}
     .have-questions-main{padding: 79px 80px; grid-template-columns: 350px auto;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 810px){
-    .have-questions-bg{height: calc(100% - 40px);}
+    .have-questions-section{padding-bottom: 64px;}
     .have-questions-main{padding: 40px;}
 }
 @media only screen and (max-width: 809px) and (min-width: 200px){
-    .have-questions-bg{height: calc(100% - 40px);}
+    .have-questions-section{padding-bottom: 40px;}
     .have-questions-main{padding: 40px;}
 }
