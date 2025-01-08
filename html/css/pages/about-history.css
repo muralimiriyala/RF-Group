@@ -24,15 +24,14 @@ ul.about-history-years > li a:hover::before{opacity: 1;}
 
 @media only screen and (min-width: 1024px){
     .about-history-main{gap: 80px; padding: 80px 0 80px;}
-    .about-history-aside{flex: 0 0 78px;}
+    .about-history-aside{flex: 0 0 78px; }
     .about-history-article{flex: 0 0 calc(100% - 159px)}
-
     
     .about-history-list{gap: 40px;}
     .about-history-list .about-history-num{flex: 0 0 136px;}
     .about-history-intro{flex: 0 0 calc(100% - 182px);}
 
-
+   .sticky ul.about-history-years{position: fixed; top: 104px; min-width: 78px;}
 
 }
 
