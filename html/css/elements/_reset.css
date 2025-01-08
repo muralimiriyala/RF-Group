@@ -10,7 +10,7 @@ a{color: var(--Blue);text-decoration: none; transition: var(--b-transition);}
 a:focus {outline: none;}
 a:hover, a:active {outline: 0;}
 a:hover{color: var(--Blue);}
-p a{background-color: rgba(164,39,143,.15); color: var(--Black); border-radius: 4px; font-weight: 700; padding: 0 6px;}
+p a{color: var(--Black); text-decoration: underline; text-decoration-color: var(--Blue); font-weight: 700;}
 p a:hover{color: var(--Blue);}
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{clear: both; margin: 0; color: var(--Black); font-weight: 600; font-family: var(--heading-font); line-height: 125%; text-transform: none;}
 .h1, h1{font-size: 64px; margin-bottom: 28px; letter-spacing: -1.28px;}
@@ -25,7 +25,7 @@ address{font-size: 1.125rem; line-height: 1.5rem; margin-bottom: 24px;}
 abbr[title] {border-bottom: 1px dotted var(--Navy); cursor: help;}
 b, strong {font-weight: 700;}
 cite, dfn, em, i {font-style: italic;} 
-p{margin-bottom: 26px;}
+p{margin-bottom: 17px;}/*-- dont change here --*/
 p:last-child{margin-bottom: 0;}
 code, kbd, tt, var, samp, pre {font-size: 0.938rem; -webkit-hyphens: none; -moz-hyphens: none; -ms-hyphens: none; hyphens: none; line-height: 1.6;}
 pre {border: 1px solid rgba(0, 0, 0, 0.1); -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; margin-bottom: 24px; max-width: 100%; overflow: auto; padding: 12px; white-space: pre; white-space: pre-wrap; word-wrap: break-word;}
@@ -47,7 +47,7 @@ blockquote dl dt::before{background-color: var(--White);}
 dd {margin-bottom: 24px;}
 ul {list-style: none; margin: 0 0 26px 26px;}
 ul > li {counter-increment: li; position: relative; margin-bottom: 8px;}
-ul > li:before{top: 10px; left: -16px; width: 5px; height: 5px; border-radius: 50%; opacity: 1; background-color: var(--Black); content: ""; position: absolute;} 
+ul > li:before{top: 10px; left: -16px; width: 6px; height: 6px; border-radius: 50%; opacity: 1; background-color: var(--Black); content: ""; position: absolute;} 
 li > ul {margin: 25px 0 26px 25px;}
 ol {counter-reset: section; list-style: none; margin: 0 0 28px 28px;}
 ol > li {counter-increment: li; position: relative; margin-bottom: 8px;}
@@ -90,7 +90,7 @@ hr.sm-line{background-color: var(--Blue); height: 2px; border-radius: 1px; margi
 /* Buttons */
 .button, button, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{padding: 12px 14px 12px; font-size: 18px; font-weight: 700; line-height: 100%; border: 2px solid transparent; font-family: var(--body-font); display: inline-block; background: var(--Blue); color: var(--White); border-radius: 0; cursor: pointer; vertical-align: middle; text-decoration: none; text-transform: none; text-align: center; outline: 0; position: relative; -webkit-writing-mode: horizontal-tb; -ms-writing-mode: horizontal-tb; writing-mode: horizontal-tb; text-orientation: mixed; box-shadow: none; transition: var(--b-transition); z-index: 1; margin: 0; transition: all .5s ease;}
 .button:hover, button:hover, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover{
-    transform: perspective(500px) rotateY(calc(10deg*var(--_i,-1)));
+    transform: perspective(500px) rotateY(calc(12.5deg*var(--_i,-1)));
     color: var(--White);
 }
 
