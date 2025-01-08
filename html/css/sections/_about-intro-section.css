@@ -6,10 +6,10 @@
 .about-intro-lt > p{font-size: 20px; font-weight: 400; line-height: 150%;}
 .about-intro-lt h1{margin-bottom: 0;}
 
-.about-intro-stats{padding: 40px 0 0;}
-.about-intro-lists span{font-size: 72px; line-height: 100%; text-transform: uppercase; font-weight: 700; color: var(--Black); margin-bottom: 20px; display: block; }
-.about-intro-lists p{font-size: 16px; font-weight: 400; line-height: 150%;}
-.about-intro-lists h2{margin-bottom: 0;}
+.about-intro-lists{padding: 40px 0 0;}
+.about-intro-list span{font-size: 72px; line-height: 100%; text-transform: uppercase; font-weight: 700; color: var(--Black); margin-bottom: 20px; display: block; }
+.about-intro-list p{font-size: 16px; font-weight: 400; line-height: 150%;}
+.about-intro-list h2{margin-bottom: 0;}
 
 /*-- media css --*/
 @media only screen and (min-width: 1024px){
@@ -17,8 +17,10 @@
     .about-intro-lt{flex: 0 0 435px; margin-bottom: 0;}
     .about-intro-rt{flex: 0 0 calc(100% - 475px);  margin-bottom: 0;}
 
-    .about-intro-stats{gap: 40px;}
-    .about-intro-lists{flex: 0 0 calc(25% -  30px);}
+    .about-intro-lists{gap: 40px;}
+    .intro-list-4{flex: 0 0 calc(25% -  30px);}
+    .intro-list-3{flex: 0 0 calc(33.3333333% -  27px);}
+    .intro-list-2{flex: 0 0 calc(50% -  20px);}
 }
 
 
