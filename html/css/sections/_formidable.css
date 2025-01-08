@@ -34,7 +34,7 @@ body .frm_style_formidable-style.with_frm_style .form-field input:not([type="fil
 body .frm_forms .frm_form_fields .frm_form_field input:not([type="file"]):focus,
 body .frm_forms .frm_form_fields .frm_form_field input:not([type="checkbox"]):focus, 
 body .frm_forms .frm_form_fields .frm_form_field input:not([type="radio"]):focus,
-textarea:focus{background-color: rgba(30, 164, 181, .1); border: 1px solid var(--Earthy-Blue); box-shadow: none; color: var(--Earthy-Blue); border-color: var(--Earthy-Blue ); opacity: 1;}
+textarea:focus{ border: none; box-shadow: none; color: var(--White); opacity: 1;}
 
 body .frm_forms.with_frm_style .frm_fields_container .frm_radio input[type="radio"]:not([disabled]):checked, 
 body .frm_forms.with_frm_style .frm_fields_container .frm_scale input[type="radio"]:not([disabled]):checked, 

@@ -13,6 +13,7 @@ ul.category-lists > li > a{gap: 8px; font-size: 16px; line-height: 16px; font-we
 .news-item-text{background-color: var(--White);}
 .news-banner-row:nth-child(even) .news-item-content{gap: 12px;}
 .news-banner-row:nth-child(even) .news-item-content h2{font-size: 24px; line-height: 30px; margin-bottom: 0; letter-spacing: -0.48px;}
+.news-banner-row:nth-child(odd) .news-item-image::before{content: ""; position: absolute; width: 28px; height: 56px; top: 50%; left: 0; transform: translateY(-50%); background: var(--White); clip-path: polygon(100% 50%, 0 0, 0 100%);}
 
 @media screen and (min-width: 1024px) {
     .news-banner-main{padding: 160px 0 80px;}
