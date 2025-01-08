@@ -15,6 +15,8 @@ import { uiAccordion } from './modules/accordion.js';
 import { gsapanim } from './modules/gsap.js';
 import { counter } from './modules/counter.js';
 import { gsapscroll } from './modules/gsapscroll.js';
+import { sticky } from './modules/stickySidebar.js';
+import { stickyYear } from './modules/stickyYear.js';
 
 (function () {
   menu.init();
@@ -30,4 +32,6 @@ import { gsapscroll } from './modules/gsapscroll.js';
   gsapanim.init();
   counter.init();
   gsapscroll.init();
+  sticky.init();
+  stickyYear.init();
 })();

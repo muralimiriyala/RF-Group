@@ -6,7 +6,36 @@ ul.filter-links > li{margin: 0;}
 ul.filter-links > li::before{display: none;}
 ul.filter-links > li > a{font-size: 20px; line-height: 20px; padding: 14px 16px 10px; display: inline-block; font-family: var(--heading-font);  color: var(--Text-Gray); font-weight: 600; border-bottom: 4px solid var(--White);}
 ul.filter-links > li > a.active{background-color: var(--White); color: var(--Black);}
+ul.filter-links > li > a:hover{border-color: var(--Blue); color: var(--Black);}
+
+.category{margin-bottom: 24px;}
+ul.category-lists{margin: 0;}
+ul.category-lists > li{margin: 0;}
+ul.category-lists > li::before{display: none;}
+ul.category-lists > li > a{gap: 8px; font-size: 16px; line-height: 16px; font-weight: 700;}
+.news-post-content{font-size: 16px; line-height: 24px; flex-direction: column; width: 100%; gap: 16px;}
+.news-post-content h2{font-size: 28px; line-height: 35px; margin-bottom: 0; letter-spacing: -0.56px;}
+.news-post-content span{display: block; font-size: 14px; line-height: 17.5px; letter-spacing: 0.7px; text-transform: uppercase;}
+.news-post-text{background-color: var(--White);}
+.news-post-image::before{content: ""; position: absolute; width: 28px; height: 56px; top: 50%; left: 0; transform: translateY(-50%); background: var(--White); clip-path: polygon(100% 50%, 0 0, 0 100%);}
+
+.news-post-btn hr{flex: 1; margin: 0; background-color: var(--Blue);}
 
 @media screen and (min-width: 1024px) {
     .news-post-main{padding: 80px 0;}
+    .news-post-heading{justify-content: space-between; margin-bottom: 40px;}
+
+    .news-post-lists, .news-post-row{gap: 40px;}
+    .news-post-row > .news-post-item:nth-child(1){flex: 0 0 calc(100% - 460px);}
+    .news-post-row > .news-post-item:nth-child(2){flex: 0 0 420px;}
+    .news-post-content{padding-top: 25px;}
+    .news-post-row:nth-child(even){flex-direction: row-reverse;}
+    .news-post-text{flex: 1; padding: 40px;}
+    .news-post-item.reverse{flex-direction: row-reverse;}
+    .news-post-image{flex: 0 0 50%}
+}
+
+@media screen and (max-width: 1199px) and (min-width: 1024px) {
+    .news-post-row:nth-child(odd) > .news-post-item:nth-child(1){flex: 0 0 calc(100% - 390px);}
+    .news-post-row:nth-child(odd) > .news-post-item:nth-child(2){flex: 0 0 350px;}
 }

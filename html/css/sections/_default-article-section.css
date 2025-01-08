@@ -5,14 +5,14 @@ ul.breadcrumbs li{margin: 0; color: var(--Black);}
 ul.breadcrumbs li::before{display: none;}
 ul.breadcrumbs li::after{content: ''; top: 0; right: -13px; width: 2px; height: 20px; background-color: var(--Text-Gray); border-radius: 1px; opacity: 0.5; font-weight: 700; position: absolute; transform: rotate(20deg);}
 ul.breadcrumbs li:last-child:after{display: none;}
-
+.default-article h3{padding-top: 21px;}
 
 
 
 
 /*-- media css --*/
 @media screen and (min-width: 1024px) {
-    .default-article-main{padding: 80px 0 80px;}
+    .default-article-main{padding: 80px 0 80px; grid-template-columns: 1fr 350px;}
 }
 @media screen and (max-width: 1023px) and (min-width: 810px) {
 }

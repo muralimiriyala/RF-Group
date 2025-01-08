@@ -47,11 +47,11 @@ blockquote dl dt::before{background-color: var(--White);}
 dd {margin-bottom: 24px;}
 ul {list-style: none; margin: 0 0 26px 26px;}
 ul > li {counter-increment: li; position: relative; margin-bottom: 8px;}
-ul > li:before{top: 10px; left: -16px; width: 6px; height: 6px; border-radius: 50%; opacity: 1; background-color: var(--Black); content: ""; position: absolute;} 
+ul > li:before{top: 12px; left: -16px; width: 5px; height: 5px; border-radius: 0%; opacity: 1; background-color: var(--Text-Gray); content: ""; position: absolute;} 
 li > ul {margin: 25px 0 26px 25px;}
 ol {counter-reset: section; list-style: none; margin: 0 0 28px 28px;}
 ol > li {counter-increment: li; position: relative; margin-bottom: 8px;}
-ol > li:before{color: var(--Black); counter-increment: section; content: counter(section, decimal) "."; top: 0px; left: -22px; position: absolute; font-size: 1.125rem; line-height: 1.688rem;}
+ol > li:before{color: var(--Text-Gray); counter-increment: section; content: counter(section, decimal) "."; top: 0px; left: -22px; position: absolute; font-size: 1.125rem; line-height: 1.688rem;}
 li > ol {margin: 25px 0 26px 25px;}
 ol[style='list-style-type: upper-roman;']{margin-left: 22px;}
 ol[style='list-style-type: upper-roman;'] > li::before{display: none;}
@@ -185,7 +185,7 @@ img.aligncenter{margin: 25px auto; clear: both;}
 
 
 /*-- custom css starts here --*/
-body{margin: 0; font-size: 18px; line-height: 150%; letter-spacing: 0; font-weight: 400; font-family: var(--body-font); position: relative; color: var(--Text-Gray); background-color: transparent; overflow-x: hidden;}
+body{margin: 0; font-size: 18px; line-height: 150%; letter-spacing: 0; font-weight: 400; font-family: var(--body-font); position: relative; color: var(--Text-Gray); background-color: transparent;}
 .d-block{display: block;}
 span.optional-text.ls-07{letter-spacing: 0.7px;}
 span.optional-text{color: var(--Blue); display: block; font-size: 18px; font-weight: 700; line-height: 100%; letter-spacing: 0; margin-bottom: 20px; text-transform: none;}
