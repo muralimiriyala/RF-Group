@@ -1,6 +1,8 @@
 :root{
     --heading-font: "plantin", sans-serif;
     --body-font: "Blackbird", sans-serif;
+    --CondensedBold: "Blackbird-CondensedBold", sans-serif;
 }
 .body-font{font-family: var(--body-font);}
 .heading-font{font-family: var(--body-font);}
+.CondensedBold{font-family: "Blackbird-CondensedBold", sans-serif;;}
