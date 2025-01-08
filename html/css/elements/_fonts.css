@@ -2,3 +2,5 @@
     --heading-font: "plantin", sans-serif;
     --body-font: "Blackbird", sans-serif;
 }
+.body-font{font-family: var(--body-font);}
+.heading-font{font-family: var(--body-font);}
