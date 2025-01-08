@@ -90,28 +90,22 @@ hr.sm-line{background-color: var(--Blue); height: 2px; border-radius: 1px; margi
 /* Buttons */
 .button, button, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{padding: 12px 14px 12px; font-size: 18px; font-weight: 700; line-height: 100%; border: 2px solid transparent; font-family: var(--body-font); display: inline-block; background: var(--Blue); color: var(--White); border-radius: 0; cursor: pointer; vertical-align: middle; text-decoration: none; text-transform: none; text-align: center; outline: 0; position: relative; -webkit-writing-mode: horizontal-tb; -ms-writing-mode: horizontal-tb; writing-mode: horizontal-tb; text-orientation: mixed; box-shadow: none; transition: var(--b-transition); z-index: 1; margin: 0; transition: all .5s ease;}
 .button:hover, button:hover, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover{
-    border-radius: 0.4rem;
-    transform: perspective(500px) rotateY(calc(12deg*var(--_i,-1)));
+    transform: perspective(500px) rotateY(calc(10deg*var(--_i,-1)));
     color: var(--White);
 }
-.button::after {
-    content: "";
-    display: inline-block;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    transition: var(--b-transition);
-}
-.button:hover::after {
-    border-radius: 0.4rem;
-    transform: scaleX(1.4) scaleY(1.6);
-    opacity: 0;
-}
+
+.button.transparent::after{width: 0; height: 100%; top: 0; left: 0; transition: all 0.8s ease; background-color: var(--Blue); content: ""; display: block; position: absolute; z-index: -1;}
+.button.transparent:hover::after{width: 100%;}
+.button.transparent:hover{color: var(--White); border-color: var(--Blue);}
+
+.button.transparent.black:hover{border-color: var(--Black); color: var(--White);}
+.button.transparent.black::after{background-color: var(--Black);}
+
+.button.transparent.purple-border:hover{border-color: var(--RF-Purple); color: var(--White);}
+.button.transparent.purple-border::after{background-color: var(--RF-Purple);}
+
+
 .button.transparent{background: transparent; border-color: var(--Blue); color: var(--Blue);}
-.button.transparent:hover{background: var(--Orange); border-color: var(--Orange);}
 .button.transparent.white{color: var(--White);}
 .button.transparent.black{color: var(--Black);}
 
