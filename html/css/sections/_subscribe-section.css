@@ -1,0 +1,17 @@
+
+.subscribe-main{border: 2px solid var(--Blue); padding: 8px;}
+.subscribe-inner{background-color: var(--Black);}
+.subscribe-text h3{color: var(--White); margin-bottom: 0;}
+
+.subscribe-form .form_field_wrapper{padding: 8px; gap: 8px; border: 1px solid var(--White);}
+body .subscribe-form .frm_forms .frm_form_fields .frm_form_field{margin-bottom: 0;}
+body .subscribe-form .frm_forms .frm_form_fields .frm_form_field input{background: rgba(255, 255, 255, 0.20); border: none; border-radius: 0; color: var(--White); padding: 16px;}
+body .subscribe-form .frm_forms .frm_form_fields .frm_form_field input::placeholder{color: var(--White); font-weight: 400; }
+body .subscribe-form .frm_forms .frm_form_fields .frm_form_field .frm_submit button{border: none; font-size: 16px; padding: 16px 20px;}
+body .subscribe-form .frm_forms .frm_form_fields .form_field_wrapper .frm_form_field:first-child{display: flex; flex: 1;}
+
+@media screen and (min-width: 1024px) {
+    .subscribe-inner{gap: 64px; padding: 32px;}
+    .subscribe-text{flex: 0 0 568px;}
+    .subscribe-email{flex: 0 0 calc(100% - 632px);}
+}
