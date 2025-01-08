@@ -10,7 +10,7 @@ a{color: var(--Blue);text-decoration: none; transition: var(--b-transition);}
 a:focus {outline: none;}
 a:hover, a:active {outline: 0;}
 a:hover{color: var(--Blue);}
-p a{background-color: rgba(164,39,143,.15); color: var(--Black); border-radius: 4px; font-weight: 700; padding: 0 6px;}
+p a{color: var(--Black); text-decoration: underline; text-decoration-color: var(--Blue); font-weight: 700;}
 p a:hover{color: var(--Blue);}
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{clear: both; margin: 0; color: var(--Black); font-weight: 600; font-family: var(--heading-font); line-height: 125%; text-transform: none;}
 .h1, h1{font-size: 64px; margin-bottom: 28px; letter-spacing: -1.28px;}
@@ -25,7 +25,7 @@ address{font-size: 1.125rem; line-height: 1.5rem; margin-bottom: 24px;}
 abbr[title] {border-bottom: 1px dotted var(--Navy); cursor: help;}
 b, strong {font-weight: 700;}
 cite, dfn, em, i {font-style: italic;} 
-p{margin-bottom: 26px;}
+p{margin-bottom: 17px;}/*-- dont change here --*/
 p:last-child{margin-bottom: 0;}
 code, kbd, tt, var, samp, pre {font-size: 0.938rem; -webkit-hyphens: none; -moz-hyphens: none; -ms-hyphens: none; hyphens: none; line-height: 1.6;}
 pre {border: 1px solid rgba(0, 0, 0, 0.1); -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; margin-bottom: 24px; max-width: 100%; overflow: auto; padding: 12px; white-space: pre; white-space: pre-wrap; word-wrap: break-word;}
