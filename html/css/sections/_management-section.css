@@ -1,0 +1,9 @@
+.management-main{padding: 64px 0 144px;}
+.management-block{color: var(--White); text-align: center; margin: 0 0 64px;}
+.management-block p{font-size: 18px; font-weight: 700; line-height: 100%;}
+.management-block h3{font-size: 40px; font-weight: 600; line-height: 125%; letter-spacing: -0.8px; color: var(--White); margin-bottom: 32px;}
+.navy-block-btns { display: block; margin: 0 auto; max-width: 514px; width: 100%; }
+  .navy-block-btn { border: 1px solid var(--White); display: flex; gap: 8px; padding: 8px; }
+  .navy-block-btn .button.btn-white { color: var(--Black); }
+  .navy-block-btn .button { font-size: 18px; gap: 8px; justify-content: center; padding: 15px 10px; width: 100%; }
+  .blue-block-btn .button.btn-white i { color: var(--Navy); }
