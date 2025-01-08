@@ -38,7 +38,7 @@ ul.social-icons li a{color: var(--Black); font-size: 20px; height: 48px; line-he
 ul.social-icons li a:hover{color: var(--White);}
 ul.social-icons li a::before, ul.social-icons li a::after{width: 100%; height: 100%; top: 0; left: 0; content: ""; display: block; border-radius: 50%; position: absolute; z-index: -1;}
 ul.social-icons li a::before{background-color: var(--White);}
-ul.social-icons li a::after{background-color: var(--Blue); opacity: 0; transition: all 0.5s ease; transform-style:preserve-3d;}
+ul.social-icons li a::after{background-color: var(--Blue); opacity: 0; transition: all 0.8s ease; transform-style:preserve-3d;}
 ul.social-icons li a:hover::after{transform: rotateY(180deg); opacity: 1;}
 
 

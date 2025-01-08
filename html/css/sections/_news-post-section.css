@@ -1,0 +1,6 @@
+
+.news-post-section{background-color: var(--Background-Gray);}
+
+@media screen and (min-width: 1024px) {
+    .news-post-main{padding: 80px 0;}
+}
