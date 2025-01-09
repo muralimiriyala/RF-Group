@@ -5,7 +5,7 @@ body .selectBox-dropdown:focus{border-color: var(--Light-Gray);}
 body .selectBox-dropdown span.selectBox-label a{color: inherit;}
 body .selectBox-dropdown .selectBox-label{padding: 0; line-height: normal; display: block; white-space: nowrap; text-overflow: ellipsis;}
 body .selectBox-dropdown.selectBox-menuShowing{border-radius: 8px 8px 0 0;}
-body .selectBox-dropdown .selectBox-arrow{width: 24px; height: 24px; right: 16px; top: calc(50% + 1px); transform: translateY(-50%); position: absolute; background-image: url("../../images/down-arrow.svg"); background-repeat: no-repeat; background-size: contain;}
+body .selectBox-dropdown .selectBox-arrow{width: 24px; height: 24px; right: 16px; top: calc(50% + 1px); transform: translateY(-50%); position: absolute; background-image: url("../../images/drop-down-blue.svg"); background-repeat: no-repeat; background-size: contain;}
 body .selectBox-dropdown.selectBox-menuShowing .selectBox-arrow{transform: translateY(-100%) rotate(180deg); top: calc(50% + 4px); }
 
 ul.selectBox-dropdown-menu{margin: 0; padding: 0; top: 100%; left: 0; max-height: 190px; min-height: 1em; display: block; border-radius: 0 0 5px 5px; background-color: var( --White); border: 1px solid var(--White); position: absolute; z-index: 99999; white-space: nowrap; text-overflow: ellipsis; overflow: auto; box-shadow: 0 2px 2px #dadbdf;}
