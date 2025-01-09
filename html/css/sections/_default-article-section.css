@@ -7,8 +7,15 @@ ul.breadcrumbs li::after{content: ''; top: 0; right: -13px; width: 2px; height: 
 ul.breadcrumbs li:last-child:after{display: none;}
 .default-article h3{padding-top: 21px;}
 
+figure.RF-small{max-width: 51px; margin-top: 39px;}
 
-
+aside.default-aside h4{margin-bottom: 10px;}
+ul.toc-links{margin: 0; padding-top: 5px;}
+ul.toc-links li::before{display: none;}
+ul.toc-links li{margin: 0 0 9px;}
+.sidebar-gray-blk{padding: 40px;}
+.sidebar-gray-btns{padding: 8px; border: 1px solid var(--Blue);}
+.sidebar-gray-btns .button{width: 100%;}
 
 /*-- media css --*/
 @media screen and (min-width: 1024px) {

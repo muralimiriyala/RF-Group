@@ -30,7 +30,9 @@ p:last-child{margin-bottom: 0;}
 code, kbd, tt, var, samp, pre {font-size: 0.938rem; -webkit-hyphens: none; -moz-hyphens: none; -ms-hyphens: none; hyphens: none; line-height: 1.6;}
 pre {border: 1px solid rgba(0, 0, 0, 0.1); -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; margin-bottom: 24px; max-width: 100%; overflow: auto; padding: 12px; white-space: pre; white-space: pre-wrap; word-wrap: break-word;}
 blockquote, q{-webkit-hyphens: none; -moz-hyphens: none; -ms-hyphens: none; hyphens: none; quotes: none; }
-blockquote{padding: 32px; margin: 56px 0 56px; background: linear-gradient(180deg,rgba(18,39,80,.19) 0,rgba(18,39,80,.75) 100%),var(--Blue); color: var(--White); font-size: 1.75rem;line-height: 2.625rem; font-weight: 400; font-family: var(--heading-font); font-style: normal; position: relative; border-radius: 24px;}
+blockquote{padding: 0 0 0 56px; margin: 56px 0 56px; color: var(--Blue); font-size: 40px;line-height: 150%; letter-spacing: -0.8px; font-weight: 400; font-family: var(--heading-font); font-style: italic; position: relative; border-radius: 0;}
+blockquote::before{width: 31.66px; height: 24px; top: 0; left: 0; background-image: url('../../images/quote.svg'); background-repeat: no-repeat; background-size: contain; content: ""; display: block; position: absolute;}
+blockquote::after{top: 40px; left: 15px; width: 2px; height: calc(100% - 40px); background-color: var(--Light-Gray); content: ""; display: block; position: absolute;}
 blockquote p::before{content: "“";}
 blockquote p::after{content: "”";}
 blockquote cite, blockquote small {font-size: 1rem;}
@@ -112,6 +114,10 @@ hr.sm-line{background-color: var(--Blue); height: 2px; border-radius: 1px; margi
 .button.purple-border{border-color: var(--RF-Purple);}
 .button.btn-white{background: var(--White); color: var(--Blue);}
 .button.btn-white:hover{background: var(--Blue); color: var(--White);}
+
+.button.btn-hover-blk:hover{background-color: var(--Black); color: var(--White);}
+.button.btn-hover-white:hover{background-color: var(--White); color: var(--Black);}
+.button.btn-hover-white:hover i{color: var(--Blue);}
 
 a.text-link{gap: 8px; align-items: center; font-size: 1.125rem; line-height: 100%; letter-spacing: 0; color: var(--Black);}
 a.text-link em{color: var(--Blue); font-size: 20px; left: 0; position: relative; top: 1px; transition: all .5s ease;}
@@ -268,6 +274,7 @@ span.optional-text.lg{margin-bottom: 8px; font-size: 1.125rem; line-height: 1.12
 figure.object-fit{width: 100%; height: 100%; display: block;}
 picture.object-fit{width: 100%; height: 100%; display: block;}
 .object-fit img, .object-fit-img img{width: 100%; height: 100%; font-family: "object-fit: cover;"; object-fit: cover; -o-object-fit: cover; object-position: 50% 50%; -o-object-position: 50% 50%; }
+.object-fit-contain, .object-fit-contain img{object-fit: contain;}
 
 .play-btn-main {width: 100%; height: 100%; top: 0; left: 0; right: 0; bottom: 0; position: absolute; overflow: hidden;}
 .play-btn-main .play-btn{width: 48px; height: 48px; z-index: 1;}
