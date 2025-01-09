@@ -4,7 +4,7 @@
 .about-intro span{margin-bottom: 0; letter-spacing: -0.8px; line-height: 125%}
 .about-intro-head{padding: 40px 0;}
 .about-intro-lt > p{font-size: 20px; font-weight: 400; line-height: 150%;}
-.about-intro-lt h1{margin-bottom: 0; line-height: 100%;}
+.about-intro-lt h1{margin-bottom: 0; line-height: 100%; letter-spacing: normal;}
 
 .about-intro-lists{padding: 40px 0 0;}
 .counter-main{font-size: 72px; line-height: 100%; text-transform: uppercase; font-weight: 700; color: var(--Black); margin-bottom: 18px; display: block; }
@@ -16,10 +16,13 @@ span.counter-back{opacity: 0; color: transparent; -webkit-text-stroke: 2px var(-
 
 /*-- media css --*/
 @media only screen and (min-width: 1024px){
-    .about-intro-head{gap: 40px}
-    .about-intro-lt{flex: 0 0 435px; margin-bottom: 0;}
-    .about-intro-rt{flex: 0 0 calc(100% - 475px);  margin-bottom: 0;}
+    /* .about-intro-head{gap: 40px} */
+    /* .about-intro-lt{flex: 0 0 435px; margin-bottom: 0;}
+    .about-intro-rt{flex: 0 0 calc(100% - 475px);  margin-bottom: 0;} */
 
+    .about-intro-lt{margin: 0 40px 0 0; max-width: 460px;}
+    .about-intro-rt{ margin-bottom: 0; flex: 1; max-width: 800px;} 
+    .about-intro-lt:only-child{max-width: 100%;}
     .about-intro-lists{gap: 40px;}
     .intro-list-4{flex: 0 0 calc(25% -  30px);}
     .intro-list-3{flex: 0 0 calc(33.3333333% -  27px);}
