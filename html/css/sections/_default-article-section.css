@@ -19,7 +19,7 @@ ul.breadcrumbs li a:hover{color: var(--Black);}
 
 
 .default-line-wrap { padding:38px 0 55px }
-.default-line-in { border-left:2px solid var(--Blue); padding:0 32px 0 0 }
+.default-line-in { border-left:2px solid var(--Blue);}
 .default-line-text { padding: 22px 0 21px 24px; color: var(--Blue); margin-bottom: 0; }
 .default-line-text h4{margin-bottom: 0;}
 .default-line-text a{text-decoration: none; color: var(--Blue); }
@@ -48,6 +48,7 @@ ul.toc-links li{margin: 0 0 9px;}
 /*-- media css --*/
 @media screen and (min-width: 1024px) {
     .default-article-main{padding: 80px 0 80px; grid-template-columns: 1fr 350px;}
+    .default-line-in{padding-right: 32px;}
 }
 @media screen and (max-width: 1023px) and (min-width: 810px) {
 }
@@ -57,4 +58,5 @@ ul.toc-links li{margin: 0 0 9px;}
     ul.breadcrumbs::-webkit-scrollbar{display: none;}
     ul.breadcrumbs li{min-width: fit-content; font-size: 16px;}
     .default-article h2{margin-bottom: 16px;}
+    .default-line-wrap{padding: 5px 0 22px;}
 }
