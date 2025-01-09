@@ -107,11 +107,17 @@ hr.sm-line{background-color: var(--Blue); height: 2px; border-radius: 1px; margi
 .button.transparent.white{color: var(--White);}
 .button.transparent.black{color: var(--Black);}
 
+.button.transparent.text-black{color: var(--Black);}
+.button.transparent.text-black:hover{color: var(--White);}
+
 .button.transparent-border{border-color: transparent;}
 
 .button.purple-border{border-color: var(--RF-Purple);}
 .button.btn-white{background: var(--White); color: var(--Blue);}
 .button.btn-white:hover{background: var(--Blue); color: var(--White);}
+
+.button.btn-hover-blue:hover{background-color: var(--Black); color: var(--White);}
+
 
 .button.btn-hover-blk:hover{background-color: var(--Black); color: var(--White);}
 .button.btn-hover-white:hover{background-color: var(--White); color: var(--Black);}
