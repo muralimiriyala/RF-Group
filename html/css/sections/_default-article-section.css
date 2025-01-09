@@ -7,6 +7,33 @@ ul.breadcrumbs li::after{content: ''; top: 0; right: -13px; width: 2px; height: 
 ul.breadcrumbs li:last-child:after{display: none;}
 .default-article h3{padding-top: 21px;}
 
+
+.default-image-caption { margin-bottom: 37px; } 
+.default-caption { padding-left: 15px; } 
+.caption-desc { padding: 24px 0 16px 16px; } 
+.caption-line { width: 6px; height: 100%; left: 0; top: -4px; } 
+.caption-line::after, .caption-line::before{ content: ""; display: block; position: absolute; background-color: var(--Blue); } 
+.caption-line::before{ width: 6px; height: 6px; border-radius: 50%; top: 0; left: 0; } 
+.caption-line::after{ width: 2px; height: 100%; left: 2px; }
+
+
+.default-line-wrap {
+    padding:38px 0 55px
+  }
+  .default-line-in {
+    border-left:2px solid var(--Blue);
+    padding:0 32px 0 0
+  }
+  .default-line-text {
+    padding:12px 0 12px 24px;
+    color: var(--Blue);
+    margin-bottom: 0;
+  }
+  .default-line-text a{text-decoration: none; color: var(--Blue); }
+  .default-line-text a:hover{color: var(--Black);}
+  
+  
+
 figure.RF-small{max-width: 51px; margin-top: 39px;}
 
 aside.default-aside h4:not(.h5){margin-bottom: 10px;}
@@ -15,13 +42,15 @@ ul.toc-links li::before{display: none;}
 ul.toc-links li{margin: 0 0 9px;}
 .sidebar-gray-blk{padding: 40px; margin-bottom: 40px;}
 .sidebar-gray-btns{padding: 8px; border: 1px solid var(--Blue);}
-.sidebar-gray-btns .button{width: 100%;}
+.sidebar-gray-btns .button{width: 100%;  justify-content: space-between;}
 
 .sidebar-mgt-team:not(:last-child){margin-bottom: 40px;}
 .sidebar-mgt-image{margin-bottom: 15px; border: 2px solid var(--Blue); max-width: 88px;}
 .sidebar-mgt-image figure{padding: 3px;}
 .sidebar-mgt-info h4{margin-bottom: 0;}
 .sidebar-mgt-info p{margin-bottom: 9px;}
+
+
 
 
 /*-- media css --*/
