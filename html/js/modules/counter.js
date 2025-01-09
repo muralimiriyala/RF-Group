@@ -16,11 +16,8 @@ export const counter = {
 
       $el.counter = new CountUp(`${$target}`, countTo, {
         startVal: 0,
-<<<<<<< HEAD
         duration: parseInt(($el.getAttribute('data-duration') / 1000) * 1),
-=======
         duration: parseInt(($duration / 1000) * 1),
->>>>>>> 49324c6718b9e33e7c459ab1852b39edbb62e9a4
         decimalPlaces,
       });
     });
