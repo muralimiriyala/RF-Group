@@ -5,7 +5,7 @@ ul.about-history-years > li{margin-bottom: 0;}
 ul.about-history-years > li::before{display: none;}
 ul.about-history-years > li a{padding: 9px 16px 9px 16px; color: var(--Text-Gray); font-family: var(--heading-font); display: block;}
 ul.about-history-years > li:first-child a{color: var(--Black); }
-ul.about-history-years > li .active{background-color: var(--White);}
+ul.about-history-years > li a.active{background-color: var(--White);}
 ul.about-history-years > li:hover a{color: var(--Black);}
 ul.about-history-years > li a::before{opacity: 0; transition: var(--b-transition); position: absolute; display: block; content: ""; top: 0; left: 0; width: 4px; height: 100%; background-color: var(--Blue); border-radius: 0;}
 ul.about-history-years > li a:hover::before{opacity: 1;}
@@ -39,6 +39,8 @@ ul.about-history-years > li a:hover::before{opacity: 1;}
 @media only screen and (max-width: 1023px) and (min-width: 810px){
     .about-history-main{gap: 40px; padding: 64px 0;}
     .about-history-aside{flex: 0 0 78px;}
+   .sticky ul.about-history-years{position: fixed; top: 68px; min-width: 78px;}
+
     .about-history-article{flex: 0 0 calc(100% - 118px)}
 
     .about-history-list {padding: 32px; margin-bottom: 32px;}
@@ -47,11 +49,24 @@ ul.about-history-years > li a:hover::before{opacity: 1;}
 }
 @media only screen and (max-width: 809px) and (min-width: 200px){
     .about-history-main{padding: 40px 0 40px; display: block;}
+    
+    .about-history-article .slick-list{overflow: inherit;}
+    .about-history-article .slick-slide{ width: 320px; margin-right: 24px; }
+    .about-history-appends{margin-top: 24px;}
+    
+
     .about-history-btn{padding: 16px; border: 1px solid var(--Text-Gray); cursor: pointer;  justify-content: space-between; transition: var(--b-transition);}
     .about-history-btn.open i{transform: rotate(180deg);  transition: var(--b-transition)}
-    ul.about-history-years{display: none; max-height: 300px; overflow-y: auto;}
+    ul.about-history-years{display: none; max-height: 300px; overflow-y: auto; background-color: var(--White);}
+    ul.about-history-years > li a.active{background-color: var(--Blue); color: var(--White);}
     article.about-history-article{padding-top: 40px;}
 
     .about-history-list{padding: 24px;}
     .about-history-btn i{color: var(--Blue); width: 20px; height: 20px; line-height: 100%; font-weight: 400;}
+}
+@media only screen and (max-width: 389px) and (min-width: 200px){
+    .about-history-article .slick-slide{ width: 305px; }
+}
+@media only screen and (max-width: 374px) and (min-width: 200px){
+    .about-history-article .slick-slide{ width: 260px; }
 }
