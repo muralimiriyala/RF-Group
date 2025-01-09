@@ -47,7 +47,7 @@ ul.about-history-years > li a:hover::before{opacity: 1;}
 }
 @media only screen and (max-width: 809px) and (min-width: 200px){
     .about-history-main{padding: 40px 0 40px; display: block;}
-    .about-history-btn{padding: 20px; border: 1px solid green; cursor: pointer; display: block;}
+    .about-history-btn{padding: 16px; border: 1px solid var(--Text-Gray); cursor: pointer; display: block;}
     .about-history-btn.open i{transform: rotate(180deg);}
     ul.about-history-years{display: none; max-height: 300px; overflow-y: auto;}
     article.about-history-article{padding-top: 40px;}
