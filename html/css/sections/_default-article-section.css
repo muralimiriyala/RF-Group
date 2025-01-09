@@ -9,13 +9,20 @@ ul.breadcrumbs li:last-child:after{display: none;}
 
 figure.RF-small{max-width: 51px; margin-top: 39px;}
 
-aside.default-aside h4{margin-bottom: 10px;}
-ul.toc-links{margin: 0; padding-top: 5px;}
+aside.default-aside h4:not(.h5){margin-bottom: 10px;}
+ul.toc-links{margin: 0; padding: 5px 0 27px;}
 ul.toc-links li::before{display: none;}
 ul.toc-links li{margin: 0 0 9px;}
-.sidebar-gray-blk{padding: 40px;}
+.sidebar-gray-blk{padding: 40px; margin-bottom: 40px;}
 .sidebar-gray-btns{padding: 8px; border: 1px solid var(--Blue);}
 .sidebar-gray-btns .button{width: 100%;}
+
+.sidebar-mgt-team:not(:last-child){margin-bottom: 40px;}
+.sidebar-mgt-image{margin-bottom: 15px; border: 2px solid var(--Blue); max-width: 88px;}
+.sidebar-mgt-image figure{padding: 3px;}
+.sidebar-mgt-info h4{margin-bottom: 0;}
+.sidebar-mgt-info p{margin-bottom: 9px;}
+
 
 /*-- media css --*/
 @media screen and (min-width: 1024px) {
