@@ -450,7 +450,7 @@ ul.slick-dots:not(.pagination) li button{display: none; padding: 0;}
 
 }
 @media only screen and (max-width: 809px) and (min-width: 200px){
-    .container{padding: 0 20px;}
+    .container{padding: 0 24px;}
     .mobile-0{padding-left: 0; padding-right: 0;}
     .hide-mobile{display: none;} 
 

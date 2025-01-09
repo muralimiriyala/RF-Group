@@ -1,13 +1,13 @@
 .about-intro-main{padding: 80px 0;}
 .about-intro{justify-content: space-between; margin: 0 0 40px;}
 .about-intro-main hr{background-color: var(--Blue); width: 100%; height: 1px; margin-bottom: 0;}
-.about-intro span{margin-bottom: 0;}
+.about-intro span{margin-bottom: 0; letter-spacing: -0.8px; line-height: 125%}
 .about-intro-head{padding: 40px 0;}
 .about-intro-lt > p{font-size: 20px; font-weight: 400; line-height: 150%;}
-.about-intro-lt h1{margin-bottom: 0;}
+.about-intro-lt h1{margin-bottom: 0; line-height: 100%;}
 
 .about-intro-lists{padding: 40px 0 0;}
-.counter-main{font-size: 72px; line-height: 100%; text-transform: uppercase; font-weight: 700; color: var(--Black); margin-bottom: 20px; display: block; }
+.counter-main{font-size: 72px; line-height: 100%; text-transform: uppercase; font-weight: 700; color: var(--Black); margin-bottom: 18px; display: block; }
 span.counter-back{opacity: 0; color: transparent; -webkit-text-stroke: 2px var(--Blue); top: 0px; z-index: -1; left: 2px;}
 .counter-text{left: -9px;}
 
@@ -27,12 +27,28 @@ span.counter-back{opacity: 0; color: transparent; -webkit-text-stroke: 2px var(-
 }
 
 @media only screen and (max-width: 1023px) and (min-width: 810px){
-    
-    
-
-
+    .about-intro-main { padding: 64px 0; }
+    .about-intro span{font-weight: 600; font-size: 36px; letter-spacing: -0.72px; } 
+    .about-intro{margin: 0 0 32px;}
+    .about-intro-head { padding: 32px 0; }
+    .about-intro-head h1{font-size: 64px; line-height: 100%; margin-bottom: 32px;}
+    .about-intro-lists { padding: 32px 0 0;  gap: 32px;}
+    .intro-list-4{flex: 0 0 calc(50% -  16px);}
+    .intro-list-3{flex: 0 0 calc(33.3333333% -  22px);}
+    .intro-list-2{flex: 0 0 calc(50% -  16px);} 
 
 }
 
+@media only screen and (max-width: 809px) and (min-width: 200px){
+    .about-intro-main { padding: 40px 0; }
+    .about-intro span {margin-bottom: 24px;}
+    .about-intro .button{width: 100%; font-size: 16px;}
+    .about-intro{margin: 0 0 24px;}
+    .about-intro-head{padding: 24px 0 26px;}
+    .about-intro-lt h1 {font-size: 48px;}
+    .about-intro-lt{margin-bottom: 24px;}
+    .about-intro-lists { padding: 24px 0 0; }
+    .about-intro-list{margin-bottom: 24px;}
+    .about-intro-list:last-child{margin-bottom: 0;}
 
-
+}
