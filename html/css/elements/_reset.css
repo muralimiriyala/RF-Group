@@ -107,9 +107,17 @@ hr.sm-line{background-color: var(--Blue); height: 2px; border-radius: 1px; margi
 .button.transparent.white{color: var(--White);}
 .button.transparent.black{color: var(--Black);}
 
+.button.transparent.text-black{color: var(--Black);}
+.button.transparent.text-black:hover{color: var(--White);}
+
+.button.transparent-border{border-color: transparent;}
+
 .button.purple-border{border-color: var(--RF-Purple);}
 .button.btn-white{background: var(--White); color: var(--Blue);}
 .button.btn-white:hover{background: var(--Blue); color: var(--White);}
+
+.button.btn-hover-blue:hover{background-color: var(--Black); color: var(--White);}
+
 
 .button.btn-hover-blk:hover{background-color: var(--Black); color: var(--White);}
 .button.btn-hover-white:hover{background-color: var(--White); color: var(--Black);}
@@ -355,11 +363,15 @@ button.slick-arrow:hover{background-color: var(--Blue);}
 button.slick-arrow.slick-disabled{pointer-events: none; background: rgba(0, 0, 0, 0.20);}
 span.slick-prev-arrow{ transform: scaleX(-1); }
 
-ul.slick-dots:not(.pagination){margin: 0; gap: 12px; align-items: center; justify-content: center; display: flex; flex-wrap: wrap; flex: 1; order: 2;}
+
+button.slick-arrow.slick-next { order: 3; }
+
+ul.slick-dots:not(.pagination){margin: 0; gap: 12px; order: 2; align-items: center; justify-content: center; display: flex; flex-wrap: wrap; flex: 1; order: 2;}
 ul.slick-dots:not(.pagination) li{margin: 0; width: 16px; height: 16px;  background-color: transparenr; border: var(--Text-Gray); cursor: pointer;}
 ul.slick-dots:not(.pagination) li.slick-active{background-color: var(--Blue);}
 ul.slick-dots:not(.pagination) li::before{display: none;}
 ul.slick-dots:not(.pagination) li button{display: none; padding: 0;}
+
 
 .book-demo-btn{border-radius: 28px; background: rgba(165, 24, 144, 0.10); display: inline-flex; width: fit-content; padding: 4px 20px 4px 4px; gap: 16px;}
 .book-demo-btn .button{line-height: 1.125rem;}

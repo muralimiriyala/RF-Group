@@ -29,12 +29,19 @@ ul.faqs-links li a:hover i{transform: translateX(8px);}
 }
 @media only screen and (max-width: 1023px) and (min-width: 810px){
     .faqs-main{padding: 78px 0 18px; display: block;}
- 
-}
-@media only screen and (max-width: 809px) and (min-width: 200px){
-    .faqs-main{padding: 41px 0 18px;}
+    .faqs-text{padding-bottom: 64px;}
     .faqs-text span.optional-text{font-size: 16px;}
     .faqs-text h1{font-size: 28px;}
     .faqs-text{font-size: 14px;}
+    ul.faqs-links{margin: 0;}
+    ul.faqs-links li a{font-size: 16px;}
+}
+@media only screen and (max-width: 809px) and (min-width: 200px){
+    .faqs-main{padding: 41px 0 18px; display: block;}
+    .faqs-text{padding-bottom: 24px;}
+    .faqs-text span.optional-text{font-size: 16px;}
+    .faqs-text h1{font-size: 28px;}
+    .faqs-text{font-size: 14px;}
+    ul.faqs-links{margin: 0;}
     ul.faqs-links li a{font-size: 16px;}
 }
