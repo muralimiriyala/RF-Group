@@ -9,7 +9,7 @@
 .accordion-header:hover::before{background: var(--Light-Blue);}
 .accordion-header.open:hover::before{background: var(--Gray);}
 
-.accordion-header:hover, .accordion-header.open{font-weight: 400;}
+/* .accordion-header:hover, .accordion-header.open{font-weight: 400;} */
 .accordion-plus{left: auto; right: 20px; top: calc(50% + 1px); transform: translateY(-50%); max-width: 18px; flex-direction: column;}
 .accordion-plus svg{max-width: 18px; object-fit: contain;}
 .accordion-plus svg:not(:first-child){bottom: 4px; position: relative;}

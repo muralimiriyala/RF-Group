@@ -96,8 +96,6 @@ hr.sm-line{background-color: var(--Blue); height: 2px; border-radius: 1px; margi
 .button.transparent:hover::after{width: 100%;}
 .button.transparent:hover{color: var(--White); border-color: var(--Blue);}
 
-.button.transparent.black:hover{border-color: var(--Black); color: var(--White);}
-.button.transparent.black::after{background-color: var(--Black);}
 
 .button.transparent.purple-border:hover{border-color: var(--RF-Purple); color: var(--White);}
 .button.transparent.purple-border::after{background-color: var(--RF-Purple);}
@@ -106,17 +104,19 @@ hr.sm-line{background-color: var(--Blue); height: 2px; border-radius: 1px; margi
 .button.transparent{background: transparent; border-color: var(--Blue); color: var(--Blue);}
 .button.transparent.white{color: var(--White);}
 .button.transparent.black{color: var(--Black);}
+.button.transparent.black:hover{color: var(--White);}
 
-.button.transparent.text-black{color: var(--Black);}
-.button.transparent.text-black:hover{color: var(--White);}
 
 .button.transparent-border{border-color: transparent;}
 
 .button.purple-border{border-color: var(--RF-Purple);}
-.button.btn-white{background: var(--White); color: var(--Blue);}
+.button.btn-white{background: var(--White); color: var(--Black);}
 .button.btn-white:hover{background: var(--Blue); color: var(--White);}
+.button.btn-white i { color: var(--Navy); }
+.button.btn-white:hover i{color: var(--White);}
 
-.button.btn-hover-blue:hover{background-color: var(--Black); color: var(--White);}
+
+.button.btn-hover-blue:hover{background-color: var(--Blue); color: var(--White);}
 
 
 .button.btn-hover-blk:hover{background-color: var(--Black); color: var(--White);}
