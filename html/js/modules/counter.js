@@ -11,7 +11,6 @@ export const counter = {
       const $duration = $el.getAttribute('data-duration');
       const $back = [...$el.parentElement.querySelectorAll('.counter-back')];
 
-      // Parse data-count-to as a number to check for decimals
       const countTo = parseFloat($el.getAttribute('data-count-to'));
       const decimalPlaces =
         countTo % 1 !== 0 ? countTo.toString().split('.')[1].length : 0;
@@ -19,7 +18,7 @@ export const counter = {
       $el.counter = new CountUp(`${$target}`, countTo, {
         startVal: 0,
         duration: parseInt(($el.getAttribute('data-duration') / 1000) * 1),
-        decimalPlaces, // Ensure decimal precision
+        decimalPlaces,
       });
 
       // Start the counter
