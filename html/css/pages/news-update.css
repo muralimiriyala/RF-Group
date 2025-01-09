@@ -1,0 +1,9 @@
+
+
+
+@media screen and (min-width:810px) {
+    body.page-template-news-updates{background-image: url("../../images/news-bg@2x.jpg"); background-repeat: no-repeat; background-size: cover;}
+}
+@media screen and (max-width: 809px)  and (min-width: 200px){
+    body.page-template-news-updates{background-image: url("../../images/news-bg-mob@2x.jpg"); background-repeat: no-repeat; background-size: cover;}
+}
