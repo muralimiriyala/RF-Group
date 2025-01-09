@@ -8,10 +8,10 @@
   .navy-block-btn .button { font-size: 16px; gap: 8px; justify-content: center; padding: 10px 8px; width: 100%; }
   .navy-block-btn .button.btn-white i { color: var(--Navy); }
 
-.management-team-row{ margin: -84px 0 80px;}
-.management-team-image img{width: 160px; border: 8px solid rgba(0, 0, 0, 0.1); border-radius: 120px;}
+.management-team-row{ margin: -94px 0 80px;}
+.management-team-image img{width: 160px; outline: 8px solid rgba(0, 0, 0, 0.1); border-radius: 120px;}
 .management-team-list{ text-align: center; }
-.management-team-image{margin-bottom: 10px;}
+.management-team-image{margin-bottom: 16px;}
 .management-team-info h4{font-size: 24px; font-weight: 600; line-height: 125%; letter-spacing: -0.48px; margin-bottom: 0;}
 .management-team-info span{font-size: 14px; color: var(--Text-Gray); font-weight: 400;}
 
@@ -34,16 +34,13 @@
 
   .management-team-row { gap: 20px;}
   .management-team-list { flex: 0 0 calc(25% - 15px);}
-
-
-
 }
 
 @media only screen and (max-width: 1023px) and (min-width: 810px){
 
 
   .management-main { padding: 64px 64px 144px; }
-  .management-team-row {margin: -94px 0 80px; padding: 0 40px; gap:28px 40px;}
+  .management-team-row { padding: 0 40px; gap:28px 40px;}
   .management-team-list {flex: 0 0 calc(50% - 20px)}
 }
 @media only screen and (max-width: 809px) and (min-width: 200px){
@@ -51,7 +48,9 @@
   .management-main{padding: 48px 24px 144px;}
 
   .navy-block-btn {display: block;}
+  .navy-block-btn .button.btn-white {flex-direction: row-reverse;}
 
-
+  .management-team-list {margin: 0 auto 40px;}
+  .management-team-list:last-child{margin-bottom: 0;}
 
 }
