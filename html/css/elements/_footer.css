@@ -109,7 +109,7 @@ ul.copyrights-menu > li > a:hover{color: var(--Blue);}
     .footer-row{gap: 40px; margin-bottom: 40px;}
     .footer-row-lt, .footer-row-rt{width: 100%;}
     .footer-row-lt{gap: 20px;}
-    ul.social-icons{gap: 29.6px; justify-content: center;}
+    ul.social-icons{gap: 28px; justify-content: center;}
     ul.social-icons li a{height: 64px; width: 64px;}
 
     .copyrights-main{justify-content: center; gap: 9px;}
@@ -128,4 +128,8 @@ ul.copyrights-menu > li > a:hover{color: var(--Blue);}
     ul.social-icons{gap: normal; justify-content: space-between;}
     ul.footer-address > li > a{font-size: 14px; padding: 15px 12px;}
     ul.footer-address i{font-size: 14px;}
+}
+@media screen and (max-width: 374px) and (min-width: 200px) {
+    ul.social-icons li a{height: 54px; width: 54px;}
+    .footer-flag { flex: 0 0 78px;}
 }

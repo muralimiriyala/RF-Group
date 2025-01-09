@@ -8,8 +8,7 @@ export const counter = {
 
     _.$ele.forEach(($el) => {
       const $target = $el.getAttribute('id');
-      const $duration = $el.getAttribute('data-duration');
-      const $back = [...$el.parentElement.querySelectorAll('.counter-back')];
+      const $duration = parseInt($el.getAttribute('data-duration'));
 
       const countTo = parseFloat($el.getAttribute('data-count-to'));
       const decimalPlaces =
@@ -17,19 +16,13 @@ export const counter = {
 
       $el.counter = new CountUp(`${$target}`, countTo, {
         startVal: 0,
+<<<<<<< HEAD
         duration: parseInt(($el.getAttribute('data-duration') / 1000) * 1),
+=======
+        duration: parseInt(($duration / 1000) * 1),
+>>>>>>> 49324c6718b9e33e7c459ab1852b39edbb62e9a4
         decimalPlaces,
       });
-
-      // Start the counter
-      $el.counter.start();
-
-      // Set opacity for the background elements after the duration
-      setTimeout(() => {
-        $back.forEach(($ele) => {
-          $ele.style.opacity = '1';
-        });
-      }, $duration);
     });
   },
 };
