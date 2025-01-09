@@ -25,5 +25,5 @@ ul.have-questions-links li a.black:hover{color: var(--Black-50);}
 }
 @media only screen and (max-width: 809px) and (min-width: 200px){
     .have-questions-section{padding-bottom: 40px;}
-    .have-questions-main{padding: 40px;}
+    .have-questions-main{padding: 40px 23px;}
 }
