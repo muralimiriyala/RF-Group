@@ -5,6 +5,7 @@ ul.breadcrumbs li{margin: 0; color: var(--Black);}
 ul.breadcrumbs li::before{display: none;}
 ul.breadcrumbs li::after{content: ''; top: 0; right: -13px; width: 2px; height: 20px; background-color: var(--Text-Gray); border-radius: 1px; opacity: 0.5; font-weight: 700; position: absolute; transform: rotate(20deg);}
 ul.breadcrumbs li:last-child:after{display: none;}
+ul.breadcrumbs li a:hover{color: var(--Black);}
 .default-article h3{padding-top: 21px;}
 
 
@@ -18,7 +19,7 @@ ul.breadcrumbs li:last-child:after{display: none;}
 
 
 .default-line-wrap { padding:38px 0 55px }
-.default-line-in { border-left:2px solid var(--Blue); padding:0 32px 0 0 }
+.default-line-in { border-left:2px solid var(--Blue);}
 .default-line-text { padding: 22px 0 21px 24px; color: var(--Blue); margin-bottom: 0; }
 .default-line-text h4{margin-bottom: 0;}
 .default-line-text a{text-decoration: none; color: var(--Blue); }
@@ -47,9 +48,15 @@ ul.toc-links li{margin: 0 0 9px;}
 /*-- media css --*/
 @media screen and (min-width: 1024px) {
     .default-article-main{padding: 80px 0 80px; grid-template-columns: 1fr 350px;}
+    .default-line-in{padding-right: 32px;}
 }
 @media screen and (max-width: 1023px) and (min-width: 810px) {
 }
 @media screen and (max-width: 809px) and (min-width: 200px) {
- 
+    .default-article-main{padding: 41px 0 40px; display: block;}
+    ul.breadcrumbs{width: calc(100% + 24px); margin-bottom: 24px; flex-wrap: nowrap; overflow-x: auto; min-width: fit-content; -ms-overflow-style: none; scrollbar-width: none;}
+    ul.breadcrumbs::-webkit-scrollbar{display: none;}
+    ul.breadcrumbs li{min-width: fit-content; font-size: 16px;}
+    .default-article h2{margin-bottom: 16px;}
+    .default-line-wrap{padding: 5px 0 22px;}
 }

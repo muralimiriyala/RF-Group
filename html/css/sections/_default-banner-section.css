@@ -18,6 +18,7 @@
     .default-banner-text{padding: 144px 0 80px;}
 }
 @media screen and (max-width: 809px) and (min-width: 200px) {
+    .default-banner-overlay{opacity: 0.5;}
     .default-banner-image{position: relative;}
     .default-banner-text{padding: 40px 20px 80px; font-size: 18px; background-color: var(--Black); }
     .default-banner-text h1{margin-bottom: 26px;}

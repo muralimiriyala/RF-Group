@@ -38,6 +38,7 @@
 }
 @media screen and (max-width: 809px) and (min-width: 200px){
     .accordion-main{padding: 40px 0 57px;}
+    .default-article .accordion-main{padding-top: 0;}
     .accordion-header{padding: 16px 64px 16px 16px;}
     .accordion-header span.ui-plus {left: 0; margin-bottom: 20px; display: block; position: relative;}
     .accordion-desc{padding: 1px 24px 24px 23px;}
