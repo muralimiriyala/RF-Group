@@ -36,7 +36,7 @@ ul.about-history-years > li a:hover::before{opacity: 1;}
 
 }
 
-@media only screen and (max-width: 1024px) and (min-width: 810px){
+@media only screen and (max-width: 1023px) and (min-width: 810px){
     .about-history-main{gap: 40px; padding: 64px 0;}
     .about-history-aside{flex: 0 0 78px;}
     .about-history-article{flex: 0 0 calc(100% - 118px)}
