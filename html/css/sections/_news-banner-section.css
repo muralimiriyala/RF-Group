@@ -37,15 +37,28 @@ ul.category-lists > li > a{gap: 8px; font-size: 16px; line-height: 16px; font-we
     .news-banner-row:nth-child(odd) > .news-banner-item:nth-child(1){flex: 0 0 calc(100% - 390px);}
     .news-banner-row:nth-child(odd) > .news-banner-item:nth-child(2){flex: 0 0 350px;}
 }
+
 @media screen and (max-width: 1023px) and (min-width: 810px) {
     .news-banner-main{padding: 104px 0 40px;}
     .news-banner-head{gap: 30px; justify-content: space-between; margin-bottom: 32px;}
 
-    .news-banner-lists, .news-banner-row{gap: 40px;}
-    .news-banner-row > .news-banner-item{flex: 100%;}
-    .news-banner-item .news-banner-text, .news-banner-item .news-banner-image{flex: 0 0 50%;}
+
+    .news-banner-lists{display: inline;}
+    .news-banner-row{display: inline;}
+    .news-banner-item{margin-bottom: 40px; min-height: 394px;}
+    .news-banner-row:nth-child(odd) .news-banner-item:nth-child(even){width: calc(50% - 20px); float: left; margin-right: 40px;}
+    .news-banner-row:nth-child(even) .news-banner-item{flex-direction: column-reverse;}
+    .news-banner-row:nth-child(even) .news-banner-item:nth-child(odd){width: calc(50% - 20px); margin-left: 40px;}
+    .news-banner-row:nth-child(even) .news-banner-item:nth-child(even){width: calc(50% - 20px); margin-right: 20px;}
+
+
+
+    .news-banner-image{flex: 0 0 50%;}
     .news-banner-text{flex: 1; padding: 40px;}
     .category{margin-bottom: 24px;}
+}
+@media screen and (max-width: 1023px) and (min-width: 811px) {
+    .news-banner-item{min-height: 424px;}
 }
 
 @media screen and (max-width: 809px) and (min-width: 200px) {
@@ -54,7 +67,7 @@ ul.category-lists > li > a{gap: 8px; font-size: 16px; line-height: 16px; font-we
     .news-banner-title h1{font-size: 32px; line-height: 40px;}
     .news-banner-lists, .news-banner-row{gap: 16px;}
     .news-banner-item{width: 100%; gap: 20px; padding: 12px 12px 12px 16px;}
-    .news-banner-text{flex: 0 0 calc(100% - 124px);}
+    .news-banner-text{flex: 1;}
     .category{margin-bottom: 16px;}
     .news-banner-content h2{font-size: 18px; line-height: 22.5px; margin-bottom: 0; letter-spacing: -0.36px;}
     .news-banner-row:nth-child(even) .news-banner-content h2{font-size: 18px; line-height: 22.5px; margin-bottom: 0; letter-spacing: -0.36px;}

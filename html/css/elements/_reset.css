@@ -445,6 +445,9 @@ ul.slick-dots:not(.pagination) li button{display: none; padding: 0;}
     img.aligncenter, img.alignleft, img.alignnone, img.alignright{margin: 25px auto; clear: both; float: none; display: block; width: auto;}
 
 }
+@media only screen and (max-width: 809px) and (min-width: 481px){
+    .button:hover, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover, button:hover{transform: perspective(500px) rotateY(calc(2.5deg*var(--_i,-1)));}
+}
 @media only screen and (max-width: 809px) and (min-width: 200px){
     body{font-size: 16px;}
     .container{padding: 0 24px;}
@@ -457,7 +460,8 @@ ul.slick-dots:not(.pagination) li button{display: none; padding: 0;}
     .h4, h4{font-size: 20px; letter-spacing: -0.4px;}
     .h5, h6{font-size: 18px; letter-spacing: -0.36px;}
 
-    .button.btn-transparent{font-size: 16px;}
+
+    .button.transparent{font-size: 16px;}
     a.text-link{font-size: 16px;}
     
     blockquote{margin: 22px 0 3px; font-size: 24px; font-weight: 400; letter-spacing: -0.48px;}
