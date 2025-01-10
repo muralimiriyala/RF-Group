@@ -5,6 +5,7 @@ export const slick = {
   slider: document.querySelectorAll('.about-history-article'),
   init() {
     const _$ = this;
+
     if (_$.slider) return;
 
     function historyinitSlider() {

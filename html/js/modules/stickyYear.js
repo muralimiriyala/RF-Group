@@ -5,11 +5,11 @@ export const stickyYear = {
   init() {
     const _ = this;
     if (!_.$ele) return;
+    const $siblings = [..._.$ele.querySelectorAll('a')];
     _.$ele.addEventListener('click', function (e) {
       if (e.target.tagName === 'A') {
         // e.preventDefault();
-        const siblings = [..._.$ele.querySelectorAll('a')];
-        siblings.forEach((sibling) => sibling.classList.remove('active'));
+        $siblings.forEach((sibling) => sibling.classList.remove('active'));
         e.target.classList.add('active');
       }
     });
@@ -18,5 +18,14 @@ export const stickyYear = {
       _.$btn.classList.toggle('open');
       $(_.$ele).slideToggle(700);
     });
+    const mobileToggle = function () {
+      _.$ele.addEventListener('click', (e) => {
+        _.$btn.classList.remove('open');
+        $(e.currentTarget).slideUp(700);
+        const $t = e.target.textContent;
+        _.$btn.querySelector('span').textContent = $t;
+      });
+    };
+    mobileToggle();
   },
 };
