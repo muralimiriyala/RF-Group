@@ -35,11 +35,17 @@
     .tst-slider-text blockquote {font-size: 32px; line-height: 48px; letter-spacing: -0.64px;}
 }
 @media screen and (max-width: 809px) and (min-width: 200px) {
-    .tst-slider-text blockquote {font-size: 24px; line-height: 36px; letter-spacing: -0.48px; text-align: center;}
+    .tst-slider-row{padding: 40px 0;}
+    .tst-slider-icon{gap: 16px; margin-bottom: 24px;}
+    .tst-slider-icon hr{margin: 0; flex: 1; opacity: 0.5;}
+    .tst-slider-icon figure{max-width: 31.5px;}
+    .tst-slider-icon img{max-width: 31.5px;}
+    .tst-slider-text {margin-bottom: 21px;}
+    .tst-slider-text blockquote {font-size: 24px; line-height: 36px; letter-spacing: -0.48px; text-align: center; margin: 0; padding: 0;}
     .tst-slider-text blockquote::before{display: none;}
     .tst-slider-text blockquote::after{display: none;}
     .tst-slider-bottom{display: block;}
-    .tst-slider-author{width: 100%;}
+    .tst-slider-author{width: fit-content; margin: 0 auto 16px;}
     .tst-slider-details h6{font-size: 16px; line-height: 20px; letter-spacing: -0.32px;}
     .tst-slider-details span{font-size: 12px; line-height: 18px;}
     .tst-slider-logo{max-width: 196px; margin: 0 auto;}
