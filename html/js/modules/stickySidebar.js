@@ -8,7 +8,6 @@ export const sticky = {
     if (!_.$sticky || !_.$share) return;
     let scroll = Math.floor(window.scrollY);
     const $height = _.$ele.getBoundingClientRect().height;
-    console.log($height);
     const $iconsHeight = _.$share.getBoundingClientRect().height;
 
     function stickyShare(entries, observer) {

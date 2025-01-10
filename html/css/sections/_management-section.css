@@ -1,5 +1,5 @@
 .management-main{padding: 64px 64px 64px;}
-.management-bg{height: calc(100% + 64px);}
+.management-bg{height: calc(100% + 80px);}
 .management-block{color: var(--White); text-align: center; }
 .management-block p{font-size: 18px; font-weight: 700; line-height: 100%; margin-bottom: 32px;}
 .management-block h3{font-size: 40px; font-weight: 600; line-height: 125%; letter-spacing: -0.8px; color: var(--White); margin-bottom: 30px;}
@@ -11,7 +11,7 @@
 .management-team-image img{width: 160px; outline: 8px solid rgba(0, 0, 0, 0.1); border-radius: 120px;}
 .management-team-list{ text-align: center; }
 .management-team-image{margin-bottom: 16px;}
-.management-team-info h4{font-size: 24px; font-weight: 600; line-height: 125%; letter-spacing: -0.48px; margin-bottom: 0;}
+.management-team-info h4{font-size: 24px; font-weight: 600; line-height: 125%; letter-spacing: -0.48px; margin-bottom: -3px;}
 .management-team-info span{font-size: 14px; color: var(--Text-Gray); font-weight: 400;}
 
 .management-team-info hr{ background-color: var(--Navy); border: none; border-radius: 1px; display: block; height: 2px; width: 64px; margin: 12px auto 12px;}
