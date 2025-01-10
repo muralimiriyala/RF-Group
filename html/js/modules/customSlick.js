@@ -1,19 +1,65 @@
-import $ from 'jquery';
+import $, { speed } from 'jquery';
 import 'slick-slider';
 
 export const myslick = {
-  slider: document.querySelectorAll('.about-history-article'),
+  $tst: document.querySelectorAll('.tst-slider-main'),
+  $tstNext: document.querySelectorAll('.tst-slider-next'),
+  $hele: document.querySelectorAll('.about-history-article'),
   $ele: document.querySelector('ul.about-history-years'),
-
   init() {
     const _$ = this;
+    if (!_$.$hele || !_$.$tst) return;
 
-    if (!_$.slider) return;
-    const $slider = $(_$.slider);
+    _$.$tst.forEach((ele) => {
+      const $ele = $(ele);
+      const $firstbg = $ele.children('.tst-slider-slide').first();
+      const $firstcolor = $(ele)
+        .children('.tst-slider-slide')
+        .first()
+        .attr('data-color');
+      $firstbg.css({ backgroundColor: $firstcolor });
+      const $append = $ele.parent().children('.tst-slider-appends');
+      if (!$ele.hasClass('slick-initialized')) {
+        $ele.slick({
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          speed: 1000,
+          arrows: true,
+          prevArrow:
+            '<button type="button" aria-label="previous" aria-disabled="false" tabindex="0" class="slick-arrow slick-prev flex flex-center"><span class="slick-arrows slick-prev-arrow fa-solid fa-chevron-right"></span></button>',
+          nextArrow:
+            '<button type="button" aria-label="previous" aria-disabled="false" tabindex="0" class="slick-arrow slick-next flex flex-center"><span class="slick-arrows slick-next-arrow fa-solid fa-chevron-right"></span></button>',
+          dots: true,
+          appendArrows: $append,
+          appendDots: $append,
+          dotsClass: 'slick-dots history-slick-dots flex',
+        });
+        $ele.on(
+          'beforeChange',
+          function (event, slick, currentSlide, nextSlide) {
+            const slideElement = $(slick.$slides.eq(nextSlide));
+            const $color = slideElement
+              .find('.tst-slider-slide')
+              .attr('data-color');
+            slideElement.css({ backgroundColor: $color });
+          }
+        );
+        _$.$tstNext.forEach(function (singleNext) {
+          singleNext.addEventListener('click', function () {
+            $ele.slick(
+              'slickGoTo',
+              parseInt($ele.slick('slickCurrentSlide')) + 1
+            );
+          });
+        });
+      }
+    });
+
+    const $hSlider = $(_$.$hele);
     function historyinitSlider() {
-      $slider.each(function () {
+      $hSlider.each(function () {
         const $historySlider = $(this);
-        const historyAppend = $(this)
+        const historyAppend = $historySlider
           .parent()
           .children('.about-history-appends');
         if (window.matchMedia('(max-width: 809px)').matches) {
@@ -39,7 +85,6 @@ export const myslick = {
           _$.$ele.addEventListener('click', function (e) {
             e.preventDefault();
             const $year = Number(e.target.getAttribute('data-slide-yr'));
-            console.log($year);
             $historySlider.slick('slickGoTo', $year - 1);
           });
         }
@@ -48,9 +93,8 @@ export const myslick = {
     historyinitSlider();
 
     function culturedestroySlider() {
-      $slider.each(function () {
+      $hSlider.each(function () {
         const $this = $(this);
-        console.log($this);
         $(window).width() >= 810 && $this.hasClass('slick-initialized')
           ? $this.slick('unslick')
           : '';
