@@ -42,9 +42,10 @@
   .navy-block-btn {display: block;}
   .navy-block-btn .button.btn-white {flex-direction: row-reverse;}
 
-  .management-team-list {margin: 0 auto 40px;}
+  .management-team-list {margin: 0 auto 40px; width: 100%;}
   .management-team-list:last-child{margin-bottom: 0;}
 }
 @media only screen and (max-width: 374px) and (min-width: 200px){
   .management-block h3{font-size: 28px;}
+  .management-team-list{width: 100%;}
 }
