@@ -57,4 +57,18 @@
 
   }
 
+  @media only screen and (max-width: 809px) and (min-width: 200px){
+    .team-mem-main{padding: 40px 0;}
+    .team-mem-list{margin-bottom: 24px;}
+    .team-mem-heading { margin: 0 0 24px; }
+    .team-mem-filter ul.filter-links > li > a {padding: 14px 13px 10px;}
+
+    .team-mem-icon{text-align: center; width: 100%; margin-bottom: 16px;}
+    .team-mem-inner {text-align: center; padding: 24px; display: block;}
+    .team-mem-text span {font-size: 16px;}
+    .team-mem-inner-lt {margin-bottom: 24px;}
+
+
+  }
+
 
