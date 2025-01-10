@@ -44,6 +44,14 @@ export const myslick = {
             slideElement.css({ backgroundColor: $color });
           }
         );
+        _$.$tstNext.forEach(function (singleNext) {
+          singleNext.addEventListener('click', function () {
+            $ele.slick(
+              'slickGoTo',
+              parseInt($ele.slick('slickCurrentSlide')) + 1
+            );
+          });
+        });
       }
     });
 
@@ -77,7 +85,6 @@ export const myslick = {
           _$.$ele.addEventListener('click', function (e) {
             e.preventDefault();
             const $year = Number(e.target.getAttribute('data-slide-yr'));
-            console.log($year);
             $historySlider.slick('slickGoTo', $year - 1);
           });
         }

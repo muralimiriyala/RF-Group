@@ -21,6 +21,7 @@
     .tst-slider-text{padding-right: 100px;}
 }
 @media screen and (min-width: 810px) {
+    .tst-slider-appends{display: none;}
     .tst-slider-arrow{top: 0; right: 0; width: 88px; height: 100%; background: rgba(0, 0, 0, 0.20); display: flex; align-items: center; justify-content: center; position: absolute; }
 }
 @media screen and (max-width: 1023px) and (min-width: 810px) {
