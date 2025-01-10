@@ -3,6 +3,8 @@ import 'slick-slider';
 
 export const myslick = {
   slider: document.querySelectorAll('.about-history-article'),
+  $ele: document.querySelector('ul.about-history-years'),
+
   init() {
     const _$ = this;
 
@@ -34,10 +36,17 @@ export const myslick = {
               dotsClass: 'slick-dots history-slick-dots flex',
             });
           }
+          _$.$ele.addEventListener('click', function (e) {
+            e.preventDefault();
+            const $year = Number(e.target.getAttribute('data-slide-yr'));
+            console.log($year);
+            $historySlider.slick('slickGoTo', $year - 1);
+          });
         }
       });
     }
     historyinitSlider();
+
     function culturedestroySlider() {
       $slider.each(function () {
         const $this = $(this);
