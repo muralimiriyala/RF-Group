@@ -22,7 +22,6 @@ export const stickyYear = {
     const mobileToggle = function () {
       _.$ele.addEventListener('click', (e) => {
         e.preventDefault();
-        console.log(e);
         _.$btn.classList.remove('open');
         $(e.currentTarget).slideUp(700);
         const $t = e.target.textContent;
