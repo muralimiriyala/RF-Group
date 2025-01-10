@@ -12,15 +12,12 @@ span.counter-back{opacity: 0; color: transparent; -webkit-text-stroke: 1px var(-
 .counter-text{left: -9px;}
 
 .about-intro-list p{font-size: 16px; font-weight: 400; line-height: 150%;}
-.about-intro-list h2{margin-bottom: 0;}
-body.page-template-about-histoy .about-intro-list h2{margin-bottom: 10px;}
+.about-intro-list h2{margin-bottom: 10px;}
 
 .feature-icon{margin-bottom: 10px;}
 /*-- media css --*/
 @media only screen and (min-width: 1024px){
-    /* .about-intro-head{gap: 40px} */
-    /* .about-intro-lt{flex: 0 0 435px; margin-bottom: 0;}
-    .about-intro-rt{flex: 0 0 calc(100% - 475px);  margin-bottom: 0;} */
+    
 
     .about-intro-lt{margin: 0 40px 0 0; max-width: 460px;}
     .about-intro-rt{ margin-bottom: 0; flex: 1; max-width: 800px;} 

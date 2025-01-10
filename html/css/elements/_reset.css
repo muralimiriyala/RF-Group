@@ -368,9 +368,9 @@ span.slick-prev-arrow{ transform: scaleX(-1); }
 
 button.slick-arrow.slick-next { order: 3; }
 
-ul.slick-dots:not(.pagination){margin: 0; gap: 12px; order: 2; align-items: center; justify-content: center; display: flex; flex-wrap: wrap; flex: 1; order: 2;}
-ul.slick-dots:not(.pagination) li{margin: 0; width: 16px; height: 16px;  background-color: transparenr; border: var(--Text-Gray); cursor: pointer;}
-ul.slick-dots:not(.pagination) li.slick-active{background-color: var(--Blue);}
+ul.slick-dots:not(.pagination){margin: 0; gap: 4px; order: 2; align-items: center; justify-content: center; display: flex; flex-wrap: wrap; flex: 1; order: 2;}
+ul.slick-dots:not(.pagination) li{margin: 0; width: 16px; height: 16px;  background-color: transparent; border: 1px solid var(--Text-Gray); cursor: pointer;}
+ul.slick-dots:not(.pagination) li.slick-active{background-color: var(--Blue); border-color: var(--Blue);}
 ul.slick-dots:not(.pagination) li::before{display: none;}
 ul.slick-dots:not(.pagination) li button{display: none; padding: 0;}
 
