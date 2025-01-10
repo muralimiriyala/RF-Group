@@ -14,6 +14,7 @@ span.counter-back{opacity: 0; color: transparent; -webkit-text-stroke: 2px var(-
 .about-intro-list p{font-size: 16px; font-weight: 400; line-height: 150%;}
 .about-intro-list h2{margin-bottom: 0;}
 
+.feature-icon{margin-bottom: 10px;}
 /*-- media css --*/
 @media only screen and (min-width: 1024px){
     /* .about-intro-head{gap: 40px} */
