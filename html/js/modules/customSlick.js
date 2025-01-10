@@ -2,16 +2,26 @@ import $ from 'jquery';
 import 'slick-slider';
 
 export const myslick = {
-  slider: document.querySelectorAll('.about-history-article'),
+  $tst: document.querySelectorAll('.tst-slider-main'),
+  $hele: document.querySelectorAll('.about-history-article'),
   $ele: document.querySelector('ul.about-history-years'),
-
   init() {
     const _$ = this;
+    if (!_$.$hele || !_$.$tst) return;
 
-    if (!_$.slider) return;
-    const $slider = $(_$.slider);
+    _$.$tst.forEach((ele) => {
+      const $ele = $(ele);
+      if (!$ele.hasClass('slick-initialized')) {
+        $ele.slick({
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        });
+      }
+    });
+
+    const $hSlider = $(_$.$hele);
     function historyinitSlider() {
-      $slider.each(function () {
+      $hSlider.each(function () {
         const $historySlider = $(this);
         const historyAppend = $(this)
           .parent()
@@ -48,9 +58,8 @@ export const myslick = {
     historyinitSlider();
 
     function culturedestroySlider() {
-      $slider.each(function () {
+      $hSlider.each(function () {
         const $this = $(this);
-        console.log($this);
         $(window).width() >= 810 && $this.hasClass('slick-initialized')
           ? $this.slick('unslick')
           : '';
