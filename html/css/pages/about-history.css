@@ -35,6 +35,9 @@ ul.about-history-years > li a:hover::before{opacity: 1;}
    .sticky ul.about-history-years{position: fixed; top: 104px; min-width: 78px;}
 
 }
+@media only screen and (min-width: 810px){
+    .about-history-appends{display: none;}
+}
 
 @media only screen and (max-width: 1023px) and (min-width: 810px){
     .about-history-main{gap: 40px; padding: 64px 0;}
@@ -56,6 +59,7 @@ ul.about-history-years > li a:hover::before{opacity: 1;}
     
 
     .about-history-btn{padding: 16px; border: 1px solid var(--Text-Gray); cursor: pointer;  justify-content: space-between; transition: var(--b-transition);}
+    .about-history-btn.open{color: var(--Black);}
     .about-history-btn.open i{transform: rotate(180deg);  transition: var(--b-transition)}
     ul.about-history-years{display: none; max-height: 300px; overflow-y: auto; background-color: var(--White);}
     ul.about-history-years > li a.active{background-color: var(--Blue); color: var(--White);}

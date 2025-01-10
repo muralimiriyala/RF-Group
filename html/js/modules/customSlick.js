@@ -1,15 +1,14 @@
 import $ from 'jquery';
 import 'slick-slider';
 
-export const slick = {
+export const myslick = {
   slider: document.querySelectorAll('.about-history-article'),
   init() {
     const _$ = this;
 
-    if (_$.slider) return;
-
+    if (!_$.slider) return;
+    const $slider = $(_$.slider);
     function historyinitSlider() {
-      const $slider = $(_$.slider);
       $slider.each(function () {
         const $historySlider = $(this);
         const historyAppend = $(this)
@@ -40,8 +39,9 @@ export const slick = {
     }
     historyinitSlider();
     function culturedestroySlider() {
-      $aboutHistorySlider.each(function () {
+      $slider.each(function () {
         const $this = $(this);
+        console.log($this);
         $(window).width() >= 810 && $this.hasClass('slick-initialized')
           ? $this.slick('unslick')
           : '';
@@ -49,23 +49,7 @@ export const slick = {
     }
     window.onresize = function () {
       culturedestroySlider();
+      historyinitSlider();
     };
-
-    // if (window.matchMedia('(max-width:809px)').matches) {
-    //   _$.slider.forEach((ele) => {
-    //     $(ele).slick({
-    //       dots: true,
-    //       arrow: true,
-    //       infinite: false,
-    //       speed: 1000,
-    //       slidesToShow: 1,
-    //       slidesToScroll: 1,
-    //       prevArrow:
-    //         '<button class="slick-arrow slick-prev flex flex-center" aria-label="Previous Arrow" tabindex="0" type="button"><span><i class="fa-regular fa-chevron-left"></i></span></button>',
-    //       nextArrow:
-    //         '<button class="slick-arrow slick-next flex flex-center" aria-label="Next Arrow" tabindex="0" type="button"><span><i class="fa-regular fa-chevron-right"></i></span></button>',
-    //     });
-    //   });
-    // }
   },
 };
