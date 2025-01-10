@@ -30,29 +30,79 @@
     <link rel="stylesheet" href="./style.bundle.css?v=619078" media="all">
 </head>
 <body>
-<header class="main-header">header goes here</header>
+<header class="site-header">
+<div class="container">
+    <div class="header flex flex-vcenter">
+        <div class="logo">
+            <a href="index.html">
+            <img class="white-logo" width="206" height="56" src="images/logo-white.svg" alt="logo">
+            <img class="black-logo" width="206" height="56" src="images/logo.svg" alt="logo">
+            </a>
+        </div>
+        <div role="button" aria-label="Open menu" class="humburger-btn absolute white-bg flex-center">
+            <i class="fs-24 fa-sharp fa-regular fa-bars"></i>
+        </div>
+        <div class="header_right relative">
+            <ul class="top-nav flex flex-vcenter">
+                <li><a class="line-anim" href="#appointment"><i class="transition fa-regular fa-calendar"></i>Appointment</a></li>
+                <li><a class="line-anim" href="#callback"><i class="transition fa-regular fa-phone"></i>Callback</a></li>
+                <li><a class="line-anim" href="#" target="_blank" rel="noopener"><i class="transition fa-regular fa-user"></i>Login</a></li>
+                <li><a class="bhs" href="">BHS <img src="images/lang-icon.svg" alt="lang-icon"></a>
+                    <ul class="lang flex radius-4 transition">
+                        <li><a href="" target="_blank">En</a></li>
+                        <li><a href="" target="_blank">Fr</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <nav role="navigation" class="navigation flex relative">
+                <ul class="main_menu flex">
+                    <li><a href="#">Individuals</a></li>
+                    <li><a href="#">Businesses</a></li>
+                    <li><a href="#">Advice</a></li>
+                    <li><a href="#">About</a>
+                        <ul class="sub-menu">
+                            <li><a href="#"><img src="images/forms-icon.svg" alt="forms-icon" title="forms-icon">Forms</a></li>
+                            <li><a href="#"><img src="images/reports-icon.svg" alt="reports-icon" title="reports-icon">Reports</a></li>
+                            <li><a href="faqs.html"><img src="images/faqs-icon.svg" alt="faqs-icon" title="faqs-icon">FAQs</a></li>
+                            <li><a href="#"><img src="images/fees-icon.svg" alt="fees-icon" title="fees-icon">Commissions & Fees</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <form action="" class="srch-form flex">
+                    <input type="text" placeholder="Search here">
+                    <button class="btn-srch" type="submit">Search<i class="fa-regular fa-magnifying-glass transition"></i></button>
+                </form>
+            </nav>
+        </div>
+        <div class="user-login white-bg absolute flex flex-center">
+            <i class="fs-24 fa-regular fa-circle-user"></i>
+        </div>
+    </div>
+</div>
+</header>
 <main class="site-main-cover">
-all seections here
-<!-- <div class="banner-bg background-bg home-banner-iframe" data-ytbg-fade-in="true" data-youtube="https://www.youtube.com/watch?v=ZJr-cy3252c">
-
-</div> -->
-
+    
+    <div class="container">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </div>
     <section class="tst-slider-section">
-        <div class="tst-slider-main tst-slider-slider">
-            <div class="tst-slider-slide relative green-color" data-testimonial-slide="1" >
+        <div class="tst-slider-main">
+            <div class="tst-slider-slide relative" data-color="#006F64" style="background-color: #006F64;">
                 <div class="container">
-                    <div class="tst-slider-row">
-                        <div class="tst-slider-text"> 
-                            <div class="tst-slider-icon flex flex-center hide-desktop hide-tablet">
-                                <hr>
-                                <figure class="object-fit">
-                                    <img src="images/double-quote.svg" alt="double-quote">
-                                </figure>
+                    <div class="tst-slider-text inverted">
+                        <div class="tst-slider-quote"> 
+                            <div class="tst-slider-icon flex flex-center">
+                                <hr class="hide-desktop">
+                                <svg width="32" height="24" viewBox="0 0 32 24" fill="none">
+                                    <path d="M26.1355 24C21.2542 24 18.1355 19.8644 18.1355 13.7627C18.1355 10.2373 19.4237 6.57627 22.0677 3.8644C24.644 1.22034 27.6949 0 30.3389 0C31.3559 0 31.7627 0.406778 31.7627 1.08475V2.64407C31.7627 3.25424 31.6271 3.72881 30.7457 3.72881C29.1864 3.72881 27.4915 4.33898 26.0677 5.49153C24.5084 6.77966 23.7627 8.40678 23.7627 10.0339C23.7627 12.5424 25.4576 12.7458 27.1525 13.0169C29.7288 13.3559 31.8304 14.4407 31.8304 18.1695C31.8304 21.7627 29.5932 24 26.1355 24ZM8.16943 24C3.28808 24 0.169434 19.8644 0.169434 13.7627C0.169434 10.2373 1.45757 6.57627 4.10164 3.8644C6.67791 1.22034 9.72875 0 12.3728 0C13.3898 0 13.7966 0.406778 13.7966 1.08475V2.64407C13.7966 3.25424 13.661 3.72881 12.7796 3.72881C11.2203 3.72881 9.52536 4.33898 8.10164 5.49153C6.54232 6.77966 5.79655 8.40678 5.79655 10.0339C5.79655 12.5424 7.49147 12.7458 9.18638 13.0169C11.7627 13.3559 13.8643 14.4407 13.8643 18.1695C13.8643 21.7627 11.6271 24 8.16943 24Z" fill="white"/>
+                                </svg>
                                 <hr>
                             </div>
-                            <blockquote>
-                                Example block quote comment follower component undo connect figma font stroke line bullet font create bullet rectangle figjam shadow group overflow. Blur outline move hand ellipse ellipse style outline. Project strikethrough selection project pencil rotate background variant library fill draft.”
-                            </blockquote>
+                            <h2 class="f-400 lh-160">Example block quote comment follower component undo connect figma font stroke line bullet font create bullet rectangle figjam shadow group overflow. Blur outline move hand ellipse ellipse style outline. Project strikethrough selection project pencil rotate background variant library fill draft.” </h2>
                         </div>
                         <div class="tst-slider-bottom flex flex-center">
                             <div class="tst-slider-author flex flex-vcenter">
@@ -62,7 +112,7 @@ all seections here
                                     </figure>
                                 </div>
                                 <div class="tst-slider-details">
-                                    <h6>First Lastname</h6>
+                                    <h2 class="h6">First Lastname</h2>
                                     <span>Position, RF Group Service Branch</span>
                                 </div>
                             </div>
@@ -74,13 +124,56 @@ all seections here
                         </div>
                     </div>
                 </div>
-                <span class="tst-slider-arrow tst-slider-next light-blue-color">
-                    <img src="images/slider-right-arrow.svg" alt="slider-right-arrow">
-                </span>
+                <div class="tst-slider-arrow tst-slider-next fs-64 inverted">
+                    <i class="fa-sharp fa-light fa-chevron-right"></i>
+                </div>
+            </div>
+            <div class="tst-slider-slide relative" data-color="#006F64" style="background-color: #006F64;">
+                <div class="container">
+                    <div class="tst-slider-text inverted">
+                        <div class="tst-slider-quote"> 
+                            <div class="tst-slider-icon flex flex-center">
+                                <hr class="hide-desktop">
+                                <svg width="32" height="24" viewBox="0 0 32 24" fill="none">
+                                    <path d="M26.1355 24C21.2542 24 18.1355 19.8644 18.1355 13.7627C18.1355 10.2373 19.4237 6.57627 22.0677 3.8644C24.644 1.22034 27.6949 0 30.3389 0C31.3559 0 31.7627 0.406778 31.7627 1.08475V2.64407C31.7627 3.25424 31.6271 3.72881 30.7457 3.72881C29.1864 3.72881 27.4915 4.33898 26.0677 5.49153C24.5084 6.77966 23.7627 8.40678 23.7627 10.0339C23.7627 12.5424 25.4576 12.7458 27.1525 13.0169C29.7288 13.3559 31.8304 14.4407 31.8304 18.1695C31.8304 21.7627 29.5932 24 26.1355 24ZM8.16943 24C3.28808 24 0.169434 19.8644 0.169434 13.7627C0.169434 10.2373 1.45757 6.57627 4.10164 3.8644C6.67791 1.22034 9.72875 0 12.3728 0C13.3898 0 13.7966 0.406778 13.7966 1.08475V2.64407C13.7966 3.25424 13.661 3.72881 12.7796 3.72881C11.2203 3.72881 9.52536 4.33898 8.10164 5.49153C6.54232 6.77966 5.79655 8.40678 5.79655 10.0339C5.79655 12.5424 7.49147 12.7458 9.18638 13.0169C11.7627 13.3559 13.8643 14.4407 13.8643 18.1695C13.8643 21.7627 11.6271 24 8.16943 24Z" fill="white"/>
+                                </svg>
+                                <hr>
+                            </div>
+                            <h2 class="f-400 lh-160">Example block quote comment follower component undo connect figma font stroke line bullet font create bullet rectangle figjam shadow group overflow. Blur outline move hand ellipse ellipse style outline. Project strikethrough selection project pencil rotate background variant library fill draft.” </h2>
+                        </div>
+                        <div class="tst-slider-bottom flex flex-center">
+                            <div class="tst-slider-author flex flex-vcenter">
+                                <div class="tst-slider-img">
+                                    <figure class="tst-slider-thumb object-fit">
+                                        <img src="images/testimonial-img@2x.png" alt="testimonial-img">
+                                    </figure>
+                                </div>
+                                <div class="tst-slider-details">
+                                    <h2 class="h6">First Lastname</h2>
+                                    <span>Position, RF Group Service Branch</span>
+                                </div>
+                            </div>
+                            <div class="tst-slider-logo">
+                                <figure class="tst-slider-logo-thumb object-fit">
+                                    <img src="images/rf-invest-logo.svg" alt="rf-invest-logo">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tst-slider-arrow tst-slider-next fs-64 inverted">
+                    <i class="fa-sharp fa-light fa-chevron-right"></i>
+                </div>
             </div>
         </div>
     </section>
 
+    <div class="container">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </div>
+</main>
 <footer class="site-footer">
     <div class="container">
         <div class="footer relative">

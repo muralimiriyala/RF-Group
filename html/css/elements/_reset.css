@@ -30,7 +30,7 @@ p:last-child{margin-bottom: 0;}
 code, kbd, tt, var, samp, pre {font-size: 0.938rem; -webkit-hyphens: none; -moz-hyphens: none; -ms-hyphens: none; hyphens: none; line-height: 1.6;}
 pre {border: 1px solid rgba(0, 0, 0, 0.1); -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; margin-bottom: 24px; max-width: 100%; overflow: auto; padding: 12px; white-space: pre; white-space: pre-wrap; word-wrap: break-word;}
 blockquote, q{-webkit-hyphens: none; -moz-hyphens: none; -ms-hyphens: none; hyphens: none; quotes: none; }
-blockquote{padding: 0 0 0 56px; margin: 56px 0 56px; color: var(--Blue); font-size: 40px;line-height: 150%; letter-spacing: -0.8px; font-weight: 400; font-family: var(--heading-font); font-style: italic; position: relative; border-radius: 0;}
+blockquote{padding: 0 0 0 56px; margin: 56px 0 20px; color: var(--Blue); font-size: 40px;line-height: 150%; letter-spacing: -0.8px; font-weight: 400; font-family: var(--heading-font); font-style: italic; position: relative; border-radius: 0;}
 blockquote::before{width: 31.66px; height: 24px; top: 0; left: 0; background-image: url('../../images/quote.svg'); background-repeat: no-repeat; background-size: contain; content: ""; display: block; position: absolute;}
 blockquote::after{top: 40px; left: 15px; width: 2px; height: calc(100% - 40px); background-color: var(--Light-Gray); content: ""; display: block; position: absolute;}
 blockquote p::before{content: "“";}
@@ -239,9 +239,11 @@ span.optional-text.lg{margin-bottom: 8px; font-size: 1.125rem; line-height: 1.12
 .fs-32{ font-size: 2rem; line-height: 2rem; }
 .fs-40{ font-size: 2.5rem; line-height: 2.5rem;}
 .fs-72{font-size: 72px; line-height: 125%;}
+.fs-64{font-size: 64px; line-height: 125%;}
 .lh-100{line-height: 100%;}
 .lh-125{line-height: 125%;}
 .lh-150{line-height: 150%;}
+.lh-160{line-height: 160%;}
 
 .radius-2, .radius-img-2 img{border-radius: 2px;}
 .radius-4, .radius-img-4 img{border-radius: 4px;}
