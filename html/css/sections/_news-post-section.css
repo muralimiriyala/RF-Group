@@ -25,18 +25,22 @@ ul.category-lists > li > a{gap: 8px; font-size: 16px; line-height: 16px; font-we
 .news-post-item:hover .news-post-image::before{width: 44px; height: 88px;}
 .news-post-item:hover .news-post-image::after{opacity: 1; visibility: visible;}
 
-.news-post-btn{margin-top: 40px;}
+.news-post-btn{padding-top: 40px;}
 .news-post-btn hr{flex: 1; margin: 0; background-color: var(--Blue);}
 
 @media screen and (min-width: 1024px) {
     .news-post-main{padding: 80px 0 40px;}
     .news-post-heading{justify-content: space-between; margin-bottom: 40px;}
 
-    .news-post-lists, .news-post-row{gap: 40px;}
-    .news-post-row > .news-post-item:nth-child(1){flex: 0 0 calc(100% - 460px);}
-    .news-post-row > .news-post-item:nth-child(2){flex: 0 0 420px;}
+    .news-post-lists{gap: 40px;}
+    .news-post-row{gap: 40px;}
+    .news-post-row:nth-child(odd) .news-post-item:nth-child(1){flex: 0 0 calc(100% - 460px);}
+    .news-post-row:nth-child(odd) .news-post-item:nth-child(2){flex: 0 0 420px;}
+    .news-post-row:nth-child(even){flex-direction: row;}
+    .news-post-row:nth-child(even) .news-post-item:nth-child(2n+1){flex: 0 0 420px;}
+    .news-post-row:nth-child(even) .news-post-item:nth-child(2n){flex: 1;}
+
     .news-post-content{padding-top: 25px;}
-    .news-post-row:nth-child(even){flex-direction: row-reverse;}
     .news-post-text{flex: 1; padding: 40px;}
     .category{margin-bottom: 24px;}
     .news-post-item.reverse{flex-direction: row-reverse;}
@@ -61,7 +65,6 @@ ul.category-lists > li > a{gap: 8px; font-size: 16px; line-height: 16px; font-we
     .news-post-row:nth-child(even) .news-post-item:nth-child(odd){width: calc(50% - 16px); margin-left: 32px;}
     .news-post-row:nth-child(even) .news-post-item:nth-child(even){width: calc(100%); flex-direction: row;}
 
-    /* .news-post-lists, .news-post-row{gap: 32px;} */
     .news-post-text{flex: 1; padding: 40px;}
     .category{margin-bottom: 24px;}
     .news-post-image{flex: 0 0 50%;}
@@ -83,5 +86,4 @@ ul.category-lists > li > a{gap: 8px; font-size: 16px; line-height: 16px; font-we
     .news-post-image::before{width: 16px; height: 32px;}
     .category{margin-bottom: 16px;}
     .news-post-btn{margin-top: 24px;}
-
 }
