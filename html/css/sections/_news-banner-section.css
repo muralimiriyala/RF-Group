@@ -61,11 +61,10 @@ ul.category-lists > li > a{gap: 8px; font-size: 16px; line-height: 16px; font-we
     .news-banner-row:nth-child(even) .news-banner-item{flex-direction: column-reverse;}
     .news-banner-row:nth-child(even) .news-banner-item:nth-child(odd){width: calc(50% - 16px); margin-left: 32px;}
     .news-banner-row:nth-child(even) .news-banner-item:nth-child(even){width: calc(50% - 16px); margin-right: 20px;}
-
-
+    .news-banner-row:nth-last-child(odd) .news-banner-item:nth-child(even){flex: 0 0 100%; width: 100%; margin: 0; flex-direction: row-reverse;}
 
     .news-banner-image{flex: 0 0 50%;}
-    .news-banner-text{flex: 1; padding: 40px;}
+    .news-banner-text{flex: 1; padding: 40px; flex-direction: column; display: flex; flex-wrap: wrap; justify-content: center;}
     .category{margin-bottom: 24px;}
 }
 @media screen and (max-width: 1023px) and (min-width: 811px) {
