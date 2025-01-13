@@ -5,22 +5,22 @@
 .repeater-list.row-reverse{flex-direction: row-reverse;}
 
 @media only screen and (min-width: 1300px) {
+    .repeater-list{ gap: 80px;}
+    .repeater-text{flex: 0 0 calc(50% - 40px)}
+    .repeater-img{flex: 0 0 calc(50% - 40px);}
     .repeater-desc{margin-left: auto; margin-right: 0; max-width: 680px;}
-    .repeater-text{flex: 0 0 47.2%}
-    .repeater-img{flex: 0 0 47.2%;}
-
+    
 }
-
-
 @media only screen and (min-width: 1024px) {
-.repeater-desc{  padding: 80px 64px 80px 80px;}
-
-
-    .repeater-list{ gap: 80px; margin-bottom: 80px;}
+    .repeater-list{margin-bottom: 80px;}
     .repeater-list:last-child{margin-bottom: 0;}
-    .repeater-text{flex: 47.2%}
-    .repeater-img{flex: 47.2%;}
+    .repeater-desc{  padding: 80px 64px 80px 80px;}
     .repeater-text p{margin-bottom: 28px;} 
+}
+@media only screen and (max-width: 1299px) and (min-width: 1024px) {
+    .repeater-list{ gap: 60px;}
+    .repeater-text{flex: 0 0 calc(50% - 30px);}
+    .repeater-img{flex: 0 0 calc(50% - 30px);}
     
 }
 @media only screen and (max-width: 1023px) and (min-width: 200px) {
@@ -28,13 +28,10 @@
     .repeater-list.row-reverse{flex-direction: column-reverse;}
     .repeater-list:last-child{margin-bottom: 0;}
     .repeater-img{margin-bottom: 20px;}
-
-
 }
-@media only screen and (max-width: 767px) and (min-width: 200px) {
+@media only screen and (max-width: 809px) and (min-width: 200px) {
     .repeater-main{padding: 40px 0;}
     .repeater-img { margin-bottom: 15px; }
     .repeater-text span { margin: 0 0 12px 0; }
     .repeater-text h3{margin-bottom: 22px; font-size: 1.5rem;}
-
 }
