@@ -1,7 +1,7 @@
 
 form.srch-form{width: 24px; top: 0; right: 0;  position: absolute; z-index: 1800;}
 form.srch-form.open{width: 100%; transition: all 1s ease;}
-form.srch-form input{padding-right: 51px; background-color: transparent; color: var(--Black);}
+form.srch-form input{padding-right: 51px; background-color: transparent; color: var(--Black); border: none;}
 form.srch-form.open input{background-color: var(--White);}
 button.btn-srch{font-size: 0; line-height: 0; padding: 0; top: 12px; right: -2px; position: absolute; background: none;}
 form.srch-form.open button.btn-srch{right: 15px;}

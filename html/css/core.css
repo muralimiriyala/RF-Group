@@ -35,6 +35,8 @@
 @import url('./sections/_news-post-section.css');
 @import url('./sections/_subscribe-section.css');
 @import url('./sections/_tst-slider-section.css');
+@import url('./sections/_repeater-section.css');
+@import url('./sections/_open-positions-section.css');
 
 @import url('./sections/_default-banner-section.css');
 @import url('./sections/_default-article-section.css');
