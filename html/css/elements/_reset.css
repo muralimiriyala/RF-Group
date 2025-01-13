@@ -79,6 +79,7 @@ del {color: var(--Black);}
 hr{margin: 0 0 38px; width: 100%; height: 2px; display: block; border: none; border-radius: 1px; background-color: var(--Gray);}
 hr[data-animate]{ margin: 0 0 16px; height: 2px; width: 0%; background-color: var(--Blue);}
 hr[data-animate*='black']{background-color: var(--Black);}
+hr[data-animate*='white']{background-color: var(--White);}
 hr.light-blue-line{margin: 0; flex: 1; width: 100%; height: 1px; background-color: var(--Light-Blue);}
 hr.sm-line{background-color: var(--Blue); height: 2px; border-radius: 1px; margin: 32px 0;}
 ::selection {background-color: var(--Black); color: var(--White);}
@@ -235,7 +236,7 @@ span.optional-text.lg{margin-bottom: 8px; font-size: 1.125rem; line-height: 1.12
 .fs-18{font-size: 18px; line-height: 150%;}
 .fs-20{font-size: 20px; line-height: 150%;}
 .fs-22{font-size: 1.375rem; line-height: 2.063rem;}
-.fs-24{font-size: 1.5rem; line-height: 1.875rem;}
+.fs-24{font-size: 1.5rem; line-height: 150%;}
 .fs-32{ font-size: 2rem; line-height: 2rem; }
 .fs-40{ font-size: 2.5rem; line-height: 2.5rem;}
 .fs-72{font-size: 72px; line-height: 125%;}
