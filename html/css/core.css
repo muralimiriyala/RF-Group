@@ -20,6 +20,7 @@
 @import url('./pages/about-team.css');
 @import url('./pages/about-history.css');
 @import url('./pages/news-update.css');
+@import url('./pages/index.css');
 
 
 
@@ -37,6 +38,7 @@
 @import url('./sections/_tst-slider-section.css');
 @import url('./sections/_repeater-section.css');
 @import url('./sections/_open-positions-section.css');
+@import url('./sections/_fin-planning-section.css');
 
 @import url('./sections/_default-banner-section.css');
 @import url('./sections/_default-article-section.css');
