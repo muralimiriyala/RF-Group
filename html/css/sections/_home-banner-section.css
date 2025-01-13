@@ -1,5 +1,5 @@
 
-.home-banner-section{background: #302135;  margin-top: -1px;}
+.home-banner-section{background: var(--Black);}
 .home-banner-overlay{opacity: 0.7; z-index: 0;}
 
 .home-banner-text{color: var(--White);}
@@ -9,24 +9,34 @@
 .home-banner-btn{gap: 16px;}
 
 .home-banner-text.no_about_banner_img{max-width: 100%;}
-.home-banner-count{margin-bottom: 0; gap: 8px;}
+.home-banner-count{margin-bottom: 2px; gap: 8px;}
 .home-banner-num{width: fit-content;}
 
 /*-- media css --*/
 @media screen and (min-width: 1024px) {
-    .home-banner-main{padding: 240px 0 178px; }
+    .home-banner-main{padding: 240px 0 244px; }
     .home-banner-text{max-width: 804px; padding-bottom: 38px;}
-    .home-banner-row{gap: 24px; justify-content: center;}
-    .home-banner-list{flex: 0 0 calc(25% - 20px);}
-    .home-banner-list:not(:first-child){border-left: 2px solid var(--White-25);}
+    .home-banner-row{gap: 24px; align-items: center; justify-content: center;}
+    .home-banner-list{flex: 0 0 calc(25% - 20px); padding: 0 24px;}
+    .home-banner-list:not(:first-child)::after{width: 2px; height: 100%; top: 0; left: -12px; opacity: 0.25; background-color: var(--White); content: ""; display: block; position: absolute;}
 }
 @media screen and (max-width: 1023px) and (min-width: 200px) {
-    .home-banner-main{padding: 240px 0 178px; }
+    .home-banner-main{padding: 199px 0 179px; }
     .home-banner-text{max-width: 804px; padding-bottom: 38px;}
-    .home-banner-row{gap: 0; justify-content: center;}
-    .home-banner-list{flex: 0 0 calc(50%);}
-    .home-banner-list:not(:first-child){border-left: 2px solid var(--White-25);}
+    .home-banner-row{max-width: 484px; margin: 0 auto; gap: 0; justify-content: center;}
+    .home-banner-list{flex: 0 0 calc(50%); padding: 16px 24px;}
+    .home-banner-list:nth-child(odd){padding-left: 6px;}
+    .home-banner-list:nth-child(even){padding-right: 6px;}
+    .home-banner-list:nth-child(-n+2){border-bottom: 2px solid var(--White-25);}
+    .home-banner-list:nth-child(even)::after{width: 2px; height: calc(100% - 16px); top: 16px; left: 0; opacity: 0.25; background-color: var(--White); content: ""; display: block; position: absolute;}
+    .home-banner-list:nth-child(-n+2)::after{top: 0;}
+    .home-banner-text h1{font-size: 48px; letter-spacing: -0.96px;}
+    .home-banner-count{font-size: 28px;}
 }
 @media screen and (max-width: 809px) and (min-width: 200px) {
-
+    .home-banner-main{padding: 44px 0 0;}
+    .home-banner-image{position: relative;}
+    .home-banner-overlay{opacity: 0.5;}
+    .home-banner-text h1{font-size: 40px; letter-spacing: -0.8px; margin-bottom: 6px;}
 }
+.home-banner-text{font-size: 16px; padding-bottom: 0;}

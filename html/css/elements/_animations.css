@@ -238,9 +238,8 @@
 [data-animate="80"]{width: 0; transition: all 1s ease;}
 [data-animate="80"].visible{width: 80px;}
 
-[data-animate="100%"]{width: 0; transition: all 1s ease;}
-[data-animate="100%"].visible{width: 100%;}
-[data-animate*="vr-100"].visible{height: 100%;}
+[data-animate*="100%"]{width: 0; transition: all 1s ease;}
+[data-animate*="100%"].visible{width: 100%;}
 
 [data-animate="underline"] h1 span::before,
 [data-animate="underline"] h2 span::before{transition: var(--b-transition); width: 0;}
@@ -253,3 +252,7 @@
 [data-animate].underline h1 > span{position: relative; z-index: 1; font-style: italic;}
 [data-animate].underline h1 > span::before{background: var(--Blue); border-radius: 8px; bottom: 0; content: ""; display: inline-block; height: 24px; opacity: .4; position: absolute; width: 0; left: -2px; z-index: -1; transition: var(--b-transition);}
 [data-animate].underline.visible h1 > span::before{width: 100%;}
+
+@media only screen and (min-width: 810px){
+  [data-animate*="vr-100"].visible{height: 100%;}
+}
