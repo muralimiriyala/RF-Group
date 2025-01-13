@@ -1,0 +1,87 @@
+.open-positions-section{position: relative; width: 100%; clear: both;}
+.open-positions-main{padding: 80px 0;}
+.open-positions-row{gap:0  80px;}
+.open-positions-left{flex: 0 0 373px; flex-grow: 1;}
+.open-positions-right{flex: 0 0 calc(100% - 453px); flex-grow: 1;}
+.open-positions-left .optional-text{margin-bottom: 16px;}
+.open-positions-left h4{ color: var(--Black); line-height: 125%; margin-bottom: 16px;}
+.open-positions-list{background-color: var(--White); gap: 16px; padding: 16px; margin-bottom: 16px;}
+.open-positions-title{flex: 1;}
+.open-positions-title .h6{margin-bottom: 6px;}
+.open-positions-title .h6 a{ color: var(--midnight)}
+.open-positions-title .h6 a:hover{color: var(--heading);}
+
+.open-positions-sub-category{gap: 0 26px; margin:  0 0 0 10px; line-height: 1.5;  }
+.open-positions-sub-category li{line-height: 1.5; font-size: 0.875rem; margin-bottom: 2px;}
+.open-positions-sub-category > li:before{left: -10px; width: 6px ; height: 6px; top: 6px;}
+.open-position-button{width: fit-content;}
+
+.open-position-filter{margin-bottom: 40px;}
+
+
+
+/* .mac .open-position-button .button{padding: 12px 16px 14px 16px;}
+.mac .open-positions-sub-category > li::before {top: 9px;} */
+
+
+@media only screen and (min-width: 1400px){
+    .open-positions-main{padding: 90px 0;}
+
+}
+
+
+@media only screen and (max-width: 1199px) and (min-width: 1024px) {
+    .open-positions-row{gap: 0 64px;}
+    .open-positions-right{flex: 0 0 calc(100% - 416px);}
+    .open-positions-sub-category li{margin-bottom: 4px;}
+    .open-positions-list:last-child{margin-bottom: 0;}
+
+}
+
+/* @media only screen and (max-width: 1023px) and (min-width: 200px) {
+    .open-positions-row{display: block;}
+    .open-positions-left .optional-text { margin-bottom: 16px; }
+    .open-positions-list:last-child{margin-bottom: 0;}
+    .open-positions-right{margin-bottom: 40px;}
+    .open-positions-sub-category li {margin-bottom: 4px;}
+
+    .open-positions-left {width: 100%; margin: 0;}
+    .open-positions-main .tm-grid .tm-content .tm-pos {font-size: 1.125rem;}
+
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+    .open-positions-main .tm-grid {display: flex; flex-wrap: wrap; align-items: center;}
+    .open-positions-main .tm-grid .tm-thumb {margin: 0 25px 0 0; width: 104px;}
+    .open-positions-main .tm-grid .tm-content {display: flex; flex-wrap: wrap; width: calc(100% - 129px); align-items: center;}
+    .open-positions-main .tm-grid .tm-contact {clear: none; flex: 1; margin: 0 0 0 16px; padding: 0 0 0 16px; border-left: 1px solid var(--seafom-50);}
+    .open-positions-main .tm-grid .tm-cnt-top {flex: 1;}
+
+}
+
+@media only screen and (max-width: 767px) and (min-width: 200px) {
+    .open-positions-main { padding: 64px 0; }
+    .open-positions-left h4 {font-size: 1.25rem;}
+    .open-positions-list{display: block; margin-bottom: 16px;}
+    .open-positions-title{margin-bottom: 16px;}
+    .open-positions-right{margin-bottom: 0;}
+
+    .open-positions-left .button.hide-in-desktop.hide-in-tablet{width: 100%;}
+
+    .open-positions-main .team-member-buckets {padding: 7px 0  0;}
+    .open-positions-main .tm-grid {display: flex; flex-wrap: wrap; align-items: center; margin:36px 0 0 0;}
+    .open-positions-main .tm-grid .tm-thumb {width: 120px; margin: 0 24px 0 0; clear: both; position: relative;}
+    .open-positions-main .tm-grid .tm-content {display: flex; flex-wrap: wrap; width: calc(100% - 144px); align-items: center;}
+    .open-positions-main .tm-grid .tm-content .h5 {margin: 0 0 4px 0;}
+
+    .open-positions-main .tm-grid .tm-contact .tm-location {display: none;}
+    .open-positions-main .tm-grid .tm-contact {font-size: 0; margin: 0; line-height: normal;}
+    .open-positions-main .tm-grid .tm-contact span {display: inline-block; margin:4px 8px 0 0}
+    .open-positions-main .tm-grid .tm-contact figure {display: block; width: 48px; height: 48px; border-radius: 50%; border: 2px solid var(--cerulean); padding: 10px; margin: 0 auto; text-align: center;}
+    .open-positions-main .tm-grid .tm-contact a:hover figure {border: 2px solid var(--midnight); }
+
+    
+
+}
+
+ */
