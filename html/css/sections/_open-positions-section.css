@@ -5,23 +5,21 @@
 .open-positions-right{flex: 0 0 calc(100% - 453px); flex-grow: 1;}
 .open-positions-left .optional-text{margin-bottom: 16px;}
 .open-positions-left h4{ color: var(--Black); line-height: 125%; margin-bottom: 16px;}
-.open-positions-list{background-color: var(--White); gap: 16px; padding: 16px; margin-bottom: 16px;}
+.open-positions-list{background-color: var(--White); gap: 16px; padding: 16px 20px; margin-bottom: 16px; border-left: 4px solid var(--Blue); transition: var(--b-transition);}
 .open-positions-title{flex: 1;}
-.open-positions-title .h6{margin-bottom: 6px;}
-.open-positions-title .h6 a{ color: var(--midnight)}
+.open-positions-title h6{margin-bottom: 4px;}
 .open-positions-title .h6 a:hover{color: var(--heading);}
 
-.open-positions-sub-category{gap: 0 26px; margin:  0 0 0 10px; line-height: 1.5;  }
-.open-positions-sub-category li{line-height: 1.5; font-size: 0.875rem; margin-bottom: 2px;}
-.open-positions-sub-category > li:before{left: -10px; width: 6px ; height: 6px; top: 6px;}
-.open-position-button{width: fit-content;}
-
+.open-positions-sub-category{gap: 0 9px; margin:  0 ; line-height: 1.5;  }
+.open-positions-sub-category li { font-size: 14px; line-height: 150%; margin-bottom: 4px; font-weight: 400; border-left: 1px solid rgba(102, 102, 102, 0.25); padding-left: 9px; }  
+.open-positions-sub-category li:first-child{border-left: none; padding-left: 0;}
+.open-positions-sub-category > li:before{display: none;}
+.open-position-button{background: var(--Gray); padding: 8px 7px 9px 8px; width: 48px; height: 48px;  transition: var(--b-transition)}
+.open-position-button a i{font-size: 32px; font-weight: 300;}
 .open-position-filter{margin-bottom: 40px;}
-
-
-
-/* .mac .open-position-button .button{padding: 12px 16px 14px 16px;}
-.mac .open-positions-sub-category > li::before {top: 9px;} */
+.open-positions-list:hover{background-color: rgba(39, 114, 219, 0.1);  border-left: 8px solid var(--Blue);}
+.open-positions-list:hover .open-position-button{background-color: var(--Blue);}
+.open-positions-list:hover .open-position-button i{color: Var(--White);}
 
 
 @media only screen and (min-width: 1400px){
