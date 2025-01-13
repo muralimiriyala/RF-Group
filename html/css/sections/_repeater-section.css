@@ -1,8 +1,14 @@
 .repeater-section{clear: both; width: 100%; overflow: hidden;}
-.repeater-main{padding: 80px 0;}
+.repeater-main{padding: 80px 0 0;}
 .repeater-text h2{font-family: var(--heading-font);}
 .repeater-text span{margin: 0 0 16px 0;}
 .repeater-list.row-reverse{flex-direction: row-reverse;}
+
+.repeater-icon{left: -80px;
+    right: auto;
+    height: 160px;
+    transform: translateY(-50%); top: 50%;
+    width: 120px;}
 
 @media only screen and (min-width: 1300px) {
     .repeater-list{ gap: 80px;}
