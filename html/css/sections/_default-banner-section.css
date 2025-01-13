@@ -14,6 +14,9 @@
 @media screen and (min-width: 1024px) {
     .default-banner-text{padding: 161px 0 178px; max-width: 695px;}
 }
+@media screen and (min-width: 810px){
+    .default-banner-text{max-width: 695px;}
+}
 @media screen and (max-width: 1023px) and (min-width: 810px) {
     .default-banner-text{padding: 144px 0 80px;}
 }
