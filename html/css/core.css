@@ -20,7 +20,12 @@
 @import url('./pages/about-team.css');
 @import url('./pages/about-history.css');
 @import url('./pages/news-update.css');
+<<<<<<< HEAD
 @import url('./pages/careers-page.css');
+=======
+@import url('./pages/index.css');
+
+>>>>>>> c850ff5adef6cf8d23e66a7a43d60ccd0601b2b9
 
 
 /*-- From common section css --*/
@@ -37,7 +42,9 @@
 @import url('./sections/_tst-slider-section.css');
 @import url('./sections/_repeater-section.css');
 @import url('./sections/_open-positions-section.css');
+@import url('./sections/_fin-planning-section.css');
 
+@import url('./sections/_home-banner-section.css');
 @import url('./sections/_default-banner-section.css');
 @import url('./sections/_default-article-section.css');
 
