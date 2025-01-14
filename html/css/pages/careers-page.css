@@ -1,6 +1,14 @@
-.career-short-section{margin-top: -89px; position:  relative; z-index: 1; background-image: linear-gradient(to bottom,transparent calc(100% - var(--top-value)),var(--Gray) var(--top-value));}
+:root{
+    --low-50: 50px;
+}
+.career-short-section{position:  relative; z-index: 1; background-image: linear-gradient(to bottom,transparent calc(100% - var(--top-value)),var(--Gray) var(--top-value));}
 
-@media only screen and (max-width: 1024px) and (min-width: 768px) {
-.career-short-section {margin-top: -40px; background-image: linear-gradient(to bottom,transparent calc(100% - var(--low-value)),var(--Gray) var(--low-value)); }
-
+@media only screen and (min-width: 1024px){
+    .career-short-section{margin-top: -89px;}
+}
+@media only screen and (max-width: 1024px) and (min-width: 810px) {
+    .career-short-section {margin-top: -40px; background-image: linear-gradient(to bottom,transparent calc(100% - var(--low-value)),var(--Gray) var(--low-value)); }
+}
+@media only screen and (max-width: 809px) and (min-width: 200px) {
+    .career-short-section{background-image: linear-gradient(to top,transparent calc(100% - var(--low-50)),var(--Black) var(--top-value));}
 }
