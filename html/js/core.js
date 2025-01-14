@@ -34,4 +34,5 @@ import { stickyYear } from './modules/stickyYear.js';
   gsapscroll.init();
   sticky.init();
   stickyYear.init();
+  openPosition.init();
 })();
