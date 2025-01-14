@@ -26,10 +26,10 @@
     <script src="https://kit.fontawesome.com/daf2e8de71.js" crossorigin="anonymous"></script>
 
     <!-- CSS Base -->
-    <link rel="stylesheet" href="./style.css" media="all">
+    <link rel="stylesheet" href="./style.css?v=1" media="all">
     <link rel="stylesheet" href="./style.bundle.css?v=619078" media="all">
 </head>
-<body>
+<body class="page-template-careers">
   <header class="site-header">
     <div class="container">
         <div class="header flex flex-vcenter">
@@ -86,7 +86,7 @@
 <section class="default-banner-section relative">
     <div class="default-banner-image background-bg">
         <picture class="object-fit default-banner-thumb">
-            <source srcset="images/default-banner@2x.jpg" media="(min-width: 768px)">
+            <source srcset="images/career-banner@2x.jpg" media="(min-width: 768px)">
             <img src="images/default-banner-mob@2x.jpg" alt="default-banner">
         </picture>
         <div class="default-banner-overlay background-bg black-bg"></div>
@@ -111,7 +111,7 @@
             <div class="team-mem-short-main">
                 <div class="team-mem-inner flex flex-vcenter">
                     <div class="team-mem-inner-lt flex flex-vcenter">
-                        <div class="team-mem-icon">
+                        <div class="team-mem-icon" data-animate="ui ui-icon" data-duration="1000">
                             <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M6 38.5012C6 40.5699 6.82178 42.5538 8.28457 44.0166C9.74735 45.4794 11.7313 46.3012 13.8 46.3012C15.8687 46.3012 17.8526 45.4794 19.3154 44.0166C20.7782 42.5538 21.6 40.5699 21.6 38.5012C21.6 36.4325 20.7782 34.4485 19.3154 32.9857C17.8526 31.523 15.8687 30.7012 13.8 30.7012C11.7313 30.7012 9.74735 31.523 8.28457 32.9857C6.82178 34.4485 6 36.4325 6 38.5012Z" stroke="#2772DB" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
                                 <path d="M25.4996 61.9012C25.4996 58.7981 24.2669 55.8222 22.0728 53.628C19.8786 51.4338 16.9026 50.2012 13.7996 50.2012C10.6966 50.2012 7.72064 51.4338 5.52646 53.628C3.33228 55.8222 2.09961 58.7981 2.09961 61.9012" stroke="#2772DB" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
@@ -139,39 +139,38 @@
 </section>
 
 <section class="repeater-section gray-bg">
-    <!-- <div class="container"> -->
-        <div class="repeater-main">
-            <div class="repeater-list flex flex-vcenter">
-                <div class="repeater-text">
-                    <div class="repeater-desc">
-                    <span class="optional-text">Who we are</span>
-                    <h2>Short headline about general RF Group company culture</h2>
-                    <p>Short description of the content of the subpage linked to by this section euismod massa volutpat risus non massa cras bibendum in cum feugiat lacinia ac leo. </p>
-                    <div class="default-banner-btn">
-                        
-                        <a href="#" class="text-link inline-flex f-800">More about RF Group
-                        <em class="fa-sharp fa-regular fa-arrow-right"></em></a>
-                    </div>
-                    </div>
-                </div>
-                <div class="repeater-img relative">
-                    <div class="repeater-icon absolute">
-                    <svg width="120" height="160" viewBox="0 0 120 160" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M0.5 0.934258L119.099 80L0.5 159.066V0.934258Z" stroke="#D0D0CE"/>
-                      </svg>
-                    </div>
-
-                    <figure class="object-fit" role="none">
-                        <img src="images/repeater-thumb4@2x.jpg" alt="" title="">
-                    </figure>
-                    <!-- <picture class="object-fit">
-                        <source srcset="images/repeater-thumb4@2x.jpg" media="(min-width: 768px)">
-                        <img src="images/about-repeater-mobile-one@2x.jpg" alt="products-detail-repeater-one">
-                    </picture> -->
-                </div>
+<div class="repeater-main">
+    <div class="repeater-list flex flex-vcenter">
+        <div class="repeater-text">
+            <div class="repeater-desc">
+            <span class="optional-text">Who we are</span>
+            <h2>Short headline about general RF Group company culture</h2>
+            <p>Short description of the content of the subpage linked to by this section euismod massa volutpat risus non massa cras bibendum in cum feugiat lacinia ac leo. </p>
+            <div class="default-banner-btn">
+                
+                <a href="#" class="text-link inline-flex f-800">More about RF Group
+                <em class="fa-sharp fa-regular fa-arrow-right"></em></a>
             </div>
-        <!-- </div> -->
+            </div>
+        </div>
+        <div class="repeater-img relative">
+            <div class="repeater-icon absolute">
+                <svg class="repeater-icon-normal transition" width="120" height="160" viewBox="0 0 120 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.5 0.934258L119.099 80L0.5 159.066V0.934258Z" stroke="#D0D0CE"/>
+                </svg>
+                <svg class="repeater-icon-hover absolute transition" width="120" height="160" viewBox="0 0 120 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.5 0.934258L119.099 80L0.5 159.066V0.934258Z" stroke="#2772DB"/>
+                </svg>
+            </div>
+            <figure class="object-fit" role="none">
+                <img src="images/repeater-thumb4@2x.jpg" alt="" title="">
+            </figure>
+            <div class="repeater-big-text background-bg z-2 flex flex-vcenter">
+                <span class="fs-80 f-700 white-50 lh-100 relative transition-3">BIGTEXT</span>
+            </div>
+        </div>
     </div>
+</div>
 </section>
 
 <section class="about-intro-section gray-bg">
@@ -260,7 +259,6 @@
      
     </div>
 </section>
-
 <section class="tst-slider-section relative">
     <div class="tst-slider-main">
         <div class="tst-slider-slide relative" data-color="#006F64">
@@ -543,16 +541,15 @@
                 <div class="open-positions-right">
                     <div class="open-position-filter">
                         <ul class="filter-links flex">
-                            <li><a href="#" class="active">Selected job category</a></li>
+                            <li><a class="active" href="#">Selected job category</a></li>
                             <li><a href="#">Job category</a></li>
                             <li><a href="#">Job category</a></li>
                             <li><a href="#">Job category</a></li>
                         </ul>
                     </div>
-
                     <div class="open-positions-list fs-18 flex flex-vcenter">
                         <div class="open-positions-title">
-                            <h6><a href="">Open position title appears here and fits as needed</a></h6>
+                            <h6 class="body-font fs-18"><a href="">Open position title appears here and fits as needed</a></h6>
                             <ul class="flex open-positions-sub-category">
                                 <li>Job location</li>
                                 <li>Department</li>
@@ -561,12 +558,12 @@
                             </ul>
                         </div>
                         <div class="open-position-button">
-                            <a  href="" target="_blank"><i class="fa-regular fa-chevrons-right"></i></a>
+                            <a class="flex flex-center" href="" target="_blank"><i class="fs-32 transition fa-light fa-chevrons-right"></i></a>
                         </div>
                     </div>
                     <div class="open-positions-list  fs-18 flex flex-vcenter">
                         <div class="open-positions-title">
-                            <h6><a href="">Open position title appears here and fits as needed</a></h6>
+                            <h6 class="body-font fs-18"><a href="">Open position title appears here and fits as needed</a></h6>
                             <ul class="flex open-positions-sub-category">
                                 <li>Job location</li>
                                 <li>Department</li>
@@ -575,12 +572,12 @@
                             </ul>
                         </div>
                         <div class="open-position-button">
-                            <a  href="" target="_blank"><i class="fa-regular fa-chevrons-right"></i></a>
+                            <a class="flex flex-center" href="" target="_blank"><i class="fs-32 transition fa-light fa-chevrons-right"></i></a>
                         </div>
                     </div>
                     <div class="open-positions-list  fs-18 flex flex-vcenter">
                         <div class="open-positions-title">
-                            <h6><a href="">Open position title appears here and fits as needed</a></h6>
+                            <h6 class="body-font fs-18"><a href="">Open position title appears here and fits as needed</a></h6>
                             <ul class="flex open-positions-sub-category">
                                 <li>Job location</li>
                                 <li>Department</li>
@@ -589,12 +586,12 @@
                             </ul>
                         </div>
                         <div class="open-position-button">
-                            <a  href="" target="_blank"><i class="fa-regular fa-chevrons-right"></i></a>
+                            <a class="flex flex-center" href="" target="_blank"><i class="fs-32 transition fa-light fa-chevrons-right"></i></a>
                         </div>
                     </div>
                     <div class="open-positions-list fs-18 flex flex-vcenter">
                         <div class="open-positions-title">
-                            <h6><a href="">Open position title appears here and fits as needed</a></h6>
+                            <h6 class="body-font fs-18"><a href="">Open position title appears here and fits as needed</a></h6>
                             <ul class="flex open-positions-sub-category">
                                 <li>Job location</li>
                                 <li>Department</li>
@@ -603,12 +600,12 @@
                             </ul>
                         </div>
                         <div class="open-position-button">
-                            <a  href="" target="_blank"><i class="fa-regular fa-chevrons-right"></i></a>
+                            <a class="flex flex-center" href="" target="_blank"><i class="fs-32 transition fa-light fa-chevrons-right"></i></a>
                         </div>
                     </div>
                     <div class="open-positions-list fs-18 flex flex-vcenter">
                         <div class="open-positions-title">
-                            <h6><a href="">Open position title appears here and fits as needed</a></h6>
+                            <h6 class="body-font fs-18"><a href="">Open position title appears here and fits as needed</a></h6>
                             <ul class="flex open-positions-sub-category">
                                 <li>Job location</li>
                                 <li>Department</li>
@@ -617,7 +614,7 @@
                             </ul>
                         </div>
                         <div class="open-position-button">
-                            <a  href="" target="_blank"><i class="fa-regular fa-chevrons-right"></i></a>
+                            <a class="flex flex-center" href="" target="_blank"><i class="fs-32 transition fa-light fa-chevrons-right"></i></a>
                         </div>
                     </div>
 
