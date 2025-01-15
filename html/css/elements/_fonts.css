@@ -5,4 +5,4 @@
 }
 .body-font{font-family: var(--body-font);}
 .heading-font{font-family: var(--body-font);}
-.CondensedBold{font-family: "Blackbird-CondensedBold", sans-serif;;}
+.CondensedBold{font-family: var(--CondensedBold);}

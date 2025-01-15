@@ -8,7 +8,7 @@
 .navy-block-btn .button { font-size: 16px; gap: 8px; justify-content: center; padding: 10px 8px; width: 100%; }
 
 .management-team-row{padding: 0 0 80px;}
-.management-team-image img{width: 160px; outline: 8px solid rgba(0, 0, 0, 0.1); border-radius: 120px;}
+.management-team-image img{width: 160px; outline: 8px solid rgba(0, 0, 0, 0.1); border-radius: 120px; height: 160px;}
 .management-team-list{ text-align: center; }
 .management-team-image{margin-bottom: 16px;}
 .management-team-info h4{font-size: 24px; font-weight: 600; line-height: 125%; letter-spacing: -0.48px; margin-bottom: -3px;}
