@@ -3,7 +3,7 @@
 .team-mem-main{padding: 80px 0;}
 .team-mem-heading{margin:  0 0 40px;}
 
-
+.team-mem-thumb{height: 100%;}
 .team-mem-info{ padding:80px 24px 24px; width: 100%; justify-content: space-between;}
 .team-mem-info{background: linear-gradient(to bottom, transparent, var(--Black));}
 
