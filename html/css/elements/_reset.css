@@ -92,7 +92,6 @@ hr.sm-line{background-color: var(--Blue); height: 2px; border-radius: 1px; margi
     transform: perspective(500px) rotateY(calc(12.5deg*var(--_i,-1)));
     color: var(--White);
 }
-
 .button.transparent::after{width: 0; height: 100%; top: 0; left: 0; transition: all 0.8s ease; background-color: var(--Blue); content: ""; display: block; position: absolute; z-index: -1;}
 .button.transparent:hover::after{width: 100%;}
 .button.transparent:hover{color: var(--White); border-color: var(--Blue);}
@@ -102,10 +101,10 @@ hr.sm-line{background-color: var(--Blue); height: 2px; border-radius: 1px; margi
 .button.transparent.purple-border::after{background-color: var(--RF-Purple);}
 
 
-.button.transparent{background: transparent; border-color: var(--Blue); color: var(--Blue);}
+body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparent, .button.transparent{background: transparent; border-color: var(--Blue); color: var(--Blue);}
 .button.transparent.white{color: var(--White);}
-.button.transparent.black{color: var(--Black);}
-.button.transparent.black:hover{color: var(--White);}
+body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparent.black, .button.transparent.black{color: var(--Black);}
+body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparent.black:hover, .button.transparent.black:hover{color: var(--White);}
 
 
 .button.transparent-border{border-color: transparent;}
