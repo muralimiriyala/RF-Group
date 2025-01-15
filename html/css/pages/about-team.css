@@ -6,19 +6,21 @@
 .team-mem-thumb{height: 100%;}
 .team-mem-info{ padding:80px 24px 24px; width: 100%; justify-content: space-between;}
 .team-mem-info{background: linear-gradient(to bottom, transparent, var(--Black));}
+.team-mem-list{transition: var(--b-transition);}
 .team-mem-list > a{color: var(--White); display: block; width: 100%; height: 100%;}
-.team-mem-list > a:hover{color: var(--Blue);}
+.team-mem-list > a:hover, .team-mem-list > a:hover h3{color: var(--Blue);}
+
+.team-mem-list:hover  .team-info-pos i{transform: translateX(5px); } 
 .team-info-desc h3{ margin-bottom: 0; line-height: 100%; color: var(--White);}
 
 .team-info-desc span{font-size: 16px; color: var(--White-50);}
 .team-info-btn{border-left: 1px solid var(--Blue); padding-left: 10px; width: fit-content; align-items: center; display: flex;}
-.team-info-btn i{font-size: 24px; color: var(--Blue);}
+.team-info-btn i{font-size: 24px; color: var(--Blue); transition: var(--b-transition)}
 
 .team-mem-short-main { border: 2px solid var(--Blue); padding: 6px; }
   .team-mem-inner{background-color: var(--White); padding: 40px; justify-content: space-between; gap: 40px;}
   .team-mem-text span{margin: 8px 0;}
   .team-mem-text h3{margin-bottom: 0;}
-  
   
   
   
