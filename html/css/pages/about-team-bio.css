@@ -21,7 +21,7 @@ ul.bio-links > li i{font-size: 20px;  font-weight: 400; color: var(--Blue); widt
 .about-bio-right-main p{margin-bottom: 40px;}
 .about-bio-info + p{margin-bottom: 16px;}
 .about-bio-right-main .h4{font-weight: 600; font-size: 28px; letter-spacing: -0.56px; line-height: 125%; margin-bottom: 16px;}
-.about-bio-right-main .h4 + p{margin-bottom: 16px;}
+/* .about-bio-right-main .h4 + p{margin-bottom: 16px;} */
 .about-bio-right-main ul > li::before {left: -17px; top: 13px; background-color: var(--Text-Gray);}
 
 .blue-block-wrap{position: relative; z-index: 1;}
@@ -36,6 +36,7 @@ ul.bio-links > li i{font-size: 20px;  font-weight: 400; color: var(--Blue); widt
 .blue-block-btn .button.btn-white i{color: var(--Blue);}
 .blue-block-btn .button i{font-size: 16px;}
 
+.about-bio-img img{ max-height: 350px; object-position: top center;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
