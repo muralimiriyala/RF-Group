@@ -1,6 +1,8 @@
 
 
 :root{ --top-value: 80px; --low-value: 40px; }
+.have-questions-main.no_form{display: block;}
+.have-questions-main.no_text{display: block;}
 .have-questions-section{background-image: linear-gradient(to top, var(--Gray) calc(100% - var(--low-value)) , var(--White) var(--low-value));}
 .have-questions-bg{top: auto; bottom: 0;}
 .have-questions-text h2{margin-bottom: 26px;}

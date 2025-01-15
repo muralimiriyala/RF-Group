@@ -1,5 +1,5 @@
 .contact-main{padding: 80px 0; gap: 80px;}
-.contact-left{flex: 0 0 350px;}
+.contact-main.no_form{display: block;}
 .contact-left span.optional-text{margin-bottom: 14px;}
 .contact-left h1{margin-bottom: 16px;}
 
@@ -17,12 +17,13 @@ ul.contact-links > li:last-child{display: flex; gap: 12px; margin-bottom: 0;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
+    .contact-left{flex: 0 0 350px;}
     ul.contact-links{padding-top: 5px;}
 }
-
 @media only screen and (max-width: 1023px) and (min-width: 810px){
     .contact-left h1{font-size: 36px;}
 }
 @media only screen and (max-width: 809px) and (min-width: 200px){
     .contact-main{display: block; padding: 40px 0;}
+    .contact-left{margin-bottom: 22px;}
 }
