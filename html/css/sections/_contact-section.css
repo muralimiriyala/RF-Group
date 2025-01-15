@@ -1,8 +1,7 @@
-.contact-main{padding: 80px 0;}
+.contact-main{padding: 80px 0; gap: 80px;}
 .contact-left{flex: 0 0 350px;}
 .contact-left span.optional-text{margin-bottom: 14px;}
 .contact-left h1{margin-bottom: 16px;}
-
 
 ul.contact-links{margin: 0;}
 ul.contact-links > li{ line-height: 100%; margin-bottom: 16px;}
@@ -20,6 +19,7 @@ ul.contact-links > li:last-child{display: flex; gap: 12px; margin-bottom: 0;}
 @media only screen and (min-width: 1024px){
     ul.contact-links{padding-top: 5px;}
 }
+
 @media only screen and (max-width: 1023px) and (min-width: 810px){
     .contact-left h1{font-size: 36px;}
 }

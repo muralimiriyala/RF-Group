@@ -1,6 +1,6 @@
 
 select.selectBox{display: none;}
-body .selectBox-dropdown{padding: 12px 52px 10px 16px; width: 100%; font-size: 1.25rem; line-height: 1.25rem; font-weight: 600; height: auto; border: 1.5px solid var(--Light-Gray); background: var(--White); border-radius: 0; color: var(--Black); font-family: var(--heading-font); display: block; cursor: pointer; position: relative; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+body .selectBox-dropdown{padding: 12px 52px 10px 16px; width: 100%; font-size: 1.25rem; line-height: 1.25rem; font-weight: 600; height: auto; border: 1.5px solid var(--Light-Gray); background: var(--White); border-radius: 0; color: var(--Black); font-family: var(--body-font); display: block; cursor: pointer; position: relative; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
 body .selectBox-dropdown:focus{border-color: var(--Light-Gray);}
 body .selectBox-dropdown span.selectBox-label a{color: inherit;}
 body .selectBox-dropdown .selectBox-label{padding: 0; line-height: normal; display: block; white-space: nowrap; text-overflow: ellipsis;}
