@@ -4,13 +4,13 @@
 label{padding-bottom: 9px; display: block; font-size: 1.125rem; line-height: 1.375rem; letter-spacing: 0; font-weight: 800; font-family: var(--base-font);}
 textarea {width: 100%; resize: none; height: 118px;}
 input:focus, textarea:focus{outline: 0;}
-input[type="button"], input[type="reset"], input[type="submit"] {display: inline-block; font-size: 0.875rem; line-height: normal; padding: 17px 35px 16px 36px; vertical-align: middle; cursor: pointer; border: none; border-radius: 0; background-color: var(--Blue); font-weight: bold; letter-spacing: normal; position: relative; text-transform: uppercase; text-align: center; color: var(--White); transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1);}
+input[type="button"], input[type="reset"], input[type="submit"] {display: inline-block; font-size: 0.875rem; line-height: normal; padding: 17px 35px 16px 36px; vertical-align: middle; cursor: pointer; border: none; border-radius: 0; background-color: var(--Blue); font-weight: 700; letter-spacing: normal; position: relative; text-transform: uppercase; text-align: center; color: var(--White); transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1);}
 input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus {background-color: var(--Black); color: var(--White);}
 input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:active {outline: none;}
 
 body .white-popup-block .frm_forms h3.frm_form_title{display: none;}
 body .frm_forms .frm_form_fields fieldset{margin: 0; padding: 0; border: none;}
-body .frm_forms .frm_form_fields .frm_form_field{position: relative; clear: both;}
+body .frm_forms .frm_form_fields .frm_form_field{margin-bottom: 0; position: relative; clear: both;}
 body .frm_forms .frm_form_fields .frm_form_field.frm_full{width: 100%;}
 body .frm_forms .frm_form_fields .frm_form_field.hide_label .frm_primary_label{display: none;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio{margin-bottom: 24px;}
@@ -21,7 +21,8 @@ body .frm_forms .frm_form_fields .frm_description{display: none;}
 body .frm_forms .frm_required{display: none;}
 body .frm_forms #frm_field_7_container .frm_required{display: block;}
 body .contact-form .frm_forms .frm_required{display: inline;}
-body .frm_forms .frm_form_fields .frm_fields_container{gap: 38px; display: flex; flex-wrap: wrap; align-items: flex-start; position: relative;}
+body .frm_forms .frm_form_fields .frm_fields_container{gap: 38px; width: 100%; display: flex; flex-wrap: wrap; align-items: flex-start; position: relative;}
+
 body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label{display: block; font-size: 1.125rem; line-height: 1.125rem; font-weight: 600; font-family: var(--body-font); color: var(--Blue); text-transform: none; padding: 0 0 8px; visibility: visible;}
 body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span.label-info{font-size: 0.8rem; font-weight: 400; gap: 4px; display: flex; flex: 1; float: right; color: var(--Black-50); font-size: .813rem; font-weight: 500; align-items: center; margin-left: auto; letter-spacing: -0.56px;}
 body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label span.label-info > *{font-size: 0.715rem;}
@@ -35,7 +36,7 @@ body .frm_style_formidable-style.with_frm_style .form-field input:not([type="fil
 body .frm_forms .frm_form_fields .frm_form_field input:not([type="file"]):focus,
 body .frm_forms .frm_form_fields .frm_form_field input:not([type="checkbox"]):focus, 
 body .frm_forms .frm_form_fields .frm_form_field input:not([type="radio"]):focus,
-textarea:focus{ border: none; box-shadow: none; color: var(--White); opacity: 1;}
+textarea:focus{ border-color: var(--Blue); box-shadow: none; color: var(--Blue); opacity: 1;}
 
 body .frm_forms.with_frm_style .frm_fields_container .frm_radio input[type="radio"]:not([disabled]):checked, 
 body .frm_forms.with_frm_style .frm_fields_container .frm_scale input[type="radio"]:not([disabled]):checked, 
@@ -89,7 +90,9 @@ body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox in
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="radio"]:checked{border-width: 8px;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="radio"]:checked::before{content: ""; position: absolute !important; width: 8px; height: 8px; top: 50%; left: 50%; transform: translate(-50%, -50%); background: var(--Blue); border-radius: 50%; margin: 0;}
 
-body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox input[type='checkbox']{top: 0; left: 0; width: 20px !important; height: 20px !important; min-width: 20px !important; padding: 0; background-color: var(--rgb-5) !important; border: 1px solid var(--RecallMax-Purple-Tint); overflow: hidden; position: relative; cursor: pointer;}
+body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox input[type='checkbox']{top: 0; left: 0; width: 20px !important; height: 20px !important; min-width: 20px !important; padding: 0; background-color: transparent !important; border: 1px solid var(--Text-Gray); overflow: hidden; position: absolute; cursor: pointer; box-shadow: none;}
+body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox input[type='checkbox']:focus{box-shadow: none !important;}
+body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_checkbox input[type='checkbox']::before{box-shadow: none;}
 body .frm_forms .frm_form_fields .frm_form_field.vertical_radio input[type="checkbox"]:checked:before{
 
     box-shadow: none;
@@ -122,7 +125,7 @@ body .contact-form .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_subm
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit::before{display: none;}
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_button_submit{width: 100%;}
 body .frm_forms .frm_form_fields .frm_form_field input.frm_custom_date, body .frm_forms .frm_form_fields .frm_form_field.date_icon input{background-size: 14px 14px;}
-body .frm_forms form .frm_required_field div.frm_error{right: 0; bottom: -17px; font-size: 0.75rem; line-height: 0.875rem; color: var(--red); position: absolute;}
+body .frm_forms form .frm_required_field div.frm_error{right: 0; bottom: -17px; font-size: 0.75rem; line-height: 0.875rem; color: var(--red); font-weight: 300; position: absolute;}
 body .newsletter-signup .frm_forms form .frm_required_field div.frm_error{color: var(--White);}
 body .frm_success_style, body .with_frm_style .frm_message{font-weight: 700; font-size: 1.125rem; line-height: 1.625rem; letter-spacing: normal; font-weight: 400; font-family: var(--body-font); color: var(--Black); background: none; padding: 0; text-align: left; border: none; border-radius: 0;}
 body .with_frm_style .frm_message p{font-weight: 700; color: var(--Black); letter-spacing: inherit;}
@@ -196,8 +199,8 @@ body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertica
 
 body.page-template-contact .frm_forms .frm_filed_wrapper{gap: 16px; justify-content: space-between;}
 body.page-template-contact .frm_forms .frm_filed_wrapper .frm_form_field{margin: 0;}
-body.page-template-contact .frm_forms .frm_filed_wrapper .frm_form_field label{cursor: auto !important;}
 body.page-template-contact .frm_forms .frm_filed_wrapper .plane-text{flex: 1; font-size: 1rem; line-height: 1.5rem; opacity: 0.75;}
+body.page-template-contact .frm_forms .frm_filed_wrapper label{padding: 0 0 0 28px; text-align: left;}
 body.page-template-contact .contact-form-form .frm_forms .frm_filed_wrapper .vertical_radio{gap: 0;}
 body.page-template-contact .contact-form-form .frm_forms .frm_filed_wrapper .vertical_radio .frm_radio label{padding: 0; color: rgba(48, 33, 53, 0.75);}
 body.page-template-contact .contact-form-form .frm_forms .frm_filed_wrapper .vertical_radio .frm_radio input{display: none !important;}
@@ -214,9 +217,10 @@ body.page-template-contact .frm_forms .frm_filed_wrapper .frm_form_field.disclai
 
 
 /*-- media css starts here --*/
-@media only screen and (min-width: 1024px){
+@media only screen and (min-width: 560px){
     body .frm_forms .frm_form_fields .frm_form_field.frm_half {width: calc(50% - 19px);}
-
+}
+@media only screen and (min-width: 1024px){
     body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field{margin-bottom: 0; flex: 1;}
     .captcha-btn-wrapper{display: flex; align-items: center; justify-content: end; gap: 30px;}
     body .frm_forms .frm_form_fields .captcha-btn-wrapper .frm_form_field{margin-bottom: 0;}
@@ -268,7 +272,6 @@ body.page-template-contact .frm_forms .frm_filed_wrapper .frm_form_field.disclai
     body .affiliate-partner-rt .frm_forms .frm_form_fields .form_field_wrapper .frm_opt_container{margin-left: 0;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 810px){
-    /* body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_radio{flex: 0 0 calc(25% - 6px);} */
     body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_radio{width: fit-content;}
     body .frm_forms .frm_form_fields .frm_form_field.vertical_checkbox .frm_opt_container .frm_checkbox{flex: 0 0 calc(25% - 6px);} 
 
@@ -276,11 +279,6 @@ body.page-template-contact .frm_forms .frm_filed_wrapper .frm_form_field.disclai
     body .frm_forms .frm_form_fields .frm_form_field.frm_third{width: calc(50% - 12px); margin-left: 9px; margin-right: 9px; float: none; clear: none; display: inline-block; vertical-align: top;}
     body .frm_forms .frm_form_fields .frm_form_field.frm_third.frm_left{margin-left: 0;}
     body .frm_forms .frm_form_fields .frm_form_field.frm_third.frm_right{margin-right: 0;}
-
-    body .frm_forms .frm_form_fields .frm_form_field.frm_half {width: calc(50% - 11px); margin-left: 8px; margin-right: 8.5px; float: none; clear: none; display: inline-block; vertical-align: top;}
-    body .frm_forms .frm_form_fields .frm_form_field.frm_half.frm_first{margin-left: 0;}
-    body .frm_forms .frm_form_fields .frm_form_field.frm_half.frm_last{margin-right: 0;}
-    body .frm_forms .frm_form_fields .frm_form_field.frm_half .frm_half{width: 100%; margin: 0 0 24px; float: none;}
 
     .frm_form_field_wrapper{gap: 20px; justify-content: space-between;}
     body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field{margin-bottom: 0;}
@@ -301,6 +299,7 @@ body.page-template-contact .frm_forms .frm_filed_wrapper .frm_form_field.disclai
 }
 @media only screen and (max-width: 809px) and (min-width: 200px){
     .frm_form_field_wrapper{display: block;}
+    body.page-template-contact .frm_forms .frm_filed_wrapper .frm_form_field.disclaimer-text{}
     body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertical_radio{margin-bottom: 26px; flex: 1;}
     body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertical_radio .frm_checkbox input{top: 2px;}
     body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit{flex: 0 0 110px; padding-top: 6px;}
@@ -308,7 +307,6 @@ body.page-template-contact .frm_forms .frm_filed_wrapper .frm_form_field.disclai
 
     body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{width: 100%;}
     body .frm_forms .frm_form_fields .frm_form_field.client-info{padding-top: 34px; margin-top: 0  ; border-top: none;}
-    body .frm_forms .frm_form_fields .frm_form_field{margin-bottom: 20px;}
     body .frm_forms .frm_form_fields .frm_form_field.vertical_radio{margin-bottom: 20px;}
     body .frm_forms .frm_form_fields .frm_form_field .frm_primary_label{padding: 0 0 8px;}
     body .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_primary_label{padding: 0 0 5px;}
@@ -347,6 +345,12 @@ body.page-template-contact .frm_forms .frm_filed_wrapper .frm_form_field.disclai
     body .maxassist-demo-rt .frm_forms .frm_form_fields .form_field_wrapper .frm_form_field{margin: 0; width: 100%;}
 
     body .frm_forms form .frm_required_field div.frm_error{bottom: -15px; position: static;}
+    body.page-template-contact .frm_forms .frm_filed_wrapper .frm_form_field.disclaimer-text{font-size: 14px;}
+}
+@media screen and (max-width: 559px) and (min-width: 200px){
+    body .frm_forms .frm_form_fields .frm_fields_container{gap: 22px; flex-direction: column;}
+    body .frm_forms .frm_form_fields .frm_form_field{width: 100%;}
+    body .frm_forms .frm_form_fields .frm_form_field textarea{height: 130px;}
 }
 @media screen and (max-width: 389px) and (min-width: 200px){
     body .frm_forms .frm_form_fields .frm_form_field.vertical_checkbox .frm_opt_container, body .frm_forms .frm_form_fields .vertical_radio .frm_opt_container{flex-direction: column; margin-bottom: 8px;}

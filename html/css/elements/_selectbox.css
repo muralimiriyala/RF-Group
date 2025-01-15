@@ -1,14 +1,16 @@
 
 select.selectBox{display: none;}
 body .selectBox-dropdown{padding: 14px 52px 14px 16px; width: 100%; font-size: 1rem; line-height: 1.25rem; font-weight: 600; height: auto; border: 1px solid var(--Text-Gray); background: var(--Background-Gray); border-radius: 0; color: var(--Black); font-family: var(--body-font); display: block; cursor: pointer; position: relative; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
-body .selectBox-dropdown:focus{border-color: var(--Light-Gray);}
 body .selectBox-dropdown span.selectBox-label a{color: inherit;}
 body .selectBox-dropdown .selectBox-label{padding: 0; line-height: normal; display: block; white-space: nowrap; text-overflow: ellipsis;}
 body .selectBox-dropdown.selectBox-menuShowing{border-radius: 0;}
-body .selectBox-dropdown .selectBox-arrow{width: 22px; height: 22px; right: 16px; top: calc(50% + 1px); transform: translateY(-50%); position: absolute; background-image: url("../../images/drop-down-blue.svg"); background-repeat: no-repeat; background-size: contain;}
+body .news-post-dropdown .selectBox-dropdown{font-size: 20px; font-family: var(--heading-font);}
+body .news-post-dropdown .selectBox-dropdown .selectBox-arrow{font-size: 24px; top: calc(50% - 2px);}
+body .selectBox-dropdown .selectBox-arrow{right: 16px; top: calc(50% + 1px); transform: translateY(-50%); position: absolute; font-family: "Font Awesome 6 Sharp";  font-size: 14px; color: var(--Blue); width: auto; height: auto; background: none; font-weight: 400;}
+body .selectBox-dropdown .selectBox-arrow::after{content: "\f078";}
 body .selectBox-dropdown.selectBox-menuShowing .selectBox-arrow{transform: translateY(-100%) rotate(180deg); top: calc(50% + 10px); }
 
-ul.selectBox-dropdown-menu{margin: 0; padding: 0; top: 100%; left: 0; max-height: 190px; min-height: 1em; display: block; border-radius: 0; background-color: var(--Background-Gray); border: 1px solid var(--Light-Gray); position: absolute; z-index: 99999; white-space: nowrap; text-overflow: ellipsis; overflow: auto; box-shadow: 0 2px 2px #dadbdf;}
+ul.selectBox-dropdown-menu{margin: 0; padding: 0; top: 100%; left: 0; max-height: 190px; min-height: 1em; display: block; border-radius: 0; background-color: var(--Background-Gray); border: 1px solid var(--Text-Gray); position: absolute; z-index: 99999; white-space: nowrap; text-overflow: ellipsis; overflow: auto; box-shadow: 0 2px 2px #dadbdf;}
 ul.selectBox-dropdown-menu li.selectBox-selected a{color: var(--Blue);}
 ul.selectBox-dropdown-menu li:first-child{padding-top: 10px;}
 ul.selectBox-dropdown-menu li:last-child{padding-bottom: 10px;}
