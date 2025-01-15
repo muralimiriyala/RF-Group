@@ -35,7 +35,8 @@ ul.customer-links > li:last-child{display: flex; gap: 12px; }
     .customer-support-list-3 { flex: 0 0 calc(33.333% - 28px); }
     .customer-support-list-2 { flex: 0 0 calc(50% - 20px); }
     .customer-support-list h2 { font-size: 28px;}
-    ul.customer-links > li:last-child{margin-bottom: 0;}   
+    ul.customer-links > li:last-child{margin-bottom: 0;}  
+    ul.customer-links > li > a{font-size: 16px;} 
 }
 @media only screen and (max-width: 809px) and (min-width: 200px){
     .customer-support-main{display: block; padding: 40px 0;}
