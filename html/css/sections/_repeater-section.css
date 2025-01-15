@@ -3,13 +3,16 @@
 .repeater-text h2{font-family: var(--heading-font); margin-bottom: 32px;}
 .repeater-text span{margin: 0 0 16px 0;}
 .repeater-list.row-reverse{flex-direction: row-reverse;}
-.repeater-icon{left: -80px; right: auto; height: 160px; transform: translateY(-50%); top: 50%; width: 120px;}
+.repeater-icon{left: -72px; right: auto; height: 160px; transform: translateY(-50%); top: 50%; width: 120px;}
 
 .repeater-icon svg{width: 100%; height: 100%; object-fit: cover;}
 svg.repeater-icon-hover{top: 0; left: 0; opacity: 0;}
 .repeater-list:hover svg.repeater-icon-hover{opacity: 1; transform: translateX(40px);}
 .repeater-big-text span{left: 112px; opacity: 0;}
 .repeater-list:hover .repeater-big-text span{left: calc(50% + 37px); transform: translateX(-50%); opacity: 1;}
+
+.repeater-list.row-reverse .repeater-icon{ height: 160px; right: -72px; left: auto; top: 50%; transform: translateY(-50%) rotate(-180deg); width: 120px;}
+
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1300px) {

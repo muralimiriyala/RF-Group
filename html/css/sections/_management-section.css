@@ -21,11 +21,13 @@
 .management-team-info a{color: var(--Black); font-weight: 700; font-size: 16px; line-height: 150%;}
 .management-team-info a:hover{color: var(--Blue);}
 
+.page-template-about .management-section { background-image: linear-gradient(to top,var(--Gray) calc(100% - var(--top-value)),var(--White) var(--top-value)); }
 
+.management-team-info h4 a{font-size: 24px; font-weight: 600; letter-spacing: -0.48px;}
 /*-- media css --*/
 @media only screen and (min-width: 1024px){
     .management-team-row{gap: 40px;}
-    .management-team-list{flex: 0 0 calc(25% - 40px); }
+    .management-team-list{flex: 0 0 calc(25% - 40px); flex-grow: 1; }
 }
 @media only screen and (max-width: 1199px) and (min-width: 1024px){
   .management-team-row { gap: 20px;}

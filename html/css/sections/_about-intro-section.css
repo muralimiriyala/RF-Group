@@ -6,7 +6,11 @@
 .about-intro-lt > p{font-size: 20px; font-weight: 400; line-height: 150%;}
 .about-intro-lt h1{margin-bottom: 0; line-height: 100%; letter-spacing: normal;}
 
-.about-intro-lists{padding: 40px 0 0;}
+.about-intro{gap: 40px;}
+.about-intro span{flex: 1;}
+.about-intro a{flex: 0 0 148px;}
+
+.about-intro-lists{padding: 40px 0 0 ;}
 .counter-main{font-size: 72px; line-height: 100%; text-transform: uppercase; font-weight: 700; color: var(--Black); margin-bottom: 18px; display: block; }
 span.counter-back{opacity: 0; color: transparent; -webkit-text-stroke: 1px var(--Blue); top: 2px; z-index: -1; left: 2px;}
 .counter-text{left: -9px;}
@@ -15,14 +19,15 @@ span.counter-back{opacity: 0; color: transparent; -webkit-text-stroke: 1px var(-
 .about-intro-list h2{margin-bottom: 10px;}
 
 .about-intro-main .about-intro-lists:only-child{padding: 0;}
-.feature-icon{margin-bottom: 10px;}
+.feature-icon{margin-bottom: 10px; width: 80px; height: 80px;}
+.feature-icon img{width: 100%; height: 100%;}
 /*-- media css --*/
 @media only screen and (min-width: 1024px){
     
 
     .about-intro-lt{margin: 0 40px 0 0; max-width: 460px;}
     .about-intro-rt{ margin-bottom: 0; flex: 1; max-width: 800px;} 
-    .about-intro-lt:only-child{max-width: 100%;}
+    .about-intro-rt:only-child{max-width: 100%;}
     .about-intro-lists{gap: 40px;}
     .intro-list-4{flex: 0 0 calc(25% -  30px);}
     .intro-list-3{flex: 0 0 calc(33.3333333% -  27px);}
@@ -44,9 +49,9 @@ span.counter-back{opacity: 0; color: transparent; -webkit-text-stroke: 1px var(-
 
 @media only screen and (max-width: 809px) and (min-width: 200px){
     .about-intro-main { padding: 40px 0; }
-    .about-intro span {margin-bottom: 24px;}
+    .about-intro span {margin-bottom: 24px; display: block;}
     .about-intro .button{width: 100%; font-size: 16px;}
-    .about-intro{margin: 0 0 24px;}
+    .about-intro{margin: 0 0 24px; display: block;}
     .about-intro-head{padding: 24px 0 26px;}
     .about-intro-lt h1 {font-size: 48px;}
     .about-intro-lt{margin-bottom: 24px;}
