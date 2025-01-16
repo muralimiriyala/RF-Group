@@ -7,7 +7,7 @@ export const gsapscroll = {
   uiele: document.querySelectorAll('[data-animate]'),
   init() {
     const __ = this;
-    // if (!__.header) return;
+    if (!__.header) return;
 
     const $height = Math.ceil(__.header?.getBoundingClientRect().height);
     const $perce = Math.ceil(($height / 1000) * 100);
