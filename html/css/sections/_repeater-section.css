@@ -45,11 +45,15 @@ svg.repeater-icon-hover{top: 0; left: 0; opacity: 0;}
     .repeater-img{margin-bottom: 54px;}
     .repeater-desc { padding: 64px 40px; }
     .repeater-icon { height: 160px; left: 64px; right: auto; top: inherit; width: 120px; bottom: -74px; transform: rotate(-90deg);}
+
+    .page-template-about .repeater-list.row-reverse{padding: 0;}
+
 }
 @media only screen and (max-width: 809px) and (min-width: 200px) {
     .repeater-list{margin-bottom: 44px; flex-direction: column-reverse;}
     .repeater-desc { padding: 40px 24px; }
     .repeater-main{padding: 40px 0;}
+    .repeater-text h2 {margin-bottom: 26px;}
     .repeater-icon { height: 85px; left: 36px; right: auto; top: inherit; width: 64px; bottom: -33px; transform: rotate(-90deg);}
     .repeater-img { margin-bottom: 15px; }
     .repeater-text span { margin: 0 0 12px 0; }
@@ -58,4 +62,12 @@ svg.repeater-icon-hover{top: 0; left: 0; opacity: 0;}
     .repeater-list:hover .repeater-big-text span{left: 50%;}
     body.page-template-careers .repeater-main{padding-top: 0; padding-bottom: 0;}
     body.page-template-careers .repeater-list{margin-bottom: 12px;}
+
+    .page-template-about .repeater-list { padding: 0; margin-bottom: 24px;} 
+      .repeater-main .default-banner-btn {display: block;}
+      .repeater-main .default-banner-btn .button{margin-bottom: 24px;}
+      .repeater-main .default-banner-btn a{width: 100%;}
+      .repeater-main .default-banner-btn .button:only-child{margin-bottom: 0;}
+      .repeater-list.row-reverse{flex-direction: column-reverse; margin: 0; padding: 0;}
+      .page-template-about .repeater-list.row-reverse { padding: 0 }
 }
