@@ -7,8 +7,9 @@
 .about-intro-lt h1{margin-bottom: 0; line-height: 100%; letter-spacing: normal;}
 
 .about-intro{gap: 40px;}
-.about-intro span{flex: 1;}
-.about-intro a{flex: 0 0 148px;}
+.about-left-intro{flex: 1;}
+.about-left-intro .h2{margin-bottom: 0;}
+.about-right-intro{flex: 0 0 148px;}
 
 .about-intro-lists{padding: 40px 0 0 ;}
 .counter-main{font-size: 72px; line-height: 100%; text-transform: uppercase; font-weight: 700; color: var(--Black); margin-bottom: 18px; display: block; }
@@ -36,7 +37,7 @@ span.counter-back{opacity: 0; color: transparent; -webkit-text-stroke: 1px var(-
 
 @media only screen and (max-width: 1023px) and (min-width: 810px){
     .about-intro-main { padding: 64px 0; }
-    .about-intro span{font-weight: 600; font-size: 36px; letter-spacing: -0.72px; } 
+    .about-left-intro{font-weight: 600; font-size: 36px; letter-spacing: -0.72px; } 
     .about-intro{margin: 0 0 32px;}
     .about-intro-head { padding: 32px 0; }
     .about-intro-head h1{font-size: 64px; line-height: 100%; margin-bottom: 32px;}
@@ -49,7 +50,7 @@ span.counter-back{opacity: 0; color: transparent; -webkit-text-stroke: 1px var(-
 
 @media only screen and (max-width: 809px) and (min-width: 200px){
     .about-intro-main { padding: 40px 0; }
-    .about-intro span {margin-bottom: 24px; display: block;}
+    .about-left-intro {margin-bottom: 24px; display: block;}
     .about-intro .button{width: 100%; font-size: 16px;}
     .about-intro{margin: 0 0 24px; display: block;}
     .about-intro-head{padding: 24px 0 26px;}
