@@ -9,6 +9,7 @@
 .about-intro{gap: 40px;}
 .about-left-intro{flex: 1;}
 .about-left-intro .h2{margin-bottom: 0;}
+.about-right-intro:nth-child(1):last-child{flex: 1; text-align: right;}
 .about-right-intro{flex: 0 0 148px;}
 
 .about-intro-lists{padding: 40px 0 0 ;}
