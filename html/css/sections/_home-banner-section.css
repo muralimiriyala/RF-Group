@@ -15,6 +15,7 @@
 /*-- media css --*/
 @media screen and (min-width: 1024px) {
     .home-banner-main{padding: 240px 0 244px; }
+    body.page-template-about .home-banner-main{padding: 160px 0 122px;}
     .home-banner-text{max-width: 804px; padding-bottom: 38px;}
     .home-banner-row{gap: 24px; align-items: center; justify-content: center;}
     .home-banner-list{flex: 0 0 calc(25% - 20px); padding: 0 24px;}
@@ -22,6 +23,7 @@
 }
 @media screen and (max-width: 1023px) and (min-width: 200px) {
     .home-banner-main{padding: 199px 0 179px; }
+    body.page-template-about .home-banner-main{padding: 160px 0 122px;}
     .home-banner-text{max-width: 804px; padding-bottom: 38px;}
     .home-banner-row{max-width: 484px; margin: 0 auto; gap: 0; justify-content: center;}
     .home-banner-list{flex: 0 0 calc(50%); padding: 16px 24px;}
@@ -35,6 +37,7 @@
 }
 @media screen and (max-width: 809px) and (min-width: 200px) {
     .home-banner-main{padding: 44px 0 108px;}
+    body.page-template-about .home-banner-main{padding: 44px 0 80px;}
     .home-banner-image{position: relative;}
     .home-banner-overlay{opacity: 0.5;}
     .home-banner-text{font-size: 16px; padding-bottom: 0; max-width: 526px;}
