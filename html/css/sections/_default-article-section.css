@@ -40,6 +40,7 @@ ul.toc-links li{margin: 0 0 9px;}
 .sidebar-mgt-image figure{padding: 3px;}
 .sidebar-mgt-info h4{margin-bottom: 0;}
 .sidebar-mgt-info p{margin-bottom: 9px;}
+aside.default-aside:nth-child(1):last-child{flex: 1;}
 
 
 /*-- media css --*/
