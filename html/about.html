@@ -169,12 +169,16 @@
 <section class="carousel-slider-section relative">
     <div class="carousel-slider-main">
         <div class="carousel-slider-slide flex flex-center relative" data-color="#006F64">
+            <hr data-animate="100% white" class="hide-desktop hide-tablet visible">
             <div class="carousel-slider-thumb absolute">
-                <figure class="object-fit" role="none">
-                    <img src="images/carousel-slider-bg@2x.png" alt="carousel-slider-bg" title="carousel-slider-bg">
-                </figure>
+                <picture class="object-fit" role="none">
+                    <src srcset="images/carousel-slider-bg@2x.png" media="(min-width : 810px)">
+                    <img src="images/carousel-slider-bg-mob@2x.png" alt="carousel-slider-bg" title="carousel-slider-bg">
+                </picture>
             </div>
+            <hr data-animate="vr-100 white" class="visible">
             <div class="carousel-slider-text aligncenter">
+                
                 <h2>1 First Bahamian investment bank to issue debt security for Bahamas government</h2>
             </div>
             <div class="carousel-slider-arrow carousel-slider-prev absolute flex flex-center fs-64 inverted hide-mobile">
