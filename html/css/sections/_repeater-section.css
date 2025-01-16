@@ -37,7 +37,6 @@ svg.repeater-icon-hover{top: 0; left: 0; opacity: 0;}
     .repeater-list{ gap: 60px;}
     .repeater-text{flex: 0 0 calc(50% - 30px);}
     .repeater-img{flex: 0 0 calc(50% - 30px);}
-    
 }
 @media only screen and (max-width: 1023px) and (min-width: 810px) {
     .repeater-list{margin-bottom: 44px; flex-direction: column-reverse;}
