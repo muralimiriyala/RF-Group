@@ -42,4 +42,5 @@
     .home-banner-overlay{opacity: 0.5;}
     .home-banner-text{font-size: 16px; padding-bottom: 0; max-width: 526px;}
     .home-banner-text h1{font-size: 40px; letter-spacing: -0.8px; margin-bottom: 6px;}
+    body.page-template-about .home-banner-text h1{margin-bottom: 25px;}
 }
