@@ -26,7 +26,7 @@
     body.page-template-about .home-banner-main{padding: 160px 0 122px;}
     .home-banner-text{max-width: 804px; padding-bottom: 38px;}
     .home-banner-row{max-width: 484px; margin: 0 auto; gap: 0; justify-content: center;}
-    .home-banner-list{flex: 0 0 calc(50%); padding: 16px 24px;}
+    .home-banner-list{flex: 0 0 calc(50%); padding: 16px 24px; flex-direction: column; align-items: center; justify-content: center; display: flex; flex-wrap: wrap;}
     .home-banner-list:nth-child(odd){padding-left: 6px;}
     .home-banner-list:nth-child(even){padding-right: 6px;}
     .home-banner-list:nth-child(-n+2){border-bottom: 2px solid var(--White-25);}
