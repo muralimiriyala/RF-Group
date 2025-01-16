@@ -2,13 +2,16 @@ import { CountUp } from 'countup.js';
 
 export const counter = {
   $ele: document.querySelectorAll('[data-count-to]'),
+  $back: document.querySelectorAll('.counter-back'),
   init() {
     const _ = this;
     if (!_.$ele) return;
 
     _.$ele.forEach(($el) => {
       const $target = $el.getAttribute('id');
-      const $duration = parseInt($el.getAttribute('data-duration'));
+      const $duration = parseInt(
+        ($el.getAttribute('data-duration') / 1000) * 1
+      );
 
       const countTo = parseFloat($el.getAttribute('data-count-to'));
       const decimalPlaces =
@@ -16,10 +19,15 @@ export const counter = {
 
       $el.counter = new CountUp(`${$target}`, countTo, {
         startVal: 0,
-        duration: parseInt(($el.getAttribute('data-duration') / 1000) * 1),
-        duration: parseInt(($duration / 1000) * 1),
+        duration: $duration,
         decimalPlaces,
       });
+      setTimeout(() => {
+        console.log($el.textContent);
+      }, 5000);
+    });
+    _.$back.forEach((ele) => {
+      console.log(ele);
     });
   },
 };
