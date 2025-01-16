@@ -21,13 +21,17 @@ export const counter = {
         startVal: 0,
         duration: $duration,
         decimalPlaces,
+        onCompleteCallback: () => {
+          // Ensure the back text is updated after the counting animation completes
+          const $value = $el.textContent || countTo; // Fallback to `countTo` if textContent is empty
+          const $backTxt =
+            $el.nextElementSibling?.querySelector('span.back-txt');
+
+          if ($backTxt) {
+            $backTxt.textContent = $value;
+          }
+        },
       });
-      setTimeout(() => {
-        console.log($el.textContent);
-      }, 5000);
-    });
-    _.$back.forEach((ele) => {
-      console.log(ele);
     });
   },
 };
