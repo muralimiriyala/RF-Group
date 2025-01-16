@@ -13,7 +13,6 @@ body .frm_forms .frm_form_fields fieldset{margin: 0; padding: 0; border: none;}
 body .frm_forms .frm_form_fields .frm_form_field{margin-bottom: 0; position: relative; clear: both;}
 body .frm_forms .frm_form_fields .frm_form_field.frm_full{width: 100%;}
 body .frm_forms .frm_form_fields .frm_form_field.hide_label .frm_primary_label{display: none;}
-body .frm_forms .frm_form_fields .frm_form_field.vertical_radio{margin-bottom: 24px;}
 body .become-partner-form .frm_forms .frm_form_fields .frm_form_field#frm_field_21_container{margin-bottom: 24px;}
 body .flyout-form-overlay .frm_forms .frm_form_fields .frm_form_field{margin-bottom: 25px;}
 body .become-partner-form .frm_forms .frm_error_style{display: none;}
@@ -23,11 +22,20 @@ body .frm_forms #frm_field_7_container .frm_required{display: block;}
 body .contact-form .frm_forms .frm_required{display: inline;}
 body .frm_forms .frm_form_fields .frm_fields_container{gap: 38px; width: 100%; display: flex; flex-wrap: wrap; align-items: flex-start; position: relative;}
 body .have-questions-form .frm_forms .frm_form_fields .frm_fields_container{gap: 22px;}
-body .have-questions-form .frm_forms .frm_form_fields .frm_form_field input{color: var(--White); border-color: var(--White); background-color: var(--White-15);}
-body .have-questions-form .frm_forms .frm_form_fields .frm_form_field input:hover{
+body .have-questions-form .frm_forms .frm_form_fields .frm_form_field input, body .have-questions-form .frm_forms .frm_form_fields .frm_form_field textarea,
+body .have-questions-form .selectBox-dropdown{color: var(--White); border-color: var(--White); background-color: var(--White-15); box-shadow: none;}
+body .have-questions-form .frm_forms .frm_form_fields .frm_form_field input:hover,
+body .have-questions-form .frm_forms .frm_form_fields .frm_form_field input:not([type="file"]):not([type="range"]):not([readonly]):focus,
+body .have-questions-form .frm_forms .frm_form_fields .frm_form_field textarea:hover,
+body .have-questions-form .frm_forms .frm_form_fields .frm_form_field textarea:focus,
+body .have-questions-form .selectBox-dropdown:hover,
+body .have-questions-form .selectBox-dropdown:focus{
     border-color: var(--Black);
     background-color: var(--Black-20);
+    color: var(--White);
 }
+body .have-questions-form .selectBox-dropdown .selectBox-arrow{color: var(--Black);}
+body .have-questions-form .selectBox-dropdown:focus .selectBox-arrow, body .have-questions-form .selectBox-dropdown:hover .selectBox-arrow{color: var(--White);}
 body .have-questions-form .frm_forms .frm_form_fields .frm_form_field input::-webkit-input-placeholder, body .have-questions-form .frm_forms .frm_form_fields .frm_form_field textarea::-webkit-input-placeholder {color: var(--White);}
 body .have-questions-form .frm_forms .frm_form_fields .frm_form_field input:-moz-placeholder, body .have-questions-form .frm_forms .frm_form_fields .frm_form_field textarea:-moz-placeholder {color: var(--White);}
 body .have-questions-form .frm_forms .frm_form_fields .frm_form_field input::-moz-placeholder, body .have-questions-form .frm_forms .frm_form_fields .frm_form_field textarea::-moz-placeholder {color: var(--White); opacity: 1;}
@@ -137,8 +145,10 @@ body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit::before{dis
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_button_submit{width: 100%;}
 body .frm_forms .frm_form_fields .frm_form_field input.frm_custom_date, body .frm_forms .frm_form_fields .frm_form_field.date_icon input{background-size: 14px 14px;}
 body .frm_forms form .frm_required_field div.frm_error{right: 0; bottom: -17px; font-size: 0.75rem; line-height: 0.875rem; color: var(--red); font-weight: 300; position: absolute;}
+body .have-questions-form .frm_forms form .frm_required_field div.frm_error{color: var(--White);}
 body .newsletter-signup .frm_forms form .frm_required_field div.frm_error{color: var(--White);}
 body .frm_success_style, body .with_frm_style .frm_message{font-weight: 700; font-size: 1.125rem; line-height: 1.625rem; letter-spacing: normal; font-weight: 400; font-family: var(--body-font); color: var(--Black); background: none; padding: 0; text-align: left; border: none; border-radius: 0;}
+body .have-questions-form .with_frm_style .frm_message p{margin: 0; color: var(--White);}
 body .with_frm_style .frm_message p{font-weight: 700; color: var(--Black); letter-spacing: inherit;}
 body .maxassist-demo-form .frm_success_style, body .maxassist-demo-form .with_frm_style .frm_message{text-align: left; font-weight: 700; margin: 0; padding: 0;}
 body .modal-form .with_frm_style .frm_message p{text-align: center;}
@@ -158,7 +168,7 @@ body .frm_forms .frm_verify{display: none;}
 body .with_frm_style .frm_form_field.frm_html_container{font-size: 1.125rem; line-height: 1.5rem; letter-spacing: -.18px;}
 .frm-g-recaptcha{height: 78px; overflow: hidden;}
 .frm_form_field_wrapper{ width: 100%; gap: 8px; align-items: center; display: flex; flex-wrap: wrap; float: left;}
-body .frm_forms .frm_form_fields .frm_form_field.client-info{padding-top: 38px; margin-top: 34px; width: 100%; float: left; border-top: 1px solid var(--white-20);}
+body .frm_forms .frm_form_fields .frm_form_field.client-info{padding-top: 38px; margin-top: 34px; width: 100%; float: left; border-top: 1px solid var(--White-20);}
 body .frm_forms .frm_form_fields .frm_form_field.client-info .contact-head{margin-bottom: 7px;}
 legend.frm_screen_reader{display: none;}
 body .with_frm_style .frm_form_field.frm_html_container:empty{margin: 0;}
@@ -209,10 +219,12 @@ body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertica
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertical_checkbox .frm_opt_container .frm_checkbox{flex: 1;} 
 
 body.page-template-contact .frm_forms .frm_filed_wrapper{gap: 16px; justify-content: space-between;}
-body.page-template-contact .frm_forms .frm_filed_wrapper .frm_form_field{margin: 0;}
+body .frm_forms .frm_filed_wrapper .frm_form_field{margin: 0;}
+body .frm_forms .frm_filed_wrapper .frm_form_field.vertical_radio{flex: 1;}
 body.page-template-contact .frm_forms .frm_filed_wrapper .plane-text{flex: 1; font-size: 1rem; line-height: 1.5rem; opacity: 0.75;}
-body.page-template-contact .frm_forms .frm_filed_wrapper label{padding: 0 0 0 0; text-align: left; color: var(--Text-Gray); cursor: auto;}
-body.page-template-contact .frm_forms .frm_form_fields .vertical_radio .frm_checkbox label input[type="checkbox"]{display: none !important;}
+body .frm_forms .frm_filed_wrapper label{padding: 0; text-align: left; color: var(--Text-Gray); cursor: auto;}
+body .have-questions-form .frm_forms .frm_filed_wrapper label{color: var(--White); font-size: 16px; font-weight: 300; line-height: 100%;}
+body .frm_forms .frm_form_fields .frm_filed_wrapper .vertical_radio .frm_checkbox label input[type="checkbox"]{display: none !important;}
 body.page-template-contact .contact-form-form .frm_forms .frm_filed_wrapper .vertical_radio{gap: 0;}
 body.page-template-contact .contact-form-form .frm_forms .frm_filed_wrapper .vertical_radio .frm_radio label{padding: 0; color: rgba(48, 33, 53, 0.75);}
 body.page-template-contact .contact-form-form .frm_forms .frm_filed_wrapper .vertical_radio .frm_radio input{display: none !important;}
@@ -225,12 +237,14 @@ body.page-template-contact .contact-form-form .frm_forms .frm_form_fields .frm_f
 body .frm_style_formidable-style.with_frm_style .frm_error_style{display: none;}
 
 body .newsletter-form .frm_success_style, body .newsletter-form .with_frm_style .frm_message{text-align: center; font-weight: 700; margin: 0;}
-body.page-template-contact .frm_forms .frm_filed_wrapper .frm_form_field.disclaimer-text{font-size: 16px;}
+body .frm_forms .frm_filed_wrapper .frm_form_field.disclaimer-text{font-size: 16px;}
 
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 560px){
     body .frm_forms .frm_form_fields .frm_form_field.frm_half {width: calc(50% - 19px);}
+    body .have-questions-form .frm_forms .frm_form_fields .frm_form_field.frm_half {width: calc(50% - 11px);}
+    body .frm_forms .frm_filed_wrapper{gap: 8px;}
 }
 @media only screen and (min-width: 1024px){
     body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field{margin-bottom: 0; flex: 1;}
