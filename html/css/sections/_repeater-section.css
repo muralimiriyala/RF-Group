@@ -11,7 +11,10 @@ svg.repeater-icon-hover{top: 0; left: 0; opacity: 0;}
 .repeater-big-text span{left: 112px; opacity: 0;}
 .repeater-list:hover .repeater-big-text span{left: calc(50% + 37px); transform: translateX(-50%); opacity: 1;}
 
-.repeater-list.row-reverse .repeater-icon{ height: 160px; right: -72px; left: auto; top: 50%; transform: translateY(-50%) rotate(-180deg); width: 120px;}
+
+.page-template-about .repeater-main{padding: 0;}
+.page-template-about .repeater-list{padding: 80px 0 0;}
+.page-template-about .repeater-list.row-reverse{padding: 0 0 80px;}
 
 
 /*-- media css starts here --*/
@@ -20,12 +23,15 @@ svg.repeater-icon-hover{top: 0; left: 0; opacity: 0;}
     .repeater-text{flex: 0 0 calc(50% - 40px)}
     .repeater-img{flex: 0 0 calc(50% - 40px);}
     .repeater-desc{margin-left: auto; margin-right: 0; max-width: 680px; padding: 80px 64px 80px 80px;}
+    
+    .repeater-list.row-reverse .repeater-desc{margin-left: 0; margin-right: auto;}
 }
 @media only screen and (min-width: 1024px) {
     .repeater-list{margin-bottom: 80px;}
     .repeater-list:last-child{margin-bottom: 0;}
     .repeater-desc{  padding: 40px 64px 80px 64px;}
     .repeater-text p{margin-bottom: 28px;} 
+    .repeater-list.row-reverse .repeater-icon{ height: 160px; right: -72px; left: auto; top: 50%; transform: translateY(-50%) rotate(-180deg); width: 120px;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px) {
     .repeater-list{ gap: 60px;}
