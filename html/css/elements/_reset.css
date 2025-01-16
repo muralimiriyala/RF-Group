@@ -100,6 +100,23 @@ hr.sm-line{background-color: var(--Blue); height: 2px; border-radius: 1px; margi
 .button.transparent.purple-border:hover{border-color: var(--RF-Purple); color: var(--White);}
 .button.transparent.purple-border::after{background-color: var(--RF-Purple);}
 
+.button.transparent.black-border, 
+body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparent.black-border{
+    border-color: var(--Black);
+}
+.button.transparent.black-border:hover, 
+body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparent.black-border:hover{
+    border-color: var(--White);
+    color: var(--Black);
+}
+.button.transparent.black-border:hover::after, 
+body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparent.black-border:hover::after{
+    background-color: var(--White);
+}
+.button.transparent.white-text, 
+body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparent.white-text{
+    color: var(--White);
+}
 
 body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparent, .button.transparent{background: transparent; border-color: var(--Blue); color: var(--Blue);}
 .button.transparent.white{color: var(--White);}

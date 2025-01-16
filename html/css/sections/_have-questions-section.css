@@ -22,10 +22,12 @@ ul.have-questions-links li a.black:hover{color: var(--Black-50);}
     .have-questions-main{padding: 79px 80px; grid-template-columns: 350px auto;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 810px){
-    .have-questions-section{padding-bottom: 64px;}
+    .have-questions-section{padding-bottom: 64px; display: block;}
     .have-questions-main{padding: 40px;}
+    .have-questions-text{padding-bottom: 30px;}
 }
 @media only screen and (max-width: 809px) and (min-width: 200px){
-    .have-questions-section{padding-bottom: 40px;}
-    .have-questions-main{padding: 40px 23px;}
+    .have-questions-section{padding-bottom: 40px; display: block;}
+    .have-questions-main{padding: 40px 28px;}
+    .have-questions-text{padding-bottom: 15px; font-size: 14px;}
 }
