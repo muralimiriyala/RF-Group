@@ -35,6 +35,7 @@ body .have-questions-form .selectBox-dropdown:focus{
     color: var(--White);
 }
 body .have-questions-form .selectBox-dropdown .selectBox-arrow{color: var(--Black);}
+body .have-questions-form .selectBox-dropdown:focus .selectBox-arrow, body .have-questions-form .selectBox-dropdown:hover .selectBox-arrow{color: var(--White);}
 body .have-questions-form .frm_forms .frm_form_fields .frm_form_field input::-webkit-input-placeholder, body .have-questions-form .frm_forms .frm_form_fields .frm_form_field textarea::-webkit-input-placeholder {color: var(--White);}
 body .have-questions-form .frm_forms .frm_form_fields .frm_form_field input:-moz-placeholder, body .have-questions-form .frm_forms .frm_form_fields .frm_form_field textarea:-moz-placeholder {color: var(--White);}
 body .have-questions-form .frm_forms .frm_form_fields .frm_form_field input::-moz-placeholder, body .have-questions-form .frm_forms .frm_form_fields .frm_form_field textarea::-moz-placeholder {color: var(--White); opacity: 1;}
@@ -144,8 +145,10 @@ body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit::before{dis
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_button_submit{width: 100%;}
 body .frm_forms .frm_form_fields .frm_form_field input.frm_custom_date, body .frm_forms .frm_form_fields .frm_form_field.date_icon input{background-size: 14px 14px;}
 body .frm_forms form .frm_required_field div.frm_error{right: 0; bottom: -17px; font-size: 0.75rem; line-height: 0.875rem; color: var(--red); font-weight: 300; position: absolute;}
+body .have-questions-form .frm_forms form .frm_required_field div.frm_error{color: var(--White);}
 body .newsletter-signup .frm_forms form .frm_required_field div.frm_error{color: var(--White);}
 body .frm_success_style, body .with_frm_style .frm_message{font-weight: 700; font-size: 1.125rem; line-height: 1.625rem; letter-spacing: normal; font-weight: 400; font-family: var(--body-font); color: var(--Black); background: none; padding: 0; text-align: left; border: none; border-radius: 0;}
+body .have-questions-form .with_frm_style .frm_message p{margin: 0; color: var(--White);}
 body .with_frm_style .frm_message p{font-weight: 700; color: var(--Black); letter-spacing: inherit;}
 body .maxassist-demo-form .frm_success_style, body .maxassist-demo-form .with_frm_style .frm_message{text-align: left; font-weight: 700; margin: 0; padding: 0;}
 body .modal-form .with_frm_style .frm_message p{text-align: center;}
@@ -241,6 +244,7 @@ body .frm_forms .frm_filed_wrapper .frm_form_field.disclaimer-text{font-size: 16
 @media only screen and (min-width: 560px){
     body .frm_forms .frm_form_fields .frm_form_field.frm_half {width: calc(50% - 19px);}
     body .have-questions-form .frm_forms .frm_form_fields .frm_form_field.frm_half {width: calc(50% - 11px);}
+    body .frm_forms .frm_filed_wrapper{gap: 8px;}
 }
 @media only screen and (min-width: 1024px){
     body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field{margin-bottom: 0; flex: 1;}
