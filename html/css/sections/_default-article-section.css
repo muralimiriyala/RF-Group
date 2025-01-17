@@ -11,12 +11,12 @@ ul.breadcrumbs li a:hover{color: var(--Black);}
 
 .default-image-caption { margin-bottom: 37px; } 
 .default-caption { padding-left: 15px; } 
-.caption-desc { padding: 24px 0 16px 16px; } 
+.caption-desc { padding: 20px 0 16px 18px; } 
 .caption-line { width: 6px; height: 100%; left: 0; top: -4px; } 
 .caption-line::after, .caption-line::before{ content: ""; display: block; position: absolute; background-color: var(--Blue); } 
 .caption-line::before{ width: 6px; height: 6px; border-radius: 50%; top: 0; left: 0; } 
 .caption-line::after{ width: 2px; height: 100%; left: 2px; }
-
+.caption-desc p{line-height: 150%;}
 
 .default-line-wrap { padding:38px 0 55px }
 .default-line-in { border-left:2px solid var(--Blue);}

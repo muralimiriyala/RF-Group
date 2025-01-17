@@ -32,6 +32,10 @@ svg.repeater-icon-hover{top: 0; left: 0; opacity: 0;}
     .repeater-desc{  padding: 40px 64px 80px 64px;}
     .repeater-text p{margin-bottom: 28px;} 
     .repeater-list.row-reverse .repeater-icon{ height: 160px; right: -72px; left: auto; top: 50%; transform: translateY(-50%) rotate(-180deg); width: 120px;}
+    
+    .repeater-text:nth-child(1):last-child .repeater-desc { max-width: 1260px; margin: 0 auto; }
+    .repeater-text:nth-child(1):last-child { flex: 1; }
+    .repeater-img:nth-child(1):last-child { flex: 0 0 100%; }
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px) {
     .repeater-list{ gap: 60px;}
