@@ -13,9 +13,9 @@
 /*-- media css --*/
 @media screen and (min-width: 1024px) {
     .news-post-banner-main{padding: 205px 0 244px; max-width: 832px; }
-    .news-post-banner-text{max-width: 832px; padding-bottom: 40px;}
+    .news-post-banner-text{max-width: 832px; padding-bottom: 40px; }
     .news-post-banner-row{gap: 12px; align-items: center; justify-content: center; margin-bottom: 40px;}
-    .news-post-banner-list{flex: 0 0 calc(33.33% - 12px); padding: 0 12px;}
+    .news-post-banner-list{ padding: 0 12px;}
     .news-post-banner-list:not(:first-child)::after{width: 2px; height: 100%; top: 0; left: -12px; opacity: 0.25; background-color: var(--White); content: ""; display: block; position: absolute;}
 }
 @media screen and (max-width: 1023px) and (min-width: 200px) {
