@@ -21,7 +21,7 @@ ul.breadcrumbs li a:hover{color: var(--Black);}
 .default-line-wrap { padding:38px 0 55px }
 .default-line-in { border-left:2px solid var(--Blue);}
 .default-line-text { padding: 22px 0 21px 24px; color: var(--Blue); margin-bottom: 0; }
-.default-line-text h4{margin-bottom: 0;}
+.default-line-text h4{margin-bottom: 0; color: var(--Blue);}
 .default-line-text a{text-decoration: none; color: var(--Blue); }
 .default-line-text a:hover{color: var(--Black);}
 
