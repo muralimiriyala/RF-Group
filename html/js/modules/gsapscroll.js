@@ -17,6 +17,8 @@ export const gsapscroll = {
     __.uiele.forEach((ele) => {
       const timeline = ele.tl;
       const $animateType = ele.getAttribute('data-animate');
+      const $animateNames = $animateType.split(';');
+
       const $duration = ele.getAttribute('data-duration');
       gsap.to(ele, {
         scrollTrigger: {
@@ -26,6 +28,10 @@ export const gsapscroll = {
           scrub: true,
           toggleClass: 'visible',
           onEnter: () => {
+            $animateNames.forEach((className) => {
+              console.log(className);
+              // ele.classList.add(className);
+            });
             timeline?.play();
             $animateType === 'counter' ? ele.counter?.start() : '';
             if (ele.classList.contains('counter-back')) {
