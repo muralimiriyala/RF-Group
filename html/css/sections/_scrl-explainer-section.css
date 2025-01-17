@@ -15,7 +15,7 @@
     .scrl-explainer-card{flex: 0 0 350px;}
 }
 @media only screen and (min-width: 860px){
-    .scrl-explainer-line{height: 0%;}
+    .scrl-explainer-line{height: 100%;}
 }
 @media only screen and (min-width: 560px){
     .scrl-explainer-main{flex-direction: row-reverse;}
