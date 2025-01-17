@@ -1,6 +1,8 @@
 
 
 header.site-header{top: 0; left: 0; width: 100%; height: auto; transition: all 0.5s ease;  position: fixed; z-index: 800; }
+header.white-header{border-bottom: 1px solid var(--Light-Gray); background: var(--White);}
+header.white-header ul.top-nav{display: none;}
 
 header.gray-header:not(.sticky-header)::before{width: 100%; height: 100%; top: 0; left: 0; position: absolute; content: ""; display: block; background-color: var(--Background-Gray); z-index: -1;}
  
@@ -33,6 +35,7 @@ header.scrolly-header{transform: translateY(-100%);}
 /* media css starts here */
 @media screen and (min-width: 1024px) {
     .site-main-cover.site-gray{padding-top: 104px;}
+    .site-main-cover.site-white{padding-top: 56px;}
     li.no-link > a{pointer-events: none !important;}
     ul.main_menu > li.nav-features > ul > li.hide-nav-desktop{display: none;}
     
@@ -169,6 +172,8 @@ header.scrolly-header{transform: translateY(-100%);}
     header.sticky-header span.black-logo{display: none;}
     header.gray-header:not(.sticky-header) ul.main_menu > li > a{ color: var(--Black); }
     header.gray-header:not(.sticky-header) ul.main_menu > li > a:hover{color: var(--Blue);}
+
+    header.white-header ul.main_menu > li > a{color: var(--Black);}
 
     .site-black-top{padding-top: 72px;}
     .site-white-top{padding-top: 56px;}

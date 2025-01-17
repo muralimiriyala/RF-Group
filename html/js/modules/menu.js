@@ -4,11 +4,15 @@ export const menu = {
   $btn: document.querySelector('.humburger-btn'),
   $login: document.querySelector('.user-login'),
   $tpages: [...document.querySelectorAll('body.page-template-about-bio')],
+  $smallHeader: [
+    ...document.querySelectorAll('body.page-template-about-history'),
+  ],
   $gpages: [
     ...document.querySelectorAll(
       'body.page-template-contact, body.page-template-resource-faq, body.page-template-404'
     ),
   ],
+
   $site: document.querySelector('main.site-main-cover'),
   init() {
     const _ = this;
@@ -18,6 +22,12 @@ export const menu = {
       const _ = this;
       _.$ele.classList.add('gray-header');
       _.$site.classList.add('site-gray');
+    });
+
+    _.$smallHeader.forEach(() => {
+      const _ = this;
+      _.$ele.classList.add('white-header');
+      _.$site.classList.add('site-white');
     });
 
     // scrolly

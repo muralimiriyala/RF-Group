@@ -23,19 +23,17 @@
 .about-intro-main .about-intro-lists:only-child{padding: 0;}
 .feature-icon{margin-bottom: 10px; width: 80px; height: 80px;}
 .feature-icon img{width: 100%; height: 100%;}
+.about-intro-desc{margin-top: auto;}
+
+
 /*-- media css --*/
 @media only screen and (min-width: 1024px){
-    
-
     .about-intro-lt{margin: 0 40px 0 0; max-width: 460px;}
     .about-intro-rt{ margin-bottom: 0; flex: 1; max-width: 800px;} 
     .about-intro-rt:only-child{max-width: 100%;}
     .about-intro-lists{gap: 40px;}
-    .intro-list-4{flex: 0 0 calc(25% -  30px);}
-    .intro-list-3{flex: 0 0 calc(33.3333333% -  27px);}
-    .intro-list-2{flex: 0 0 calc(50% -  20px);}
+    .about-intro-list{flex: 1 0 calc(25% -  30px);}
 }
-
 @media only screen and (max-width: 1023px) and (min-width: 810px){
     .about-intro-main { padding: 64px 0; }
     .about-left-intro{font-weight: 600; font-size: 36px; letter-spacing: -0.72px; } 
@@ -43,12 +41,8 @@
     .about-intro-head { padding: 32px 0; }
     .about-intro-head h1{font-size: 64px; line-height: 100%; margin-bottom: 32px;}
     .about-intro-lists { padding: 32px 0 0;  gap: 32px;}
-    .intro-list-4{flex: 0 0 calc(50% -  16px);}
-    .intro-list-3{flex: 0 0 calc(33.3333333% -  22px);}
-    .intro-list-2{flex: 0 0 calc(50% -  16px);} 
-
+    .about-intro-list{flex: 0 0 calc(50% -  16px);}
 }
-
 @media only screen and (max-width: 809px) and (min-width: 200px){
     .about-intro-main { padding: 40px 0; }
     .about-left-intro {margin-bottom: 24px; display: block;}

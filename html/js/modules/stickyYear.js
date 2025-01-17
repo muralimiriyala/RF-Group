@@ -10,6 +10,7 @@ export const stickyYear = {
     if (!_.$ele) return;
 
     const $siblings = [..._.$ele.querySelectorAll('a')];
+    $siblings[0].classList.add('active');
 
     _.$ele.addEventListener('click', function (e) {
       if (e.target.tagName === 'A') {
