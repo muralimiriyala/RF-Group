@@ -41,12 +41,8 @@
     .about-intro-head { padding: 32px 0; }
     .about-intro-head h1{font-size: 64px; line-height: 100%; margin-bottom: 32px;}
     .about-intro-lists { padding: 32px 0 0;  gap: 32px;}
-    .intro-list-4{flex: 0 0 calc(50% -  16px);}
-    .intro-list-3{flex: 0 0 calc(33.3333333% -  22px);}
-    .intro-list-2{flex: 0 0 calc(50% -  16px);} 
-
+    .about-intro-list{flex: 0 0 calc(50% -  16px);}
 }
-
 @media only screen and (max-width: 809px) and (min-width: 200px){
     .about-intro-main { padding: 40px 0; }
     .about-left-intro {margin-bottom: 24px; display: block;}
