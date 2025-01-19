@@ -253,7 +253,7 @@
 [data-animate].underline h1 > span::before{background: var(--Blue); border-radius: 8px; bottom: 0; content: ""; display: inline-block; height: 24px; opacity: .4; position: absolute; width: 0; left: -2px; z-index: -1; transition: var(--b-transition);}
 [data-animate].underline.visible h1 > span::before{width: 100%;}
 
-.animate-border{ animation: border-animation 10s linear forwards; border: 2px solid var(--Blue);}
+/* .animate-border{ animation: border-animation 10s linear forwards; border: 2px solid var(--Blue);}
 @keyframes border-animation {
   0% {
     clip-path: polygon(0% 0%, 0% 0%, 0% 100%, 0% 100%);
@@ -270,7 +270,28 @@
   100% {
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
   }
+} */
+
+.animated-border{background-color: var(--Blue); animation-fill-mode: forwards;  animation-duration: 5s; animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);}
+.animated-border.top{animation-name: animatedtop; height: 2px; top: 0;animation-delay: 0s;}
+.animated-border.right{animation-name: animatedright; width: 2px; right: 0; animation-delay: 5s;}
+.animated-border.bottom{animation-name: animatedbottom; height: 2px; bottom: 0; right: 0; animation-delay: 10s;}
+.animated-border.left{animation-name: animatedleft; width: 2px; left: 0; bottom: 0; animation-delay: 15s;}
+@keyframes animatedtop{
+  from{width: 0;}
+  to{width: 100%;}
 }
+@keyframes animatedright{
+  from{ height: 0px;}
+  to{height: 100%;}
+}@keyframes animatedbottom{
+  from{width: 0;}
+  to{width: 100%;}
+}@keyframes animatedleft{
+  from{height: 0;}
+  to{height: 100%;}
+}
+
 
 @media only screen and (min-width: 810px){
   [data-animate*="vr-100"].visible{height: 100%;}

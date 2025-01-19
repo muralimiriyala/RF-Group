@@ -8,7 +8,8 @@
 .cta-investment-form input{width: fit-content; max-width: 55px; padding: 12px; background-color: var(--White); font-size: 24px; line-height: 24px; color: var(--Blue); border: none;}
 .cta-investment-form .selectBox-dropdown{width: fit-content; border: 1px solid rgba(39, 114, 219, 0.25); background-color: var(--White); color: var(--Black-20); font-size: 24px; line-height: 24px;}
 
-.investment-form-main{margin-top: 32px;}
+.investment-form-main{max-height: 0; overflow: hidden;}
+.investment-form-main hr{margin-top: 32px;}
 .investment-field{gap: 8px; width: fit-content; flex-direction: row-reverse; justify-content: flex-end;}
 .investment-field label{padding: 0; cursor: pointer;}
 .investment-field input[type="checkbox"]{width: 32px; height: 32px; padding: 0; margin: 0;
