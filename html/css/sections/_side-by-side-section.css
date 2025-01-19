@@ -9,6 +9,11 @@ ul.side-by-links li::before{display: none;}
 
 
 
+.blue.side-by-arrow svg{transform: rotate(-90deg);}
+.purple.side-by-arrow svg{transform: rotate(90deg);}
+.blue.side-by-arrow svg path{stroke: var(--Blue);}
+.purple.side-by-arrow svg path{stroke: var(--RF-Purple);}
+
 
 
 /* media css starts here */
