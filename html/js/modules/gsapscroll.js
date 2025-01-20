@@ -17,7 +17,7 @@ export const gsapscroll = {
     __.uiele.forEach((ele) => {
       const timeline = ele.tl;
       const $animateType = ele.getAttribute('data-animate');
-      const $animateNames = $animateType.split(';');
+      const $animateNames = $animateType.split(' ');
 
       const $duration = ele.getAttribute('data-duration');
       gsap.to(ele, {
@@ -26,11 +26,13 @@ export const gsapscroll = {
           start: `${$top}% bottom`,
           end: `bottom ${$bottom}%`,
           scrub: true,
-          toggleClass: 'visible',
+          // once: true,
+          // toggleClass: 'visible',
           onEnter: () => {
             $animateNames.forEach((className) => {
-              console.log(className);
-              // ele.classList.add(className);
+              className
+                ? ele.classList.add(className, 'visible')
+                : ele.classList.add('visible');
             });
             timeline?.play();
             $animateType === 'counter' ? ele.counter?.start() : '';
@@ -41,6 +43,11 @@ export const gsapscroll = {
             }
           },
           onEnterBack: () => {
+            $animateNames.forEach((className) => {
+              className
+                ? ele.classList.add(className, 'visible')
+                : ele.classList.add('visible');
+            });
             timeline?.play();
             $animateType === 'counter' ? ele.counter?.start() : '';
             if (ele.classList.contains('counter-back')) {
@@ -50,6 +57,11 @@ export const gsapscroll = {
             }
           },
           onLeave: () => {
+            $animateNames.forEach((className) => {
+              className
+                ? ele.classList.remove(className, 'visible')
+                : ele.classList.remove('visible');
+            });
             timeline?.pause();
             $animateType === 'counter' ? ele.counter?.pauseResume() : '';
             if (ele.classList.contains('counter-back')) {

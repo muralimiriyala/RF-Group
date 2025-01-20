@@ -8,4 +8,9 @@
 .news-post-article .caption-line{opacity: 0.6;}
 .news-post-article .caption-line::before, .news-post-article .caption-line::after { background-color: var(--RF-Aquamarine);}
 
-.news-post-article   .default-line-wrap { padding: 22px 0 40px; }
+.news-post-article   .default-line-wrap.green { padding: 22px 0 40px; }
+.news-post-article .default-line-wrap.green .default-line-in{border-left: 2px solid var(--RF-Aquamarine);}
+.default-line-wrap.green .default-line-text h4 { color: var(--RF-Aquamarine);}
+.default-line-wrap.green .default-line-text a.text-link i { color: var(--RF-Aquamarine); }
+
+blockquote.green{color: var(--RF-Aquamarine); margin: 38px 0 38px;}

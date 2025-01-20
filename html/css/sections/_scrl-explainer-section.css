@@ -15,14 +15,14 @@
     .scrl-explainer-card{flex: 0 0 350px;}
 }
 @media only screen and (min-width: 860px){
-    .scrl-explainer-line{height: 100%;}
+
 }
 @media only screen and (min-width: 560px){
     .scrl-explainer-main{flex-direction: row-reverse;}
     .scrl-explainer-segments{flex: 1; gap: 48px; flex-direction: column;}
     .scrl-explainer-icon svg{max-width: 80px;}
     .scrl-explainer-desc{flex: 1; padding: 15px 0 16px 40px;}
-    .scrl-explainer-line{width: 2px; bottom: 0; left: 0; display: block;}
+    .scrl-explainer-line{width: 2px; height: 100%; bottom: 0; left: 0; display: block;}
     .scrl-explainer-rect{clip-path: polygon(0 0, 100% 100%, 100% 0);}
 }
 @media only screen and (max-width: 1023px) and (min-width: 810px){
