@@ -26,6 +26,7 @@ ul.category-lists > li > a{gap: 8px; font-size: 16px; line-height: 16px; font-we
 .news-conversation-item:hover .play-btn-main span.circle::after{height: 27px; width: 20px;}
 .news-conversation-item:hover .play-btn-main span:not(:first-child):nth-child(2){width: 80px; height: 80px; background: rgba(39, 114, 219, 0.25);}
 
+.page-template-news-post .news-conversation-title  h3{color: var(--White);}
 @media screen and (min-width: 1024px) {
     .news-conversation-main{padding: 158px 0 80px;}
     .news-conversation-head{gap: 30px; justify-content: space-between; margin-bottom: 40px;}

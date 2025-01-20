@@ -16,3 +16,15 @@
 blockquote.green{color: var(--RF-Aquamarine); margin: 38px 0 38px;}
 
 .view-block{padding: 20px; margin-top: 38px;}
+
+
+
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+/* .news-updates-post-main{display: block;} */
+.news-updates-post-article { flex: 0 0 650px; margin: 0 auto; padding: 40px;}
+  
+
+
+
+}
