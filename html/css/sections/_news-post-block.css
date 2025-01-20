@@ -18,7 +18,20 @@
 @media screen and (max-width: 1023px) and (min-width: 768px) {
     .news-post-block-desc {padding: 48px;}
     .news-post-block .white-back {display: none;}
+    
+    
+}
+@media screen and (max-width: 767px) and (min-width: 200px) {
+.news-post-block-desc {padding: 24px;}
+.news-post-block-wrap {margin-top: inherit;}
+.news-post-block{padding: 0;}
+.news-post-block-desc p{font-size: 16px; margin-bottom: 24px;}
+.news-post-block-desc h3{font-size: 28px; }
+.news-post-block-btn{display: block; width: inherit;}
+.news-post-block-btn .button{width: 100%; gap: 8px; justify-content: center; font-size: 16px; padding: 13px 14px;}
+.news-post-block-btn .button.btn-white{margin-bottom: 8px;}
+.news-post-block .white-back {display: none;}
 
-
+.news-post-block .container{padding: inherit;}
 
 }
