@@ -22,7 +22,6 @@ ul.selectBox-dropdown-menu li a{padding: 14px 16px; width: 100%; color: var(--Bl
 ul.selectBox-dropdown-menu li a:hover{color: var(--White); background: var(--Blue);}
 
 body .choose.selectBox-dropdown.selectBox-menuShowing .selectBox-arrow{top: calc(50% + 15px);}
-.cta-investment-form .choose .selectBox-arrow{font-size: 16px;}
 body ul.choose-selectBox-dropdown-menu{margin: 0; background-color: var(--White); border: 1px solid rgba(39,114,219,.25);}
 body ul.choose-selectBox-dropdown-menu li:first-child{padding: 0; border-top: 1px solid rgba(39,114,219,.25);}
 body ul.choose-selectBox-dropdown-menu li:last-child{padding: 0;}

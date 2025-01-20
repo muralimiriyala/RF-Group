@@ -5,10 +5,10 @@ export const sidebyside = {
   init() {
     const _ = this;
     _.$blue.addEventListener('mouseenter', (e) => {
-      _.$arrow.classList.add('blue');
+      _.$arrow.classList.add('blue-hover');
     });
     _.$blue.addEventListener('mouseleave', (e) => {
-      _.$arrow.classList.remove('blue');
+      _.$arrow.classList.remove('blue-hover');
     });
     // _.$purple.addEventListener('mouseenter', (e) => {
     //   _.$arrow.classList.add('purple');
@@ -18,7 +18,7 @@ export const sidebyside = {
     // });
     ['mouseenter', 'mouseleave'].forEach((event) => {
       _.$purple.addEventListener(event, () => {
-        _.$arrow.classList.toggle('purple', event === 'mouseenter');
+        _.$arrow.classList.toggle('purple-hover', event === 'mouseenter');
       });
     });
   },

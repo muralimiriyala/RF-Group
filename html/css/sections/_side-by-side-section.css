@@ -1,18 +1,21 @@
 
 
-ul.side-by-links{margin: 0; gap: 25px; opacity: 0;}
+ul.side-by-links{margin: 0; gap: 25px; opacity: 0; visibility: hidden;}
 ul.side-by-links li{margin: 0;}
 ul.side-by-links li::before{display: none;}
+.purple-hover ul.side-by-links{opacity: 1; visibility: visible;}
 
-.side-by-icon{max-width: 80px;}
+.side-by-icon{max-width: 80px; margin-bottom: 18px;}
 .side-by-icon svg{max-width: 80px; object-fit: contain;}
 
+.side-by-title span.optional-text{margin-bottom: 22px;}
+.side-by-title h2{margin-bottom: 22px;}
+.side-by-ipad hr{margin-bottom: 20px;}
 
-
-.blue.side-by-arrow svg{transform: rotate(-90deg);}
-.purple.side-by-arrow svg{transform: rotate(90deg);}
-.blue.side-by-arrow svg path{stroke: var(--Blue);}
-.purple.side-by-arrow svg path{stroke: var(--RF-Purple);}
+.blue-hover.side-by-arrow svg{transform: rotate(-90deg);}
+.purple-hover.side-by-arrow svg{transform: rotate(90deg);}
+.blue-hover.side-by-arrow svg path{stroke: var(--Blue);}
+.purple-hover.side-by-arrow svg path{stroke: var(--RF-Purple);}
 
 
 
