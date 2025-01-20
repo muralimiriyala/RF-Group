@@ -1,3 +1,4 @@
+import 'sticksy';
 // named export module
 export const sticky = {
   $ele: document.querySelector('header'),
