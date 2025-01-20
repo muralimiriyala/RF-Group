@@ -13,3 +13,12 @@
 .news-post-block-btn .button i{font-size: 16px;}
 
 .news-post-block .white-back{padding: 40px 0; width: calc(100% - 116px); background-color: var(--White); margin: 0 auto;}
+
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    .news-post-block-desc {padding: 48px;}
+    .news-post-block .white-back {display: none;}
+
+
+
+}
