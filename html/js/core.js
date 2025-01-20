@@ -18,6 +18,7 @@ import { gsapscroll } from './modules/gsapscroll.js';
 import { sticky } from './modules/stickySidebar.js';
 import { stickyYear } from './modules/stickyYear.js';
 import { sidebyside } from './modules/sidebyside.js';
+import { retired } from './modules/retired.js';
 
 (function () {
   menu.init();
@@ -36,4 +37,5 @@ import { sidebyside } from './modules/sidebyside.js';
   sticky.init();
   stickyYear.init();
   sidebyside.init();
+  retired.init();
 })();
