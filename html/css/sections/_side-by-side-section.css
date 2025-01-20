@@ -1,9 +1,12 @@
 
 
-ul.side-by-links{margin: 0; gap: 25px; opacity: 0; visibility: hidden;}
+ul.side-by-links{margin: 0; gap: 25px; padding: 24px; opacity: 0; visibility: hidden;}
 ul.side-by-links li{margin: 0;}
 ul.side-by-links li::before{display: none;}
-.purple-hover ul.side-by-links{opacity: 1; visibility: visible;}
+.blue ul.side-by-links{left: 0;}
+.purple ul.side-by-links{right: 0;}
+.purple-hover ul.side-by-links{ opacity: 1; visibility: visible;}
+.blue-hover ul.side-by-links{ opacity: 1; visibility: visible;}
 
 .side-by-icon{max-width: 80px; margin-bottom: 18px;}
 .side-by-icon svg{max-width: 80px; object-fit: contain;}

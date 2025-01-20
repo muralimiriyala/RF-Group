@@ -23,10 +23,10 @@
     }
   }
 
-.investment-form-main{max-height: 0; overflow: hidden;}
+/* .investment-form-main{max-height: 0; overflow: hidden;} */
 .investment-form-main hr{margin-top: 32px;}
 .investment-field{gap: 8px; width: fit-content; flex-direction: row-reverse; justify-content: flex-end;}
-.investment-field label{padding: 0; cursor: pointer;}
+.investment-field label{padding: 0; flex: 1; cursor: pointer;}
 .investment-field input[type="checkbox"]{width: 32px; height: 32px; padding: 0; margin: 0;
     border: 1px solid rgba(39, 114, 219, 0.25);
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.80) 0%, rgba(255, 255, 255, 0.80) 100%), var(--Blue);
@@ -40,6 +40,9 @@
     .investment-form{gap: 32px;}
     .investment-field{flex: 1 0 calc(25% - 32px);}
 }
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+  .investment-field label{font-size: 16px; line-height: 100%;}
+}
 @media only screen and (max-width: 1023px) and (min-width: 810px){
     .cta-investment-main{padding: 32px; gap: 37px;}
     .cta-investment-form{flex: 1;}
@@ -47,4 +50,4 @@
 @media only screen and (max-width: 809px) and (min-width: 200px){
     .cta-investment-main{padding: 24px; gap: 24px; flex-direction: column; text-align: center;}
     .cta-investment-form label{justify-content: center;}
-}
+} 
