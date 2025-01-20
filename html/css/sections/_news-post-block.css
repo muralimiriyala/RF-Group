@@ -1,0 +1,12 @@
+
+.news-post-block-wrap{position: relative; z-index: 1;}
+.news-post-block-desc { background-color: var(--Blue); padding: 40px; text-align: center; color: var(--White)}
+.news-post-block-desc p{font-size: 18px; font-weight: 700; line-height: 100%; margin-bottom: 24px;}
+.news-post-block-desc h3{font-size: 40px; font-weight: 600; line-height: 125%; letter-spacing: -0.8px; color: var(--White); margin-bottom: 24px;}
+.news-post-block-btns { max-width: 514px; width: 100%; display: block; margin: 0 auto;}
+.news-post-block-btn{padding: 8px; display: flex; gap: 8px; border: 1px solid var(--White); }
+.news-post-block-btn .button{width: 100%; gap: 8px; justify-content: center; font-size: 18px; padding: 15px 10px;}
+.news-post-block-btn .button.btn-white{color: var(--Black);}
+.news-post-block-btn .button.btn-white:hover{color: var(--White);}
+.news-post-block-btn .button.btn-white i{color: var(--Blue);}
+.news-post-block-btn .button i{font-size: 16px;}

@@ -81,7 +81,9 @@ hr[data-animate]{ margin: 0 0 16px; height: 2px; width: 0%; background-color: va
 hr[data-animate*='black']{background-color: var(--Black);}
 hr[data-animate*='white']{background-color: var(--White);}
 hr[data-animate*='aligncenter']{text-align:  center; margin-left: auto; margin-right: auto;}
+.purple hr[data-animate]{background-color: var(--RF-Purple);}
 
+hr.blue{background-color: var(--Blue); opacity: 0.5;}
 hr.light-blue-line{margin: 0; flex: 1; width: 100%; height: 1px; background-color: var(--Light-Blue);}
 hr.sm-line{background-color: var(--Blue); height: 2px; border-radius: 1px; margin: 32px 0;}
 ::selection {background-color: var(--Black); color: var(--White);}
@@ -231,6 +233,8 @@ span.optional-text.lg{margin-bottom: 8px; font-size: 1.125rem; line-height: 1.12
 .optional-blue svg{left: 0; position: absolute;}
 .optional-blue span{opacity: 0.6; padding-top: 5px; display: block;}
 .optional-blue.no_svg{padding-left: 0;}
+
+.purple span.optional-text{color: var(--RF-Purple);}
 
 .text-black{color: var(--Black);}
 .text-white{color: var(--White);}
