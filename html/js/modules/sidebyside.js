@@ -5,21 +5,25 @@ export const sidebyside = {
   init() {
     const _ = this;
     _.$blue.addEventListener('mouseenter', (e) => {
-      _.$arrow.classList.add('blue');
+      e.currentTarget.classList.add('blue-hover');
+      _.$arrow.classList.add('blue-hover');
     });
     _.$blue.addEventListener('mouseleave', (e) => {
-      _.$arrow.classList.remove('blue');
+      e.currentTarget.classList.remove('blue-hover');
+      _.$arrow.classList.remove('blue-hover');
     });
-    // _.$purple.addEventListener('mouseenter', (e) => {
-    //   _.$arrow.classList.add('purple');
-    // });
-    // _.$purple.addEventListener('mouseleave', (e) => {
-    //   _.$arrow.classList.remove('purple');
-    // });
-    ['mouseenter', 'mouseleave'].forEach((event) => {
-      _.$purple.addEventListener(event, () => {
-        _.$arrow.classList.toggle('purple', event === 'mouseenter');
-      });
+    _.$purple.addEventListener('mouseenter', (e) => {
+      e.currentTarget.classList.add('purple-hover');
+      _.$arrow.classList.add('purple-hover');
     });
+    _.$purple.addEventListener('mouseleave', (e) => {
+      e.currentTarget.classList.remove('purple-hover');
+      _.$arrow.classList.remove('purple-hover');
+    });
+    // ['mouseenter', 'mouseleave'].forEach((event) => {
+    //   _.$purple.addEventListener(event, () => {
+    //     _.$arrow.classList.toggle('purple-hover', event === 'mouseenter');
+    //   });
+    // });
   },
 };
