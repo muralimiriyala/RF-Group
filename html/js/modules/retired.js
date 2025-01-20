@@ -3,6 +3,7 @@ export const retired = {
   $main: document.querySelector('.cta-investment-wrap'),
   $iselect: document.getElementById('investment-select'),
   $ele: document.querySelectorAll('.investment-form-main'),
+  $selectBox: document.querySelector('ul.selectBox-dropdown-menu'),
   init() {
     const _ = this;
     const $select = jQuery(_.$iselect);
@@ -10,6 +11,7 @@ export const retired = {
       const $value = jQuery(this).val();
       _.$ele.forEach((ele) => {
         const $name = ele.getAttribute('data-name');
+        console.log($name);
         if ($value === $name) {
           _.$ele.forEach((ele) => {
             ele.style.maxHeight = `0px`;
@@ -23,10 +25,12 @@ export const retired = {
         }
       });
     });
-    _.$body.addEventListener('click', function (e) {
-      if (!e.target.contains(_.$main)) {
-        console.log('am true except cta-investment-wrap');
-      }
-    });
+    // _.$body.addEventListener('click', (e) => {
+    //   if (e.target.parentElement !== _.$main) {
+    //     _.$ele.forEach((ele) => {
+    //       ele.style.maxHeight = `0px`;
+    //     });
+    //   }
+    // });
   },
 };
