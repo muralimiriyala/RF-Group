@@ -16,6 +16,7 @@
 @import './elements/_share-icons.css';
 
 
+
 /*-- From page's css --*/
 @import url('./pages/about-team-bio.css');
 @import url('./pages/faq-page.css');
@@ -26,6 +27,7 @@
 @import url('./pages/index.css');
 @import url('./pages/about.css');
 @import url('./pages/news-updates-post.css');
+@import url('./pages/campaign-page.css');
 
 
 /*-- From common section css --*/
@@ -49,6 +51,7 @@
 @import url('./sections/_news-post-banner-section.css');
 @import url('./sections/_news-post-block.css');
 @import url('./sections/_news-update-section.css');
+@import url('./sections/_campaign-section.css');
 
 
 @import url('./sections/_home-banner-section.css');
