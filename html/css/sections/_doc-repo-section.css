@@ -1,0 +1,53 @@
+
+
+.doc-repo-text h1{margin-bottom: 26px;}
+.doc-repo-desc{margin-bottom: 40px;}
+.doc-repo-desc span.optional-text:not(.fs-16){margin-bottom: 22px;}
+.doc-repo-desc hr[data-animate]{margin-bottom: 24px;}
+.doc-repo-text span.optional-text.fs-16{margin-bottom: 16px;}
+.doc-repo-aside:nth-child(1):last-child{flex: 1;}
+.doc-repo-aside ul.faqs-links li{margin-bottom: 6px;}
+
+ul.ui-years{margin: 0; gap: 9px;}
+ul.ui-years li{margin: 0;}
+ul.ui-years li::before{display: none;}
+ul.ui-years li a{padding: 16px; color: var(--Text-Gray);}
+ul.ui-years li a.current, ul.ui-years li a:hover{background-color: var(--Gray); color: var(--Black);}
+span.gary-line{width: 100%; height: 5px; top: auto; bottom: 0; display: block; background-color: var(--Gray);}
+a:hover span.gary-line{background-color: var(--Blue);}
+a:active span.gary-line, a.current span.gary-line{background-color: var(--RF-Orange);}
+
+
+.doc-repo-lists{gap: 20px;}
+.doc-repo-list{padding: 16px 16px 16px 24px; gap: 16px; flex: 1 0 calc(50% - 10px);}
+.doc-repo-line{width: 4px; right: auto; background-color: var(--Blue);}
+.doc-repo-list:hover .doc-repo-line, .doc-repo-list.current .doc-repo-line{width: 8px;}
+.doc-repo-list:hover{ background-color: var(--Blue-80); }
+.doc-repo-list:hover .doc-repo-icon{background-color: var(--Blue);}
+.doc-repo-list:hover .doc-repo-icon path{stroke: var(--White);}
+
+.doc-repo-list.current .doc-repo-line{background-color: var(--RF-Orange);}
+.doc-repo-list.current{ background-color: var(--RF-Orange-10); }
+.doc-repo-list.current .doc-repo-icon{background-color: var(--RF-Orange);}
+.doc-repo-list.current .doc-repo-icon path{stroke: var(--White);}
+
+.doc-repo-report{flex: 1;}
+.doc-repo-icon{width: 48px; height: 48px; padding: 8px;}
+.doc-repo-icon svg{width: 32px; height: auto; object-fit: contain;}
+.doc-repo-icon svg path{transition: var(--b-transition);}
+ul.doc-repo-q{margin: 0; gap: 16px;}
+ul.doc-repo-q li::before{display: none;}
+ul.doc-repo-q li{margin: 0;}
+
+
+/* media css starts here */
+@media only screen  and (min-width: 1024px){
+    .doc-repo-main{padding: 80px 0 80px; gap: 80px;}
+    .doc-repo-aside{flex: 0 0 350px;}
+    .doc-repo-article{flex: 1;}
+    .doc-repo-text h1{font-size: 48px;}
+    .doc-repo-head{gap: 40px; padding-bottom: 26px;}
+    .doc-repo-rows{gap: 70px; padding-top: 32px;}
+    .doc-repo-title{flex: 1;}
+    ul.ui-years{flex: 1;}
+}

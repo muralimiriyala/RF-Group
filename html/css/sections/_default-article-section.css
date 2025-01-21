@@ -72,7 +72,7 @@ aside.default-aside:nth-child(1):last-child{flex: 1;}
 @media screen and (max-width: 809px) and (min-width: 200px) {
     .default-article-main{padding: 41px 0 34px; display: block;}
     .default-article{padding-bottom: 30px;}
-    ul.breadcrumbs{width: calc(100% + 24px); margin-bottom: 24px; flex-wrap: nowrap; overflow-x: auto; min-width: fit-content; -ms-overflow-style: none; scrollbar-width: none;}
+    ul.breadcrumbs{width: calc(100% + 24px); padding-right: 24px; margin-bottom: 24px; flex-wrap: nowrap; overflow-x: auto; min-width: fit-content; -ms-overflow-style: none; scrollbar-width: none;}
     ul.breadcrumbs::-webkit-scrollbar{display: none;}
     ul.breadcrumbs li{min-width: fit-content; font-size: 16px;}
     .default-article h2{margin-bottom: 16px;}

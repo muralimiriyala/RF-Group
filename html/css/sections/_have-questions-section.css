@@ -19,6 +19,8 @@ ul.have-questions-links li a.black:hover{color: var(--Black-50);}
 .page-template-campaign .have-questions-text h2 { margin-bottom: 16px; font-size: 48px;}
 .page-template-campaign .have-questions-text hr[data-animate], .have-questions-text p { margin-bottom: 25px; }
 .page-template-campaign .have-questions-text p { margin-bottom: 0; }
+
+
 /* media css starts here */
 @media only screen  and (min-width: 1024px){
     .have-questions-section{padding-bottom: 80px; background-image: linear-gradient(to top, var(--Gray) calc(100% - var(--top-value)) , var(--White) var(--top-value));}

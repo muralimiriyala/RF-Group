@@ -5,8 +5,9 @@
 .faqs-desc{margin-bottom: 40px;}
 .faqs-desc hr[data-animate]{margin-bottom: 24px;}
 
-form.srch-faqs-form{border: 1px solid var(--Text-Gray); margin-bottom: 37px;} 
-form.srch-faqs-form input{padding: 15px 50px 15px 16px; font-size: 18px; line-height: 18px; font-weight: 400; color: var(--Black-50);}
+form.srch-faqs-form{margin-bottom: 37px;} 
+form.srch-faqs-form input{padding: 15px 50px 15px 16px; font-size: 18px; line-height: 18px; font-weight: 400; color: var(--Black);}
+form.srch-faqs-form input::placeholder{color: var(--Black-50);}
 button[type="submit"].srch-faqs-btn{right: 16px; top: 50%; transform: translateY(-50%); padding: 0; background-color: transparent; color: var(--Blue);}
 button[type="submit"].srch-faqs-btn:hover{color: var(--Black);}
 

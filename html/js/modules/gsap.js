@@ -8,7 +8,7 @@ export const gsapanim = {
   init() {
     const _ = this;
     _.iconanims.forEach(function (ele) {
-      const $duration = Number(ele.getAttribute('data-duration')) / 2000 || 0;
+      const $duration = Number(ele.getAttribute('data-duration')) / 2000 || 1;
       const $paths = ele.querySelectorAll('path');
       var tl = gsap.timeline({
         paused: true,
