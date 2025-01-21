@@ -63,7 +63,7 @@ ul.side-by-links li::before{display: none;}
     .side-by-right{flex-direction: row;}
     .side-by-bg{position: relative; flex: 0 0 350px; height: auto;}
     .side-by-ipad{flex: 1;}
-    .side-by-text{text-align: left;}
+    .side-by-text{text-align: left; padding-bottom: 29px;}
     ul.side-by-links{position: static;}
     .side-by-head{gap: 20px; flex-direction: row;}
     .side-by-title{flex: 1;}

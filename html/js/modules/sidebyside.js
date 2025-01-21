@@ -4,6 +4,7 @@ export const sidebyside = {
   $arrow: document.querySelector('.side-by-arrow'),
   init() {
     const _ = this;
+    if (!_.$blue || _.$purple) return;
     _.$blue.addEventListener('mouseenter', (e) => {
       e.currentTarget.classList.add('blue-hover');
       _.$purple.classList.add('right-purple');
