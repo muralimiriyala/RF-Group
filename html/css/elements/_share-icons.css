@@ -9,7 +9,7 @@
 .social-share-icons #st-1.st-animated .st-btn[data-network="facebook"]::after , .social-share-icons #st-2.st-animated .st-btn[data-network="facebook"]::after {content: "\f39e"; } 
 .social-share-icons #st-1.st-animated .st-btn[data-network="twitter"]::after, .social-share-icons #st-2.st-animated .st-btn[data-network="twitter"]::after {content: "\e61b"; } 
 .social-share-icons #st-1.st-animated .st-btn[data-network="linkedin"]::after, .social-share-icons #st-2.st-animated .st-btn[data-network="linkedin"]::after{content: "\f0e1"; }
-.social-share-icons #st-1.st-animated .st-btn, .social-share-icons #st-2.st-animated .st-btn[data-network="email"]::after{content: "\40"; font-family: "Font Awesome 6 Pro"; font-weight: 900;}
+.social-share-icons #st-1.st-animated .st-btn, .social-share-icons #st-2.st-animated .st-btn[data-network="email"]::after{content: "\f0e0"; font-family: "Font Awesome 6 Pro"; font-weight: 400;}
 .social-share-icons #st-1.st-animated img, .social-share-icons #st-2.st-animated img{display: none;}
 .social-share-icons #st-1.st-has-labels .st-btn.st-remove-label, .social-share-icons #st-2.st-has-labels .st-btn.st-remove-label{min-width: 2rem;}
 .social-share-icons #st-1.st-has-labels .st-btn.st-last, .social-share-icons #st-2.st-has-labels .st-btn.st-last{margin: 0;}
