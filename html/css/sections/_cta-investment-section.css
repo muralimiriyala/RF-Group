@@ -7,7 +7,7 @@
 .cta-investment-form input{width: fit-content; padding: 4px 4px 3px; text-align: center; max-width: 55px; background-color: var(--White); font-size: 24px; line-height: 24px; color: var(--Blue); 
   border: 1px solid rgba(39, 114, 219, 0.25);
 }
-.cta-investment-form .selectBox-dropdown{padding: 4px 40px 3px 10px; width: fit-content; border: 1px solid rgba(39, 114, 219, 0.25); background-color: var(--White); color: var(--Black-20); font-size: 24px; line-height: 24px;}
+.cta-investment-form .selectBox-dropdown{padding: 4px 40px 3px 10px; text-transform: lowercase; width: fit-content; border: 1px solid rgba(39, 114, 219, 0.25); background-color: var(--White); color: var(--Black-20); font-size: 24px; line-height: 24px;}
 .cta-investment-form .choose .selectBox-arrow{font-size: 16px; right: 10px;}
 
 .cta-investment-arrow{animation: bounceInRight 2s ease-in-out infinite;}
@@ -23,7 +23,7 @@
     }
   }
 
-/* .investment-form-main{max-height: 0; overflow: hidden;} */
+.investment-form-main{max-height: 0; overflow: hidden;}
 .investment-form-main hr{margin-top: 32px;}
 .investment-field{gap: 8px; width: fit-content; flex-direction: row-reverse; justify-content: flex-end;}
 .investment-field label{padding: 0; flex: 1; cursor: pointer;}
@@ -41,13 +41,27 @@
     .investment-field{flex: 1 0 calc(25% - 32px);}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
+  .cta-investment-text h2{font-size: 28px;}
+  .cta-investment-arrow{font-size: 54px;}
+  .cta-investment-form label{font-size: 20px;}
   .investment-field label{font-size: 16px; line-height: 100%;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 810px){
-    .cta-investment-main{padding: 32px; gap: 37px;}
+    .cta-investment-main{gap: 37px;}
     .cta-investment-form{flex: 1;}
+    .investment-form{gap: 24px 32px;}
+}
+@media only screen and (max-width: 809px) and (min-width: 560px){
+  .investment-form{gap: 24px;}
+  .investment-field{flex: 1 0 calc(50% - 12px);}
+  .investment-field label{font-size: 16px; line-height: 100%;}
+
 }
 @media only screen and (max-width: 809px) and (min-width: 200px){
-    .cta-investment-main{padding: 24px; gap: 24px; flex-direction: column; text-align: center;}
+    .cta-investment-main{gap: 24px; flex-direction: column; text-align: center;}
     .cta-investment-form label{justify-content: center;}
+    .cta-investment-text h2{font-size: 28px;}
+    .cta-investment-form .selectBox-dropdown{width: 100%;}
+    .investment-form{gap: 24px; flex-direction: column;}
+    .investment-field{flex: 1;}
 } 

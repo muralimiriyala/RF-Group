@@ -10,13 +10,18 @@ svg.repeater-icon-hover{top: 0; left: 0; opacity: 0;}
 .repeater-list:hover svg.repeater-icon-hover{opacity: 1; transform: translateX(40px);}
 .repeater-big-text span{left: 112px; opacity: 0;}
 .repeater-list:hover .repeater-big-text span{left: calc(50% + 37px); transform: translateX(-50%); opacity: 1;}
+.repeater-desc ul {margin: 0 0 28px 14px;}
+.repeater-desc ul > li::before{background-color: var(--Blue); height: 6px; width: 6px; border-radius: 8px; left: -14px; top: 10px;}
 
-
+.repeater-desc ol{margin: 0 0 28px 15px;}
+.repeater-desc ol > li::before{left: -18px; color: var(--Blue);}
 .page-template-about .repeater-main{padding: 0;}
 .page-template-about .repeater-list{padding: 80px 0 0;}
 .page-template-about .repeater-list.row-reverse{padding: 0 0 80px;}
 
-
+.page-template-campaign .repeater-main{padding: 0;}
+.page-template-campaign .repeater-desc { padding: 40px 64px 40px; }
+.page-template-campaign .repeater-list.row-reverse{padding: 0 0 80px;}
 /*-- media css starts here --*/
 @media only screen and (min-width: 1300px) {
     .repeater-list{ gap: 80px;}
