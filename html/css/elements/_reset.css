@@ -99,7 +99,7 @@ hr.sm-line{background-color: var(--Blue); height: 2px; border-radius: 1px; margi
 .button.transparent::after{width: 0; height: 100%; top: 0; left: 0; transition: all 0.8s ease; background-color: var(--Blue); content: ""; display: block; position: absolute; z-index: -1;}
 .button.transparent:hover::after{width: 100%;}
 .button.transparent:hover{color: var(--White); border-color: var(--Blue);}
-
+.button.transparent:hover i.white-50{color: var(--White);}
 
 .button.transparent.purple-border:hover{border-color: var(--RF-Purple); color: var(--White);}
 .button.transparent.purple-border::after{background-color: var(--RF-Purple);}
@@ -143,6 +143,9 @@ body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparen
 .button.btn-hover-blk:hover{background-color: var(--Black); color: var(--White);}
 .button.btn-hover-white:hover{background-color: var(--White); color: var(--Black);}
 .button.btn-hover-white:hover i{color: var(--Blue);}
+
+.button.btn-white.aquamarine-i i{color: var(--RF-Aquamarine);}
+.button.btn-hover-blk.aquamarine-i:hover i{color: var(--White);}
 
 a.text-link{gap: 8px; align-items: center; font-size: 1.125rem; line-height: 100%; letter-spacing: 0; color: var(--Black);}
 a.text-link i{color: var(--Blue); font-size: 20px; left: 0; position: relative; top: 1px; transition: all .5s ease;}
