@@ -17,7 +17,9 @@ a.text-link em, a.text-link:hover{color: var(--Blue);}
 }
 
 @media only screen and (max-width: 809px) and (min-width: 200px){
-
-.campaign-main { padding: 40px 0; }
+.campaign-wrap{display: block;}
+.campaign-main { padding: 40px 0 24px; }
+.campaign-lt ul.toc-links {padding: 5px 0 16px;}
+.campaign-rt .default-line-wrap { padding: 40px 0 22px; }
 
 }
