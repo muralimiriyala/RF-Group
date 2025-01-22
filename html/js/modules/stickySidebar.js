@@ -8,10 +8,12 @@ export const sticky = {
     if (!_.$sticky) return;
     const $height = _.$ele.getBoundingClientRect().height;
     _.$sticky.forEach((ele) => {
-      const $ptop = parseInt(
-        window.getComputedStyle(ele.parentElement.parentElement).paddingTop
-      );
-      console.log($ptop);
+      let $ptop = null;
+      if (!ele.classList.contains('social-share-main')) {
+        $ptop = parseInt(
+          window.getComputedStyle(ele.parentElement.parentElement).paddingTop
+        );
+      }
       new Sticksy(ele, {
         topSpacing: $height + $ptop,
         listen: true,
