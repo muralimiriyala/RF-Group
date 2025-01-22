@@ -36,14 +36,15 @@ a:active span.gary-line, a.current span.gary-line{background-color: var(--RF-Ora
 .doc-repo-icon svg{width: 32px; height: auto; object-fit: contain;}
 .doc-repo-icon svg path{transition: var(--b-transition);}
 ul.doc-repo-q{margin: 0; gap: 8px 16px;}
-ul.doc-repo-q li::before{display: none;}
+ul.doc-repo-q li::before{width: 1px; height: calc(100% - 2px); left: -8px; top: 1px; opacity: 0.25;}
+ul.doc-repo-q li:first-child:before{display: none;}
 ul.doc-repo-q li{margin: 0;}
 
 
 /* media css starts here */
 @media only screen  and (min-width: 810px){
     .doc-repo-head{gap: 40px; padding-bottom: 26px;}
-    .doc-repo-rows{gap: 70px; padding-top: 32px;}
+    .doc-repo-rows{gap: 70px; padding-top: 21px;}
     .doc-repo-title{width: fit-content;}
     ul.ui-years{flex: 1;}
 }
@@ -58,7 +59,7 @@ ul.doc-repo-q li{margin: 0;}
     .doc-repo-aside{flex: 0 0 300px;}
     .doc-repo-rows{padding-top: 0;}
     .doc-repo-lists{flex-direction: column;}
-    .doc-repo-head{flex-direction: column; padding-bottom: 46px; align-items: flex-start;}
+    .doc-repo-head{flex-direction: column; gap: 24px; padding-bottom: 36px; align-items: flex-start;}
     .ui-years.flex-content-end{justify-content: flex-start;}
 }
 @media screen and (max-width: 1023px) and (min-width: 810px){
@@ -74,14 +75,16 @@ ul.doc-repo-q li{margin: 0;}
     .doc-repo-text span.optional-text.fs-16{padding-top: 7px;}
     .doc-repo-rows{gap: 38px;}
     .doc-repo-lists{flex-direction: column;}
-    .doc-repo-head{padding-bottom: 26px; display: block;}
+    .doc-repo-head{gap: 24px; padding-bottom: 26px; flex-direction: column; align-items: flex-start;}
     .doc-repo-title{width: 100%;}
     .ui-years.flex-content-end{justify-content: flex-start;}
-    .ui-years{flex-wrap: nowrap; min-width: fit-content; overflow-x: auto; padding-right: 24px; width: calc(100% + 24px); -ms-overflow-style: none; scrollbar-width: none;}
+    .ui-years{flex-wrap: nowrap; overflow-x: auto; padding-right: 24px; width: calc(100% + 24px); -ms-overflow-style: none; scrollbar-width: none;}
     .ui-years::-webkit-scrollbar{display: none;}
+    ul.ui-years li {width: fit-content;}
     ul.ui-years li a{font-size: 16px;}
     .doc-repo-find{padding-top: 37px;}
 }
 @media screen and (max-width: 374px) and (min-width: 200px){
     .doc-repo-list{flex-direction: column; align-items: flex-start;}
+    ul.doc-repo-q li{font-size: 12px;}
 }
