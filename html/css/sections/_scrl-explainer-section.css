@@ -9,10 +9,13 @@
 .scrl-explainer-icon svg{width: 100%; height: 100%; object-fit: contain;}
 .scrl-explainer-rect{clip-path: polygon(0 0, 100% 100%, 0 100%);}
 
+.page-template-campaign .scrl-explainer-main{padding: 40px 0;}
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .scrl-explainer-main{gap: 80px; padding: 80px 0 88px;}
     .scrl-explainer-card{flex: 0 0 350px;}
+
+    .page-template-campaign .scrl-explainer-main {padding: 80px 0 168px;}
 }
 @media only screen and (min-width: 860px){
 

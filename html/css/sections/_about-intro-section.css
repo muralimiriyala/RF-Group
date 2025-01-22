@@ -56,4 +56,5 @@
     .about-intro-list{margin-bottom: 24px;}
     .about-intro-list:last-child{margin-bottom: 0;}
     .about-intro-rt{font-size: 18px;}
-}
+
+    .page-template-campaign .about-intro-main { padding: 40px 0 40px; } }
