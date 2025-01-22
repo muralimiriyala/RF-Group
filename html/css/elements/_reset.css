@@ -90,7 +90,6 @@ hr.sm-line{background-color: var(--Blue); height: 2px; border-radius: 1px; margi
 ::selection {background-color: var(--Black); color: var(--White);}
 ::-moz-selection {background-color: var(--Black); color: var(--White);}
 
-
 /* Buttons */
 .button, button, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{padding: 12px 14px 12px; font-size: 18px; font-weight: 700; line-height: 100%; border: 2px solid transparent; font-family: var(--body-font); display: inline-block; background: var(--Blue); color: var(--White); border-radius: 0; cursor: pointer; vertical-align: middle; text-decoration: none; text-transform: none; text-align: center; outline: 0; position: relative; -webkit-writing-mode: horizontal-tb; -ms-writing-mode: horizontal-tb; writing-mode: horizontal-tb; text-orientation: mixed; box-shadow: none; transition: var(--b-transition); z-index: 1; margin: 0; transition: all .5s ease;}
 .button:hover, button:hover, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover{
