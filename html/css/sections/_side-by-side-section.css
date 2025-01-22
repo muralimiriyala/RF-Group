@@ -3,7 +3,8 @@
 ul.side-by-links{margin: 0; gap: 25px;}
 ul.side-by-links li{margin: 0;}
 ul.side-by-links li::before{display: none;}
-
+.purple ul.side-by-links li a i{color: var(--RF-Purple);}
+.purple ul.side-by-links li a:hover{color: var(--RF-Purple);}
 
 .side-by-icon{max-width: 80px;}
 .side-by-icon svg{max-width: 80px; object-fit: contain;}
