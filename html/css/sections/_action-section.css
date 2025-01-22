@@ -8,7 +8,7 @@ ul.action-links > li > a{gap: 16px; background: var(--White); padding: 16px; fon
 .action-link-icon > em{color: var(--Blue); transition: var(--b-transition);}
 .action-link-icon > em:first-child{left: 0; opacity: 0; position: absolute; transform: translateX(calc(-100% - 10px));}
 
-.action-section ul.action-links > li {box-shadow: 0 12px 32px 0 var(--Black-15);}
+.action-section ul.action-links > li > a{box-shadow: 0 12px 32px 0 var(--Black-15);}
 
 
 @media screen and (min-width: 810px) {
