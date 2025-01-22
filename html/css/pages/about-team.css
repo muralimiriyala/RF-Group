@@ -83,13 +83,15 @@
     .team-mem-icon{text-align: center; width: 100%; margin-bottom: 16px;}
     .team-mem-inner {text-align: center; padding: 24px; display: block;}
     .career-short-section .team-mem-inner{box-shadow: 0px 12px 32px 0px rgba(0, 0, 0, 0.15);}
-    .team-mem-text span {font-size: 16px;}
+    .team-mem-text span {font-size: 16px; line-height: 150%;}
     .team-mem-inner-lt {margin-bottom: 24px;}
 
     .team-mem-text{width: 100%; text-align: center;}
     ul.filter-links {margin-bottom: 0;}
 
     .career-short-section .team-mem-short-wrap{padding-bottom: 24px;}
+    .page-template-campaign .team-mem-inner-rt .button{margin-bottom: 8px;}
+    .page-template-campaign .team-mem-text span{padding: 0 40px;}
 
   }
 

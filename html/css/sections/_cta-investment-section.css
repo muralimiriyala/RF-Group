@@ -64,4 +64,7 @@
     .cta-investment-form .selectBox-dropdown{width: 100%;}
     .investment-form{gap: 24px; flex-direction: column;}
     .investment-field{flex: 1;}
+
+    .page-template-campaign .cta-investment-wrap{margin-top: inherit;}
+    .page-template-campaign .cta-investment-section{background-image: linear-gradient(to top,transparent calc(100% - var(--top-value)),var(--Gray) var(--top-value)); }
 } 
