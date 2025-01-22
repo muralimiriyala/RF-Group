@@ -84,4 +84,5 @@ aside.default-aside:nth-child(1):last-child{flex: 1;}
 @media screen and (max-width: 374px) and (min-width: 200px) {
     .navy-block-btn .button{font-size: 15px;}
     .navy-block-btn .button i{font-size: 14px;}
+    .sidebar-gray-btns .button{flex-direction: column; gap: 8px;}
 }
