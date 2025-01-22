@@ -4,31 +4,45 @@ export const sidebyside = {
   $arrow: document.querySelector('.side-by-arrow'),
   init() {
     const _ = this;
-    if (!_.$blue || _.$purple) return;
-    _.$blue.addEventListener('mouseenter', (e) => {
+    if (!_.$arrow) return;
+
+    const addBColor = (e) => {
       e.currentTarget.classList.add('blue-hover');
-      _.$purple.classList.add('right-purple');
+      _.$purple.forEach((elepurple) => {
+        elepurple.classList.add('right-purple');
+      });
       _.$arrow.classList.add('blue-hover');
-    });
-    _.$blue.addEventListener('mouseleave', (e) => {
+    };
+    const removeBColor = (e) => {
       e.currentTarget.classList.remove('blue-hover');
-      _.$purple.classList.remove('right-purple');
+      _.$purple.forEach((elepurple) => {
+        elepurple.classList.remove('right-purple');
+      });
       _.$arrow.classList.remove('blue-hover');
+    };
+    _.$blue.forEach((eleblue) => {
+      eleblue.addEventListener('mouseenter', addBColor);
+      eleblue.addEventListener('mouseleave', removeBColor);
     });
-    _.$purple.addEventListener('mouseenter', (e) => {
+
+    const addPColor = (e) => {
       e.currentTarget.classList.add('purple-hover');
-      _.$blue.classList.add('left-purple');
+      _.$blue.forEach((eleblue) => {
+        eleblue.classList.add('left-purple');
+      });
       _.$arrow.classList.add('purple-hover');
-    });
-    _.$purple.addEventListener('mouseleave', (e) => {
+    };
+    const removePColor = (e) => {
       e.currentTarget.classList.remove('purple-hover');
-      _.$blue.classList.remove('left-purple');
+      _.$blue.forEach((eleblue) => {
+        eleblue.classList.remove('left-purple');
+      });
       _.$arrow.classList.remove('purple-hover');
+    };
+
+    _.$purple.forEach((elepurple) => {
+      elepurple.addEventListener('mouseenter', addPColor);
+      elepurple.addEventListener('mouseleave', removePColor);
     });
-    // ['mouseenter', 'mouseleave'].forEach((event) => {
-    //   _.$purple.addEventListener(event, () => {
-    //     _.$arrow.classList.toggle('purple-hover', event === 'mouseenter');
-    //   });
-    // });
   },
 };

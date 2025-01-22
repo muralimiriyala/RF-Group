@@ -62,7 +62,6 @@ ul.side-by-links li::before{display: none;}
     .side-by-side .blue-hover ul.side-by-links{ transform: translateY(-50%) translateX(-120px); opacity: 1; visibility: visible;}
     .side-by-side .purple-hover ul.side-by-links{ transform: translateY(-50%) translateX(120px); opacity: 1; visibility: visible;}
     
-    
     .blue-hover ul.side-by-links{ opacity: 1; visibility: visible;}
     .purple-hover.side-by-ipad{transform: translateX(-200px);}
     .left-purple .side-by-text{transform: translateX(-100px);}
@@ -73,15 +72,6 @@ ul.side-by-links li::before{display: none;}
 @media only screen and (max-width: 1259px) and (min-width: 1024px){
     .side-by-ipad{padding: 88px 40px; width: calc(100% - 40px); }
     .side-by-arrow{position: relative; z-index: 2;}
-    .blue-hover.side-by-arrow svg{transform: translateX(100px) rotate(-90deg);}
-    .purple-hover.side-by-arrow svg{transform: translateX(-100px) rotate(90deg);}
-
-    
-    .purple-hover.side-by-ipad{transform: translateX(-200px);}
-    .left-purple .side-by-text{transform: translateX(-100px);}
-    
-    .blue-hover.side-by-ipad{transform: translateX(200px);}
-    .right-blue .side-by-text{transform: translateX(100px);}
     .side-by-arrow{display: none;}
 }
 @media only screen and (max-width: 1259px) and (min-width: 810px){
