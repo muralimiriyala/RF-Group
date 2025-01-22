@@ -29,6 +29,7 @@ export const myslick = {
           slidesToScroll: 1,
           speed: 1000,
           arrows: true,
+          adaptiveHeight: true,
           prevArrow:
             '<button type="button" aria-label="previous" aria-disabled="false" tabindex="0" class="slick-arrow slick-prev flex flex-center"><span class="slick-arrows slick-prev-arrow fa-regular fa-chevron-right"></span></button>',
           nextArrow:
