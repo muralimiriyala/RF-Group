@@ -82,5 +82,5 @@ svg.repeater-icon-hover{top: 0; left: 0; opacity: 0;}
 
       .page-template-campaign .repeater-desc { padding: 40px 24px; }
       .page-template-campaign .repeater-list{margin-bottom: 0;}
-      .page-template-campaign .repeater-list.row-reverse{padding: 44px 0 0;}
+      .page-template-campaign .repeater-list.row-reverse{padding-bottom: 0;}
 }
