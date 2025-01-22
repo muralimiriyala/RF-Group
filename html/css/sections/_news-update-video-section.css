@@ -2,23 +2,23 @@
 .news-update-video-banner-section{  margin-top: -1px;}
 .news-update-video-banner-overlay{opacity: 0.7; z-index: 0;}
 
-.news-update-video-banner-main{max-width: 736px; margin: 0 auto; padding: 160px 0 209px;}
+.news-update-video-banner-main{max-width: 832px; margin: 0 auto; padding: 160px 0 209px;}
 .news-update-video-banner{background-color: red;}
 .news-update-video-banner-wrap{padding: 48px; gap: 64px;}
 .news-update-video-banner-text{color: var(--White); flex: 1;}
 .news-update-video-banner-form{flex: 1;}
-.news-update-video-banner-text h1{color: var(--White);}
+.news-update-video-banner-text h1{color: var(--White); font-size: 40px;}
 .news-update-video-banner-text hr[data-animate]{margin-bottom: 24px;}
-.news-update-video-banner-text p{margin-bottom: 24px;}
+.news-update-video-banner-text p{margin-bottom: 24px; font-weight: 300;}
 .news-update-video-banner-btn{gap: 16px;} */
 .news-update-video-banner-text.no_about_banner_img{max-width: 100%;}
 
 /*-- media css --*/
 @media screen and (min-width: 1024px) {
-    /* .news-update-video-banner-text{padding: 161px 0 178px;} */
+    
 }
 @media screen and (min-width: 810px){
-    /* .news-update-video-banner-text{max-width: 695px;} */
+    
 }
 @media screen and (max-width: 1023px) and (min-width: 810px) {
     .news-update-video-banner-text{padding: 144px 0 80px;}
