@@ -35,5 +35,5 @@ ul.action-links{gap: 16px; padding: 32px 0;}
     ul.action-links > li > a {display: block; height: 100%; text-align: center;}
     .action-link-icon{margin-bottom: 8px;}
 
-
+.page-template-campaign .action-section{display: none;}
 }
