@@ -11,7 +11,7 @@
 ul.ui-years{margin: 0; gap: 9px;}
 ul.ui-years li{margin: 0;}
 ul.ui-years li::before{display: none;}
-ul.ui-years li a{padding: 16px; color: var(--Text-Gray);}
+ul.ui-years li a{padding: 16px; color: var(--Text-Gray); display: block;}
 ul.ui-years li a.current, ul.ui-years li a:hover{background-color: var(--Gray); color: var(--Black);}
 span.gary-line{width: 100%; height: 5px; top: auto; bottom: 0; display: block; background-color: var(--Gray);}
 a:hover span.gary-line{background-color: var(--Blue);}
@@ -35,19 +35,53 @@ a:active span.gary-line, a.current span.gary-line{background-color: var(--RF-Ora
 .doc-repo-icon{width: 48px; height: 48px; padding: 8px;}
 .doc-repo-icon svg{width: 32px; height: auto; object-fit: contain;}
 .doc-repo-icon svg path{transition: var(--b-transition);}
-ul.doc-repo-q{margin: 0; gap: 16px;}
+ul.doc-repo-q{margin: 0; gap: 8px 16px;}
 ul.doc-repo-q li::before{display: none;}
 ul.doc-repo-q li{margin: 0;}
 
 
 /* media css starts here */
+@media only screen  and (min-width: 810px){
+    .doc-repo-head{gap: 40px; padding-bottom: 26px;}
+    .doc-repo-rows{gap: 70px; padding-top: 32px;}
+    .doc-repo-title{width: fit-content;}
+    ul.ui-years{flex: 1;}
+}
 @media only screen  and (min-width: 1024px){
     .doc-repo-main{padding: 80px 0 80px; gap: 80px;}
     .doc-repo-aside{flex: 0 0 350px;}
     .doc-repo-article{flex: 1;}
     .doc-repo-text h1{font-size: 48px;}
-    .doc-repo-head{gap: 40px; padding-bottom: 26px;}
-    .doc-repo-rows{gap: 70px; padding-top: 32px;}
-    .doc-repo-title{flex: 1;}
-    ul.ui-years{flex: 1;}
+}
+@media screen and (max-width: 1199px) and (min-width: 1024px){
+    .doc-repo-main{gap: 60px;}
+    .doc-repo-aside{flex: 0 0 300px;}
+    .doc-repo-rows{padding-top: 0;}
+    .doc-repo-lists{flex-direction: column;}
+    .doc-repo-head{flex-direction: column; padding-bottom: 46px; align-items: flex-start;}
+    .ui-years.flex-content-end{justify-content: flex-start;}
+}
+@media screen and (max-width: 1023px) and (min-width: 810px){
+    .doc-repo-main{padding: 60px 0 60px; gap: 60px; flex-direction: column;}
+    .doc-repo-find{padding-top: 30px;}
+}
+@media screen and (max-width: 809px) and (min-width: 200px){
+    .doc-repo-main{padding: 40px 0 42px; display: block;}
+    .doc-repo-aside{padding-bottom: 27px;}
+    .doc-repo-desc span.optional-text:not(.fs-16){font-size: 16px;}
+    .doc-repo-text h1{font-size: 36px;}
+    .doc-repo-text{font-size: 14px;}
+    .doc-repo-text span.optional-text.fs-16{padding-top: 7px;}
+    .doc-repo-rows{gap: 38px;}
+    .doc-repo-lists{flex-direction: column;}
+    .doc-repo-head{padding-bottom: 26px; display: block;}
+    .doc-repo-title{width: 100%;}
+    .ui-years.flex-content-end{justify-content: flex-start;}
+    .ui-years{flex-wrap: nowrap; min-width: fit-content; overflow-x: auto; padding-right: 24px; width: calc(100% + 24px); -ms-overflow-style: none; scrollbar-width: none;}
+    .ui-years::-webkit-scrollbar{display: none;}
+    ul.ui-years li a{font-size: 16px;}
+    .doc-repo-find{padding-top: 37px;}
+}
+@media screen and (max-width: 374px) and (min-width: 200px){
+    .doc-repo-list{flex-direction: column; align-items: flex-start;}
 }
