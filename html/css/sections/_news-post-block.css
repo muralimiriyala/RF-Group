@@ -1,6 +1,5 @@
 
-.news-post-block-wrap{position: relative; z-index: 1;}
-.news-post-block-desc { background-color: var(--RF-Aquamarine); padding: 64px 70px; text-align: center; color: var(--White)}
+.news-post-block-desc { padding: 64px 70px; text-align: center; color: var(--White)}
 .news-post-block-desc p{font-size: 18px; font-weight: 700; line-height: 100%; margin-bottom: 24px; font-family: var(--body-font);}
 .news-post-block-desc h3{font-size: 48px; font-weight: 600; line-height: 125%; letter-spacing: -0.8px; color: var(--White); margin-bottom: 34px;}
 .news-post-block-btns { max-width: 514px; width: 100%; display: block; margin: 0 auto;}
@@ -21,7 +20,6 @@
 }
 @media screen and (max-width: 809px) and (min-width: 200px) {
     .news-post-block-desc {padding: 24px;}
-    .news-post-block-wrap {margin-top: inherit;}
     .news-post-block{padding: 0;}
     .news-post-block-desc p{font-size: 16px; margin-bottom: 24px;}
     .news-post-block-desc h3{font-size: 28px; }

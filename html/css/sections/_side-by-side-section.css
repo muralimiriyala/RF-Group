@@ -51,8 +51,11 @@ ul.side-by-links li::before{display: none;}
 @media only screen and (min-width: 1024px){
     .side-by-main{padding: 80px 0;}
     .side-by-side{flex: 1;}
-    .side-by-side:nth-child(1) .side-by-ipad{margin-left: auto;}
-    .side-by-side:nth-child(3) .side-by-ipad{margin-right: auto;}
+    .side-by-left{order: 1;}
+    .side-by-arrow{order: 2;}
+    .side-by-right{order: 3;}
+    .side-by-left .side-by-ipad{margin-left: auto;}
+    .side-by-right .side-by-ipad{margin-right: auto;}
     .side-by-icon{margin-bottom: 18px;}
 }
 @media only screen and (min-width: 1260px){
