@@ -26,6 +26,13 @@
   
   
   .page-template-campaign .team-mem-inner{box-shadow: 0 12px 32px 0 var(--Black-15);}
+  .page-template-campaign .team-mem-text h3 input{background: none; border: none; border-bottom: 2px solid var(--Blue); width: fit-content; padding:8px 8px 4px 8px; font-size: 32px; font-weight: 800; line-height: 30px; max-width: 57px;}
+  .page-template-campaign .team-mem-text h3 input::placeholder{color: var(--Text-gray);}
+
+  .page-template-campaign .team-mem-text h3 input::-webkit-input-placeholder { color:var(--Black-20); }
+ .page-template-campaign .team-mem-text h3 input::-moz-placeholder { color: var(--Black-20); }
+ .page-template-campaign .team-mem-text h3 input::-moz-placeholder { color: var(--Black-20); }
+ .page-template-campaign .team-mem-text h3 input::-ms-input-placeholder { color: var(--Black-20); }
 
   @media only screen and (min-width: 1024px){
     .team-mem-row{margin: 0 0 40px; gap: 40px;}
