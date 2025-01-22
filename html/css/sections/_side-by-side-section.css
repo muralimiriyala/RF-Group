@@ -3,6 +3,9 @@
 ul.side-by-links{margin: 0; gap: 25px;}
 ul.side-by-links li{margin: 0;}
 ul.side-by-links li::before{display: none;}
+
+.purple-ui [data-animate*="64"]{background-color: var(--RF-Purple);}
+.purple-ui span.optional-text{color: var(--RF-Purple);}
 .purple-ui ul.side-by-links li a i{color: var(--RF-Purple);}
 .purple-ui ul.side-by-links li a:hover{color: var(--RF-Purple);}
 

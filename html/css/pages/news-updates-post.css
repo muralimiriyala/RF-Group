@@ -27,24 +27,25 @@ blockquote.green{color: var(--RF-Aquamarine); margin: 38px 0 38px;}
 .view-txt-lt{flex:  1; padding-right: 10px; font-size: 16px; color: var(--Text-Gray2); font-weight: 600;}
 .view-txt-rt{flex: 0 0 62px;}
 
-
 /*-- media css starts here --*/
-@media only screen and (min-width: 1024px){
-  .news-updates-post-article{max-width: 960px; margin: auto; flex: 1;}
-    .news-updates-post-aside{ flex: 0 0 56px; left: auto; top: 0; right: -20px; display: block; content: ""; text-align: right; width: 56px; }
+@media only screen and (min-width: 1440px){
+  .news-updates-post-main{gap: 0 144px;}
+  .news-updates-post-article{flex: 0 0 calc(100% - 320px); transform: translateX(160px);}
+  .news-updates-post-aside{width: 56px; top: 0; display: block; left: 160px;}
 }
-@media screen and (max-width: 1199px) and (min-width: 1024px) {
-  .news-updates-post-article{max-width: 816px;}
-  
+@media screen and (max-width: 1439px) and (min-width: 1024px) {
+  .news-updates-post-main{gap: 0 72px;}
+  .news-updates-post-article{flex: 0 0 calc(100% - 160px); transform: translateX(80px);}
+  .news-updates-post-aside{width: 56px; top: 0; display: block; left: 40px;}
 }
-@media screen and (max-width: 1023px) and (min-width: 768px) {
+@media screen and (max-width: 1023px) and (min-width: 810px) {
   .news-updates-post-main { margin-top: -80px; display: block;} 
   .news-updates-post-article { flex: 0 0 100%; margin: 0 auto; padding: 40px;}
   .news-updates-post-article::before {width: calc(100% - 80px); left: 40px;}
   .news-updates-post-section .container{padding: inherit;}
   .news-updates-post-aside{position: relative;}
 }
-@media screen and (max-width: 767px) and (min-width: 200px) {
+@media screen and (max-width: 809px) and (min-width: 200px) {
   .news-updates-post-main{display: block; margin-top: -80px;}
   .news-updates-post-article { flex: 0 0 100%; margin: 0 auto; padding: 24px;}
   .news-updates-post-article::before {width: calc(100% - 48px); left: 24px;}
