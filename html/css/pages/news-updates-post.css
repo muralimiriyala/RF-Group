@@ -31,7 +31,11 @@ blockquote.green{color: var(--RF-Aquamarine); margin: 38px 0 38px;}
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
   .news-updates-post-article{max-width: 960px; margin: auto; flex: 1;}
-    .news-updates-post-aside{ flex: 0 0 56px; left: auto; right: -20px; display: block; content: ""; text-align: right; width: 56px; }
+    .news-updates-post-aside{ flex: 0 0 56px; left: auto; top: 0; right: -20px; display: block; content: ""; text-align: right; width: 56px; }
+}
+@media screen and (max-width: 1199px) and (min-width: 1024px) {
+  .news-updates-post-article{max-width: 816px;}
+  
 }
 @media screen and (max-width: 1023px) and (min-width: 768px) {
   .news-updates-post-main { margin-top: -80px; display: block;} 
