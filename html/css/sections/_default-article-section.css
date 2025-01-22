@@ -80,6 +80,8 @@ aside.default-aside:nth-child(1):last-child{flex: 1;}
     .sidebar-gray-blk{padding: 22px 24px 24px; margin-bottom: 22px;}
     .sidebar-mgt-team:not(:last-child){margin-bottom: 20px;}
     figure.RF-small{margin-top: 20px;}
+
+    
 }
 @media screen and (max-width: 374px) and (min-width: 200px) {
     .navy-block-btn .button{font-size: 15px;}
