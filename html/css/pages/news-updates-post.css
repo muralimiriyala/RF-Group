@@ -16,9 +16,10 @@
 blockquote.green{color: var(--RF-Aquamarine); margin: 38px 0 38px;}
 
 .view-block{padding: 15px; margin-top: 38px; justify-content: space-between;}
-.view-txt-rt{background-color: var(--White); font-size: 12px; padding: 0 6px;}
-.view-txt-rt a{gap: 4px; color: var(--Black);}
+.view-txt-rt a{gap: 4px; color: var(--Black); background-color: var(--White); font-size: 12px; padding: 0 6px;}
+.view-block:hover .view-txt-rt a{background-color: var(--Blue); color: var(--White);}
 .view-txt-rt a i{color: var(--RF-Aquamarine); font-size: 14px; font-weight: 900;}
+.view-block:hover .view-txt-rt a i{color: var(--White);}
 .news-updates-post-audio{padding-bottom: 80px;}
 .news-updates-post-audio span{color: var(--Black); text-transform: uppercase;}
 .view-txt-lt{flex:  1; padding-right: 10px; font-size: 16px; color: var(--Text-Gray2); font-weight: 600;}
