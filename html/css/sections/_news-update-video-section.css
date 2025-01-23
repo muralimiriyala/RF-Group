@@ -23,7 +23,7 @@ body .news-update-video-banner-form .frm_forms .frm_submit{width: 100%; padding-
 body .news-update-video-banner-form .frm_forms .frm_submit button.frm_button_submit{width: 100%; color: var(--White) !important;}
 
 body .news-update-video-banner-form .frm_forms .frm_form_fields .frm_form_field input[type="text"]{background-image: url('../../images/user-icon.svg');}
-body .news-update-video-banner-form .frm_forms .frm_form_fields .frm_form_field input[type="email"]{background-image: url('../../images/at-blue.svg');}
+body .news-update-video-banner-form .frm_forms .frm_form_fields .frm_form_field input[type="email"]{background-image: url('../../images/email-icon.svg');}
 body .news-update-video-banner-form .frm_forms .frm_form_fields .frm_form_field input[type="tel"]{background-image: url('../../images/phone-blue.svg');}
 
 .news-update-video-overlay.background-text{background-color: var(--Black); opacity: 0.6;}
@@ -64,5 +64,7 @@ body .news-update-video-banner-form .frm_forms .frm_form_fields .frm_form_field 
     .news-update-video-banner-wrap{display: block; background-color: var(--Black); padding: 40px 24px 52px;}
     .news-update-video-banner{position: relative;}
     .news-update-video-banner video {min-height: 285px;}
+
+    
     
 }

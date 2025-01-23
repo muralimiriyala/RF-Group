@@ -12,6 +12,12 @@
 .news-update-video-article ul > li:last-child{margin-bottom: 0;}
 
 .news-update-video-article .news-post-banner-row + p{margin-bottom: 38px;}
+
+.news-update-video-article .news-post-banner-list:not(:first-child)::after { background-color: var(--Black);}
+
+
+
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 1440px){
   .news-update-video-main{gap: 0 144px;}
@@ -44,4 +50,6 @@
 .news-update-video-article h3 { font-size: 24px; letter-spacing: -0.48px; line-height: 125%; margin-bottom: 21px; }
 .news-update-video-article .news-post-banner-row + p { margin-bottom: 23px; }
 .news-update-video-aside{width: 100%;}
+
+
 }
