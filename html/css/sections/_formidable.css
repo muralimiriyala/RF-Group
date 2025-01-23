@@ -233,7 +233,7 @@ body.page-template-contact .contact-form-form .frm_error_style{display: none;}
 body.page-template-contact .contact-form-form .frm_forms .frm_form_fields .frm_form_field .frm_primary_label{display: none;}
 body.page-template-contact .contact-form-form .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_primary_label{display: flex;}
 
-.with_frm_style input::placeholder, .with_frm_style textarea::placeholder { font-size: var(--body-font); }
+body .with_frm_style input::placeholder, body .with_frm_style textarea::placeholder { font-size: 1rem; }
 
 body .frm_style_formidable-style.with_frm_style .frm_error_style{display: none;}
 

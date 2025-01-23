@@ -17,6 +17,9 @@
 
 .news-post-banner-row + p{margin-bottom: 38px;}
 
+
+
+
 /*-- media css --*/
 @media screen and (min-width: 1024px) {
     .news-post-banner-main{padding: 205px 0 284px; max-width: 832px; }

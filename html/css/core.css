@@ -16,20 +16,6 @@
 @import url('./elements/_share-icons.css');
 
 
-/*-- From page's css --*/
-@import url('./pages/about-team-bio.css');
-@import url('./pages/faq-page.css');
-@import url('./pages/about-team.css');
-@import url('./pages/about-history.css');
-@import url('./pages/news-update.css');
-@import url('./pages/careers-page.css');
-@import url('./pages/index.css');
-@import url('./pages/about.css');
-@import url('./pages/news-updates-post.css');
-@import url('./pages/campaign-page.css');
-@import url('./pages/news-update-video-gated-page.css');
-
-
 /*-- From common section css --*/
 @import url('./sections/_formidable.css');
 @import url('./sections/_cta.css');
@@ -63,6 +49,20 @@
 @import url('./sections/_side-by-side-section.css');
 @import url('./sections/_cta-investment-section.css');
 
+
+/*-- From page's css --*/
+@import url('./pages/about-team-bio.css');
+@import url('./pages/faq-page.css');
+@import url('./pages/about-team.css');
+@import url('./pages/about-history.css');
+@import url('./pages/news-update.css');
+@import url('./pages/careers-page.css');
+@import url('./pages/index.css');
+@import url('./pages/about.css');
+@import url('./pages/news-updates-post.css');
+@import url('./pages/campaign-page.css');
+@import url('./pages/news-update-video-gated-page.css');
+@import url('./pages/resource-form-page.css');
 
 /*-- From 3rd party css's --*/
 @import url('./lib/slick.css');
