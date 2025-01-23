@@ -16,6 +16,15 @@ a.text-link em, a.text-link:hover{color: var(--Blue);}
 
 }
 
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+  .campaign-wrap{display: block;}
+  .campaign-wrap .campaign-rt + .sidebar-main{display: flex; gap: 32px; margin-top: 20px;}
+  .campaign-wrap .campaign-rt + .sidebar-main .sidebar-mgt-team{flex: 0 0 calc(33.33% - 22px);}
+
+
+
+}
+
 @media only screen and (max-width: 809px) and (min-width: 200px){
 .campaign-wrap{display: block;}
 .campaign-main { padding: 24px 0 24px; }
