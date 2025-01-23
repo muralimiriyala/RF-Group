@@ -1,19 +1,19 @@
 
 
 /*-- From common elements css --*/
-@import './elements/_fonts.css';
-@import './elements/_color.css';
-@import './elements/_animations.css';
-@import './elements/_reset.css';
-@import './elements/_header.css';
-@import './elements/_footer.css';
-@import './elements/_modal.css';
-@import './elements/_search.css';
-@import './elements/_selectbox.css';
-@import './elements/_transitions.css';
-@import './elements/_404.css';
-@import './elements/_accordion.css';
-@import './elements/_share-icons.css';
+@import url('./elements/_fonts.css');
+@import url('./elements/_color.css');
+@import url('./elements/_animations.css');
+@import url('./elements/_reset.css');
+@import url('./elements/_header.css');
+@import url('./elements/_footer.css');
+@import url('./elements/_modal.css');
+@import url('./elements/_search.css');
+@import url('./elements/_selectbox.css');
+@import url('./elements/_transitions.css');
+@import url('./elements/_404.css');
+@import url('./elements/_accordion.css');
+@import url('./elements/_share-icons.css');
 
 
 /*-- From page's css --*/
@@ -65,6 +65,6 @@
 
 
 /*-- From 3rd party css's --*/
-@import './lib/slick.css';
-@import './lib/magnific-popup.css';
-@import './lib/jquery.selectBox.css';
+@import url('./lib/slick.css');
+@import url('./lib/magnific-popup.css');
+@import url('./lib/jquery.selectBox.css');
