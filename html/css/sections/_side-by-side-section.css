@@ -25,8 +25,8 @@ ul.side-by-links li::before{display: none;}
 @media only screen and (min-width: 1440px){
     .side-by-ipad{padding: 88px 130px; max-width: 608px;}
     
-    .blue-ui ul.side-by-links{left: 0; transform: translateY(-50%) translateX(-60px)}
-    .purple-ui ul.side-by-links{right: 0; transform: translateY(-50%) translateX(60px);}
+    .blue-ui ul.side-by-links{left: 0; right: auto; transform: translateY(-50%) translateX(-60px)}
+    .purple-ui ul.side-by-links{right: 0; left: auto; transform: translateY(-50%) translateX(60px);}
     
     .blue-hover-ui ul.side-by-links{ transform: translateY(-50%) translateX(-120px); opacity: 1; visibility: visible;}
     .purple-hover-ui ul.side-by-links{ transform: translateY(-50%) translateX(120px); opacity: 1; visibility: visible;}
@@ -60,7 +60,7 @@ ul.side-by-links li::before{display: none;}
 }
 @media only screen and (min-width: 1260px){
     .side-by-text{max-width: 348px;}
-    ul.side-by-links{ padding: 24px; opacity: 0; visibility: hidden; width: fit-content; top: 50%; transform: translateY(-50%); position: absolute;}
+    ul.side-by-links{ padding: 24px; opacity: 0; visibility: hidden; width: fit-content; top: 50%; position: absolute;}
 }
 @media only screen and (max-width: 1439px) and (min-width: 1260px){
     .side-by-ipad{padding: 88px 90px; width: calc(100% - 80px); }

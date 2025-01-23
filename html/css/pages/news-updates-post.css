@@ -16,13 +16,14 @@
 blockquote.green{color: var(--RF-Aquamarine); margin: 38px 0 38px;}
 
 .view-block{padding: 15px; margin-top: 38px; justify-content: space-between;}
-span.cta-view{gap: 4px; color: var(--Black); background-color: var(--White); font-size: 12px; padding: 0 6px;}
-.view-block:hover span.cta-view{background-color: var(--Blue); color: var(--White);}
-span.cta-view i{top: -1px; position: relative; color: var(--RF-Aquamarine); font-size: 14px; font-weight: 900;}
-.view-block:hover span.cta-view i{color: var(--White);}
-.view-block.open span.cta-view span{display: none;}
-.view-block.open span.cta-view span.hide{display: block;}
-.view-block.open span.cta-view i::before{content: "\f077";}
+.cta-view{gap: 4px; color: var(--Black); background-color: var(--White); font-size: 12px; padding: 0 6px;}
+.view-block:hover .cta-view{background-color: var(--Blue); color: var(--White);}
+.cta-view i{top: -1px; position: relative; color: var(--RF-Aquamarine); font-size: 14px; font-weight: 900;}
+.view-block:hover .cta-view i{color: var(--White);}
+.view-block.open .cta-view span{display: none;}
+.view-block.open .cta-view span.hide{display: block;}
+.view-block.open .cta-view i{top: 0.5px;}
+.view-block.open .cta-view i::before{content: "\f077";}
 .news-updates-post-audio{padding-bottom: 80px;}
 .news-updates-post-audio span{color: var(--Black); text-transform: uppercase;}
 .view-txt-lt{flex:  1; padding-right: 10px; font-size: 16px; color: var(--Text-Gray2); font-weight: 600;}
