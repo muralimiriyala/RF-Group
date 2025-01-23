@@ -2,11 +2,11 @@
 .doc-form-desc{margin-bottom: 40px;}
 .doc-form-lists{gap: 20px;}
 .doc-form-list{padding: 16px 16px 20px 24px; gap: 16px;}
+.doc-form-line{width: 4px; right: auto; background-color: var(--Blue);}
+.doc-form-list:hover .doc-form-line, .doc-form-list.current .doc-form-line{width: 8px;}
 .doc-form-list:hover{ background-color: var(--Blue-80); }
 .doc-form-list:hover .doc-form-icon{background-color: var(--Blue);}
 .doc-form-list:hover .doc-form-icon path{stroke: var(--White);}
-
-
 
 ul.ui-categorys{margin: 0; gap: 9px;}
 ul.ui-categorys li{margin: 0;}
@@ -18,14 +18,14 @@ ul.ui-categorys li a.current:hover span.gary-line{display: block; background-col
 ul.ui-categorys li a:hover{color: var(--Black); background-color: transparent;}
 
 ul.doc-form-q{margin: 0; gap: 8px 16px;}
-ul.doc-form-q li::before{width: 1px; height: calc(100% - 2px); left: -8px; top: 1px; opacity: 0.25;}
+ul.doc-form-q li::before{width: 1px; height: calc(100% + 4px); left: -8px; top: -2px; opacity: 0.25;}
 ul.doc-form-q li:first-child:before{display: none;}
 ul.doc-form-q li{margin: 0;}
 
 
 
-.doc-form-report{flex: 1;}
-.doc-form-report span.fs-18{margin-bottom: 2px; display: block;}
+.doc-form-formrt{flex: 1;}
+.doc-form-formrt span.fs-18{margin-bottom: 2px; display: block;}
 .doc-form-icon{width: 48px; height: 48px; padding: 8px;}
 .doc-form-icon svg{width: 32px; height: auto; object-fit: contain;}
 .doc-form-icon svg path{transition: var(--b-transition);}
@@ -34,6 +34,7 @@ ul.doc-form-q li{margin: 0;}
 /* media css starts here */
 @media only screen  and (min-width: 810px){
     .doc-form-rows{gap: 61px; padding-top: 21px;}
+    .doc-form-report{flex: 1;}
     .doc-form-head{padding-bottom: 16px; gap: 32px;}
     .doc-form-title{width: fit-content;}
     ul.ui-categorys{flex: 1;}
@@ -79,7 +80,7 @@ ul.doc-form-q li{margin: 0;}
     ul.ui-categorys::-webkit-scrollbar{display: none;}
     ul.ui-categorys li {width: fit-content; }
     ul.ui-categorys li a{font-size: 16px; padding: 12px 16px;}
-    .doc-form-report span.fs-18{font-size: 16px; margin-bottom: 1px;}
+    .doc-form-formrt span.fs-18{font-size: 16px; margin-bottom: 1px;}
     ul.doc-form-q li{font-size: 12px;}
 }
 @media screen and (max-width: 374px) and (min-width: 200px){
