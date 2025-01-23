@@ -1,4 +1,15 @@
 .news-update-video-gated-section{margin-top: -205px;}
+<<<<<<< HEAD
+.news-update-video-article{padding: 64px ; max-width: 960px; margin: auto;}
+.news-update-video-article::before { background-color: var(--Blue); content: ""; height: 12px; left: 62px; position: absolute; top: -12px; width: calc(100% - 124px); }
+.news-update-video-article  h2{font-size: 48px; font-weight: 600; line-height: 125%; letter-spacing: -0.96px; margin-bottom: 15px;}
+.news-update-video-article .news-post-banner-row { gap: 4px; ; margin-bottom: 80px; color: var(--Blue); align-items: inherit; justify-content: inherit;}
+.news-update-video-article  h3{font-family: 32px; font-size: 600; line-height: 40px; letter-spacing: -0.64px;}
+
+.news-update-video-article .news-post-banner-list:first-child{padding-left: 0;}
+
+.news-update-video-aside { content: ""; display: block; flex: 0 0 56px; left: auto; top: 0;right: -20px; text-align: right; width: 100%; width: 56px; }
+=======
 .news-update-video-article{padding: 64px;}
 .news-update-video-article  h2{font-size: 48px; font-weight: 600; line-height: 125%; letter-spacing: -0.96px;}
 .news-update-video-article .news-post-banner-row { gap: 4px; ; margin-bottom: 40px; color: var(--Blue); align-items: inherit; justify-content: inherit;}
@@ -16,3 +27,4 @@
   .news-update-video-article{flex: 0 0 calc(100% - 160px); transform: translateX(80px);}
   .news-update-video-aside{width: 56px; top: 0; display: block; left: 40px;}
 }
+>>>>>>> bcaa3adcf1a7ce8f97a661d8b16ad6bbccc0e2b7

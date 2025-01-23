@@ -7,6 +7,7 @@
 .news-post-block-btn .button{width: 100%; gap: 8px; justify-content: center; padding: 12px 10px;}
 .news-post-block .white-back{width: 100%; height: 64px; background-color: var(--White); margin: 0 auto;}
 
+.news-post-block-desc.blue-bg{background-color: var(--Blue);}
 
 @media only screen and (min-width: 1440px){
     .news-post-block-main{max-width: calc(100% - 192px); margin: 0 auto;}
