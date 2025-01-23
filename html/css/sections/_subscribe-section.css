@@ -11,18 +11,17 @@ body .subscribe-form .frm_forms .frm_form_fields .frm_form_field input::placehol
 body .subscribe-form .frm_forms .frm_form_fields .frm_form_field .frm_submit button{border: none; font-size: 16px; padding: 19.5px 20px;}
 body .subscribe-form .frm_forms .frm_form_fields .form_field_wrapper .frm_form_field:first-child{display: flex; flex: 1;}
 
+/*-- media css starts here --*/
 @media screen and (min-width: 1024px) {
     .subscribe-wrap{padding-bottom: 80px;}
     .subscribe-inner{gap: 64px; padding: 32px;}
     .subscribe-text{flex: 0 0 568px;}
     .subscribe-email{flex: 0 0 calc(100% - 632px);}
 }
-
 @media screen and (max-width: 1199px) and (min-width: 1024px) {
     .subscribe-text{flex: 0 0 400px;}
     .subscribe-email{flex: 0 0 calc(100% - 464px);}
 }
-
 @media screen and (max-width: 1023px) and (min-width: 200px) {
     .subscribe-wrap{padding-bottom: 40px;}
     .subscribe-inner{gap: 24px; padding: 32px;}
