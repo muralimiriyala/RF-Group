@@ -100,8 +100,21 @@
             <div class="news-update-video-banner-main">
                 <div class="news-update-video-banner-pos relative">
                     <div class="news-update-video-banner background-bg">
-                        <video src="images/mov_bbb.mp4"></video>
-                        <div class="news-update-video-overlay background-text"></div>
+                        <figure class="object-fit" role="none"><!-- This will work before form submmited  -->
+                            <img src="images/poster@2x.jpg" alt="poster">
+                        </figure>
+                        <div class="background-text before-gated-video"><!-- This will work once form is submitted( i mean this html)  -->
+                            <video controls muted loop autoplay>
+                                <source src="images/mov_bbb.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video> 
+                        </div>
+                        <div class="lock-icon-main hide-desktop hide-tablet flex flex-center background-bg z-1">
+                            <span class="lock-icon-bg radius-50">
+                                <span class="lock-icon radius-50 flex flex-center absolute"><i class="text-white fs-26 fa-regular fa-lock"></i></span>
+                            </span>
+                        </div>
+                        <!-- <div class="news-update-video-overlay background-text"></div> -->
                     </div>
                     <div class="news-update-video-banner-wrap flex flex-vcenter">
                         <div class="news-update-video-banner-text fs-16">
@@ -127,7 +140,7 @@
                                     <label for="field_qh4icy" id="field_qh4icy_label" class="frm_primary_label">
                                         <span class="frm_required" aria-hidden="true"></span>
                                     </label>
-                                    <input type="text" id="field_qh4icy" name="item_meta[1]" value=""  placeholder="Full Name" data-reqmsg="Please enter full name" aria-required="true" data-invmsg="This field is invalid" aria-invalid="false"  />
+                                    <input type="text" id="field_qh4icy" name="item_meta[1]" value=""  placeholder="Name" data-reqmsg="Please enter full name" aria-required="true" data-invmsg="This field is invalid" aria-invalid="false"  />
                                     
                                     
                                 </div>

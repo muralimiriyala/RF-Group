@@ -1,0 +1,11 @@
+.speaker-main{padding: 40px 0;}
+.speaker-list{gap: 8px;}
+.speaker-icon{flex:0 0 20px; position: relative; }
+.speaker-icon i{font-size: 20px;}
+.speaker-line { background-color: var(--Blue);  height: calc(100% - 31px); left: 50%; position: absolute; top: 31px; width: 1px; transform: translateX(-50%); }
+.speaker-text{flex: 0 0 calc(100% - 28px)}
+
+
+.speaker-list.blue .speaker-icon{color: var(--Blue);}
+.speaker-list.blue .speaker-line{background-color: var(--Blue);}
+.speaker-list.blue .speaker-text span{color: var(--Blue);}
