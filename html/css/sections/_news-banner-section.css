@@ -3,13 +3,15 @@
 .news-banner-bg{top: 0; left: 0; width: 100%; height: 100%; z-index: -1;}
 .news-banner-title h1{margin-bottom: 3px; font-size: 48px; line-height: 56px; letter-spacing: 0; color: var(--White); -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; display: -webkit-box; text-overflow: ellipsis;}
 
-ul.category-lists{margin: 0; gap: 20px;}
+ul.category-lists{margin: 0; gap: 10px 20px;}
 ul.category-lists > li{margin: 0;}
 ul.category-lists > li::before{display: none;}
 ul.category-lists > li > a{gap: 8px; font-size: 16px; line-height: 16px; font-weight: 700;}
+ul.category-lists > li > a:hover{color: var(--Black);}
 ul.category-lists > li > a > i,
 ul.category-lists > li > a > em,
 ul.category-lists > li > a > svg{max-width: 20px;}
+ul.category-lists > li > a:hover > svg path{fill: var(--Black);}
 .news-banner-content{font-size: 16px; line-height: 24px; flex-direction: column; width: 100%; gap: 16px;}
 .news-banner-content h2{font-size: 28px; line-height: 35px; margin-bottom: 0; letter-spacing: -0.56px;  -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; display: -webkit-box; text-overflow: ellipsis;}
 .news-banner-content span{display: block; font-size: 14px; line-height: 17.5px; letter-spacing: 0.7px; text-transform: uppercase;}
@@ -65,6 +67,8 @@ ul.category-lists > li > a > svg{max-width: 20px;}
     .news-banner-row:nth-child(even) .news-banner-item:nth-child(odd){width: calc(50% - 16px); margin-left: 32px;}
     .news-banner-row:nth-child(even) .news-banner-item:nth-child(even){width: calc(50% - 16px); margin-right: 20px;}
     .news-banner-row:nth-last-child(odd) .news-banner-item:nth-child(even){flex: 0 0 100%; width: 100%; margin: 0; flex-direction: row-reverse;}
+    .news-banner-row:nth-child(even) .news-banner-image{max-height: 196px;}
+    .news-banner-row:nth-child(even) .news-banner-image img{max-height: 196px;}
 
     .news-banner-image{flex: 0 0 50%;}
     .news-banner-text{flex: 1; padding: 40px; flex-direction: column; display: flex; flex-wrap: wrap; justify-content: center;}
