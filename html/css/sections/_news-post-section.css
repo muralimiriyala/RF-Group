@@ -19,14 +19,15 @@ ul.category-lists > li > a:hover > svg path{fill: var(--Black);}
 .news-post-content span{display: block; font-size: 14px; line-height: 17.5px; letter-spacing: 0.7px; text-transform: uppercase;}
 .news-post-content p{line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; display: -webkit-box; text-overflow: ellipsis;}
 .news-post-item{background-color: var(--White); transition: var(--b-transition);}
-.news-post-image::before{content: ""; position: absolute; width: 28px; height: 56px; top: 50%; left: 0; transform: translateY(-50%); background: var(--White); clip-path: polygon(100% 50%, 0 0, 0 100%); z-index: 1; transition: var(--b-transition);}
-.news-post-image::after{opacity: 0; visibility: hidden; content: ""; position: absolute; width: 100%; height: 100%; top: 0; left: 0; background: linear-gradient(90deg, var(--Blue) 0%, rgba(39, 114, 219, 0.00) 100%); transition: var(--b-transition);}
+.news-post-image a{width: 100%; height: 100%;}
+.news-post-image a::before{content: ""; position: absolute; width: 28px; height: 56px; top: 50%; left: 0; transform: translateY(-50%); background: var(--White); clip-path: polygon(100% 50%, 0 0, 0 100%); z-index: 1; transition: var(--b-transition);}
+.news-post-image a::after{opacity: 0; visibility: hidden; content: ""; position: absolute; width: 100%; height: 100%; top: 0; left: 0; background: linear-gradient(90deg, var(--Blue) 0%, rgba(39, 114, 219, 0.00) 100%); transition: var(--b-transition);}
 
 ul.blog_list{margin: 0;}
 .news-post-item{box-shadow: 0px 0px 0px 1px transparent;}
 .news-post-item:hover{box-shadow: 0 0 0 1px var(--Blue);}
-.news-post-item:hover .news-post-image::before{width: 44px; height: 88px;}
-.news-post-item:hover .news-post-image::after{opacity: 1; visibility: visible;}
+.news-post-item:hover .news-post-image a::before{width: 44px; height: 88px;}
+.news-post-item:hover .news-post-image a::after{opacity: 1; visibility: visible;}
 
 .news-post-btn{padding-top: 40px;}
 .news-post-btn hr{flex: 1; margin: 0; background-color: var(--Blue);}
