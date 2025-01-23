@@ -16,7 +16,6 @@
 @import './elements/_share-icons.css';
 
 
-
 /*-- From page's css --*/
 @import url('./pages/about-team-bio.css');
 @import url('./pages/faq-page.css');
@@ -63,9 +62,6 @@
 @import url('./sections/_default-article-section.css');
 @import url('./sections/_side-by-side-section.css');
 @import url('./sections/_cta-investment-section.css');
-
-
-
 
 
 /*-- From 3rd party css's --*/
