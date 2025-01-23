@@ -13,7 +13,7 @@
 
 .news-update-video-article .news-post-banner-row + p{margin-bottom: 38px;}
 
-.news-update-video-article .news-post-banner-list:not(:first-child)::after { background-color: var(--Black);}
+.news-update-video-article .news-post-banner-list:not(:first-child)::after { background-color: var(--Black); width: 1px;}
 
 
 
