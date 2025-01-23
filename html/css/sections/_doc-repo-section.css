@@ -20,13 +20,13 @@ a:active span.gary-line, a.current span.gary-line{background-color: var(--RF-Ora
 
 .doc-repo-lists{gap: 20px;}
 .doc-repo-list{padding: 16px 16px 16px 24px; gap: 16px; flex: 1 0 calc(50% - 10px);}
-.doc-repo-line{width: 4px; right: auto; background-color: var(--Blue);}
-.doc-repo-list:hover .doc-repo-line, .doc-repo-list.current .doc-repo-line{width: 8px;}
+.doc-res-line{width: 4px; right: auto; background-color: var(--Blue);}
+.doc-repo-list:hover .doc-res-line, .doc-repo-list.current .doc-res-line, .doc-form-list:hover .doc-res-line, .doc-form-list.current .doc-res-line{width: 8px;}
 .doc-repo-list:hover{ background-color: var(--Blue-80); }
 .doc-repo-list:hover .doc-repo-icon{background-color: var(--Blue);}
 .doc-repo-list:hover .doc-repo-icon path{stroke: var(--White);}
 
-.doc-repo-list.current .doc-repo-line{background-color: var(--RF-Orange);}
+.doc-repo-list.current .doc-res-line{background-color: var(--RF-Orange);}
 .doc-repo-list.current{ background-color: var(--RF-Orange-10); }
 .doc-repo-list.current .doc-repo-icon{background-color: var(--RF-Orange);}
 .doc-repo-list.current .doc-repo-icon path{stroke: var(--White);}
@@ -41,12 +41,31 @@ ul.doc-repo-q li:first-child:before{display: none;}
 ul.doc-repo-q li{margin: 0;}
 
 
+/*-- resource form page --*/
+ul.ui-categorys{margin: 0; gap: 9px;}
+ul.ui-categorys li{margin: 0;}
+ul.ui-categorys li::before{display: none;}
+ul.ui-categorys li a{padding: 8px 16px; color: var(--Text-Gray); display: block;}
+ul.ui-categorys li a.current{background-color: var(--Gray); color: var(--Text-Gray);}
+ul.ui-categorys li a.current span.gary-line{display: none;}
+ul.ui-categorys li a:hover{color: var(--Black); background-color: transparent;}
+
+ul.doc-form-q{margin: 0; gap: 8px 16px;}
+ul.doc-form-q li::before{width: 1px; height: calc(100% - 2px); left: -8px; top: 1px; opacity: 0.25;}
+ul.doc-form-q li:first-child:before{display: none;}
+ul.doc-form-q li{margin: 0;}
+
+
+
 /* media css starts here */
 @media only screen  and (min-width: 810px){
     .doc-repo-head{gap: 40px; padding-bottom: 26px;}
     .doc-repo-rows{gap: 70px; padding-top: 21px;}
     .doc-repo-title{width: fit-content;}
     ul.ui-years{flex: 1;}
+    .doc-form-head{padding-bottom: 16px;}
+    .doc-form-title{width: fit-content;}
+    ul.ui-categorys{flex: 1;}
 }
 @media only screen  and (min-width: 1024px){
     .doc-repo-main{padding: 80px 0 80px; gap: 80px;}
