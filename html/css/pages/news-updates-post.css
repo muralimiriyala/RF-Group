@@ -28,6 +28,8 @@ blockquote.green{color: var(--RF-Aquamarine); margin: 38px 0 38px;}
 .news-updates-post-audio span{color: var(--Black); text-transform: uppercase;}
 .view-txt-lt{flex:  1; padding-right: 10px; font-size: 16px; color: var(--Text-Gray2); font-weight: 600;}
 .view-txt-rt{flex: 0 0 62px;}
+.news-updates-post-article p a:hover{color: var(--RF-Aquamarine);}
+.news-updates-post-article p a{text-decoration-color: var(--RF-Aquamarine);}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1440px){
