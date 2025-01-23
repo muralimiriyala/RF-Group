@@ -19,6 +19,8 @@ ul.have-questions-links li a.black:hover{color: var(--Black-50);}
 .page-template-campaign .have-questions-text h2 { margin-bottom: 16px; font-size: 48px;}
 .page-template-campaign .have-questions-text hr[data-animate], .have-questions-text p { margin-bottom: 25px; }
 .page-template-campaign .have-questions-text p { margin-bottom: 0; }
+
+
 /* media css starts here */
 @media only screen  and (min-width: 1024px){
     .have-questions-section{padding-bottom: 80px; background-image: linear-gradient(to top, var(--Gray) calc(100% - var(--top-value)) , var(--White) var(--top-value));}
@@ -40,4 +42,16 @@ ul.have-questions-links li a.black:hover{color: var(--Black-50);}
     .have-questions-section{padding-bottom: 40px; display: block;}
     .have-questions-main{padding: 40px 28px;}
     .have-questions-text{padding-bottom: 15px; font-size: 14px;}
+
+    .page-template-campaign .have-questions-section { background-image: linear-gradient(to top,var(--Black-75) calc(100% - 24px),var(--White) 24px); }
+    .page-template-campaign .have-questions-text h2 { font-size: 36px;}
+    .page-template-campaign  .have-questions-main { padding: 24px; }
+
+    .page-template-campaign .have-questions-text p { margin-bottom: 10px; font-size: 16px; line-height: 150%; }
+    body.page-template-campaign .have-questions-form .frm_forms .frm_form_fields .frm_fields_container {gap: 18px;}
+    body.page-template-campaign .have-questions-form .frm_forms .frm_filed_wrapper label {line-height: 150%; text-align: center;}
+    body.page-template-campaign .have-questions-form .frm_forms .frm_filed_wrapper{flex-direction: column-reverse;}
+    body.page-template-campaign .have-questions-form  .frm_forms .frm_form_fields .frm_form_field.vertical_radio { margin: 20px 0 0;}
+    
+    
 }

@@ -17,7 +17,7 @@
     --body-text: #707372;
     --Background-Gray: #F2F2F2;
     --Blue: #2772DB;
-    --Blue-10: #2772DB / 10;
+    --Blue-80: #dfebfb;
     --Navy: #003066;
     --Blue-Reverse: #337ADD;
     --Light-Blue: #DFEBFB;
@@ -35,4 +35,6 @@
     --Light-Brown:#C37C00;
     --red: #f00;
     --Dark: #2B2C2D;
+    --RF-Orange: #D57800;
+    --RF-Orange-10: #f9ebd9;
 }

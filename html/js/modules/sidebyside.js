@@ -1,34 +1,47 @@
 export const sidebyside = {
-  $blue: document.querySelectorAll('.blue .side-by-ipad'),
-  $purple: document.querySelectorAll('.purple .side-by-ipad'),
+  $blue: document.querySelectorAll('.blue-ui .side-by-ipad'),
+  $purple: document.querySelectorAll('.purple-ui .side-by-ipad'),
   $arrow: document.querySelector('.side-by-arrow'),
   init() {
     const _ = this;
-    if (!_.$blue || _.$purple) return;
-    _.$blue.addEventListener('mouseenter', (e) => {
-      e.currentTarget.classList.add('blue-hover');
-      _.$purple.classList.add('right-purple');
-      _.$arrow.classList.add('blue-hover');
+
+    const addBColor = (e) => {
+      e.currentTarget.parentElement.classList.add('blue-hover-ui');
+      _.$purple.forEach((elepurple) => {
+        elepurple.classList.add('right-purple');
+      });
+      _.$arrow.classList.add('blue-hover-ui');
+    };
+    const removeBColor = (e) => {
+      e.currentTarget.parentElement.classList.remove('blue-hover-ui');
+      _.$purple.forEach((elepurple) => {
+        elepurple.classList.remove('right-purple');
+      });
+      _.$arrow.classList.remove('blue-hover-ui');
+    };
+    _.$blue.forEach((eleblue) => {
+      eleblue.addEventListener('mouseenter', addBColor);
+      eleblue.addEventListener('mouseleave', removeBColor);
     });
-    _.$blue.addEventListener('mouseleave', (e) => {
-      e.currentTarget.classList.remove('blue-hover');
-      _.$purple.classList.remove('right-purple');
-      _.$arrow.classList.remove('blue-hover');
+
+    const addPColor = (e) => {
+      e.currentTarget.parentElement.classList.add('purple-hover-ui');
+      _.$blue.forEach((eleblue) => {
+        eleblue.classList.add('left-blue');
+      });
+      _.$arrow.classList.add('purple-hover-ui');
+    };
+    const removePColor = (e) => {
+      e.currentTarget.parentElement.classList.remove('purple-hover-ui');
+      _.$blue.forEach((eleblue) => {
+        eleblue.classList.remove('left-blue');
+      });
+      _.$arrow.classList.remove('purple-hover-ui');
+    };
+
+    _.$purple.forEach((elepurple) => {
+      elepurple.addEventListener('mouseenter', addPColor);
+      elepurple.addEventListener('mouseleave', removePColor);
     });
-    _.$purple.addEventListener('mouseenter', (e) => {
-      e.currentTarget.classList.add('purple-hover');
-      _.$blue.classList.add('left-purple');
-      _.$arrow.classList.add('purple-hover');
-    });
-    _.$purple.addEventListener('mouseleave', (e) => {
-      e.currentTarget.classList.remove('purple-hover');
-      _.$blue.classList.remove('left-purple');
-      _.$arrow.classList.remove('purple-hover');
-    });
-    // ['mouseenter', 'mouseleave'].forEach((event) => {
-    //   _.$purple.addEventListener(event, () => {
-    //     _.$arrow.classList.toggle('purple-hover', event === 'mouseenter');
-    //   });
-    // });
   },
 };
