@@ -147,6 +147,8 @@ body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparen
 .button.btn-hover-white:hover{background-color: var(--White); color: var(--Black);}
 .button.btn-hover-white:hover i{color: var(--Blue);}
 
+.button.btn-white.btn-hover-white i{color: var(--Blue);}
+
 .button.btn-white.aquamarine-i i{color: var(--RF-Aquamarine);}
 
 
