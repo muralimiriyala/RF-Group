@@ -18,9 +18,7 @@
 .news-post-banner-row + p{margin-bottom: 38px;}
 
 
-.news-update-video-banner-form .frm_fields_container input{background: var(--White-25);padding: 10px 16px; color: var(--White); border: 2px solid var(--White); margin-bottom: 12px; font-size: 18px; font-weight: 400;}
-.news-update-video-banner-form .frm_fields_container input::placeholder{color: var(--White);}
-.news-update-video-banner-form .button{width: 100%;}
+
 
 /*-- media css --*/
 @media screen and (min-width: 1024px) {
