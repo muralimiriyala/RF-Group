@@ -4,12 +4,13 @@
 .subscribe-inner{background-color: var(--Black);}
 .subscribe-text h3{color: var(--White); margin-bottom: 0;}
 
-.subscribe-form .form_field_wrapper{padding: 8px; gap: 8px; border: 1px solid var(--White);}
-body .subscribe-form .frm_forms .frm_form_fields .frm_form_field{margin-bottom: 0;}
-body .subscribe-form .frm_forms .frm_form_fields .frm_form_field input{background: rgba(255, 255, 255, 0.20); background-image: url("../../images/at-icon.svg"); background-repeat: no-repeat; background-position: 16px 50%;  border: none; border-radius: 0; font-size: 1.125rem; color: var(--White); padding: 16px 16px 16px 40px;}
-body .subscribe-form .frm_forms .frm_form_fields .frm_form_field input::placeholder{color: var(--White); font-weight: 400; }
-body .subscribe-form .frm_forms .frm_form_fields .frm_form_field .frm_submit button{border: none; font-size: 16px; padding: 19.5px 20px;}
-body .subscribe-form .frm_forms .frm_form_fields .form_field_wrapper .frm_form_field:first-child{display: flex; flex: 1;}
+.subscribe-email .form_field_wrapper{padding: 8px; gap: 8px; border: 1px solid var(--White);}
+body .subscribe-email .frm_forms .frm_form_fields .frm_form_field{margin-bottom: 0;}
+body .subscribe-email .frm_forms .frm_form_fields .frm_form_field input{background-color: rgba(255, 255, 255, 0.20); background-image: url("../../images/at-icon.svg"); background-repeat: no-repeat; background-position: 16px 50%;  border: none; border-radius: 0; font-size: 1.125rem; color: var(--White); padding: 16px 16px 16px 40px;}
+body .subscribe-email .frm_forms .frm_form_fields .frm_form_field input:focus{background-color: rgba(255, 255, 255, 0.20) !important;}
+body .subscribe-email .frm_forms .frm_form_fields .frm_form_field input::placeholder{color: var(--White); font-weight: 400; }
+body .subscribe-email .frm_forms .frm_form_fields .frm_form_field .frm_submit button{border: none; font-size: 16px; padding: 19.5px 20px;}
+body .subscribe-email .frm_forms .frm_form_fields .form_field_wrapper .frm_form_field:first-child{display: flex; flex: 1;}
 
 /*-- media css starts here --*/
 @media screen and (min-width: 1024px) {
@@ -27,4 +28,7 @@ body .subscribe-form .frm_forms .frm_form_fields .form_field_wrapper .frm_form_f
     .subscribe-inner{gap: 24px; padding: 32px;}
     .subscribe-text{flex: 100%;}
     .subscribe-email{flex: 100%;}
+}
+@media screen and (max-width: 809px) and (min-width: 200px) {
+    body .subscribe-email .form_field_wrapper > .form-field:last-child{width: fit-content;}
 }
