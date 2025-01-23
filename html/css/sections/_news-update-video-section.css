@@ -32,7 +32,6 @@ span.lock-icon{ width: 64px; height: 64px; top: 50%; left: 50%; background: rgba
 
 /*-- media css --*/
 @media screen and (min-width: 1440px) {
-    /* .news-update-video-banner-pos{min-height: 480px;} */
     .news-update-video-banner-wrap{padding: 77px 48px 139px; gap: 64px; margin-bottom: 12px;}
     .news-update-video-banner-main{ width: calc(100% - 444px);}
 }
@@ -49,13 +48,9 @@ span.lock-icon{ width: 64px; height: 64px; top: 50%; left: 50%; background: rgba
     
 }
 @media screen and (max-width: 1023px) and (min-width: 810px) {
-.news-update-video-banner-main {padding: 160px 0 261px;}
-.news-update-video-article{margin-bottom: 64px; padding: 48px;}
-
-.news-update-video-aside .social-share-icons{padding: 8px 40px; margin-bottom: 64px;}
-
-
-
+    .news-update-video-banner-main {padding: 160px 0 261px;}
+    .news-update-video-article{margin-bottom: 64px; padding: 48px;}
+    .news-update-video-aside .social-share-icons{padding: 8px 40px; margin-bottom: 64px;}
 }
 @media screen and (max-width: 809px) and (min-width: 200px) {
     .news-update-video-banner-section{padding-top: 68px;}
@@ -68,7 +63,4 @@ span.lock-icon{ width: 64px; height: 64px; top: 50%; left: 50%; background: rgba
     .news-update-video-banner-wrap{display: block; background-color: var(--Black); padding: 40px 24px 52px;}
     .news-update-video-banner{position: relative;}
     .news-update-video-banner video {min-height: 285px;}
-
-    
-    
 }
