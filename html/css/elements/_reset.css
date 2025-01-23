@@ -143,15 +143,17 @@ body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparen
 .button.btn-hover-blue:hover{background-color: var(--Blue); color: var(--White);}
 
 
-.button.btn-hover-blk:hover{background-color: var(--Black); color: var(--White);}
+
 .button.btn-hover-white:hover{background-color: var(--White); color: var(--Black);}
 .button.btn-hover-white:hover i{color: var(--Blue);}
 
 .button.btn-white.aquamarine-i i{color: var(--RF-Aquamarine);}
-.button.btn-hover-blk.aquamarine-i:hover i{color: var(--White);}
+
 
 .button.aquamarine-bg{background-color: var(--RF-Aquamarine);}
 .button.aquamarine-bg:hover i{color: var(--RF-Aquamarine);}
+
+.button.blue-bg{background-color: var(--Blue);}
 
 
 
