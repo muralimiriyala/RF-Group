@@ -1,6 +1,6 @@
 
 
-:root{ --top-value: 80px; --low-value: 40px; }
+:root{ --top-value: 80px; --low-value: 24px; }
 .have-questions-main.no_form{display: block;}
 .have-questions-main.no_text{display: block;}
 .have-questions-section{background-image: linear-gradient(to top, var(--Gray) calc(100% - var(--low-value)) , var(--White) var(--low-value));}
@@ -44,6 +44,7 @@ ul.have-questions-links li a.black:hover{color: var(--Black-50);}
     .have-questions-text{padding-bottom: 15px; font-size: 14px;}
 
     .page-template-campaign .have-questions-section { background-image: linear-gradient(to top,var(--Black-75) calc(100% - 24px),var(--White) 24px); }
+
     .page-template-campaign .have-questions-text h2 { font-size: 36px;}
     .page-template-campaign  .have-questions-main { padding: 24px; }
 

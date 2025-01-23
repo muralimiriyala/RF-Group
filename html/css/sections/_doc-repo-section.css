@@ -41,22 +41,6 @@ ul.doc-repo-q li:first-child:before{display: none;}
 ul.doc-repo-q li{margin: 0;}
 
 
-/*-- resource form page --*/
-ul.ui-categorys{margin: 0; gap: 9px;}
-ul.ui-categorys li{margin: 0;}
-ul.ui-categorys li::before{display: none;}
-ul.ui-categorys li a{padding: 8px 16px; color: var(--Text-Gray); display: block;}
-ul.ui-categorys li a.current{background-color: var(--Gray); color: var(--Text-Gray);}
-ul.ui-categorys li a.current span.gary-line{display: none;}
-ul.ui-categorys li a:hover{color: var(--Black); background-color: transparent;}
-
-ul.doc-form-q{margin: 0; gap: 8px 16px;}
-ul.doc-form-q li::before{width: 1px; height: calc(100% - 2px); left: -8px; top: 1px; opacity: 0.25;}
-ul.doc-form-q li:first-child:before{display: none;}
-ul.doc-form-q li{margin: 0;}
-
-
-
 /* media css starts here */
 @media only screen  and (min-width: 810px){
     .doc-repo-head{gap: 40px; padding-bottom: 26px;}
