@@ -4,7 +4,6 @@ export const sidebyside = {
   $arrow: document.querySelector('.side-by-arrow'),
   init() {
     const _ = this;
-    if (!_.$arrow) return;
 
     const addBColor = (e) => {
       e.currentTarget.parentElement.classList.add('blue-hover-ui');

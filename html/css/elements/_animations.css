@@ -241,6 +241,7 @@
 [data-animate*="100%"]{width: 0; transition: all 1s ease;}
 [data-animate*="100%"].visible{width: 100%;}
 
+
 [data-animate="underline"] h1 span::before,
 [data-animate="underline"] h2 span::before{transition: var(--b-transition); width: 0;}
 [data-animate].underline h4 span::before{width: 100%;}
