@@ -50,6 +50,7 @@
     .cta-investment-main{gap: 37px;}
     .cta-investment-form{flex: 1;}
     .investment-form{gap: 24px 32px;}
+    .page-template-campaign .cta-investment-wrap{margin-top: 40px;}
 }
 @media only screen and (max-width: 809px) and (min-width: 560px){
   .investment-form{gap: 24px;}
