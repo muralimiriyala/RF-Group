@@ -13,6 +13,7 @@
 .news-update-video-article ul > li::after { content: "\f058"; font-family: "Font Awesome\ 6 Pro"; font-size: 20px; position: absolute; color: var(--Blue); left: -28px; display: block; top: 50%; transform: translateY(-50%);}
   .news-update-video-article ul > li:last-child{margin-bottom: 0;}
 
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 1440px){
   .news-update-video-main{gap: 0 144px;}
