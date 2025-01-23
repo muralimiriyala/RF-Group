@@ -2,9 +2,7 @@
 .news-update-video-banner-section{  margin-top: -1px;}
 .news-update-video-banner-overlay{opacity: 0.7; z-index: 0;}
 
-.news-update-video-banner-main{max-width: 832px; margin: 0 auto; padding: 160px 0 300px;}
-.news-update-video-banner{}
-.news-update-video-banner-wrap{padding: 48px; gap: 64px;}
+
 .news-update-video-banner-text{color: var(--White); flex: 1;}
 .news-update-video-banner-form{flex: 1;}
 .news-update-video-banner-text h1{color: var(--White); font-size: 40px; margin-bottom: 22px;}
@@ -17,16 +15,29 @@
 .news-update-video-article .news-post-banner-row + p{margin-bottom: 38px;}
 
 
-.news-update-video-banner-form .frm_fields_container input{background: var(--White-25);padding: 10px 16px; color: var(--White); border: 2px solid var(--White); margin-bottom: 12px; font-size: 18px; font-weight: 400;}
+.news-update-video-banner-form .frm_fields_container input{background: var(--White-25); background-size: 14px; background-repeat: no-repeat; background-position: 15px 50%; padding: 10px 16px 10px 38px; color: var(--White); border: 1px solid var(--White); box-shadow: none; margin-bottom: 12px; font-size: 18px; font-weight: 400;}
 .news-update-video-banner-form .frm_fields_container input::placeholder{color: var(--White);}
 .news-update-video-banner-form .button{width: 100%;}
+.news-update-video-banner-form .frm_fields_container input[type="text"]{background-image: url('../../images/user-icon.svg');}
+.news-update-video-banner-form .frm_fields_container input[type="email"]{background-image: url('../../images/at-blue.svg');}
+.news-update-video-banner-form .frm_fields_container input[type="tel"]{background-image: url('../../images/phone-blue.svg');}
 
 
 
 
 /*-- media css --*/
-@media screen and (min-width: 1024px) {
-    
+@media screen and (min-width: 1440px) {
+    .news-update-video-banner-wrap{padding:78px 48px 127px; gap: 64px;}
+    .news-update-video-banner-main{ width: calc(100% - 448px);}
+}
+@media screen and (min-width: 1024px){
+    .news-update-video-banner-image{height: calc(100% + 194px);}
+    .news-update-video-banner-main{margin: 0 auto; padding-top: 160px;}
+}
+@media screen and (max-width: 1439px) and (min-width: 1024px){
+    .news-update-video-banner-wrap{padding: 78px 40px 87px; gap: 32px;}
+    .news-update-video-banner-text h1{font-size: 36px;}
+    .news-update-video-banner-main{ width: calc(100% - 284px);}
 }
 @media screen and (min-width: 810px){
     

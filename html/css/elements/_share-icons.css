@@ -20,6 +20,7 @@
 .news-update-video-aside .share-text{color: var(--Blue);}
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
+    .news-update-video-aside .social-share-main{padding-top: 0;}
     .social-share-main{padding-top: 118px;}
     .social-share-icons{flex-direction: column;}
     .social-share-icons #st-1.st-animated, .social-share-icons #st-2.st-animated{flex-direction: column;}

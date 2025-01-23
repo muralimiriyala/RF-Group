@@ -1,4 +1,3 @@
-.news-update-video-gated-section{margin-top: -205px;}
 .news-update-video-article{padding: 64px;}
 .news-update-video-article::before { background-color: var(--Blue); content: ""; height: 12px; left: 62px; position: absolute; top: -12px; width: calc(100% - 124px); }
 .news-update-video-article  h2{font-size: 48px; font-weight: 600; line-height: 125%; letter-spacing: -0.96px; margin-bottom: 15px;}
@@ -6,12 +5,11 @@
 .news-update-video-article  h3{ font-size: 32px; line-height: 40px; letter-spacing: -0.64px; margin-bottom: 21px;}
 
 .news-update-video-article .news-post-banner-list:first-child{padding-left: 0;}
-
 .news-update-video-article ul{margin: 0 0 26px 28px;}
 .news-update-video-article ul > li{position: relative; margin-bottom: 16px;}
 .news-update-video-article ul > li:before{display: none;}
 .news-update-video-article ul > li::after { content: "\f058"; font-family: "Font Awesome\ 6 Pro"; font-size: 20px; position: absolute; color: var(--Blue); left: -28px; display: block; top: 50%; transform: translateY(-50%);}
-  .news-update-video-article ul > li:last-child{margin-bottom: 0;}
+.news-update-video-article ul > li:last-child{margin-bottom: 0;}
 
 
 /*-- media css starts here --*/
