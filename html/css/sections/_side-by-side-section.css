@@ -50,7 +50,7 @@ ul.side-by-links li::before{display: none;}
 }
 @media only screen and (min-width: 1024px){
     .side-by-main{padding: 80px 0;}
-    .side-by-side{flex: 1;}
+    .side-by-side{flex: 1; max-width: 50%;}
     .side-by-left{order: 1;}
     .side-by-arrow{order: 2;}
     .side-by-right{order: 3;}
