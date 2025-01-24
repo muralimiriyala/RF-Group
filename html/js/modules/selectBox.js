@@ -2,7 +2,13 @@ import $ from 'jquery';
 export const selectBox = {
   init() {
     jQuery('select').each(function () {
-      $(this).parents('.cta-investment-form').find('select').addClass('choose');
+      jQuery(this)
+        .parents('.cta-investment-form')
+        .find('select')
+        .addClass('choose');
+    });
+    jQuery('.news-post-dropdown select').each(function () {
+      jQuery(this).addClass('white-dropdown');
     });
     jQuery('select').selectBox({
       keepInViewport: false,
