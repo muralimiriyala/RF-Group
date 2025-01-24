@@ -94,71 +94,67 @@ hr.sm-line{background-color: var(--Blue); height: 2px; border-radius: 1px; margi
 ::-moz-selection {background-color: var(--Black); color: var(--White);}
 
 /* Buttons */
-.button, button, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{padding: 12px 14px 12px; font-size: 18px; font-weight: 700; line-height: 100%; border: 2px solid transparent; font-family: var(--body-font); display: inline-block; background: var(--Blue); color: var(--White); border-radius: 0; cursor: pointer; vertical-align: middle; text-decoration: none; text-transform: none; text-align: center; outline: 0; position: relative; -webkit-writing-mode: horizontal-tb; -ms-writing-mode: horizontal-tb; writing-mode: horizontal-tb; text-orientation: mixed; box-shadow: none; transition: var(--b-transition); z-index: 1; margin: 0; transition: all .5s ease;}
-.button:hover, button:hover, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover{
-    transform: perspective(500px) rotateY(calc(6.5deg*var(--_i,-1)));
-    color: var(--White);
+.button, button, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{padding: 12px 14px 12px; font-size: 18px; font-weight: 700; line-height: 100%; border: none; font-family: var(--body-font); display: inline-block; background: var(--Blue); color: var(--White); border-radius: 0; cursor: pointer; vertical-align: middle; text-decoration: none; text-transform: none; text-align: center; outline: 0; position: relative; -webkit-writing-mode: horizontal-tb; -ms-writing-mode: horizontal-tb; writing-mode: horizontal-tb; text-orientation: mixed; box-shadow: none;  z-index: 1; margin: 0; transition: all 0.5s ease; overflow: hidden;}
+.button:hover, button:hover, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover{ color: var(--White);}
+.button::before, button::before, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit::before{
+     background: var(--White-15);
+     content: "";
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     z-index: -1;
+     width: calc(100% + 4px);
+     height: 0%;
+     transform: translate(-50%,-50%) rotate(45deg);
+    transition: all 0s ease;
+
 }
-.button.transparent::after{width: 0; height: 100%; top: 0; left: 0; transition: all 0.8s ease; background-color: var(--Blue); content: ""; display: block; position: absolute; z-index: -1;}
-.button.transparent:hover::after{width: 100%;}
-.button.transparent:hover{color: var(--White); border-color: var(--Blue);}
-.button.transparent:hover i.white-50{color: var(--White);}
-
-.button.transparent.purple-border:hover{border-color: var(--RF-Purple); color: var(--White);}
-.button.transparent.purple-border::after{background-color: var(--RF-Purple);}
-
-.button.transparent.black-border, 
-body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparent.black-border{
-    border-color: var(--Black);
+.button:hover::before, button:hover::before, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover::before{
+    height: 750%;
+    transition: all 1.5s ease;
 }
-.button.transparent.black-border:hover, 
-body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparent.black-border:hover{
-    border-color: var(--White);
-    color: var(--Black);
-}
-.button.transparent.black-border:hover::after, 
-body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparent.black-border:hover::after{
-    background-color: var(--White);
-}
-.button.transparent.white-text, 
-body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparent.white-text{
-    color: var(--White);
-}
-
-body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparent, .button.transparent{background: transparent; border-color: var(--Blue); color: var(--Blue);}
-.button.transparent.white{color: var(--White);}
-body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparent.black, .button.transparent.black{color: var(--Black);}
-body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparent.black:hover, .button.transparent.black:hover{color: var(--White);}
+.button.transparent, .frm_submit button.frm_button_submit.transparent, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparent{background: transparent; border: 2px solid var(--Blue); color: var(--Black);}
+.button.transparent::before, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparent::before{background: var(--Blue);}
+.button.transparent:hover, .frm_submit button.frm_button_submit.transparent:hover, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparent:hover{color: var(--White);}
 
 
-.button.transparent-border{border-color: transparent;}
+.button.btn-white-bg{background: var(--White); color: var(--Blue);}
+.button.btn-white-bg::before{background: var(--Blue);}
+.button.btn-white-bg:hover{color: var(--White);}
+.button.transparent.white-text{color: var(--White);}
+.button.transparent.no-border{border-color: transparent;}
 
+<<<<<<< HEAD
+.button.btn-hover-lightblue{border: 2px solid transparent;}
+.button.btn-hover-lightblue::before{background: var(--Blue);}
+=======
+.button.btn-black{color: var(--Black);}
 .button.purple-border{border-color: var(--RF-Purple);}
 .button.btn-white{background: var(--White); color: var(--Black);}
 .button.btn-white:hover{background: var(--Blue); color: var(--White);}
 .button.btn-white i { color: var(--Navy); }
 .button.btn-white:hover i{color: var(--White);}
+>>>>>>> b16d44e6dca7a965d7ab193b646776b6f3cbc3cb
+
+body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparent.black-border{border-color: var(--Black); color: var(--White);}
+body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparent.black-border::before{background: var(--White);}
+body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparent.black-border:hover{border-color: var(--White); color: var(--Black);}
+
+.button.btn-white-bg.text-black{color: var(--Black);}
+.button.btn-white-bg.aquamarine-i i{color: var(--RF-Aquamarine);}
+.button.btn-white-bg.btn-hover-blue:hover{color: var(--White);}
+.button.btn-white-bg.btn-hover-blue:hover i{color: var(--White);}
+.button.btn-aquamarine-bg{background: var(--RF-Aquamarine);}
+
+.button.btn-hover-aquamarine{border: 2px solid transparent;}
+.button.btn-hover-aquamarine::before{background: var(--RF-Aquamarine);}
+.button.btn-hover-aquamarine:hover{color: var(--White);}
+.button.btn-hover-aquamarine:hover i{color: var(--White);}
+/* Buttons */
 
 
-.button.btn-hover-blue:hover{background-color: var(--Blue); color: var(--White);}
 
-
-
-.button.btn-hover-white:hover{background-color: var(--White); color: var(--Black);}
-.button.btn-hover-white:hover i{color: var(--Blue);}
-
-.button.btn-white.btn-hover-white i{color: var(--Blue);}
-
-.button.btn-white.aquamarine-i i{color: var(--RF-Aquamarine);}
-
-
-.button.aquamarine-bg{background-color: var(--RF-Aquamarine);}
-.button.aquamarine-bg:hover i{color: var(--RF-Aquamarine);}
-
-.button.blue-bg{background-color: var(--Blue);}
-
-
-
+/* text btn link */
 a.text-link{gap: 8px; align-items: center; font-size: 1.125rem; line-height: 100%; letter-spacing: 0; color: var(--Black);}
 a.text-link i{color: var(--Blue); font-size: 20px; left: 0; position: relative; top: 1px; transition: all .5s ease;}
 a.text-link:hover{color: var(--Blue);}
@@ -181,6 +177,8 @@ a.text-link i{color: var(--Blue);}
 .text-btn-link.sm{font-size: 1rem; line-height: 1rem; }
 .text-btn-link.sm span{border-width: 6px;}
 .text-btn-link.sm svg{width: 23px;}
+/* text btn link */
+
 
 /*-- line animation --*/
 .line-anim{position: relative;}

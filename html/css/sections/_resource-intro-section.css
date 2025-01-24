@@ -1,9 +1,11 @@
 
 
-.resource-intro-lt{flex: 1;}
+.resource-intro-lt{flex: 1; font-size: 20px; line-height: 30px;}
 .resource-intro-lt h1{font-size: 48px; line-height: 60px; letter-spacing: -0.96px;}
 .resource-intro-lt hr{margin: 0 0 25px;}
-.resource-intro-rt{background: var(--Background-Gray); padding: 40px;}
+.resource-intro-rt{background: var(--Background-Gray); padding: 40px; font-size: 16px; line-height: 24px; flex-direction: column;}
+.resource-intro-rt hr{margin: 4px 0 19px;}
+.resource-intro-rt .button{margin-top: auto;}
 
 @media screen and (min-width: 1024px) {
     .resource-intro-main{margin: 80px 0; gap: 80px;}
