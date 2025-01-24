@@ -4,6 +4,8 @@
 .news-update-video-article .news-post-banner-row { gap: 4px; ; margin-bottom: 80px; color: var(--Blue); align-items: inherit; justify-content: inherit;}
 .news-update-video-article  h3{ font-size: 32px; line-height: 40px; letter-spacing: -0.64px; margin-bottom: 21px;}
 
+.news-update-video-article .news-post-banner-list a{color: var(--Blue);}
+.news-update-video-article .news-post-banner-list a:hover{color: var(--RF-Aquamarine);}
 .news-update-video-article .news-post-banner-list:first-child{padding-left: 0;}
 .news-update-video-article ul{margin: 0 0 26px 28px;}
 .news-update-video-article ul > li{position: relative; margin-bottom: 16px;}
