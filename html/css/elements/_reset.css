@@ -141,8 +141,13 @@ body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparen
 
 .button.btn-white-bg.text-black{color: var(--Black);}
 .button.btn-white-bg.aquamarine-i i{color: var(--RF-Aquamarine);}
+.button.btn-white-bg.navy-i i{color: var(--Navy);}
 .button.btn-white-bg.btn-hover-blue:hover{color: var(--White);}
 .button.btn-white-bg.btn-hover-blue:hover i{color: var(--White);}
+
+.button.btn-hover-navy::before{background: var(--Navy);}
+.button.btn-hover-white::before{background: var(--White-15);}
+
 .button.btn-aquamarine-bg{background: var(--RF-Aquamarine);}
 
 .button.btn-hover-aquamarine{border: 2px solid transparent;}
