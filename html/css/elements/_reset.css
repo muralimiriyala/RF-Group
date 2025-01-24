@@ -115,8 +115,7 @@ hr.sm-line{background-color: var(--Blue); height: 2px; border-radius: 1px; margi
 }
 .button.transparent, .frm_submit button.frm_button_submit.transparent, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparent{background: transparent; border: 2px solid var(--Blue); color: var(--Black);}
 .button.transparent::before, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparent::before{background: var(--Blue);}
-.button.transparent:hover, .frm_submit button.frm_button_submit.transparent:hover, 
-body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparent:hover{color: var(--White);}
+.button.transparent:hover, .frm_submit button.frm_button_submit.transparent:hover, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparent:hover{color: var(--White);}
 
 
 .button.btn-white-bg{background: var(--White); color: var(--Blue);}
