@@ -24,7 +24,7 @@ blockquote.green{color: var(--RF-Aquamarine); margin: 38px 0 38px;}
 .view-block.open .cta-view span.hide{display: block;}
 .view-block.open .cta-view i{top: 0.5px;}
 .view-block.open .cta-view i::before{content: "\f077";}
-.news-updates-post-audio{padding-bottom: 80px;}
+.news-updates-post-audio {padding-bottom: 40px;}
 .news-updates-post-audio span{color: var(--Black); text-transform: uppercase;}
 .view-txt-lt{flex:  1; padding-right: 10px; font-size: 16px; color: var(--Text-Gray2); font-weight: 600;}
 .view-txt-rt{flex: 0 0 62px;}
