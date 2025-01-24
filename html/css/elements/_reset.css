@@ -133,6 +133,7 @@ body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparen
 
 .button.transparent-border{border-color: transparent;}
 
+.button.btn-black{color: var(--Black);}
 .button.purple-border{border-color: var(--RF-Purple);}
 .button.btn-white{background: var(--White); color: var(--Black);}
 .button.btn-white:hover{background: var(--Blue); color: var(--White);}
