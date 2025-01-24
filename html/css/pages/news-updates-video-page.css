@@ -21,3 +21,11 @@
 .speaker-list.green .speaker-icon{color: var(--RF-Aquamarine);}
 .speaker-list.green .speaker-text span{color: var(--RF-Aquamarine);}
 .speaker-list.green .speaker-line{background-color: var(--RF-Aquamarine);}
+
+
+@media screen and (max-width: 809px) and (min-width: 200px) {
+.speaker-wrap h4 {font-size: 24px; margin-bottom: 20px;}
+.speaker-wrap hr{margin: 20px 0;}
+.speaker-list{margin-bottom: 24px;}
+
+}

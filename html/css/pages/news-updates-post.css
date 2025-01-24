@@ -15,7 +15,7 @@
 
 blockquote.green{color: var(--RF-Aquamarine); margin: 38px 0 38px;}
 
-.view-block{padding: 15px; margin-top: 38px; justify-content: space-between;}
+.view-block{padding: 22px; margin-top: 38px; justify-content: space-between;}
 .cta-view{gap: 4px; color: var(--Black); background-color: var(--White); font-size: 12px; padding: 0 6px;}
 .view-block:hover .cta-view{background-color: var(--Blue); color: var(--White);}
 .cta-view i{top: -1px; position: relative; color: var(--RF-Aquamarine); font-size: 14px; font-weight: 900;}
