@@ -124,8 +124,17 @@ hr.sm-line{background-color: var(--Blue); height: 2px; border-radius: 1px; margi
 .button.transparent.white-text{color: var(--White);}
 .button.transparent.no-border{border-color: transparent;}
 
+<<<<<<< HEAD
 .button.btn-hover-lightblue{border: 2px solid transparent;}
 .button.btn-hover-lightblue::before{background: var(--Blue);}
+=======
+.button.btn-black{color: var(--Black);}
+.button.purple-border{border-color: var(--RF-Purple);}
+.button.btn-white{background: var(--White); color: var(--Black);}
+.button.btn-white:hover{background: var(--Blue); color: var(--White);}
+.button.btn-white i { color: var(--Navy); }
+.button.btn-white:hover i{color: var(--White);}
+>>>>>>> b16d44e6dca7a965d7ab193b646776b6f3cbc3cb
 
 body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparent.black-border{border-color: var(--Black); color: var(--White);}
 body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparent.black-border::before{background: var(--White);}
