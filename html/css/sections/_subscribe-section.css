@@ -2,6 +2,7 @@
 .subcribe-section{background-color: var(--Background-Gray);}
 .subscribe-main{border: 2px solid var(--Blue); padding: 6px;}
 .subscribe-inner{background-color: var(--Black);}
+.subscribe-text:nth-child(1):last-child{flex: 0 0 100%;}
 .subscribe-text h3{color: var(--White); margin-bottom: 0;}
 
 .subscribe-email .form_field_wrapper{padding: 8px; gap: 8px; border: 1px solid var(--White);}

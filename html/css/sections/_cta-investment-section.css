@@ -36,6 +36,7 @@
 /*-- media css --*/
 @media only screen and (min-width: 1024px){
     .cta-investment-main{gap: 37px;}
+    .cta-investment-text{flex: 1;}
     .cta-investment-form{flex: 0 0 505px;}
     .investment-form{gap: 32px;}
     .investment-field{flex: 1 0 calc(25% - 32px);}
