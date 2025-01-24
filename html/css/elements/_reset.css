@@ -117,6 +117,7 @@ hr.sm-line{background-color: var(--Blue); height: 2px; border-radius: 1px; margi
 .button.transparent::before, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparent::before{background: var(--Blue);}
 .button.transparent:hover, .frm_submit button.frm_button_submit.transparent:hover, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparent:hover{color: var(--White);}
 
+.button.btn-navy-bg{background: var(--Navy);}
 
 .button.btn-white-bg{background: var(--White); color: var(--Blue);}
 .button.btn-white-bg::before{background: var(--Blue);}
@@ -142,8 +143,10 @@ body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparen
 .button.btn-white-bg.text-black{color: var(--Black);}
 .button.btn-white-bg.aquamarine-i i{color: var(--RF-Aquamarine);}
 .button.btn-white-bg.navy-i i{color: var(--Navy);}
-.button.btn-white-bg.btn-hover-blue:hover{color: var(--White);}
-.button.btn-white-bg.btn-hover-blue:hover i{color: var(--White);}
+
+.button.btn-hover-blue::before{background: var(--Blue);}
+.button.btn-hover-blue:hover{color: var(--White);}
+.button.btn-hover-blue:hover i{color: var(--White);}
 
 .button.btn-hover-navy::before{background: var(--Navy);}
 .button.btn-hover-white::before{background: var(--White-15);}
@@ -512,7 +515,9 @@ ul.slick-dots:not(.pagination) li button{display: none; padding: 0;}
 
 }
 @media only screen and (max-width: 1023px) and (min-width: 481px){
-    .button:hover, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover, button:hover{transform: perspective(500px) rotateY(calc(2.5deg*var(--_i,-1)));}
+    .button:hover::before, button:hover::before, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover::before{
+        height: 1000%;
+    }
 }
 @media only screen and (max-width: 809px) and (min-width: 200px){
     body{font-size: 16px;}
