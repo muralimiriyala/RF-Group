@@ -15,7 +15,7 @@
 .social-share-icons #st-1.st-has-labels .st-btn.st-last, .social-share-icons #st-2.st-has-labels .st-btn.st-last{margin: 0;}
 
 .share-text i{font-weight: 300;}
-.social-share-icons #st-2 .st-btn.st-first.st-remove-label{display: none!important;}
+.social-share-icons #st-2 .st-btn.st-first{display: none!important;}
 
 .news-update-video-aside .share-text{color: var(--Blue);}
 /*-- media css starts here --*/
