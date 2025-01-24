@@ -48,8 +48,11 @@ span.lock-icon{ width: 64px; height: 64px; top: 50%; left: 50%; background: rgba
     
 }
 @media screen and (max-width: 1023px) and (min-width: 810px) {
-    .news-update-video-banner-main {padding: 160px 0 261px;}
-    .news-update-video-article{margin-bottom: 64px; padding: 48px;}
+    .news-update-video-banner-main {padding: 144px 0 0;}
+    .news-update-video-banner-wrap{padding: 48px;}
+    .news-update-video-main{display: block;}
+    .news-update-video-article{ padding: 64px 64px 32px;}
+    .news-update-video-aside {padding-bottom: 64px; background: var(--White);}
     .news-update-video-aside .social-share-icons{padding: 8px 40px; margin-bottom: 64px;}
 }
 @media screen and (max-width: 809px) and (min-width: 200px) {
