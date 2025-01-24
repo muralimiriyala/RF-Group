@@ -8,8 +8,7 @@ ul.footer-lists{margin: 0; flex-direction: column; align-items: end;}
 ul.footer-lists > li{font-size: 18px; line-height: 22px; font-weight: 600; margin-bottom: 29px;}
 ul.footer-lists > li:last-child{margin-bottom: 0;}
 ul.footer-lists > li::before{display: none;}
-ul.footer-lists > li > a{color: var(--White);}
-ul.footer-lists > li > a:hover{color: var(--Blue);}
+
 
 
 .footer-address-main{position: relative;}
@@ -62,12 +61,14 @@ ul.copyrights-menu > li > a:hover{color: var(--Blue);}
     .footer-row-rt{flex: 1; align-items: end; display: flex;}
     .copyrights-main{justify-content: space-between;}
 }
-
+@media only screen and (min-width: 810px){
+    ul.footer-lists > li > a{color: var(--White);}
+    ul.footer-lists > li > a:hover{color: var(--Blue);}
+}
 @media screen and (max-width: 1199px) and (min-width: 1024px){
     .footer-row-lt{gap: 64px;}
     .footer-address-main::before{left: -32px;}
 }
-
 @media screen and (max-width: 1023px) and (min-width: 810px) {
     .footer{padding: 40px 0;}
     .footer-bg{bottom: -5px; right: -10px; z-index: -1; max-width: 418px;}
@@ -81,7 +82,6 @@ ul.copyrights-menu > li > a:hover{color: var(--Blue);}
     .copyrights-main{justify-content: space-between;}
     ul.copyrights-menu > li{padding: 0 8px;}
 }
-
 @media screen and (max-width: 809px) and (min-width: 200px) {
     .footer{padding: 40px 0;}
     .footer-top{margin-bottom: 40px;}
@@ -90,7 +90,7 @@ ul.copyrights-menu > li > a:hover{color: var(--Blue);}
     ul.footer-lists{align-items: flex-start; gap: 16px;}
     ul.footer-lists > li{width: 100%; margin-bottom: 0;}
     ul.footer-lists > li > a{font-size: 16px; line-height: 24px; font-weight: 600; justify-content: space-between; align-items: center;}
-    ul.footer-lists > li:first-child > a:hover{color: var(--Black);}
+    /* ul.footer-lists > li:first-child > a:hover{color: var(--Black);} */
     ul.footer-lists > li > a.btn-transparent{color: var(--White);}
     ul.footer-lists > li > a.btn-transparent:hover{color: var(--Blue);}
     ul.footer-lists > li:nth-child(n+3){display: none;}
@@ -120,7 +120,6 @@ ul.copyrights-menu > li > a:hover{color: var(--Blue);}
     ul.copyrights-menu > li:nth-child(2n + 1){padding-left: 0;}
     
 }
-
 @media screen and (max-width: 479px) and (min-width: 200px) {
     .copyrights-main {max-width: 250px; margin: 0 auto;}
 }
