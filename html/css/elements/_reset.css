@@ -98,16 +98,16 @@ hr.sm-line{background-color: var(--Blue); height: 2px; border-radius: 1px; margi
 .button:hover, button:hover, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover{ color: var(--White);}
 .button::before, button::before, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit::before{
      background: var(--White-15);
-     content: "";
-     position: absolute;
      top: 50%;
      left: 50%;
-     z-index: -1;
      width: calc(100% + 4px);
      height: 0%;
      transform: translate(-50%,-50%) rotate(45deg);
-    transition: all 0s ease;
-
+     transition: all 0s ease;
+     position: absolute;
+     z-index: -1;
+     content: "";
+     display: block;
 }
 .button:hover::before, button:hover::before, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover::before{
     height: 750%;
@@ -124,6 +124,8 @@ hr.sm-line{background-color: var(--Blue); height: 2px; border-radius: 1px; margi
 .button.transparent.white-text{color: var(--White);}
 .button.transparent.no-border{border-color: transparent;}
 
+.button.btn-hover-lightblue{border: 2px solid transparent;}
+.button.btn-hover-lightblue::before{background: var(--Blue);}
 .button.btn-black{color: var(--Black);}
 .button.purple-border{border-color: var(--RF-Purple);}
 .button.btn-white{background: var(--White); color: var(--Black);}
