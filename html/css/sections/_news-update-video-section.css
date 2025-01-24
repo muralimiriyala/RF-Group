@@ -47,13 +47,20 @@ span.lock-icon{ width: 64px; height: 64px; top: 50%; left: 50%; background: rgba
 @media screen and (min-width: 810px){
     
 }
+/* @media screen and (max-width: 1199px) and (min-width: 810px) {
+.news-update-video-banner-section .container{padding: 0 48px;}
+
+
+} */
 @media screen and (max-width: 1023px) and (min-width: 810px) {
     .news-update-video-banner-main {padding: 144px 0 0;}
     .news-update-video-banner-wrap{padding: 48px;}
     .news-update-video-main{display: block;}
-    .news-update-video-article{ padding: 64px 64px 32px;}
+    .news-update-video-article{ padding: 48px 48px 32px!important;}
     .news-update-video-aside {padding-bottom: 64px; background: var(--White);}
-    .news-update-video-aside .social-share-icons{padding: 8px 40px; margin-bottom: 64px;}
+    .news-update-video-aside .social-share-icons{padding: 8px 40px; ;}
+    .news-update-video-banner-text h1 {font-size: 36px;}
+    .news-update-video-banner-wrap { padding: 48px 40px 122px; gap: 72px; }
 }
 @media screen and (max-width: 809px) and (min-width: 200px) {
     .news-update-video-banner-section{padding-top: 68px;}
