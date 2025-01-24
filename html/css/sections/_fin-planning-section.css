@@ -1,7 +1,9 @@
 
 .fin-planning-section{background: var(--Background-Gray);}
+.fin-planning-head:nth-child(1):last-child{flex: 0 0 100%;}
 .fin-planning-head h2{margin-bottom: 0;}
 .fin-planning-desc{border: 2px solid var(--White); padding: 32px;}
+.fin-planning-desc:nth-child(1):last-child{flex: 0 0 100%;}
 .fin-planning-list{background: var(--White); padding: 32px 32px 28px 32px; border-left: 4px solid var(--Yellow-2);}
 .fin-planning-list-head{gap: 20px; margin-bottom: 20px;}
 .fin-planning-list-title{flex: 1;}
