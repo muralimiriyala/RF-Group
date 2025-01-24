@@ -20,12 +20,12 @@ ul.category-lists > li > a:hover > svg path{fill: var(--Black);}
 .news-banner-row:nth-child(even) .news-banner-content{gap: 12px;}
 .news-banner-row:nth-child(even) .news-banner-content h2{font-size: 24px; line-height: 30px; margin-bottom: 0; letter-spacing: -0.48px;}
 .news-banner-image a{ width: 100%; height: 100%;}
-.news-banner-row:nth-child(odd) .news-banner-image a::before{content: ""; position: absolute; width: 28px; height: 56px; top: 50%; left: 0; transform: translateY(-50%); background: var(--White); clip-path: polygon(100% 50%, 0 0, 0 100%); z-index: 1; transition: var(--b-transition);}
-.news-banner-row:nth-child(odd) .news-banner-image a::after{opacity: 0; visibility: hidden; content: ""; position: absolute; width: 100%; height: 100%; top: 0; left: 0; background: linear-gradient(90deg, var(--Blue) 0%, rgba(39, 114, 219, 0.00) 100%); transition: var(--b-transition);}
+.news-banner-row:nth-child(odd) .news-banner-image > a::before{content: ""; position: absolute; width: 28px; height: 56px; top: 50%; left: 0; transform: translateY(-50%); background: var(--White); clip-path: polygon(100% 50%, 0 0, 0 100%); z-index: 1; transition: var(--b-transition);}
+.news-banner-row:nth-child(odd) .news-banner-image > a::after{opacity: 0; visibility: hidden; content: ""; position: absolute; width: 100%; height: 100%; top: 0; left: 0; background: linear-gradient(90deg, var(--Blue) 0%, rgba(39, 114, 219, 0.00) 100%); transition: var(--b-transition);}
 
 .news-banner-item:hover{box-shadow:0px 0px 0px 2px var(--Blue);}
-.news-banner-item:hover .news-banner-image a::before{width: 44px; height: 88px;}
-.news-banner-item:hover .news-banner-image a::after{opacity: 1; visibility: visible;}
+.news-banner-item:hover .news-banner-image > a::before{width: 44px; height: 88px;}
+.news-banner-item:hover .news-banner-image > a::after{opacity: 1; visibility: visible;}
 .news-banner-item:hover .play-btn-main .play-btn{width: 64px; height: 64px;}
 .news-banner-item:hover .play-btn-main img{transform: scale(1.125);}
 .news-banner-item:hover .play-btn-main span.circle{background: rgba(39, 114, 219, 0.75);}
