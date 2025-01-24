@@ -10,8 +10,8 @@
 
 .news-post-banner-list p{font-size: 18px; font-weight: 700; line-height: 100%;}
 .news-post-banner-desc p{color: var(--White);}
-.news-post-banner-list a{color: var(--White);}
-.news-post-banner-list a:hover{color: var(--RF-Aquamarine);}
+.news-post-banner-list p a{color: var(--White);}
+.news-post-banner-list  p a:hover{color: var(--RF-Aquamarine);}
 .news-post-banner-row{gap: 4px; align-items: center; justify-content: center; margin-bottom: 40px;}
 .news-post-banner-list:not(:first-child)::after{width: 2px; height: 100%; top: 0; left: -2px; opacity: 0.5; background-color: var(--RF-Aquamarine); content: ""; display: block; position: absolute;}
 .news-post-banner-list{ padding: 0 12px;}
