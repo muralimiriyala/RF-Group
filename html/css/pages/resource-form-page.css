@@ -21,6 +21,8 @@ ul.doc-form-q{margin: 0; gap: 8px 16px;}
 ul.doc-form-q li::before{width: 1px; height: calc(100% + 4px); left: -8px; top: -2px; opacity: 0.25;}
 ul.doc-form-q li:first-child:before{display: none;}
 ul.doc-form-q li{margin: 0;}
+ul.doc-form-q li a{color: var(--Text-Gray);}
+ul.doc-form-q li a:hover{color: var(--Blue);}
 
 
 
