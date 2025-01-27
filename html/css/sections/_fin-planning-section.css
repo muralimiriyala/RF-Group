@@ -33,22 +33,22 @@ ul.fin-planning-item li > a:hover .fin-item-icon > em:last-child{opacity: 0;}
 .red.fin-planning-list{border-color: var(--RF-Red);}
 .red .fin-planning-list-title span{color: var(--RF-Red);}
 .red .fin-planning-list-icon svg path{stroke: var(--RF-Red);}
-.red .fin-planning-list-content > a > em{color: var(--RF-Red);}
+.red .fin-planning-list-content > a > i{color: var(--RF-Red);}
 
 .navy.fin-planning-list{border-color: var(--Navy);}
 .navy .fin-planning-list-title span{color: var(--Navy);}
 .navy .fin-planning-list-icon svg path{stroke: var(--Navy);}
-.navy .fin-planning-list-content > a > em{color: var(--Navy);}
+.navy .fin-planning-list-content > a > i{color: var(--Navy);}
 
 .purple.fin-planning-list{border-color: var(--RF-Purple);}
 .purple .fin-planning-list-title span{color: var(--RF-Purple);}
 .purple .fin-planning-list-icon svg path{stroke: var(--RF-Purple);}
-.purple .fin-planning-list-content > a > em{color: var(--RF-Purple);}
+.purple .fin-planning-list-content > a > i{color: var(--RF-Purple);}
 
 .aquamarine.fin-planning-list{border-color: var(--RF-Aquamarine);}
 .aquamarine .fin-planning-list-title span{color: var(--RF-Aquamarine);}
 .aquamarine .fin-planning-list-icon svg path{stroke: var(--RF-Aquamarine);}
-.aquamarine .fin-planning-list-content > a > em{color: var(--RF-Aquamarine);}
+.aquamarine .fin-planning-list-content > a > i{color: var(--RF-Aquamarine);}
 
 @media screen and (min-width: 1024px){
     .fin-planning-main{padding: 80px 0;}
