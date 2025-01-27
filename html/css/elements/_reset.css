@@ -227,6 +227,7 @@ img.aligncenter{margin: 25px auto; clear: both;}
 
 
 
+
 /*-- custom css starts here --*/
 body{margin: 0; font-size: 18px; line-height: 150%; letter-spacing: 0; font-weight: 400; font-family: var(--body-font); position: relative; color: var(--Text-Gray); background-color: transparent; overflow-x: hidden;}
 .d-block{display: block;}
