@@ -14,7 +14,7 @@ table.fee-schd-table tr:nth-child(odd) td{background-color: transparent;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .fee-schd-main{padding: 89px 0 0; border-top: 1px solid #000;}
+    .fee-schd-wrap{padding: 89px 0 0; border-top: 1px solid #000;}
     .fee-schd-title{order: 1; gap: 18px; padding-right: 300px;}
     .fee-schd-btn{order: 2; top: 0; right: 0; position: absolute;}
     .fee-schd-effective{flex: 1; gap: 16px;}
