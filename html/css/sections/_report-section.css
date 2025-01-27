@@ -52,6 +52,13 @@ ul.report-fund-data li > span.green{color: var(--Pure-Green);}
     .report-main{padding: 24px 0; display: block; width: 100%;}
     .report-lt{width: 100%; margin-bottom: 24px;}
 
-    .report-category-btn{cursor: pointer; padding: 16px 44px 16px 16px; border: 1px solid var(--Text-Gray); background: var(--Background-Gray); display: block; width: 100%; font-size: 16px; line-height: 24px; color: var(--Black); }
-    .report-category-btn::before{content: "\f078"; font-size: 20px; line-height: 20px; position: absolute; top: 10px; right: 16px; font-family: "Font Awesome 6 Pro"; color: var(--RF-Red);}
+    .report-category-btn{cursor: pointer; padding: 16px 44px 16px 16px; border: 1px solid var(--Text-Gray); background: var(--Background-Gray); display: block; width: 100%; font-size: 16px; line-height: 24px; color: var(--Black);}
+    .report-category-btn::before{content: "\f078"; font-size: 20px; line-height: 20px; position: absolute; top: 17px; right: 16px; font-family: "Font Awesome 6 Pro"; font-weight: 400; color: var(--RF-Red);}
+    ul.report-links{margin: 0; padding: 15px 0; border: 1px solid var(--Text-Gray); background: var(--Background-Gray); display: none;}
+    ul.report-links li{padding: 0 16px;}
+    ul.report-links li:last-child{margin-bottom: 0;}
+    ul.report-links li a{font-size: 16px; line-height: 24px;}
+    ul.report-links li a i{display: none;}
+
+    .report-fund-list{max-width: 249px;}
 }
