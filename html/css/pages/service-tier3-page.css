@@ -1,7 +1,7 @@
  
 .service-years-main { gap: 80px; padding: 80px 0 80px; }
 .service-year-aside { flex: 0 0 78px; }
-.service-year-article{ flex: 0 0 calc(100% - 159px); }
+.service-year-article{ flex: 0 0 calc(100% - 159px); display: flex; flex-direction: column;}
 .service-year-list h2{font-size: 48px; line-height: 125%; letter-spacing: -0.96px; margin-bottom: 20px;}
 .service-years-row{gap: 40px;}
 .service-years-company{background-color: var(--White); padding: 20px; flex: 0 0 calc(25% - 30px);}
@@ -13,8 +13,32 @@
 .service-company-text h3{font-size: 24px; line-height: 125%; font-weight: 600; margin-bottom: 12px;}
 .service-company-text ul{margin:  0 0 0 10px;}
 .service-company-text ul > li{font-size: 14px; font-weight: 400; line-height: 150%;}
-.service-company-text ul > li::before{left: -10px; background-color: var(--Blue); border-radius: 8px; width: 4px; height: 4px; top: 8px;}
+.service-company-text ul > li::before{left: -10px; background-color: var(--Blue); border-radius: 8px; width: 4px; height: 4px; top: 9px;}
 .service-company-text ul > li:last-child{margin-bottom: 0;}
-.service-year-list{margin-bottom: 80px;}
 
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+
+    .service-year-article { gap: 80px;}
+
+
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 810px){
+    .service-years-main{padding: 64px 0; gap: 40px;}
+    .service-years-row{gap: 32px;}
+    .service-years-company{flex: 0 0 calc(50% - 25px);}
+    .service-company-text h3 { font-size: 20px;}
+    .service-year-article { gap: 64px;}
+    .service-year-list h2 { font-size: 40px;}
+}
+@media only screen and (max-width: 809px) and (min-width: 200px){
+    .service-years-main{padding: 40px 0; display: block;}
+    .service-year-aside{margin-bottom: 24px;}
+    .service-year h2{display: none;}
+    .service-years-company {flex:  0 0 260px;}
+
+
+}
 
