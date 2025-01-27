@@ -88,6 +88,8 @@ hr[data-animate*="h-100"]{height: 100%;}
 hr.vr{width: 2px; height: 100%;}
 hr.vr.w-1{width: 1px; min-height: 48px;}
 hr.black-25{background-color: var(--Black-25);}
+hr[data-animate].m-0{margin: 0;}
+hr[data-animate].height-1{height: 1px;}
 
 hr.blue{background-color: var(--Blue); opacity: 0.5;}
 hr.blue.low{opacity: 0.25;}
