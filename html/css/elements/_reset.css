@@ -414,7 +414,7 @@ button.slick-arrow:hover{background-color: var(--Blue);}
 button.slick-arrow.slick-disabled{pointer-events: none; background: rgba(0, 0, 0, 0.20);}
 span.slick-prev-arrow{ transform: scaleX(-1); }
 
-
+button.slick-arrow::before{display: none;}
 button.slick-arrow.slick-next { order: 3; }
 
 ul.slick-dots:not(.pagination){margin: 0; gap: 4px; order: 2; align-items: center; justify-content: center; display: flex; flex-wrap: wrap; flex: 1; order: 2;}
