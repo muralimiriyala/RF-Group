@@ -51,7 +51,7 @@
   .management-main{padding: 48px 24px 64px;}
 
   .navy-block-btn {display: block;}
-  .navy-block-btn .button.btn-white {flex-direction: row-reverse; margin-bottom: 8px;}
+  .navy-block-btn .button:first-child{flex-direction: row-reverse; margin-bottom: 8px;}
 
   .management-team-list {margin: 0 auto 40px; }
   .management-team-list:last-child{margin-bottom: 0;}

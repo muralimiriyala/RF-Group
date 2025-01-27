@@ -117,23 +117,12 @@ hr.sm-line{background-color: var(--Blue); height: 2px; border-radius: 1px; margi
 .button.transparent::before, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparent::before{background: var(--Blue);}
 .button.transparent:hover, .frm_submit button.frm_button_submit.transparent:hover, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparent:hover{color: var(--White);}
 
-
 .button.btn-white-bg{background: var(--White); color: var(--Blue);}
 .button.btn-white-bg::before{background: var(--Blue);}
 .button.btn-white-bg:hover{color: var(--White);}
 .button.transparent.white-text{color: var(--White);}
-.button.transparent.no-border{border-color: transparent;}
-
-.button.btn-hover-lightblue{border: 2px solid transparent;}
-.button.btn-hover-lightblue::before{background: var(--Blue);}
 .button.btn-black{color: var(--Black);}
-.button.purple-border{border-color: var(--RF-Purple);}
-.button.btn-white{background: var(--White); color: var(--Black);}
-.button.btn-white:hover{background: var(--Blue); color: var(--White);}
-.button.btn-white i { color: var(--Navy); }
-.button.btn-white:hover i{color: var(--White);}
-.button.btn-white i.aquamarine{ color: var(--RF-Aquamarine); }
-.button.btn-white:hover i.aquamarine{color: var(--White);}
+.button.transparent.no-border{border-color: transparent;}
 
 body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparent.black-border{border-color: var(--Black); color: var(--White);}
 body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparent.black-border::before{background: var(--White);}

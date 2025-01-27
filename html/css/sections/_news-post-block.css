@@ -27,7 +27,6 @@
     .news-post-block-desc h3{font-size: 28px; }
     .news-post-block-btn{display: block; width: inherit;}
     .news-post-block-btn .button{width: 100%; gap: 8px; justify-content: center; font-size: 16px; }
-    .news-post-block-btn .button.btn-white{margin-bottom: 8px;}
-
+    .news-post-block-btn .button:first-child{margin-bottom: 8px;}
     .news-post-block .white-back {display: none;}
 }
