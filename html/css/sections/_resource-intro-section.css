@@ -18,5 +18,5 @@
     .resource-intro-lt span.optional-text{margin-bottom: 23px;}
     .resource-intro-lt h1{font-size: 36px; line-height: 45px; letter-spacing: -0.72px;}
     .resource-intro-rt{font-size: 14px; line-height: 21px; padding: 24px; width: 100%;}
-    .resource-intro-rt .button{width: 100%;}
+    .resource-intro-rt .button{width: 100%; margin-top: 8px;}
 }
