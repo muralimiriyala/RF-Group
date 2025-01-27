@@ -1,9 +1,8 @@
 
 
-:root{ --top-value: 80px; --low-value: 24px; }
+:root{ --top-value: 80px; --mid-value: 40px;  --low-value: 24px; }
 .have-questions-main.no_form{display: block;}
 .have-questions-main.no_text{display: block;}
-.have-questions-section{background-image: linear-gradient(to top, var(--Gray) calc(100% - var(--low-value)) , var(--White) var(--low-value));}
 .have-questions-bg{top: auto; bottom: 0;}
 .have-questions-text h2{margin-bottom: 26px;}
 .have-questions-text p{margin-bottom: 20px;}
@@ -34,16 +33,14 @@ ul.have-questions-links li a.black:hover{color: var(--Black-50);}
     body .have-questions-form .frm_forms .frm_filed_wrapper{flex-direction: column; align-items: flex-start;} 
 }
 @media only screen and (max-width: 1023px) and (min-width: 810px){
-    .have-questions-section{padding-bottom: 64px; display: block;}
+    .have-questions-section{padding-bottom: 64px; display: block; background-image: linear-gradient(to top, var(--Gray) calc(100% - var(--mid-value)) , var(--White) var(--mid-value));}
     .have-questions-main{padding: 40px;}
     .have-questions-text{padding-bottom: 30px;}
 }
 @media only screen and (max-width: 809px) and (min-width: 200px){
-    .have-questions-section{padding-bottom: 40px; display: block;}
+    .have-questions-section{padding-bottom: 40px; display: block; background-image: linear-gradient(to top, var(--Gray) calc(100% - var(--low-value)) , var(--White) var(--low-value));}
     .have-questions-main{padding: 40px 28px;}
     .have-questions-text{padding-bottom: 15px; font-size: 14px;}
-
-    .page-template-campaign .have-questions-section { background-image: linear-gradient(to top,var(--Black-75) calc(100% - 24px),var(--White) 24px); }
 
     .page-template-campaign .have-questions-text h2 { font-size: 36px;}
     .page-template-campaign  .have-questions-main { padding: 24px; }
