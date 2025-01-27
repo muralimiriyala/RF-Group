@@ -1,3 +1,4 @@
+import $ from 'jquery';
 import 'youtube-background';
 export const iframe = {
   iframes: document.querySelectorAll('.home-banner-iframe'),
@@ -5,12 +6,10 @@ export const iframe = {
     const _ = this;
     _.iframes.forEach((iframe) => {
       if (!iframe) return;
-      const $iframe = $(iframe);
-      console.log(iframe);
-      iframe.youtube_background({});
-      // new VideoBackgrounds(iframe, {
-      //   lazyloading: false,
-      // });
+      const $iframe = jQuery(iframe);
+      $iframe.youtube_background({
+        lazyloading: false,
+      });
     });
   },
 };
