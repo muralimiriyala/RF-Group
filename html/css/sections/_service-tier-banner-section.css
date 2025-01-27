@@ -20,6 +20,8 @@ ul.jumpto-links > li i{color: var(--RF-Red); font-size: 20px; width: 20px; line-
 .service-tier-block{flex: 0 0 50%;}
 
 /*-- media css starts here --*/
+
+
 @media only screen and (min-width: 1024px){
 .service-tier-banner-main{gap: 80px;}
 .service-tier-banner-lt{flex: 0 0 849px;}
