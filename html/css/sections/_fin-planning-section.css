@@ -13,7 +13,7 @@
 .fin-planning-list-icon svg{max-width: 64px; max-height: 64px;}
 .fin-planning-list-icon svg path{stroke: var(--Yellow-2);}
 .fin-planning-list-content{font-size: 16px; line-height: 24px; color: var(--Text-Gray);}
-.fin-planning-list-content > a > em{color: var(--Yellow-2);}
+.fin-planning-list-content > a > i{color: var(--Yellow-2);}
 
 .fin-planning-list:last-child{background: transparent; padding: 0; border:none;}
 ul.fin-planning-item{margin: 0;}
@@ -30,25 +30,31 @@ ul.fin-planning-item li > a:hover{border-left: 8px solid var(--Blue);}
 ul.fin-planning-item li > a:hover .fin-item-arrow{transform: translateX(0); opacity: 1; }
 ul.fin-planning-item li > a:hover .fin-item-icon > em:last-child{opacity: 0;}
 
+.yellow .fin-planning-list-content > a:hover{color: var(--Yellow-2);}
+
 .red.fin-planning-list{border-color: var(--RF-Red);}
 .red .fin-planning-list-title span{color: var(--RF-Red);}
 .red .fin-planning-list-icon svg path{stroke: var(--RF-Red);}
 .red .fin-planning-list-content > a > i{color: var(--RF-Red);}
+.red .fin-planning-list-content > a:hover{color: var(--RF-Red);}
 
 .navy.fin-planning-list{border-color: var(--Navy);}
 .navy .fin-planning-list-title span{color: var(--Navy);}
 .navy .fin-planning-list-icon svg path{stroke: var(--Navy);}
 .navy .fin-planning-list-content > a > i{color: var(--Navy);}
+.navy .fin-planning-list-content > a:hover{color: var(--Navy);}
 
 .purple.fin-planning-list{border-color: var(--RF-Purple);}
 .purple .fin-planning-list-title span{color: var(--RF-Purple);}
 .purple .fin-planning-list-icon svg path{stroke: var(--RF-Purple);}
 .purple .fin-planning-list-content > a > i{color: var(--RF-Purple);}
+.purple .fin-planning-list-content > a:hover{color: var(--RF-Purple);}
 
 .aquamarine.fin-planning-list{border-color: var(--RF-Aquamarine);}
 .aquamarine .fin-planning-list-title span{color: var(--RF-Aquamarine);}
 .aquamarine .fin-planning-list-icon svg path{stroke: var(--RF-Aquamarine);}
 .aquamarine .fin-planning-list-content > a > i{color: var(--RF-Aquamarine);}
+.aquamarine .fin-planning-list-content > a:hover{color: var(--RF-Aquamarine);}
 
 @media screen and (min-width: 1024px){
     .fin-planning-main{padding: 80px 0;}
