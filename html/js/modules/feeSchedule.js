@@ -21,6 +21,7 @@ export const feeSchedule = {
         }
       }
     };
+    if (!__.$el) return;
     __.$el.addEventListener('click', toggle);
   },
 };

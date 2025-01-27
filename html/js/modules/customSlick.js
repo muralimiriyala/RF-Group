@@ -4,7 +4,7 @@ import 'slick-slider';
 export const myslick = {
   $tst: document.querySelectorAll('.tst-slider-main'),
   $tstNext: document.querySelectorAll('.tst-slider-next'),
-  $hele: document.querySelectorAll('.about-history-article'),
+  $hele: document.querySelectorAll('.about-history-slider'),
   $ele: document.querySelector('ul.about-history-years'),
   $carousel: document.querySelectorAll('.carousel-slider-main'),
   $carouselNext: document.querySelectorAll('.carousel-slider-next'),
