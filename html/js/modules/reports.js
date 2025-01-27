@@ -1,8 +1,8 @@
 import $ from 'jquery';
-export const feeSchedule = {
-  $el: document.querySelector('ul.fee-schd-links'),
-  $rows: document.querySelectorAll('.fee-schd-row'),
-  $btn: document.querySelector('.fee-schd-mbl-btn'),
+export const reports = {
+  $el: document.querySelector('ul.report-links'),
+  $rows: document.querySelectorAll('.reports-row'),
+  $btn: document.querySelector('.report-category-btn'),
   init() {
     const __ = this;
     const toggle = (e) => {
@@ -16,7 +16,7 @@ export const feeSchedule = {
         __.$rows.forEach((ele) => {
           $(ele).fadeOut(100);
         });
-        const row = document.querySelector(`.fee-schd-row[id=${$h}]`);
+        const row = document.querySelector(`.reports-row[id=${$h}]`);
         if (row) {
           $(row).fadeIn(800);
         }

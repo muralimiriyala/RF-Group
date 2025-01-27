@@ -261,6 +261,7 @@ span.optional-text.lg{margin-bottom: 8px; font-size: 1.125rem; line-height: 1.12
 .text-gray{color: var(--Text-Gray);}
 .text-black.opa-50{color: var(--Black-50);}
 .text-blue{color: var(--Blue);}
+.text-red{color: var(--RF-Red);}
 .text-upper{text-transform: uppercase;}
 .text-lower{text-transform: uppercase;}
 
@@ -511,7 +512,9 @@ ul.slick-dots:not(.pagination) li button{display: none; padding: 0;}
     .book-demo-call{flex: 1; justify-content: center;}
 
     img.aligncenter, img.alignleft, img.alignnone, img.alignright{margin: 25px auto; clear: both; float: none; display: block; width: auto;}
-
+    .button:hover::before, button:hover::before, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover::before{
+        height: 1200%;
+    }
 }
 @media only screen and (max-width: 809px) and (min-width: 200px){
     body{font-size: 16px;}
