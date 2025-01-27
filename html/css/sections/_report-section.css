@@ -4,7 +4,7 @@
 .report-lt span.optional-text{margin-bottom: 23px;}
 .report-lt hr{margin: 25px 0 23px;}
 
-ul.report-links{margin: 0 0 35px;}
+ul.report-links{margin: 0;}
 ul.report-links li{margin: 0 0 9px;}
 ul.report-links li::before{display: none;}
 ul.report-links li a{color: var(--Black); gap: 8px;}
