@@ -77,6 +77,9 @@ ul.doc-form-q li a:hover{color: var(--Blue);}
     .doc-form-title{width: 100%;}
     .doc-form-find{padding-top: 37px;}
 
+    .doc-form-report{flex: 1;}
+
+
     ul.ui-categorys.flex-content-end{justify-content: flex-start;}
     ul.ui-categorys{flex-wrap: nowrap; overflow-x: auto; padding-right: 24px; width: calc(100% + 24px); -ms-overflow-style: none; scrollbar-width: none;}
     ul.ui-categorys::-webkit-scrollbar{display: none;}
