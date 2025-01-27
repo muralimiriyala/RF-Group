@@ -12,7 +12,7 @@ export const feeSchedule = {
           ele.classList.remove('current');
         });
         e.target.classList.toggle('current');
-        const $h = e.target.getAttribute('href');
+        const $h = e.target.getAttribute('href').substring(1);
         __.$rows.forEach((ele) => {
           $(ele).fadeOut(100);
         });
