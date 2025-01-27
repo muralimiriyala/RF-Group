@@ -5,9 +5,12 @@ export const iframe = {
     const _ = this;
     _.iframes.forEach((iframe) => {
       if (!iframe) return;
-      new VideoBackgrounds(iframe, {
-        lazyloading: false,
-      });
+      const $iframe = $(iframe);
+      console.log(iframe);
+      iframe.youtube_background({});
+      // new VideoBackgrounds(iframe, {
+      //   lazyloading: false,
+      // });
     });
   },
 };
