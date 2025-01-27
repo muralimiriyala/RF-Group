@@ -12,3 +12,4 @@
 .service-company-text h3{font-size: 24px; line-height: 125%; font-weight: 600; margin-bottom: 12px;}
 .service-company-text ul{margin:  0 0 0 10px;}
 .service-company-text ul > li::before{left: -9px;}
+body{background-color: RED !important;}
