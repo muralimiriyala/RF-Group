@@ -8,8 +8,8 @@
 .service-company-img{margin-bottom: 20px;}
 
 .service-company-text span{color: var(--Text-Gray); font-size: 18px; line-height: 150%; font-weight: 700;}
+.service-company-text h3{background-color: red;}
 
 .service-company-text h3{font-size: 24px; line-height: 125%; font-weight: 600; margin-bottom: 12px;}
 .service-company-text ul{margin:  0 0 0 10px;}
 .service-company-text ul > li::before{left: -9px;}
-body{background-color: RED !important;}
