@@ -4,7 +4,7 @@
 .report-lt span.optional-text{margin-bottom: 23px;}
 .report-lt hr{margin: 25px 0 23px;}
 
-ul.report-links{margin: 0 0 35px;}
+ul.report-links{margin: 0;}
 ul.report-links li{margin: 0 0 9px;}
 ul.report-links li::before{display: none;}
 ul.report-links li a{color: var(--Black); gap: 8px;}
@@ -18,7 +18,7 @@ ul.report-links li a.current i{display: none;}
 .report-title{flex: 1;}
 .report-btn{width: fit-content;}
 
-.report-rt p{font-size: 14px; line-height: 14px; color: var(--Text-Gray);}
+.report-rt p{font-size: 14px; line-height: 14px; color: var(--Text-Gray); margin-bottom: 0;}
 .report-fund-list{padding: 24px;}
 .report-fund-list > span{font-size: 20px; line-height: 25px; display: block; font-weight: 600; color: var(--Black); margin-bottom: 16px;}
 ul.report-fund-data{margin: 0; gap: 12px 28px;}
@@ -48,10 +48,21 @@ ul.report-fund-data li > span.green{color: var(--Pure-Green);}
     ul.report-fund-data li{flex: 100%;}
 }
 
+@media screen and (max-width: 1023px) and (min-width: 810px){
+    .report-main{padding: 40px 0; display: block; width: 100%;}
+    .report-lt{width: 100%; margin-bottom: 40px;}
+    ul.report-links{display: flex; gap: 14px 29px; flex-wrap: wrap; width: 100%; margin: 27px 0 0;}
+    ul.report-links > li{width: fit-content;}
+    .report-rt{width: 100%;}
+    .report-head{margin-bottom: 32px;}
+    .report-fund-row{gap: 20px; margin-bottom: 20px;}
+    .report-fund-list{flex: 0 0 calc(50% - 10px);}
+}
 @media screen and (max-width: 809px) and (min-width: 200px){
     .report-main{padding: 24px 0; display: block; width: 100%;}
     .report-lt{width: 100%; margin-bottom: 24px;}
 
+    .report-category{margin-top: 23px; }
     .report-category-btn{cursor: pointer; padding: 16px 44px 16px 16px; border: 1px solid var(--Text-Gray); background: var(--Background-Gray); display: block; width: 100%; font-size: 16px; line-height: 24px; color: var(--Black);}
     .report-category-btn::before{content: "\f078"; font-size: 20px; line-height: 20px; position: absolute; top: 17px; right: 16px; font-family: "Font Awesome 6 Pro"; font-weight: 400; color: var(--RF-Red);}
     ul.report-links{margin: 0; padding: 15px 0; border: 1px solid var(--Text-Gray); background: var(--Background-Gray); display: none;}
@@ -60,5 +71,8 @@ ul.report-fund-data li > span.green{color: var(--Pure-Green);}
     ul.report-links li a{font-size: 16px; line-height: 24px;}
     ul.report-links li a i{display: none;}
 
-    .report-fund-list{max-width: 249px;}
+    .report-head{width: 100%; margin-bottom: 24px;}
+    .report-fund-row{flex-wrap: nowrap; overflow-x: auto; width: calc(100% + 24px); -ms-overflow-style: none; padding-right: 24px; scrollbar-width: none; gap: 16px; margin-bottom: 24px;}
+    .report-fund-list{min-width: 249px;}
+    .report-btn-mob .button{width: 100%;}
 }
