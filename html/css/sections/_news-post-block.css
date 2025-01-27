@@ -4,7 +4,7 @@
 .news-post-block-desc h3{font-size: 48px; font-weight: 600; line-height: 125%; letter-spacing: -0.8px; color: var(--White); margin-bottom: 34px;}
 .news-post-block-btns { max-width: 514px; width: 100%; display: block; margin: 0 auto;}
 .news-post-block-btn{padding: 8px; gap: 8px; border: 1px solid var(--White); }
-.news-post-block-btn .button{flex: 0 0 calc(50% - 8px); gap: 8px; justify-content: center; padding: 9px 10px;}
+.news-post-block-btn .button{flex: 0 0 calc(50% - 8px); gap: 8px; padding: 11px 10px; min-height: 46px;}
 .news-post-block .white-back{width: 100%; height: 64px; background-color: var(--White); margin: 0 auto;}
 
 
@@ -26,7 +26,7 @@
     .news-post-block-desc p{font-size: 16px; margin-bottom: 30px;}
     .news-post-block-desc h3{font-size: 28px; }
     .news-post-block-btn{display: block; width: inherit;}
-    .news-post-block-btn .button{width: 100%; gap: 8px; justify-content: center; font-size: 16px; }
+    .news-post-block-btn .button{width: 100%; gap: 8px; font-size: 16px; }
     .news-post-block-btn .button.btn-white{margin-bottom: 8px;}
 
     .news-post-block .white-back {display: none;}

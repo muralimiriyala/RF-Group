@@ -4,8 +4,8 @@
 .management-block p{font-size: 18px; font-weight: 700; line-height: 100%; margin-bottom: 32px;}
 .management-block h3{font-size: 40px; font-weight: 600; line-height: 125%; letter-spacing: -0.8px; color: var(--White); margin-bottom: 30px;}
 .navy-block-btns { display: block; margin: 0 auto; max-width: 458px; width: 100%; }
-.navy-block-btn { border: 1px solid var(--White); display: flex; gap: 8px; padding: 8px; }
-.navy-block-btn .button { font-size: 16px; gap: 8px; justify-content: center; padding: 10px 8px; width: 100%; }
+.navy-block-btn{ border: 1px solid var(--White); display: flex; gap: 8px; padding: 8px; }
+.navy-block-btn .button { font-size: 16px; gap: 8px; justify-content: center; padding: 10px 8px; width: 100%; flex: 1;}
 
 .management-team-row{padding: 0 0 80px;}
 .management-team-image img{width: 160px; outline: 8px solid rgba(0, 0, 0, 0.1); border-radius: 120px; height: 160px;}
@@ -50,8 +50,8 @@
   .management-section{background-image: linear-gradient(to top,var(--White) calc(100% - var(--low-value)),var(--Gray) var(--low-value));}
   .management-main{padding: 48px 24px 64px;}
 
-  .navy-block-btn {display: block;}
-  .navy-block-btn .button.btn-white {flex-direction: row-reverse; margin-bottom: 8px;}
+  .navy-block-btn{flex-direction: column;}
+  .navy-block-btn .button.btn-white {flex-direction: row-reverse;}
 
   .management-team-list {margin: 0 auto 40px; }
   .management-team-list:last-child{margin-bottom: 0;}
