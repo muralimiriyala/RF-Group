@@ -3,11 +3,20 @@
 .resource-intro-lt{flex: 1; font-size: 20px; line-height: 30px;}
 .resource-intro-lt h1{font-size: 48px; line-height: 60px; letter-spacing: -0.96px;}
 .resource-intro-lt hr{margin: 0 0 25px;}
-.resource-intro-rt{background: var(--Background-Gray); padding: 40px; font-size: 16px; line-height: 24px; flex-direction: column;}
-.resource-intro-rt hr{margin: 4px 0 19px;}
-.resource-intro-rt .button{margin-top: auto;}
+.resource-intro-rt{background: var(--Background-Gray); padding: 40px; font-size: 16px; line-height: 24px;}
+.resource-intro-rt hr{margin: 22px 0 20px;}
+.resource-intro-rt .button{margin-top: 23px;}
 
 @media screen and (min-width: 1024px) {
-    .resource-intro-main{margin: 80px 0; gap: 80px;}
+    .resource-intro-main{padding: 80px 0; gap: 80px;}
     .resource-intro-rt{flex: 0 0 350px;}
+}
+
+@media screen and (max-width: 809px) and (min-width: 200px) {
+    .resource-intro-main{display: block; width: 100%; padding: 40px 0;}
+    .resource-intro-lt{font-size: 18px; line-height: 27px; margin-bottom: 24px; width: 100%;}
+    .resource-intro-lt span.optional-text{margin-bottom: 23px;}
+    .resource-intro-lt h1{font-size: 36px; line-height: 45px; letter-spacing: -0.72px;}
+    .resource-intro-rt{font-size: 14px; line-height: 21px; padding: 24px; width: 100%;}
+    .resource-intro-rt .button{width: 100%;}
 }

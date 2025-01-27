@@ -29,8 +29,8 @@ ul.bio-links > li i{font-size: 20px;  font-weight: 400; color: var(--Blue); widt
 .blue-block-desc p{font-size: 18px; font-weight: 700; line-height: 100%; margin-bottom: 24px;}
 .blue-block-desc h3{font-size: 40px; font-weight: 600; line-height: 125%; letter-spacing: -0.8px; color: var(--White); margin-bottom: 24px;}
 .blue-block-btns { max-width: 514px; width: 100%; display: block; margin: 0 auto;}
-.blue-block-btn{padding: 8px; display: flex; gap: 8px; border: 1px solid var(--White); }
-.blue-block-btn .button{width: 100%; gap: 8px; justify-content: center; font-size: 18px; padding: 13px 10px;}
+.blue-block-btn{padding: 8px; gap: 8px; border: 1px solid var(--White); }
+.blue-block-btn .button{width: 100%; gap: 8px; flex: 1; justify-content: center; padding: 13px 10px;}
 .blue-block-btn .button i{font-size: 16px;}
 
 .about-bio-img img{ max-height: 350px; object-position: top center;}
@@ -79,9 +79,12 @@ ul.bio-links > li i{font-size: 20px;  font-weight: 400; color: var(--Blue); widt
     .blue-block-desc {padding: 24px;}
     .blue-block-desc p{font-size: 16px; margin-bottom: 24px;}
     .blue-block-desc h3{font-size: 28px; padding: 0 20px;}
-    .blue-block-btn{display: block; width: inherit;}
+    .blue-block-btn{flex-direction: column;}
     .blue-block-btn .button{width: 100%; gap: 8px; justify-content: center; font-size: 16px; padding: 13px 14px;}
+<<<<<<< HEAD
     .blue-block-btn .button:first-child{margin-bottom: 8px;}
+=======
+>>>>>>> 811b35e85f0e4e14fa9ffee1ec7f9240133cfb88
 }
 @media only screen and (max-width: 374px) and (min-width: 200px){
     .about-bio-con {padding: 16px 16px 20px;}
