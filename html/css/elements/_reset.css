@@ -117,11 +117,6 @@ hr.sm-line{background-color: var(--Blue); height: 2px; border-radius: 1px; margi
 .button.transparent::before, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparent::before{background: var(--Blue);}
 .button.transparent:hover, .frm_submit button.frm_button_submit.transparent:hover, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparent:hover{color: var(--White);}
 
-<<<<<<< HEAD
-=======
-.button.btn-navy-bg{background: var(--Navy);}
-
->>>>>>> 811b35e85f0e4e14fa9ffee1ec7f9240133cfb88
 .button.btn-white-bg{background: var(--White); color: var(--Blue);}
 .button.btn-white-bg::before{background: var(--Blue);}
 .button.btn-white-bg:hover{color: var(--White);}
