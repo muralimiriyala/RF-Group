@@ -31,7 +31,7 @@ export const reports = {
     if (!__.$el) return;
     __.$el.addEventListener('click', toggle);
     const mbltoggle = (e) => {
-      e.target.classList.toggle('current');
+      e.currentTarget.classList.toggle('current');
       $(__.$el).slideToggle(800);
     };
     __.$btn.addEventListener('click', mbltoggle);

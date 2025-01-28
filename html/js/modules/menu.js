@@ -35,12 +35,22 @@ export const menu = {
     const scroll = () => {
       $scrolly = Number(window.scrollY);
       $scrolly > 0
-        ? _.$ele.classList.add('gray-header')
-        : _.$ele.classList.remove('gray-header');
+        ? _.$ele.classList.add('gray-header', 'white-bg')
+        : _.$ele.classList.remove('gray-header', 'white-bg');
+    };
+    const scroll1 = () => {
+      $scrolly = Number(window.scrollY);
+      $scrolly > 0
+        ? _.$ele.classList.add('white-bg')
+        : _.$ele.classList.remove('white-bg');
     };
     if (!_.$gpages[0]) {
       window.addEventListener('scroll', scroll);
       window.addEventListener('load', scroll);
+    }
+    if (_.$gpages[0]) {
+      window.addEventListener('scroll', scroll1);
+      window.addEventListener('load', scroll1);
     }
     // scrolly with
 
