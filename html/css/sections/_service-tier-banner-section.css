@@ -1,8 +1,8 @@
 
-.service-tier-banner-main{padding: 80px 0;}
+.service-tier-banner-section{padding: 80px 0;}
 .service-tier-banner-lt span.optional-text{color: var(--RF-Red); margin-bottom: 24px; font-size: 14px; line-height: 24px;}
 
-.jumpto-main{gap: 56px;}
+.jumpto-main{gap: 40px;}
 .jumpto-rt{flex: 1;}
 .jumpto-lt span{ position: relative; padding: 6px 8px; background-color: var(--White); color: var(--RF-Red); font-size: 16px; font-weight: 700; line-height: 100%;}
 .jumpto-lt span:before{content: ''; position: absolute; top: 0; right: -15px; width: 0; height: 0; border-style: solid; border-width: 16px 0 16px 15px; border-color: transparent transparent transparent var(--White);}
@@ -23,6 +23,27 @@ ul.jumpto-links > li i{color: var(--RF-Red); font-size: 20px; width: 20px; line-
 .service-tier-block.full-block{flex: 1;}
 .service-tier-block.full-block::before{display: none;}
 
+.page-template-tier3-fund-detail .service-tier-banner-main{padding: 0 0 40px;}
+.page-template-tier3-fund-detail .jumpto-lt span{color: var(--Rf-Orange-dark);}
+.page-template-tier3-fund-detail .jumpto-links > li i { color: var(--RF-Orange);}
+.page-template-tier3-fund-detail .service-tier-block::after, .page-template-tier3-fund-detail .service-tier-block::before{background-color: var(--RF-Orange);}
+
+
+
+.service-fund-details-wrap{padding: 40px 0;}
+.service-fund-details-wrap h2{font-size: 32px; line-height: 125%; letter-spacing: -0.64px; margin-bottom: 16px;}
+.service-fund-row{gap: 20px;}
+.service-fund-list{flex: 0 0 calc(14.28% - 17.5px); background-color: var(--White); padding: 16px 12px 28px; text-align: center; min-height: 160px;}
+.service-fund-list span{font-size: 14px; line-height: 100%; font-weight: 400; color: var(--Text-Gray); display: block; margin-bottom: 16px;}
+.service-fund-list h3{margin-bottom: 0; font-size: 32px; line-height: 100%; letter-spacing: -0.64px; display: flex; align-items: center; height: 100%; justify-content: center;}
+
+.service-holdings-row{gap: 20px;}
+.service-holdings-list{background-color: var(--White); padding: 36px 12px 16px; flex: 0 0 calc(20% - 16px);}
+.service-holdings-list h3{font-size: 32px; line-height: 100%; margin-bottom: 16px; letter-spacing: -0.64px;}
+
+
+
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .service-tier-banner-main{gap: 80px;}
@@ -42,11 +63,13 @@ ul.jumpto-links > li i{color: var(--RF-Red); font-size: 20px; width: 20px; line-
     .service-tier-block:nth-child(-n+2)::after{display: none;}
 
 
+
 }
 
 
 @media only screen and (max-width: 1023px) and (min-width: 768px){
-    .service-tier-banner-main{display: block; padding: 64px 0;}
+    .service-tier-banner-section{padding: 64px 0;}
+    .service-tier-banner-main{display: block; }
     .service-tier-banner-lt{margin-bottom: 40px;}
     .service-tier-banner-rt{padding: 8px; }
     .service-tier-blocks{ gap: 17px; }
@@ -59,10 +82,24 @@ ul.jumpto-links > li i{color: var(--RF-Red); font-size: 20px; width: 20px; line-
 
 
 @media only screen and (max-width: 767px) and (min-width: 200px){
+    .service-tier-banner-section{padding: 40px 0 48px;}
+    .service-tier-banner-main {  display: block; }
+    .service-tier-banner-lt{margin-bottom: 32px;}
+    .service-tier-banner-lt h1{font-size: 28px; margin-bottom: 25px;}
+    .service-tier-banner-lt p{margin-bottom: 24px;}
+    .jumpto-main .jumpto-lt{display: none; }
+    .jumpto-main .jumpto-rt ul{display: none; }
+    .service-tier-banner-btn { border: 1px solid var(--Text-Gray); cursor: pointer; justify-content: space-between; padding: 16px; transition: var(--b-transition); }
+    .service-tier-banner-btn span{font-size: 16px; font-weight: 700; line-height: 150%; color: var(--Black)}
+    .service-tier-banner-btn i{color: var(--RF-Red);}
 
-
+    .service-tier-blocks{background-color: var(--White);}
     
-    .service-tier-banner-main { padding: 40px 0; }
-
-
+    .service-tier-block{ flex: 0 0 50%;}
+    .service-tier-block::after, .service-tier-block::before{background-color: var(--RF-Red); content: ""; display: block; position: absolute;}
+    .service-tier-block:nth-child(odd)::before{width: 1px; height: calc(100% + 16px); right: 0; top: -8px;}
+    .service-tier-block::after{width: calc(100% + 16px); height: 1px; left: -8px; top: 0;}
+    .service-tier-block:nth-child(-n+2)::after{display: none;}
+    .service-tier-block .number{font-size: 24px; letter-spacing: -0.48px;}
+    .service-tier-banner-lt span.optional-text {font-size: 16px;}
 }
