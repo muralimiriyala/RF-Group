@@ -1,0 +1,41 @@
+.asset-performance-main{padding: 80px 0 92px; gap: 80px;}
+.asset-performance-lt{flex: 0 0 350px;}
+.asset-performance-rt{flex: 0 0 calc(100% - 430px); padding: 40px; border: 2px solid var(--Background-Gray);}
+.asset-performance-head h2{margin-bottom: 35px;}
+.asset-performance-icon{width: 23px; height: 20px;}
+.asset-performance-list{margin-bottom: 16px;}
+.asset-performance-list:hover { background-color: var(--Blue-80); }
+.asset-performance-list.current { background-color: var(--RF-Orange-10); }
+.asset-performance-list.current .asset-performance-line { background-color: var(--RF-Orange);  width: 8px;}
+.asset-performance-list{padding: 14px 16px 14px 24px; justify-content: space-between;}
+.asset-performance-line { background-color: var(--RF-Orange); right: auto; width: 4px; }
+.asset-performance-main:after{bottom:0; width: 100%; height: 2px; display: block; border: none; border-radius: 1px; background-color: var(--RF-Orange); opacity: 0.25; position: absolute; margin:0 0 12px;  content:"";}
+
+
+.fund-detail-report-main{gap: 80px; padding: 80px 0;}
+.fund-detail-report-aside .doc-form-desc hr{margin: 0 0 28px; background-color:  var(--RF-Orange);}
+ul.faqs-links.RF-Orange li a:hover{color: var(--RF-Orange);}
+ul.faqs-links.RF-Orange li a i{color: var(--RF-Orange);}
+
+.doc-form-list.RF-Orange .doc-form-line{background-color: var(--RF-Orange);}
+.doc-form-list.RF-Orange:hover .doc-form-icon {background-color: var(--RF-Orange);}
+.doc-form-list.RF-Orange:hover { background-color: var(--RF-Orange-10); }
+.fund-detail-report-article .doc-form-row{margin-bottom: 56px;}
+.doc-repo-list.RF-Orange .doc-repo-line{background-color: var(--RF-Orange);}
+.doc-repo-list.RF-Orange:hover .doc-repo-icon {background-color: var(--RF-Orange);}
+.doc-repo-list.RF-Orange:hover { background-color: var(--RF-Orange-10); }
+
+.fund-detail-report-article ul.ui-years li a {padding: 9px 15px;}
+.fund-detail-report-aside .sidebar-mgt-image {max-width: 80px; max-height: 80px;  border: 4px solid var(--RF-Orange);}
+.fund-detail-report-aside .sidebar-mgt-team{gap: 16px;}
+.fund-detail-report-aside .sidebar-mgt-image figure img {max-width: 100%; max-height: 100%;}
+.fund-detail-report-aside  .sidebar-mgt-info h4 {font-size: 20px;}
+
+   
+/* media css starts here */
+@media only screen  and (min-width: 1024px){
+    .fund-detail-report-aside{flex: 0 0 350px}
+    .fund-detail-report-article{flex: 0 0 calc(100% - 430px);}
+
+
+}

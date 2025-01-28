@@ -39,6 +39,12 @@
     .service-year h2{display: none;}
     .service-years-company {flex:  0 0 260px;}
 
+    .service-company-text span {font-size: 16px;}
+    .service-company-text h3 {font-size: 18px; letter-spacing: -0.36px;}
+    .service-years-main .about-history-appends {margin-top: 10px;}
+    .service-year-article .slick-list{overflow: inherit;}
+    .service-years-row{gap: 24px;}
+
 
 }
 
