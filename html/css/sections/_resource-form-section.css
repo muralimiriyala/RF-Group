@@ -72,8 +72,9 @@ ul.resource-form-q li a:hover{color: var(--Blue);}
 
     .form-category{margin-top: 23px; }
     .form-category-btn{cursor: pointer; padding: 16px 44px 16px 16px; border: 1px solid var(--Text-Gray); background: var(--Background-Gray); display: block; width: 100%; font-size: 16px; line-height: 24px; color: var(--Black);}
-    .form-category-btn::before{content: "\f078"; font-size: 20px; line-height: 20px; position: absolute; top: 17px; right: 16px; font-family: "Font Awesome 6 Pro"; font-weight: 400; color: var(--RF-Red);}
-    ul.form-links{margin: 0; padding: 15px 0; border: 1px solid var(--Text-Gray); background: var(--Background-Gray); display: none;}
+    .form-category-btn i{top: 12px; right: 16px;}
+    .form-category-btn.current i::before {content: "\f077";}
+    ul.form-links{margin: 0; padding: 15px 0; border: 1px solid var(--Text-Gray); border-top: none; background: var(--Background-Gray); display: none;}
     ul.form-links li{padding: 0 16px;}
     ul.form-links li:last-child{margin-bottom: 0;}
     ul.form-links li a{font-size: 16px; line-height: 24px;}

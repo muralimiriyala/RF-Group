@@ -29,6 +29,7 @@ ul.report-fund-data li > span:last-child{color: var(--Text-Gray2);}
 ul.report-fund-data li > span.red{color: var(--Pure-Red);}
 ul.report-fund-data li > span.green{color: var(--Pure-Green);}
 
+.reports-row:not(:first-child){display: none;}
 
 @media screen and (min-width: 1024px) {
     .report-main{gap: 80px; padding: 80px 0;}
@@ -64,9 +65,10 @@ ul.report-fund-data li > span.green{color: var(--Pure-Green);}
 
     .report-category{margin-top: 23px; }
     .report-category-btn{cursor: pointer; padding: 16px 44px 16px 16px; border: 1px solid var(--Text-Gray); background: var(--Background-Gray); display: block; width: 100%; font-size: 16px; line-height: 24px; color: var(--Black);}
-    .report-category-btn::before{content: "\f078"; font-size: 20px; line-height: 20px; position: absolute; top: 17px; right: 16px; font-family: "Font Awesome 6 Pro"; font-weight: 400; color: var(--RF-Red);}
-    ul.report-links{margin: 0; padding: 15px 0; border: 1px solid var(--Text-Gray); background: var(--Background-Gray); display: none;}
-    ul.report-links li{padding: 0 16px;}
+    .report-category-btn i{top: 12px; right: 16px;}
+    .report-category-btn.current i::before {content: "\f077";}
+    ul.report-links{margin: 0; padding: 15px 0; border: 1px solid var(--Text-Gray); border-top: none; background: var(--Background-Gray); display: none;}
+    ul.report-links li{padding: 0 16px; margin: 0 0 12px;}
     ul.report-links li:last-child{margin-bottom: 0;}
     ul.report-links li a{font-size: 16px; line-height: 24px;}
     ul.report-links li a i{display: none;}

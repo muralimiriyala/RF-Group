@@ -19,6 +19,7 @@ import { stickyYear } from './modules/stickyYear.js';
 import { sidebyside } from './modules/sidebyside.js';
 import { retired } from './modules/retired.js';
 import { feeSchedule } from './modules/feeSchedule.js';
+import { reports } from './modules/reports.js';
 
 (function () {
   menu.init();
@@ -39,4 +40,5 @@ import { feeSchedule } from './modules/feeSchedule.js';
   sidebyside.init();
   retired.init();
   feeSchedule.init();
+  reports.init();
 })();
