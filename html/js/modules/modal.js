@@ -14,21 +14,20 @@ export const modal = {
   init() {
     const _ = this;
     if (!_.$main) return;
+    let $overlay = $(_.$window);
+    let $main = $(_.$main);
 
     let id = null;
     let modal = (e) => {
       e.preventDefault();
       e.target.classList.toggle('open');
-
-      let $overlay = $(_.$window);
-      $overlay.fadeToggle(900);
+      $overlay.fadeIn(900);
       id = e.target ? e.target.getAttribute('href').substring(1) : '';
       let $main = $(document.querySelector(`.modal-main[id=${id}]`));
-      $main.fadeToggle(700);
+      $main.fadeIn(700);
     };
 
     _.$ele.forEach((btn) => {
-      id = btn.getAttribute('href').substring(1);
       btn.addEventListener('click', modal);
     });
 
@@ -44,9 +43,7 @@ export const modal = {
       e.target.classList.toggle('open');
 
       let $overlay = $(_.$window);
-      $overlay.fadeToggle(900);
-      id = e.target ? e.target.getAttribute('href').substring(1) : '';
-      let $main = $(document.querySelector(`.modal-main[id=${id}]`));
+      $overlay.fadeOut(900);
       $main.fadeToggle(700);
     };
     _.$close.forEach(function (ele) {
