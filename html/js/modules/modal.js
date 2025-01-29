@@ -16,7 +16,6 @@ export const modal = {
     if (!_.$main) return;
     let $overlay = $(_.$window);
     let $main = $(_.$main);
-    let $centerb = $(_.$center);
 
     let id = null;
     let modal = (e) => {
@@ -50,10 +49,12 @@ export const modal = {
 
     // click on body tag
     let modalbodyClose = function (e) {
-      if (e.target.contains($centerb)) {
-        $overlay.fadeOut(700);
-        $main.fadeOut(700);
-      }
+      _.$center.forEach((ele) => {
+        if (e.target.contains(ele)) {
+          $overlay.fadeOut(700);
+          $main.fadeOut(700);
+        }
+      });
     };
     _.$body.addEventListener('click', modalbodyClose);
   },
