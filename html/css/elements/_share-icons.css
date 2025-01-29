@@ -18,6 +18,8 @@
 .social-share-icons #st-2 .st-btn.st-first{display: none!important;}
 
 .news-update-video-aside .share-text{color: var(--Blue);}
+div.after-gated-video{position: relative;}
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .news-update-video-aside .social-share-main{padding-top: 0;}
