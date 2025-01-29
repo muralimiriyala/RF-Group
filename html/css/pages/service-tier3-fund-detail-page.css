@@ -14,8 +14,8 @@
 
 .fund-detail-report-main{gap: 80px; padding: 80px 0;}
 .fund-detail-report-aside .doc-form-desc hr{margin: 0 0 28px; background-color:  var(--RF-Orange);}
-ul.faqs-links.RF-Orange li a:hover{color: var(--RF-Orange);}
-ul.faqs-links.RF-Orange li a i{color: var(--RF-Orange);}
+/* ul.faqs-links.RF-Orange li a:hover{color: var(--RF-Orange);}
+ul.faqs-links.RF-Orange li a i{color: var(--RF-Orange);} */
 
 .doc-form-list.RF-Orange .doc-form-line{background-color: var(--RF-Orange);}
 .doc-form-list.RF-Orange:hover .doc-form-icon {background-color: var(--RF-Orange);}
@@ -35,7 +35,7 @@ ul.faqs-links.RF-Orange li a i{color: var(--RF-Orange);}
 .fund-detail-info h4{margin-bottom: 0; font-size: 20px;}
 .fund-detail-info h4 a:hover{color: var(--RF-Orange);}
 .fund-detail-info  p{margin-bottom: 8px;}
-.fund-detail-info  p:hover{color: var(--RF-Orange)}
+/* .fund-detail-info  p:hover{color: var(--RF-Orange)} */
 
 .fees-expenses-main{padding: 80px 0 104px; gap: 80px;}
 .fees-expenses-lt{flex: 0 0 350px;}
