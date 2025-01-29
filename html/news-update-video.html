@@ -34,7 +34,7 @@
     
     <link rel='stylesheet' id='formidable-css' href='https://stg-rfgroup-staging.kinsta.cloud/wp-content/plugins/formidable/css/formidableforms1.css?ver=1230846' media='all' />
 </head>
-<body class="page-template-news-video-gated">
+<body class="page-template-news-video">
 <header class="site-header">
 <div class="container">
     <div class="header flex flex-vcenter">
@@ -362,10 +362,10 @@
                 </div>
             </div>
             <div class="news-update-lists flex">
-                <div class="news-update-row flex">
+                <div class="news-update-row news-update-threebox flex">
                     <div class="news-update-item flex">
                         <div class="news-update-text">
-                            <div class="category">
+                            <div class="category hide-desktop hide-tablet">
                                 <ul class="category-lists">
                                     <li><a href="#" class="flex flex-vcenter">
                                         <i class="fa-sharp fa-regular fa-lightbulb-on"></i>
@@ -378,7 +378,6 @@
                             <div class="news-update-content flex">
                                 <h2><a href="#">Insight post title appears here on a few lines as needed to fit</a></h2>
                                 <span>3 weeks ago</span>
-                                <p>A brief post excerpt appears here spanning a few lines as needed to fit the content, but excerpts should truncate after three lines.</p>
                             </div>
                         </div>
                         <div class="news-update-image relative">
@@ -386,19 +385,83 @@
                                 <source srcset="images/insight-post-thumb1@2x.jpg" media="(min-width: 810px)">
                                 <img src="images/insight-post-thumb1-mob@2x.jpg" alt="insight-post-thumb1-mob">
                             </picture>
+                            <div class="play-btn-main flex flex-center">
+                                <div class="play-btn flex flex-center relative">
+                                    <a href="https://www.youtube.com/watch?v=gpC0Lx24-kk"
+                                        class="popup-youtube play-btn-bg flex flex-center">
+                                        <span class="circle"></span>
+                                        <span></span>
+                                        <span></span>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="news-update-item flex">
                         <div class="news-update-text">
-                            <div class="category">
+                            <div class="category hide-desktop hide-tablet">
                                 <ul class="category-lists">
-                                    <li><a href="#" class="flex flex-vcenter"><i class="fa-sharp fa-regular fa-lightbulb-on"></i>Insight</a></li>
+                                    <li><a href="#" class="flex flex-vcenter">
+                                        <i class="fa-sharp fa-regular fa-lightbulb-on"></i>
+                                        <!-- <svg width="20" height="16" viewBox="0 0 20 16" fill="none" role="none">
+                                            <path d="M14 5.5C14 3.3125 12.1875 1.5 10 1.5C7.78125 1.5 6 3.3125 6 5.5C6 6.375 6.25 7.15625 6.6875 7.78125C6.8125 7.96875 6.9375 8.15625 7.09375 8.34375C7.5 8.90625 7.96875 9.5625 8.34375 10.2188C8.65625 10.8125 8.84375 11.4375 8.90625 12H7.40625C7.3125 11.625 7.21875 11.2812 7.03125 10.9375C6.71875 10.375 6.34375 9.84375 5.9375 9.3125C5.78125 9.09375 5.625 8.875 5.46875 8.65625C4.84375 7.75 4.5 6.6875 4.5 5.5C4.5 2.46875 6.9375 0 10 0C13.0312 0 15.5 2.46875 15.5 5.5C15.5 6.6875 15.125 7.75 14.5 8.65625C14.3438 8.875 14.1875 9.09375 14.0312 9.3125C13.6562 9.84375 13.25 10.375 12.9375 10.9375C12.75 11.2812 12.6562 11.625 12.5938 12H11.0625C11.1562 11.4375 11.3125 10.8125 11.625 10.2188C12 9.5625 12.4688 8.90625 12.875 8.34375C13.0312 8.15625 13.1562 7.96875 13.2812 7.78125C13.7188 7.15625 14 6.375 14 5.5ZM8.5 5.5H7.5C7.5 4.125 8.59375 3 10 3V4C9.15625 4 8.5 4.6875 8.5 5.5ZM7.5 16V13H12.5V16H7.5ZM2.71875 0.5L2.90625 0.625L3.65625 1.125L4.28125 1.5625L3.4375 2.8125L2.8125 2.375L2.0625 1.875L1.875 1.75L1.25 1.34375L2.09375 0.09375L2.71875 0.5ZM18.0938 1.75L17.9062 1.875L17.1562 2.375L16.5312 2.8125L15.6875 1.5625L16.3125 1.125L17.0625 0.625L17.25 0.5L17.875 0.09375L18.7188 1.34375L18.0938 1.75ZM0.75 5H2.25H3V6.5H2.25H0.75H0V5H0.75ZM17.75 5H19.25H20V6.5H19.25H17.75H17V5H17.75ZM3.65625 10.375L2.90625 10.875L2.71875 11L2.09375 11.4375L1.25 10.1875L1.875 9.75L2.0625 9.625L2.8125 9.125L3.4375 8.71875L4.28125 9.96875L3.65625 10.375ZM17.1562 9.15625L17.9062 9.65625L18.0938 9.78125L18.7188 10.1875L17.875 11.4375L17.25 11L17.0625 10.875L16.3125 10.375L15.6875 9.96875L16.5312 8.71875L17.1562 9.15625Z" fill="#2772DB"/>
+                                        </svg> -->
+                                        Insight</a></li>
                                 </ul>
                             </div>
                             <div class="news-update-content flex">
                                 <h2><a href="#">Insight post title appears here on a few lines as needed to fit</a></h2>
                                 <span>3 weeks ago</span>
-                                <p>A brief post excerpt appears here spanning a few lines as needed to fit the content, but excerpts should truncate after three lines.</p>
+                            </div>
+                        </div>
+                        <div class="news-update-image relative">
+                            <picture class="object-fit">
+                                <source srcset="images/insight-post-thumb1@2x.jpg" media="(min-width: 810px)">
+                                <img src="images/insight-post-thumb1-mob@2x.jpg" alt="insight-post-thumb1-mob">
+                            </picture>
+                            <div class="play-btn-main flex flex-center">
+                                <div class="play-btn flex flex-center relative">
+                                    <a href="https://www.youtube.com/watch?v=gpC0Lx24-kk"
+                                        class="popup-youtube play-btn-bg flex flex-center">
+                                        <span class="circle"></span>
+                                        <span></span>
+                                        <span></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news-update-item flex">
+                        <div class="news-update-text">
+                            <div class="category hide-desktop hide-tablet">
+                                <ul class="category-lists">
+                                    <li><a href="#" class="flex flex-vcenter">
+                                        <i class="fa-sharp fa-regular fa-lightbulb-on"></i>
+                                        <!-- <svg width="20" height="16" viewBox="0 0 20 16" fill="none" role="none">
+                                            <path d="M14 5.5C14 3.3125 12.1875 1.5 10 1.5C7.78125 1.5 6 3.3125 6 5.5C6 6.375 6.25 7.15625 6.6875 7.78125C6.8125 7.96875 6.9375 8.15625 7.09375 8.34375C7.5 8.90625 7.96875 9.5625 8.34375 10.2188C8.65625 10.8125 8.84375 11.4375 8.90625 12H7.40625C7.3125 11.625 7.21875 11.2812 7.03125 10.9375C6.71875 10.375 6.34375 9.84375 5.9375 9.3125C5.78125 9.09375 5.625 8.875 5.46875 8.65625C4.84375 7.75 4.5 6.6875 4.5 5.5C4.5 2.46875 6.9375 0 10 0C13.0312 0 15.5 2.46875 15.5 5.5C15.5 6.6875 15.125 7.75 14.5 8.65625C14.3438 8.875 14.1875 9.09375 14.0312 9.3125C13.6562 9.84375 13.25 10.375 12.9375 10.9375C12.75 11.2812 12.6562 11.625 12.5938 12H11.0625C11.1562 11.4375 11.3125 10.8125 11.625 10.2188C12 9.5625 12.4688 8.90625 12.875 8.34375C13.0312 8.15625 13.1562 7.96875 13.2812 7.78125C13.7188 7.15625 14 6.375 14 5.5ZM8.5 5.5H7.5C7.5 4.125 8.59375 3 10 3V4C9.15625 4 8.5 4.6875 8.5 5.5ZM7.5 16V13H12.5V16H7.5ZM2.71875 0.5L2.90625 0.625L3.65625 1.125L4.28125 1.5625L3.4375 2.8125L2.8125 2.375L2.0625 1.875L1.875 1.75L1.25 1.34375L2.09375 0.09375L2.71875 0.5ZM18.0938 1.75L17.9062 1.875L17.1562 2.375L16.5312 2.8125L15.6875 1.5625L16.3125 1.125L17.0625 0.625L17.25 0.5L17.875 0.09375L18.7188 1.34375L18.0938 1.75ZM0.75 5H2.25H3V6.5H2.25H0.75H0V5H0.75ZM17.75 5H19.25H20V6.5H19.25H17.75H17V5H17.75ZM3.65625 10.375L2.90625 10.875L2.71875 11L2.09375 11.4375L1.25 10.1875L1.875 9.75L2.0625 9.625L2.8125 9.125L3.4375 8.71875L4.28125 9.96875L3.65625 10.375ZM17.1562 9.15625L17.9062 9.65625L18.0938 9.78125L18.7188 10.1875L17.875 11.4375L17.25 11L17.0625 10.875L16.3125 10.375L15.6875 9.96875L16.5312 8.71875L17.1562 9.15625Z" fill="#2772DB"/>
+                                        </svg> -->
+                                        Insight</a></li>
+                                </ul>
+                            </div>
+                            <div class="news-update-content flex">
+                                <h2><a href="#">Insight post title appears here on a few lines as needed to fit</a></h2>
+                                <span>3 weeks ago</span>
+                            </div>
+                        </div>
+                        <div class="news-update-image relative">
+                            <picture class="object-fit">
+                                <source srcset="images/insight-post-thumb1@2x.jpg" media="(min-width: 810px)">
+                                <img src="images/insight-post-thumb1-mob@2x.jpg" alt="insight-post-thumb1-mob">
+                            </picture>
+                            <div class="play-btn-main flex flex-center">
+                                <div class="play-btn flex flex-center relative">
+                                    <a href="https://www.youtube.com/watch?v=gpC0Lx24-kk"
+                                        class="popup-youtube play-btn-bg flex flex-center">
+                                        <span class="circle"></span>
+                                        <span></span>
+                                        <span></span>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
