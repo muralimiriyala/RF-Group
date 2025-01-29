@@ -49,7 +49,8 @@ table.fees-expenses-table tr td:last-child strong{font-weight: 600; color: var(-
 table.fees-expenses-table tr:nth-child(n+4) td:first-child{padding-left: 32px;}
 .fees-expenses-main::after{bottom:0; width: 100%; height: 2px; display: block; border: none; border-radius: 1px; background-color: var(--RF-Orange); opacity: 0.25; position: absolute; margin:0 0 12px;  content:"";}
 
-
+.management-team-info.RF-Orange hr {
+    background-color: var(--RF-Orange);}
 /* media css starts here */
 @media only screen  and (min-width: 1024px){
     .fund-detail-report-aside{flex: 0 0 350px}
