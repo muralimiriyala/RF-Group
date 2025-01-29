@@ -1,21 +1,22 @@
 import $ from 'jquery';
 export const modal = {
   $body: document.querySelector('body'),
-  $center: document.querySelector('.modal-main .modal-center'),
+  $center: document.querySelectorAll('.modal-main .modal-center'),
   $ele: [
     ...document.querySelectorAll('.appointment'),
     ...document.querySelectorAll('a[href="#appointment"]'),
     ...document.querySelectorAll('.callback'),
     ...document.querySelectorAll('a[href="#callback"]'),
   ],
-  $window: document.querySelector('.modal-window'),
-  $main: document.querySelector('.modal-main'),
+  $window: document.querySelectorAll('.modal-window'),
+  $main: document.querySelectorAll('.modal-main'),
   $close: document.querySelectorAll('.modal-close'),
   init() {
     const _ = this;
     if (!_.$main) return;
     let $overlay = $(_.$window);
     let $main = $(_.$main);
+    let $centerb = $(_.$center);
 
     let id = null;
     let modal = (e) => {
@@ -23,8 +24,8 @@ export const modal = {
       e.target.classList.toggle('open');
       $overlay.fadeIn(900);
       id = e.target ? e.target.getAttribute('href').substring(1) : '';
-      let $main = $(document.querySelector(`.modal-main[id=${id}]`));
-      $main.fadeIn(700);
+      let $show = $(document.querySelector(`.modal-main[id=${id}]`));
+      $show.fadeIn(700);
     };
 
     _.$ele.forEach((btn) => {
@@ -40,21 +41,18 @@ export const modal = {
     // close button
     let modalClose = (e) => {
       e.preventDefault();
-      e.target.classList.toggle('open');
-
-      let $overlay = $(_.$window);
       $overlay.fadeOut(900);
-      $main.fadeToggle(700);
+      $main.fadeOut(700);
     };
     _.$close.forEach(function (ele) {
-      ele.addEventListener('click', modal);
+      ele.addEventListener('click', modalClose);
     });
 
     // click on body tag
     let modalbodyClose = function (e) {
-      if (e.target.contains(_.$center)) {
-        $(_.$window).fadeOut(700);
-        $(_.$main).fadeOut(700);
+      if (e.target.contains($centerb)) {
+        $overlay.fadeOut(700);
+        $main.fadeOut(700);
       }
     };
     _.$body.addEventListener('click', modalbodyClose);
