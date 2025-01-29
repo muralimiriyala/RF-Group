@@ -22,12 +22,13 @@ export const modal = {
 
       let $overlay = $(_.$window);
       $overlay.fadeToggle(900);
-      id = e.target ? e.target.getAttribute('href').substring(1) : 'mu';
-      console.log(id);
+      id = e.target ? e.target.getAttribute('href').substring(1) : '';
       let $main = $(document.querySelector(`.modal-main[id=${id}]`));
       $main.fadeToggle(700);
     };
+
     _.$ele.forEach((btn) => {
+      id = btn.getAttribute('href').substring(1);
       btn.addEventListener('click', modal);
     });
 
@@ -38,17 +39,27 @@ export const modal = {
     }
 
     // close button
+    let modalClose = (e) => {
+      e.preventDefault();
+      e.target.classList.toggle('open');
+
+      let $overlay = $(_.$window);
+      $overlay.fadeToggle(900);
+      id = e.target ? e.target.getAttribute('href').substring(1) : '';
+      let $main = $(document.querySelector(`.modal-main[id=${id}]`));
+      $main.fadeToggle(700);
+    };
     _.$close.forEach(function (ele) {
       ele.addEventListener('click', modal);
     });
 
     // click on body tag
-    let modalClose = function (e) {
+    let modalbodyClose = function (e) {
       if (e.target.contains(_.$center)) {
         $(_.$window).fadeOut(700);
         $(_.$main).fadeOut(700);
       }
     };
-    _.$body.addEventListener('click', modalClose);
+    _.$body.addEventListener('click', modalbodyClose);
   },
 };
