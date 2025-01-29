@@ -936,16 +936,18 @@
     </div>
 </section>
 <section class="news-update-section relative">
-    <div class="news-update-bg absolute">
-        <figure class="object-fit">
-            <img src="images/news-feature-bg@2x.jpg" alt="">
-        </figure>
+    <div class="news-update-bg background-bg">
+        <picture class="object-fit">
+            <source srcset="images/news-feature-bg@2x.jpg" media="(min-width: 810px)">
+            <img src="images/news-feature-bg-mob@2x.jpg" alt="news-feature-bg-mob">
+        </picture>
+        <div class="news-update-bg-overlay z-0 background-bg"></div>
     </div>
     <div class="container">
         <div class="news-update-main">
             <div class="news-update-head flex flex-vcenter">
                 <div class="news-update-title">
-                    <h1>News & Updates</h1>
+                    <h2>News & Updates</h2>
                 </div>
                 <div class="news-update-btn hide-mobile">
                     <a href="#" class="text-link f-700 inline-flex white">More News & Updates<i class="fa-sharp fa-regular fa-arrow-right"></i></a>
