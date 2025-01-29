@@ -163,14 +163,14 @@ body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparen
 
 /* text btn link */
 a.text-link{gap: 8px; align-items: center; font-size: 1.125rem; line-height: 100%; letter-spacing: 0; color: var(--Black);}
-a.text-link i{color: var(--Blue); font-size: 20px; left: 0; position: relative; top: 1px; transition: all .5s ease;}
+a.text-link i, a.text-link em{color: var(--Blue); font-size: 20px; left: 0; position: relative; top: 1px; transition: all .5s ease;}
 a.text-link:hover{color: var(--Blue);}
 a.text-link.white{color: var(--White);}
-a.text-link.white:hover i{color: var(--White);}
+a.text-link.white:hover i, a.text-link.white:hover em{color: var(--White);}
 a.text-link.black{color: var(--Black);}
 a.text-link.black:hover{color: var(--Blue);}
 a.text-link.blue{color: var(--Blue);}
-a.text-link:hover i{left: 8px;}
+a.text-link:hover i, a.text-link:hover em{left: 8px;}
 a.text-link.navy{color: var(--Navy);}
 a.text-link.navy i{color: var(--Navy);}
 
@@ -269,14 +269,11 @@ span.optional-text.lg{margin-bottom: 8px; font-size: 1.125rem; line-height: 1.12
 .text-orange{color: var(--Rf-Orange-dark);}
 .text-orange a{color: var(--Rf-Orange-dark);}
 .text-orange a:hover{color: var(--Black);}
-<<<<<<< HEAD
 .text-black.hover-orange:hover{color: var(--RF-Orange);}
-=======
 
 .text-black.arrow-orange i{color: var(--RF-Orange);}
 .text-black.arrow-orange:hover{color: var(--RF-Orange);}
 
->>>>>>> 269a65d8545015e9b3cbef1057df0fb8f084b6ae
 
 .text-upper{text-transform: uppercase;}
 .text-lower{text-transform: uppercase;}
