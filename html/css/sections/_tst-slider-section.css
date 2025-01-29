@@ -19,7 +19,7 @@
 @media screen and (min-width: 810px) {
     .tst-slider-icon{position: absolute; top: 0; left: 0; width: 64px; height: 100%; overflow: hidden; padding-top: 5px;}
     .tst-slider-icon svg{width: 32px; margin: 0 auto 16px;  display: block;}
-    .tst-slider-icon hr{width: 2px; margin: 0 auto;}
+    .tst-slider-icon hr{width: 2px; margin: 0 auto; opacity: 0.5;}
     .tst-slider-appends{display: none;}
     .tst-slider-arrow{top: 0; right: 0; width: 88px; height: 100%; animation-name: mo; background: rgba(0, 0, 0, 0.20); display: flex; align-items: center; justify-content: center; position: absolute; z-index: 1; }
 }
