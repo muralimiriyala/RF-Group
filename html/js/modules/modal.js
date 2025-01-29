@@ -10,22 +10,24 @@ export const modal = {
   ],
   $window: document.querySelector('.modal-window'),
   $main: document.querySelector('.modal-main'),
-  $close: document.querySelector('.modal-main .modal-close'),
+  $close: document.querySelectorAll('.modal-close'),
   init() {
     const _ = this;
+    if (!_.$main) return;
+
+    let id = null;
     let modal = (e) => {
       e.preventDefault();
       e.target.classList.toggle('open');
-      if (_.$window) {
-        let $overlay = $(_.$window);
-        $overlay.fadeToggle(900);
-        let $main = $(_.$main);
-        $main.fadeToggle(700);
-      }
+
+      let $overlay = $(_.$window);
+      $overlay.fadeToggle(900);
+      id = e.target ? e.target.getAttribute('href').substring(1) : 'mu';
+      console.log(id);
+      let $main = $(document.querySelector(`.modal-main[id=${id}]`));
+      $main.fadeToggle(700);
     };
-    let id = null;
     _.$ele.forEach((btn) => {
-      id = btn.getAttribute('href').substring(1);
       btn.addEventListener('click', modal);
     });
 
@@ -36,8 +38,9 @@ export const modal = {
     }
 
     // close button
-    if (!_.$close) return false;
-    _.$close.addEventListener('click', modal);
+    _.$close.forEach(function (ele) {
+      ele.addEventListener('click', modal);
+    });
 
     // click on body tag
     let modalClose = function (e) {
