@@ -10,7 +10,7 @@
 .cta-investment-form .selectBox-dropdown{padding: 4px 40px 3px 10px; text-transform: lowercase; width: fit-content; border: 1px solid rgba(39, 114, 219, 0.25); background-color: var(--White); color: var(--Black-20); font-size: 24px; line-height: 24px;}
 .cta-investment-form .choose .selectBox-arrow{font-size: 16px; right: 10px;}
 
-.cta-investment-arrow{animation: bounceInRight 2s ease-in-out infinite;}
+.cta-investment-arrow{line-height: 100%; animation: bounceInRight 2s ease-in-out infinite;}
 @keyframes bounceInRight {
     0% {
       transform:translateX(-20px)

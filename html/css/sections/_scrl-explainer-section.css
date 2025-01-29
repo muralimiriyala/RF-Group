@@ -18,7 +18,7 @@
     .page-template-campaign .scrl-explainer-main {padding: 80px 0 168px;}
 }
 @media only screen and (min-width: 860px){
-
+    .scrl-explainer-inner hr[data-animate]{margin-bottom: 20px;}
 }
 @media only screen and (min-width: 560px){
     .scrl-explainer-main{flex-direction: row-reverse;}
