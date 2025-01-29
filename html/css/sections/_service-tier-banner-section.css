@@ -1,9 +1,13 @@
 
 .service-tier-banner-section{padding: 80px 0;}
 .service-tier-banner-lt span.optional-text{color: var(--RF-Red); margin-bottom: 24px; font-size: 14px; line-height: 24px;}
-.service-tier-banner-lt ul.breadcrumbs li{font-size: 18px;}
-.service-tier-banner-lt ul.breadcrumbs.RF-Orange-dark li a{ color: var(--Rf-Orange-dark);}
-.service-tier-banner-lt ul.breadcrumbs{margin: 0 0 35px;}
+
+ul.service-tier-order{margin: 0 0 39px; gap: 25px;}
+ul.service-tier-order li{font-size: 18px;}
+ul.service-tier-order li::before{content: ''; top: 0; left: -13px; width: 2px; height: 20px; background-color: var(--Text-Gray); border-radius: 1px; opacity: 0.5; font-weight: 700; position: absolute; transform: rotate(20deg);}
+ul.service-tier-order li:first-child::before{display: none;}
+ul.service-tier-order li a{display: block;}
+ul.service-tier-order{margin: 0 0 35px;}
 
 .jumpto-main{gap: 40px;}
 .jumpto-rt{flex: 1;}
@@ -101,7 +105,12 @@ ul.jumpto-links > li i{color: var(--RF-Red); font-size: 20px; width: 20px; line-
     .service-tier-banner-lt h1{font-size: 28px; margin-bottom: 25px;}
     .service-tier-banner-lt p{margin-bottom: 24px;}
     .jumpto-main .jumpto-lt{display: none; }
-    .service-tier-banner-lt ul.breadcrumbs { margin: 0 0 22px; }
+    ul.service-tier-order { margin: 0 0 22px; gap: 0; flex-wrap: nowrap; }
+    ul.service-tier-order li{overflow: hidden; white-space: nowrap; text-overflow: ellipsis; position: relative;}
+    ul.service-tier-order li:first-child{min-width: 120px;}
+    ul.service-tier-order li::before{left: 4px;}
+    ul.service-tier-order li a{text-overflow: ellipsis; overflow: hidden;}
+    ul.service-tier-order li:not(:first-child){padding-left: 13px;}
     .jumpto-main .jumpto-rt ul{display: none; }
     .service-tier-banner-btn { border: 1px solid var(--Text-Gray); cursor: pointer; justify-content: space-between; padding: 16px; transition: var(--b-transition); }
     .service-tier-banner-btn span{font-size: 16px; font-weight: 700; line-height: 150%; color: var(--Black)}
