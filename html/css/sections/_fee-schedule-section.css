@@ -11,7 +11,6 @@ table.fee-schd-table tr:last-child td{border-bottom-color: var(--Black-8); borde
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 810px){
-    .fee-schd-main{padding: 89px 0 79px;}
     .fee-schd-title{gap: 18px;}
     .fee-schd-effective{flex: 1; gap: 16px;}
     table.fee-schd-table{padding: 40px 0;}
@@ -23,13 +22,14 @@ table.fee-schd-table tr:last-child td{border-bottom-color: var(--Black-8); borde
     ul.fee-schd-links li a.current{background-color: var(--Gray); color: var(--Text-Gray);}
 }
 @media only screen and (min-width: 1024px){
+    .fee-schd-main{padding: 89px 0 79px;}
     .fee-schd-title{flex: 1;}
 }
 @media only screen and (min-width: 1440px){
     ul.fee-schd-links{width: 100%; padding-right: 0;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 810px){
-    .fee-schd-main{display: block;}
+    .fee-schd-main{display: block; padding: 60px 0;}
     .fee-schd-head{gap: 32px; flex-direction: column; align-items: flex-start;}
 }
 @media only screen and (max-width: 809px) and (min-width: 200px){
@@ -38,9 +38,9 @@ table.fee-schd-table tr:last-child td{border-bottom-color: var(--Black-8); borde
     .fee-schd-title h2{flex: 0 0 100%;}
     .fee-schd-effective{display: block;}
     .fee-schd-effective span{font-size: 16px;}
-    .fee-schd-btn{padding: 40px 0 24px;}
+    .fee-schd-btn{padding: 24px 0 24px;}
     .fee-schd-middle small{font-size: 12px; line-height: 150%;}
-    table.fee-schd-table{padding-top: 40px;}
+    table.fee-schd-table{padding-top: 22px;}
     table.fee-schd-table tr td{font-size: 14px; line-height: 150%;}
     hr.fee-schd-hr{opacity: 0.25; background-color: var(--Blue);}
 

@@ -27,7 +27,7 @@ ul.faqs-links li a.current i{opacity: 0; visibility: hidden;}
 
 /* media css starts here */
 @media only screen  and (min-width: 1024px){
-    .faqs-main{padding: 78px 0 18px; grid-template-columns: 350px auto;}
+    .faqs-main{padding: 78px 0 75px; grid-template-columns: 350px auto;}
     .faqs-text{padding-top: 2px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 810px){
@@ -40,11 +40,13 @@ ul.faqs-links li a.current i{opacity: 0; visibility: hidden;}
     ul.faqs-links li a{font-size: 16px;}
 }
 @media only screen and (max-width: 809px) and (min-width: 200px){
-    .faqs-main{padding: 41px 0 18px; display: block;}
+    .faqs-main{padding: 41px 0 40px; display: block;}
     .faqs-text{padding-bottom: 24px;}
     .faqs-text span.optional-text{font-size: 16px;}
     .faqs-text h1{font-size: 28px;}
     .faqs-text{font-size: 14px;}
     ul.faqs-links{margin: 0;}
     ul.faqs-links li a{font-size: 16px;}
+    .faqs-desc{margin-bottom: 24px;}
+    form.srch-faqs-form{margin-bottom: 20px;}
 }
