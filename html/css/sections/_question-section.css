@@ -1,0 +1,28 @@
+
+.question-text h2{margin-bottom: 27px;}
+.question-text hr{margin: 0 0 24px;}
+.question-booking-option{padding-top: 40px; border-top: 1px solid var(--Light-Gray); margin-top: 40px;}
+
+ul.question-booking-links{margin: 0 0 35px;}
+ul.question-booking-links li{margin: 0 0 9px;}
+ul.question-booking-links li::before{display: none;}
+ul.question-booking-links li a{color: var(--Black); gap: 8px;}
+ul.question-booking-links li a.mPS2id-clicked, ul.faqs-links li a:hover{color: var(--Blue);}
+ul.question-booking-links li a i{color: var(--Light-Brown);}
+ul.question-booking-links li a:hover i{transform: translateX(8px);}
+ul.question-booking-links li a.current{color: var(--Blue);}
+ul.question-booking-links li a.current i{opacity: 0; visibility: hidden;}
+
+.question-lists .accordion-header.open, .accordion-header.open:hover{border-color: var(--Light-Gray); border-bottom-color: transparent;}
+.question-lists .open .accordion-content{border-color: var(--Light-Gray); border-top-color: transparent; }
+
+.question-yellow .question-text hr{background-color: var(--Light-Brown);}
+.question-yellow .question-booking-option .h5{color: var(--Light-Brown);}
+.question-yellow .accordion-plus svg path{fill: var(--Light-Brown);}
+
+@media screen and (min-width: 1024px) {
+    .question-main{padding: 80px 0; gap: 80px;}
+    .question-text{flex: 0 0 350px;}
+    .question-lists{flex: 1;}
+    
+}
