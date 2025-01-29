@@ -134,10 +134,12 @@ body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparen
 body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparent.black-border:hover{border-color: var(--White); color: var(--Black);}
 
 .button.btn-navy-bg{background-color: var(--Navy);}
+.button.btn-yellow-bg{background-color: var(--Yellow-3);}
 
 .button.btn-white-bg.text-black{color: var(--Black);}
 .button.btn-white-bg.aquamarine-i i{color: var(--RF-Aquamarine);}
 .button.btn-white-bg.navy-i i{color: var(--Navy);}
+.button.btn-white-bg.yellow-i i{color: var(--Yellow-3);}
 .button.btn-white-bg.blue-i i{color: var(--Blue);}
 
 .button.btn-hover-blue::before{background: var(--Blue);}
@@ -402,6 +404,7 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 .black-bg{background-color: var(--Black);}
 .gray-bg{background: var(--Gray);}
 .navy-bg{background: var(--Navy);}
+.yellow-bg{background: var(--Yellow-3);}
 .blue-bg{background-color: var(--Blue);}
 .aquamarine-bg{background-color: var(--RF-Aquamarine);}
 .orange-tint-bg{background: var(--Orange-Tint-Bg);}
