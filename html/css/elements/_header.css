@@ -4,13 +4,14 @@ header.site-header{top: 0; left: 0; width: 100%; height: auto; transition: all 0
 header.white-header{border-bottom: 1px solid var(--Light-Gray); background: var(--White);}
 header.white-header ul.top-nav{display: none;}
 
-header.gray-header:not(.sticky-header)::before{width: 100%; height: 100%; top: 0; left: 0; position: absolute; content: ""; display: block; background-color: var(--Background-Gray); z-index: -1;}
- 
+header.gray-header::before{width: 100%; height: 100%; top: 0; left: 0; position: absolute; content: ""; display: block; background-color: var(--Background-Gray); z-index: -1; transition: all 0.5s ease;}
+header.gray-header.white-bg::before{background-color: var(--White); box-shadow: 0px 1px 0px var(--Light-Gray);} 
+
 .logo a{width: 100%; height: 100%; display: block; position: relative;} 
 .logo a img{width: 100%; object-fit: contain;}
 img.black-logo{top: 0; left: 0; position: absolute;}
-header.gray-header:not(.sticky-header) img.white-logo, img.black-logo{opacity: 0; visibility: hidden;}
-header.gray-header:not(.sticky-header) img.black-logo{opacity: 1; visibility: visible;}
+header.gray-header img.white-logo, img.black-logo{opacity: 0; visibility: hidden;}
+header.gray-header img.black-logo{opacity: 1; visibility: visible;}
 
 .header_btns .button.gray{color: var(--Navy);}
 .header_btns .button.gray:hover{color: var(--White);}
@@ -30,6 +31,8 @@ header.scrolly-header{transform: translateY(-100%);}
 .adsense_close{width: 46px; height: 46px; padding: 0; border-radius: 50%; }
 .top-stickybar{margin-top: 62px;}
 
+
+.hdr-user{top: 10px; right: 0;}
 
 
 /* media css starts here */
@@ -55,7 +58,7 @@ header.scrolly-header{transform: translateY(-100%);}
     ul.top-nav > li > a:hover i{color: var(--Blue);}
     ul.top-nav > li:first-child > a i{top: -0.75px; position: relative;}
 
-    header.gray-header:not(.sticky-header) ul.top-nav > li > a{color: var(--Black-75);}
+    header.gray-header ul.top-nav > li > a{color: var(--Black-75);}
 
     ul.top-nav > li > ul.lang{margin: 0; padding: 0.25rem 0.5rem 0.5rem; gap: 0.5rem; width: 100%; height: auto; overflow-y: auto; background-color: var(--White); border-top-left-radius: 0; border-top-right-radius: 0; flex-direction: column; position: absolute; z-index: 2; visibility: hidden; opacity: 0;}
     ul.top-nav > li:hover > ul.lang{visibility: visible; opacity: 1;}
@@ -66,11 +69,12 @@ header.scrolly-header{transform: translateY(-100%);}
    
     ul.top-nav > li > a.bhs{padding: 5px 6px 6px; font-weight: 700; background-color: var(--Black);}
     ul.top-nav > li > a.bhs img{top: 1px; position: relative;}
-    header.gray-header:not(.sticky-header) ul.top-nav > li > a.bhs{background-color: var(--White); color: var(--Black);}
-    header.sticky-header ul.top-nav > li > a.bhs{background-color: var(--White); color: var(--Black);}
-    
+    header.gray-header ul.top-nav > li > a.bhs{background-color: var(--White); color: var(--Black);}
+    header.white-bg ul.top-nav > li > a.bhs{background-color: var(--Background-Gray); color: var(--Black);}
+    header.white-bg ul.top-nav > li > ul.lang{background-color: var(--Background-Gray);}
+
     nav.navigation{padding-right: 49px; width: fit-content; margin-left: auto;}
-    
+    .white-header nav.navigation{padding-right: 96px;}
     
     ul.main_menu{margin: 0; gap: 0 24px; flex: 1; justify-content: flex-end;}
     ul.main_menu li::before{display: none;}
@@ -166,14 +170,22 @@ header.scrolly-header{transform: translateY(-100%);}
     li.nav-gradient-bar > a{padding: 20px; display: block; color: var(--White);}
 
     span.black-logo{display: none;}
-    span.black-logo img{max-width: 218px;}
-    header.gray-header:not(.sticky-header) span.white-logo{display: none;}
-    header.gray-header:not(.sticky-header) span.black-logo{display: block;}
+    span.black-logo img.vector{max-width: 60px;}
+    span.black-logo img.vector-text{max-width: 139px;}
+    header.gray-header span.white-logo{display: none;}
+    header.gray-header span.black-logo{display: flex; gap: 7px;}
     header.sticky-header span.black-logo{display: none;}
-    header.gray-header:not(.sticky-header) ul.main_menu > li > a{ color: var(--Black); }
-    header.gray-header:not(.sticky-header) ul.main_menu > li > a:hover{color: var(--Blue);}
-
-    header.white-header ul.main_menu > li > a{color: var(--Black);}
+    header.gray-header ul.main_menu > li > a{ color: var(--Black); }
+    header.gray-header ul.main_menu > li > a:hover{color: var(--Blue);}
+    
+    /*-- white header --*/
+    header.white-header span.black-logo{display: flex; }
+    header.white-header span.black-logo img.vector{max-width: 34px;}
+    header.white-header span.black-logo img.vector-text{display: none;}
+    header.white-header ul.main_menu{gap: 0 25px;}
+    header.white-header ul.main_menu > li > a{padding: 17px 0 16px; font-size: 16px; line-height: 22px; color: var(--Black);}
+    
+    /*-- white header --*/
 
     .site-black-top{padding-top: 72px;}
     .site-white-top{padding-top: 56px;}
@@ -209,9 +221,10 @@ header.scrolly-header{transform: translateY(-100%);}
 
 
     span.black-logo{display: none;}
-    span.black-logo img{max-width: 218px;}
-    header.gray-header:not(.sticky-header) span.white-logo{display: none;}
-    header.gray-header:not(.sticky-header) span.black-logo{display: block;}
+    span.black-logo img.vector{max-width: 60px;}
+    span.black-logo img.vector-text{max-width: 139px;}
+    header.gray-header span.white-logo{display: none;}
+    header.gray-header span.black-logo{display: block;}
     header.sticky-header span.black-logo{display: none;}
 
     .humburger-btn{width: 40px; height: 40px; left: 0; right: auto; top: 50%; transform: translateY(-50%); cursor: pointer; display: flex; z-index: 1; color: var(--Blue); }
@@ -285,8 +298,8 @@ header.scrolly-header{transform: translateY(-100%);}
     ul.main_menu > li.nav-products > ul > li > ul > li > ul{display: none;}
    
 
-    header.gray-header:not(.sticky-header) span.white-logo{display: none;}
-    header.gray-header:not(.sticky-header) span.black-logo{display: block;}
+    header.gray-header span.white-logo{display: none;}
+    header.gray-header span.black-logo{display: block;}
     header.sticky-header span.black-logo{display: none;}
 
     .nav-btn{ margin-top: -25px; z-index: -1; position: relative; }

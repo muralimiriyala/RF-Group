@@ -5,9 +5,12 @@
 
 a.text-link em, a.text-link:hover{color: var(--Blue);}
 .campaign-rt > h3:not(:first-child) {margin-top: 55px;}
-.campaign-rt .default-image-caption {
-    margin: 60px 0 50px;
-  }
+.campaign-rt .default-image-caption { margin: 60px 0 50px; }
+
+
+.campaign-lt:nth-child(1):nth-last-child(2){flex: 1;}
+
+
 @media only screen and (min-width: 1024px){
     .campaign-main{padding: 80px 0 230px;}
     .campaign-lt{flex: 0 0 350px;}

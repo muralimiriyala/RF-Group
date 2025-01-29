@@ -10,6 +10,12 @@ export const selectBox = {
     jQuery('.news-post-dropdown select').each(function () {
       jQuery(this).addClass('white-dropdown');
     });
+    jQuery('.have-questions-form select').each(function () {
+      jQuery(this).addClass('have-dropdown');
+    });
+    jQuery('.contact-form select').each(function () {
+      jQuery(this).addClass('contact');
+    });
     jQuery('select').selectBox({
       keepInViewport: false,
       menuSpeed: 'normal',

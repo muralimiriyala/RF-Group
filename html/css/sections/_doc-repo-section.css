@@ -13,9 +13,9 @@ ul.ui-years li{margin: 0;}
 ul.ui-years li::before{display: none;}
 ul.ui-years li a{padding: 16px; color: var(--Text-Gray); display: block;}
 ul.ui-years li a.current, ul.ui-years li a:hover{background-color: var(--Gray); color: var(--Black);}
-span.gary-line{width: 100%; height: 5px; top: auto; bottom: 0; display: block; background-color: var(--Gray);}
-a:hover span.gary-line{background-color: var(--Blue);}
-a.current span.gary-line{background-color: var(--RF-Orange);}
+span.gray-line{width: 100%; height: 5px; top: auto; bottom: 0; display: block; background-color: var(--Gray);}
+a:hover span.gray-line{background-color: var(--Blue);}
+a.current span.gray-line{background-color: var(--RF-Orange); display: none;}
 
 
 .doc-repo-lists{gap: 20px;}
@@ -39,6 +39,8 @@ ul.doc-repo-q{margin: 0; gap: 8px 16px;}
 ul.doc-repo-q li::before{width: 1px; height: calc(100% - 2px); left: -8px; top: 1px; opacity: 0.25;}
 ul.doc-repo-q li:first-child:before{display: none;}
 ul.doc-repo-q li{margin: 0;}
+ul.doc-repo-q li a{color: var(--Text-Gray);}
+ul.doc-repo-q li a:hover{color: var(--Blue);}
 
 
 /* media css starts here */

@@ -26,6 +26,8 @@ body .have-questions-form .frm_forms .frm_form_fields .frm_fields_container{gap:
 body .have-questions-form .frm_forms .frm_form_fields .frm_form_field input, body .have-questions-form .frm_forms .frm_form_fields .frm_form_field textarea,
 body .have-questions-form .selectBox-dropdown{color: var(--White); border-color: var(--White); background-color: var(--White-15); box-shadow: none;}
 body .have-questions-form .frm_forms .frm_form_fields .frm_form_field input:hover,
+body .have-questions-form .frm_forms .frm_form_fields .frm_form_field input:focus,
+body .have-questions-form .frm_forms .frm_form_fields .frm_form_field input:active,
 body .have-questions-form .frm_forms .frm_form_fields .frm_form_field input:not([type="file"]):not([type="range"]):not([readonly]):focus,
 body .have-questions-form .frm_forms .frm_form_fields .frm_form_field textarea:hover,
 body .have-questions-form .frm_forms .frm_form_fields .frm_form_field textarea:focus,
@@ -340,6 +342,7 @@ body .frm_forms .frm_filed_wrapper .frm_form_field.disclaimer-text{font-size: 16
      body .frm_forms .frm_form_fields .frm_new_flex .frm_form_field.frm_third{width: calc(34% - 8px); float: left; clear: none; margin-left: 8px;}
     body .frm_forms .frm_form_fields .frm_new_flex .frm_form_field.frm_third:nth-child(2){margin-left: 0;}
     
+    .have-questions-form #frm_field_51_container{margin: 0; padding: 0;}
     #frm_field_51_container {padding: 12px 0 39px; margin: 0 0 31px;}
     body .maxassist-demo-form #frm_field_51_container{margin: 0 0 20px; padding: 0;}
 
