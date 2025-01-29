@@ -1,16 +1,16 @@
 
-.modal-window{display: none; opacity: 0.75; width: 100%; height: 100%; top: 0; left: 0; position: fixed; background: var(--Black); backdrop-filter: blur(4px); z-index: 1200;}
-.modal-main{display: none; width: 100%; height: 100%; top: 0; left: 0; position: fixed; z-index: 1202; overflow-y: auto;}
+.modal-window{display: block; opacity: 0.75; width: 100%; height: 100%; top: 0; left: 0; position: fixed; background: var(--Black); backdrop-filter: blur(4px); z-index: 1200;}
+.modal-main{display: block; width: 100%; height: 100%; top: 0; left: 0; position: fixed; z-index: 1202; overflow-y: auto;}
 
 .modal-center{height: 100%;}
 .modal-container{max-width: 1000px; padding: 40px 40px 16px;}
-.modal-text{color: var(--Black); font-size: 1.25rem; font-weight: 400; line-height: 1.875rem;}
+.modal-text{color: var(--Text-Gray);}
 .modal-text .h2{margin-bottom: 8px; color: var(--Blue); font-size: 3rem; line-height: 3.75rem; font-weight: 800; letter-spacing: -0.48px; }
 .modal-close{ right: 8px; top: 8px; width: 40px; height: 40px; opacity: 0.5; background: var(--Gray-4); cursor: pointer; }
 .modal-close:hover{ opacity: 1; background: var(--Blue); }
 .modal-close svg path{transition: var(--b-transition);}
 .modal-close:hover svg path{fill: #fff;}
-body .modal-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{padding: 14px 24px 15px; width: 100%; font-size: 1.5rem; line-height: 1.5rem;}
+body .modal-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{width: 100%;}
 body .modal-form .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_radio{display: block; width: 100%;}
 body .modal-form .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_radio label{padding: 0; width: 100%; display: block; text-align: center; cursor: auto;}
 body .modal-form .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_radio label input{display: none !important;}
@@ -18,16 +18,24 @@ body .modal-form .frm_style_formidable-style.with_frm_style .frm_error_style{dis
 
 .modal-form-submitted{padding: 40px; min-width: 840px;}
 .modal-form-submitted .modal-form{padding-top: 27px;}
+body .modal-form .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_radio label{margin-top: -18px; font-size: 14px; line-height: 21px; display: block; color: var(--Text-Gray);}
 
 /*-- media css starts here --*/
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 810px){
     .modal-form{padding-top: 32px;}
+
+
     body .modal-form .frm_forms .frm_form_fields .frm_submit{padding-top: 8px;}
     body .modal-form .frm_forms .frm_form_fields .frm_form_field .frm_primary_label{display: none;}
-    body .modal-form .frm_forms .frm_form_fields .frm_form_field{margin-bottom: 24px;}
-    body .modal-form .frm_forms .frm_form_fields .frm_form_field.frm_submit_btn{margin-bottom: 17px;}
+    body .modal-form .frm_forms .frm_form_fields .frm_form_field.frm_submit_btn{}
 }
 @media only screen and (min-width: 1024px){
+    .modal-content{padding: 48px; gap: 48px;}
+    .modal-text{flex: 0 0 350px;}
+    .modal-text:nth-child(1):last-child{flex: 1;}
+    .modal-form{flex: 1;}
+    body .modal-form .frm_forms .frm_form_fields .frm_fields_container{gap: 26px;}
+    body .modal-form .frm_forms .frm_form_fields .frm_form_field.frm_half{width: calc(50% - 13px);}
 }
 @media screen and (max-width: 1023px) and (min-width: 200px){
     .modal-window{z-index: 9991200;}
