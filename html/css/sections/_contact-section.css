@@ -24,6 +24,7 @@ ul.contact-links > li:last-child{display: flex; gap: 12px; margin-bottom: 0;}
     .contact-left h1{font-size: 36px;}
 }
 @media only screen and (max-width: 809px) and (min-width: 200px){
-    .contact-main{display: block; padding: 40px 0;}
-    .contact-left{margin-bottom: 22px;}
+    .contact-main{display: block; padding: 35px 0 40px;}
+    .contact-left{margin-bottom: 22px; font-size: 14px; line-height: 21px;}
+    ul.contact-links{padding-top: 15px;}
 }
