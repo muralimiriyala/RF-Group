@@ -6,7 +6,7 @@ export const menu = {
   $tpages: [...document.querySelectorAll('body.page-template-about-bio')],
   $smallHeader: [
     ...document.querySelectorAll(
-      'body.page-template-about-history, body.page-template-about-team'
+      'body.page-template-tier3-fund-detail, body.page-template-tombostones, body.page-template-about-history, body.page-template-about-team'
     ),
   ],
   $gpages: [

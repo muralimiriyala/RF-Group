@@ -247,6 +247,7 @@ span.optional-text.fs-14{font-size: 14px; margin-bottom: 6px;}
 span.optional-text.white{color: var(--White);}
 span.optional-text.blue{color: var(--Blue);-webkit-text-fill-color: var(--Blue); opacity: 0.6; background: none;}
 span.optional-text.light-blue{color: var(--Light-Blue); }
+span.optional-text.text-red{color: var(--RF-Red); }
 span.optional-text.grey{color: var(--Gray);-webkit-text-fill-color: var(--Gray); opacity: 0.5; background: none; margin-bottom: 4px;}
 span.optional-text.large{font-size: 1.5rem; line-height: 1.875rem; margin-bottom: 23px;}
 span.optional-text.md{font-size: 1.25rem; line-height: 1.563rem; margin-bottom: 22px;}
@@ -265,6 +266,18 @@ span.optional-text.lg{margin-bottom: 8px; font-size: 1.125rem; line-height: 1.12
 .text-black.opa-50{color: var(--Black-50);}
 .text-blue{color: var(--Blue);}
 .text-red{color: var(--RF-Red);}
+.text-orange{color: var(--Rf-Orange-dark);}
+.text-orange a{color: var(--Rf-Orange-dark);}
+.text-orange a:hover{color: var(--Black);}
+<<<<<<< HEAD
+.text-black.hover-orange:hover{color: var(--RF-Orange);}
+=======
+
+.text-black.arrow-orange i{color: var(--RF-Orange);}
+.text-black.arrow-orange:hover{color: var(--RF-Orange);}
+
+>>>>>>> 269a65d8545015e9b3cbef1057df0fb8f084b6ae
+
 .text-upper{text-transform: uppercase;}
 .text-lower{text-transform: uppercase;}
 

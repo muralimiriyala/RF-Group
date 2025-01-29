@@ -14,8 +14,7 @@ button[type="submit"].srch-faqs-btn:hover{color: var(--Black);}
 ul.faqs-links{margin: 0 0 35px;}
 ul.faqs-links li{margin: 0 0 9px;}
 ul.faqs-links li::before{display: none;}
-ul.faqs-links li a{color: var(--Black); gap: 8px;}
-ul.faqs-links li a.mPS2id-clicked, ul.faqs-links li a:hover{color: var(--Blue);}
+ul.faqs-links li a{gap: 8px;}
 ul.faqs-links li a i{color: var(--Blue);}
 ul.faqs-links li a:hover i{transform: translateX(8px);}
 ul.faqs-links li a.current{color: var(--Blue);}
