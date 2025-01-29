@@ -90,6 +90,7 @@ ul.jumpto-links > li i{color: var(--RF-Red); font-size: 20px; width: 20px; line-
     .service-fund-details-wrap { padding: 32px 0; }
     .service-holdings-list {padding: 28px 12px 15px;}
     .service-holdings-list h3 { font-size: 28px; margin-bottom: 11px;}
+    .service-tier-block{min-height: 160px;}
 }
 
 
@@ -100,6 +101,7 @@ ul.jumpto-links > li i{color: var(--RF-Red); font-size: 20px; width: 20px; line-
     .service-tier-banner-lt h1{font-size: 28px; margin-bottom: 25px;}
     .service-tier-banner-lt p{margin-bottom: 24px;}
     .jumpto-main .jumpto-lt{display: none; }
+    .service-tier-banner-lt ul.breadcrumbs { margin: 0 0 22px; }
     .jumpto-main .jumpto-rt ul{display: none; }
     .service-tier-banner-btn { border: 1px solid var(--Text-Gray); cursor: pointer; justify-content: space-between; padding: 16px; transition: var(--b-transition); }
     .service-tier-banner-btn span{font-size: 16px; font-weight: 700; line-height: 150%; color: var(--Black)}
