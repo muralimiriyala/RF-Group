@@ -5,7 +5,9 @@ export const menu = {
   $login: document.querySelector('.user-login'),
   $tpages: [...document.querySelectorAll('body.page-template-about-bio')],
   $smallHeader: [
-    ...document.querySelectorAll('body.page-template-about-history'),
+    ...document.querySelectorAll(
+      'body.page-template-about-history, body.page-template-about-team'
+    ),
   ],
   $gpages: [
     ...document.querySelectorAll(
