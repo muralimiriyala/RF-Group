@@ -268,6 +268,9 @@ span.optional-text.lg{margin-bottom: 8px; font-size: 1.125rem; line-height: 1.12
 .text-orange a{color: var(--Rf-Orange-dark);}
 .text-orange a:hover{color: var(--Black);}
 
+.text-black.arrow-orange i{color: var(--RF-Orange);}
+.text-black.arrow-orange:hover{color: var(--RF-Orange);}
+
 
 .text-upper{text-transform: uppercase;}
 .text-lower{text-transform: uppercase;}
