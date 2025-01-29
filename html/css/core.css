@@ -54,7 +54,7 @@
 @import url('./sections/_side-by-side-section.css');
 @import url('./sections/_cta-investment-section.css');
 @import url('./sections/_fee-schedule-section.css');
-
+@import url('./sections/_open-mutual-funds-section.css');
 
 /*-- From page's css --*/
 @import url('./pages/about-team-bio.css');
