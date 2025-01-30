@@ -81,8 +81,9 @@ ul.fin-planning-item li > a:hover .fin-item-icon > em:last-child{opacity: 0;}
     .fin-planning-head{width: 100%; margin-bottom: 24px;}
     .fin-planning-desc{width: 100%;}
     .fin-planning-row{display: block;}
-    .fin-planning-list{width: 100%; padding: 16px 16px 16px 20px; margin-bottom: 8px;}
+    .fin-planning-list{width: 100%; padding: 32px 32px 30px 32px; margin-bottom: 24px;}
     .fin-planning-list:last-child{margin-bottom: 0;}
-    .fin-planning-list-head{margin-bottom: 0;}
+    .fin-planning-list-head{margin-bottom: 20px;}
+    .fin-planning-list-content{font-size: 14px; line-height: 21px;}
     ul.fin-planning-item li{margin: 0 0 8px;}
 }
