@@ -195,7 +195,7 @@
     </div>
 </footer>
 <!-- Modal Window starts here -->
-<div class="modal-window" style="display: block;"></div>
+<div class="modal-window"></div>
 <div class="modal-main" id="appointment">
 <div class="modal-center">
     <div class="modal-container m-auto radius-24 relative">
@@ -462,7 +462,7 @@
     </div>
 </div>
 </div>
-<div class="modal-main" id="cta" style="display: block;">
+<div class="modal-main" id="cta">
 <div class="modal-center">
     <div class="modal-container m-auto radius-24 relative">
         <div class="modal-close absolute flex flex-center transition">
@@ -476,21 +476,32 @@
                 <span class="animated-border absolute  bottom"></span>
                 <span class="animated-border absolute  left"></span>
             </div>
-            <div class="modal-content gap-80 flex white-bg"><!-- Done gloabally no need to copy each modal-window html, so just add conditin here based on id(or btn)  -->
-                <div class="modal-text modal-left fs-16">
+            <div class="modal-content reverse gap-80 flex white-bg"><!-- Done gloabally no need to copy each modal-window html, so just add conditin here based on id(or btn)  -->
+                <div class="modal-image repeater-hover relative">
+                    <div class="repeater-icon hide-tablet hide-mobile absolute">
+                        <svg class="repeater-icon-normal transition" width="120" height="160" viewBox="0 0 120 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.5 0.934258L119.099 80L0.5 159.066V0.934258Z" stroke="#D0D0CE"/>
+                        </svg>
+                        <svg class="repeater-icon-hover absolute transition" width="120" height="160" viewBox="0 0 120 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.5 0.934258L119.099 80L0.5 159.066V0.934258Z" stroke="#2772DB"/>
+                        </svg>
+                    </div>
+                    <picture class="object-fit">
+                        <img srcset="images/cta-image@2x.jpg" alt="">
+                    </picture>
+                    <div class="repeater-big-text hide-tablet hide-mobile background-bg z-2 flex flex-vcenter">
+                        <span class="fs-80 f-700 white-50 lh-100 relative transition-3">BIGTEXT</span>
+                    </div>
+                </div>
+                <div class="modal-left fs-16">
                     <span class="optional-text fs-14">CTA module</span>
-                    <div class="h3">Put your money to work.</div>
+                    <div class="h3 lh-115">Put your money to work.</div>
                     <hr class="visible 64" data-animate="64">
                     <p>Effect star underline plugin style asset distribute export list editor. Fill vertical bold selection overflow pixel align prototype fill.</p>
                     <div class="modal-gray-btns flex flex-col">
                         <a href="#" class="button fs-16 btn-hover-navy flex flex-vcenter">Make an appointment<i class="transition fs-16 fa-regular fa-calendar-plus" aria-hidden="true"></i></a>
                         <a href="" class="button fs-16 btn-gray-bg btn-hover-navy text-blue flex flex-vcenter">or schedule a callback<i class="transition fs-16 fa-sharp fa-regular fa-phone-volume" aria-hidden="true"></i></a>
                     </div>
-                </div>
-                <div class="modal-form">
-                    <picture>
-                        <img srcset="images/cta-image@2x.jpg" alt="">
-                    </picture>
                 </div>
             </div>
 
