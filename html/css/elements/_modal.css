@@ -20,7 +20,8 @@ body .modal-form .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm
 .modal-text ul{margin: 0 0 36px 24px;}
 .modal-text ul > li{margin-bottom: 6px;}
 .modal-text ul > li::before { color: var(--Blue); content: "\f058"; font-family: "Font Awesome 6 Pro"; font-size: 16px; left: -24px; width: auto; height: auto; background-color: transparent; top: 50%; transform: translateY(-50%); }
-
+.modal-gray-btns{padding: 7px; border: 1px solid var(--Blue);}
+.modal-gray-btns .button{gap: 8px; justify-content: space-between;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 810px){
@@ -30,6 +31,7 @@ body .modal-form .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm
 @media only screen and (min-width: 1024px){
     .modal-main{padding: 56px;}
     .modal-content{padding: 48px; gap: 48px;}
+    .modal-content.gap-80{gap: 80px;}
     .modal-text{flex: 0 0 350px;}
     .modal-text:nth-child(1):last-child{flex: 1;}
     .modal-form{flex: 1;}
