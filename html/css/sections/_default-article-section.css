@@ -52,11 +52,17 @@ aside.default-aside:nth-child(1):last-child{flex: 1;}
     .default-line-in{padding-right: 32px;}
     .sidebar-mgt-team:not(:last-child){margin-bottom: 40px;}
     .sidebar-gray-btns{margin-top: 40px;}
+    article.default-article .default-image-caption{margin-top: 40px;}
+    article.default-article .default-line-wrap{padding-bottom: 36px;}
+    article.default-article blockquote{margin-top: 30px;}
+    article.default-article .accordion-main{padding-bottom: 36px;}
+    article.default-article .accordion-main h3{padding-top: 11px;}
 }
 @media screen and (max-width: 1199px) and (min-width: 1024px){
     .default-article-main{gap: 60px;}   
     aside.default-aside{flex: 0 0 300px;}
-    .sidebar-gray-btns .button{flex-direction: column; gap: 8px;}
+    .sidebar-gray-blk{padding: 32px;}
+    .sidebar-gray-btns .button{font-size: 15px; gap: 8px;}
 }
 @media screen and (max-width: 1023px) and (min-width: 810px) {
     .default-article-main{padding: 61px 0 54px; display: block;}

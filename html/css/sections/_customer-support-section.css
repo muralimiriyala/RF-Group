@@ -15,7 +15,7 @@ ul.customer-links > li:last-child{display: flex; gap: 12px; }
 
 /* media css starts here */
 @media only screen  and (min-width: 1024px){
-    .customer-support-main{gap:0 78px;}
+    .customer-support-main{gap: 39px 78px;}
     .customer-support-list-3 { flex: 0 0 calc(33.333% - 52px); }
     .customer-support-list-2 { flex: 0 0 calc(50% - 39px); }
     ul.customer-links > li{ line-height: 100%; margin-bottom: 16px;}
@@ -26,7 +26,7 @@ ul.customer-links > li:last-child{display: flex; gap: 12px; }
     .customer-support-list-1 { flex: 1}
 }
 @media only screen and (max-width: 1199px) and (min-width: 1024px){
-    .customer-support-main { gap: 0 64px;}
+    .customer-support-main { gap: 32px 64px;}
     .customer-support-list-3 { flex: 0 0 calc(33.333% - 44px); }
     .customer-support-list-2 { flex: 0 0 calc(50% - 32px); }
 }
