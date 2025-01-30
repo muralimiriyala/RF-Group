@@ -82,6 +82,13 @@ hr[data-animate]{ margin: 0 0 16px; height: 2px; width: 0%; background-color: va
 hr[data-animate*='black']{background-color: var(--Black);}
 hr[data-animate*='white']{background-color: var(--White);}
 hr[data-animate*='aquamarine']{background-color: var(--RF-Aquamarine);}
+hr[data-animate*='red']{background-color: var(--RF-Red);}
+hr[data-animate*='navy']{background-color: var(--Navy);}
+hr[data-animate*='orange']{background-color: var(--RF-Orange);}
+hr[data-animate*='yellow']{background-color: var(--Yellow-3);}
+
+
+
 hr[data-animate*='aligncenter']{text-align:  center; margin-left: auto; margin-right: auto;}
 .purple hr[data-animate]{background-color: var(--RF-Purple);}
 hr[data-animate*="h-100"]{height: 100%;}

@@ -14,7 +14,7 @@
 .management-team-info h4{font-size: 24px; font-weight: 600; line-height: 125%; letter-spacing: -0.48px; margin-bottom: -3px;}
 .management-team-info span{font-size: 14px; color: var(--Text-Gray); font-weight: 400;}
 
-.management-team-info hr{ background-color: var(--Navy); border: none; border-radius: 1px; display: block; height: 2px; width: 64px; margin: 12px auto 12px;}
+.management-team-info hr{border: none; border-radius: 1px; display: block; margin: 12px auto 12px;}
 
 .management-section{background-image: linear-gradient(to top,var(--White) calc(100% - var(--top-value)), var(--Gray) var(--top-value));}
 .management-section.white-off{background-image: linear-gradient(to top,var(--Gray) calc(100% - var(--top-value)), var(--White) var(--top-value));}
