@@ -7,9 +7,9 @@
 
 .repeater-icon svg{width: 100%; height: 100%; object-fit: cover;}
 svg.repeater-icon-hover{top: 0; left: 0; opacity: 0;}
-.repeater-list:hover svg.repeater-icon-hover{opacity: 1; transform: translateX(40px);}
+.repeater-list:hover svg.repeater-icon-hover, .repeater-hover:hover svg.repeater-icon-hover{opacity: 1; transform: translateX(40px);}
 .repeater-big-text span{left: 112px; opacity: 0;}
-.repeater-list:hover .repeater-big-text span{left: calc(50% + 37px); transform: translateX(-50%); opacity: 1;}
+.repeater-list:hover .repeater-big-text span, .repeater-hover:hover .repeater-big-text span{left: calc(50% + 37px); transform: translateX(-50%); opacity: 1;}
 .repeater-desc ul {margin: 0 0 28px 14px;}
 .repeater-desc ul > li::before{background-color: var(--Blue); height: 6px; width: 6px; border-radius: 8px; left: -14px; top: 10px;}
 

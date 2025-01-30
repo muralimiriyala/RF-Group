@@ -21,19 +21,26 @@ body .modal-form .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm
 .modal-text ul > li{margin-bottom: 6px;}
 .modal-text ul > li::before { color: var(--Blue); content: "\f058"; font-family: "Font Awesome 6 Pro"; font-size: 16px; left: -24px; width: auto; height: auto; background-color: transparent; top: 50%; transform: translateY(-50%); }
 
+.modal-image .repeater-icon{left: -40px;}
+.modal-image:hover .repeater-icon svg.repeater-icon-hover{transform: translateX(20px);}
+.modal-gray-btns{padding: 7px; margin-top: 32px; border: 1px solid var(--Blue);}
+.modal-gray-btns .button{gap: 8px; justify-content: space-between;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 810px){
+    .modal-left span.optional-text.fs-14{margin-bottom: 19px;}
     body .modal-form .frm_forms .frm_form_fields .frm_submit{padding-top: 8px;}
     body .modal-form .frm_forms .frm_form_fields .frm_form_field .frm_primary_label{display: none;}
 }
 @media only screen and (min-width: 1024px){
     .modal-main{padding: 56px;}
     .modal-content{padding: 48px; gap: 48px;}
+    .modal-content.gap-80{gap: 80px;}
     .modal-text{flex: 0 0 350px;}
     .modal-text:nth-child(1):last-child{flex: 1;}
-    .modal-form{flex: 1;}
-    .modal-text.modal-left{flex: 0 0 254px;}
+    .modal-content.reverse{flex-direction: row-reverse;}
+    .modal-left{flex: 0 0 254px;}
+    .modal-form, .modal-image{flex: 1;}
     body .modal-form .frm_forms .frm_form_fields .frm_fields_container{gap: 26px;}
     body .modal-form .frm_forms .frm_form_fields .frm_form_field.frm_half{width: calc(50% - 13px);}
     body .modal-form .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_radio label{margin-top: -18px;}
@@ -54,23 +61,27 @@ body .modal-form .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm
     .modal-text{padding-bottom: 40px;}
     body .modal-form .frm_forms .frm_form_fields .frm_fields_container{gap: 26px;}
     body .modal-form .frm_forms .frm_form_fields .frm_form_field.frm_half{width: calc(50% - 13px);}
+    .modal-image{margin-bottom: 60px;}
 }
 @media screen and (max-width: 809px) and (min-width: 200px){
     .modal-form{padding-top: 13px;}
-    .modal-main{display: block; padding: 12px;}
+    .modal-main{padding: 12px;}
     .modal-container{padding: 12px; max-width: 100%; height: auto; margin: 0; border-radius: 0; min-width: 100%;}
     .modal-content{padding: 22px 19px 20px; display: block;}
     .modal-text{font-size: 14px; line-height: 21px;}
     .modal-text ul{margin: 0 0 0 24px;}
     .modal-text .h2{font-size: 2rem; line-height: 2.5rem; letter-spacing: -0.32px;}
+    
     body .modal-form .frm_forms .frm_form_fields .frm_fields_container{gap: 10px;}
-
     body .modal-form .frm_forms .frm_form_fields .frm_form_field.vertical_radio{margin-bottom: 0;}
-
     body .modal-form .frm_forms .frm_form_fields .frm_submit{padding-top: 9px;}
     body .modal-form .frm_forms .frm_form_fields .frm_form_field .frm_primary_label{display: none;}
     body .modal-form .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_primary_label{display: none;}
     body .modal-form .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_radio label{opacity: 0.75;}
+
+    .modal-image{margin-bottom: 21px;}
+    .modal-left span.optional-text{font-size: 18px;}
+    .modal-left .h3{font-size: 32px;}
 }
 @media screen and (max-width: 389px) and (min-width: 200px){
     body .modal-form .form_field_wrapper{display: block;}
