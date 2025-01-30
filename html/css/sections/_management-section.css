@@ -18,8 +18,7 @@
 
 .management-section{background-image: linear-gradient(to top,var(--White) calc(100% - var(--top-value)), var(--Gray) var(--top-value));}
 .management-section.white-off{background-image: linear-gradient(to top,var(--Gray) calc(100% - var(--top-value)), var(--White) var(--top-value));}
-.management-team-info a{color: var(--Black); font-weight: 700; font-size: 16px; line-height: 150%;}
-.management-team-info a:hover{color: var(--Blue);}
+.management-team-info a{font-weight: 700; font-size: 16px; line-height: 150%;}
 
 .page-template-about .management-section { background-image: linear-gradient(to top,var(--Gray) calc(100% - var(--top-value)),var(--White) var(--top-value)); }
 

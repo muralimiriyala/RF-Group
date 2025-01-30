@@ -274,6 +274,10 @@ span.optional-text.lg{margin-bottom: 8px; font-size: 1.125rem; line-height: 1.12
 .text-orange a{color: var(--Rf-Orange-dark);}
 .text-orange a:hover{color: var(--Black);}
 .text-black.hover-orange:hover{color: var(--RF-Orange);}
+.text-black.hover-navy:hover{color: var(--Navy);}
+.text-black.hover-yellow:hover{color: var(--Yellow-3);}
+.text-black.hover-aquamarine:hover{color: var(--RF-Aquamarine);}
+.text-black.hover-red:hover{color: var(--RF-Red);}
 .text-light-orange{color: var(--RF-Orange)}
 
 .text-black.arrow-orange i{color: var(--RF-Orange);}
