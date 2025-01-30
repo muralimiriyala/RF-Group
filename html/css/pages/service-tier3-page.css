@@ -34,7 +34,7 @@
     .service-year-list h2 { font-size: 40px;}
 }
 @media only screen and (max-width: 809px) and (min-width: 200px){
-    .service-years-main{padding: 40px 0; display: block;}
+    .service-years-main{padding: 48px 0 40px; display: block;}
     .service-year-aside{margin-bottom: 24px;}
     .service-year h2{display: none;}
     .service-years-company {flex:  0 0 260px;}

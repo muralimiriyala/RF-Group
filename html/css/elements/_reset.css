@@ -267,14 +267,11 @@ span.optional-text.lg{margin-bottom: 8px; font-size: 1.125rem; line-height: 1.12
 .text-orange{color: var(--Rf-Orange-dark);}
 .text-orange a{color: var(--Rf-Orange-dark);}
 .text-orange a:hover{color: var(--Black);}
-<<<<<<< HEAD
 .text-black.hover-orange:hover{color: var(--RF-Orange);}
-=======
 
 .text-black.arrow-orange i{color: var(--RF-Orange);}
 .text-black.arrow-orange:hover{color: var(--RF-Orange);}
 
->>>>>>> 269a65d8545015e9b3cbef1057df0fb8f084b6ae
 
 .text-upper{text-transform: uppercase;}
 .text-lower{text-transform: uppercase;}
