@@ -144,6 +144,7 @@ body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparen
 body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparent.black-border::before{background: var(--White);}
 body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparent.black-border:hover{border-color: var(--White); color: var(--Black);}
 
+.button.btn-gray-bg{background-color: var(--Background-Gray);}
 .button.btn-navy-bg{background-color: var(--Navy);}
 .button.btn-yellow-bg{background-color: var(--Yellow-3);}
 
