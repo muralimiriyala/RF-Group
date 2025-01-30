@@ -114,5 +114,6 @@ table.fees-expenses-table tr:nth-child(n+4) td:first-child{padding-left: 32px;}
     .fund-detail-report-aside .doc-form-desc + hr{margin: 0 0 24px;}
 
     .fees-expenses-main {padding: 40px 0 66px; display: block;}
+   
 
 }
