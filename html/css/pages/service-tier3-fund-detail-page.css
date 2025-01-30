@@ -1,6 +1,6 @@
 .asset-performance-main{padding: 80px 0 104px; gap: 80px;}
 .asset-performance-lt{flex: 0 0 350px;}
-.asset-performance-rt{flex: 0 0 calc(100% - 430px); padding: 40px; border: 2px solid var(--Background-Gray);}
+.asset-performance-rt{flex: 1; padding: 40px; border: 2px solid var(--Background-Gray);}
 .asset-performance-head h2{margin-bottom: 35px;}
 .asset-performance-icon{width: 23px; height: 20px;}
 .asset-performance-lists{gap: 16px}
@@ -90,8 +90,10 @@ table.fees-expenses-table tr:nth-child(n+4) td:first-child{padding-left: 32px;}
 
     .asset-performance-main {padding: 40px 0 66px; display: block;}
     .asset-performance-head h2 { margin-bottom: 16px; }
-    .asset-performance-btn{border: 1px solid var(--Text-Gray); cursor: pointer; justify-content: space-between; padding: 16px; transition: var(--b-transition); background-color: var(--Background-Gray);}
-    .asset-performance-btn .asset-performance-report{display: flex; justify-content: space-between; align-items: center;}
+    .asset-performance-btn{border: 1px solid var(--Text-Gray); cursor: pointer; padding: 16px; transition: var(--b-transition); background-color: var(--Background-Gray);}
+    .asset-performance-btn-left{padding-right: 32px; gap: 8px;}
+    .asset-performance-btn i{top: 50%; right: 16px; transform: translateY(-50%);}
+  
     .asset-performance-report i{font-size: 20px; width: 20px; height: 20px;}
     .asset-performance-report-lt{display: flex; align-items: center; gap: 8px;}
     .asset-performance-lt{margin-bottom: 24px;}

@@ -33,6 +33,7 @@ body .modal-form .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm
     .modal-text{flex: 0 0 350px;}
     .modal-text:nth-child(1):last-child{flex: 1;}
     .modal-form{flex: 1;}
+    .modal-text.modal-left{flex: 0 0 254px;}
     body .modal-form .frm_forms .frm_form_fields .frm_fields_container{gap: 26px;}
     body .modal-form .frm_forms .frm_form_fields .frm_form_field.frm_half{width: calc(50% - 13px);}
     body .modal-form .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_radio label{margin-top: -18px;}

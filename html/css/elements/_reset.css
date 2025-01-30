@@ -151,6 +151,7 @@ body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparen
 .button.btn-white-bg.aquamarine-i i{color: var(--RF-Aquamarine);}
 .button.btn-white-bg.navy-i i{color: var(--Navy);}
 .button.btn-white-bg.yellow-i i{color: var(--Yellow-3);}
+.button.btn-white-bg.orange-i i{color: var(--Yellow-3);}
 .button.btn-white-bg.blue-i i{color: var(--Blue);}
 
 .button.btn-hover-blue::before{background: var(--Blue);}
