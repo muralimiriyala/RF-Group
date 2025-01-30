@@ -76,6 +76,15 @@ table.fees-expenses-table tr:nth-child(n+4) td:first-child{padding-left: 32px;}
     .asset-performance-lists{flex-direction: row; gap:  32px;}
     .asset-performance-list{flex: 0 0 calc(50% - 20px);}
 
+    .fund-detail-report-main { padding: 40px 0 64px; }
+    .fund-detail-report-aside ul.faqs-links{display: flex; flex-wrap: wrap; gap: 24px;}
+    .fund-detail-report-aside ul.faqs-links li{margin: 0;}
+    .fund-detail-report-aside ul.faqs-links + hr{margin-top: 38px;}
+    .fund-detail-report-main { gap: 40px;}
+
+    .fees-expenses-main { padding: 40px 0 74px; display: block;}
+    .fees-expenses-lt{margin-bottom: 40px;}
+
 }
 
 @media only screen and (max-width: 809px) and (min-width: 200px){
