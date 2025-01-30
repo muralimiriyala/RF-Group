@@ -93,9 +93,21 @@ table.fees-expenses-table tr:nth-child(n+4) td:first-child{padding-left: 32px;}
     .asset-performance-head h2 { margin-bottom: 16px; }
     .asset-performance-btn{border: 1px solid var(--Text-Gray); cursor: pointer; justify-content: space-between; padding: 16px; transition: var(--b-transition);}
 
-    table.fees-expenses-table{padding-top: 40px;}
+    table.fees-expenses-table{padding-top: 10px;}
     table.fees-expenses-table tr td{font-size: 14px; line-height: 150%;}
 
+    .fund-detail-report-main {padding: 40px 0; display: block;}
+    .fund-detail-report-article .doc-form-title h2{font-size: 32px;}
+    .fund-detail-report-article .doc-form-report span { margin-bottom: 8px; display: block; line-height: 100%;}
+    .fund-detail-report-article .doc-repo-title h2{font-size: 32px;}
+    .fund-detail-report-article .doc-repo-head {gap: 20px;}
+    .fund-detail-report-article ul.ui-years li a { padding: 12px 20px; }
+    .fund-detail-report-article ul.ui-years {justify-content: space-between};
+    .fund-detail-report-article ul.faqs-links{margin: 24px 0 40px;}
 
+    .fund-detail-report-aside .doc-form-desc h2{margin-bottom: 29px;}
+    .fund-detail-report-aside .doc-form-desc + hr{margin: 0 0 24px;}
+
+    .fees-expenses-main {padding: 40px 0 66px; display: block;}
 
 }

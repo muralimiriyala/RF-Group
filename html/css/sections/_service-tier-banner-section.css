@@ -115,11 +115,11 @@ ul.jumpto-links > li i{ font-size: 20px; width: 20px; line-height: 100%; height:
     .service-tier-banner-lt p{margin-bottom: 24px; font-size: 18px;}
     .jumpto-main .jumpto-lt{display: none; }
     ul.service-tier-order { margin: 0 0 22px; gap: 0; flex-wrap: nowrap; }
-    ul.service-tier-order li{overflow: hidden; white-space: nowrap; text-overflow: ellipsis; position: relative;}
-    ul.service-tier-order li:first-child{min-width: 120px;}
+    ul.service-tier-order li{overflow: hidden; white-space: nowrap; text-overflow: ellipsis; position: relative; font-size: 16px;}
+    ul.service-tier-order li:first-child{min-width: 112px;}
     ul.service-tier-order li::before{left: 4px;}
     ul.service-tier-order li a{text-overflow: ellipsis; overflow: hidden;}
-    ul.service-tier-order li:not(:first-child){padding-left: 13px;}
+    ul.service-tier-order li:not(:first-child){padding-left: 17px;}
     .jumpto-main .jumpto-rt ul{display: none; }
     .service-tier-banner-btn { border: 1px solid var(--Text-Gray); cursor: pointer; justify-content: space-between; padding: 16px; transition: var(--b-transition); }
     .service-tier-banner-btn span{font-size: 16px; font-weight: 700; line-height: 150%; color: var(--Black)}
@@ -142,6 +142,9 @@ ul.jumpto-links > li i{ font-size: 20px; width: 20px; line-height: 100%; height:
       .service-holdings-wrap h2 {font-size: 24px;}
       .service-holdings-list {flex: 0 0 160px;}
 
-      .service-fund-row{flex-wrap: nowrap; overflow-x: auto; overflow-y: hidden; width: calc(100% + 24px); padding-right: 24px; -ms-overflow-style: none; scrollbar-width: none;}
+      .service-fund-row{flex-wrap: nowrap; overflow-x: auto; overflow-y: hidden; width: calc(100% + 16px); padding-right: 16px; -ms-overflow-style: none; scrollbar-width: none; gap: 16px}
       .service-fund-row::-webkit-scrollbar{display: none;}
+
+      .service-holdings-row{flex-wrap: nowrap; overflow-x: auto; overflow-y: hidden; width: calc(100% + 16px); padding-right: 16px; -ms-overflow-style: none; scrollbar-width: none; gap: 16px}
+      .service-holdings-row::-webkit-scrollbar{display: none;}
 }
