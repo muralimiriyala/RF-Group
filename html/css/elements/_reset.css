@@ -122,6 +122,10 @@ hr.sm-line{background-color: var(--Blue); height: 2px; border-radius: 1px; margi
 .button.transparent::before, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparent::before{background: var(--Blue);}
 .button.transparent:hover, .frm_submit button.frm_button_submit.transparent:hover, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparent:hover{color: var(--White);}
 
+.button.border-orange{border-color: var(--RF-Orange);}
+.button.border-orange::before{background-color: var(--RF-Orange);}
+
+
 .button.btn-white-bg{background: var(--White); color: var(--Blue);}
 .button.btn-white-bg::before{background: var(--Blue);}
 .button.btn-white-bg:hover{color: var(--White);}
@@ -429,6 +433,8 @@ button.slick-arrow:hover{background-color: var(--Blue);}
 button.slick-arrow.slick-disabled{pointer-events: none; background: rgba(0, 0, 0, 0.20);}
 span.slick-prev-arrow{ transform: scaleX(-1); }
 
+button.slick-arrow:not(.slick-disabled).orange{background-color: var(--RF-Orange);}
+
 button.slick-arrow::before{display: none;}
 button.slick-arrow.slick-next { order: 3; }
 
@@ -438,6 +444,7 @@ ul.slick-dots:not(.pagination) li.slick-active{background-color: var(--Blue); bo
 ul.slick-dots:not(.pagination) li::before{display: none;}
 ul.slick-dots:not(.pagination) li button{display: none; padding: 0;}
 
+ul.slick-dots.orange:not(.pagination) li.slick-active{background-color: var(--RF-Orange); border-color: var(--RF-Orange);}
 
 .book-demo-btn{border-radius: 28px; background: rgba(165, 24, 144, 0.10); display: inline-flex; width: fit-content; padding: 4px 20px 4px 4px; gap: 16px;}
 .book-demo-btn .button{line-height: 1.125rem;}

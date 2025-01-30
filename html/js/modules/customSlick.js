@@ -9,6 +9,7 @@ export const myslick = {
   $carousel: document.querySelectorAll('.carousel-slider-main'),
   $carouselNext: document.querySelectorAll('.carousel-slider-next'),
   $carouselPrev: document.querySelectorAll('.carousel-slider-prev'),
+  $mutualele: document.querySelectorAll('.open-mutual-fund-row'),
   init() {
     const _$ = this;
 
@@ -105,10 +106,6 @@ export const myslick = {
           : '';
       });
     }
-    window.onresize = function () {
-      historydestroySlider();
-      historyinitSlider();
-    };
 
     // carousel slider starts here //
     _$.$carousel.forEach((ele) => {
@@ -164,5 +161,54 @@ export const myslick = {
       }
     });
     // carousel slider ends here //
+
+    // mutual slider starts here //
+    const $mutualSliderMain = $(_$.$mutualele);
+    function mutualinitSlider() {
+      $mutualSliderMain.each(function () {
+        const $mutualSlider = $(this);
+        const mutualAppend = $mutualSlider
+          .parent()
+          .children('.mutual-fund-appends');
+        if (window.matchMedia('(max-width: 809px)').matches) {
+          if (!$mutualSlider.hasClass('slick-initialized')) {
+            $mutualSlider.slick({
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              arrows: true,
+              prevArrow:
+                '<button type="button" aria-label="previous" aria-disabled="false" tabindex="0" class="slick-arrow orange slick-prev flex flex-center"><span class="slick-arrows slick-prev-arrow fa-solid fa-chevron-right"></span></button>',
+              nextArrow:
+                '<button type="button" aria-label="previous" aria-disabled="false" tabindex="0" class="slick-arrow orange slick-next flex flex-center"><span class="slick-arrows slick-next-arrow fa-solid fa-chevron-right"></span></button>',
+              dots: true,
+              speed: 1000,
+              infinite: false,
+              autoplay: false,
+              variableWidth: true,
+              appendArrows: mutualAppend,
+              appendDots: mutualAppend,
+              dotsClass: 'slick-dots orange mutual-slick-dots flex',
+            });
+          }
+        }
+      });
+    }
+    mutualinitSlider();
+    function mutualdestroySlider() {
+      $mutualSliderMain.each(function () {
+        const $this = $(this);
+        $(window).width() >= 810 && $this.hasClass('slick-initialized')
+          ? $this.slick('unslick')
+          : '';
+      });
+    }
+    // mutual slider ends here //
+
+    window.onresize = function () {
+      historydestroySlider();
+      historyinitSlider();
+      mutualdestroySlider();
+      mutualinitSlider();
+    };
   },
 };
