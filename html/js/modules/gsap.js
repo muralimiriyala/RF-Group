@@ -21,6 +21,8 @@ export const gsapanim = {
         );
       });
       ele.tl = tl;
+      alert('tete');
+      console.log(ele.tl, 'teetetette');
     });
   },
 };
