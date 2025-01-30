@@ -1,7 +1,6 @@
 
 .question-text h2{margin-bottom: 27px;}
 .question-text hr{margin: 0 0 24px;}
-.question-booking-option{padding-top: 40px; border-top: 1px solid var(--Light-Gray); margin-top: 40px;}
 
 ul.question-booking-links{margin: 0 0 35px;}
 ul.question-booking-links li{margin: 0 0 9px;}
@@ -20,9 +19,29 @@ ul.question-booking-links li a.current i{opacity: 0; visibility: hidden;}
 .question-yellow .question-booking-option .h5{color: var(--Light-Brown);}
 .question-yellow .accordion-plus svg path{fill: var(--Light-Brown);}
 
+
 @media screen and (min-width: 1024px) {
     .question-main{padding: 80px 0; gap: 80px;}
     .question-text{flex: 0 0 350px;}
     .question-lists{flex: 1;}
+    .question-booking-option{padding-top: 40px; border-top: 1px solid var(--Light-Gray); margin-top: 40px;}
+    
+}
+
+@media screen and (max-width: 1023px) and (min-width: 200px) {
+    .question-main{padding: 64px 0;}
+    .question-text{margin-bottom: 40px;}
+    .question-text > p:last-of-type{margin-bottom: 0;}
+    .question-lists{margin-bottom: 40px;}
+    .question-lists .accordion-main{padding-bottom: 0;}
+    .question-lists .accordion-list{margin-bottom: 16px;}
+    .question-lists .accordion-list:last-child{margin-bottom: 0;}
+    ul.question-booking-links{margin-bottom: 0;}
+}
+@media screen and (max-width: 809px) and (min-width: 200px) {
+    .question-main{padding: 40px 0;}
+    .question-text{margin-bottom: 24px;}
+    .question-lists{margin-bottom: 24px;}
+    
     
 }
