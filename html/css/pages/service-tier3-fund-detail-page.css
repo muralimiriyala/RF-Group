@@ -76,6 +76,8 @@ table.fees-expenses-table tr:nth-child(n+4) td:first-child{padding-left: 32px;}
     .asset-performance-lists{flex-direction: row; gap:  32px;}
     .asset-performance-list{flex: 0 0 calc(50% - 20px);}
 
+    .fund-detail-report-aside ul.faqs-links{display: flex; flex-wrap: wrap; gap: 24px;}
+    .fund-detail-report-aside ul.faqs-links li{margin: 0;}
 }
 
 @media only screen and (max-width: 809px) and (min-width: 200px){
