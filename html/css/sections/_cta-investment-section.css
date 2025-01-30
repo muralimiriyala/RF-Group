@@ -44,6 +44,7 @@
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
   .cta-investment-text h2{font-size: 28px;}
   .cta-investment-arrow{font-size: 54px;}
+  .cta-investment-form{flex: 0 0 470px;}
   .cta-investment-form label{font-size: 20px;}
   .investment-field label{font-size: 16px; line-height: 100%;}
 }
