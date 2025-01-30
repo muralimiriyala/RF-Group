@@ -10,13 +10,23 @@
 .calculator-intro-icon-inner{height: 128px; padding: 24px; width: 128px;}
 .calculator-intro-icon-inner svg{max-width: 80px; max-height: 80px;}
 .calculator-intro-rect{clip-path: polygon(0 0,100% 100%,100% 0);}
-.calculator-intro-line{top: 0; display: block; height: 262px; right: 40px; width: 2px;}
+.calculator-intro-line{top: 0; display: block; height: 262px; right: -2px; width: 2px;}
 .intro-yellow .calculator-intro-line{background-color: var(--Yellow-3);}
+
 
 
 
 @media screen and (min-width: 1024px) {
     .calculator-intro-main{padding: 80px 0; gap: 80px;}
-    .calculator-intro-content{flex: 1;}
-    .calculator-intro-icon{flex: 0 0 170px; padding-right: 40px;}
+    .calculator-intro-content{width: 100%; padding-right: 250px;}
+    .calculator-intro-icon{right: 42px; top: 0;}
+}
+
+@media screen and (min-width: 810px) {
+    .calculator-intro-content{position: relative;}
+}
+@media screen and (max-width: 1023px) and (min-width: 810px){
+    .calculator-intro-content{width: 100%; padding-right: 250px;}
+    .calculator-intro-icon{right: 42px; top: 0;}
+
 }

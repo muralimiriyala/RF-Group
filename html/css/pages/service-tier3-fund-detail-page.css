@@ -44,7 +44,7 @@ ul.faqs-links.RF-Orange li a i{color: var(--RF-Orange);} */
 .fees-expenses-lt hr{background-color: var(--RF-Orange); margin-bottom: 24px;}
 table.fees-expenses-table{ margin: 0; border: none;}
 table.fees-expenses-table tr:nth-child(odd){background-color: var(--Background-Gray);}
-table.fees-expenses-table tr td{padding: 10px 16px 9px; border-bottom: 1px solid var(--Light-Gray); color: var(--Black);}
+table.fees-expenses-table tr td{padding: 10px 16px 9px; border-bottom: 1px solid var(--Light-Gray);}
 table.fees-expenses-table tr:nth-child(odd) td{background-color: transparent;}
 table.fees-expenses-table tr td:nth-child(1) strong{color: var(--Black);}
 table.fees-expenses-table tr:first-child td{border-top: 1px solid var(--Light-Gray);}
@@ -88,12 +88,18 @@ table.fees-expenses-table tr:nth-child(n+4) td:first-child{padding-left: 32px;}
 
 @media only screen and (max-width: 809px) and (min-width: 200px){
 
-    .asset-performance-main {padding: 40px 0;}
+    .asset-performance-main {padding: 40px 0 66px; display: block;}
     .asset-performance-head h2 { margin-bottom: 16px; }
-    .asset-performance-btn{border: 1px solid var(--Text-Gray); cursor: pointer; justify-content: space-between; padding: 16px; transition: var(--b-transition);}
+    .asset-performance-btn{border: 1px solid var(--Text-Gray); cursor: pointer; justify-content: space-between; padding: 16px; transition: var(--b-transition); background-color: var(--Background-Gray);}
+    .asset-performance-btn .asset-performance-report{display: flex; justify-content: space-between; align-items: center;}
+    .asset-performance-report i{font-size: 20px; width: 20px; height: 20px;}
+    .asset-performance-report-lt{display: flex; align-items: center; gap: 8px;}
+    .asset-performance-lt{margin-bottom: 24px;}
 
     table.fees-expenses-table{padding-top: 10px;}
-    table.fees-expenses-table tr td{font-size: 14px; line-height: 150%;}
+    table.fees-expenses-table tr td{font-size: 16px; line-height: 150%;}
+    table.fees-expenses-table tr td:first-child{width: 170px; line-height: 100%;}
+    table.fees-expenses-table tr:nth-child(n+4) td:nth-child(2){padding-left: 20px;}
 
     .fund-detail-report-main {padding: 40px 0; display: block;}
     .fund-detail-report-article .doc-form-title h2{font-size: 32px;}
@@ -108,5 +114,6 @@ table.fees-expenses-table tr:nth-child(n+4) td:first-child{padding-left: 32px;}
     .fund-detail-report-aside .doc-form-desc + hr{margin: 0 0 24px;}
 
     .fees-expenses-main {padding: 40px 0 66px; display: block;}
+   
 
 }
