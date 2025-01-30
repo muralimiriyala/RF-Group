@@ -101,8 +101,8 @@ ul.side-by-links li::before{display: none;}
     .side-by-bg{position: relative;}
     .side-by-text{text-align: left; padding-bottom: 19px;}
     ul.side-by-links{gap: 16px; flex-direction: column;}
-    .side-by-head{gap: 20px; flex-direction: row;}
+    .side-by-head{gap: 20px; padding-bottom: 13px; flex-direction: row;}
     .side-by-title{flex: 1;}
-    .side-by-title span.optional-text{margin-bottom: 0;}
+    .side-by-title span.optional-text{margin-bottom: 5px;}
     .side-by-title h2{margin: 0;}
 }
