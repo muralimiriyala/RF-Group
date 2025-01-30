@@ -279,6 +279,8 @@ span.optional-text.lg{margin-bottom: 8px; font-size: 1.125rem; line-height: 1.12
 .text-black.opa-50{color: var(--Black-50);}
 .text-blue{color: var(--Blue);}
 .text-red{color: var(--RF-Red);}
+.text-pure-red{color: var(--Pure-Red);}
+.text-pure-green{color: var(--Pure-Green)}
 .text-orange{color: var(--Rf-Orange-dark);}
 .text-orange a{color: var(--Rf-Orange-dark);}
 .text-orange a:hover{color: var(--Black);}
