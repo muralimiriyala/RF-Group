@@ -99,6 +99,7 @@ table.fees-expenses-table tr:nth-child(n+4) td:first-child{padding-left: 32px;}
     table.fees-expenses-table{padding-top: 10px;}
     table.fees-expenses-table tr td{font-size: 16px; line-height: 150%;}
     table.fees-expenses-table tr td:first-child{width: 170px; line-height: 100%;}
+    table.fees-expenses-table tr:nth-child(n+4) td:nth-child(2){padding-left: 20px;}
 
     .fund-detail-report-main {padding: 40px 0; display: block;}
     .fund-detail-report-article .doc-form-title h2{font-size: 32px;}
