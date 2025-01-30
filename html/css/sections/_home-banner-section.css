@@ -50,16 +50,17 @@
 }
 @media screen and (max-width: 809px) and (min-width: 200px) {
     .home-banner-video{position: relative; overflow: hidden;}
-    .home-banner-main{padding: 44px 0 108px;}
+    .home-banner-main{padding: 40px 0 108px;}
     body.page-template-about .home-banner-main{padding: 44px 0 80px;}
     .home-banner-image{position: relative;}
     .home-banner-image img{min-height: 211px;}
     .home-banner-overlay{opacity: 0.5;}
     .home-banner-text{font-size: 16px; padding-bottom: 0; max-width: 526px;}
-    .home-banner-text h1{font-size: 40px; letter-spacing: -0.8px; margin-bottom: 6px;}
+    .home-banner-text h1{font-size: 40px; line-height: 50px; letter-spacing: -0.8px; margin-bottom: 6px;}
     body.page-template-about .home-banner-text h1{margin-bottom: 25px;}
     .home-banner-list{font-size: 14px;}
     .home-banner-count {font-size: 24px;}
+    .home-banner-text p{margin-bottom: 12px;}
 }
 @media screen and (max-width: 559px) and (min-width: 200px){
     .home-banner-text h1{max-width: 334px; margin-left: auto; margin-right: auto;}

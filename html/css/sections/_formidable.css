@@ -251,6 +251,8 @@ body #frm_loading .progress.active .progress-bar, body .with_frm_style .frm_load
     body .frm_forms .frm_filed_wrapper{gap: 8px;}
 }
 @media only screen and (min-width: 1024px){
+    body .contact-form .with_frm_style .vertical_radio .frm_checkbox label, 
+    body .contact-form .with_frm_style .vertical_radio .frm_radio label{font-size: 16px; line-height: 24px;}
     body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field{margin-bottom: 0; flex: 1;}
     .captcha-btn-wrapper{display: flex; align-items: center; justify-content: end; gap: 30px;}
     body .frm_forms .frm_form_fields .captcha-btn-wrapper .frm_form_field{margin-bottom: 0;}
