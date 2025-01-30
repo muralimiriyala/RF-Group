@@ -57,6 +57,7 @@ table.fees-expenses-table tr:nth-child(n+4) td:first-child{padding-left: 32px;}
     background-color: var(--RF-Orange);}
 /* media css starts here */
 @media only screen  and (min-width: 1024px){
+
     .fund-detail-report-aside{flex: 0 0 350px}
     .fund-detail-report-article{flex: 0 0 calc(100% - 430px);}
 
@@ -69,7 +70,28 @@ table.fees-expenses-table tr:nth-child(n+4) td:first-child{padding-left: 32px;}
 
 }
 
+@media only screen and (max-width: 1023px) and (min-width: 810px){
+    .asset-performance-main{display: block; padding: 58px 0 76px;}
+    .asset-performance-lt{flex: 100%; margin-bottom: 64px;}
+    .asset-performance-lists{flex-direction: row; gap:  32px;}
+    .asset-performance-list{flex: 0 0 calc(50% - 20px);}
+
+    .fund-detail-report-main { padding: 40px 0 64px; }
+    .fund-detail-report-aside ul.faqs-links{display: flex; flex-wrap: wrap; gap: 24px;}
+    .fund-detail-report-aside ul.faqs-links li{margin: 0;}
+    .fund-detail-report-aside ul.faqs-links + hr{margin-top: 38px;}
+    .fund-detail-report-main { gap: 40px;}
+
+    .fees-expenses-main { padding: 40px 0 74px; display: block;}
+    .fees-expenses-lt{margin-bottom: 40px;}
+
+}
+
 @media only screen and (max-width: 809px) and (min-width: 200px){
+
+    .asset-performance-main {padding: 40px 0;}
+    .asset-performance-head h2 { margin-bottom: 16px; }
+    .asset-performance-btn{border: 1px solid var(--Text-Gray); cursor: pointer; justify-content: space-between; padding: 16px; transition: var(--b-transition);}
 
     table.fees-expenses-table{padding-top: 40px;}
     table.fees-expenses-table tr td{font-size: 14px; line-height: 150%;}

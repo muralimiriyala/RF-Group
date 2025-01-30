@@ -148,6 +148,7 @@ body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit::before{dis
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_button_submit{width: 100%;}
 body .frm_forms .frm_form_fields .frm_form_field input.frm_custom_date, body .frm_forms .frm_form_fields .frm_form_field.date_icon input{background-size: 14px 14px;}
 body .frm_forms form .frm_required_field div.frm_error{right: 0; bottom: -17px; font-size: 0.75rem; line-height: 0.875rem; color: var(--red); font-weight: 300; position: absolute;}
+body .news-update-video-banner-form .frm_forms form .frm_required_field div.frm_error{bottom: -5px; position: relative; text-align: right;}
 body .have-questions-form .frm_forms form .frm_required_field div.frm_error{color: var(--White);}
 body .newsletter-signup .frm_forms form .frm_required_field div.frm_error{color: var(--White);}
 body .frm_success_style, body .with_frm_style .frm_message{font-weight: 700; font-size: 1.125rem; line-height: 1.625rem; letter-spacing: normal; font-weight: 400; font-family: var(--body-font); color: var(--Black); background: none; padding: 0; text-align: left; border: none; border-radius: 0;}
@@ -242,9 +243,7 @@ body .frm_style_formidable-style.with_frm_style .frm_error_style{display: none;}
 body .newsletter-form .frm_success_style, body .newsletter-form .with_frm_style .frm_message{text-align: center; font-weight: 700; margin: 0;}
 body .frm_forms .frm_filed_wrapper .frm_form_field.disclaimer-text{font-size: 16px;}
 
-body #frm_loading .progress.active .progress-bar,
-body .with_frm_style .frm_loading_prev .frm_prev_page::before,
-body .with_frm_style .frm_loading_form .frm_button_submit:before{animation: none !important;}
+body #frm_loading .progress.active .progress-bar, body .with_frm_style .frm_loading_prev .frm_prev_page::before, body .with_frm_style .frm_loading_prev .frm_prev_page::after, body .with_frm_style .frm_loading_form .frm_button_submit:before, body .with_frm_style .frm_loading_form .frm_button_submit::after{animation: none !important; border-radius: 0 !important; margin: 0; border: none;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 560px){
@@ -253,6 +252,8 @@ body .with_frm_style .frm_loading_form .frm_button_submit:before{animation: none
     body .frm_forms .frm_filed_wrapper{gap: 8px;}
 }
 @media only screen and (min-width: 1024px){
+    body .contact-form .with_frm_style .vertical_radio .frm_checkbox label, 
+    body .contact-form .with_frm_style .vertical_radio .frm_radio label{font-size: 16px; line-height: 24px;}
     body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field{margin-bottom: 0; flex: 1;}
     .captcha-btn-wrapper{display: flex; align-items: center; justify-content: end; gap: 30px;}
     body .frm_forms .frm_form_fields .captcha-btn-wrapper .frm_form_field{margin-bottom: 0;}

@@ -60,12 +60,15 @@
 
 }
 @media only screen and (max-width: 809px) and (min-width: 200px){
+  .cta-investment-wrap{padding: 7px;}
     .cta-investment-main{gap: 24px; flex-direction: column; text-align: center;}
     .cta-investment-form label{justify-content: center;}
     .cta-investment-text h2{font-size: 28px;}
     .cta-investment-form .selectBox-dropdown{width: 100%;}
     .investment-form{gap: 24px; flex-direction: column;}
     .investment-field{flex: 1;}
+    .cta-investment-bg{padding: 24px;}
+    .cta-investment-text span.optional-text{padding: 0 20px 3px;}
 
     .page-template-campaign .cta-investment-wrap{margin-top: inherit;}
     .page-template-campaign .cta-investment-section{background-image: linear-gradient(to top,transparent calc(100% - var(--top-value)),var(--Gray) var(--top-value)); }
