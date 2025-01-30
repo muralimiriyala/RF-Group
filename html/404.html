@@ -46,6 +46,7 @@
         </div>
         <div class="header_right relative">
             <ul class="top-nav flex flex-vcenter">
+                <li><a class="line-anim" href="#cta"><i class="transition fa-regular fa-calendar"></i>cta popup</a></li>
                 <li><a class="line-anim" href="#appointment"><i class="transition fa-regular fa-calendar"></i>Appointment</a></li>
                 <li><a class="line-anim" href="#callback"><i class="transition fa-regular fa-phone"></i>Callback</a></li>
                 <li><a class="line-anim" href="#" target="_blank" rel="noopener"><i class="transition fa-regular fa-user"></i>Login</a></li>
@@ -194,8 +195,7 @@
     </div>
 </footer>
 <!-- Modal Window starts here -->
-
-<div class="modal-window"></div>
+<div class="modal-window" style="display: block;"></div>
 <div class="modal-main" id="appointment">
 <div class="modal-center">
     <div class="modal-container m-auto radius-24 relative">
@@ -456,6 +456,41 @@
         </form>
         </div>
                         </div>
+                </div>
+            </div>
+
+    </div>
+</div>
+</div>
+<div class="modal-main" id="cta" style="display: block;">
+<div class="modal-center">
+    <div class="modal-container m-auto radius-24 relative">
+        <div class="modal-close absolute flex flex-center transition">
+            <img width="16" src="images/close.svg" alt="close">
+
+        </div>
+
+            <div class="background-bg">
+                <span class="animated-border absolute  top"></span>
+                <span class="animated-border absolute right"></span>
+                <span class="animated-border absolute  bottom"></span>
+                <span class="animated-border absolute  left"></span>
+            </div>
+            <div class="modal-content flex white-bg"><!-- Done gloabally no need to copy each modal-window html, so just add conditin here based on id(or btn)  -->
+                <div class="modal-text fs-16">
+                    <span class="optional-text fs-14">CTA module</span>
+                    <div class="h3">Put your money to work.</div>
+                    <hr class="visible 64" data-animate="64">
+                    <p>Effect star underline plugin style asset distribute export list editor. Fill vertical bold selection overflow pixel align prototype fill.</p>
+                    <div class="sidebar-gray-btns flex flex-col">
+                        <a href="#" class="button btn-hover-navy flex flex-vcenter">Make an appointment<i class="transition fs-16 fa-regular fa-calendar-plus" aria-hidden="true"></i></a>
+                        <a href="" class="button btn-white-bg btn-hover-navy flex flex-vcenter">or schedule a callback<i class="transition fs-16 fa-sharp fa-regular fa-phone-volume" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="modal-form">
+                    <picture>
+                        <img srcset="images/cta-image@2x.jpg" alt="">
+                    </picture>
                 </div>
             </div>
 
