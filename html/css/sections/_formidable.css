@@ -242,6 +242,7 @@ body .frm_style_formidable-style.with_frm_style .frm_error_style{display: none;}
 body .newsletter-form .frm_success_style, body .newsletter-form .with_frm_style .frm_message{text-align: center; font-weight: 700; margin: 0;}
 body .frm_forms .frm_filed_wrapper .frm_form_field.disclaimer-text{font-size: 16px;}
 
+body #frm_loading .progress.active .progress-bar, body .with_frm_style .frm_loading_prev .frm_prev_page::before, body .with_frm_style .frm_loading_prev .frm_prev_page::after, body .with_frm_style .frm_loading_form .frm_button_submit:before, body .with_frm_style .frm_loading_form .frm_button_submit::after{animation: none !important; border-radius: 0 !important; margin: 0; border: none;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 560px){
@@ -375,6 +376,8 @@ body .frm_forms .frm_filed_wrapper .frm_form_field.disclaimer-text{font-size: 16
 
     body .frm_forms form .frm_required_field div.frm_error{bottom: -15px; position: static;}
     body.page-template-contact .frm_forms .frm_filed_wrapper .frm_form_field.disclaimer-text{font-size: 14px;}
+    body .contact-form .frm_forms .frm_form_fields .vertical_radio .frm_checkbox label{padding-top: 10px; text-align: center;}
+    body .have-questions-form .frm_forms .frm_filed_wrapper label{font-size: 14px; line-height: 21px;}
 }
 @media screen and (max-width: 559px) and (min-width: 200px){
     body .frm_forms .frm_form_fields .frm_fields_container{gap: 22px; flex-direction: column;}

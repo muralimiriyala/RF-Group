@@ -11,7 +11,7 @@ export const menu = {
   ],
   $gpages: [
     ...document.querySelectorAll(
-      'body.page-template-resources-reports, body.page-template-contact, body.page-template-resource-faq, body.page-template-404'
+      'body.page-template-resources-reports, body.page-template-resource-fees, body.page-template-contact, body.page-template-resource-faq, body.page-template-404'
     ),
   ],
 

@@ -47,7 +47,7 @@
     .tst-slider-slide{padding-bottom: 88px;}
     .tst-slider-appends{bottom: 20px; left: 24px; position: absolute; width: calc(100% - 48px);}
     .tst-slider-appends .slick-arrow{background: rgba(0, 0, 0, 0.20);}
-    .tst-slider-appends ul.slick-dots:not(.pagination) li{border: 1px solid var(--Black);}
+    .tst-slider-appends ul.slick-dots:not(.pagination) li{border: 1px solid var(--Black); width: 12px; height: 12px;}
     .tst-slider-appends ul.slick-dots:not(.pagination) li.slick-active{background-color: var(--White); border-color: var(--White);}
 }
 

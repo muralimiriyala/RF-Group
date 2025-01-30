@@ -34,4 +34,5 @@ body .subscribe-email .with_frm_style .frm_message p { color: var(--White);}
 }
 @media screen and (max-width: 809px) and (min-width: 200px) {
     body .subscribe-email .form_field_wrapper > .form-field{width: 100%;}
+    body .subscribe-email .frm_forms .frm_form_fields .form_field_wrapper .frm_form_field:first-child{display: block;}
 }
