@@ -517,8 +517,9 @@ ul.slick-dots.orange:not(.pagination) li.slick-active{background-color: var(--RF
 
 
 .divider-line{width: 100%; height: 1px; opacity: 0.25; background: var(--Blue); margin: 12px 0;}
+.is-sticky.sticksy-dummy-node{opacity: 0;}
 
-  /*-- media css starts here --*/
+/*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .container.x-lg{max-width: 100%;}
     .container.lg{max-width: 1360px;}
