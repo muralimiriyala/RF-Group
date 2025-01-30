@@ -7,6 +7,8 @@ export const modal = {
     ...document.querySelectorAll('a[href="#appointment"]'),
     ...document.querySelectorAll('.callback'),
     ...document.querySelectorAll('a[href="#callback"]'),
+    ...document.querySelectorAll('.cta-popup'),
+    ...document.querySelectorAll('a[href="#cta"]'),
   ],
   $window: document.querySelectorAll('.modal-window'),
   $main: document.querySelectorAll('.modal-main'),

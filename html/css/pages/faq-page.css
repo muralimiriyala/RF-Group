@@ -12,7 +12,7 @@ button[type="submit"].srch-faqs-btn{right: 16px; top: 50%; transform: translateY
 button[type="submit"].srch-faqs-btn:hover{color: var(--Black);}
 
 ul.faqs-links{margin: 0 0 35px;}
-ul.faqs-links li{margin: 0 0 9px;}
+ul.faqs-links li{margin: 0 0 6px;}
 ul.faqs-links li::before{display: none;}
 ul.faqs-links li a{gap: 8px;}
 ul.faqs-links li a i{color: var(--Blue);}
@@ -31,7 +31,7 @@ ul.faqs-links li a.current i{opacity: 0; visibility: hidden;}
     .faqs-text{padding-top: 2px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 810px){
-    .faqs-main{padding: 78px 0 18px; display: block;}
+    .faqs-main{padding: 78px 0 40px; display: block;}
     .faqs-text{padding-bottom: 64px;}
     .faqs-text span.optional-text{font-size: 16px;}
     .faqs-text h1{font-size: 28px;}
@@ -49,4 +49,5 @@ ul.faqs-links li a.current i{opacity: 0; visibility: hidden;}
     ul.faqs-links li a{font-size: 16px;}
     .faqs-desc{margin-bottom: 24px;}
     form.srch-faqs-form{margin-bottom: 20px;}
+    .faqs-mobile{padding-top: 40px;}
 }
