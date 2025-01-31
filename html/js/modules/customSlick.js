@@ -9,7 +9,7 @@ export const myslick = {
   $carousel: document.querySelectorAll('.carousel-slider-main'),
   $carouselNext: document.querySelectorAll('.carousel-slider-next'),
   $carouselPrev: document.querySelectorAll('.carousel-slider-prev'),
-  $mutualele: document.querySelectorAll('.open-mutual-fund-row'),
+  $mutualele: document.querySelectorAll('.mutual-fund-slider'),
   init() {
     const _$ = this;
 

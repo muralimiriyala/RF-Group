@@ -100,6 +100,7 @@ hr[data-animate].m-0{margin: 0;}
 hr[data-animate].height-1{height: 1px;}
 hr.aligncenter{margin-left: auto; margin-right: auto;}
 
+hr.black{background-color: var(--Black);}
 hr.blue{background-color: var(--Blue); opacity: 0.5;}
 hr.blue.low{opacity: 0.25;}
 hr.blue.high{opacity: 1;}

@@ -16,6 +16,7 @@ ul.ui-categorys li::before{display: none;}
 ul.ui-categorys li a{padding: 8px 16px; color: var(--Text-Gray); display: block;}
 ul.ui-categorys li a.current, ul.ui-categorys li a.current:hover{background-color: var(--Gray); color: var(--Text-Gray);}
 ul.ui-categorys li a:hover{color: var(--Black); background-color: transparent;}
+a.hover-orange:hover span.gray-line{background-color: var(--RF-Orange);}
 
 ul.doc-form-q{margin: 0; gap: 8px 16px;}
 ul.doc-form-q li::before{width: 1px; height: calc(100% + 4px); left: -8px; top: -2px; opacity: 0.25;}

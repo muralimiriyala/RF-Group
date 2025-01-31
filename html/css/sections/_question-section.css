@@ -12,7 +12,7 @@ ul.question-booking-links li a:hover i{transform: translateX(8px);}
 ul.question-booking-links li a.current{color: var(--Blue);}
 ul.question-booking-links li a.current i{opacity: 0; visibility: hidden;}
 
-.question-lists .accordion-header.open, .accordion-header.open:hover{border-color: var(--Light-Gray); border-bottom-color: transparent;}
+.question-lists .accordion-header.open{border-color: var(--Light-Gray); border-bottom-color: transparent;}
 .question-lists .open .accordion-content{border-color: var(--Light-Gray); border-top-color: transparent; }
 
 .question-yellow .question-text hr{background-color: var(--Light-Brown);}
