@@ -91,16 +91,37 @@ header.scrolly-header{transform: translateY(-100%);}
     ul.main_menu > li.current-menu-parent > a, ul.main_menu > li.current-page-ancestor > a, ul.main_menu > li.current-menu-item > a, ul.main_menu > li > a:hover{color: var(--White);}
     ul.main_menu > li.button{padding: 0;}
     ul.main_menu > li.button > a{padding: 12px 17px 12px}
-    ul.main_menu > li > ul{visibility: hidden; opacity: 0; transition: visibility 0.3s ease, opacity 0.3s ease, transform 0.3s ease; pointer-events: none; margin: 0; padding: 21px 32px 15px; min-width: 300px; left: 50%; transform: translateX(-50%); position: absolute; z-index: 820; border: 1px solid var(--Blue); border-top-color: transparent;}
-    ul.main_menu > li > ul::before{width: calc(100% - 16px); height: calc(100% - 8px); top: 0; left: 8px; content: ""; display: block; position: absolute; background-color: var(--White);}
-    ul.main_menu > li:hover > ul{visibility: visible; opacity: 1; pointer-events: all;}
-    ul.main_menu > li > ul > li{margin: 0 0 11px;}
-    ul.main_menu > li > ul > li > a{gap: 10px; display: flex; flex-wrap: wrap; font-size: 1rem; line-height: 150%; font-weight: 700; color: var(--Black);}
-    ul.main_menu > li > ul > li > a:hover{color: var(--Blue);}
-    ul.main_menu > li > ul > li > a img{width: 25px; object-fit: contain;}
-    ul.main_menu > li > ul > li > ul{margin: 22px 0 25px 21px;}
-    ul.main_menu > li > ul > li > ul > li > a{font-size: 1rem; line-height: 1.375rem; font-weight: 700; display: block; color: var(--Black);}
-    ul.main_menu > li > ul > li > ul > li > a:hover{color: var(--Blue);}
+
+
+    
+    /*-- nav-item-advice --*/
+    ul.main_menu > li.nav-item-advice > ul{visibility: hidden; opacity: 0; background-color: var(--White); transition: visibility 0.3s ease, opacity 0.3s ease, transform 0.3s ease; pointer-events: none; margin: 0; padding: 40px 64px 29px; min-width: 1440px; max-width: 1440px; left: calc(100% + 371px); transform: translateX(-100%); position: absolute; z-index: 1111820;}
+    ul.main_menu > li.nav-item-advice:hover > ul{visibility: visible; opacity: 1; pointer-events: all;}
+    ul.main_menu > li.nav-item-advice > ul > li{margin: 0 0 16px;}
+    ul.main_menu > li.nav-item-advice > ul > li > a{gap: 10px; display: flex; flex-wrap: wrap; font-size: 1rem; line-height: 150%; font-weight: 700; color: var(--Black);}
+    ul.main_menu > li.nav-item-advice > ul > li > a:hover{color: var(--Blue);}
+    ul.main_menu > li.nav-item-advice > ul > li > a img{width: 25px; object-fit: contain;}
+    ul.main_menu > li.nav-item-advice > ul > li > ul{margin: 0; padding-left: 32px; top: 0; left: 180px; position: absolute; gap: 26px; display: flex; flex-wrap: wrap;}
+    ul.main_menu > li.nav-item-advice > ul > li > ul > li{flex: 0 0 calc(33.33333% - 18px); margin: 0;}
+    ul.main_menu > li.nav-item-advice > ul > li > ul > li > a{gap: 20px; align-items: center; display: flex; font-size: 16px; line-height: 20px;  color: var(--Black); font-family: var(--heading-font);}
+    ul.main_menu > li.nav-item-advice > ul > li > ul > li > a img{width: 120px;}
+    ul.main_menu > li.nav-item-advice > ul > li > ul > li > a span{margin-bottom: 11px; font-family: var(--body-font); display: block; color: var(--Blue); font-size: 16px; font-weight: 700; line-height: 100%; }
+    ul.main_menu > li.nav-item-advice > ul > li > ul > li > a:hover{color: var(--Blue);}
+    /*-- nav-item-advice --*/
+
+
+    /*-- nav-item-about --*/
+    ul.main_menu > li.nav-item-about > ul{visibility: hidden; opacity: 0; transition: visibility 0.3s ease, opacity 0.3s ease, transform 0.3s ease; pointer-events: none; margin: 0; padding: 40px 47px 29px; min-width: 291px; left: 50%; transform: translateX(-50%); position: absolute; z-index: 820; border: 1px solid var(--Blue); border-top-color: transparent;}
+    ul.main_menu > li.nav-item-about > ul::before{width: calc(100% - 16px); height: calc(100% - 8px); top: 0; left: 8px; content: ""; display: block; position: absolute; background-color: var(--White);}
+    ul.main_menu > li.nav-item-about:hover > ul{visibility: visible; opacity: 1; pointer-events: all;}
+    ul.main_menu > li.nav-item-about > ul > li{margin: 0 0 16px;}
+    ul.main_menu > li.nav-item-about > ul > li > a{gap: 10px; display: flex; flex-wrap: wrap; font-size: 1rem; line-height: 150%; font-weight: 700; color: var(--Black);}
+    ul.main_menu > li.nav-item-about > ul > li > a:hover{color: var(--Blue);}
+    ul.main_menu > li.nav-item-about > ul > li > a img{width: 25px; object-fit: contain;}
+    ul.main_menu > li.nav-item-about > ul > li > ul{margin: 22px 0 25px 21px;}
+    ul.main_menu > li.nav-item-about > ul > li > ul > li > a{font-size: 1rem; line-height: 1.375rem; font-weight: 700; display: block; color: var(--Black);}
+    ul.main_menu > li.nav-item-about > ul > li > ul > li > a:hover{color: var(--Blue);}
+    /*-- nav-item-about --*/
     
 
 

@@ -60,6 +60,8 @@ ul.open-mutual-fund-data + hr{margin-bottom: 11px;}
     .open-mutual-head{margin-bottom: 32px;}
     .open-mutual-fund-row{gap: 20px; margin-bottom: 20px;}
     .open-mutual-fund-list{flex: 0 0 calc(50% - 10px);}
+
+    .open-mutual-funds-main { padding: 64px 0; }
 }
 @media screen and (max-width: 809px) and (min-width: 200px){
     .open-mutual-main{padding: 24px 0; display: block; width: 100%;}
@@ -78,8 +80,8 @@ ul.open-mutual-fund-data + hr{margin-bottom: 11px;}
     .open-mutual-head{width: 100%; margin-bottom: 48px;}
     .open-mutual-fund-row{gap: 16px; margin-bottom: 24px;}
     .open-mutual-fund-list{min-width: 249px;}
-    .open-mutual-fund-row .slick-list{overflow: inherit;}
-    .open-mutual-fund-row .slick-slide{width: 249px; margin-right: 16px;}
+    .mutual-fund-slider .slick-list{overflow: inherit;}
+    .mutual-fund-slider .slick-slide{width: 249px; margin-right: 16px;}
     .open-mutual-btn-mob .button{width: 100%;}
     .mutual-fund-appends{padding-bottom: 24px;}
     .open-mutual-funds-main { padding: 40px 0; }

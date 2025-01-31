@@ -42,11 +42,11 @@ export const gsapscroll = {
             }
           },
           onRefresh: () => {
-            $animateNames.forEach((className) => {
-              className
-                ? ele.classList.add(className, 'visible')
-                : ele.classList.add('visible');
-            });
+            // $animateNames.forEach((className) => {
+            //   className
+            //     ? ele.classList.add(className, 'visible')
+            //     : ele.classList.add('visible');
+            // }); // creating issue here
             timeline?.play();
             $animateType === 'counter' ? ele.counter?.start() : '';
             if (ele.classList.contains('counter-back')) {
