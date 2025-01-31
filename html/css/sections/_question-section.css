@@ -1,6 +1,7 @@
 
 .question-text h2{margin-bottom: 27px;}
 .question-text hr{margin: 0 0 24px;}
+.question-text hr.blue{opacity: 1;}
 
 ul.question-booking-links{margin: 0 0 35px;}
 ul.question-booking-links li{margin: 0 0 9px;}
@@ -18,6 +19,8 @@ ul.question-booking-links li a.current i{opacity: 0; visibility: hidden;}
 .question-yellow .question-text hr{background-color: var(--Light-Brown);}
 .question-yellow .question-booking-option .h5{color: var(--Light-Brown);}
 .question-yellow .accordion-plus svg path{fill: var(--Light-Brown);}
+
+.question-blue .question-booking-option .h5{color: var(--Blue);}
 
 
 @media screen and (min-width: 1024px) {

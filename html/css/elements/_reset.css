@@ -87,6 +87,7 @@ hr[data-animate*='navy']{background-color: var(--Navy);}
 hr[data-animate*='orange']{background-color: var(--RF-Orange);}
 hr[data-animate*='yellow']{background-color: var(--Yellow-3);}
 hr[data-animate*='brown']{background-color: var(--Light-Brown);}
+hr[data-animate*='blue']{background-color: var(--Blue);}
 
 
 
@@ -303,9 +304,10 @@ span.optional-text.lg{margin-bottom: 8px; font-size: 1.125rem; line-height: 1.12
 
 .text-black.arrow-orange i{color: var(--RF-Orange);}
 .text-black.arrow-orange:hover{color: var(--RF-Orange);}
-
 .text-black.arrow-brown i{color: var(--Light-Brown);}
 .text-black.arrow-brown:hover{color: var(--Light-Brown);}
+.text-black.arrow-blue i{color: var(--Blue);}
+.text-black.arrow-blue:hover{color: var(--Blue);}
 
 
 .text-upper{text-transform: uppercase;}
