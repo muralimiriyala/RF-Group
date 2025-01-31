@@ -8,6 +8,8 @@
 .doc-form-list:hover .doc-form-icon{background-color: var(--Blue);}
 .doc-form-list:hover .doc-form-icon path{stroke: var(--White);}
 
+.doc-form-list.RF-Orange .doc-form-line{background-color: var(--RF-Orange);}
+
 ul.ui-categorys{margin: 0; gap: 9px;}
 ul.ui-categorys li{margin: 0;}
 ul.ui-categorys li::before{display: none;}

@@ -18,6 +18,7 @@ a:hover span.gray-line{background-color: var(--Blue);}
 a.current span.gray-line{background-color: var(--RF-Orange); display: none;}
 
 
+
 .doc-repo-lists{gap: 20px;}
 .doc-repo-list{padding: 16px 16px 16px 24px; gap: 16px; flex: 1 0 calc(50% - 10px);}
 .doc-repo-line{width: 4px; right: auto; background-color: var(--Blue);}
