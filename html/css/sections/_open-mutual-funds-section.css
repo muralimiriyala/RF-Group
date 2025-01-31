@@ -60,6 +60,8 @@ ul.open-mutual-fund-data + hr{margin-bottom: 11px;}
     .open-mutual-head{margin-bottom: 32px;}
     .open-mutual-fund-row{gap: 20px; margin-bottom: 20px;}
     .open-mutual-fund-list{flex: 0 0 calc(50% - 10px);}
+
+    .open-mutual-funds-main { padding: 64px 0; }
 }
 @media screen and (max-width: 809px) and (min-width: 200px){
     .open-mutual-main{padding: 24px 0; display: block; width: 100%;}
