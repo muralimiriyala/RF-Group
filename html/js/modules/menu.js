@@ -11,7 +11,7 @@ export const menu = {
   ],
   $gpages: [
     ...document.querySelectorAll(
-      'body.tax-forms_category, body.page-template-resource-fees, body.page-template-contact, body.page-template-resource-faq, body.page-template-404'
+      'body.tax-forms_category, body.tax-reports-category, body.page-template-resource-fees, body.page-template-contact, body.page-template-resource-faq, body.page-template-404'
     ),
   ],
 
