@@ -147,7 +147,7 @@ body .contact-form .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_subm
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit::before{display: none;}
 body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_submit button.frm_button_submit{width: 100%;}
 body .frm_forms .frm_form_fields .frm_form_field input.frm_custom_date, body .frm_forms .frm_form_fields .frm_form_field.date_icon input{background-size: 14px 14px;}
-body .frm_forms form .frm_required_field div.frm_error{right: 0; bottom: -17px; font-size: 0.75rem; line-height: 0.875rem; color: var(--red); font-weight: 300; position: absolute;}
+body .frm_forms form .frm_required_field div.frm_error{right: 0; bottom: -17px; font-size: 0.75rem; line-height: 0.875rem; color: var(--red); font-weight: 300; position: absolute; text-align: right;}
 body .news-update-video-banner-form .frm_forms form .frm_required_field div.frm_error{bottom: -5px; position: relative; text-align: right;}
 body .have-questions-form .frm_forms form .frm_required_field div.frm_error{color: var(--White);}
 body .newsletter-signup .frm_forms form .frm_required_field div.frm_error{color: var(--White);}
@@ -385,7 +385,7 @@ body #frm_loading .progress.active .progress-bar, body .with_frm_style .frm_load
 @media screen and (max-width: 559px) and (min-width: 200px){
     body .frm_forms .frm_form_fields .frm_fields_container{gap: 22px; flex-direction: column;}
     body .frm_forms .frm_form_fields .frm_form_field{width: 100%;}
-    body .frm_forms .frm_form_fields .frm_form_field textarea{height: 130px;}
+    body .frm_forms .frm_form_fields .frm_form_field textarea{height: 162px;}
 }
 @media screen and (max-width: 389px) and (min-width: 200px){
     body .frm_forms .frm_form_fields .frm_form_field.vertical_checkbox .frm_opt_container, body .frm_forms .frm_form_fields .vertical_radio .frm_opt_container{flex-direction: column; margin-bottom: 8px;}

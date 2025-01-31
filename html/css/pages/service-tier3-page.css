@@ -7,15 +7,19 @@
 .service-years-company{background-color: var(--White); padding: 20px; flex: 0 0 calc(25% - 30px);}
 .service-company-img{margin-bottom: 20px; padding: 16px; border: 1px solid var(--Black-10);}
 
-.service-company-text span{color: var(--Text-Gray); font-size: 18px; line-height: 150%; font-weight: 700; display: block; margin-bottom: 12px;}
-
+span.service-company-name{color: var(--Text-Gray); display: block; margin-bottom: 12px;}
+.service-company-desc{color: var(--Text-Gray); padding-top: 16px;}
 
 .service-company-text h3{font-size: 24px; line-height: 125%; font-weight: 600; margin-bottom: 12px;}
 .service-company-text ul{margin:  0 0 0 10px;}
 .service-company-text ul > li{font-size: 14px; font-weight: 400; line-height: 150%;}
 .service-company-text ul > li::before{left: -10px; background-color: var(--Blue); border-radius: 8px; width: 4px; height: 4px; top: 9px;}
 .service-company-text ul > li:last-child{margin-bottom: 0;}
+.load-service-year hr{flex: 1; margin: 0;}
+.load-service-year button{width: fit-content;}
 
+
+.service-year-list:nth-child(n+5){display: none;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
@@ -39,7 +43,7 @@
     .service-year h2{display: none;}
     .service-years-company {flex:  0 0 260px;}
 
-    .service-company-text span {font-size: 16px;}
+    span.service-company-name {font-size: 16px;}
     .service-company-text h3 {font-size: 18px; letter-spacing: -0.36px;}
     .service-years-main .about-history-appends {margin-top: 10px;}
     .service-year-article .slick-list{overflow: inherit;}
