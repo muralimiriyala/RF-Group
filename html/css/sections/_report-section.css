@@ -7,12 +7,8 @@
 ul.report-links{margin: 0;}
 ul.report-links li{margin: 0 0 9px;}
 ul.report-links li::before{display: none;}
-ul.report-links li a{color: var(--Black); gap: 8px;}
-ul.report-links li a:hover{color: var(--Blue);}
-ul.report-links li a i{color: var(--Blue);}
-ul.report-links li a:hover i{transform: translateX(8px);}
 ul.report-links li a.current{color: var(--Blue);}
-ul.report-links li a.current i{display: none;}
+ul.report-links li a.current em{display: none;}
 
 .report-head{gap: 20px; margin-bottom: 40px;}
 .report-title{flex: 1;}
@@ -30,6 +26,11 @@ ul.report-fund-data li > span.red{color: var(--Pure-Red);}
 ul.report-fund-data li > span.green{color: var(--Pure-Green);}
 
 .reports-row:not(:first-child){display: none;}
+/* -- res page --*/
+ul.res-js-links{margin: 0;}
+ul.res-js-links li{margin: 0 0 9px;}
+ul.res-js-links li::before{display: none;}
+
 
 @media screen and (min-width: 1024px) {
     .report-main{gap: 80px; padding: 80px 0;}
@@ -67,11 +68,13 @@ ul.report-fund-data li > span.green{color: var(--Pure-Green);}
     .report-category-btn{cursor: pointer; padding: 16px 44px 16px 16px; border: 1px solid var(--Text-Gray); background: var(--Background-Gray); display: block; width: 100%; font-size: 16px; line-height: 24px; color: var(--Black);}
     .report-category-btn i{top: 12px; right: 16px;}
     .report-category-btn.current i::before {content: "\f077";}
-    ul.report-links{margin: 0; padding: 15px 0; border: 1px solid var(--Text-Gray); border-top: none; background: var(--Background-Gray); display: none;}
-    ul.report-links li{padding: 0 16px; margin: 0 0 12px;}
-    ul.report-links li:last-child{margin-bottom: 0;}
-    ul.report-links li a{font-size: 16px; line-height: 24px;}
-    ul.report-links li a i{display: none;}
+
+
+    ul.res-js-links{margin: 0; padding: 15px 0; border: 1px solid var(--Text-Gray); border-top: none; background: var(--Background-Gray); display: none;}
+    ul.res-js-links li{padding: 0 16px; margin: 0 0 12px;}
+    ul.res-js-links li:last-child{margin-bottom: 0;}
+    ul.res-js-links li a{font-size: 16px; line-height: 24px;}
+    ul.res-js-links li a i{display: none;}
 
     .report-head{width: 100%; margin-bottom: 24px;}
     .report-fund-row{flex-wrap: nowrap; overflow-x: auto; width: calc(100% + 24px); -ms-overflow-style: none; padding-right: 24px; scrollbar-width: none; gap: 16px; margin-bottom: 24px;}
