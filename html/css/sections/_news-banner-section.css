@@ -55,7 +55,7 @@ ul.category-lists > li > a:hover > svg path{fill: var(--Black);}
 }
 
 @media screen and (max-width: 1023px) and (min-width: 810px) {
-    .news-banner-main{padding: 104px 0 40px;}
+    .news-banner-main{padding: 40px 0;}
     .news-banner-head{gap: 30px; justify-content: space-between; margin-bottom: 32px;}
 
 
@@ -81,7 +81,7 @@ ul.category-lists > li > a:hover > svg path{fill: var(--Black);}
 }
 
 @media screen and (max-width: 809px) and (min-width: 200px) {
-    .news-banner-main{padding: 106px 0 40px;}
+    .news-banner-main{padding: 40px 0;}
     .news-banner-head{margin-bottom: 32px;}
     .news-banner-title h1{font-size: 32px; line-height: 40px;}
     .news-banner-lists, .news-banner-row{gap: 16px;}
@@ -92,5 +92,5 @@ ul.category-lists > li > a:hover > svg path{fill: var(--Black);}
     .news-banner-row:nth-child(even) .news-banner-content h2{font-size: 18px; line-height: 22.5px; margin-bottom: 0; letter-spacing: -0.36px;}
     .news-banner-content > span, .news-banner-content > p{display: none;}
     .news-banner-image{flex: 0 0 104px;}
-    .news-banner-row:nth-child(odd) .news-banner-image::before{width: 16px; height: 32px;}
+    .news-banner-row:nth-child(odd) .news-banner-image > a::before{width: 16px; height: 32px;}
 }

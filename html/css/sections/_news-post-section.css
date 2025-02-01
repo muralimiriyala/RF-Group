@@ -90,8 +90,8 @@ ul.blog_list{margin: 0;}
     .news-post-content > span, .news-post-content > p{display: none;}
     .news-post-text{flex: 1;}
     .news-post-image{flex: 0 0 104px;}
-    .news-post-image::before{width: 16px; height: 32px;}
-    .news-post-item:hover .news-post-image::before{width: 21px; height: 38px;}
+    .news-post-image > a::before{width: 16px; height: 32px;}
+    .news-post-item:hover .news-post-image > a::before{width: 21px; height: 37px;}
     .category{margin-bottom: 16px;}
     .news-post-btn{margin-top: 24px; padding: 0;}
 }

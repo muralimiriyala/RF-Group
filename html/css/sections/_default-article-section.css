@@ -32,6 +32,7 @@ aside.default-aside h4:not(.h5){margin-bottom: 10px;}
 ul.toc-links{margin: 0; padding: 5px 0 27px;}
 ul.toc-links li::before{display: none;}
 ul.toc-links li{margin: 0 0 9px;}
+ul.toc-links li:last-child{margin: 0;}
 .sidebar-gray-blk{padding: 40px; margin-bottom: 40px;}
 .sidebar-gray-btns{padding: 8px; border: 1px solid var(--Blue);}
 .sidebar-gray-btns .button{width: 100%;  justify-content: space-between;}
@@ -78,19 +79,23 @@ aside.default-aside:nth-child(1):last-child{flex: 1;}
 @media screen and (max-width: 809px) and (min-width: 200px) {
     .default-article-main{padding: 41px 0 34px; display: block;}
     .default-article{padding-bottom: 22px;}
+    .default-article h3{padding-top: 6px; }
     ul.breadcrumbs{width: calc(100% + 24px); padding-right: 24px; margin-bottom: 24px; flex-wrap: nowrap; overflow-x: auto; min-width: fit-content; -ms-overflow-style: none; scrollbar-width: none;}
     ul.breadcrumbs::-webkit-scrollbar{display: none;}
     ul.breadcrumbs li{min-width: fit-content; font-size: 16px;}
+    .default-image-caption{margin-bottom: 24px;}
     .default-article h2{margin-bottom: 16px;}
     .default-article ol{margin-bottom: 0;}
     .default-article .accordion-main{padding: 0 0 18px;}
     .default-article .accordion-main h3{padding-top: 15px;}
     .default-article .accordion-list{margin-bottom: 18px;}
     .default-article .accordion-list:last-child{margin-bottom: 0;}
+    .default-article  blockquote{margin: 22px 0 17px;}
     .default-line-wrap{padding: 5px 0 22px;}
-    .sidebar-gray-blk{padding: 22px 24px 24px; margin-bottom: 22px;}
+    .sidebar-gray-blk{padding: 22px 24px 24px; margin-bottom: 22px; font-size: 14px; line-height: 21px;}
     .sidebar-mgt-team:not(:last-child){margin-bottom: 20px;}
     figure.RF-small{margin-top: 20px;}
+    ul.toc-links{padding: 5px 0 22px;}
 
     
 }
