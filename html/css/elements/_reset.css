@@ -88,6 +88,7 @@ hr[data-animate*='orange']{background-color: var(--RF-Orange);}
 hr[data-animate*='yellow']{background-color: var(--Yellow-3);}
 hr[data-animate*='brown']{background-color: var(--Light-Brown);}
 hr[data-animate*='blue']{background-color: var(--Blue);}
+hr[data-animate*='purple']{background-color: var(--RF-Purple);}
 
 
 
@@ -302,6 +303,7 @@ span.optional-text.lg{margin-bottom: 8px; font-size: 1.125rem; line-height: 1.12
 .text-black.hover-yellow:hover{color: var(--Yellow-3);}
 .text-black.hover-aquamarine:hover{color: var(--RF-Aquamarine);}
 .text-black.hover-red:hover{color: var(--RF-Red);}
+.text-black.hover-purple:hover{color: var(--RF-Purple);}
 .text-light-orange{color: var(--RF-Orange)}
 
 .text-black.arrow-orange i{color: var(--RF-Orange);}
