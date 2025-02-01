@@ -29,59 +29,61 @@
     <link rel="stylesheet" href="./style.bundle.css?v=619078" media="all">
 </head>
 <body class="page-template-calculator-compound-interest">
-<header class="site-header">
-    <div class="container">
-        <div class="header flex flex-vcenter">
-            <div class="logo">
-                <a href="index.html">
-                    <img class="white-logo" width="206" height="56" src="images/logo-white.svg" alt="logo">
-                    <img class="black-logo" width="206" height="56" src="images/logo.svg" alt="logo">
-                </a>
-            </div>
-            <div role="button" aria-label="Open menu" class="humburger-btn mbl-blue-bg absolute white-bg flex-center">
-                <i class="fs-24 transition-3 fa-sharp fa-regular fa-bars"></i>
-                <i class="fs-24 transition absolute fa-sharp fa-regular fa-x"></i>
-            </div>
-            <div class="header_right relative">
-                <ul class="top-nav flex flex-vcenter">
-                    <li><a href=""><i class="transition fa-regular fa-calendar"></i>Appointment</a></li>
-                    <li><a href=""><i class="transition fa-regular fa-phone"></i>Callback</a></li>
-                    <li><a href=""><i class="transition fa-regular fa-user"></i>Login</a></li>
-                    <li><a class="bhs" href="">BHS <img src="images/lang-icon.svg" alt="lang-icon"></a>
-                        <ul class="lang flex radius-4 transition">
-                            <li><a href="" target="_blank">En</a></li>
-                            <li><a href="" target="_blank">Fr</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <nav role="navigation" class="navigation flex relative">
-                    <ul class="main_menu flex">
-                        <li><a href="#">Individuals</a></li>
-                        <li><a href="#">Businesses</a></li>
-                        <li><a href="#">Advice</a></li>
-                        <li><a href="about.html">About</a>
-                            <ul class="sub-menu">
-                                <li><a href="Resources-Forms.html"><img src="images/forms-icon.svg" alt="forms-icon" title="forms-icon">Forms</a></li>
-                                <li><a href="Resources-Reports.html"><img src="images/reports-icon.svg" alt="reports-icon" title="reports-icon">Reports</a></li>
-                                <li><a href="faqs.html"><img src="images/faqs-icon.svg" alt="faqs-icon" title="faqs-icon">FAQs</a></li>
-                                <li><a href="Resources-Fees.html"><img src="images/fees-icon.svg" alt="fees-icon" title="fees-icon">Commissions & Fees</a></li>
+    <header class="site-header">
+        <div class="container">
+            <div class="header flex flex-vcenter">
+                <div class="logo">
+                    <a href="index.html">
+                        <span class="black-logo flex flex-vcenter">
+                            <img class="vector" width="60" height="56" src="images/logo-vector.svg" alt="logo">
+                            <img class="vector-text" width="139" height="16" src="images/logo-text.svg" alt="logo">
+                        </span>
+                    </a>
+                </div>
+                <div role="button" aria-label="Open menu" class="humburger-btn mbl-blue-bg absolute white-bg flex-center">
+                    <i class="fs-24 transition-3 fa-sharp fa-regular fa-bars"></i>
+                    <i class="fs-24 transition absolute fa-sharp fa-regular fa-x"></i>
+                </div>
+                <div class="header_right relative">
+                    <ul class="top-nav flex flex-vcenter">
+                        <li><a class="line-anim" href="#appointment"><i class="transition fa-regular fa-calendar"></i>Appointment</a></li>
+                        <li><a class="line-anim" href="#callback"><i class="transition fa-regular fa-phone"></i>Callback</a></li>
+                        <li><a class="line-anim" href="#" target="_blank" rel="noopener"><i class="transition fa-regular fa-user"></i>Login</a></li>
+                        <li><a class="bhs" href="">BHS <img src="images/lang-icon.svg" alt="lang-icon"></a>
+                            <ul class="lang flex radius-4 transition">
+                                <li><a href="" target="_blank">En</a></li>
+                                <li><a href="" target="_blank">Fr</a></li>
                             </ul>
                         </li>
-                        <li><a href="news-updates.html">News</a></li>
-                        <li><a href="contact.html">Contact</a></li>
                     </ul>
-                    <form action="" class="srch-form flex">
-                        <input type="text" placeholder="Search here">
-                        <button class="btn-srch" type="submit">Search<i class="fa-regular fa-magnifying-glass transition"></i></button>
-                    </form>
-                </nav>
-            </div>
-            <div class="user-login white-bg mbl-blue-bg absolute flex flex-center">
-                <i class="fs-24 fa-regular fa-circle-user"></i>
+                    <nav role="navigation" class="navigation flex relative">
+                        <ul class="main_menu flex">
+                            <li><a href="#">Individuals</a></li>
+                            <li><a href="#">Businesses</a></li>
+                            <li><a href="#">Advice</a></li>
+                            <li class="menu-item-has-children nav-item-about"><a href="about.html">About</a>
+                                <ul class="sub-menu">
+                                    <li><a href="Resources-Forms.html"><img src="images/forms-icon.svg" alt="forms-icon" title="forms-icon">Forms</a></li>
+                                    <li><a href="Resources-Reports.html"><img src="images/reports-icon.svg" alt="reports-icon" title="reports-icon">Reports</a></li>
+                                    <li><a href="faqs.html"><img src="images/faqs-icon.svg" alt="faqs-icon" title="faqs-icon">FAQs</a></li>
+                                    <li><a href="Resources-Fees.html"><img src="images/fees-icon.svg" alt="fees-icon" title="fees-icon">Commissions & Fees</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="news-updates.html">News</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                        <form action="" class="srch-form flex">
+                            <input type="text" placeholder="Search here">
+                            <button class="btn-srch" type="submit">Search<i class="fa-regular fa-magnifying-glass transition"></i></button>
+                        </form>
+                    </nav>
+                </div>
+                <div class="user-login white-bg mbl-blue-bg absolute flex flex-center">
+                    <i class="fs-24 fa-regular fa-circle-user"></i>
+                </div>
             </div>
         </div>
-    </div>
-</header>
+    </header>
 <main class="site-main-cover">
 <section class="calculator-intro-section gray-bg intro-red">
     <div class="container">
@@ -99,10 +101,13 @@
                     <div class="calculator-intro-icon absolute">
                         <div class="calculator-intro-icon-inner flex relative" data-animate="ui ui-icon" data-duration="800">
                             <svg width="80" height="80" viewBox="0 0 80 80" fill="none" role="none">
-                                <path d="M39.8418 35.5279L4.0625 22.1107L39.8418 8.37402L75.9406 22.1107L39.8418 35.5279Z" stroke="#E1AC3A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M61.5644 27.541V44.7917C47.1888 53.7365 32.8131 53.7365 18.4375 44.7917V27.541" stroke="#E1AC3A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M9.8125 24.3467V53.7368" stroke="#E1AC3A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M15.563 59.4866C15.563 56.292 13.0073 53.7363 9.81275 53.7363C6.61817 53.7363 4.0625 56.292 4.0625 59.4866V71.626H15.563V59.4866Z" stroke="#E1AC3A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12.4843 2.86665L31.7994 14.0236L24.7687 26.1951C24.5992 26.4886 24.3201 26.7027 23.9927 26.7904C23.6653 26.878 23.3165 26.832 23.0231 26.6625L4.81447 16.1447C4.52101 15.9752 4.3069 15.696 4.21926 15.3686C4.13161 15.0413 4.1776 14.6925 4.34712 14.399L10.7386 3.334C10.9081 3.04054 11.1873 2.82643 11.5146 2.73879C11.842 2.65114 12.1908 2.69713 12.4843 2.86665Z" stroke="#8A2533" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M31.7982 38.3712L29.3166 46.35C29.2668 46.5103 29.1859 46.6591 29.0785 46.7881C28.9712 46.9171 28.8394 47.0237 28.6909 47.1018C28.5423 47.1799 28.3798 47.2279 28.2127 47.2432C28.0456 47.2585 27.877 47.2407 27.7168 47.1908L14.8311 43.1835C14.6709 43.1337 14.522 43.0528 14.393 42.9454C14.264 42.8381 14.1574 42.7063 14.0793 42.5578C14.0012 42.4092 13.9532 42.2467 13.9379 42.0796C13.9226 41.9124 13.9404 41.7439 13.9903 41.5837L16.0911 34.8265C16.1917 34.5034 16.4164 34.2334 16.7159 34.0758C17.0153 33.9182 17.365 33.8858 17.6884 33.9857L31.7982 38.3712Z" stroke="#8A2533" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M59.3572 23.3484L42.2662 36.7572C42.1342 36.8607 41.9831 36.9373 41.8215 36.9825C41.6599 37.0277 41.4909 37.0406 41.3243 37.0204C41.1577 37.0003 40.9967 36.9476 40.8505 36.8653C40.7043 36.7829 40.5757 36.6726 40.4721 36.5406L31.7959 25.4817L49.8922 11.2842C50.0243 11.1806 50.1754 11.1041 50.337 11.0589C50.4986 11.0137 50.6675 11.0008 50.8341 11.0209C51.0007 11.041 51.1617 11.0938 51.308 11.1761C51.4542 11.2584 51.5827 11.3688 51.6863 11.5008L59.5738 21.5543C59.6774 21.6863 59.754 21.8375 59.7991 21.9991C59.8443 22.1607 59.8572 22.3296 59.8371 22.4962C59.817 22.6628 59.7643 22.8238 59.6819 22.9701C59.5996 23.1163 59.4892 23.2448 59.3572 23.3484Z" stroke="#8A2533" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M31.7981 53.6358V5.07812" stroke="#8A2533" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M14.3813 14.3684C14.3813 15.2157 14.7179 16.0282 15.317 16.6273C15.9161 17.2264 16.7287 17.563 17.5759 17.563C18.4232 17.563 19.2357 17.2264 19.8348 16.6273C20.4339 16.0282 20.7705 15.2157 20.7705 14.3684C20.7705 13.5212 20.4339 12.7086 19.8348 12.1095C19.2357 11.5104 18.4232 11.1738 17.5759 11.1738C16.7287 11.1738 15.9161 11.5104 15.317 12.1095C14.7179 12.7086 14.3813 13.5212 14.3813 14.3684Z" stroke="#8A2533" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M42.4705 24.1233C42.4705 24.9706 42.807 25.7831 43.4061 26.3822C44.0052 26.9813 44.8178 27.3179 45.665 27.3179C46.5123 27.3179 47.3249 26.9813 47.924 26.3822C48.5231 25.7831 48.8596 24.9706 48.8596 24.1233C48.8596 23.276 48.5231 22.4635 47.924 21.8644C47.3249 21.2653 46.5123 20.9287 45.665 20.9287C44.8178 20.9287 44.0052 21.2653 43.4061 21.8644C42.807 22.4635 42.4705 23.276 42.4705 24.1233Z" stroke="#8A2533" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M24.2741 61.3037L22.2884 55.3183C22.2244 55.1261 22.207 54.9215 22.2376 54.7212C22.2683 54.521 22.3461 54.3309 22.4647 54.1666C22.5832 54.0024 22.7392 53.8687 22.9196 53.7765C23.1 53.6844 23.2997 53.6365 23.5023 53.6367H40.4004C40.603 53.6365 40.8027 53.6844 40.9831 53.7765C41.1635 53.8687 41.3195 54.0024 41.4381 54.1666C41.5566 54.3309 41.6345 54.521 41.6651 54.7212C41.6957 54.9215 41.6783 55.1261 41.6143 55.3183L39.6184 61.3037" stroke="#8A2533" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
                             <div class="calculator-intro-rect background-bg white-bg" data-animate="fade-in-left"></div>
                         </div>
@@ -124,8 +129,8 @@
                 <div class="question-booking-option hide-mobile hide-tablet">
                     <h2 class="h5">Have questions about education investment? We can help.</h2>
                     <ul class="question-booking-links">
-                        <li><a class="flex flex-vcenter fs-18 f-700 text-black arrow-blue" href="#Question-1">Question Category<i class="fs-20 transition fa-sharp fa-regular fa-arrow-right"></i></a></li>
-                        <li><a class="flex flex-vcenter fs-18 f-700 text-black arrow-blue" href="#Question-2">Another Question Category<i class="fs-20 transition fa-sharp fa-regular fa-arrow-right"></i></a></li>
+                        <li><a class="flex flex-vcenter fs-18 f-700 text-black arrow-blue" href="#Question-1">Make an appointment<i class="fs-20 transition fa-sharp fa-regular fa-arrow-right"></i></a></li>
+                        <li><a class="flex flex-vcenter fs-18 f-700 text-black arrow-blue" href="#Question-2">Schedule a callback<i class="fs-20 transition fa-sharp fa-regular fa-arrow-right"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -401,13 +406,13 @@
 <section class="management-section">
     <div class="container">
         <div class="management-main relative">
-            <div class="management-bg navy-bg background-bg"></div>
+            <div class="management-bg RF-red-bg background-bg"></div>
             <div class="management-block">
                 <p>Ready to put your money to work?</p>
                 <h3>Get started with RF Group wealth management..</h3>
                 <div class="navy-block-btns">
                     <div class="navy-block-btn flex">
-                        <a class="button btn-white-bg text-black navy-i btn-hover-blue flex flex-vcenter" href=""><i class="transition fa-regular fa-calendar-plus" aria-hidden="true"></i>Make an appointment</a>
+                        <a class="button btn-white-bg text-black red-i btn-hover-blue flex flex-vcenter" href=""><i class="transition fa-regular fa-calendar-plus" aria-hidden="true"></i>Make an appointment</a>
                         <a class="button transparent no-border white-text flex flex-vcenter" href="">or schedule a callback<i class="white-50 fa-sharp fa-regular fa-phone-volume" aria-hidden="true"></i></a>
                     </div>  
                 </div>

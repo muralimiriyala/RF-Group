@@ -10,6 +10,8 @@
 .intro-red .calculator-intro-content ul.breadcrumbs > li a:hover{color: var(--Black);}
 .intro-purple .calculator-intro-content ul.breadcrumbs > li a{color: var(--RF-Purple);}
 .intro-purple .calculator-intro-content ul.breadcrumbs > li a:hover{color: var(--Black);}
+.intro-aquamarine .calculator-intro-content ul.breadcrumbs > li a{color: var(--RF-Aquamarine);}
+.intro-aquamarine .calculator-intro-content ul.breadcrumbs > li a:hover{color: var(--Black);}
 
 .calculator-intro-content h1{font-size: 48px; letter-spacing: -0.96px; margin-bottom: 24px;}
 
@@ -17,14 +19,16 @@
 .intro-blue .calculator-intro-icon svg path{stroke: var(--Blue);}
 .intro-red .calculator-intro-icon svg path{stroke: var(--RF-Red);}
 .intro-purple .calculator-intro-icon svg path{stroke: var(--RF-Purple);}
+.intro-aquamarine .calculator-intro-icon svg path{stroke: var(--RF-Aquamarine);}
 .calculator-intro-icon-inner{height: 128px; padding: 24px; width: 128px;}
-.calculator-intro-icon-inner svg{max-width: 80px; max-height: 80px;}
+.calculator-intro-icon-inner svg{width: 80px; height: 80px;}
 .calculator-intro-rect{clip-path: polygon(0 0,100% 100%,100% 0);}
 .calculator-intro-line{top: 0; display: block; height: calc(100% + 80px); right: -2px; width: 2px;}
 .intro-yellow .calculator-intro-line{background-color: var(--Yellow-3);}
 .intro-blue .calculator-intro-line{background-color: var(--Blue);}
 .intro-red .calculator-intro-line{background-color: var(--RF-Red);}
 .intro-purple .calculator-intro-line{background-color: var(--RF-Purple);}
+.intro-aquamarine .calculator-intro-line{background-color: var(--RF-Aquamarine);}
 
 
 
@@ -52,7 +56,7 @@
     .calculator-intro-icon-inner{height: 80px; padding: 16px; width: 80px;}
     .calculator-intro-desc{padding-right: 126px; font-size: 16px; line-height: 24px;}
     .calculator-intro-icon{right: 20px; top: 0; height: 100%;}
-    .calculator-intro-icon-inner svg{max-width: 48px; max-height: 48px;}
+    .calculator-intro-icon-inner svg{width: 48px; height: 48px;}
     .calculator-intro-line {height: calc(100% + 40px);}
 }
 
