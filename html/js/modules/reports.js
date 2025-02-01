@@ -1,12 +1,10 @@
-import $, { htmlPrefilter } from 'jquery';
+import $ from 'jquery';
 export const reports = {
   $el: document.querySelector('ul.report-links'),
   $rows: document.querySelectorAll('.doc-repo-ids'),
   init() {
     const __ = this;
     if (!__.$el) return;
-
-    let hash = window.location.hash.substring(1); // Get ID from hash
 
     const toggle = (e) => {
       if (e.target.tagName === 'A') {
@@ -35,6 +33,7 @@ export const reports = {
     };
     __.$el.addEventListener('click', toggle);
 
+    let hash = window.location.hash.substring(1); // Get ID from hash
     if (hash) {
       const activeLink = __.$el.querySelector(`a[href="#${hash}"]`);
       if (activeLink) {
