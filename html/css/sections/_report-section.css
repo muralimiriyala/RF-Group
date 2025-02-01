@@ -5,7 +5,7 @@
 .report-lt hr{margin: 25px 0 23px;}
 
 ul.report-links{margin: 0;}
-ul.report-links li{margin: 0 0 9px;}
+ul.report-links li{margin: 0 0 20px;}
 ul.report-links li::before{display: none;}
 ul.report-links li a.current{color: var(--Blue);}
 ul.report-links li a.current em{display: none;}
@@ -13,6 +13,9 @@ ul.report-links li a.current em{display: none;}
 .report-head{gap: 20px; margin-bottom: 40px;}
 .report-title{flex: 1;}
 .report-btn{width: fit-content;}
+
+.report-category{margin-top: 30px;}
+.doc-repo-find{margin-top: 40px;}
 
 .report-rt p{font-size: 14px; line-height: 14px; color: var(--Text-Gray); margin-bottom: 0;}
 .report-fund-list{padding: 24px;}
@@ -28,7 +31,7 @@ ul.report-fund-data li > span.green{color: var(--Pure-Green);}
 .reports-row:not(:first-child){display: none;}
 /* -- res page --*/
 ul.res-js-links{margin: 0;}
-ul.res-js-links li{margin: 0 0 9px;}
+ul.res-js-links li{margin: 0 0 20px;}
 ul.res-js-links li::before{display: none;}
 
 
