@@ -20,6 +20,10 @@ ul.question-booking-links li a.current i{opacity: 0; visibility: hidden;}
 .question-yellow .question-booking-option .h5{color: var(--Light-Brown);}
 .question-yellow .accordion-plus svg path{fill: var(--Light-Brown);}
 
+.question-purple .question-text hr{background-color: var(--RF-Purple);}
+.question-purple .question-booking-option .h5{color: var(--RF-Purple);}
+.question-purple .accordion-plus svg path{fill: var(--RF-Purple);}
+
 .question-blue .question-booking-option .h5{color: var(--Blue);}
 
 

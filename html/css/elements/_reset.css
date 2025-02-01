@@ -308,6 +308,8 @@ span.optional-text.lg{margin-bottom: 8px; font-size: 1.125rem; line-height: 1.12
 .text-black.arrow-brown:hover{color: var(--Light-Brown);}
 .text-black.arrow-blue i{color: var(--Blue);}
 .text-black.arrow-blue:hover{color: var(--Blue);}
+.text-black.arrow-purple i{color: var(--RF-Purple);}
+.text-black.arrow-purple:hover{color: var(--RF-Purple);}
 
 
 .text-upper{text-transform: uppercase;}

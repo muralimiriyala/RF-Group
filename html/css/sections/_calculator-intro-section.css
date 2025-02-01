@@ -6,16 +6,25 @@
 .intro-yellow .calculator-intro-content ul.breadcrumbs > li a:hover{color: var(--Black);}
 .intro-blue .calculator-intro-content ul.breadcrumbs > li a{color: var(--Blue);}
 .intro-blue .calculator-intro-content ul.breadcrumbs > li a:hover{color: var(--Black);}
+.intro-red .calculator-intro-content ul.breadcrumbs > li a{color: var(--RF-Red);}
+.intro-red .calculator-intro-content ul.breadcrumbs > li a:hover{color: var(--Black);}
+.intro-purple .calculator-intro-content ul.breadcrumbs > li a{color: var(--RF-Purple);}
+.intro-purple .calculator-intro-content ul.breadcrumbs > li a:hover{color: var(--Black);}
+
 .calculator-intro-content h1{font-size: 48px; letter-spacing: -0.96px; margin-bottom: 24px;}
 
 .intro-yellow .calculator-intro-icon svg path{stroke: var(--Yellow-3);}
 .intro-blue .calculator-intro-icon svg path{stroke: var(--Blue);}
+.intro-red .calculator-intro-icon svg path{stroke: var(--RF-Red);}
+.intro-purple .calculator-intro-icon svg path{stroke: var(--RF-Purple);}
 .calculator-intro-icon-inner{height: 128px; padding: 24px; width: 128px;}
 .calculator-intro-icon-inner svg{max-width: 80px; max-height: 80px;}
 .calculator-intro-rect{clip-path: polygon(0 0,100% 100%,100% 0);}
 .calculator-intro-line{top: 0; display: block; height: calc(100% + 80px); right: -2px; width: 2px;}
 .intro-yellow .calculator-intro-line{background-color: var(--Yellow-3);}
 .intro-blue .calculator-intro-line{background-color: var(--Blue);}
+.intro-red .calculator-intro-line{background-color: var(--RF-Red);}
+.intro-purple .calculator-intro-line{background-color: var(--RF-Purple);}
 
 
 
