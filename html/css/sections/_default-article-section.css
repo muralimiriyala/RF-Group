@@ -82,6 +82,8 @@ aside.default-aside:nth-child(1):last-child{flex: 1;}
     ul.breadcrumbs::-webkit-scrollbar{display: none;}
     ul.breadcrumbs li{min-width: fit-content; font-size: 16px;}
     .default-article h2{margin-bottom: 16px;}
+    .default-article ol{margin-bottom: 0;}
+    .default-article .accordion-main h3{padding-top: 15px;}
     .default-line-wrap{padding: 5px 0 22px;}
     .sidebar-gray-blk{padding: 22px 24px 24px; margin-bottom: 22px;}
     .sidebar-mgt-team:not(:last-child){margin-bottom: 20px;}
