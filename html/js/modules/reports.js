@@ -1,10 +1,42 @@
 import $ from 'jquery';
 export const reports = {
+  $header: document.querySelector('header'),
   $el: document.querySelector('ul.report-links'),
   $rows: document.querySelectorAll('.doc-repo-ids'),
   init() {
     const __ = this;
     if (!__.$el) return;
+
+    document.querySelector('ul.report-links li a').classList.add('current');
+    $(__.$rows[0]).fadeIn(800);
+
+    let hash = window.location.hash.substring(1);
+    if (hash) {
+      const activeLinks = __.$el.querySelectorAll('a');
+      activeLinks.forEach((activeLink) => {
+        if (activeLink.href.endsWith(`#${hash}`)) {
+          __.$el.querySelectorAll('a').forEach((ele) => {
+            ele.classList.remove('current');
+          });
+          activeLink.classList.add('current');
+          __.$rows.forEach((ele) => $(ele).hide());
+          const activeRow = document.getElementById(hash);
+          if (activeRow) {
+            setTimeout(() => {
+              $('html, body').animate(
+                {
+                  scrollTop:
+                    $(activeRow).offset.top -
+                    __.$header.getBoundingClientRect().height,
+                },
+                500
+              );
+              $(activeRow).fadeIn(800); // Show matching row
+            }, 0);
+          }
+        }
+      });
+    }
 
     const toggle = (e) => {
       if (e.target.tagName === 'A') {
@@ -21,37 +53,19 @@ export const reports = {
 
         const row = document.getElementById(targetId);
         if (row) {
-          $(row).fadeIn(800);
-        }
-
-        // Handle mobile view
-        if (window.matchMedia('(max-width: 809px)').matches) {
-          __.$btn.classList.remove('current');
-          $(__.$el).slideUp(800);
+          setTimeout(() => {
+            $('html, body').animate(
+              {
+                scrollTop:
+                  $(row).offset.top - __.$header.getBoundingClientRect().height,
+              },
+              500
+            );
+            $(row).fadeIn(800); // Show matching row
+          }, 0);
         }
       }
     };
     __.$el.addEventListener('click', toggle);
-
-    let hash = window.location.hash.substring(1); // Get ID from hash
-    if (hash) {
-      const activeLink = __.$el.querySelector(`a[href="#${hash}"]`);
-      if (activeLink) {
-        activeLink.classList.add('current'); // Highlight link
-        __.$rows.forEach((ele) => $(ele).hide()); // Hide all
-        const activeRow = document.getElementById(hash);
-        if (activeRow) {
-          $(activeRow).fadeIn(800); // Show matching row
-          setTimeout(function () {
-            $('html, body').animate(
-              {
-                scrollTop: $(activeRow).offset.top - 200,
-              },
-              500
-            );
-          }, 500);
-        }
-      }
-    }
   },
 };

@@ -33,6 +33,7 @@ ul.report-fund-data li > span.green{color: var(--Pure-Green);}
 ul.res-js-links{margin: 0;}
 ul.res-js-links li{margin: 0 0 20px;}
 ul.res-js-links li::before{display: none;}
+ul.res-js-links li a.current{color: var(--Blue);}
 
 
 @media screen and (min-width: 1024px) {
