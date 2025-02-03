@@ -58,6 +58,7 @@ export const modal = {
         }
       });
     };
+    if (!_.$body) return;
     _.$body.addEventListener('click', modalbodyClose);
   },
 };

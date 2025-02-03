@@ -20,6 +20,7 @@ import { sidebyside } from './modules/sidebyside.js';
 import { retired } from './modules/retired.js';
 import { feeSchedule } from './modules/feeSchedule.js';
 import { reports } from './modules/reports.js';
+import { resource } from './modules/resource.js';
 import { serviceTierTombstones } from './modules/service-tier-3-tombstones.js';
 import { managementHover } from './modules/managementhover.js';
 
@@ -45,4 +46,5 @@ import { managementHover } from './modules/managementhover.js';
   reports.init();
   serviceTierTombstones.tier();
   managementHover.me();
+  resource.init();
 })();

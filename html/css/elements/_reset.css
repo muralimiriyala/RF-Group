@@ -88,6 +88,7 @@ hr[data-animate*='orange']{background-color: var(--RF-Orange);}
 hr[data-animate*='yellow']{background-color: var(--Yellow-3);}
 hr[data-animate*='brown']{background-color: var(--Light-Brown);}
 hr[data-animate*='blue']{background-color: var(--Blue);}
+hr[data-animate*='purple']{background-color: var(--RF-Purple);}
 
 
 
@@ -164,6 +165,7 @@ body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparen
 .button.btn-white-bg.orange-i i{color: var(--RF-Orange);}
 .button.btn-white-bg.blue-i i{color: var(--Blue);}
 .button.btn-white-bg.red-i i{color: var(--RF-Red);}
+.button.btn-white-bg.purple-i i{color: var(--RF-Purple);}
 
 .button.btn-hover-blue::before{background: var(--Blue);}
 .button.btn-hover-blue:hover{color: var(--White);}
@@ -289,6 +291,7 @@ span.optional-text.lg{margin-bottom: 8px; font-size: 1.125rem; line-height: 1.12
 .text-gray{color: var(--Text-Gray);}
 .text-black.opa-50{color: var(--Black-50);}
 .text-blue{color: var(--Blue);}
+.text-purple{color: var(--RF-Purple);}
 .text-red{color: var(--RF-Red);}
 .text-pure-red{color: var(--Pure-Red);}
 .text-pure-green{color: var(--Pure-Green)}
@@ -300,6 +303,7 @@ span.optional-text.lg{margin-bottom: 8px; font-size: 1.125rem; line-height: 1.12
 .text-black.hover-yellow:hover{color: var(--Yellow-3);}
 .text-black.hover-aquamarine:hover{color: var(--RF-Aquamarine);}
 .text-black.hover-red:hover{color: var(--RF-Red);}
+.text-black.hover-purple:hover{color: var(--RF-Purple);}
 .text-light-orange{color: var(--RF-Orange)}
 
 .text-black.arrow-orange i{color: var(--RF-Orange);}
@@ -308,6 +312,10 @@ span.optional-text.lg{margin-bottom: 8px; font-size: 1.125rem; line-height: 1.12
 .text-black.arrow-brown:hover{color: var(--Light-Brown);}
 .text-black.arrow-blue i{color: var(--Blue);}
 .text-black.arrow-blue:hover{color: var(--Blue);}
+.text-black.arrow-purple i{color: var(--RF-Purple);}
+.text-black.arrow-purple:hover{color: var(--RF-Purple);}
+.text-black.arrow-aquamarine i{color: var(--RF-Aquamarine);}
+.text-black.arrow-aquamarine:hover{color: var(--RF-Aquamarine);}
 
 
 .text-upper{text-transform: uppercase;}
@@ -451,6 +459,7 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 .gray-bg{background: var(--Gray);}
 .navy-bg{background: var(--Navy);}
 .yellow-bg{background: var(--Yellow-3);}
+.purple-bg{background: var(--RF-Purple);}
 .blue-bg{background-color: var(--Blue);}
 .aquamarine-bg{background-color: var(--RF-Aquamarine);}
 .orange-tint-bg{background: var(--Orange-Tint-Bg);}

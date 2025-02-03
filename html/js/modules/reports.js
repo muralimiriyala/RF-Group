@@ -1,39 +1,71 @@
 import $ from 'jquery';
 export const reports = {
+  $header: document.querySelector('header'),
   $el: document.querySelector('ul.report-links'),
-  $rows: document.querySelectorAll('.reports-row'),
-  $btn: document.querySelector('.report-category-btn'),
+  $rows: document.querySelectorAll('.doc-repo-ids'),
   init() {
     const __ = this;
+    if (!__.$el) return;
+
+    document.querySelector('ul.report-links li a').classList.add('current');
+    $(__.$rows[0]).fadeIn(800);
+
+    let hash = window.location.hash.substring(1);
+    if (hash) {
+      const activeLinks = __.$el.querySelectorAll('a');
+      activeLinks.forEach((activeLink) => {
+        if (activeLink.href.endsWith(`#${hash}`)) {
+          __.$el.querySelectorAll('a').forEach((ele) => {
+            ele.classList.remove('current');
+          });
+          activeLink.classList.add('current');
+          __.$rows.forEach((ele) => $(ele).hide());
+          const activeRow = document.getElementById(hash);
+          if (activeRow) {
+            setTimeout(() => {
+              $('html, body').animate(
+                {
+                  scrollTop:
+                    $(activeRow).offset.top -
+                    __.$header.getBoundingClientRect().height,
+                },
+                500
+              );
+              $(activeRow).fadeIn(800); // Show matching row
+            }, 0);
+          }
+        }
+      });
+    }
+
     const toggle = (e) => {
       if (e.target.tagName === 'A') {
         e.preventDefault();
-        e.currentTarget.querySelectorAll('a').forEach((ele) => {
-          ele.classList.remove('current');
-        });
-        e.target.classList.toggle('current');
-        const $h = e.target.getAttribute('href').substring(1);
-        __.$rows.forEach((ele) => {
-          $(ele).fadeOut(100);
-        });
-        const row = document.querySelector(`.reports-row[id=${$h}]`);
+        let targetId = e.target.getAttribute('href').substring(1);
+
+        __.$el
+          .querySelectorAll('a')
+          .forEach((ele) => ele.classList.remove('current'));
+
+        e.target.classList.add('current');
+
+        __.$rows.forEach((ele) => $(ele).fadeOut(100));
+
+        const row = document.getElementById(targetId);
         if (row) {
-          $(row).fadeIn(800);
-        }
-        if (window.matchMedia('(max-width: 809px)').matches) {
-          __.$btn.classList.remove('current');
-          $(__.$el).slideUp(800);
-          const $text = e.target.textContent;
-          __.$btn.querySelector('span').textContent = $text;
+          setTimeout(() => {
+            $('html, body').animate(
+              {
+                scrollTop:
+                  $(row).offset.top - __.$header.getBoundingClientRect().height,
+              },
+              500
+            );
+            $(row).fadeIn(800); // Show matching row
+          }, 0);
         }
       }
     };
-    if (!__.$el) return;
     __.$el.addEventListener('click', toggle);
-    const mbltoggle = (e) => {
-      e.currentTarget.classList.toggle('current');
-      $(__.$el).slideToggle(800);
-    };
-    __.$btn.addEventListener('click', mbltoggle);
   },
 };
