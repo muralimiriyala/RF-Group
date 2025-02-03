@@ -11,7 +11,7 @@ export const menu = {
   ],
   $gpages: [
     ...document.querySelectorAll(
-      'body.tax-forms_category, body,page-template-calculator-education, body.tax-reports-category, body.page-template-resource-fees, body.page-template-contact, body.page-template-resource-faq, body.page-template-404'
+      'body.tax-forms_category, body.page-template-calculator-education, body.tax-reports-category, body.page-template-resource-fees, body.page-template-contact, body.page-template-resource-faq, body.page-template-404'
     ),
   ],
 
@@ -34,25 +34,25 @@ export const menu = {
 
     // scrolly
     let $scrolly = 0;
-    const scroll = () => {
+    const grayscroll = () => {
       $scrolly = Number(window.scrollY);
       $scrolly > 0
         ? _.$ele.classList.add('gray-header', 'white-bg')
         : _.$ele.classList.remove('gray-header', 'white-bg');
     };
-    const scroll1 = () => {
+    const whitescroll = () => {
       $scrolly = Number(window.scrollY);
       $scrolly > 0
         ? _.$ele.classList.add('white-bg')
         : _.$ele.classList.remove('white-bg');
     };
     if (!_.$gpages[0]) {
-      window.addEventListener('scroll', scroll);
-      window.addEventListener('load', scroll);
+      window.addEventListener('scroll', grayscroll);
+      window.addEventListener('load', grayscroll);
     }
     if (_.$gpages[0]) {
-      window.addEventListener('scroll', scroll1);
-      window.addEventListener('load', scroll1);
+      window.addEventListener('scroll', whitescroll);
+      window.addEventListener('load', whitescroll);
     }
     // scrolly with
 
