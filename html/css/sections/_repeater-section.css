@@ -76,7 +76,7 @@ svg.repeater-icon-hover{top: 0; left: 0; opacity: 0;}
     body.page-template-careers .repeater-list{margin-bottom: 12px;}
 
     .page-template-about .repeater-list { padding: 0; margin-bottom: 24px;} 
-      .repeater-main .default-banner-btn {display: block;}
+      .repeater-main .default-banner-btn {display: block; margin-top: 24px;}
       .repeater-main .default-banner-btn .button{margin-bottom: 24px;}
       .repeater-main .default-banner-btn a{width: 100%;}
       .repeater-main .default-banner-btn .button:only-child{margin-bottom: 0;}
