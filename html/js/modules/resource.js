@@ -5,6 +5,16 @@ export const resource = {
   init() {
     const __ = this;
 
+    if (window.matchMedia('(max-width: 809px)').matches) {
+      __.$el.addEventListener('click', function (e) {
+        if (e.target.tagName === 'A') {
+          e.target.classList.toggle('current');
+          __.$btn.classList.remove('current');
+          __.$btn.querySelector('span').textContent = e.target.textContent;
+          $(__.$el).slideUp(800);
+        }
+      });
+    }
     // Mobile toggle
     const mbltoggle = (e) => {
       e.currentTarget.classList.toggle('current');
