@@ -2,15 +2,20 @@
 .calculator-intro-content ul.breadcrumbs{margin: 0 0 24px;}
 .calculator-intro-content ul.breadcrumbs > li{font-weight: 700;}
 .calculator-intro-content ul.breadcrumbs > li:last-child{font-weight: 400;}
-.intro-yellow .calculator-intro-content ul.breadcrumbs > li a{color: var(--Light-Brown);}
+.intro-yellow .calculator-intro-content ul.breadcrumbs > li a, 
+.intro-yellow .calculator-intro-content ul.breadcrumbs > li:first-child{color: var(--Light-Brown);}
 .intro-yellow .calculator-intro-content ul.breadcrumbs > li a:hover{color: var(--Black);}
-.intro-blue .calculator-intro-content ul.breadcrumbs > li a{color: var(--Blue);}
+.intro-blue .calculator-intro-content ul.breadcrumbs > li a,
+.intro-blue .calculator-intro-content ul.breadcrumbs > li:first-child{color: var(--Blue);}
 .intro-blue .calculator-intro-content ul.breadcrumbs > li a:hover{color: var(--Black);}
-.intro-red .calculator-intro-content ul.breadcrumbs > li a{color: var(--RF-Red);}
+.intro-red .calculator-intro-content ul.breadcrumbs > li a,
+.intro-red .calculator-intro-content ul.breadcrumbs > li:first-child{color: var(--RF-Red);}
 .intro-red .calculator-intro-content ul.breadcrumbs > li a:hover{color: var(--Black);}
-.intro-purple .calculator-intro-content ul.breadcrumbs > li a{color: var(--RF-Purple);}
+.intro-purple .calculator-intro-content ul.breadcrumbs > li a,
+.intro-purple .calculator-intro-content ul.breadcrumbs > li:first-child{color: var(--RF-Purple);}
 .intro-purple .calculator-intro-content ul.breadcrumbs > li a:hover{color: var(--Black);}
-.intro-aquamarine .calculator-intro-content ul.breadcrumbs > li a{color: var(--RF-Aquamarine);}
+.intro-aquamarine .calculator-intro-content ul.breadcrumbs > li a,
+.intro-aquamarine .calculator-intro-content ul.breadcrumbs > li:first-child{color: var(--RF-Aquamarine);}
 .intro-aquamarine .calculator-intro-content ul.breadcrumbs > li a:hover{color: var(--Black);}
 
 .calculator-intro-content h1{font-size: 48px; letter-spacing: -0.96px; margin-bottom: 24px;}
