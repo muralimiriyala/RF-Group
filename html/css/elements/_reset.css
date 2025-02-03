@@ -157,6 +157,7 @@ body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparen
 .button.btn-gray-bg{background-color: var(--Background-Gray);}
 .button.btn-navy-bg{background-color: var(--Navy);}
 .button.btn-yellow-bg{background-color: var(--Yellow-3);}
+.button.btn-purple-bg{background-color: var(--RF-Purple);}
 
 .button.btn-white-bg.text-black{color: var(--Black);}
 .button.btn-white-bg.aquamarine-i i{color: var(--RF-Aquamarine);}
@@ -171,6 +172,8 @@ body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparen
 .button.btn-hover-blue:hover{color: var(--White);}
 .button.btn-hover-blue:hover i{color: var(--White);}
 
+
+
 .button.btn-hover-navy:hover{color: var(--White);}
 .button.btn-hover-navy:hover i{color: var(--White);}
 .button.btn-hover-navy:hover i[style]{color: var(--White) !important;}
@@ -183,6 +186,11 @@ body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparen
 .button.btn-hover-aquamarine::before{background: var(--RF-Aquamarine);}
 .button.btn-hover-aquamarine:hover{color: var(--White);}
 .button.btn-hover-aquamarine:hover i{color: var(--White);}
+
+.btn-purple{border-color: var(--RF-Purple)!important;}
+.btn-purple .button.btn-white-bg{color: var(--RF-Purple)}
+.btn-purple .button.btn-white-bg:hover{color: var(--White);}
+
 /* Buttons */
 
 
@@ -271,6 +279,7 @@ span.optional-text{color: var(--Blue); display: block; font-size: 18px; font-wei
 span.optional-text.fs-16{font-size: 16px; margin-bottom: 6px;}
 span.optional-text.fs-14{font-size: 14px; margin-bottom: 6px;}
 span.optional-text.white{color: var(--White);}
+span.optional-text.purple{color: var(--RF-Purple);}
 span.optional-text.blue{color: var(--Blue);-webkit-text-fill-color: var(--Blue); opacity: 0.6; background: none;}
 span.optional-text.light-blue{color: var(--Light-Blue); }
 span.optional-text.text-red{color: var(--RF-Red); }

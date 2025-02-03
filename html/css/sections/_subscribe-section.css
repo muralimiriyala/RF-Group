@@ -28,11 +28,14 @@ body .subscribe-email .with_frm_style .frm_message p { color: var(--White);}
 }
 @media screen and (max-width: 1023px) and (min-width: 200px) {
     .subscribe-wrap{padding-bottom: 40px;}
-    .subscribe-inner{gap: 24px; padding: 32px;}
+    .subscribe-inner{gap: 20px; padding: 20px;}
     .subscribe-text{flex: 100%;}
     .subscribe-email{flex: 100%;}
 }
 @media screen and (max-width: 809px) and (min-width: 200px) {
+    .subscribe-text h3{font-size: 32px; line-height: 40px; letter-spacing: -0.64px;}
     body .subscribe-email .form_field_wrapper > .form-field{width: 100%;}
+    body .subscribe-email .frm_forms .frm_form_fields .frm_form_field input{padding: 13px 16px 13px 40px;}
     body .subscribe-email .frm_forms .frm_form_fields .form_field_wrapper .frm_form_field:first-child{display: block;}
+    body .subscribe-email .frm_forms .frm_form_fields .frm_form_field .frm_submit button{padding: 16.5px 20px; }
 }

@@ -30,6 +30,8 @@ ul.question-booking-links li a.current i{opacity: 0; visibility: hidden;}
 
 .question-blue .question-booking-option .h5{color: var(--Blue);}
 
+.question-full .question-text{flex: 100%;}
+
 
 @media screen and (min-width: 1024px) {
     .question-main{padding: 80px 0; gap: 80px;}

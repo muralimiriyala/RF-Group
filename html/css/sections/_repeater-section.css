@@ -29,7 +29,7 @@ svg.repeater-icon-hover{top: 0; left: 0; opacity: 0;}
     .repeater-list{ gap: 80px;}
     .repeater-text{flex: 0 0 calc(50% - 40px)}
     .repeater-img{flex: 0 0 calc(50% - 40px);}
-    .repeater-desc{margin-left: auto; margin-right: 0; max-width: 680px; padding: 80px 64px 80px 80px;}
+    .repeater-desc{margin-left: auto; margin-right: 0; max-width: 665px; padding: 80px 64px 80px 80px;}
     
     .repeater-list.row-reverse .repeater-desc{margin-left: 0; margin-right: auto;}
 }
@@ -43,6 +43,7 @@ svg.repeater-icon-hover{top: 0; left: 0; opacity: 0;}
     .repeater-text:nth-child(1):last-child .repeater-desc { max-width: 1280px; margin: 0 auto; }
     .repeater-text:nth-child(1):last-child { flex: 1; }
     .repeater-img:nth-child(1):last-child { flex: 0 0 100%; }
+    .repeater-img img {max-height: 487px;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px) {
     .repeater-list{ gap: 60px;}
