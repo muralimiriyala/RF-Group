@@ -271,6 +271,7 @@ span.optional-text{color: var(--Blue); display: block; font-size: 18px; font-wei
 span.optional-text.fs-16{font-size: 16px; margin-bottom: 6px;}
 span.optional-text.fs-14{font-size: 14px; margin-bottom: 6px;}
 span.optional-text.white{color: var(--White);}
+span.optional-text.purple{color: var(--RF-Purple);}
 span.optional-text.blue{color: var(--Blue);-webkit-text-fill-color: var(--Blue); opacity: 0.6; background: none;}
 span.optional-text.light-blue{color: var(--Light-Blue); }
 span.optional-text.text-red{color: var(--RF-Red); }
