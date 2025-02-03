@@ -1,0 +1,7 @@
+
+
+body.page-template-about .home-banner-text{font-size: 20px;}
+
+@media screen and (min-width: 1024px) {
+    body.page-template-about .home-banner-text hr[data-animate] {margin: 28px 0 23px;}
+}
