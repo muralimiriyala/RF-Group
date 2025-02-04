@@ -20,6 +20,11 @@ ul.faqs-links.RF-Orange li a i{color: var(--RF-Orange);} */
 .doc-form-list.RF-Orange .doc-form-line{background-color: var(--RF-Orange);}
 .doc-form-list.RF-Orange:hover .doc-form-icon {background-color: var(--RF-Orange);}
 .doc-form-list.RF-Orange:hover { background-color: var(--RF-Orange-10); }
+
+.doc-form-list.RF-Purple:hover { background-color: var(--RF-Purple-10); }
+.doc-form-list.RF-Purple .doc-form-line{ background-color: var(--RF-Purple); }
+.doc-form-list.RF-Purple:hover .doc-form-icon {background-color: var(--RF-Purple);}
+
 .fund-detail-report-article .doc-form-row{margin-bottom: 56px;}
 .doc-repo-list.RF-Orange .doc-repo-line{background-color: var(--RF-Orange);}
 .doc-repo-list.RF-Orange:hover .doc-repo-icon {background-color: var(--RF-Orange);}
