@@ -4,4 +4,10 @@ body.page-template-about .home-banner-text{font-size: 20px;}
 
 @media screen and (min-width: 1024px) {
     body.page-template-about .home-banner-text hr[data-animate] {margin: 28px 0 23px;}
+    body.page-template-about .default-banner-btn {margin-top: 32px;}
+}
+
+@media screen and (max-width: 809px) and (min-width: 200px){
+    body.page-template-about .home-banner-text{font-size: 18px; line-height: 27px;}
+    body.page-template-about .home-banner-text .default-banner-btn{margin-top: 25px;}
 }
