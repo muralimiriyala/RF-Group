@@ -69,7 +69,7 @@ ul.resource-form-q li a:hover{color: var(--Blue);}
 }
 @media screen and (max-width: 809px) and (min-width: 200px){
     .resource-form-main{padding: 24px 0; display: block; width: 100%}
-    .resource-form-lt{width: 100%; margin-bottom: 24px;}
+    .resource-form-lt{width: 100%; margin-bottom: 24px; font-size: 14px; line-height: 21px;}
 
     .form-category{margin-top: 23px; }
     .form-category-btn{cursor: pointer; padding: 16px 44px 16px 16px; border: 1px solid var(--Text-Gray); background: var(--Background-Gray); display: block; width: 100%; font-size: 16px; line-height: 24px; color: var(--Black);}
