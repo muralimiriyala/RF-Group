@@ -12,6 +12,10 @@
 .accordion-list.RF-Orange:not(.open) .accordion-header:hover::before { background: var(--RF-Orange-10); }
 .accordion-list.RF-Orange .accordion-header svg path{fill: var(--RF-Orange);}
 
+.accordion-list.RF-Red:not(.open) .accordion-header:hover{border-color: var(--RF-Red);}
+.accordion-list.RF-Red:not(.open) .accordion-header:hover::before { background: var(--RF-Red-10); }
+.accordion-list.RF-Red .accordion-header svg path{fill: var(--RF-Red);}
+
 .accordion-plus{left: auto; right: 20px; top: calc(50% + 1px); transform: translateY(-50%); max-width: 18px; flex-direction: column;}
 .accordion-plus svg{max-width: 18px; object-fit: contain;}
 .accordion-plus svg:not(:first-child){bottom: 4px; position: relative;}
