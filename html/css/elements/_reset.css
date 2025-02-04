@@ -191,6 +191,8 @@ body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparen
 .btn-purple .button.btn-white-bg{color: var(--RF-Purple)}
 .btn-purple .button.btn-white-bg:hover{color: var(--White);}
 
+.border-purple{border-left: 4px solid  var(--RF-Purple)!important;}
+
 /* Buttons */
 
 

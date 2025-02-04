@@ -60,6 +60,7 @@ ul.copyrights-menu > li > a:hover{color: var(--Blue);}
     .footer-row-lt{gap: 87px; flex: 0 0 680px;}
     .footer-row-rt{flex: 1; align-items: end; display: flex;}
     .copyrights-main{justify-content: space-between;}
+
 }
 @media only screen and (min-width: 810px){
     ul.footer-lists > li > a{color: var(--White);}
