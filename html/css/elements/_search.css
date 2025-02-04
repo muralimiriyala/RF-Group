@@ -6,15 +6,15 @@ form.srch-form.open input{padding: 14px 56px 14px 16px; transition: all 1s ease;
 button.btn-srch{font-size: 0; line-height: 0; padding: 0; top: 12px; right: -2px; position: absolute; background: none;}
 button.btn-srch::before{display: none;}
 form.srch-form.open button.btn-srch{right: 15px;}
-button.btn-srch i{font-size: 24px; line-height: 24px; color: var(--White);}
-header.gray-header button.btn-srch i{color: var(--Black);}
-header.gray-header button.btn-srch i:hover, form.srch-form.open button.btn-srch i:hover{color: var(--Blue);}
-form.srch-form.open button.btn-srch i{color: var(--Black);}
-button.btn-srch:hover i{color: var(--Blue);}
+button.btn-srch em{font-size: 24px; line-height: 24px; color: var(--White);}
+header.gray-header button.btn-srch em{color: var(--Black);}
+header.gray-header button.btn-srch em:hover, form.srch-form.open button.btn-srch em:hover{color: var(--Blue);}
+form.srch-form.open button.btn-srch em{color: var(--Black);}
+button.btn-srch:hover em{color: var(--Blue);}
 
 
 header.white-header form.srch-form{right: 50px; top: 4px;}
-header.white-header button.btn-srch i{color: var(--Black);}
+header.white-header button.btn-srch em{color: var(--Black);}
 
 
 form.srch-form.open input::-webkit-input-placeholder {color: var(--Black);}
