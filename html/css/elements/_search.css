@@ -1,7 +1,7 @@
 
 form.srch-form{width: 24px; top: 52px; right: 2px;  position: absolute; z-index: 1800;}
 form.srch-form.open{width: 100%; transition: all 1s ease;}
-form.srch-form input{padding: 0; min-height: 48px; max-width: 55%; top: 0; right: 0; position: absolute; font-size: 0; transition: none; background-color: transparent; color: var(--Black); border: none;}
+form.srch-form input{padding: 0; min-height: 48px; max-width: 60%; top: 0; right: 0; position: absolute; font-size: 0; transition: none; background-color: transparent; color: var(--Black); border: none;}
 form.srch-form.open input{padding: 14px 56px 14px 16px; transition: all 1s ease; font-size: 16px; background-color: var(--White);}
 button.btn-srch{font-size: 0; line-height: 0; padding: 0; top: 12px; right: -2px; position: absolute; background: none;}
 button.btn-srch::before{display: none;}

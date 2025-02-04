@@ -3,7 +3,6 @@ export const menu = {
   $nav: document.querySelector('.header_right'),
   $btn: document.querySelector('.humburger-btn'),
   $login: document.querySelector('.user-login'),
-  $tpages: [...document.querySelectorAll('body.page-template-about-bio')],
   $smallHeader: [
     ...document.querySelectorAll(
       'body.page-template-service-tier2-fund, body.page-template-tier3-fund-detail, body.page-template-tombostones, body.page-template-about-history, body.page-template-about-team'
@@ -11,10 +10,9 @@ export const menu = {
   ],
   $gpages: [
     ...document.querySelectorAll(
-      'body.tax-forms_category, body.page-template-calculator-education, body.tax-reports-category, body.page-template-resource-fees, body.page-template-contact, body.page-template-resource-faq, body.page-template-404'
+      'body.tax-forms_category, body.page-template-resources, body.page-template-calculator-pension, body.page-template-calculator-retirement, body.page-template-calculator-dividend, body.page-template-calculator-margin-interest, body.page-template-calculator-compound-interest, body.page-template-calculator-education, body.tax-reports-category, body.page-template-resource-fees, body.page-template-contact, body.page-template-resource-faq, body.page-template-404'
     ),
   ],
-
   $site: document.querySelector('main.site-main-cover'),
   init() {
     const _ = this;
