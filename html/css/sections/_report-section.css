@@ -14,7 +14,7 @@ ul.report-links li a.current em{display: none;}
 .report-title{flex: 1;}
 .report-btn{width: fit-content;}
 
-.report-category{margin-top: 30px;}
+.report-category{margin-top: 39px;}
 .doc-repo-find{margin-top: 40px;}
 
 .report-rt p{font-size: 14px; line-height: 14px; color: var(--Text-Gray); margin-bottom: 0;}
