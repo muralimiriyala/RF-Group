@@ -394,9 +394,9 @@ export const jqueryselectBox = {
         var labelHtml;
         if (selected.data('icon')) {
           labelHtml =
-            '<i class="fa fa-' +
+            '<em class="fa fa-' +
             selected.data('icon') +
-            ' fa-fw fa-lg"></i> ' +
+            ' fa-fw fa-lg"></em> ' +
             selected.text();
         } else {
           labelHtml = selected.text();
@@ -1122,9 +1122,9 @@ export const jqueryselectBox = {
         li.data(self.data());
         if (self.data('icon')) {
           a.attr('rel', self.val()).html(
-            '<i class="fa fa-' +
+            '<em class="fa fa-' +
               self.data('icon') +
-              ' fa-fw fa-lg"></i> ' +
+              ' fa-fw fa-lg"></em> ' +
               self.text()
           );
         } else {
