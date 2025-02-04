@@ -213,9 +213,10 @@ a.text-link:hover em{left: 8px;}
 a.text-link.navy{color: var(--Navy);}
 a.text-link.navy em{color: var(--Navy);}
 
-a.text-link.purple:hover{color: var(--RF-Purple);}
-a.text-link.purple em{color: var(--RF-Purple);}
-
+a.text-link.purple-em:hover{color: var(--RF-Purple);}
+a.text-link.purple-em em{color: var(--RF-Purple);}
+a.purple-uderline{text-decoration-color: var(--RF-Purple);}
+a.purple-uderline:hover{color: var(--RF-Purple);}
 
 .text-btn-link{display: inline-flex; align-items: center; color: var(--White); font-size: 1.25rem; line-height: 100%;}
 .text-btn-link:hover{color: var(--White);}
