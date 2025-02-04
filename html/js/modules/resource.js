@@ -4,6 +4,7 @@ export const resource = {
   $btn: document.querySelector('.report-category-btn'),
   init() {
     const __ = this;
+    if (!__.$el) return;
 
     if (window.matchMedia('(max-width: 809px)').matches) {
       __.$el.addEventListener('click', function (e) {

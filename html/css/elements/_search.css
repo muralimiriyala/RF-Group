@@ -24,6 +24,10 @@ form.srch-form.open input:-ms-input-placeholder {color: var(--Black);}
 
 
 header.white-header form.srch-form.open input, .white-bg form.srch-form.open input{background-color: var(--Background-Gray);}
+
 @media screen and (max-width: 1279px) and (min-width: 1024px){
     form.srch-form input{max-width: 85%;}
+}
+@media screen and (max-width: 1023px) and (min-width: 200px){
+    form.srch-form{display: none;}
 }

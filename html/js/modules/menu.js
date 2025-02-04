@@ -63,5 +63,24 @@ export const menu = {
     _.$login.addEventListener('click', (e) => {
       const ___ = this;
     });
+
+    document
+      .querySelectorAll('ul.main_menu > li.menu-item-has-children > a')
+      .forEach((level1) => {
+        level1.addEventListener('click', (e) => {
+          e.preventDefault();
+          e.target.classList.toggle('open');
+          const $li = e.target.parentElement;
+          $($li.querySelector('ul')).slideToggle(800);
+          const siblings = Array.from($li.parentElement.children);
+          siblings.forEach(($item) => {
+            if ($item !== $li) {
+              $item.querySelector('a').classList.remove('open');
+              const $itemul = $item.querySelector('ul');
+              $($itemul).slideUp(800);
+            }
+          });
+        });
+      });
   },
 };
