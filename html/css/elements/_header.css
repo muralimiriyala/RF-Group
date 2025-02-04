@@ -63,8 +63,8 @@ header.scrolly-header{transform: translateY(-100%);}
     ul.top-nav > li::before{display: none;}
     ul.top-nav > li > a{padding: 4px 0; align-items: center; display: flex; gap: 6px; font-size: 12px; line-height: 100%; letter-spacing: 0.24px; font-weight: 500; color: var(--White-75);}
     ul.top-nav > li > a:hover{color: var(--White); }
-    ul.top-nav > li > a:hover i{color: var(--Blue);}
-    ul.top-nav > li:first-child > a i{top: -0.75px; position: relative;}
+    ul.top-nav > li > a:hover em{color: var(--Blue);}
+    ul.top-nav > li:first-child > a em{top: -0.75px; position: relative;}
 
     header.gray-header ul.top-nav > li > a{color: var(--Black-75);}
 
