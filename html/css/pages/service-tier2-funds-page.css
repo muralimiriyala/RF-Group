@@ -39,9 +39,16 @@ ul.service-fund-banner-data li:before{display: none;}
 
 .service-fund-faq ul.ui-categorys li a{padding: 8px 17px;}
 .service-fund-faq ul.ui-categorys.RF-Orange li  a:hover span.gray-line{background-color: var(--RF-Orange);}
-.faqs-section.service-fund-faq .faqs-main:after{top:0; width: 100%; height: 2px; display: block; border: none; border-radius: 1px; background-color: var(--RF-Orange); opacity: 0.25; position: absolute; content:""; margin: 12px 0;}
+
+
 
 .faqs-section.service-fund-faq .faqs-main{padding: 106px 0 75px;}
+
+.faqs-top-line::before{top:0; width: 100%; height: 2px; display: block; border: none; border-radius: 1px; background-color: var(--Blue); opacity: 0.25; position: absolute; content:""; margin: 12px 0;}
+.faqs-top-line.purple-line::before{background-color: var(--RF-Purple);}
+.faqs-top-line.orange-line::before{background-color: var(--RF-Orange);}
+.faqs-top-line.yellow-line::before{background-color: var(--RF-Yellow);}
+
 
 @media screen and (max-width: 1199px) and (min-width: 1024px){
     .service-fund-banner-desc{width: inherit;}
