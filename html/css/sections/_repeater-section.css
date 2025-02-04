@@ -63,7 +63,7 @@ svg.repeater-icon-hover{top: 0; left: 0; opacity: 0;}
 }
 @media only screen and (max-width: 809px) and (min-width: 200px) {
     .repeater-list{margin-bottom: 44px; flex-direction: column-reverse;}
-    .repeater-desc { padding: 40px 24px; }
+    .repeater-desc { padding: 47px 24px; }
     .repeater-main{padding: 40px 0;}
     .repeater-text h2 {margin-bottom: 26px;}
     .repeater-icon { height: 85px; left: 36px; right: auto; top: inherit; width: 64px; bottom: -33px; transform: rotate(-90deg);}
@@ -76,7 +76,7 @@ svg.repeater-icon-hover{top: 0; left: 0; opacity: 0;}
     body.page-template-careers .repeater-list{margin-bottom: 12px;}
 
     .page-template-about .repeater-list { padding: 0; margin-bottom: 24px;} 
-      .repeater-main .default-banner-btn {display: block;}
+      .repeater-main .default-banner-btn {display: block; margin-top: 24px;}
       .repeater-main .default-banner-btn .button{margin-bottom: 24px;}
       .repeater-main .default-banner-btn a{width: 100%;}
       .repeater-main .default-banner-btn .button:only-child{margin-bottom: 0;}

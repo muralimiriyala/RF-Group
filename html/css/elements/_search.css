@@ -1,9 +1,10 @@
 
-form.srch-form{width: 24px; top: 1px; right: 2px;  position: absolute; z-index: 1800;}
+form.srch-form{width: 24px; top: 52px; right: 2px;  position: absolute; z-index: 1800;}
 form.srch-form.open{width: 100%; transition: all 1s ease;}
-form.srch-form input{padding: 0; min-height: 48px; top: 0; right: 0; position: absolute; font-size: 0; transition: none; background-color: transparent; color: var(--Black); border: none;}
+form.srch-form input{padding: 0; min-height: 48px; max-width: 55%; top: 0; right: 0; position: absolute; font-size: 0; transition: none; background-color: transparent; color: var(--Black); border: none;}
 form.srch-form.open input{padding: 14px 56px 14px 16px; transition: all 1s ease; font-size: 16px; background-color: var(--White);}
 button.btn-srch{font-size: 0; line-height: 0; padding: 0; top: 12px; right: -2px; position: absolute; background: none;}
+button.btn-srch::before{display: none;}
 form.srch-form.open button.btn-srch{right: 15px;}
 button.btn-srch i{font-size: 24px; line-height: 24px; color: var(--White);}
 header.gray-header button.btn-srch i{color: var(--Black);}
@@ -23,3 +24,6 @@ form.srch-form.open input:-ms-input-placeholder {color: var(--Black);}
 
 
 header.white-header form.srch-form.open input, .white-bg form.srch-form.open input{background-color: var(--Background-Gray);}
+@media screen and (max-width: 1279px) and (min-width: 1024px){
+    form.srch-form input{max-width: 85%;}
+}
