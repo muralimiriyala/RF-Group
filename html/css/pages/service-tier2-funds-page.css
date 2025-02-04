@@ -32,8 +32,8 @@ ul.service-fund-banner-data li:before{display: none;}
 .fund-group-list ul.faqs-links li:only-child{margin: 0;}
 .fund-group-list p{font-size: 16px; line-height: 150%; margin-bottom: 14px;}
 
-.page-template-service-tier2-fund .management-wrap:after{bottom:0; width: 100%; height: 2px; display: block; border: none; border-radius: 1px; background-color: var(--RF-Orange); opacity: 0.25; position: absolute; content:""; margin: 12px 0;}
-.page-template-service-tier2-fund .management-team-row{padding:  0 0 104px;}
+.page-template-service-tier-2 .management-wrap:after{bottom:0; width: 100%; height: 2px; display: block; border: none; border-radius: 1px; background-color: var(--RF-Orange); opacity: 0.25; position: absolute; content:""; margin: 12px 0;}
+.page-template-service-tier-2 .management-team-row{padding:  0 0 104px;}
 
 
 .service-fund-faq ul.ui-categorys li a{padding: 8px 17px;}
@@ -65,8 +65,8 @@ ul.service-fund-banner-data li:before{display: none;}
     .fund-group-list{padding: 24px;}
     .fund-group-list h3{font-size: 24px;}
 
-    .page-template-service-tier2-fund .faqs-main{padding: 60px 0 64px;}
-    .page-template-service-tier2-fund .management-team-row { padding: 0 0 88px; }
+    .page-template-service-tier-2 .faqs-main{padding: 60px 0 64px;}
+    .page-template-service-tier-2 .management-team-row { padding: 0 0 88px; }
     .faqs-section.service-fund-faq .faqs-main { padding: 90px 0 75px; }
 }
 
@@ -86,10 +86,10 @@ ul.service-fund-banner-data li:before{display: none;}
     .fund-group-list p{font-size: 14px; line-height: 150%; }
     .fund-group-list{flex: 0 0 100%;}
 
-    .page-template-service-tier2-fund .management-section { background-image: linear-gradient(to top,var(--White) calc(100% - 50px),var(--Gray) 50px); }
-    .page-template-service-tier2-fund .faqs-main{padding: 38px 0 40px;}
-    .page-template-service-tier2-fund .faqs-desc h2{margin-bottom: 24px;}
-    .page-template-service-tier2-fund .faqs-desc{margin-bottom: 0;}
+    .page-template-service-tier-2 .management-section { background-image: linear-gradient(to top,var(--White) calc(100% - 50px),var(--Gray) 50px); }
+    .page-template-service-tier-2 .faqs-main{padding: 38px 0 40px;}
+    .page-template-service-tier-2 .faqs-desc h2{margin-bottom: 24px;}
+    .page-template-service-tier-2 .faqs-desc{margin-bottom: 0;}
     .faqs-section.service-fund-faq .faqs-main { padding: 52px 0 24px; }
-    .page-template-service-tier2-fund .faqs-right{padding-bottom: 24px;}
+    .page-template-service-tier-2 .faqs-right{padding-bottom: 24px;}
     }
