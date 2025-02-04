@@ -62,7 +62,7 @@ aside.default-aside:nth-child(1):last-child{flex: 1;}
     .sidebar-gray-btns{margin-top: 40px;}
     article.default-article .default-image-caption{margin-top: 40px;}
     article.default-article .default-line-wrap{padding-bottom: 36px;}
-    article.default-article blockquote{margin-top: 30px;}
+    article.default-article blockquote{margin-top: 40px;}
     article.default-article .accordion-main{padding-bottom: 36px;}
     article.default-article .accordion-main h3{padding-top: 11px;}
 }
