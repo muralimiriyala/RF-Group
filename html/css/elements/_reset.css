@@ -141,6 +141,10 @@ hr.w-64{width: 64px;}
 
 
 
+.button.border-purple{border-color: var(--RF-Purple);}
+.button.border-purple::before{background-color: var(--RF-Purple);}
+
+
 
 .button.btn-red-bg{background: var(--RF-Red); }
 .button.btn-white-bg{background: var(--White); color: var(--Blue);}
@@ -191,7 +195,6 @@ body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparen
 .btn-purple .button.btn-white-bg{color: var(--RF-Purple)}
 .btn-purple .button.btn-white-bg:hover{color: var(--White);}
 
-.border-purple{border-left: 4px solid  var(--RF-Purple)!important;}
 
 /* Buttons */
 
@@ -199,18 +202,20 @@ body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparen
 
 /* text btn link */
 a.text-link{gap: 8px; align-items: center; font-size: 1.125rem; line-height: 100%; letter-spacing: 0; color: var(--Black);}
-a.text-link i, a.text-link em{color: var(--Blue); font-size: 20px; left: 0; position: relative; top: 1px; transition: all .5s ease;}
+a.text-link em{color: var(--Blue); font-size: 20px; left: 0; position: relative; top: 1px; transition: all .5s ease;}
 a.text-link:hover{color: var(--Blue);}
 a.text-link.white{color: var(--White);}
-a.text-link.white:hover i, a.text-link.white:hover em{color: var(--White);}
+a.text-link.white:hover em{color: var(--White);}
 a.text-link.black{color: var(--Black);}
 a.text-link.black:hover{color: var(--Blue);}
 a.text-link.blue{color: var(--Blue);}
-a.text-link:hover i, a.text-link:hover em{left: 8px;}
+a.text-link:hover em{left: 8px;}
 a.text-link.navy{color: var(--Navy);}
-a.text-link.navy i{color: var(--Navy);}
+a.text-link.navy em{color: var(--Navy);}
 
-a.text-link i{color: var(--Blue);}
+a.text-link.purple:hover{color: var(--RF-Purple);}
+a.text-link.purple em{color: var(--RF-Purple);}
+
 
 .text-btn-link{display: inline-flex; align-items: center; color: var(--White); font-size: 1.25rem; line-height: 100%;}
 .text-btn-link:hover{color: var(--White);}

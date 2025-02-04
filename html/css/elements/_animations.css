@@ -273,6 +273,7 @@
   }
 } */
 
+.animated-border.purple{background-color: var(--RF-Purple);}
 .animated-border{background-color: var(--Blue); animation-fill-mode: forwards;  animation-duration: 5s; animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);}
 .animated-border.top{animation-name: animatedtop; height: 2px; top: 0;animation-delay: 0s;}
 .animated-border.right{animation-name: animatedright; width: 2px; right: 0; animation-delay: 5s;}
