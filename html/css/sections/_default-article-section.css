@@ -25,6 +25,7 @@ ul.breadcrumbs li a:hover{color: var(--Black);}
 .default-line-text a{text-decoration: none; color: var(--Blue); }
 .default-line-text a:hover{color: var(--Black);}
 
+.page-template-service-tier1 .default-line-wrap{pad: 38px 0 0;}
 .default-line-wrap.purple .default-line-in { border-left:2px solid var(--RF-Purple);}
 .default-line-wrap.purple .default-line-text h4{color: var(--RF-Purple);}
 .default-line-wrap.purple  .default-line-text a { color: var(--Black);}
