@@ -4,6 +4,7 @@
 .resource-form-lt span.optional-text{margin-bottom: 23px;}
 .resource-form-lt hr{margin: 25px 0 23px;}
 
+.form-category{margin-top: 35px;}
 ul.form-links{margin: 0;}
 ul.form-links li{margin: 0 0 9px;}
 ul.form-links li::before{display: none;}
