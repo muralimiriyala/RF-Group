@@ -36,7 +36,6 @@
       .team-mem-icon{flex: 0 0 64px;}
       .team-mem-text{flex: 1;}
 
-      .page-template-campaign .team-mem-icon { flex: 0 0 80px; }
       .page-template-campaign  .team-mem-text { flex: 0 0 calc(100% - 104px);}
       .page-template-campaign  .team-mem-inner-rt { flex: 0 0 260px; align-items: center; display: flex; flex-direction: column; gap: 8px}
   
@@ -50,11 +49,6 @@
     .team-mem-inner-lt{gap: 24px; flex: 0 0 calc(100% - 225px); }
     .team-mem-inner-rt{flex: 0 0 200px;}
 
-
-    .page-template-campaign .team-mem-icon { flex: 0 0 80px; }
-    .page-template-campaign  .team-mem-text { flex: 0 0 calc(100% - 104px);}
-    .page-template-campaign .team-mem-inner-lt{gap: 24px; flex: 0 0 calc(100% - 225px); }
-    .page-template-campaign  .team-mem-inner-rt { flex: 0 0 200px; align-items: center; display: flex; flex-direction: column; gap: 8px}
 
   }
 
@@ -89,9 +83,6 @@
     ul.filter-links {margin-bottom: 0;}
 
     .career-short-section .team-mem-short-wrap{padding-bottom: 24px;}
-    .cta-investment-section  .team-mem-inner-rt .button{margin-bottom: 8px;}
-    .page-template-campaign .team-mem-text span{padding: 0 40px;}
-
   }
 
 

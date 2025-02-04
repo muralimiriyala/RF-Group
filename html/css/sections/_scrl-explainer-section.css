@@ -11,12 +11,14 @@
 
 .page-template-campaign .scrl-explainer-main{padding: 40px 0;}
 .scrl-explainer-inner hr.purple{background-color: var(--RF-Purple);}
+
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .scrl-explainer-main{gap: 80px; padding: 80px 0 88px;}
     .scrl-explainer-card{flex: 0 0 350px;}
 
-    .page-template-campaign .scrl-explainer-main {padding: 80px 0 168px;}
+    .page-template-campaign .scrl-explainer-main {padding: 80px 0 80px;}
 }
 @media only screen and (min-width: 860px){
     .scrl-explainer-inner hr[data-animate]{margin-bottom: 20px;}
