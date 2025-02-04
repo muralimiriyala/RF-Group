@@ -12,6 +12,22 @@
 .accordion-list.RF-Orange:not(.open) .accordion-header:hover::before { background: var(--RF-Orange-10); }
 .accordion-list.RF-Orange .accordion-header svg path{fill: var(--RF-Orange);}
 
+.accordion-list.RF-Red:not(.open) .accordion-header:hover{border-color: var(--RF-Red);}
+.accordion-list.RF-Red:not(.open) .accordion-header:hover::before { background: var(--RF-Red-10); }
+.accordion-list.RF-Red .accordion-header svg path{fill: var(--RF-Red);}
+
+.accordion-list.RF-Yellow:not(.open) .accordion-header:hover{border-color: var(--Light-Brown);}
+.accordion-list.RF-Yellow:not(.open) .accordion-header:hover::before { background: var(--Light-Brown-10); }
+.accordion-list.RF-Yellow .accordion-header svg path{fill: var(--Light-Brown);}
+
+.accordion-list.RF-Purple:not(.open) .accordion-header:hover{border-color: var(--RF-Purple);}
+.accordion-list.RF-Purple:not(.open) .accordion-header:hover::before { background: var(--RF-Purple-10); }
+.accordion-list.RF-Purple .accordion-header svg path{fill: var(--RF-Purple);}
+
+.accordion-list.RF-Aquamarine:not(.open) .accordion-header:hover{border-color: var(--RF-Aquamarine);}
+.accordion-list.RF-Aquamarine:not(.open) .accordion-header:hover::before { background: var(--RF-Aquamarine-10); }
+.accordion-list.RF-Aquamarine .accordion-header svg path{fill: var(--RF-Aquamarine);}
+
 .accordion-plus{left: auto; right: 20px; top: calc(50% + 1px); transform: translateY(-50%); max-width: 18px; flex-direction: column;}
 .accordion-plus svg{max-width: 18px; object-fit: contain;}
 .accordion-plus svg:not(:first-child){bottom: 4px; position: relative;}
