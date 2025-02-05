@@ -32,10 +32,10 @@ ul.jumpto-links > li i{ font-size: 20px; width: 20px; line-height: 100%; height:
 .service-tier-block.full-block{flex: 1;}
 .service-tier-block.full-block::before{display: none;}
 
-.page-template-tier3-fund-detail .service-tier-banner-main{padding: 0 0 44px;}
-.page-template-tier3-fund-detail .service-tier-block::after, .page-template-tier3-fund-detail .service-tier-block::before{background-color: var(--RF-Orange);}
-.page-template-tier3-fund-detail .service-tier-block .number {margin:  14px  0 0;}
-.page-template-tier3-fund-detail .service-tier-block:nth-child(2) .number { color: var(--Pure-Red); }
+.page-template-service-tier-3-fund-detail .service-tier-banner-main{padding: 0 0 44px;}
+.page-template-service-tier-3-fund-detail .service-tier-block::after, .page-template-service-tier-3-fund-detail .service-tier-block::before{background-color: var(--RF-Orange);}
+.page-template-service-tier-3-fund-detail .service-tier-block .number {margin:  14px  0 0;}
+.page-template-service-tier-3-fund-detail .service-tier-block:nth-child(2) .number { color: var(--Pure-Red); }
 
 
 .service-fund-details-wrap{padding: 40px 0;}
@@ -65,7 +65,7 @@ ul.jumpto-links > li i{ font-size: 20px; width: 20px; line-height: 100%; height:
     .service-tier-banner-lt .h2{font-size: 40px; margin-bottom: 42px;}
     .service-tier-blocks{background-color: var(--White);}
     
-    .page-template-tier3-fund-detail .service-tier-banner-lt p{margin-bottom: 38px;}
+    .page-template-service-tier-3-fund-detail .service-tier-banner-lt p{margin-bottom: 38px;}
 
     .service-tier-block{ flex: 0 0 50%;}
     .service-tier-block::after, .service-tier-block::before{background-color: var(--RF-Red); content: ""; display: block; position: absolute;}
@@ -99,7 +99,7 @@ ul.jumpto-links > li i{ font-size: 20px; width: 20px; line-height: 100%; height:
 
     .service-fund-list {flex: 0  0 calc(25% - 15px); flex-grow: 1;}
     .service-fund-list h3{font-size: 28px;}
-    .page-template-tier3-fund-detail .service-tier-banner-main { padding: 0 0 32px; }
+    .page-template-service-tier-3-fund-detail .service-tier-banner-main { padding: 0 0 32px; }
     .service-fund-details-wrap { padding: 32px 0; }
     .service-holdings-list {padding: 28px 12px 15px;}
     .service-holdings-list h3 { font-size: 28px; margin-bottom: 11px;}
@@ -135,7 +135,7 @@ ul.jumpto-links > li i{ font-size: 20px; width: 20px; line-height: 100%; height:
     .service-tier-banner-lt span.optional-text {font-size: 16px;}
 
     
-    .page-template-tier3-fund-detail .service-tier-banner-main { padding: 0 0 32px;}
+    .page-template-service-tier-3-fund-detail .service-tier-banner-main { padding: 0 0 32px;}
     .service-fund-details-wrap { padding: 24px 0; }
       .service-fund-details-wrap h2 {font-size: 24px;}
       .service-fund-list{flex: 0 0 160px;}
