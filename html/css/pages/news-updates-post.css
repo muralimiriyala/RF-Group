@@ -25,7 +25,7 @@ blockquote.green{color: var(--RF-Aquamarine); margin: 38px 0 38px;}
 .view-block.open .cta-view i{top: 0.5px;}
 .view-block.open .cta-view i::before{content: "\f077";}
 .news-updates-post-audio {padding-bottom: 40px;}
-.news-updates-post-audio span{color: var(--Black); text-transform: uppercase;}
+.news-updates-post-audio span{color: var(--Black); text-transform: uppercase; font-size: 14px; margin-bottom: 14px;}
 .view-txt-lt{flex:  1; padding-right: 10px; font-size: 16px; color: var(--Text-Gray2); font-weight: 600;}
 .view-txt-rt{flex: 0 0 62px;}
 .news-updates-post-article p a:hover{color: var(--RF-Aquamarine);}
@@ -54,7 +54,7 @@ blockquote.green{color: var(--RF-Aquamarine); margin: 38px 0 38px;}
   .news-updates-post-article { flex: 0 0 100%; margin: 0 auto; padding: 24px;}
   .news-top-line{width: calc(100% - 48px); left: 24px;}
   .news-updates-post-section .container{padding: inherit;}
-  .news-updates-post-audio { padding-bottom: 40px; }
+  .news-updates-post-audio { padding-bottom: 24px; }
 
   .news-updates-post-audio span{font-size: 14px;}
   .news-updates-post-article h3 { margin-top: 22px; }
