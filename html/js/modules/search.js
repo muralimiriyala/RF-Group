@@ -4,7 +4,7 @@ export const search = {
   frm: document.querySelector('.srch-form'),
   init() {
     const _ = this;
-    if (!_.btn) return;
+    if (!_.btn || !_.oly) return;
     _.btn.addEventListener('click', function (e) {
       e.preventDefault();
       $(_.oly).slideToggle(900);
