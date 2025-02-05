@@ -1,10 +1,9 @@
 :root{
     --low-50: 50px;
 }
-.career-short-section{position:  relative; z-index: 1; background-image: linear-gradient(to bottom,transparent calc(100% - var(--top-value)),var(--Gray) var(--top-value));}
 
 @media only screen and (min-width: 1024px){
-    .career-short-section{margin-top: -89px;}
+    .career-short-section{margin-top: -80px;}
 }
 @media only screen and (max-width: 1024px) and (min-width: 810px) {
     .career-short-section {margin-top: -40px; background-image: linear-gradient(to bottom,transparent calc(100% - var(--low-value)),var(--Gray) var(--low-value)); }

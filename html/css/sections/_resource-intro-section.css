@@ -10,6 +10,7 @@
 @media screen and (min-width: 1024px) {
     .resource-intro-main{padding: 80px 0; gap: 80px;}
     .resource-intro-rt{flex: 0 0 350px;}
+    .resource-intro-rt .button{font-size: 17px;}
 }
 
 @media screen and (max-width: 1023px) and (min-width: 810px) {
