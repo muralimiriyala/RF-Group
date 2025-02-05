@@ -210,8 +210,13 @@ a.text-link.black{color: var(--Black);}
 a.text-link.black:hover{color: var(--Blue);}
 a.text-link.blue{color: var(--Blue);}
 a.text-link:hover em{left: 8px;}
+
 a.text-link.navy{color: var(--Navy);}
 a.text-link.navy em{color: var(--Navy);}
+
+a.text-link.blue-em:hover{color: var(--Blue);}
+a.text-link.blue-em em{color: var(--Blue);}
+
 
 a.text-link.purple-em:hover{color: var(--RF-Purple);}
 a.text-link.purple-em em{color: var(--RF-Purple);}
@@ -219,7 +224,16 @@ a.text-link.purple-em em{color: var(--RF-Purple);}
 a.text-link.orange-em:hover{color: var(--RF-Orange);}
 a.text-link.orange-em em{color: var(--RF-Orange);}
 
+a.text-link.red-em:hover{color: var(--RF-Red);}
+a.text-link.red-em em{color: var(--RF-Red);}
 
+
+a.text-link.brown-em:hover{color: var(--Light-Brown);}
+a.text-link.brown-em em{color: var(--Light-Brown);}
+
+
+a.text-link.aquamarine-em:hover{color: var(--RF-Aquamarine);}
+a.text-link.aquamarine-em em{color: var(--RF-Aquamarine);}
 
 a.purple-uderline{text-decoration-color: var(--RF-Purple);}
 a.purple-uderline:hover{color: var(--RF-Purple);}
