@@ -62,7 +62,7 @@ textarea:focus{ border-color: var(--Blue); box-shadow: none; color: var(--Blue);
 
 body .frm_forms.with_frm_style .frm_fields_container .frm_radio input[type="radio"]:not([disabled]):checked, 
 body .frm_forms.with_frm_style .frm_fields_container .frm_scale input[type="radio"]:not([disabled]):checked, 
-body .frm_forms.with_frm_style .frm_fields_container .frm_checkbox input[type="checkbox"]:not([disabled]):checked{ border-color: var(--Card-Stroke) !important; background: var(--Card-Stroke); box-shadow: none !important; }
+body .frm_forms.with_frm_style .frm_fields_container .frm_checkbox input[type="checkbox"]:not([disabled]):checked{ border-color: var(--Blue) !important; background: var(--Blue); box-shadow: none !important; }
 
 body .frm_forms .frm_form_fields .frm_form_field input{color: var(--Black); border-radius: 0; border: 1px solid var(--Text-Gray); background: var(--Background-Gray);}
 body .frm_forms .frm_form_fields .frm_form_field input:hover, body .frm_forms .frm_form_fields .frm_form_field textarea:hover{background-color: rgba(39,114,219,.1); border-color: var(--Blue); box-shadow: none; color: var(--Blue); opacity: 1;}

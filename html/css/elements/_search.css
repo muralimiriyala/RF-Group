@@ -1,29 +1,35 @@
 
-form.srch-form{width: 24px; top: 52px; right: 2px;  position: absolute; z-index: 1800;}
-form.srch-form.open{width: 100%; transition: all 1s ease;}
-form.srch-form input{padding: 0; min-height: 48px; max-width: 60%; top: 0; right: 0; position: absolute; font-size: 0; transition: none; background-color: transparent; color: var(--Black); border: none;}
-form.srch-form.open input{padding: 14px 56px 14px 16px; transition: all 1s ease; font-size: 16px; background-color: var(--White);}
-button.btn-srch{font-size: 0; line-height: 0; padding: 0; top: 12px; right: -2px; position: absolute; background: none;}
-button.btn-srch::before{display: none;}
-form.srch-form.open button.btn-srch{right: 15px;}
-button.btn-srch em{font-size: 24px; line-height: 24px; color: var(--White);}
+.btn-srch-pos{width: 24px; top: 52px; right: 2px; z-index: 1800;}
+header.white-header .btn-srch-pos{top: 4px; right: 50px;}
+
+.btn-srch{font-size: 0; line-height: 0; padding: 0; top: 12px; right: -2px; position: absolute; background: none;}
+.btn-srch::before{display: none;}
+.btn-srch em{font-size: 24px; line-height: 24px; color: var(--White);}
+.btn-srch:hover em{color: var(--Blue);}
+header.gray-header .btn-srch em{color: var(--Black);}
+header.gray-header .btn-srch:hover em{color: var(--Blue);}
+header.white-header .btn-srch em{color: var(--Black);}
+header.white-header .btn-srch:hover em{color: var(--Blue);}
+
+.srch-form-overlay{opacity: 0.9; display: none; position: fixed; z-index: 2800;}
+form.srch-form { max-width: 800px; position: fixed; top: 50%; left: 50%; z-index: 2900; transform: translate(-50%, -50%); display: none; }
+form.srch-form label{padding: 0 8px 12px;}
+form.srch-form input{padding: 20px 21px 20px; min-height: 48px; font-size: 32px; font-weight: 600; line-height: 150%; letter-spacing: -0.64px; border: none; background-color: var(--White); color: var(--Black); border: none; font-family: var(--heading-font);}
 header.gray-header button.btn-srch em{color: var(--Black);}
 header.gray-header button.btn-srch em:hover, form.srch-form.open button.btn-srch em:hover{color: var(--Blue);}
 form.srch-form.open button.btn-srch em{color: var(--Black);}
-button.btn-srch:hover em{color: var(--Blue);}
+
+button.btn-srch-icon{padding: 0; top: 50%; transform: translateY(-50%); right: 28px; font-size: 0; line-height: 0; position: absolute; background: none; color: transparent;}
+button.btn-srch-icon:hover em{color: var(--Black);}
+
+.srch-form-field{padding: 8px;}
+
+form.srch-form input::-webkit-input-placeholder {color: var(--Black-30);  font-style: italic; font-weight: 600; font-family: var(--heading-font);}
+form.srch-form input:-moz-placeholder {color: var(--Black-30); font-style:  italic; font-weight: 600; font-family: var(--heading-font);}
+form.srch-form input::-moz-placeholder {color: var(--Black-30); font-style:  italic; font-weight: 600; font-family: var(--heading-font);}
+form.srch-form input:-ms-input-placeholder {color: var(--Black-30); font-style:  italic; font-weight: 600; font-family: var(--heading-font);}
 
 
-header.white-header form.srch-form{right: 50px; top: 4px;}
-header.white-header button.btn-srch em{color: var(--Black);}
-
-
-form.srch-form.open input::-webkit-input-placeholder {color: var(--Black);}
-form.srch-form.open input:-moz-placeholder {color: var(--Black);}
-form.srch-form.open input::-moz-placeholder {color: var(--Black);}
-form.srch-form.open input:-ms-input-placeholder {color: var(--Black);}
-
-
-header.white-header form.srch-form.open input, .white-bg form.srch-form.open input{background-color: var(--Background-Gray);}
 
 @media screen and (max-width: 1279px) and (min-width: 1024px){
     form.srch-form input{max-width: 85%;}

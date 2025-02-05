@@ -41,20 +41,6 @@ export const gsapscroll = {
               }, $duration);
             }
           },
-          onRefresh: () => {
-            // $animateNames.forEach((className) => {
-            //   className
-            //     ? ele.classList.add(className, 'visible')
-            //     : ele.classList.add('visible');
-            // }); // creating issue here
-            timeline?.play();
-            $animateType === 'counter' ? ele.counter?.start() : '';
-            if (ele.classList.contains('counter-back')) {
-              setTimeout(function () {
-                ele.style.opacity = 1;
-              }, $duration);
-            }
-          },
           onEnterBack: () => {
             $animateNames.forEach((className) => {
               className
