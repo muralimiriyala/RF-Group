@@ -6,10 +6,8 @@
 ul.question-booking-links{margin: 0 0 35px;}
 ul.question-booking-links li{margin: 0;}
 ul.question-booking-links li::before{display: none;}
-ul.question-booking-links li a{color: var(--Black); gap: 8px;}
-ul.question-booking-links li a.mPS2id-clicked, ul.faqs-links li a:hover{color: var(--Blue);}
-ul.question-booking-links li a i{color: var(--Light-Brown);}
-ul.question-booking-links li a:hover i{transform: translateX(8px);}
+ul.question-booking-links li a{ gap: 8px;}
+ul.question-booking-links li a.mPS2id-clicked{color: var(--Blue);}
 ul.question-booking-links li a.current{color: var(--Blue);}
 ul.question-booking-links li a.current i{opacity: 0; visibility: hidden;}
 
