@@ -23,7 +23,7 @@
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
   .news-post-block{padding-bottom: 80px;}
-  body.postid-1743 .news-update-video-article{padding-bottom: 38px;} /*-- video gated --*/
+  body.postid-1743 .news-update-video-article{padding-bottom: 64px;} /*-- video gated --*/
 }
 @media only screen and (min-width: 1440px){
   .news-update-video-main{gap: 0 144px;}

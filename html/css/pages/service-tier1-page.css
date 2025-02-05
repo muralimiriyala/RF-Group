@@ -1,4 +1,4 @@
-.page-template-service-tier1 ul.action-links {padding: 40px 0 0;}
-.page-template-service-tier1 .about-intro-main { padding: 80px 0 0; }
+page-template-service-tier-1 ul.action-links {padding: 40px 0 0;}
+page-template-service-tier-1 .about-intro-main { padding: 80px 0 0; }
 
-.page-template-service-tier1 .fund-groups-main::after{background-color: var(--RF-Purple); border: none; border-radius: 1px; top: 0; content: ""; display: block; height: 2px; margin: 12px 0; opacity: .25; position: absolute; width: 100%;}
+page-template-service-tier-1 .fund-groups-main::after{background-color: var(--RF-Purple); border: none; border-radius: 1px; top: 0; content: ""; display: block; height: 2px; margin: 12px 0; opacity: .25; position: absolute; width: 100%;}
