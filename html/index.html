@@ -153,7 +153,7 @@
                             </li>
                             <li class="menu-item-has-children nav-item-advice"><a href="#">Advice</a>
                                 <ul>
-                                    <li>
+                                    <li class="menu-item-has-children">
                                         <a href="">
                                             <span class="fs-24 heading-font f-600 text-black">Financial Planning</span>
                                         </a>
@@ -169,9 +169,10 @@
                                             </li>
                                         </ul>
                                     </li>
-                                    <li>
-                                        <a href=""><span class="fs-24 heading-font f-600 text-black">Planning
-                                                Caluclators</span></a>
+                                    <li class="menu-item-has-children">
+                                        <a href="">
+                                            <span class="fs-24 heading-font f-600 text-black">Planning Caluclators</span>
+                                        </a>
                                         <ul>
                                             <li><a href=""><img src="images/education-icon.svg" alt="">Educational
                                                     Investment Calculator</a></li>
@@ -190,7 +191,7 @@
                             <li class="menu-item-has-children nav-item-about"><a href="about.html">About</a>
                                 <ul>
                                     <!-- style="opacity: 1; visibility: visible;" -->
-                                    <li>
+                                    <li class="menu-item-has-children">
                                         <a href="">
                                             <span class="fs-24 heading-font f-600 text-black">About Us</span>
                                         </a>
@@ -205,9 +206,11 @@
                                             </li>
                                         </ul>
                                     </li>
-                                    <li>
-                                        <a href=""><span class="fs-24 heading-font f-600 text-black hide-nav-item">some
-                                                text</span></a>
+                                    <li class="hide-nav-link">
+                                        <a href="">
+                                            <span class="fs-24 heading-font f-600 text-black hide-nav-item">some text</span>
+                                            <em class="fs-20 text-blue transition fa-sharp fa-regular fa-chevron-right" aria-hidden="true"></em>
+                                        </a>
                                         <ul>
                                             <li><a href=""><img src="images/bulb.svg" alt="">Our History</a></li>
                                             <li><a href=""><img src="images/team-icon.svg" alt="">Our Team</a></li>
@@ -221,16 +224,23 @@
                                     <li><a href=""><img src="images/lightbulb-on.svg" alt="lightbulb-on">Insights</a>
                                         <ul>
                                             <li><a href="">
-                                                    <img src="images/post-card@2x.jpg" alt="post-card">
-                                                    <div>
+                                                <div class="menu-image relative">
+                                                    <figure class="object-fit">
+                                                        <img src="images/post-card@2x.jpg" alt="post-card">
+                                                    </figure>
+                                                </div>
+                                                    <div class="menu-text">
                                                         <span>Latest Insight</span>
                                                         <p>8 Budget Friendly<br> Strategies for Your Summer Vacation</p>
                                                     </div>
                                                 </a>
                                             </li>
                                             <li><a href="">
+                                                <div class="menu-image relative">
+
                                                     <img src="images/post-card2@2x.jpg" alt="post-card">
-                                                    <div>
+                                                </div>
+                                                    <div class="menu-text">
                                                         <span>Latest Press</span>
                                                         <p>RF Bank & Trust Bolsters Support for Local Community
                                                             Well-Being</p>
@@ -238,9 +248,20 @@
                                                 </a>
                                             </li>
                                             <li><a href="">
-                                                    <img src="images/post-card3@2x.jpg" alt="post-card">
-                                                    <div>
-                                                        <span>Latest Video</span>
+                                                    <div class="menu-image relative">
+                                                        <img src="images/post-card3@2x.jpg" alt="post-card">
+                                                        <div class="play-btn-main flex flex-center">
+                                                            <div class="play-btn flex flex-center relative">
+                                                                <div class="play-btn-bg flex flex-center">
+                                                                    <span class="circle"></span>
+                                                                    <span></span>
+                                                                    <span></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="menu-text">
+                                                         <span>Latest Video</span>
                                                         <p>How To Build<br> A Successful Investment Portfolio</p>
                                                     </div>
                                                 </a>
@@ -255,10 +276,27 @@
                             </li>
                             <li><a href="contact.html">Contact</a></li>
                         </ul>
-                        <form action="" class="srch-form flex">
-                            <input type="text" placeholder="Search here">
-                            <button class="btn-srch" type="submit">Search<em class="fa-regular fa-magnifying-glass transition"></em></button>
-                        </form>
+                        <div class="srch-form-main">
+                            <div class="btn-srch-pos absolute">
+                                <a class="button btn-srch">Search<em class="fa-regular fa-magnifying-glass transition"></em></a>
+                            </div>
+                            <form action="" class="srch-form w-100">
+                                <label for="srch" class="fs-20 text-white">What can we help you find?</label>
+                                <div class="relative">
+                                    <div class="background-bg">
+                                        <span class="animated-border absolute  top"></span>
+                                        <span class="animated-border absolute right"></span>
+                                        <span class="animated-border absolute  bottom"></span>
+                                        <span class="animated-border absolute  left"></span>
+                                    </div>
+                                    <div class="srch-form-field relative">
+                                        <input id="srch" type="text" placeholder="Search for anything">
+                                        <button class="btn-srch-icon" type="submit">Search<em class="text-blue transition fs-32 fa-regular fa-magnifying-glass transition"></em></button>
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="srch-form-overlay black-bg background-bg"></div>
+                        </div>
                     </nav>
                     <div class="nav-mbl-pos flex flex-col">
                         <ul class="nav-mbl-btns flex flex-col">

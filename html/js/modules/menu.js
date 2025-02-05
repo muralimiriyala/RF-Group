@@ -53,7 +53,6 @@ export const menu = {
       window.addEventListener('load', whitescroll);
     }
     // scrolly with
-
     _.$btn.addEventListener('click', (e) => {
       const __ = e.currentTarget;
       __.classList.toggle('open');
@@ -64,23 +63,59 @@ export const menu = {
       const ___ = this;
     });
 
-    document
-      .querySelectorAll('ul.main_menu > li.menu-item-has-children > a')
-      .forEach((level1) => {
-        level1.addEventListener('click', (e) => {
-          e.preventDefault();
-          e.target.classList.toggle('open');
-          const $li = e.target.parentElement;
-          $($li.querySelector('ul')).slideToggle(800);
-          const siblings = Array.from($li.parentElement.children);
-          siblings.forEach(($item) => {
-            if ($item !== $li) {
-              $item.querySelector('a').classList.remove('open');
-              const $itemul = $item.querySelector('ul');
-              $($itemul).slideUp(800);
+    const mobilemenu = () => {
+      document
+        .querySelectorAll('ul.main_menu > li.menu-item-has-children > a')
+        .forEach((level1) => {
+          level1.addEventListener('click', (e) => {
+            e.preventDefault();
+            e.target.classList.toggle('open');
+            const $li = e.target.parentElement;
+            $($li.querySelector('ul')).slideToggle(800);
+            const siblings = Array.from($li.parentElement.children);
+            siblings.forEach(($item) => {
+              if ($item !== $li) {
+                $item.querySelector('a').classList.remove('open');
+                const $itemul = $item.querySelector('ul');
+                $($itemul).slideUp(800);
+              }
+            });
+          });
+        });
+      document
+        .querySelectorAll(
+          'ul.main_menu > li.menu-item-has-children > ul > li.menu-item-has-children > a'
+        )
+        .forEach((level2) => {
+          level2.addEventListener('click', (e) => {
+            e.preventDefault();
+            console.log(e.currentTarget);
+            if (e.currentTarget.tagName === 'A') {
+              e.currentTarget.classList.toggle('open');
+              const $li = e.currentTarget.parentElement;
+              $($li.querySelector('ul')).slideToggle(800);
+              const siblings = Array.from($li.parentElement.children);
+              siblings.forEach(($item) => {
+                if ($item !== $li) {
+                  $item.querySelector('a').classList.remove('open');
+                  const $itemul = $item.querySelector('ul');
+                  $($itemul).slideUp(800);
+                }
+              });
             }
           });
         });
-      });
+    };
+
+    const media = window.matchMedia('(max-width: 1023px)');
+    if (media.matches) {
+      mobilemenu();
+    }
+    media.addEventListener('change', (event) => {
+      if (event.matches) {
+        mobilemenu();
+      } else {
+      }
+    });
   },
 };

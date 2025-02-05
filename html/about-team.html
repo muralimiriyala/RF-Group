@@ -71,12 +71,29 @@
                             <li><a href="news-updates.html">News</a></li>
                             <li><a href="contact.html">Contact</a></li>
                         </ul>
-                        <form action="" class="srch-form flex">
-                            <input type="text" placeholder="Search here">
-                            <button class="btn-srch" type="submit">Search<em class="fa-regular fa-magnifying-glass transition"></em></button>
-                        </form>
+                        <div class="srch-form-main">
+                            <div class="btn-srch-pos absolute">
+                                <a class="button btn-srch">Search<em class="fa-regular fa-magnifying-glass transition"></em></a>
+                            </div>
+                            <form action="" class="srch-form w-100">
+                                <label for="srch" class="fs-20 text-white">What can we help you find?</label>
+                                <div class="relative">
+                                    <div class="background-bg">
+                                        <span class="animated-border absolute  top"></span>
+                                        <span class="animated-border absolute right"></span>
+                                        <span class="animated-border absolute  bottom"></span>
+                                        <span class="animated-border absolute  left"></span>
+                                    </div>
+                                    <div class="srch-form-field relative">
+                                        <input id="srch" type="text" placeholder="Search for anything">
+                                        <button class="btn-srch-icon" type="submit">Search<em class="text-blue transition fs-32 fa-regular fa-magnifying-glass transition"></em></button>
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="srch-form-overlay black-bg background-bg"></div>
+                        </div>
                         <div class="hdr-user absolute">
-                            <em class="fs-24 text-black fa-regular fa-circle-user"></em>
+                            <a class="text-black" target="_blank" rel="noopener" href="#"><em class="fs-24 fa-regular fa-circle-user"></em></a>
                         </div>
                     </nav>
                 </div>

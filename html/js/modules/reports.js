@@ -1,8 +1,11 @@
 import $ from 'jquery';
+
 export const reports = {
   $header: document.querySelector('header'),
   $el: document.querySelector('ul.report-links'),
   $rows: document.querySelectorAll('.doc-repo-ids'),
+  $anims: document.querySelectorAll('[data-animate]'),
+
   init() {
     const __ = this;
     if (!__.$el) return;
@@ -41,6 +44,13 @@ export const reports = {
     const toggle = (e) => {
       if (e.target.tagName === 'A') {
         e.preventDefault();
+        __.$anims.forEach((ele) => {
+          const timeline = ele.tl;
+          if (timeline) {
+            timeline.play();
+          }
+        });
+
         let targetId = e.target.getAttribute('href').substring(1);
 
         __.$el
