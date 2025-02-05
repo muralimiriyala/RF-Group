@@ -343,18 +343,13 @@ span.optional-text.lg{margin-bottom: 8px; font-size: 1.125rem; line-height: 1.12
 .text-black.hover-purple:hover{color: var(--RF-Purple);}
 .text-light-orange{color: var(--RF-Orange)}
 
-.text-black.orange-em i{color: var(--RF-Orange);}
+/* .text-black.orange-em i{color: var(--RF-Orange);}
 .text-black.orange-em:hover{color: var(--RF-Orange);}
-.text-black.arrow-brown i{color: var(--Light-Brown);}
-.text-black.arrow-brown:hover{color: var(--Light-Brown);}
+
 .text-black.blue-em i{color: var(--Blue);}
-.text-black.blue-em:hover{color: var(--Blue);}
-.text-black.arrow-red i{color: var(--RF-Red);}
-.text-black.arrow-red:hover{color: var(--RF-Red);}
-.text-black.arrow-purple i{color: var(--RF-Purple);}
-.text-black.arrow-purple:hover{color: var(--RF-Purple);}
-.text-black.arrow-aquamarine i{color: var(--RF-Aquamarine);}
-.text-black.arrow-aquamarine:hover{color: var(--RF-Aquamarine);}
+.text-black.blue-em:hover{color: var(--Blue);} */
+
+
 
 
 .text-upper{text-transform: uppercase;}
