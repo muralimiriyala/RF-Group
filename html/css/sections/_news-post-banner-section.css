@@ -3,7 +3,7 @@
 .news-post-banner-overlay{opacity: 0.7; z-index: 0;}
 
 .news-post-banner-text{color: var(--White);}
-.news-post-banner-text h1{color: var(--White);  font-size: 48px; margin-bottom: 0;}
+.news-post-banner-text h1{color: var(--White);  font-size: 48px; margin-bottom: 0; line-height: 125%;}
 .news-post-banner-text p{margin-bottom: 24px;}
 
 .news-post-banner-text.no_about_banner_img{max-width: 100%;}

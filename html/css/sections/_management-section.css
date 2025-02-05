@@ -22,7 +22,7 @@
 
 .page-template-about .management-section { background-image: linear-gradient(to top,var(--Gray) calc(100% - var(--top-value)),var(--White) var(--top-value)); }
 
-.page-template-service-tier1 .management-section { background-image: linear-gradient(to top,var(--Gray) calc(100% - var(--top-value)),var(--White) var(--top-value)); } 
+page-template-service-tier-1 .management-section { background-image: linear-gradient(to top,var(--Gray) calc(100% - var(--top-value)),var(--White) var(--top-value)); } 
 
 .management-team-info h4 a{font-size: 24px; font-weight: 600; letter-spacing: -0.48px;}
 
