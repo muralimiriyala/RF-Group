@@ -286,11 +286,11 @@ header.scrolly-header{transform: translateY(-100%);}
 
 
     .humburger-btn{width: 40px; height: 40px; left: 0; right: auto; top: 50%; transform: translateY(-50%); cursor: pointer; display: flex; z-index: 1; color: var(--Blue); background-color: transparent;}
-    .humburger-btn i:not(:first-child){ top: 50%; left: 50%; transform: translate(-50%, -50%); opacity: 0; visibility: hidden;}
-    .humburger-btn.open i:not(:first-child) {animation-delay: 0.5s; animation-name: showX; animation-play-state: running; animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275); animation-fill-mode: forwards; animation-duration: 1s;}
+    .humburger-btn em:not(:first-child){ top: 50%; left: 50%; transform: translate(-50%, -50%); opacity: 0; visibility: hidden;}
+    .humburger-btn.open em:not(:first-child) {animation-delay: 0.5s; animation-name: showX; animation-play-state: running; animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275); animation-fill-mode: forwards; animation-duration: 1s;}
     @keyframes showX { from{ opacity: 0; visibility: visible; } to{opacity: 1; visibility: visible;} }
-    .humburger-btn.open i:first-child{opacity: 0; visibility: hidden;}
-    .white-bg .humburger-btn.open i{color: var(--Blue);}
+    .humburger-btn.open em:first-child{opacity: 0; visibility: hidden;}
+    .white-bg .humburger-btn.open em{color: var(--Blue);}
 
 
     .header_right{padding: 0; top: 100%; transform: translateX(100%); left: -40px; width: 100vw; height: 100vh; position: absolute; transition: transform 0.5s ease; display: block; flex-direction: column; background-color: var(--Black); overflow-y: auto;}

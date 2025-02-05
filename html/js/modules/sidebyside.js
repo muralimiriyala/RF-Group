@@ -1,19 +1,19 @@
 export const sidebyside = {
-  $blue: document.querySelectorAll('.blue-ui .side-by-ipad'),
-  $purple: document.querySelectorAll('.purple-ui .side-by-ipad'),
+  $blue: document.querySelectorAll('.blue-ui'),
+  $purple: document.querySelectorAll('.purple-ui'),
   $arrow: document.querySelector('.side-by-arrow'),
   init() {
     const _ = this;
 
     const addBColor = (e) => {
-      e.currentTarget.parentElement.classList.add('blue-hover-ui');
+      e.currentTarget.classList.add('blue-hover-ui');
       _.$purple.forEach((elepurple) => {
         elepurple.classList.add('right-purple');
       });
       _.$arrow.classList.add('blue-hover-ui');
     };
     const removeBColor = (e) => {
-      e.currentTarget.parentElement.classList.remove('blue-hover-ui');
+      e.currentTarget.classList.remove('blue-hover-ui');
       _.$purple.forEach((elepurple) => {
         elepurple.classList.remove('right-purple');
       });
@@ -25,14 +25,14 @@ export const sidebyside = {
     });
 
     const addPColor = (e) => {
-      e.currentTarget.parentElement.classList.add('purple-hover-ui');
+      e.currentTarget.classList.add('purple-hover-ui');
       _.$blue.forEach((eleblue) => {
         eleblue.classList.add('left-blue');
       });
       _.$arrow.classList.add('purple-hover-ui');
     };
     const removePColor = (e) => {
-      e.currentTarget.parentElement.classList.remove('purple-hover-ui');
+      e.currentTarget.classList.remove('purple-hover-ui');
       _.$blue.forEach((eleblue) => {
         eleblue.classList.remove('left-blue');
       });
