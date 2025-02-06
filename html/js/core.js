@@ -24,6 +24,7 @@ import { resource } from './modules/resource.js';
 import { resourcecategory } from './modules/resourcecategory.js';
 import { serviceTierTombstones } from './modules/service-tier-3-tombstones.js';
 import { managementHover } from './modules/managementhover.js';
+import { uicategory } from './modules/uicategory.js';
 
 (function () {
   menu.init();
@@ -49,4 +50,5 @@ import { managementHover } from './modules/managementhover.js';
   managementHover.me();
   resource.init();
   resourcecategory.init();
+  uicategory.init();
 })();
