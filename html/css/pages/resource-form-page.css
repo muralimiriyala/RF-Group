@@ -34,6 +34,7 @@ ul.doc-form-q li a:hover{color: var(--Blue);}
 .doc-form-icon svg{width: 32px; height: auto; object-fit: contain;}
 .doc-form-icon svg path{transition: var(--b-transition);}
 
+.ui-tier-2-row:not(:first-child){display: none;}
 
 /* media css starts here */
 @media only screen  and (min-width: 810px){
