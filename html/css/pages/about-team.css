@@ -74,13 +74,18 @@
     .team-mem-filter ul.filter-links > li > a {padding: 14px 13px 10px;}
     .team-mem-row{display: block;}
 
-    .team-mem-icon{text-align: center; width: 100%; margin-bottom: 16px;}
-    .team-mem-inner {text-align: center; padding: 24px; display: block;}
+    body.page-template-team .team-mem-icon{text-align: center;}
+    .team-mem-icon{width: 100%; margin-bottom: 16px;}
+    body.page-template-team .team-mem-inner {text-align: center;}
+    .team-mem-inner {padding: 24px; display: block;}
     .career-short-section .team-mem-inner{box-shadow: 0px 12px 32px 0px rgba(0, 0, 0, 0.15);}
     .team-mem-text span {font-size: 16px; line-height: 150%;}
     .team-mem-inner-lt {margin-bottom: 24px;}
+    body.page-template-careers .team-mem-inner-lt {margin-bottom: 40px;}
+    body.page-template-careers .team-mem-inner-rt .button{width: 100%;}
 
-    .team-mem-text{width: 100%; text-align: center;}
+    body.page-template-team .team-mem-text{text-align: center;}
+    .team-mem-text{width: 100%;}
     ul.filter-links {margin-bottom: 0;}
 
     .career-short-section .team-mem-short-wrap{padding-bottom: 24px;}
