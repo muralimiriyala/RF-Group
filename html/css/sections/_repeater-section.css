@@ -25,7 +25,8 @@ svg.repeater-icon-hover{top: 0; left: 0; opacity: 0;}
 .page-template-campaign .repeater-list.row-reverse{padding: 0 0 80px;}
 .page-template-campaign .no_repeater_img .repeater-desc{padding-left: 0; padding-right: 0;}
 
-ul.purple > li::before{background-color: var(--RF-Purple);}
+.purple-block ul > li::before, ul.purple > li::before{background-color: var(--RF-Purple);}
+
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1300px) {

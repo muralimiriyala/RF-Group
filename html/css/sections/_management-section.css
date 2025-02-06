@@ -6,6 +6,7 @@
 .navy-block-btns { display: block; margin: 0 auto; max-width: 458px; width: 100%; }
 .navy-block-btn{ border: 1px solid var(--White); display: flex; gap: 8px; padding: 8px; }
 .navy-block-btn .button { font-size: 16px; gap: 8px; justify-content: center; padding: 10px 8px; width: 100%; flex: 1;}
+.navy-block-btn .button[data-btn-hover]::before{ background-color: var(--button-hover-color); }
 
 .management-team-row{padding: 0 0 80px;}
 .management-team-image img{width: 160px; outline: 8px solid rgba(0, 0, 0, 0.1); border-radius: 120px; height: 160px;}
@@ -22,7 +23,7 @@
 
 .page-template-about .management-section { background-image: linear-gradient(to top,var(--Gray) calc(100% - var(--top-value)),var(--White) var(--top-value)); }
 
-page-template-service-tier-1 .management-section { background-image: linear-gradient(to top,var(--Gray) calc(100% - var(--top-value)),var(--White) var(--top-value)); } 
+.page-template-service-tier-1 .management-section { background-image: linear-gradient(to top,var(--Gray) calc(100% - var(--top-value)),var(--White) var(--top-value)); } 
 
 .management-team-info h4 a{font-size: 24px; font-weight: 600; letter-spacing: -0.48px;}
 
