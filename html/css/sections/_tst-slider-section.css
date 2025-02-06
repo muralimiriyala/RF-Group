@@ -41,7 +41,7 @@
     .tst-slider-author{width: fit-content; margin: 0 auto 16px;}
     .tst-slider-img{flex: 0 0 72px;}
     .tst-slider-details{flex: 0 0 calc(100% - 92px);}
-    .tst-slider-details h6{font-size: 16px; line-height: 20px; letter-spacing: -0.32px;}
+    .tst-slider-details .h6{font-size: 16px; line-height: 20px; letter-spacing: -0.32px;}
     .tst-slider-details span{font-size: 12px; line-height: 18px;}
     .tst-slider-logo{max-width: 196px; margin: 0 auto;}
     .tst-slider-slide{padding-bottom: 88px;}
