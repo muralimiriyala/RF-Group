@@ -7,7 +7,7 @@ ul.contact-links{margin: 0;}
 ul.contact-links > li{ line-height: 100%; margin-bottom: 16px;}
 ul.contact-links > li:has(a) a{width: fit-content;  gap: 12px; color: var(--Black);  font-weight: 700; font-size: 18px;}
 ul.contact-links > li:has(a) a:hover{color: var(--Blue);}
-ul.contact-links > li i{color: var(--Blue); font-size: 20px; font-weight: 400; width: 20px; text-align: center;}
+ul.contact-links > li em{color: var(--Blue); font-size: 20px; font-weight: 400; width: 20px; text-align: center;}
 ul.contact-links > li::before{display: none;}
 ul.contact-links > li:last-child{display: flex; gap: 12px; margin-bottom: 0;}
 
