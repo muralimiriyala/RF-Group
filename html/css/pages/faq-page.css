@@ -48,6 +48,6 @@ ul.faqs-links li a.current i{opacity: 0; visibility: hidden;}
     ul.faqs-links{margin: 0;}
     ul.faqs-links li a{font-size: 16px;}
     .faqs-desc{margin-bottom: 24px;}
-    form.srch-faqs-form{margin-bottom: 20px;}
+    form.srch-faqs-form{margin-bottom: 44px;}
     .faqs-mobile{padding-top: 40px;}
 }
