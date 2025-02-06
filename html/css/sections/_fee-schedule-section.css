@@ -47,9 +47,9 @@ table.fee-schd-table tr:last-child td{border-bottom-color: var(--Black-8); borde
 
     .fee-schd-mbl{margin-top: 23px; }
     .fee-schd-mbl-btn{cursor: pointer; padding: 16px 44px 16px 16px; border: 1px solid var(--Text-Gray); background: var(--Background-Gray); display: block; width: 100%; font-size: 16px; line-height: 24px; color: var(--Black);}
-    .fee-schd-mbl-btn i{top: 12px; right: 16px;}
-    .fee-schd-mbl-btn i::before{transition: all 0.5s ease;}
-    .fee-schd-mbl-btn.current i::before{content: "\f077";}
+    .fee-schd-mbl-btn em{top: 12px; right: 16px;}
+    .fee-schd-mbl-btn em::before{transition: all 0.5s ease;}
+    .fee-schd-mbl-btn.current em::before{content: "\f077";}
   
     ul.fee-schd-links{margin: 0; padding: 15px 0; border: 1px solid var(--Text-Gray); border-top: none; background: var(--Background-Gray); display: none;}
     ul.fee-schd-links li{padding: 0 16px; margin: 0 0 12px;}
