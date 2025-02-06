@@ -29,6 +29,8 @@ body.page-template-service-tier-1 .about-intro-main hr{background-color: var(--R
 
 .page-template-campaign .about-intro-main{padding: 40px 0 80px;}
 
+.about-intro-desc.no-counter{margin-top: auto;}
+
 /*-- media css --*/
 @media only screen and (min-width: 1024px){
     .about-intro-lt{margin: 0 40px 0 0; max-width: 460px;}
