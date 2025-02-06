@@ -10,8 +10,9 @@
 
 .management-team-row{padding: 0 0 80px;}
 .management-team-image img{width: 160px; outline: 8px solid rgba(0, 0, 0, 0.1); border-radius: 120px; height: 160px;}
-.management-team-list{ text-align: center; }
+.management-team-list{ text-align: center; display: flex; flex-direction: column;}
 .management-team-image{margin-bottom: 16px;}
+.management-team-info{margin-top: auto;}
 .management-team-info h4{font-size: 24px; font-weight: 600; line-height: 125%; letter-spacing: -0.48px; margin-bottom: -3px;}
 .management-team-info span{font-size: 14px; color: var(--Text-Gray); font-weight: 400;}
 
