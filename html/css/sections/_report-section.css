@@ -6,6 +6,7 @@
 
 ul.report-links{margin: 0;}
 ul.report-links li{margin: 0 0 20px;}
+ul.report-links li:last-child{margin: 0;}
 ul.report-links li::before{display: none;}
 ul.report-links li a.current{color: var(--Blue);}
 ul.report-links li a.current em{display: none;}

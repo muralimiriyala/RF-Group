@@ -47,12 +47,11 @@
     .open-positions-row{display: block;}
     .open-positions-list:last-child{margin-bottom: 0;}
     .open-positions-right{margin-bottom: 24px;}
-    .open-positions-sub-category li {margin-bottom: 4px;}
     .open-positions-top p{margin-bottom: 24px;}
     .open-positions-left{font-size: 14px; margin-bottom: 24px;}
     .open-position-filter ul.filter-links{ margin-bottom: 0;}
     .open-position-filter{margin-bottom: 24px;}
-    .open-positions-sub-category li{font-size: 12px;}
+    .open-positions-sub-category li{font-size: 12px; margin-bottom: 0;}
     .open-positions-title h6 { margin-bottom: 2px;}
 }
 
