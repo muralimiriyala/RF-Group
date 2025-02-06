@@ -16,7 +16,7 @@ ul.about-history-years > li a:hover::before{opacity: 1;}
 .about-history-intro ol {margin: 0 0 28px 13px;}
 .about-history-intro ul > li::before{left: -13px; top: 10px; background-color: var(--Blue); width: 6px; height: 6px; border-radius: 50%;}
 .about-history-intro ol > li::before {left: -16px; color: var(--Blue);}
-.about-history-intro ol > li{font-size: 16px;}
+.about-history-intro ol > li{font-size: 16px; margin-bottom: 4px;}
 .about-history-intro p{margin-bottom: 16px;}
 .about-history-list:last-child{margin-bottom: 0;}
 .about-history-list:before{position: absolute; display: block; content: ""; top: 0; left: 0; width: 4px; height: 100%; background-color: var(--Blue);}
