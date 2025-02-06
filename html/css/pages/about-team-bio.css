@@ -34,12 +34,12 @@ ul.bio-links > li i{font-size: 20px;  font-weight: 400; color: var(--Blue); widt
 .blue-block-btn .button i{font-size: 16px;}
 
 .about-bio-img img{ max-height: 350px; object-position: top center;}
+.about-bio-right-main ul{margin: 0 0 70px 28px;}
+.about-bio-right-main ol > li::before{left: -20px;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .about-bio-right-main ul{margin: 0 0 70px 28px;}
     .blue-block-wrap{margin-top: -100px; padding: 40px;}
-    .about-bio-right-main ol > li::before{left: -20px;}
 }
 @media only screen and (max-width: 1199px) and (min-width: 1024px){
     .about-bio-main{gap: 40px;}
