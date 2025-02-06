@@ -70,6 +70,6 @@ body.page-template-about .feature-icon, body.page-template-careers .feature-icon
     body.page-template-about .about-intro-section:nth-child(5) .about-intro-main{padding: 64px 0 40px;}
     body.page-template-careers .about-intro-section:nth-child(4) .about-intro-main{padding: 64px 0 40px;}
 
-    .about-intro span {margin-bottom: 24px;}
+    .about-intro span {margin-bottom: 24px; display: block;}
  }
     
