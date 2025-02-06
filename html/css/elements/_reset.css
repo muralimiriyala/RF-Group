@@ -183,7 +183,9 @@ body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparen
 
 .button.btn-hover-navy:hover{color: var(--White);}
 .button.btn-hover-navy:hover em{color: var(--White);}
-.button.btn-hover-navy:hover em[style]{color: var(--White) !important;}
+
+.button:hover em[style]{color: var(--White) !important;}
+
 .button.btn-hover-navy::before{background: var(--Navy);}
 .button.btn-hover-white::before{background: var(--White-15);}
 
