@@ -8,10 +8,10 @@ a.text-link em, a.text-link:hover{color: var(--Blue);}
 .campaign-rt .default-image-caption { margin: 60px 0 50px; }
 
 
-.campaign-lt:nth-child(1):nth-last-child(2){flex: 1;}
+.campaign-lt:nth-child(1):last-child{flex: 1;}
 
-page-template-service-tier-1 .campaign-main {padding: 80px 0 0;}
-page-template-service-tier-1 .campaign-lt hr{background-color: var(--RF-Purple);}
+.page-template-service-tier-1 .campaign-main {padding: 80px 0 0;}
+.page-template-service-tier-1 .campaign-lt hr{background-color: var(--RF-Purple);}
 
 .caption-line.purple::before, .caption-line.purple::after{background-color: var(--RF-Purple);}
 
