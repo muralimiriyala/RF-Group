@@ -34,11 +34,11 @@
     .management-team-list{flex: 0 0 calc(25%); padding: 0 20px; flex-grow: 1; }
 }
 @media only screen and (max-width: 1199px) and (min-width: 1024px){
-  .management-team-row { gap: 40px 20px; }
+  .management-team-row { gap: 60px 20px; }
   .management-team-list { flex: 0 0 calc(25% - 15px);}
 }
 @media only screen and (max-width: 1023px) and (min-width: 810px){
-  .management-team-row { padding: 0 40px 64px; gap:28px 40px;}
+  .management-team-row { padding: 0 40px 64px; gap: 60px 40px;}
   .management-team-list {flex: 0 0 calc(50% - 20px)}
 }
 
