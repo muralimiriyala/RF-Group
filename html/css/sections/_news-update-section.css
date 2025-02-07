@@ -130,7 +130,7 @@ body.page-template-news-video .news-update-content h2{font-size: 24px; line-heig
     .news-update-row:nth-child(even) .news-update-content h2{font-size: 18px; line-height: 22.5px; margin-bottom: 0; letter-spacing: -0.36px;}
     .news-update-content > span, .news-update-content > p{display: none;}
     .news-update-image{flex: 0 0 104px;}
-    .news-update-row:nth-child(odd) .news-update-image::before{width: 16px; height: 32px;}
+    .news-update-row:nth-child(odd) .news-update-image > a::before{width: 16px; height: 32px;}
 
     ul.news-update-links{gap: 16px; padding: 0 0 32px;}
     ul.news-update-links > li > a {display: block; height: 100%; text-align: center;}
