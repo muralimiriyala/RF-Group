@@ -4,7 +4,6 @@ export const stickyYear = {
   $ele: document.querySelector('ul.about-history-years'),
   $btn: document.querySelector('.about-history-btn'),
   mobileInitialized: false,
-
   init() {
     const _ = this;
     if (!_.$ele) return;
