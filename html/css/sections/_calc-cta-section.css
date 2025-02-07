@@ -2,6 +2,7 @@
 
 .calc-cta-wrap{ padding: 6px; }
 .calc-cta-main{box-shadow: 0 12px 32px 0 var(--Black-15); background-color: var(--White); padding: 31px 32px 30px; justify-content: space-between;}
+.calc-cta-text span.optional-text{margin-bottom: 10px;}
 .calc-cta-text h3 input{background: none; border: none; border-bottom: 3px solid var(--Blue); width: fit-content; padding:0 8px; font-size: 32px; line-height: 30px; max-width: 57px;}
 .calc-cta-text h3.purple-input input{border-bottom-color: var(--RF-Purple);}
 .calc-cta-text h3 input::placeholder{color: var(--Black-20);}
