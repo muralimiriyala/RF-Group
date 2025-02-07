@@ -90,7 +90,7 @@ svg.repeater-icon-hover{top: 0; left: 0; opacity: 0;}
       .repeater-list.row-reverse{flex-direction: column-reverse; margin: 0; padding: 0;}
       .page-template-about .repeater-list.row-reverse { padding: 0 }
 
-      .page-template-campaign .repeater-desc { padding: 40px 24px; }
+      .page-template-campaign .repeater-desc { padding: 47px 24px 38px;}
       .page-template-campaign .repeater-list{margin-bottom: 0;}
       .page-template-campaign .repeater-list.row-reverse{padding-bottom: 0;}
       body.page-template-about .repeater-desc{padding: 47px 24px 40px;}
