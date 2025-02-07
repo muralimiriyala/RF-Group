@@ -103,6 +103,6 @@ ul.side-by-links li::before{display: none;}
     ul.side-by-links{gap: 16px; flex-direction: column;}
     .side-by-head{gap: 20px; padding-bottom: 13px; flex-direction: row;}
     .side-by-title{flex: 1;}
-    .side-by-title span.optional-text{margin-bottom: 5px;}
+    .side-by-title span.optional-text{margin-bottom: 7px;}
     .side-by-title h2{margin: 0;}
 }
