@@ -33,6 +33,12 @@ export const servicestickyYear = {
           $(e.currentTarget).slideUp(700);
           const $t = e.target.textContent;
           _.$btn.querySelector('span').textContent = $t;
+          let id = e.target.getAttribute('href').substring(1);
+          document.querySelectorAll(`.service-year-list`).forEach((ele) => {
+            $(ele).hide();
+          });
+          let show = document.querySelector(`.service-year-list[id="${id}"]`);
+          $(show).fadeIn(700);
         });
       }
     };
