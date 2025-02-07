@@ -56,10 +56,9 @@ ul.jumpto-links > li i{ font-size: 20px; width: 20px; line-height: 100%; height:
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .service-tier-banner-main{gap: 80px;}
-    /* .service-tier-banner-lt{flex: 0 0 849px;}
-    .service-tier-banner-rt{ flex: 0 0 calc(100% - 929px);} */
     .service-tier-banner-lt{flex: 1;}
     .service-tier-banner-rt{flex: 0 0 351px;}
+    .service-tier-banner-rt:nth-child(1):last-child{flex: 1;}
     .service-tier-banner-lt h1{font-size: 48px; margin-bottom: 32px;}
     .service-tier-banner-lt  p{margin-bottom: 32px;}
     .service-tier-banner-lt .h2{font-size: 40px; margin-bottom: 42px;}
@@ -149,4 +148,5 @@ ul.jumpto-links > li i{ font-size: 20px; width: 20px; line-height: 100%; height:
       .service-holdings-row::-webkit-scrollbar{display: none;}
 
       .service-tier-banner-lt span.optional-text {margin-bottom: 20px;}
+      .service-tier-banner-rt{padding: 0 8px;}
 }
