@@ -11,6 +11,8 @@ export const servicestickyYear = {
 
     const $siblings = [..._.$ele.querySelectorAll('a')];
     $siblings[0].classList.add('active');
+    const $year = $siblings[0].getAttribute('href').substring(1);
+    _.$btn.querySelector('span').textContent = $year;
 
     _.$ele.addEventListener('click', function (e) {
       if (e.target.tagName === 'A') {
