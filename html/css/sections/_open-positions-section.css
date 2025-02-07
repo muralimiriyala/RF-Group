@@ -11,15 +11,17 @@
 .open-positions-title .h6 a:hover{color: var(--heading);}
 
 .open-positions-sub-category{gap: 0 9px; margin:  0 ; line-height: 1.5;  }
-.open-positions-sub-category li { font-size: 14px; line-height: 150%; margin-bottom: 4px; font-weight: 400;  padding-left: 9px; position: relative;}  
-.open-positions-sub-category li:first-child{ padding-left: 0;}
-.open-positions-sub-category li::before{position: absolute; top: 4px; left: 0; width: 1px; height: calc(100% - 8px); content:""; display: block; background-color: rgba(102, 102, 102, 0.25)}
+.open-positions-sub-category li { font-size: 14px; line-height: 150%; margin-bottom: 4px; font-weight: 400;  padding-right: 9px; position: relative;}  
+.open-positions-sub-category li:last-child{ padding-right: 0;}
+.open-positions-sub-category li:last-child::after{display: none;}
+.open-positions-sub-category li::before{display: none;}
+.open-positions-sub-category li::after{position: absolute; top: 4px; right: 0; width: 1px; height: calc(100% - 8px); content:""; display: block; background-color: rgba(102, 102, 102, 0.25);}
 .open-position-button{width: 48px; height: 48px; }
 .open-position-button a{background: var(--Gray); padding: 8px 7px 9px 8px;}
 .open-position-filter{margin-bottom: 40px;}
 .open-positions-list:hover{background-color: rgba(39, 114, 219, 0.1);  border-left-width: 8px;}
 .open-positions-list:hover .open-position-button a{background-color: var(--Blue);}
-.open-positions-list:hover .open-position-button a i{color: Var(--White); transform: translateX(-2px);}
+.open-positions-list:hover .open-position-button a em{color: Var(--White);}
 .open-positions-list:last-child{margin-bottom: 0;}
 
 .open-positions-sub-category li:first-child::before{display: none;}
@@ -47,12 +49,11 @@
     .open-positions-row{display: block;}
     .open-positions-list:last-child{margin-bottom: 0;}
     .open-positions-right{margin-bottom: 24px;}
-    .open-positions-sub-category li {margin-bottom: 4px;}
     .open-positions-top p{margin-bottom: 24px;}
     .open-positions-left{font-size: 14px; margin-bottom: 24px;}
     .open-position-filter ul.filter-links{ margin-bottom: 0;}
     .open-position-filter{margin-bottom: 24px;}
-    .open-positions-sub-category li{font-size: 12px;}
+    .open-positions-sub-category li{font-size: 12px; margin-bottom: 0;}
     .open-positions-title h6 { margin-bottom: 2px;}
 }
 
