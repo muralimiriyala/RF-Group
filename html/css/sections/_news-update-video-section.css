@@ -45,7 +45,7 @@ span.lock-icon{ width: 64px; height: 64px; top: 50%; left: 50%; background: rgba
     .news-update-video-banner-main{ width: calc(100% - 284px);}
 }
 @media screen and (min-width: 810px){
-    .news-update-video-banner{min-height: 480px;}
+    .news-update-video-banner,  .news-update-video-banner img{min-height: 480px;}
     
 }
 /* @media screen and (max-width: 1199px) and (min-width: 810px) {
@@ -74,6 +74,7 @@ span.lock-icon{ width: 64px; height: 64px; top: 50%; left: 50%; background: rgba
     .news-update-video-banner{position: relative;}
     .news-update-video-banner video {min-height: 285px;}
     .news-update-video-banner-text p {font-size: 14px; line-height: 150%;}
-    .news-update-video-banner{min-height: 235px;}
+    .news-update-video-banner, .news-update-video-banner img{min-height: 235px;}
+ 
 
 }
