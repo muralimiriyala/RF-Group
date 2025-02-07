@@ -3,7 +3,7 @@ ul.about-history-years{margin: 0; position: relative;}
 ul.about-history-years::before{position: absolute; display: block; content: ""; top: 0; left: 0; width: 4px; height: 100%; background-color: var(--White);}
 ul.about-history-years > li{margin-bottom: 0;}
 ul.about-history-years > li::before{display: none;}
-ul.about-history-years > li a{padding: 9px 16px 9px 16px; color: var(--Text-Gray); font-family: var(--heading-font); display: block;}
+ul.about-history-years > li a{padding: 9px 16px 9px 16px; color: var(--Text-Gray); font-family: var(--heading-font); display: block; font-size: 20px;}
 ul.about-history-years > li a.active{background-color: var(--White); color: var(--Black);}
 ul.about-history-years > li:hover a{color: var(--Black);}
 ul.about-history-years > li a::before{opacity: 0; transition: var(--b-transition); position: absolute; display: block; content: ""; top: 0; left: 0; width: 4px; height: 100%; background-color: var(--Blue); border-radius: 0;}
@@ -53,6 +53,7 @@ ul.about-history-years > li a:hover::before{opacity: 1;}
 }
 @media only screen and (max-width: 809px) and (min-width: 200px){
     .about-history-main{padding: 40px 0 40px; display: block;}
+    .about-history-list .about-history-num{font-size: 40px;}
     
     .about-history-article .slick-list{overflow: inherit;}
     .about-history-article .slick-slide{ width: 320px; margin-right: 24px; }
