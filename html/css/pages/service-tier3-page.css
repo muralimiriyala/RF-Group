@@ -58,6 +58,8 @@ ul.service-history-years > li a { color: var(--Text-Gray); display: block; font-
     .service-years-main .about-history-appends {margin-top: 10px;}
     .service-year-article .slick-list{overflow: inherit;}
     .service-years-row{gap: 24px;}
+    .service-years-row .slick-track{display: flex;}
+    .service-years-row .slick-slide{width: 264px; margin-right: 20px; height: auto; background-color: var(--White);}
     .service-year-list:not(:first-child){display: none;}
     .load-service-year{display: none;}
 
@@ -65,5 +67,6 @@ ul.service-history-years > li a { color: var(--Text-Gray); display: block; font-
     .service-history-btn { border: 1px solid var(--Text-Gray); cursor: pointer; justify-content: space-between; padding: 15px 16px; transition: var(--b-transition); }
     .service-history-btn em{font-size: 20px;}
     .service-year-article{margin-bottom: 24px;}
+    .service-history-appends{margin-top: 24px;}
 }
 

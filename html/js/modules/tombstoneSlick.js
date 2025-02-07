@@ -21,6 +21,7 @@ export const tombstoneSlick = {
             $tombSlider.slick({
               slidesToShow: 1,
               slidesToScroll: 1,
+              adaptiveHeight: false,
               arrows: true,
               prevArrow:
                 '<button type="button" aria-label="previous" aria-disabled="false" tabindex="0" class="slick-arrow slick-prev flex flex-center"><span class="slick-arrows slick-prev-arrow fa-solid fa-chevron-right"></span></button>',
@@ -31,8 +32,8 @@ export const tombstoneSlick = {
               infinite: false,
               autoplay: false,
               variableWidth: true,
-              //   appendArrows: sha,
-              //   appendDots: sha,
+              appendArrows: sha,
+              appendDots: sha,
               dotsClass: 'slick-dots service-slick-dots flex',
             });
           }

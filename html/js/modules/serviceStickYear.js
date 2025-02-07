@@ -1,8 +1,9 @@
 import $ from 'jquery';
 
-export const stickyYear = {
+export const servicestickyYear = {
   $ele: document.querySelector('ul.service-history-years'),
   $btn: document.querySelector('.service-history-btn'),
+  $list: document.querySelectorAll('.service-year-list'),
   mobileInitialized: false,
   init() {
     const _ = this;
