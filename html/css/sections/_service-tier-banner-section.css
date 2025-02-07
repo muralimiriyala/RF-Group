@@ -146,4 +146,7 @@ ul.jumpto-links > li i{ font-size: 20px; width: 20px; line-height: 100%; height:
 
       .service-holdings-row{flex-wrap: nowrap; overflow-x: auto; overflow-y: hidden; width: calc(100% + 16px); padding-right: 16px; -ms-overflow-style: none; scrollbar-width: none; gap: 16px}
       .service-holdings-row::-webkit-scrollbar{display: none;}
+
+      .service-tier-banner-lt span.optional-text {margin-bottom: 20px;}
+      .service-tier-banner-rt{padding: 0 8px;}
 }

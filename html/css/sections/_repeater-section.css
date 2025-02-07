@@ -48,7 +48,7 @@ svg.repeater-icon-hover{top: 0; left: 0; opacity: 0;}
     .repeater-text:nth-child(1):last-child .repeater-desc { max-width: 1280px; margin: 0 auto; }
     .repeater-text:nth-child(1):last-child { flex: 1; }
     .repeater-img:nth-child(1):last-child { flex: 0 0 100%; }
-    .repeater-img img {max-height: 487px;}
+    .repeater-img img {min-height: 510px; max-height: 510px; object-position: top center;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px) {
     .repeater-list{ gap: 60px;}
