@@ -48,6 +48,7 @@ span.service-company-name{color: var(--Text-Gray); display: block; margin-bottom
     .service-years-main .about-history-appends {margin-top: 10px;}
     .service-year-article .slick-list{overflow: inherit;}
     .service-years-row{gap: 24px;}
+    .service-year-list:not(:first-child){display: none;}
     .load-service-year{display: none;}
 }
 
