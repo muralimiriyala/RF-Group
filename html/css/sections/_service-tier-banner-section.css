@@ -149,4 +149,6 @@ ul.jumpto-links > li i{ font-size: 20px; width: 20px; line-height: 100%; height:
 
       .service-tier-banner-lt span.optional-text {margin-bottom: 20px;}
       .service-tier-banner-rt{padding: 0 8px;}
+
+      ul.jumpto-links li a{background-color: var(--Blue); color: var(--White); padding: 9px 16px;}
 }
