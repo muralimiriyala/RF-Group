@@ -34,7 +34,6 @@ ul.action-links > li > a{gap: 16px; background: var(--White); padding: 16px; fon
 ul.action-links{display: block;}
 ul.action-links > li{margin-bottom: 23px;}
     ul.action-links > li > a { height: 100%; }
-    .action-link-icon{margin-bottom: 8px;}
 
 .page-template-campaign .action-section{display: none;}
 }
