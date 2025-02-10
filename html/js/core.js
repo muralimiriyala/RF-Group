@@ -29,6 +29,7 @@ import { serviceTierTombstones } from './modules/service-tier-3-tombstones.js';
 import { managementHover } from './modules/managementhover.js';
 import { uicategory } from './modules/uicategory.js';
 import { jumpto } from './modules/jumpto.js';
+import { servicetierfunddetails } from './modules/servicetierfunddetails.js';
 
 (function () {
   megamenu.init();
@@ -59,4 +60,5 @@ import { jumpto } from './modules/jumpto.js';
   resourcecategory.init();
   uicategory.init();
   jumpto.init();
+  servicetierfunddetails.fund();
 })();
