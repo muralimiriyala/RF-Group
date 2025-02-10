@@ -7,6 +7,7 @@ export const uicategory = {
   init() {
     const __ = this;
     if (!__.$ele) return;
+
     __.$ele.children[0].querySelector('a').classList.add('current');
     __.$ele.addEventListener('click', (e) => {
       if (e.target.tagName === 'A') {

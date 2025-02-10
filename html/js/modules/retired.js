@@ -11,7 +11,6 @@ export const retired = {
       const $value = jQuery(this).val();
       _.$ele.forEach((ele) => {
         const $name = ele.getAttribute('data-name');
-        console.log($name);
         if ($value === $name) {
           _.$ele.forEach((ele) => {
             ele.style.maxHeight = `0px`;

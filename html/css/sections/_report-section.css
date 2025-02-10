@@ -16,7 +16,6 @@ ul.report-links li a.current em{display: none;}
 .report-btn{width: fit-content;}
 
 .report-category{margin-top: 39px;}
-.doc-repo-find{margin-top: 40px;}
 
 .report-rt p{font-size: 14px; line-height: 14px; color: var(--Text-Gray); margin-bottom: 0;}
 .report-fund-list{padding: 24px;}
@@ -47,14 +46,13 @@ ul.res-js-links li a.current{color: var(--Blue);}
     .fund-list1-of-3{flex: 0 0 calc(33.33% - 14px);}
     .fund-list1-of-2{flex: 0 0 calc(50% - 10px);}
     .fund-list1-of-1{flex: 1;}
+    .doc-repo-find{margin-top: 40px;}
 }
-
 @media screen and (max-width: 1299px) and (min-width: 1024px){
     .report-main{gap: 40px;}
     .report-lt{flex: 0 0 300px;}
     ul.report-fund-data li{flex: 100%;}
 }
-
 @media screen and (max-width: 1023px) and (min-width: 810px){
     .report-main{padding: 40px 0; display: block; width: 100%;}
     .report-lt{width: 100%; margin-bottom: 40px;}
