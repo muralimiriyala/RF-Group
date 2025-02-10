@@ -13,6 +13,12 @@ export const menu = {
       'body.tax-forms_category, body.page-template-resources, body.page-template-calculator-pension, body.page-template-calculator-retirement, body.page-template-calculator-dividend, body.page-template-calculator-margin-interest, body.page-template-calculator-compound-interest, body.page-template-calculator-education, body.tax-reports-category, body.page-template-resource-fees, body.page-template-contact, body.page-template-resource-faq, body.page-template-404'
     ),
   ],
+  $navfor: document.querySelectorAll(
+    'ul.main_menu > li.nav-item-for > ul > li.menu-item-has-children > a'
+  ),
+  $navul: document.querySelectorAll(
+    'ul.main_menu > li.nav-item-for > ul > li.menu-item-has-children > ul'
+  ),
   $site: document.querySelector('main.site-main-cover'),
   init() {
     const _ = this;
@@ -84,12 +90,11 @@ export const menu = {
         });
       document
         .querySelectorAll(
-          'ul.main_menu > li.menu-item-has-children > ul > li.menu-item-has-children > a'
+          'ul.main_menu > li.menu-item-has-children:not(.nav-item-for) > ul > li.menu-item-has-children > a'
         )
         .forEach((level2) => {
           level2.addEventListener('click', (e) => {
             e.preventDefault();
-            console.log(e.currentTarget);
             if (e.currentTarget.tagName === 'A') {
               e.currentTarget.classList.toggle('open');
               const $li = e.currentTarget.parentElement;

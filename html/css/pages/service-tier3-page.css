@@ -11,10 +11,14 @@ span.service-company-name{color: var(--Text-Gray); display: block; margin-bottom
 .service-company-desc{color: var(--Text-Gray); padding-top: 16px;}
 
 .service-company-text h3{font-size: 24px; line-height: 125%; font-weight: 600; margin-bottom: 12px;}
-.service-company-text ul{margin:  0 0 0 10px;}
+.service-company-text ul{margin: 0 0 0 10px;}
 .service-company-text ul > li{font-size: 14px; font-weight: 400; line-height: 150%;}
 .service-company-text ul > li::before{left: -10px; background-color: var(--Blue); border-radius: 8px; width: 4px; height: 4px; top: 9px;}
 .service-company-text ul > li:last-child{margin-bottom: 0;}
+
+.service-company-text ul:not(:last-child){padding-bottom: 16px;}
+.service-company-text p{color: var(--Black); font-weight: 600;}
+
 .load-service-year hr{flex: 1; margin: 0;}
 .load-service-year button{width: fit-content;}
 

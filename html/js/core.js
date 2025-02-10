@@ -2,6 +2,7 @@
 
 import { jqueryselectBox } from './lib/jquery.selectBox.js';
 
+import { megamenu } from './modules/megamenu.js';
 import { menu } from './modules/menu.js';
 import { modal } from './modules/modal.js';
 import { search } from './modules/search.js';
@@ -30,6 +31,7 @@ import { uicategory } from './modules/uicategory.js';
 import { jumpto } from './modules/jumpto.js';
 
 (function () {
+  megamenu.init();
   menu.init();
   modal.init();
   search.init();
