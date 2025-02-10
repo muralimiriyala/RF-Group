@@ -4,7 +4,7 @@ import 'slick-slider';
 export const tombstoneSlick = {
   tombeles: document.querySelectorAll('.service-years-row'),
   tombul: document.querySelector('ul.service-history-years'),
-
+  $btn: document.querySelector('.load-service-year'),
   init() {
     const __ = this;
 

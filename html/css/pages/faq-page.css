@@ -1,5 +1,6 @@
 
 .faqs-main.no_accordion{display: block; padding-bottom: 68px;}
+.faqs-main.block{display: block;}
 .faqs-text span.optional-text{margin-bottom: 22px;}
 .faqs-text h1{margin-bottom: 26px;}
 .faqs-desc{margin-bottom: 40px;}
