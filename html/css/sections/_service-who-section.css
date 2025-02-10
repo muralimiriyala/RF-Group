@@ -10,3 +10,20 @@
 .service-who-lt .service-icon em{font-size: 40px; margin-bottom: 16px; font-weight: 300; color: var(--RF-Purple)}
 .service-who-rt .service-icon em{font-size: 40px; margin-bottom: 16px; font-weight: 300; color: var(--Text-gray); opacity: 0.5;}
 .service-who-list h5{margin-bottom: 8px;}
+
+
+
+@media screen and (max-width: 809px) and (min-width: 200px) {
+.service-who-main{padding: 40px 0; display: block;}
+.service-who-lt{padding: 24px; margin-bottom: 24px;}
+.service-who-desc{padding-bottom: 10px;}
+.service-who-list-wrap {display: block;}
+
+.service-who-rt{padding: 24px;}
+
+.service-who-desc h4 { font-size: 28px; }
+
+
+
+
+}

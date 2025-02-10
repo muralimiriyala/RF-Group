@@ -94,4 +94,10 @@ svg.repeater-icon-hover{top: 0; left: 0; opacity: 0;}
       .page-template-campaign .repeater-list{margin-bottom: 0;}
       .page-template-campaign .repeater-list.row-reverse{padding-bottom: 0;}
       body.page-template-about .repeater-desc{padding: 47px 24px 40px;}
+
+
+      .page-template-service-tier-1 .repeater-list {margin-bottom: 0;}
+
+      .page-template-service-tier-1 .repeater-main{padding:40px 0 0;}
+      .page-template-service-tier-1 .repeater-desc{padding:47px 24px 40px;}
 }
