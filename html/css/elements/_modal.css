@@ -26,6 +26,13 @@ body .modal-form .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm
 .modal-gray-btns{padding: 7px; margin-top: 32px; border: 1px solid var(--Blue);}
 .modal-gray-btns .button{gap: 8px; justify-content: space-between;}
 
+body .modal-form .frm_success_style, .modal-form body .with_frm_style .frm_message{margin: 0; text-align: left;}
+body .modal-form .frm_success_style p, .modal-form body .with_frm_style .frm_message p{text-align: left;}
+
+body .modal-form .frm_forms .frm_form_fields .frm_form_field textarea{height: 186px;}
+body .modal-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{width: 100%; display: block;}
+.modal-disclaimer{padding-top: 7px; color: var(--Text-Gray); display: block; font-size: 14px; line-height: 21px;}
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 810px){
     .modal-left span.optional-text.fs-14{margin-bottom: 19px;}
@@ -43,7 +50,6 @@ body .modal-form .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm
     .modal-form, .modal-image{flex: 1;}
     body .modal-form .frm_forms .frm_form_fields .frm_fields_container{gap: 26px;}
     body .modal-form .frm_forms .frm_form_fields .frm_form_field.frm_half{width: calc(50% - 13px);}
-    body .modal-form .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_radio label{margin-top: -18px;}
 }
 @media only screen and (min-width: 1200px){
     .modal-container{max-width: 1024px;}
