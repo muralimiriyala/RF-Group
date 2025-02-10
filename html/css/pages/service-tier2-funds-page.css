@@ -27,6 +27,7 @@ ul.service-fund-banner-data li:before{display: none;}
 .fund-group-row{gap: 40px;}
 .fund-group-list{flex: 0 0 calc(33.33% - 27px); background-color: var(--White); padding: 32px 32px 26px; border-left: 4px solid var(--RF-Orange); flex-grow: 1;}
 .fund-group-list.border-purple{border-left-color: var(--RF-Purple);}
+.fund-orange-block h3 a:hover{color: var(--RF-Orange);}
 .fund-group-list h3{font-weight: 400; margin-bottom: 10px;}
 .fund-group-icon {width: 80px; height: 80px; margin-bottom: 4px;}
 .fund-group-list ul.faqs-links{margin: 0;}

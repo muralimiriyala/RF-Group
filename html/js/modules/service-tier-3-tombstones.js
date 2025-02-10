@@ -1,7 +1,6 @@
 export const serviceTierTombstones = {
   $btn: document.getElementById('load-more'),
   $ele: [...document.querySelectorAll('.service-year-list')],
-
   tier() {
     const __ = this;
     let $start = 4;
