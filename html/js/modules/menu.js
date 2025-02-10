@@ -122,5 +122,9 @@ export const menu = {
       } else {
       }
     });
+    const $paths = document.querySelectorAll('.fund-orange-block svg path');
+    $paths.forEach((ele) => {
+      ele.setAttribute('stroke', '#D57800');
+    });
   },
 };
