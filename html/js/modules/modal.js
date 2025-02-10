@@ -19,7 +19,6 @@ export const modal = {
     let $overlay = $(_.$window);
     let $main = $(_.$main);
 
-    let id = null;
     let modal = (e) => {
       e.preventDefault();
       e.target.classList.toggle('open');
@@ -29,14 +28,26 @@ export const modal = {
       $show.fadeIn(700);
     };
 
+    let id = null;
     _.$ele.forEach((btn) => {
+      id = btn.getAttribute('href').substring(1);
       btn.addEventListener('click', modal);
     });
 
     // Open the modal if URL contains '#{id}'
-    if (window.location.href.includes(`#${id}`)) {
-      const ele = _.$ele[0];
-      if (ele) ele.click();
+    // if (window.location.href.includes(`#${id}`)) {
+    //   $overlay.fadeIn(900);
+    //   let $show = $(document.querySelector(`.modal-main[id=${id}]`));
+    //   $show.fadeIn(700);
+    // }
+
+    const urlHash = window.location.hash.substring(1);
+    if (urlHash) {
+      $overlay.fadeIn(900);
+      let $show = $(document.querySelector(`.modal-main[id=${urlHash}]`));
+      if ($show.length > 0) {
+        $show.fadeIn(700);
+      }
     }
 
     // close button

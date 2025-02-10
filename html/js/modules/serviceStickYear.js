@@ -1,8 +1,9 @@
 import $ from 'jquery';
 
-export const stickyYear = {
+export const servicestickyYear = {
   $ele: document.querySelector('ul.service-history-years'),
   $btn: document.querySelector('.service-history-btn'),
+  $list: document.querySelectorAll('.service-year-list'),
   mobileInitialized: false,
   init() {
     const _ = this;
@@ -10,6 +11,8 @@ export const stickyYear = {
 
     const $siblings = [..._.$ele.querySelectorAll('a')];
     $siblings[0].classList.add('active');
+    const $year = $siblings[0].getAttribute('href').substring(1);
+    _.$btn.querySelector('span').textContent = $year;
 
     _.$ele.addEventListener('click', function (e) {
       if (e.target.tagName === 'A') {
@@ -32,6 +35,12 @@ export const stickyYear = {
           $(e.currentTarget).slideUp(700);
           const $t = e.target.textContent;
           _.$btn.querySelector('span').textContent = $t;
+          let id = e.target.getAttribute('href').substring(1);
+          document.querySelectorAll(`.service-year-list`).forEach((ele) => {
+            $(ele).hide();
+          });
+          let show = document.querySelector(`.service-year-list[id="${id}"]`);
+          $(show).fadeIn(700);
         });
       }
     };

@@ -21,7 +21,7 @@ span.service-company-name{color: var(--Text-Gray); display: block; margin-bottom
 
 .service-year-list:nth-child(n+5){display: none;}
 
-.service-history-years.sticky-element {margin: 0; position: relative;}
+ul.service-history-years{margin: 0;}
 ul.service-history-years::before { background-color: var(--White); content: ""; display: block; height: 100%; left: 0; position: absolute; top: 0; width: 4px; }
 ul.service-history-years > li { margin-bottom: 0; }
 ul.service-history-years > li a.active { background-color: var(--White); color: var(--Black); }
@@ -32,13 +32,13 @@ ul.service-history-years > li a { color: var(--Text-Gray); display: block; font-
 
 
 /*-- media css starts here --*/
+@media only screen and (min-width: 810px){
+    ul.service-history-years.sticky-element {margin: 0; position: relative;}
+}
 @media only screen and (min-width: 1024px){
     .service-year-main{padding: 85px 0 80px;}
     .service-year-article { gap: 80px;}
-
-
 }
-
 @media only screen and (max-width: 1023px) and (min-width: 810px){
     .service-years-main{padding: 64px 0; gap: 40px;}
     .service-years-row{gap: 32px;}
@@ -58,11 +58,21 @@ ul.service-history-years > li a { color: var(--Text-Gray); display: block; font-
     .service-years-main .about-history-appends {margin-top: 10px;}
     .service-year-article .slick-list{overflow: inherit;}
     .service-years-row{gap: 24px;}
+    .service-years-row .slick-track{display: flex;}
+    .service-years-row .slick-slide{width: 264px; margin-right: 20px; height: auto; background-color: var(--White);}
+    .service-year-list:not(:first-child){display: none;}
     .load-service-year{display: none;}
 
     .service-history-years.sticky-element{display: none;}
     .service-history-btn { border: 1px solid var(--Text-Gray); cursor: pointer; justify-content: space-between; padding: 15px 16px; transition: var(--b-transition); }
     .service-history-btn em{font-size: 20px;}
+    .service-history-btn.open em{transform: rotate(180deg);  transition: var(--b-transition)}
+
+    ul.service-history-years{display: none; max-height: 300px; width: 100%; top: 100%; left: 0; overflow-y: auto; box-shadow: 0 2px 2px #dfdfdf; background-color: var(--White); position: absolute;}
+    ul.service-history-years > li a.active{background-color: var(--Blue); color: var(--White);}
+  
+
     .service-year-article{margin-bottom: 24px;}
+    .service-history-appends{margin-top: 24px;}
 }
 
