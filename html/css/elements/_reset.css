@@ -264,7 +264,7 @@ a.purple-uderline:hover{color: var(--RF-Purple);}
 .line-anim::before, .line-anim::after{width: 12.5%; height: 1px; bottom: 0; position: absolute; background-color: var(--Blue); display: block; content: ""; display: block; opacity: 0; transition: all 0.5s ease;}
 .line-anim::before{left: auto; right: 50%;}
 .line-anim::after{left: 50%; right: auto}
-.line-anim:hover::before, .line-anim:hover::after{width: 50%; opacity: 1;}
+li.current-menu-item .line-anim::before, li.current-menu-item .line-anim::after, .line-anim:hover::before, .line-anim:hover::after{width: 50%; opacity: 1;}
 .line-anim:hover::after{transition-delay: 0.125s;}
 
 /* Responsive images. Fluid images for posts, comments, and widgets */

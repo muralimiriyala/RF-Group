@@ -44,7 +44,10 @@ header.scrolly-header{transform: translateY(-100%);}
     body.page-template-calculator-pension header.gray-header::before,
     body.page-template-calculator-margin-interest header.gray-header::before{background-color: var(--White);} 
 
+
+
     .site-main-cover.site-gray{padding-top: 104px;}
+
     .site-main-cover.site-white{padding-top: 56px;}
     header.white-header::before{background-color: var(--White);}
 
