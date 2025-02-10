@@ -24,7 +24,7 @@ ul.faqs-links li a.current i{opacity: 0; visibility: hidden;}
 .faqs-text h2 a:hover{color: var(--Black);}
 .faqs-text h2.h5{margin-bottom: 9px;}
 
-
+.page-template-service-tier-2 .faqs-desc h2{margin-bottom: 26px;}
 /* media css starts here */
 @media only screen  and (min-width: 1024px){
     .faqs-main{padding: 78px 0 75px; grid-template-columns: 350px auto;}
