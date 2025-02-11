@@ -6,7 +6,7 @@ export const servicetierfunddetails = {
 
   fund() {
     const ___ = this;
-    ___.$lists[0].classList.add('current');
+    ___.$lists[0]?.classList.add('current');
     ___.$lists.forEach((ele) =>
       ele.addEventListener('click', (e) => {
         ___.$lists.forEach((ele) => ele.classList.remove('current'));
