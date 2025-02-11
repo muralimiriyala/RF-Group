@@ -6,8 +6,9 @@
 .asset-performance-lists{gap: 16px}
 .asset-performance-list:hover { background-color: var(--Blue-80); }
 .asset-performance-list.current { background-color: var(--RF-Orange-10); }
+.asset-performance-list.current svg path{fill: #D57800;}
 .asset-performance-list.current .asset-performance-line { background-color: var(--RF-Orange);  width: 8px;}
-.asset-performance-list{padding: 14px 16px 14px 24px; justify-content: space-between;}
+.asset-performance-list{padding: 14px 16px 14px 24px; justify-content: space-between; cursor: pointer;}
 .asset-performance-line { background-color: var(--RF-Orange); right: auto; width: 4px; }
 .asset-performance-main:after{bottom:0; width: 100%; height: 2px; display: block; border: none; border-radius: 1px; background-color: var(--RF-Orange); opacity: 0.25; position: absolute; margin:0 0 12px;  content:"";}
 
@@ -58,6 +59,8 @@ table.fees-expenses-table tr td:last-child strong{font-weight: 600; color: var(-
 table.fees-expenses-table tr:nth-child(n+4) td:first-child{padding-left: 32px;}
 .fees-expenses-main::after{bottom:0; width: 100%; height: 2px; display: block; border: none; border-radius: 1px; background-color: var(--RF-Orange); opacity: 0.25; position: absolute; margin:0 0 12px;  content:"";}
 
+.asset-performance-graph:not(:first-child){display: none;}
+.ui-row-fund-details:not(:first-child){display: none;}
 
 /* media css starts here */
 @media only screen  and (min-width: 1024px){

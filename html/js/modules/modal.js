@@ -24,7 +24,7 @@ export const modal = {
       e.target.classList.toggle('open');
       $overlay.fadeIn(900);
       id = e.target ? e.target.getAttribute('href').substring(1) : '';
-      let $show = $(document.querySelector(`.modal-main[id=${id}]`));
+      let $show = $(document.querySelector(`.modal-main[id="${id}"]`));
       $show.fadeIn(700);
     };
 
@@ -44,7 +44,7 @@ export const modal = {
     const urlHash = window.location.hash.substring(1);
     if (urlHash) {
       $overlay.fadeIn(900);
-      let $show = $(document.querySelector(`.modal-main[id=${urlHash}]`));
+      let $show = $(document.querySelector(`.modal-main[id="${urlHash}"]`));
       if ($show.length > 0) {
         $show.fadeIn(700);
       }
