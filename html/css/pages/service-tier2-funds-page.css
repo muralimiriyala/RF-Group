@@ -84,7 +84,7 @@ ul.service-fund-banner-data li:before{display: none;}
     .service-fund-banner-main ul.service-tier-order li:first-child { min-width: 66px; }
     .service-fund-banner-desc{width: inherit; padding-bottom: 24px;}
     .service-fund-banner-desc h1 {font-size: 36px; margin-bottom: 24px;}
-    .service-fund-banner-desc p{font-size: 18px; padding-bottom: 0;}
+    .service-fund-banner-desc p{font-size: 18px; padding-bottom: 0; line-height: 150%;}
     .service-fund-banner-row {padding: 24px 0; gap: 24px;}
     .service-fund-banner-list{flex: 0 0 288px;}
 

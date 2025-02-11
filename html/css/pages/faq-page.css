@@ -52,4 +52,6 @@ ul.faqs-links li a.current i{opacity: 0; visibility: hidden;}
     .faqs-desc{margin-bottom: 24px;}
     form.srch-faqs-form{margin-bottom: 44px;}
     .faqs-mobile{padding-top: 40px;}
+
+    .faqs-main .hide-tablet.hide-desktop h2{margin-bottom: 8px;}
 }
