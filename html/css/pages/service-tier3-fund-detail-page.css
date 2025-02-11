@@ -70,7 +70,7 @@ table.fees-expenses-table tr:nth-child(n+4) td:first-child{padding-left: 32px;}
 
 @media only screen and (min-width: 810px){
     /* table.fees-expenses-table{padding: 40px 0;} */
-    table.fees-expenses-table tr td:nth-child(1){width: 302px; font-weight: 400; color: var(--Text-Gray);}
+    table.fees-expenses-table tr td:nth-child(1){width: 308px; font-weight: 400; color: var(--Text-Gray);}
 
 }
 
