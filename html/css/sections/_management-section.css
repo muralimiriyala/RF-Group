@@ -46,7 +46,7 @@
   .management-team-row { padding: 0 20px 80px; gap:24px;}
   .management-team-list {flex: 0 0 calc(50% - 20px); }
 
-
+  .page-template-service-tier-1 .management-team-row { padding: 0 20px 40px;}
 
 }
 
