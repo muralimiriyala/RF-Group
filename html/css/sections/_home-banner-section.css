@@ -15,6 +15,9 @@
 .home-banner-text p{margin-bottom: 24px;}
 .home-banner-btn{gap: 16px;}
 
+.page-template-service-tier-1 .home-banner-text h1 {margin-bottom: 28px;}
+
+
 .home-banner-text.no_about_banner_img{max-width: 100%;}
 .home-banner-count{margin-bottom: 2px; gap: 8px;}
 .home-banner-num{width: fit-content;}
@@ -28,6 +31,8 @@
 @media screen and (min-width: 1024px) {
     .home-banner-main{padding: 240px 0 244px; }
     body.page-template-about .home-banner-main{padding: 160px 0 122px;}
+    .page-template-service-tier-1 .home-banner-main { padding: 160px 0 140px; }
+
     .home-banner-text{max-width: 804px; padding-bottom: 38px;}
     .home-banner-row{gap: 48px 24px;}
     .home-banner-list{flex: 0 0 calc(25% - 20px); padding: 0 24px;}
