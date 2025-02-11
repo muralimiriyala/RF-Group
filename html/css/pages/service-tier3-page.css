@@ -76,7 +76,6 @@ ul.service-history-years > li a { color: var(--Text-Gray); display: block; font-
     ul.service-history-years > li a.active{background-color: var(--Blue); color: var(--White);}
   
 
-    .service-year-article{margin-bottom: 24px;}
     .service-history-appends{margin-top: 24px;}
 
     .service-company-text ul > li {font-size: 12px;}

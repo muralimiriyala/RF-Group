@@ -18,12 +18,12 @@ blockquote.green{color: var(--RF-Aquamarine); margin: 38px 0 38px;}
 .view-block{padding: 22px; margin-top: 38px; justify-content: space-between;}
 .cta-view{gap: 4px; color: var(--Black); background-color: var(--White); font-size: 12px; padding: 0 6px;}
 .view-block:hover .cta-view{background-color: var(--Blue); color: var(--White);}
-.cta-view i{top: -1px; position: relative; color: var(--RF-Aquamarine); font-size: 14px; font-weight: 900;}
-.view-block:hover .cta-view i{color: var(--White);}
+.cta-view em{top: -1px; position: relative; color: var(--RF-Aquamarine); font-size: 14px; font-weight: 900;}
+.view-block:hover .cta-view em{color: var(--White);}
 .view-block.open .cta-view span{display: none;}
 .view-block.open .cta-view span.hide{display: block;}
-.view-block.open .cta-view i{top: 0.5px;}
-.view-block.open .cta-view i::before{content: "\f077";}
+.view-block.open .cta-view em{top: 0.5px;}
+.view-block.open .cta-view em::before{content: "\f077";}
 .news-updates-post-audio {padding-bottom: 40px;}
 .news-updates-post-audio span{color: var(--Black); text-transform: uppercase; font-size: 14px; margin-bottom: 14px;}
 .view-txt-lt{flex:  1; padding-right: 10px; font-size: 16px; color: var(--Text-Gray2); font-weight: 600;}
