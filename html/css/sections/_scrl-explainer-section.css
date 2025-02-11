@@ -19,6 +19,8 @@
     .scrl-explainer-card{flex: 0 0 350px;}
 
     .page-template-campaign .scrl-explainer-main {padding: 80px 0 80px;}
+    .page-template-service-tier-1 .scrl-explainer-section.repeater-top{margin: 80px 0 0 ;}
+
 }
 @media only screen and (min-width: 860px){
     .scrl-explainer-inner hr[data-animate]{margin-bottom: 20px;}
