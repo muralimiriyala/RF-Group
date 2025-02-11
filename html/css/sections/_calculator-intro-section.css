@@ -1,4 +1,5 @@
 
+.calculator-intro-content.no_icon{padding-right: 0;}
 .calculator-intro-content ul.breadcrumbs{margin: 0 0 24px;}
 .calculator-intro-content ul.breadcrumbs > li{font-weight: 700;}
 .calculator-intro-content ul.breadcrumbs > li:last-child{font-weight: 400;}
