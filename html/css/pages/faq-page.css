@@ -31,6 +31,8 @@ ul.faqs-links li a.current i{opacity: 0; visibility: hidden;}
 @media only screen  and (min-width: 1024px){
     .faqs-main{padding: 78px 0 75px; grid-template-columns: 350px auto;}
     .faqs-text{padding-top: 2px;}
+
+    .faqs-main.faqs-rt-full{grid-template-columns: auto;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 810px){
     .faqs-main{padding: 78px 0 40px; display: block;}

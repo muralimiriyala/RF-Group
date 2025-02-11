@@ -111,7 +111,7 @@ ul.jumpto-links > li i{ font-size: 20px; width: 20px; line-height: 100%; height:
     .service-tier-banner-main {  display: block; }
     .service-tier-banner-lt{margin-bottom: 32px;}
     .service-tier-banner-lt h1{font-size: 28px; margin-bottom: 25px;}
-    .service-tier-banner-lt p{margin-bottom: 24px; font-size: 18px;}
+    .service-tier-banner-lt p{margin-bottom: 24px; font-size: 18px; line-height: 150%;}
     .jumpto-main .jumpto-lt{display: none; }
     ul.service-tier-order { margin: 0 0 22px; gap: 0; flex-wrap: nowrap; }
     ul.service-tier-order li{overflow: hidden; white-space: nowrap; text-overflow: ellipsis; position: relative; font-size: 16px;}
