@@ -55,7 +55,7 @@
     .home-banner-count{font-size: 28px;}
 }
 @media screen and (max-width: 809px) and (min-width: 200px) {
-    .home-banner-video{min-height: 290px; position: relative; overflow: hidden;}
+    .home-banner-video{min-height: 220px; max-height: 220px; position: relative; overflow: hidden;}
     .home-banner-main{padding: 40px 0 108px;}
     body.page-template-about .home-banner-main{padding: 44px 0 80px;}
     .home-banner-image{position: relative;}
