@@ -52,6 +52,7 @@ ul.doc-form-q li a:hover{color: var(--Blue);}
     .doc-form-aside{flex: 0 0 350px;}
     .doc-form-article{flex: 1;}
     .doc-form-text h1{font-size: 48px; margin-bottom: 27px;}
+    .page-template-service-tier-3-fund-detail .doc-form-desc h2{margin-bottom: 25px;}
 }
 @media screen and (max-width: 1259px) and (min-width: 1024px){
     .doc-form-main{gap: 60px;}

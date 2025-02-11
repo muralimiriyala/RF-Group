@@ -50,7 +50,7 @@ ul.faqs-links.RF-Orange li a i{color: var(--RF-Orange);} */
 .fees-expenses-lt hr{background-color: var(--RF-Orange); margin-bottom: 24px;}
 table.fees-expenses-table{ margin: 0; border: none;}
 table.fees-expenses-table tr:nth-child(odd){background-color: var(--Background-Gray);}
-table.fees-expenses-table tr td{padding: 10px 16px 9px; border-bottom: 1px solid var(--Light-Gray);}
+table.fees-expenses-table tr td{padding: 10px 16px 9px; border-bottom: 1px solid var(--Light-Gray); line-height: 150%;}
 table.fees-expenses-table tr:nth-child(odd) td{background-color: transparent;}
 table.fees-expenses-table tr td:nth-child(1) strong{color: var(--Black);}
 table.fees-expenses-table tr:first-child td{border-top: 1px solid var(--Light-Gray);}
