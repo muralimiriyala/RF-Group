@@ -1,9 +1,10 @@
 import $ from 'jquery';
 export const servicetierfunddetails = {
+  $listsmain: document.querySelector('.asset-performance-lists'),
   $lists: document.querySelectorAll('.asset-performance-list'),
   $ul: document.querySelectorAll('ul.ui-years-fund-details'),
   $anims: document.querySelectorAll('[data-animate]'),
-
+  $btn: document.querySelector('.asset-performance-btn'),
   fund() {
     const ___ = this;
     ___.$lists[0]?.classList.add('current');
@@ -49,6 +50,28 @@ export const servicetierfunddetails = {
           );
         }
       });
+    });
+    const assetPerformanceMobile = () => {
+      ___.$lists.forEach((ele) => {
+        ele.addEventListener('click', () => {
+          $(___.$listsmain).slideUp(800);
+        });
+      });
+    };
+    ___.$btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      e.currentTarget.classList.toggle('open');
+      $(___.$listsmain).slideToggle(800);
+    });
+    let media = window.matchMedia('(max-width:809px)');
+    if (media.matches) {
+      assetPerformanceMobile();
+    }
+    media.addEventListener('change', (event) => {
+      if (event.matches) {
+        assetPerformanceMobile();
+      } else {
+      }
     });
   },
 };

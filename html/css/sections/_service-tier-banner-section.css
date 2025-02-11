@@ -119,9 +119,9 @@ ul.jumpto-links > li i{ font-size: 20px; width: 20px; line-height: 100%; height:
     ul.service-tier-order li::before{left: 4px;}
     ul.service-tier-order li a{text-overflow: ellipsis; overflow: hidden;}
     ul.service-tier-order li:not(:first-child){padding-left: 17px;}
-    .jumpto-main .jumpto-rt ul{display: none; }
     .service-tier-banner-btn { border: 1px solid var(--Text-Gray); cursor: pointer; justify-content: space-between; padding: 16px; transition: var(--b-transition); }
     .service-tier-banner-btn span{font-size: 16px; font-weight: 700; line-height: 150%; color: var(--Black)}
+    .service-tier-banner-btn.open em::before{content: "\f077";}
 
     .service-tier-blocks{background-color: var(--White);}
     
@@ -150,6 +150,9 @@ ul.jumpto-links > li i{ font-size: 20px; width: 20px; line-height: 100%; height:
       .service-tier-banner-lt span.optional-text {margin-bottom: 20px;}
       .service-tier-banner-rt{padding: 0 8px;}
 
-      ul.jumpto-links li a.active{background-color: var(--Blue); color: var(--White); padding: 9px 16px;}
+      ul.jumpto-links{display: none; padding: 10px 0; max-height: 300px; width: 100%; top: 100%; left: 0; overflow-y: auto; box-shadow: 0 2px 2px #dfdfdf; background-color: var(--White); position: absolute;}
+      ul.jumpto-links > li a { display: block; font-size: 16px; padding: 9px 16px; }
+      ul.jumpto-links > li a.active{background-color: var(--Blue); color: var(--White);}
+      
       .jumpto-links{ background-color: var(--White); display: none; left: 0; max-height: 300px; overflow-y: auto; position: absolute; top: 100%; width: 100%; }
 }
