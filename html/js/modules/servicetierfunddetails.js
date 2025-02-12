@@ -54,6 +54,12 @@ export const servicetierfunddetails = {
     const assetPerformanceMobile = () => {
       ___.$lists.forEach((ele) => {
         ele.addEventListener('click', () => {
+          let $text = ele.querySelector('span.text-black').textContent;
+          ___.$btn.querySelector('span.text-black').textContent = $text;
+          let $svg = ele.querySelector('.asset-performance-icon').innerHTML;
+          ___.$btn.querySelector('.asset-performance-icon').innerHTML = $svg;
+          ___.$btn.classList.remove('open');
+
           $(___.$listsmain).slideUp(800);
         });
       });
