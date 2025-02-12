@@ -26,9 +26,9 @@ ul.footer-address > li > a{color: var(--White); gap: 8px;}
 .yellow ul.footer-address > li > a:hover{color: var(--Yellow);}
 .red ul.footer-address > li > a:hover{color: var(--Red);}
 
-.blue ul.footer-address i{color: var(--Sky-Blue);}
-.yellow ul.footer-address i{color: var(--Yellow);}
-.red ul.footer-address i{color: var(--Red);}
+.blue ul.footer-address em{color: var(--Sky-Blue);}
+.yellow ul.footer-address em{color: var(--Yellow);}
+.red ul.footer-address em{color: var(--Red);}
 
 ul.social-icons{margin: 0; align-items: flex-end; justify-content: end; gap: 16px;}
 ul.social-icons li{display: inline-block; margin: 0;}
