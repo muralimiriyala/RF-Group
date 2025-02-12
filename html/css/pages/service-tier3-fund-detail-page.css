@@ -126,5 +126,5 @@ table.fees-expenses-table tr:nth-child(n+4) td:first-child{padding-left: 32px;}
     .asset-performance-line{display: none;}
     .current .asset-performance-line{display: block;}
     .asset-performance-btn.open em::before{content: "\f077";}
-    .asset-performance-btn-left svg path{fill: #D57800;}
+    .asset-performance-btn-left svg path{fill: var(--RF-Orange);}
 }
