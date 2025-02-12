@@ -14,7 +14,7 @@
 
 
 .fund-detail-report-main{gap: 80px; padding: 80px 0;}
-.fund-detail-report-aside .doc-form-desc hr{margin: 0 0 28px; background-color:  var(--RF-Orange);}
+.fund-detail-report-aside .doc-form-desc hr{margin: 0 0 24px; background-color:  var(--RF-Orange);}
 
 
 .doc-form-list.RF-Orange .doc-form-line{background-color: var(--RF-Orange);}
