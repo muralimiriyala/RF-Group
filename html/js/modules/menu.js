@@ -126,5 +126,9 @@ export const menu = {
     $paths.forEach((ele) => {
       ele.setAttribute('stroke', '#D57800');
     });
+    $('p').each(function () {
+      const $this = $(this);
+      if ($this.html().replace(/\s|&nbsp;/g, '').length === 0) $this.remove();
+    });
   },
 };

@@ -35,6 +35,7 @@ body .modal-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submi
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 810px){
+    .modal-left:nth-child(1):last-child{flex: 1;}
     .modal-left span.optional-text.fs-14{margin-bottom: 19px;}
     body .modal-form .frm_forms .frm_form_fields .frm_submit{padding-top: 8px;}
     body .modal-form .frm_forms .frm_form_fields .frm_form_field .frm_primary_label{display: none;}
@@ -89,7 +90,8 @@ body .modal-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submi
 
     .modal-image{margin-bottom: 21px;}
     .modal-left span.optional-text{font-size: 18px;}
-    .modal-left .h3{font-size: 32px;}
+    .modal-left .h3{font-size: 32px; margin-bottom: 14px;}
+    .modal-left hr{margin-bottom: 14px;}
 }
 @media screen and (max-width: 389px) and (min-width: 200px){
     body .modal-form .form_field_wrapper{display: block;}
