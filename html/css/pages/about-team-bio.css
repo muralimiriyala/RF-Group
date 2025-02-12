@@ -74,7 +74,7 @@ ul.bio-links > li i{font-size: 20px;  font-weight: 400; color: var(--Blue); widt
     .about-bio-right-main p { font-size: 16px; line-height: 150%; margin-bottom: 24px;}
     .about-bio-right-main .h4 { font-size: 20px; letter-spacing: -0.4px;}
     .about-bio-right-main ul > li {font-size: 16px; line-height: 150%;}
-    .about-bio-right-main ul > li:before{left: -15px;}
+    .about-bio-right-main ul > li:before{left: -15px; top: 11px;}
     .about-bio-right-main ul { margin: 0 0 0 25px; }
     .blue-block-wrap {margin-top: inherit;}
     .blue-block{padding: 0;}
