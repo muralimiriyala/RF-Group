@@ -63,19 +63,12 @@ table.fees-expenses-table tr:nth-child(n+4) td:first-child{padding-left: 32px;}
 
 /* media css starts here */
 @media only screen  and (min-width: 1024px){
-
     .fund-detail-report-aside{flex: 0 0 350px}
     .fund-detail-report-article{flex: 0 0 calc(100% - 430px);}
-
-
 }
-
 @media only screen and (min-width: 810px){
-    /* table.fees-expenses-table{padding: 40px 0;} */
     table.fees-expenses-table tr td:nth-child(1){width: 308px; font-weight: 400; color: var(--Text-Gray);}
-
 }
-
 @media only screen and (max-width: 1023px) and (min-width: 810px){
     .asset-performance-main{display: block; padding: 58px 0 76px;}
     .asset-performance-lt{flex: 100%; margin-bottom: 64px;}
@@ -126,5 +119,5 @@ table.fees-expenses-table tr:nth-child(n+4) td:first-child{padding-left: 32px;}
     .asset-performance-line{display: none;}
     .current .asset-performance-line{display: block;}
     .asset-performance-btn.open em::before{content: "\f077";}
-    .asset-performance-btn-left svg path{fill: #D57800;}
+    .asset-performance-btn-left svg path{fill: var(--RF-Orange);}
 }

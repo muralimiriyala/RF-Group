@@ -613,9 +613,6 @@ ul.slick-dots.orange:not(.pagination) li.slick-active{background-color: var(--RF
     .book-demo-call{flex: 1; justify-content: center;}
 
     img.aligncenter, img.alignleft, img.alignnone, img.alignright{margin: 25px auto; clear: both; float: none; display: block; width: auto;}
-    .button:hover::before, button:hover::before, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit:hover::before{
-        height: 1200%;
-    }
 }
 @media only screen and (max-width: 809px) and (min-width: 200px){
     body{font-size: 16px;}
