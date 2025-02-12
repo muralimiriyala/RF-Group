@@ -13,7 +13,7 @@ ul.bio-links > li:before{display: none;}
 ul.bio-links > li {gap: 0 13px; display: flex;}
 ul.bio-links > li:has(a) a{gap: 0 13px; color: var(--Black);}
 ul.bio-links > li:has(a) a:hover{color: var(--Blue);}
-ul.bio-links > li i{font-size: 20px;  font-weight: 400; color: var(--Blue); width: 20px; text-align: center;}
+ul.bio-links > li em{font-size: 20px;  font-weight: 400; color: var(--Blue); width: 20px; text-align: center;}
 
 .about-bio-right-main{color: var(--Text-Gray); padding: 78px 80px 80px ; background-color: var(--White);}
 .about-bio-info h1{font-size: 48px; letter-spacing: -0.96px; margin-bottom: 2px;}
