@@ -15,8 +15,7 @@
 
 .fund-detail-report-main{gap: 80px; padding: 80px 0;}
 .fund-detail-report-aside .doc-form-desc hr{margin: 0 0 28px; background-color:  var(--RF-Orange);}
-/* ul.faqs-links.RF-Orange li a:hover{color: var(--RF-Orange);}
-ul.faqs-links.RF-Orange li a i{color: var(--RF-Orange);} */
+
 
 .doc-form-list.RF-Orange .doc-form-line{background-color: var(--RF-Orange);}
 .doc-form-list.RF-Orange:hover .doc-form-icon {background-color: var(--RF-Orange);}
@@ -100,9 +99,9 @@ table.fees-expenses-table tr:nth-child(n+4) td:first-child{padding-left: 32px;}
     .asset-performance-head h2 { margin-bottom: 16px; }
     .asset-performance-btn{border: 1px solid var(--Text-Gray); cursor: pointer; padding: 16px; transition: var(--b-transition); background-color: var(--Background-Gray);}
     .asset-performance-btn-left{padding-right: 32px; gap: 8px;}
-    .asset-performance-btn i{top: 50%; right: 16px; transform: translateY(-50%);}
+    .asset-performance-btn em{top: 50%; right: 16px; transform: translateY(-50%);}
   
-    .asset-performance-report i{font-size: 20px; width: 20px; height: 20px;}
+    .asset-performance-report em{font-size: 20px; width: 20px; height: 20px;}
     .asset-performance-report-lt{display: flex; align-items: center; gap: 8px;}
     .asset-performance-lt{margin-bottom: 24px;}
 
@@ -124,6 +123,8 @@ table.fees-expenses-table tr:nth-child(n+4) td:first-child{padding-left: 32px;}
     .fund-detail-report-aside .doc-form-desc + hr{margin: 0 0 24px;}
 
     .fees-expenses-main {padding: 40px 0 66px; display: block;}
-   
+    .asset-performance-line{display: none;}
+    .current .asset-performance-line{display: block;}
+    .asset-performance-btn.open em::before{content: "\f077";}
 
 }
