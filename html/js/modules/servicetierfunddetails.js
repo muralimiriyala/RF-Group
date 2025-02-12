@@ -64,6 +64,7 @@ export const servicetierfunddetails = {
         });
       });
     };
+    if (!___.$btn) return;
     ___.$btn.addEventListener('click', (e) => {
       e.preventDefault();
       e.currentTarget.classList.toggle('open');
