@@ -42,14 +42,17 @@ export const modal = {
     //   $show.fadeIn(700);
     // }
 
+    const $hashes = ['callback, appointment, cta'];
     const urlHash = window.location.hash.substring(1);
-    if (urlHash) {
-      let $show = $(document.querySelector(`.modal-main[id="${urlHash}"]`));
-      if ($show.length > 0) {
-        $overlay.fadeIn(900);
-        $show.fadeIn(700);
+    $hashes.forEach((ele) => {
+      if (ele.includes(urlHash)) {
+        let $show = $(document.querySelector(`.modal-main[id="${urlHash}"]`));
+        if ($show.length > 0) {
+          $overlay.fadeIn(900);
+          $show.fadeIn(700);
+        }
       }
-    }
+    });
 
     // close button
     let modalClose = (e) => {
