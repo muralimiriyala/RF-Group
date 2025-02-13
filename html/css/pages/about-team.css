@@ -16,6 +16,7 @@
 .team-info-desc h3 a:hover{color: var(--Blue);}
 
 .team-info-desc span{font-size: 16px; color: var(--White-50);}
+.team-info-desc span:hover{color: var(--White);}
 .team-info-btn{border-left: 1px solid var(--Blue); padding-left: 10px; width: fit-content; align-items: center; display: flex;}
 .team-info-btn em{font-size: 24px; color: var(--Blue); transition: var(--b-transition)}
 .team-info-btn.no-desc{display: none;}
@@ -23,6 +24,8 @@
   .team-mem-inner{background-color: var(--White); padding: 40px; justify-content: space-between; gap: 40px; box-shadow: 0px 12px 32px 0px rgba(0, 0, 0, 0.15);}
   .team-mem-text span{margin: 7px 0 5px;}
   .team-mem-text h3{margin-bottom: 0;}
+
+  .team-info-btn em:hover{color: var(--White)}
   
   
 
