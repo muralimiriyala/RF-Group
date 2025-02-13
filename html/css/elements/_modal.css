@@ -32,9 +32,13 @@ body .modal-form .frm_success_style p, .modal-form body .with_frm_style .frm_mes
 body .modal-form .frm_forms .frm_form_fields .frm_form_field textarea{height: 186px;}
 body .modal-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{width: 100%; display: block;}
 .modal-disclaimer{padding-top: 7px; color: var(--Text-Gray); display: block; font-size: 14px; line-height: 21px;}
+.modal-disclaimer.hide{display: none;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 810px){
+    .modal-text span.optional-text{margin-bottom: 10px;}
+    .modal-text hr, .modal-left hr{margin-bottom: 16px;}
+
     .modal-left:nth-child(1):last-child{flex: 1;}
     .modal-left span.optional-text.fs-14{margin-bottom: 19px;}
     body .modal-form .frm_forms .frm_form_fields .frm_submit{padding-top: 8px;}

@@ -3,7 +3,7 @@ export const retired = {
   $main: document.querySelector('.cta-investment-wrap'),
   $iselect: document.getElementById('investment-select'),
   $ele: document.querySelectorAll('.investment-form-main'),
-  $selectBox: document.querySelector('ul.selectBox-dropdown-menu'),
+  $selectBox: document.querySelector('.cta-investment-form select'),
   init() {
     const _ = this;
     const $select = jQuery(_.$iselect);

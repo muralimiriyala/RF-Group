@@ -8,7 +8,7 @@
 .resource-intro-rt .button{margin-top: 23px;}
 
 @media screen and (min-width: 1024px) {
-    .resource-intro-main{padding: 80px 0; gap: 80px;}
+    .resource-intro-main{padding: 80px 0; gap: 80px; align-items: flex-start;}
     .resource-intro-rt{flex: 0 0 350px;}
     .resource-intro-rt .button{font-size: 17px;}
 }
