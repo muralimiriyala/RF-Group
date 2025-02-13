@@ -170,7 +170,7 @@
                                     <select name="item_meta[9]" id="field_2poly"  data-placeholder="Topic"  placeholder="Topic" data-reqmsg="Please select topic" aria-required="true" data-invmsg="This field is invalid" aria-invalid="false"  >
                                 <option  class="frm-select-placeholder" value="" data-placeholder="true">Topic</option><option  value="Option 1">Option 1</option><option  value="Option 2">Option 2</option><option  value="Option 3">Option 3</option><option  value="Option 4">Option 4</option><option  value="Option 5">Option 5</option>	</select>
                             
-                            
+                                <div class="frm_error" role="alert" id="frm_error_field_2poly">Please select topic</div>
                             
                         </div>
                         <div id="frm_field_5_container" class="frm_form_field form-field  frm_top_container frm_full">
@@ -352,7 +352,7 @@
                         <li><a class="line-anim" href="#">Make an appointment</a></li>
                         <li><a class="line-anim" href="#">Schedule a callback</a></li>
                         <li><a class="line-anim" href="#">Resources</a></li>
-                        <li><a class="line-anim" href="#">Contact us</a></li>
+                        <li><a class="line-anim" href="https://stg-rfgroup-staging.kinsta.cloud/contact/">Contact us</a></li>
                     </ul>
                     <ul class="footer-lists flex hide-tablet hide-desktop">
                         <li><a href="#" class="button flex">Make an appointment <em class="transition fa-sharp fa-regular fa-calendar-plus"></em></a></li>
@@ -429,5 +429,16 @@
 
 <script src="dist/DrawSVGPlugin.min.js"></script>
 <script src="dist/core.bundle.js" defer></script>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  let $tags = document.querySelectorAll("ul.footer-lists > li > a");
+  $tags.forEach((ele) => {
+    let url = ele.getAttribute('href');
+    if(url.includes('contact')){
+        ele.parentElement.classList.add('current-menu-item')
+    }
+  });
+});
+</script>
 </body>
 </html>

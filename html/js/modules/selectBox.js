@@ -31,5 +31,10 @@ export const selectBox = {
     for (let $ele of $eles) {
       $ele.removeAttribute('style');
     }
+    jQuery('select')
+      .selectBox()
+      .change(function () {
+        jQuery(this).parent().children('.frm_error').remove();
+      });
   },
 };

@@ -12,7 +12,11 @@ export let megamenu = {
       __.$navfor.forEach((ele) => {
         ele.addEventListener('mouseenter', function (e) {
           let show = e.target.parentElement.querySelector('ul');
-          __.$navul.forEach((ele) => $(ele).hide(0));
+          __.$navul.forEach((ele) => {
+            ele.parentElement.classList.remove('hover');
+            $(ele).hide(0);
+          });
+          e.target.parentElement.classList.add('hover');
           $(show).fadeIn(400);
         });
       });
