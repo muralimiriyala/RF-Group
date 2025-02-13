@@ -35,13 +35,6 @@ export const modal = {
       btn.addEventListener('click', modal);
     });
 
-    // Open the modal if URL contains '#{id}'
-    // if (window.location.href.includes(`#${id}`)) {
-    //   $overlay.fadeIn(900);
-    //   let $show = $(document.querySelector(`.modal-main[id=${id}]`));
-    //   $show.fadeIn(700);
-    // }
-
     const $hashes = ['callback, appointment, cta'];
     const urlHash = window.location.hash.substring(1);
     $hashes.forEach((ele) => {
