@@ -51,7 +51,7 @@ blockquote.green{color: var(--RF-Aquamarine); margin: 38px 0 38px;}
 }
 @media screen and (max-width: 809px) and (min-width: 200px) {
   .news-updates-post-main{display: block; margin-top: -80px;}
-  .news-updates-post-article { flex: 0 0 100%; margin: 0 auto; padding: 24px;}
+  .news-updates-post-article { flex: 0 0 100%; margin: 0 auto; padding: 24px 24px 20px;}
   .news-top-line{width: 100%; left: 0;}
   .news-updates-post-section .container{padding: inherit;}
   .news-updates-post-audio { padding-bottom: 24px; }
