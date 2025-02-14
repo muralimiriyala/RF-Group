@@ -1,76 +1,151 @@
-import gsap from 'gsap';
-import ScrollTrigger from 'gsap/ScrollTrigger';
-gsap.registerPlugin(ScrollTrigger);
+import imagesLoaded from 'imagesloaded';
+import 'is-in-viewport';
+import 'jquery.appear';
+
+imagesLoaded.makeJQueryPlugin($);
+const $body = $('body');
 
 export const gsapscroll = {
-  header: document.querySelector('header'),
-  uiele: document.querySelectorAll('[data-animate]'),
   init() {
-    const __ = this;
-    if (!__.header) return;
+    const _ = this;
+    const dy = -$(window).height() / 4;
 
-    const $height = Math.ceil(__.header?.getBoundingClientRect().height);
-    const $perce = Math.ceil(($height / 1000) * 100);
-    const $top = 100 - $perce;
-    const $bottom = $perce;
+    // Iterate through all elements with data-animation or data-animate attributes
+    $('[data-animation]:not(img), [data-animate]').each(function () {
+      const $self = $(this);
+      const animation = $self.data('animation');
+      const animateType = $self.data('animate');
+      const delay = Number($self.data('animation-delay') || 0);
+      const timeline = $self[0].tl; // Timeline associated with the element
 
-    __.uiele.forEach((ele) => {
-      const timeline = ele.tl;
-      const $animateType = ele.getAttribute('data-animate');
-      const $animateNames = $animateType.split(' ');
-      const $duration = ele.getAttribute('data-duration');
-      gsap.to(ele, {
-        scrollTrigger: {
-          trigger: ele,
-          start: `${$top}% bottom`,
-          end: `bottom ${$bottom}%`,
-          scrub: true,
-          // once: true,
-          // toggleClass: 'visible',
-          onEnter: () => {
-            $animateNames.forEach((className) => {
-              className
-                ? ele.classList.add(className, 'visible')
-                : ele.classList.add('visible');
-            });
-            timeline?.play();
-            $animateType === 'counter' ? ele.counter?.start() : '';
-            if (ele.classList.contains('counter-back')) {
-              setTimeout(function () {
-                ele.style.opacity = 1;
-              }, $duration);
+      // If element is already in the viewport on page load
+      if ($self.is(':in-viewport')) {
+        setTimeout(() => {
+          if (animateType) {
+            _.animateRun($self, animateType, timeline);
+          } else {
+            $self.addClass('visible ' + (animation ? animation : ''));
+            if (timeline) {
+              timeline.restart().play(); // Restart timeline on load
             }
+          }
+        }, delay);
+      } else {
+        // Reset timeline if element is not in the viewport
+        if (timeline) {
+          timeline.progress(0).pause(); // Reset and pause timeline
+        }
+      }
+    });
+
+    // Handle animations when images are loaded
+    $body.imagesLoaded().progress(function (instance, image) {
+      const $img = $(image.img);
+      if ($img.data('animation')) {
+        $img.appear(
+          function () {
+            const delay = $img.data('animation-delay');
+            setTimeout(function () {
+              $img.addClass($img.data('animation')).addClass('visible');
+            }, delay);
           },
-          onEnterBack: () => {
-            $animateNames.forEach((className) => {
-              className
-                ? ele.classList.add(className, 'visible')
-                : ele.classList.add('visible');
-            });
-            timeline?.play();
-            $animateType === 'counter' ? ele.counter?.start() : '';
-            if (ele.classList.contains('counter-back')) {
-              setTimeout(function () {
-                ele.style.opacity = 1;
-              }, $duration);
+          { accY: dy }
+        );
+      }
+    });
+  },
+
+  // Run animation and timeline when the element is visible
+  animateRun($el, type, timeline) {
+    $el.addClass('visible ' + $el.attr('data-animate'));
+    if (timeline) {
+      timeline.restart().play(); // Restart and play timeline when visible
+    }
+
+    if (type === 'counter') {
+      const $counter = $el[0];
+      if ($counter.counter && $counter.counter.paused) {
+        $counter.counter.start();
+      }
+    }
+  },
+
+  // Reset animation and timeline when the element leaves the viewport
+  animateReset($el, type, timeline) {
+    $el.removeClass('visible ' + $el.attr('data-animate'));
+    if (timeline) {
+      timeline.pause(0); // Pause and reset timeline when not visible
+    }
+
+    // Uncomment if needed for progress or counter elements
+    // if (progress) progress.reset();
+    // if (type === 'counter') {
+    //   const $counter = $el[0];
+    //   $counter.counter.reset();
+    // }
+  },
+
+  // Handle scroll events to trigger animations
+  handle(scrolled, direction) {
+    const _ = this;
+
+    $('[data-animation]:not(img), [data-animate]').each(function () {
+      const $self = $(this);
+      const selfOffset = $self.offset().top;
+      const animation = $self.data('animation');
+      const animateType = $self.data('animate');
+      const delay = Number($self.data('animation-delay') || 0);
+      const offset = $(window).height() * 0.95; // Adjust threshold to control animation start point
+      const timeline = $self[0].tl;
+
+      if (
+        direction === 'DOWN' &&
+        scrolled >= selfOffset - offset &&
+        !$self.hasClass('visible')
+      ) {
+        // Animate element when scrolling down into viewport
+        setTimeout(() => {
+          if (animateType) {
+            _.animateRun($self, animateType, timeline);
+          } else {
+            $self.addClass('visible ' + (animation ? animation : ''));
+            if (timeline) {
+              timeline.restart().play(); // Restart and play timeline when visible
             }
-          },
-          onLeave: () => {
-            $animateNames.forEach((className) => {
-              className
-                ? ele.classList.remove(className, 'visible')
-                : ele.classList.remove('visible');
-            });
-            timeline?.pause();
-            $animateType === 'counter' ? ele.counter?.pauseResume() : '';
-            if (ele.classList.contains('counter-back')) {
-              setTimeout(function () {
-                ele.style.opacity = 0;
-              }, $duration);
+          }
+        }, delay);
+      } else if (
+        direction === 'UP' &&
+        $self.is(`:in-viewport(${-offset})`) &&
+        !$self.hasClass('visible')
+      ) {
+        // Animate element when scrolling up into viewport
+        setTimeout(() => {
+          if (animateType) {
+            _.animateRun($self, animateType, timeline);
+          } else {
+            $self.addClass('visible ' + (animation ? animation : ''));
+            if (timeline) {
+              timeline.restart().play(); // Restart and play timeline when visible
             }
-          },
-        },
-      });
+          }
+        }, delay);
+      } else if (
+        direction === 'UP' &&
+        !$self.is(':in-viewport') &&
+        $self.offset().top > scrolled &&
+        $self.hasClass('visible')
+      ) {
+        // Reset animation when element leaves the viewport
+        if (animateType) {
+          _.animateReset($self, animateType, timeline);
+        } else {
+          $self.removeClass('visible ' + (animation ? animation : ''));
+          if (timeline) {
+            timeline.pause(0); // Pause and reset timeline when out of view
+          }
+        }
+      }
     });
   },
 };

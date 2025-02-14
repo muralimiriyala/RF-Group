@@ -1,7 +1,12 @@
 import gsap from 'gsap';
-
 var DrawSVGPlugin = DrawSVGPlugin || window.DrawSVGPlugin;
+var CountUp = CountUp || window.CountUp;
+
 gsap.registerPlugin(DrawSVGPlugin);
+
+function getRandomInt(min, max) {
+  return Math.random() * (max - min) + min;
+}
 
 export const gsapanim = {
   iconanims: document.querySelectorAll('[data-animate*="ui-icon"]'),

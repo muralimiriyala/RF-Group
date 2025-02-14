@@ -14,10 +14,10 @@ export const menu = {
     ),
   ],
   $navfor: document.querySelectorAll(
-    'ul.main_menu > li.nav-item-for > ul > li.menu-item-has-children > a'
+    'nav.navigation ul.menu > li.nav-item-for > ul > li.menu-item-has-children > a'
   ),
   $navul: document.querySelectorAll(
-    'ul.main_menu > li.nav-item-for > ul > li.menu-item-has-children > ul'
+    'nav.navigation ul.menu > li.nav-item-for > ul > li.menu-item-has-children > ul'
   ),
   $site: document.querySelector('main.site-main-cover'),
   init() {
@@ -71,7 +71,9 @@ export const menu = {
 
     const mobilemenu = () => {
       document
-        .querySelectorAll('ul.main_menu > li.menu-item-has-children > a')
+        .querySelectorAll(
+          'nav.navigation ul.menu > li.menu-item-has-children > a'
+        )
         .forEach((level1) => {
           level1.addEventListener('click', (e) => {
             e.preventDefault();
@@ -90,7 +92,7 @@ export const menu = {
         });
       document
         .querySelectorAll(
-          'ul.main_menu > li.menu-item-has-children:not(.nav-item-for) > ul > li.menu-item-has-children > a'
+          'nav.navigation ul.menu > li.menu-item-has-children:not(.nav-item-for) > ul > li.menu-item-has-children > a'
         )
         .forEach((level2) => {
           level2.addEventListener('click', (e) => {

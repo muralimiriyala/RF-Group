@@ -16,6 +16,7 @@ import { uiAccordion } from './modules/accordion.js';
 import { gsapanim } from './modules/gsap.js';
 import { counter } from './modules/counter.js';
 import { gsapscroll } from './modules/gsapscroll.js';
+import Scroll from './modules/scroll';
 import { sticky } from './modules/stickySidebar.js';
 import { stickyYear } from './modules/stickyYear.js';
 import { servicestickyYear } from './modules/serviceStickYear.js';
@@ -31,7 +32,8 @@ import { uicategory } from './modules/uicategory.js';
 import { jumpto } from './modules/jumpto.js';
 import { servicetierfunddetails } from './modules/servicetierfunddetails.js';
 
-(function () {
+document.addEventListener('DOMContentLoaded', function () {
+  // (function () {
   megamenu.init();
   menu.init();
   modal.init();
@@ -61,4 +63,11 @@ import { servicetierfunddetails } from './modules/servicetierfunddetails.js';
   uicategory.init();
   jumpto.init();
   servicetierfunddetails.fund();
-})();
+  // })();
+});
+let scrolled = window.scrollY;
+window.addEventListener('scroll', function () {
+  scrolled = window.scrollY;
+  Scroll.handle(scrolled);
+  gsapscroll.handle(scrolled, Scroll.direction);
+});
