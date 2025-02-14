@@ -8,19 +8,19 @@ export let megamenu = {
   ),
   init() {
     const __ = this;
-    function desktopmenu() {
+    const desktopmenu = () => {
       __.$navfor.forEach((ele) => {
         ele.addEventListener('mouseenter', function (e) {
           let show = e.target.parentElement.querySelector('ul');
           __.$navul.forEach((ele) => {
             ele.parentElement.classList.remove('hover');
-            $(ele).hide(0);
+            jQuery(ele).hide(0);
           });
           e.target.parentElement.classList.add('hover');
-          $(show).fadeIn(400);
+          jQuery(show).fadeIn(400);
         });
       });
-    }
+    };
     const media = window.matchMedia('(min-width: 1024px)');
     if (media.matches) {
       desktopmenu();
