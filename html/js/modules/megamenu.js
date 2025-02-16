@@ -6,29 +6,29 @@ export const megamenu = {
   $navfor: document.querySelectorAll(
     'nav.navigation ul.menu > li.nav-item-for > ul'
   ),
-  $navul: document.querySelectorAll(
-    'nav.navigation ul.menu > li.nav-item-for > ul > li > ul'
-  ),
   init() {
     const __ = this;
     const desktopmenu = () => {
       __.$navfor.forEach((ulele) => {
+        ulele.children[0].classList.add('hover');
         //mouse enter
         ulele.querySelectorAll('a').forEach((ele) => {
           ele.addEventListener('mouseenter', function (e) {
             let show = e.target.parentElement.querySelector('ul');
-            __.$navul.forEach((ele) => {
-              ele.parentElement.classList.remove('hover');
-              jQuery(ele).hide(0);
-            });
+            let currentLi = e.target.parentElement;
+            let prevLi = ulele.children;
+            if (prevLi !== currentLi) {
+              // hide except hover
+              currentLi.parentElement.querySelectorAll('li').forEach((ele) => {
+                ele.classList.remove('hover');
+                ele.children[1].style.display = 'none';
+              });
+            }
             e.target.parentElement.classList.add('hover');
             jQuery(show).fadeIn(600);
-          });
-        });
-        //mouse leave
-        __.$navforlinks.forEach((ele) => {
-          ele.addEventListener('mouseenter', function (e) {
-            $(ulele.children[0].querySelector('ul')).show();
+
+            e.target.parentElement.classList.add('hover');
+            jQuery(show).fadeIn(600);
           });
         });
       });

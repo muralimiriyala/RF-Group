@@ -12,7 +12,7 @@
 
 .comission-fee-lists{padding: 40px 0 0;}
 .counter-main{font-size: 72px; line-height: 100%; text-transform: uppercase; font-weight: 700; color: var(--Black); margin-bottom: 18px; display: block; }
-.counter-back{opacity: 0; color: transparent; -webkit-text-stroke: 1px var(--Blue); top: 2px; z-index: -1; left: 2px;}
+.counter-back{display: none; color: transparent; -webkit-text-stroke: 1px var(--Blue); top: 2px; z-index: -1; left: 2px;}
 .counter-text{left: -9px;}
 
 .comission-fee-list{display: flex; flex-direction: column;}
@@ -28,7 +28,9 @@
 
 /*-- media css --*/
 @media only screen and (min-width: 1024px){
+
     body.page-template-resource-fees .comission-fee-main{padding-bottom: 90px;}
+    body.page-template-resource-fees .no-feature-section .comission-fee-main{padding-bottom: 0;}
     .comission-fee-rt{ margin-bottom: 0; flex: 1;} 
     .comission-fee-rt p{max-width: 800px;} 
     .comission-fee-rt:only-child{max-width: 100%;}

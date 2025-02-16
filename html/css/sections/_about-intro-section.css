@@ -17,7 +17,6 @@ body.page-template-service-tier-1 .about-intro-main hr{background-color: var(--R
 
 .about-intro-lists{padding: 40px 0 0 ;}
 .counter-main{font-size: 72px; line-height: 100%; text-transform: uppercase; font-weight: 700; color: var(--Black); margin-bottom: 18px; display: block; }
-.counter-back{opacity: 0; color: transparent; -webkit-text-stroke: 1px var(--Blue); top: 2px; z-index: -1; left: 2px;}
 .counter-text{left: -9px;}
 
 .about-intro-list p{font-size: 16px; font-weight: 400; line-height: 150%;}

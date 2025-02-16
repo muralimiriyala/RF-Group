@@ -24,11 +24,14 @@ export const counter = {
         onCompleteCallback: () => {
           // Ensure the back text is updated after the counting animation completes
           const $value = $el.textContent || countTo; // Fallback to `countTo` if textContent is empty
-          const $backTxt =
-            $el.nextElementSibling?.querySelector('span.back-txt');
+          if ($el.nextElementSibling) {
+            const $backTxt =
+              $el.nextElementSibling.querySelector('span.back-txt');
 
-          if ($backTxt) {
-            $backTxt.textContent = $value;
+            if ($backTxt) {
+              $($backTxt.parentElement).show(800);
+              $backTxt.textContent = $value;
+            }
           }
         },
       });

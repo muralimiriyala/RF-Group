@@ -10,8 +10,8 @@ export const gsapscroll = {
     const _ = this;
     const dy = -$(window).height() / 4;
 
-    // Iterate through all elements with data-animation or data-animate attributes
-    $('[data-animation]:not(img), [data-animate]').each(function () {
+    // Iterate through all elements with data-animate attributes
+    $('[data-animate]').each(function () {
       const $self = $(this);
       const animation = $self.data('animation');
       const animateType = $self.data('animate');
@@ -76,20 +76,13 @@ export const gsapscroll = {
     if (timeline) {
       timeline.pause(0); // Pause and reset timeline when not visible
     }
-
-    // Uncomment if needed for progress or counter elements
-    // if (progress) progress.reset();
-    // if (type === 'counter') {
-    //   const $counter = $el[0];
-    //   $counter.counter.reset();
-    // }
   },
 
   // Handle scroll events to trigger animations
   handle(scrolled, direction) {
     const _ = this;
 
-    $('[data-animation]:not(img), [data-animate]').each(function () {
+    $('[data-animate]').each(function () {
       const $self = $(this);
       const selfOffset = $self.offset().top;
       const animation = $self.data('animation');

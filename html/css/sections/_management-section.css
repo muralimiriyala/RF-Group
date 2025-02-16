@@ -9,7 +9,8 @@
 .navy-block-btn .button[data-btn-hover]::before{ background-color: var(--button-hover-color); }
 
 .management-team-row{padding: 0 0 80px; align-items: flex-start; justify-content: center;}
-.management-team-image img{width: 160px; outline: 8px solid rgba(0, 0, 0, 0.1); border-radius: 120px; height: 160px;}
+.management-team-image img{width: 160px; transition: var(--b-transition); outline: 8px solid rgba(0, 0, 0, 0.1); border-radius: 120px; height: 160px;}
+.management-team-list:hover img{transform: scale(1.025); outline-color: var(--Black-20);}
 .management-team-list{ text-align: center; display: flex; flex-direction: column;}
 .management-team-image{margin-bottom: 16px;}
 .management-team-info{margin-top: auto;}
