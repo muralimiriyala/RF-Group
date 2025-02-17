@@ -5,12 +5,12 @@ export const menu = {
   $login: document.querySelector('.user-login'),
   $smallHeader: [
     ...document.querySelectorAll(
-      'body.page-template-service-tier-2, body.page-template-service-tier-3-fund-detail, body.page-template-tombostones, body.page-template-about-history, body.page-template-about-team'
+      'body.page-template-service-tier-2, body.page-template-service-tier-3-fund-detail, body.page-template-service-tier-3-tombstones, body.page-template-about-history, body.page-template-team'
     ),
   ],
   $gpages: [
     ...document.querySelectorAll(
-      'body.tax-forms_category, body.page-template-resources, body.page-template-calculator-pension, body.page-template-calculator-retirement, body.page-template-calculator-dividend, body.page-template-calculator-margin-interest, body.page-template-calculator-compound-interest, body.page-template-calculator-education, body.tax-reports-category, body.page-template-resource-fees, body.page-template-contact, body.page-template-resource-faq, body.page-template-404'
+      'body.tax-forms_category, body.page-template-resources, body.page-template-calculator-pension, body.page-template-calculator-retirement, body.page-template-calculator-dividend, body.page-template-calculator-margin-interest, body.page-template-calculator-compound-interest, body.page-template-calculator-education, body.tax-reports-category, body.page-template-resource-fees, body.page-template-contact, body.page-template-resource-faq, body.error404'
     ),
   ],
   $navfor: document.querySelectorAll(
