@@ -28,6 +28,7 @@ svg.repeater-icon-hover{top: 0; left: 0; opacity: 0;}
 .purple-block ul > li::before, ul.purple > li::before{background-color: var(--RF-Purple);}
 
 
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 1300px) {
     .repeater-list{ gap: 80px;}
@@ -49,6 +50,8 @@ svg.repeater-icon-hover{top: 0; left: 0; opacity: 0;}
     .repeater-text:nth-child(1):last-child { flex: 1; }
     .repeater-img:nth-child(1):last-child { flex: 0 0 100%; }
     .repeater-img img {min-height: 510px; max-height: 510px; object-position: top center;}
+
+    .repeater-list.no_repeater_image{padding: 80px 0;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px) {
     .repeater-list{ gap: 60px;}
