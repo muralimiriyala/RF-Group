@@ -20,7 +20,7 @@
     .carousel-slider-appends .slick-arrow{background: var(--Black-20);}
     .carousel-slider-text { padding: 24px 0 ; }
     .carousel-slider-text h2 {padding: 0; font-size: 36px;}
-    .carousel-slider-slide {padding: 40px 24px; min-height: 470px;}
+    .carousel-slider-slide {padding: 40px 24px 105px;}
     .carousel-slider-thumb{position: relative;}
     .carousel-slider-thumb picture img{max-width: 30px; margin: auto;}
     .carousel-slider-thumb::before, .carousel-slider-thumb::after{ position: absolute; width: calc(50% - 32px); top: 50%; content:""; display: block; height: 1px; background-color: var(--White-50);}
@@ -28,7 +28,7 @@
     .carousel-slider-thumb::after{right: 0;}
 
     .carousel-slider-appends ul.slick-dots:not(.pagination) li { border: 1px solid var(--Black); }
-    .carousel-slider-appends ul.slick-dots:not(.pagination) li.slick-active { background-color: var(--White);}
+    .carousel-slider-appends ul.slick-dots:not(.pagination) li.slick-active { background-color: var(--White); border-color: var(--White);}
      
 
   }
