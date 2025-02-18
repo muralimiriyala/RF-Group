@@ -141,7 +141,7 @@ ul.jumpto-links > li i{ font-size: 20px; width: 20px; line-height: 100%; height:
       .service-holdings-wrap h2 {font-size: 24px;}
       .service-holdings-list {flex: 0 0 160px;}
 
-      .service-fund-row{flex-wrap: nowrap; overflow-x: auto; overflow-y: hidden; width: calc(100% + 16px); padding-right: 16px; -ms-overflow-style: none; scrollbar-width: none; gap: 16px}
+      .service-fund-row{flex-wrap: nowrap; overflow-x: auto; overflow-y: hidden; width: calc(100% + 24px); padding-right: 24px; -ms-overflow-style: none; scrollbar-width: none; gap: 16px}
       .service-fund-row::-webkit-scrollbar{display: none;}
 
       .service-holdings-row{flex-wrap: nowrap; overflow-x: auto; overflow-y: hidden; width: calc(100% + 16px); padding-right: 16px; -ms-overflow-style: none; scrollbar-width: none; gap: 16px}
