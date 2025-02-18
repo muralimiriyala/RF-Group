@@ -47,6 +47,7 @@ ul.doc-repo-q li a:hover{color: var(--Blue);}
 .doc-repo-ids:not(:first-child){display: none;}
 
 
+
 /* media css starts here */
 @media only screen  and (min-width: 810px){
     .doc-repo-head{gap: 40px; padding-bottom: 26px;}
