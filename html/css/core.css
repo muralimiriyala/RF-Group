@@ -80,6 +80,7 @@
 @import url('./pages/service-tier3-fund-detail-page.css');
 @import url('./pages/service-tier2-funds-page.css');
 @import url('./pages/service-tier1-page.css');
+@import url('./pages/landing-page.css');
 
 /*-- From 3rd party css's --*/
 @import url('./lib/slick.css');
