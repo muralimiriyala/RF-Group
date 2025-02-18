@@ -45,5 +45,9 @@
     .news-post-banner-list{margin: 0 0 8px}
     .news-post-banner-row{margin-bottom: 14px;}
     .news-post-banner-desc{font-size: 18px; line-height: 150%;}
+    .news-post-banner-list:nth-last-child(2):after{display: none;}
 
+}
+@media screen and (max-width: 389px) and (min-width: 200px) {
+    .news-post-banner-list::after{display: none;}
 }
