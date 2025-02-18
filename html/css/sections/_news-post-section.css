@@ -39,13 +39,18 @@ ul.blog_list{margin: 0;}
 
     ul.blog_list{gap: 40px;}
     .news-post-row{gap: 40px;}
-    .news-post-row:nth-child(odd) .news-post-item:nth-child(1){flex: 0 0 calc(100% - 460px);}
+    /* .news-post-row:nth-child(odd) .news-post-item:nth-child(1){flex: 0 0 calc(100% - 460px);}
     .news-post-row:nth-child(odd) .news-post-item:nth-child(2){flex: 0 0 420px;}
     .news-post-row:nth-child(even){flex-direction: row;}
     .news-post-row:nth-child(even) .news-post-item:nth-child(2n+1){flex: 0 0 420px;}
-    .news-post-row:nth-child(even) .news-post-item:nth-child(2n){flex: 1;}
+    .news-post-row:nth-child(even) .news-post-item:nth-child(2n){flex: 1;} */
 
-    .news-post-row:nth-child(6){flex-direction: row-reverse;}
+    .news-post-row[count="1"] .news-post-item:nth-child(1){flex: 0 0 calc(100% - 460px);}
+    .news-post-row[count="1"] .news-post-item:nth-child(2){flex: 0 0 420px;}
+
+    .news-post-row[count="3"]{flex-direction: row;}
+    .news-post-row[count="3"] .news-post-item:nth-child(2n+1){flex: 0 0 420px;}
+    .news-post-row[count="3"] .news-post-item:nth-child(2n){flex: 1;}
 
     .news-post-content{padding-top: 25px;}
     .news-post-text{flex: 1; padding: 40px;}
