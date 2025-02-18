@@ -11,7 +11,7 @@ ul.bio-links > li{margin-bottom: 20px;}
 ul.bio-links > li:last-child{margin-bottom: 0;}
 ul.bio-links > li:before{display: none;}
 ul.bio-links > li {gap: 0 13px; display: flex;}
-ul.bio-links > li:has(a) a{gap: 0 13px; color: var(--Black);}
+ul.bio-links > li:has(a) a, ul.bio-links > li > span{gap: 0 13px; color: var(--Black);}
 ul.bio-links > li:has(a) a:hover{color: var(--Blue);}
 ul.bio-links > li em{font-size: 20px;  font-weight: 400; color: var(--Blue); width: 20px; text-align: center;}
 
@@ -33,12 +33,12 @@ ul.bio-links > li em{font-size: 20px;  font-weight: 400; color: var(--Blue); wid
 .blue-block-btn .button{width: 100%; gap: 8px; flex: 1; justify-content: center; padding: 13px 10px;}
 .blue-block-btn .button i{font-size: 16px;}
 
-.about-bio-img img{ max-height: 350px; object-position: top center;}
 .about-bio-right-main ul{margin: 0 0 70px 28px;}
 .about-bio-right-main ol > li::before{left: -20px;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
+    .about-bio-img img{ max-height: 350px; object-position: top center;}
     .blue-block-wrap{margin-top: -100px; padding: 40px;}
 }
 @media only screen and (max-width: 1199px) and (min-width: 1024px){
