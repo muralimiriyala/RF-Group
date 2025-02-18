@@ -19,7 +19,7 @@ body .modal-form .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm
 
 .modal-text ul{margin: 0 0 36px 24px;}
 .modal-text ul > li{margin-bottom: 6px;}
-.modal-text ul > li::before { color: var(--Blue); content: "\f058"; font-family: "Font Awesome 6 Pro"; font-size: 16px; left: -24px; width: auto; height: auto; background-color: transparent; top: 50%; transform: translateY(-50%); }
+.modal-text ul > li::before { color: var(--Blue); content: "\f058"; font-family: "Font Awesome 6 Pro"; font-size: 16px; left: -24px; width: auto; height: auto; background-color: transparent; top: 0%; }
 
 .modal-image .repeater-icon{left: -40px;}
 .modal-image:hover .repeater-icon svg.repeater-icon-hover{transform: translateX(20px);}
