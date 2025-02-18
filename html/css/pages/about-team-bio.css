@@ -11,7 +11,7 @@ ul.bio-links > li{margin-bottom: 20px;}
 ul.bio-links > li:last-child{margin-bottom: 0;}
 ul.bio-links > li:before{display: none;}
 ul.bio-links > li {gap: 0 13px; display: flex;}
-ul.bio-links > li:has(a) a{gap: 0 13px; color: var(--Black);}
+ul.bio-links > li:has(a) a, ul.bio-links > li > span{gap: 0 13px; color: var(--Black);}
 ul.bio-links > li:has(a) a:hover{color: var(--Blue);}
 ul.bio-links > li em{font-size: 20px;  font-weight: 400; color: var(--Blue); width: 20px; text-align: center;}
 
