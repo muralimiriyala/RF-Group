@@ -81,7 +81,7 @@ ul.open-mutual-fund-data + hr{margin-bottom: 11px;}
     .open-mutual-fund-row{gap: 16px; margin-bottom: 24px;}
     .open-mutual-fund-list{min-width: 249px;}
     .mutual-fund-slider .slick-list{overflow: inherit;}
-    .mutual-fund-slider .slick-slide{width: 249px; margin-right: 16px;}
+    .mutual-fund-slider .slick-slide{width: 296px; margin-right: 16px;}
     .open-mutual-btn-mob .button{width: 100%;}
     .mutual-fund-appends{padding-bottom: 24px;}
     .open-mutual-funds-main { padding: 40px 0; }
