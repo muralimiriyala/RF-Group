@@ -148,7 +148,7 @@ header.scrolly-header{transform: translateY(-100%);}
     nav.navigation ul.menu > li.nav-item-advice > ul > li > ul > li p{padding-bottom: 7px;}
     nav.navigation ul.menu > li.nav-item-advice > ul > li > ul > li > a:not(.text-link){ gap: 12px; font-size: 1rem; line-height: 1.375rem; font-weight: 700; display: flex; color: var(--Black);}
     nav.navigation ul.menu > li.nav-item-advice > ul > li > ul > li > a:not(.text-link) img{width: 24px;}
-    nav.navigation ul.menu > li.nav-item-advice > ul > li > ul > li > a:not(.text-link):hover{color: var(--Blue);}
+    nav.navigation ul.menu > li.nav-item-advice > ul > li > ul > li.current_page_item > a:not(.text-link), nav.navigation ul.menu > li.nav-item-advice > ul > li > ul > li > a:not(.text-link):hover{color: var(--Blue);}
     /*-- nav-item-advice --*/
     
 
@@ -169,7 +169,7 @@ header.scrolly-header{transform: translateY(-100%);}
     nav.navigation ul.menu > li.nav-item-about > ul > li > ul > li{margin-bottom: 22px; font-size: 16px; line-height: 24px;}
     nav.navigation ul.menu > li.nav-item-about > ul > li > ul > li > a:not(.text-link){gap: 12px; font-size: 1rem; line-height: 1.375rem; font-weight: 700; display: flex; color: var(--Black);}
     nav.navigation ul.menu > li.nav-item-about > ul > li > ul > li > a:not(.text-link) img{width: 24px;}
-    nav.navigation ul.menu > li.nav-item-about > ul > li > ul > li > a:not(.text-link):hover{color: var(--Blue);}
+    nav.navigation ul.menu > li.nav-item-about > ul > li > ul > li.current_page_item > a:not(.text-link), nav.navigation ul.menu > li.nav-item-about > ul > li > ul > li > a:not(.text-link):hover{color: var(--Blue);}
     /*-- nav-item-about --*/
 
     /*-- nav-item-news --*/
