@@ -38,7 +38,7 @@ body.page-template-service-tier-1 .about-intro-main hr{background-color: var(--R
     .about-intro-rt{ margin-bottom: 0; flex: 1; max-width: 800px;} 
     .about-intro-rt:only-child{max-width: 100%;}
     .about-intro-lists{gap: 40px;}
-    .about-intro-list{flex: 1 0 calc(25% -  30px);}
+    .about-intro-list{flex: 0 0 calc(25% -  30px);}
     body.page-template-about .about-intro-section:nth-child(5) .about-intro-main{padding: 120px 0 80px;}
     body.page-template-careers .about-intro-section:nth-child(4) .about-intro-main{padding: 120px 0 80px;}
 }
