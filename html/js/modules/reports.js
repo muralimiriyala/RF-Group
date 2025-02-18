@@ -11,7 +11,6 @@ export const reports = {
     if (!__.$el) return;
 
     document.querySelector('ul.report-links li a').classList.add('current');
-    $(__.$rows[0]).fadeIn(800);
 
     let hash = window.location.hash.substring(1);
     if (hash) {

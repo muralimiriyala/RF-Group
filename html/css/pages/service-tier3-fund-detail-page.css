@@ -44,12 +44,15 @@
 
 .fees-expenses-main{padding: 80px 0 104px; gap: 80px;}
 .fees-expenses-lt{flex: 0 0 350px;}
+.fees-expenses-lt:nth-child(1):last-child{flex: 0 0 100%;}
 .fees-expenses-rt{flex: 0 0 calc(100% - 430px);}
 .fees-expenses-lt h2{margin-bottom: 25px;}
 .fees-expenses-lt hr{background-color: var(--RF-Orange); margin-bottom: 24px;}
 table.fees-expenses-table{ margin: 0; border: none;}
 table.fees-expenses-table tr:nth-child(odd){background-color: var(--Background-Gray);}
 table.fees-expenses-table tr td{padding: 10px 16px 9px; border-bottom: 1px solid var(--Light-Gray); line-height: 150%;}
+table.fees-expenses-table tr:nth-child(-n+3) td:first-child{font-weight: 700; color: var(--Black);}
+
 table.fees-expenses-table tr:nth-child(odd) td{background-color: transparent;}
 table.fees-expenses-table tr td:nth-child(1) strong{color: var(--Black);}
 table.fees-expenses-table tr:first-child td{border-top: 1px solid var(--Light-Gray);}
@@ -102,6 +105,7 @@ table.fees-expenses-table tr:nth-child(n+4) td:first-child{padding-left: 32px;}
     table.fees-expenses-table tr td{font-size: 16px; line-height: 150%;}
     table.fees-expenses-table tr td:first-child{width: 170px; line-height: 100%;}
     table.fees-expenses-table tr:nth-child(n+4) td:nth-child(2){padding-left: 20px;}
+    
 
     .fund-detail-report-main {padding: 40px 0; display: block;}
     .fund-detail-report-article .doc-form-title h2{font-size: 32px;}
