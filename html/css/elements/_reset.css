@@ -141,6 +141,7 @@ hr.w-64{width: 64px;}
 
 
 .button.no-bg{background-color: transparent;}
+.button.no-bg.button.btn-hover-blue:hover em{color: var(--White);}
 
 .button.border-orange{border-color: var(--RF-Orange);}
 .button.border-orange::before{background-color: var(--RF-Orange);}
