@@ -12,7 +12,7 @@ ul.service-tier-order li a{display: block;}
 ul.service-tier-order{margin: 0 0 35px;}
 
 .jumpto-main{gap: 40px;}
-.jumpto-rt{flex: 1;}
+.jumpto-rt{flex: 1; position: relative;}
 .jumpto-lt span{ position: relative; padding: 6px 8px; background-color: var(--White);  font-size: 16px; font-weight: 700; line-height: 100%;}
 .jumpto-lt span:before{content: ''; position: absolute; top: 0; right: -15px; width: 0; height: 0; border-style: solid; border-width: 16px 0 16px 15px; border-color: transparent transparent transparent var(--White);}
 .jumpto-rt{gap: 24px;}
@@ -150,9 +150,9 @@ ul.jumpto-links > li i{ font-size: 20px; width: 20px; line-height: 100%; height:
       .service-tier-banner-lt span.optional-text {margin-bottom: 20px;}
       .service-tier-banner-rt{padding: 0 8px;}
 
-      ul.jumpto-links{display: none; padding: 10px 0; max-height: 300px; width: 100%; top: 100%; left: 0; overflow-y: auto; box-shadow: 0 2px 2px #dfdfdf; background-color: var(--White); position: absolute;}
+      ul.jumpto-links{display: none; padding: 10px 0; max-height: 300px; width: 100%; top: 100%; left: 0; overflow-y: auto; box-shadow: 0 2px 2px #dfdfdf; background-color: var(--White); position: absolute; z-index: 10;}
       ul.jumpto-links > li a { display: block; font-size: 16px; padding: 9px 16px; }
       ul.jumpto-links > li a.active{background-color: var(--Blue); color: var(--White);}
       
-      .jumpto-links{ background-color: var(--White); display: none; left: 0; max-height: 300px; overflow-y: auto; position: absolute; top: 100%; width: 100%; }
+      /* .jumpto-links{ background-color: var(--White); display: none; left: 0; max-height: 300px; overflow-y: auto; position: absolute; top: 100%; width: 100%; } */
 }
