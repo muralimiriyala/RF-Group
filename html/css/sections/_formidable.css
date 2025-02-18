@@ -238,8 +238,6 @@ body.page-template-contact .contact-form-form .frm_forms .frm_form_fields .frm_f
 
 body .with_frm_style input::placeholder, body .with_frm_style textarea::placeholder { font-size: 1rem; }
 
-body .frm_style_formidable-style.with_frm_style .frm_error_style{display: none;}
-
 body .newsletter-form .frm_success_style, body .newsletter-form .with_frm_style .frm_message{text-align: center; font-weight: 700; margin: 0;}
 body .frm_forms .frm_filed_wrapper .frm_form_field.disclaimer-text{font-size: 16px;}
 
@@ -258,7 +256,7 @@ body .have-questions-form .with_frm_style .frm_loading_form button.frm_button_su
 }
 @media only screen and (min-width: 1024px){
     body .contact-form .with_frm_style .vertical_radio .frm_checkbox label, 
-    body .contact-form .with_frm_style .vertical_radio .frm_radio label{font-size: 16px; line-height: 24px;}
+    body .contact-form .with_frm_style .vertical_radio .frm_radio label{font-size: 16px; line-height: 24px; cursor: auto;}
     body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field{margin-bottom: 0; flex: 1;}
     .captcha-btn-wrapper{display: flex; align-items: center; justify-content: end; gap: 30px;}
     body .frm_forms .frm_form_fields .captcha-btn-wrapper .frm_form_field{margin-bottom: 0;}

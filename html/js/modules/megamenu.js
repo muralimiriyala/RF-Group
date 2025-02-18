@@ -21,12 +21,11 @@ export const megamenu = {
               // hide except hover
               currentLi.parentElement.querySelectorAll('li').forEach((ele) => {
                 ele.classList.remove('hover');
-                ele.children[1].style.display = 'none';
+                ele
+                  .querySelectorAll('ul')
+                  .forEach((ul) => (ul.style.display = 'none'));
               });
             }
-            e.target.parentElement.classList.add('hover');
-            jQuery(show).fadeIn(600);
-
             e.target.parentElement.classList.add('hover');
             jQuery(show).fadeIn(600);
           });
