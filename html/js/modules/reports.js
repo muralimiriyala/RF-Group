@@ -13,7 +13,7 @@ export const reports = {
     document.querySelector('ul.report-links li a').classList.add('current');
 
     let hash = window.location.hash.substring(1);
-    if (hash) {
+    if (hash !== '') {
       const activeLinks = __.$el.querySelectorAll('a');
       activeLinks.forEach((activeLink) => {
         if (activeLink.href.endsWith(`#${hash}`)) {

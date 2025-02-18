@@ -28,11 +28,11 @@ div.after-gated-video{position: relative;}
     .social-share-icons #st-1.st-animated, .social-share-icons #st-2.st-animated{flex-direction: column;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 200px){
-    .social-share-icons{padding: 0 40px 40px; border-radius: 0;}
+    .social-share-icons{padding: 0 40px 20px; border-radius: 0;}
     .social-share-icons #st-1.st-animated, .social-share-icons #st-2.st-animated {gap: 20px; flex: inherit; width: fit-content;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    .social-share-icons{padding: 0 24px 40px;}
+    .social-share-icons{padding: 0 24px 20px;}
     .social-share-icons #st-1.st-animated, .social-share-icons #st-2.st-animated{ gap: 12px;}
 }
 @media only screen and (max-width: 389px) and (min-width: 200px){
