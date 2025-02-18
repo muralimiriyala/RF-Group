@@ -10,7 +10,7 @@ ul.category-lists > li > a{gap: 8px; font-size: 16px; line-height: 16px; font-we
 ul.category-lists > li > a:hover{color: var(--Black);}
 ul.category-lists > li > a > i,
 ul.category-lists > li > a > em,
-ul.category-lists > li > a > svg{max-width: 20px;}
+ul.category-lists > li > a > svg{max-width: 20px; min-height: 20px; max-height: 20px;}
 ul.category-lists > li > a:hover > svg path{fill: var(--Black);}
 .news-banner-content{font-size: 16px; line-height: 24px; flex-direction: column; width: 100%; gap: 16px;}
 .news-banner-content h2{font-size: 28px; line-height: 35px; margin-bottom: 0; letter-spacing: -0.56px;  -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; display: -webkit-box; text-overflow: ellipsis;}
