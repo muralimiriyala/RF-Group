@@ -64,6 +64,8 @@ table.fees-expenses-table tr:nth-child(n+4) td:first-child{padding-left: 32px;}
 .asset-performance-graph:not(:first-child){display: none;}
 .ui-row-fund-details:not(:first-child){display: none;}
 
+.fund-detail-report-aside.no-fund-article{width: 100%;}
+
 /* media css starts here */
 @media only screen  and (min-width: 1024px){
     .fund-detail-report-aside{flex: 0 0 350px}
