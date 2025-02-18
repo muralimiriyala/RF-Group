@@ -1,0 +1,6 @@
+
+
+.landing-main{min-height: 1024px;}
+.landing-text{max-width: 800px; align-items: center;}
+.landing-logo{flex: 0 0 60px;}
+.landing-desc{font-size: 22px; color: var(--White); line-height: 33px; letter-spacing: -0.44px; font-family: var(--heading-font); flex: 1; padding-left: 24px; margin-left: 24px; border-left: 2px solid rgba(255, 255, 255, 0.25);}
