@@ -1,0 +1,26 @@
+.global_search_cont{padding: 80px 0 32px;}
+ul.page-content{margin: 0 0 60px; padding: 0;}
+ul.page-content li:not(:last-child){margin-bottom: 40px; padding-bottom: 40px; border-bottom: 1px solid #ebebeb; display: block;}
+ul.page-content li::before{display: none;}
+ul.page-content li p{padding-top: 16px;}
+.search-btn{justify-content: flex-end;}
+.search-btn a{margin-left: auto; justify-content: flex-end;}
+
+.global_search .pagination {margin: 0 0 35px 0; }
+.global_search .wp-pagenavi {border: 0 none; padding: 0; margin: 0; text-align: center;} 
+.wp-pagenavi span.pages {display: none; }
+.wp-pagenavi a, .wp-pagenavi .current {font-size: 14px; display: inline-block; margin: 0 2px 5px; line-height: 26px; text-align: center; vertical-align: top; width: 26px; height: 26px; border: 0 none; padding: 0; color: #ffffff; }
+.wp-pagenavi .current, .wp-pagenavi a:hover {border-radius: 4px; background-color: #2dccd3; color: #ffffff; }
+.wp-pagenavi a:hover, .wp-pagenavi span.current {border: none; }
+.wp-pagenavi span.current{margin-right: 5px; font-weight: normal;}
+.wp-pagenavi span.extend{display: none;}
+.wp-pagenavi a.first{width: auto; padding: 0 5px 2px;}
+.wp-pagenavi a.last{width: auto; padding: 0 5px 2px;}
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .page-header{padding-bottom: 32px;}
+}
+@media only screen and (max-width: 809px) and (min-width: 200px){
+    .global_search_cont{padding: 58px 0 6px;}
+}

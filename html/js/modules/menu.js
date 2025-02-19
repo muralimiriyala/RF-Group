@@ -10,7 +10,7 @@ export const menu = {
   ],
   $gpages: [
     ...document.querySelectorAll(
-      'body.tax-forms_category, body.page-template-resources, body.page-template-calculator-pension, body.page-template-calculator-retirement, body.page-template-calculator-dividend, body.page-template-calculator-margin-interest, body.page-template-calculator-compound-interest, body.page-template-calculator-education, body.tax-reports-category, body.page-template-resource-fees, body.page-template-contact, body.page-template-resource-faq, body.error404'
+      'body.search-results, body.tax-forms_category, body.page-template-resources, body.page-template-calculator-pension, body.page-template-calculator-retirement, body.page-template-calculator-dividend, body.page-template-calculator-margin-interest, body.page-template-calculator-compound-interest, body.page-template-calculator-education, body.tax-reports-category, body.page-template-resource-fees, body.page-template-contact, body.page-template-resource-faq, body.error404'
     ),
   ],
   $navfor: document.querySelectorAll(
