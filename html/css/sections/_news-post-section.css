@@ -53,6 +53,12 @@ ul.blog_list{margin: 0;}
     .news-post-image{flex: 0 0 50%}
 }
 
+@media screen and (min-width: 810px) {
+    ul.filter-links{flex-wrap: nowrap; width: calc(100% + 40px); overflow-x: auto; -ms-overflow-style: none; scrollbar-width: none;}
+    ul.filter-links::-webkit-scrollbar{display: none;}
+    ul.filter-links > li{min-width: fit-content;}
+}
+
 @media screen and (max-width: 1199px) and (min-width: 1024px) {
     .news-post-row[count="1"] > .news-post-item:nth-child(1){flex: 0 0 calc(100% - 390px);}
     .news-post-row[count="1"] > .news-post-item:nth-child(2){flex: 0 0 350px;}
