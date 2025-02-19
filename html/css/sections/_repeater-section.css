@@ -43,6 +43,8 @@ svg.repeater-icon-hover{top: 0; left: 0; opacity: 0;}
     .repeater-list:last-child{margin-bottom: 0;}
     .repeater-desc{  padding: 40px 64px 80px 64px; margin-top: auto; margin-bottom: auto;}
     body.page-template-about .repeater-desc{padding: 30px 64px 30px;}
+    body.page-template-about .repeater-text.no-img .repeater-desc {padding: 80px 0n 0};
+
     .repeater-text p{margin-bottom: 28px;} 
     .repeater-list.row-reverse .repeater-icon{ height: 160px; right: -72px; left: auto; top: 50%; transform: translateY(-50%) rotate(-180deg); width: 120px;}
     
