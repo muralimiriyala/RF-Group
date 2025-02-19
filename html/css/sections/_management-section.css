@@ -1,5 +1,6 @@
 .management-main{padding: 64px 64px 64px;}
 .management-bg{height: calc(100% + 80px);}
+.no_next_section .management-bg{height: 100%;}
 .management-block{color: var(--White); text-align: center; }
 .management-block p{font-size: 18px; font-weight: 700; line-height: 100%; margin-bottom: 32px;}
 .management-block h3{font-size: 40px; font-weight: 600; line-height: 125%; letter-spacing: -0.8px; color: var(--White); margin-bottom: 30px;}
