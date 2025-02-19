@@ -64,7 +64,7 @@ ul.copyrights-menu > li > a:hover{color: var(--Blue);}
 }
 @media only screen and (min-width: 810px){
     ul.footer-lists > li > a{color: var(--White);}
-    ul.footer-lists > li.current-menu-item > a, ul.footer-lists > li > a:hover{color: var(--Blue);}
+    ul.footer-lists > li.open > a, ul.footer-lists > li > a:hover{color: var(--Blue);}
     
 }
 @media screen and (max-width: 1199px) and (min-width: 1024px){
