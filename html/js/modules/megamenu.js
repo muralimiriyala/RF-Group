@@ -27,7 +27,7 @@ export const megamenu = {
               });
             }
             e.target.parentElement.classList.add('hover');
-            jQuery(show).fadeIn(600);
+            jQuery(show).fadeIn(200);
           });
         });
       });

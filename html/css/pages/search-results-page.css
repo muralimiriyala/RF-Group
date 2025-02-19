@@ -7,7 +7,7 @@ ul.page-content li p{padding-top: 16px;}
 .search-btn a{margin-left: auto; justify-content: flex-end;}
 
 .global_search .pagination {margin: 0 0 35px 0; }
-.global_search .wp-pagenavi {border: 0; gap: 1rem; display: flex; align-items: center; justify-content: center; flex-wrap: wrap; padding: 0; margin: 0; text-align: center;} 
+.global_search .wp-pagenavi {border: 0; gap: 1rem; display: flex; align-items: center; justify-content: center; flex-wrap: wrap; padding: 0 0 60px; margin: 0; text-align: center;} 
 .wp-pagenavi span.pages {display: none; }
 .wp-pagenavi a, .wp-pagenavi .current {font-size: 14px; display: inline-block; margin: 0; line-height: 26px; text-align: center; vertical-align: top; width: 26px; height: 26px; border: 0 none; padding: 0; color: var(--Black); background-color: var(--Background-Gray);}
 .wp-pagenavi .current, .wp-pagenavi a:hover {border-radius: 4px; background-color: var(--Blue); color: #ffffff; }
