@@ -1,6 +1,7 @@
 import $ from 'jquery';
 
 export const servicestickyYear = {
+  $header: document.querySelector('header'),
   $ele: document.querySelector('ul.service-history-years'),
   $btn: document.querySelector('.service-history-btn'),
   $list: document.querySelectorAll('.service-year-list'),
@@ -8,16 +9,34 @@ export const servicestickyYear = {
   init() {
     const _ = this;
     if (!_.$ele) return;
-
+    const $height = _.$header.clientHeight + 69;
     const $siblings = [..._.$ele.querySelectorAll('a')];
     $siblings[0].classList.add('active');
     const $year = $siblings[0].getAttribute('href').substring(1);
     _.$btn.querySelector('span').textContent = $year;
 
     _.$ele.addEventListener('click', function (e) {
+      e.preventDefault();
       if (e.target.tagName === 'A') {
         $siblings.forEach((sibling) => sibling.classList.remove('active'));
         e.target.classList.add('active');
+        const id = e.target.getAttribute('href').substring(1);
+        const show = $(
+          document.querySelector(`.service-year-list[id="${id}"]`)
+        );
+        $(show).fadeIn(800);
+        setTimeout(() => {
+          $('html, body').animate(
+            {
+              scrollTop: $(show).offset().top - $height,
+            },
+            1000
+          );
+        });
+        if ($(e.target.parentElement).next().length === 0) {
+          $('.service-year-list').fadeIn(800);
+          $('.load-service-year').hide(0);
+        }
       }
     });
 
