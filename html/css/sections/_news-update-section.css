@@ -118,7 +118,7 @@ body.page-template-news-video .news-update-content h2{font-size: 24px; line-heig
     ul.news-update-links > li > a{flex-direction: row-reverse;}
     ul.news-update-links > li:hover .news-update-link-icon > em:first-child{ opacity: 1; transform: translateX(0); left: auto; right: 0;}
     ul.news-update-links > li:hover .news-update-link-icon > .news-update-fixed-icon{opacity: 0;}
-    ul.news-update-links > li:hover {background-color: rgba(51, 122, 221, .4); border-color: rgba(51, 122, 221, .4);}
+    ul.news-update-links > li:hover {background-color: rgba(51, 122, 221, .4); border-color: rgba(51, 122, 221, .4);} 
 }
 @media screen and (max-width: 809px) and (min-width: 200px) {
     .news-update-main{padding: 40px 0;}
