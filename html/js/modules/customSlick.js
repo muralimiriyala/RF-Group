@@ -112,11 +112,17 @@ export const myslick = {
     _$.$carousel.forEach((ele) => {
       const $ele = $(ele);
       const $firstbg = $ele.children('.carousel-slider-slide').first();
+      const $lastbg = $ele.children('.carousel-slider-slide').last();
       const $firstcolor = $(ele)
         .children('.carousel-slider-slide')
         .first()
         .attr('data-color');
+      const $lastcolor = $(ele)
+        .children('.carousel-slider-slide')
+        .last()
+        .attr('data-color');
       $firstbg.css({ backgroundColor: $firstcolor });
+      $lastbg.css({ backgroundColor: $lastcolor });
       const $append = $ele.parent().children('.carousel-slider-appends');
       if (!$ele.hasClass('slick-initialized')) {
         $ele.slick({
@@ -134,7 +140,7 @@ export const myslick = {
           dotsClass: 'slick-dots carousel-slick-dots flex',
         });
         $ele.on(
-          'beforeChange',
+          'beforeChange setPosition swipe',
           function (event, slick, currentSlide, nextSlide) {
             const slideElement = $(slick.$slides.eq(nextSlide));
             const $color = slideElement
