@@ -13,6 +13,7 @@ export const jumpto = {
       });
     });
     const jumptoulMobile = () => {
+      if (!_.$jumptoul) return;
       _.$jumptoul.addEventListener('click', (e) => {
         e.preventDefault();
         if (e.target.tagName === 'A') {
