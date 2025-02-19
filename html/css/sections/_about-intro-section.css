@@ -13,7 +13,7 @@ body.page-template-service-tier-1 .about-intro-main hr{background-color: var(--R
 .about-left-intro{flex: 1;}
 .about-left-intro .h2{margin-bottom: 0;}
 .about-right-intro:nth-child(1):last-child{flex: 1; text-align: right;}
-.about-right-intro{flex: 0 0 148px;}
+.about-right-intro{width: fit-content;}
 
 .about-intro-lists{padding: 40px 0 0 ;}
 .counter-main{font-size: 72px; line-height: 100%; text-transform: uppercase; font-weight: 700; color: var(--Black); margin-bottom: 18px; display: block; }
