@@ -194,7 +194,7 @@ header.scrolly-header{transform: translateY(-100%);}
 
     /*-- nav-item-contact --*/
     nav.navigation ul.menu > li.nav-item-contact > ul{padding: 40px 47px 29px; min-width: 291px; left: 50%; transform: translateX(-50%); border: 1px solid var(--Blue); border-top-color: transparent;}
-    nav.navigation ul.menu > li.nav-item-contact > ul::before{width: calc(100% - 16px); height: calc(100% - 8px); top: 0; left: 8px; content: ""; display: block; position: absolute; background-color: var(--White);}
+    nav.navigation ul.menu > li.nav-item-contact > ul::before{width: calc(100% - 16px); height: calc(100% - 8px); top: 0; left: 8px; content: ""; display: block; position: absolute; background-color: var(--White); box-shadow: 0 12px 32px 0 var(--Black-15);}
     nav.navigation ul.menu > li.nav-item-contact > ul > li{margin: 0 0 16px;}
     nav.navigation ul.menu > li.nav-item-contact > ul > li > a{gap: 10px; display: flex; flex-wrap: wrap; font-size: 1rem; line-height: 150%; font-weight: 700; color: var(--Black);}
     nav.navigation ul.menu > li.nav-item-contact > ul > li > a:hover{color: var(--Blue);}
