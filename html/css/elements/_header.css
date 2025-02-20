@@ -349,6 +349,7 @@ header.scrolly-header{transform: translateY(-100%);}
     nav.navigation ul.menu > li > ul > li > a > em{left: 0; transition: var(--b-transition); position: relative; font-family: "Font Awesome 6 Pro";}
     nav.navigation ul.menu > li > ul > li > a > em::before{content: "\f178";}
     nav.navigation ul.menu > li > ul > li > a:hover > em{left: 8px;}
+    nav.navigation ul.menu > li > ul > li > a img{display: none;}
 
     nav.navigation ul.menu > li.nav-item-for > ul > li > ul{display: none !important;}
     /*-- nav-item-for --*/
