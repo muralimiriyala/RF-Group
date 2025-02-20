@@ -30,6 +30,7 @@
 
 @media only screen and (min-width: 1024px){
     .open-positions-left{width: 373px;}
+    .open-positions-top{margin-bottom: 50px;}
     .open-positions-right{width: calc(100% - 453px);}
     .open-positions-left:nth-child(1):nth-last-child(2), .open-positions-right:nth-child(1):nth-last-child(2){width: 100%;}
 }
