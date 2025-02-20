@@ -13,6 +13,7 @@
 .landing-flag-item:last-child::before{display: none;}
 .landing-flag-item img{max-width: 147px;}
 .landing-flag-item span{display: block; font-size: 14px; line-height: 17.5px; letter-spacing: 0.7px; text-transform: uppercase; color: var(--White); text-align: center; margin-top: 12px;}
+.landing-flag-item a:hover span{color: var(--Blue);}
 
 
 
