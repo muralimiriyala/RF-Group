@@ -43,7 +43,7 @@ ul.news-update-links > li > a{gap: 16px; background: var(--White); padding: 16px
 .news-update-fixed-icon{width: 24px; height: 24px; }
 .news-update-fixed-icon > em{color: var(--Blue);}
 .news-update-fixed-icon svg{width: 24px; height: 24px; }
-.news-update-fixed-icon img{width: 24px; object-fit: contain; top: -5px; position: relative;}
+.news-update-fixed-icon img{width: 24px; object-fit: contain;}
 
 .news-update-section .subscribe-wrap{padding: 0;}
 

@@ -15,7 +15,9 @@
 
 .news-update-video-article .news-post-banner-row + p{margin-bottom: 38px;}
 
-.news-update-video-article .news-post-banner-list:not(:first-child)::after { background-color: var(--Black); width: 1px;}
+/* black line */
+.news-update-video-article .news-post-banner-list{font-weight: 700;}
+.news-update-video-article .news-post-banner-list::after { background-color: var(--Black); width: 1px; opacity: 1;}
 
 
 
