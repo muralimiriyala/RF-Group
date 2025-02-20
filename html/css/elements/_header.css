@@ -45,8 +45,13 @@ header.scrolly-header{transform: translateY(-100%);}
     body.page-template-calculator-margin-interest header.gray-header::before{background-color: var(--White);} 
 
 
-
-    .site-main-cover.site-gray{padding-top: 104px;}
+    body.page-template-resource-fees .site-main-cover,
+    body.tax-reports-category .site-main-cover,
+    body.tax-forms_category .site-main-cover,
+    body.error404 .site-main-cover,
+    body.page-template-resource-faq .site-main-cover,
+    body.page-template-contact .site-main-cover,
+    body.search .site-main-cover, .site-main-cover.site-gray{padding-top: 104px;}
 
     .site-main-cover.site-white{padding-top: 56px;}
     header.white-header::before{background-color: var(--White);}
@@ -319,7 +324,7 @@ header.scrolly-header{transform: translateY(-100%);}
     nav.navigation ul.menu > li > ul{ margin: 0; padding: 0; display: none;}
     nav.navigation ul.menu > li > ul > li{margin: 0;}
     nav.navigation ul.menu > li > ul > li > a{padding: 6px 20px 9px; color: var(--White); font-size: 1rem; font-weight: 800; line-height: 1.5rem; display: block; position: relative;}
-    nav.navigation ul.menu > li > ul > li.current_page_item > a{color: var(--Blue);}
+    nav.navigation ul.menu > li > ul > li.current_page_item > a, nav.navigation ul.menu > li > ul > li.current-menu-item > a{color: var(--Blue);}
 
     nav.navigation ul.menu > li > ul > li > a.hide-nav-item{display: none;}
 
