@@ -5,6 +5,7 @@ export const servicestickyYear = {
   $ele: document.querySelector('ul.service-history-years'),
   $btn: document.querySelector('.service-history-btn'),
   $list: document.querySelectorAll('.service-year-list'),
+  $jump: document.querySelector('.jumpto-rt ul.jumpto-links'),
   mobileInitialized: false,
   init() {
     const _ = this;
@@ -44,6 +45,13 @@ export const servicestickyYear = {
       e.preventDefault();
       _.$btn.classList.toggle('open');
       $(_.$ele).slideToggle(700);
+    });
+
+    _.$jump.addEventListener('click', (e) => {
+      e.preventDefault();
+      if (e.target.tagName === 'A') {
+        e.target.classList.add('open');
+      }
     });
 
     const mobileToggle = function () {
