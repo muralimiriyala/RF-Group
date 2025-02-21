@@ -10,6 +10,9 @@
 .news-update-video-banner-btn{gap: 16px;} 
 .news-update-video-banner-text.no_about_banner_img{max-width: 100%;}
 
+.news-update-video-banner-pos .play-btn-bg > span.circle::after{ background: none; content: "\f04c"; position: absolute; font-family: "Font Awesome 6 Pro"; font-size: 20px; color: var(--White); height: auto;}
+.news-update-video-banner-pos .play-btn-main:hover span.circle::after { height: auto; width: auto; font-size: 23px; }
+
 .news-update-video-banner video{width: 100%; height: 100%; top: 0; left: 0; display: block; min-height: 468px;}
 .before-gated-video{opacity: 0; visibility: hidden;}
 
