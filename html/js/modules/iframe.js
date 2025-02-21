@@ -9,6 +9,7 @@ export const iframe = {
       const $iframe = jQuery(iframe);
       $iframe.youtube_background({
         lazyloading: false,
+        'play-button': true,
       });
     });
   },

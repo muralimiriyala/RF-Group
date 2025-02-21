@@ -16,7 +16,8 @@ export const servicestickyYear = {
     const $year = $siblings[0].getAttribute('href').substring(1);
     _.$btn.querySelector('span').textContent = $year;
 
-    _.$ele.addEventListener('click', function (e) {
+    // new func
+    const newfunc = (e) => {
       e.preventDefault();
       if (e.target.tagName === 'A') {
         $siblings.forEach((sibling) => sibling.classList.remove('active'));
@@ -39,19 +40,46 @@ export const servicestickyYear = {
           $('.load-service-year').hide(0);
         }
       }
-    });
+    };
+    // new func
+    _.$ele.addEventListener('click', newfunc);
+    // top func
+    const topfunc = (e) => {
+      e.preventDefault();
+      if (e.target.tagName === 'A') {
+        _.$jump.querySelectorAll('a').forEach((ele) => {
+          ele.classList.remove('active');
+        });
+        e.target.classList.add('active');
+        const id = e.target.getAttribute('href').substring(1);
+        $siblings.forEach((sibling) => {
+          sibling.classList.remove('active');
+        });
+        const elements = $(`ul.service-history-years a[href="#${id}"]`);
+        elements.addClass('active');
+        console.log(id, elements, 'gssssssssssss');
+
+        const show = $(
+          document.querySelector(`.service-year-list[id="${id}"]`)
+        );
+        $(show).fadeIn(800);
+        setTimeout(() => {
+          $('html, body').animate(
+            {
+              scrollTop: $(show).offset().top - $height,
+            },
+            1000
+          );
+        });
+      }
+    };
+    _.$jump.addEventListener('click', topfunc);
+    // top func
 
     _.$btn.addEventListener('click', function (e) {
       e.preventDefault();
       _.$btn.classList.toggle('open');
       $(_.$ele).slideToggle(700);
-    });
-
-    _.$jump.addEventListener('click', (e) => {
-      e.preventDefault();
-      if (e.target.tagName === 'A') {
-        e.target.classList.add('open');
-      }
     });
 
     const mobileToggle = function () {
