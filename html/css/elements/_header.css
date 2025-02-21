@@ -325,7 +325,7 @@ header.scrolly-header{transform: translateY(-100%);}
 
 
     nav.navigation ul.menu > li.menu-item-has-children > ul > li > a::after{font-family: Font Awesome\ 6 Pro; left: 0; position: relative; transition: var(--b-transition); content: "\f178"; color: var(--Blue); font-size: 20px; font-weight: 400; }
-    nav.navigation ul.menu > li.menu-item-has-children > ul > li > a:hover::after{left: 8px;}
+    /* nav.navigation ul.menu > li.menu-item-has-children > ul > li > a:hover::after{left: 8px;} */
 
     nav.navigation ul.menu > li > ul{ margin: 0; padding: 0; display: none;}
     nav.navigation ul.menu > li > ul > li{margin: 0;}
