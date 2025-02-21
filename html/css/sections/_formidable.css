@@ -250,7 +250,7 @@ body .have-questions-form .with_frm_style .frm_loading_form button.frm_button_su
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 560px){
-    body .frm_forms .frm_form_fields .frm_form_field.frm_half {width: calc(50% - 5px);}
+    body .frm_forms .frm_form_fields .frm_form_field.frm_half {width: calc(50% - 19px); }
     body .have-questions-form .frm_forms .frm_form_fields .frm_form_field.frm_half {width: calc(50% - 11px);}
     body .frm_forms .frm_filed_wrapper{gap: 8px;}
 }
@@ -333,6 +333,9 @@ body .have-questions-form .with_frm_style .frm_loading_form button.frm_button_su
     body .maxassist-demo-rt .frm_forms .frm_form_fields .form_field_wrapper .form-field:not(:last-child){flex: 1;}
     body .maxassist-demo-rt .frm_forms .frm_form_fields .form_field_wrapper .form-field{width: fit-content;}
 }
+@media only screen and (max-width: 809px) and (min-width: 560px){
+    body .modal-form .frm_forms .frm_form_fields .frm_form_field.frm_half{ width: calc(50% - 5px); }
+}
 @media only screen and (max-width: 809px) and (min-width: 200px){
     .frm_form_field_wrapper{display: block;}
     body .frm_forms .frm_form_fields .frm_form_field_wrapper .frm_form_field.vertical_radio{margin-bottom: 26px; flex: 1;}
@@ -385,6 +388,7 @@ body .have-questions-form .with_frm_style .frm_loading_form button.frm_button_su
     body .contact-form .frm_forms .frm_form_fields .vertical_radio .frm_checkbox label{padding-top: 10px; text-align: center;}
     body .have-questions-form .frm_forms .frm_filed_wrapper label{font-size: 14px; line-height: 21px;}
 }
+
 @media screen and (max-width: 559px) and (min-width: 200px){
     body .frm_forms .frm_form_fields .frm_fields_container{gap: 22px; flex-direction: column;}
     body .frm_forms .frm_form_fields .frm_form_field{width: 100%;}
