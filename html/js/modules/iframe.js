@@ -17,6 +17,7 @@ export const iframe = {
       const $iframe = jQuery(iframe);
       $iframe.youtube_background({
         lazyloading: false,
+        loop: false,
         // autoplay: false,
         'play-button': true,
       });

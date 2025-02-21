@@ -1,5 +1,6 @@
 
-.landing-section{display: flex; justify-content: center; align-items: center; width: 100%; height: 100vh; position: relative;}
+.landing-section{display: flex; justify-content: center; align-items: center; width: 100%; height: 100vh; top: 0; left: 0; position: fixed; z-index: 280000;}
+.landing-section.hide-popup{display: none;}
 .landing-overlay{opacity: .75; z-index: 1;}
 .landing-watermark{top: 50%; left: 50%; transform: translate(-50%, -50%); width: 776px; z-index: -1;}
 .landing-main{min-height: 1024px;}
@@ -14,7 +15,7 @@
 .landing-flag-item img{max-width: 147px;}
 .landing-flag-item span{display: block; font-size: 14px; line-height: 17.5px; letter-spacing: 0.7px; text-transform: uppercase; color: var(--White); text-align: center; margin-top: 12px;}
 .landing-flag-item a:hover span{color: var(--Blue);}
-
+.hide-scroll{overflow: hidden;}
 
 
 @media screen and (max-width: 1023px) and (min-width: 200px){
