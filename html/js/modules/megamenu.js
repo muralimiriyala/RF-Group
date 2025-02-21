@@ -11,6 +11,19 @@ export const megamenu = {
     const desktopmenu = () => {
       __.$navfor.forEach((ulele) => {
         ulele.children[0].classList.add('hover');
+
+        ulele.querySelectorAll('li').forEach((eleHasClass) => {
+          if (eleHasClass.classList.contains('current_page_item')) {
+            eleHasClass.parentElement.querySelectorAll('li').forEach((ele) => {
+              ele
+                .querySelectorAll('ul')
+                .forEach((ul) => (ul.style.display = 'none'));
+              ele.classList.remove('hover');
+            });
+            eleHasClass.classList.add('hover');
+            $(eleHasClass.querySelector('ul')).fadeIn(200);
+          }
+        });
         //mouse enter
         ulele.querySelectorAll('a').forEach((ele) => {
           ele.addEventListener('mouseenter', function (e) {
