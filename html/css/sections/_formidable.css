@@ -250,7 +250,7 @@ body .have-questions-form .with_frm_style .frm_loading_form button.frm_button_su
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 560px){
-    body .frm_forms .frm_form_fields .frm_form_field.frm_half {width: calc(50% - 19px);}
+    body .frm_forms .frm_form_fields .frm_form_field.frm_half {width: calc(50% - 5px);}
     body .have-questions-form .frm_forms .frm_form_fields .frm_form_field.frm_half {width: calc(50% - 11px);}
     body .frm_forms .frm_filed_wrapper{gap: 8px;}
 }
