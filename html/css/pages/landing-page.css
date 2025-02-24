@@ -1,11 +1,6 @@
 
-<<<<<<< HEAD
-.landing-section{display: flex; justify-content: center; align-items: center; width: 100%; height: 100vh; top: 0; left: 0; position: fixed; z-index: 280000;}
-.landing-section.hide-popup{display: none;}
-=======
 .landing-section{display: flex; justify-content: center; align-items: center; width: 100%; height: 100vh; position: fixed; top: 0; left: 0; z-index: 2000; opacity: 1; visibility: visible; transition: var(--b-transition);}
 .landing-section.hide-popup{opacity: 0; visibility: hidden;}
->>>>>>> d69ad824cb57118a11aa9b142b49da138e3aad1e
 .landing-overlay{opacity: .75; z-index: 1;}
 .landing-watermark{top: 50%; left: 50%; transform: translate(-50%, -50%); width: 776px; z-index: -1;}
 .landing-main{min-height: 1024px;}

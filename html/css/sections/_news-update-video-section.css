@@ -10,16 +10,13 @@
 .news-update-video-banner-btn{gap: 16px;} 
 .news-update-video-banner-text.no_about_banner_img{max-width: 100%;}
 
-.video-background-controls {top: calc(50% - 21px)!important; left: calc(50% - 23px)!important; right: auto !important; }
+.video-background-controls {top: calc(50% - 41px)!important; left: calc(50% - 23px)!important; right: auto !important; }
 .video-background-controls button.play-toggle{border-radius: 50%; width: 80px; height: 80px; background: transparent;}
 .video-background-controls button.play-toggle i{font-size: 24px;}
-<<<<<<< HEAD
 .video-background-controls button.play-toggle i::before{content: '\f04c';}
 .video-background-controls button.play-toggle.paused i::before{content: '\f04b';}
 .video-background-controls button.play-toggle::before{backdrop-filter: blur(4px); background: rgba(37,40,42,.25); width: 100%; height: 100%;}
-=======
 .video-background-controls button.play-toggle::before{backdrop-filter: blur(4px); background: rgba(37,40,42,.25); width: 80px; height: 80px;}
->>>>>>> d69ad824cb57118a11aa9b142b49da138e3aad1e
 .video-background-controls button.play-toggle::after{content: " "; position: absolute; transition: all .5s ease; border-radius: 50%; backdrop-filter: blur(4px); background: var(--Blue); height: 60px; left: 50%; top: 50%; transform: translate(-50%,-50%); width: 60px; z-index: -1;}
 .video-background-controls button.play-toggle:hover { transform: scale(1.1); background: rgba(39,114,219,.25);}
 .video-background-controls button.play-toggle:hover::after { background: var(--Blue);}
