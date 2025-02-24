@@ -59,7 +59,11 @@ header.scrolly-header{transform: translateY(-100%);}
     body.page-template-contact .site-main-cover,
     body.search .site-main-cover, .site-main-cover.site-gray{padding-top: 104px;}
 
+    body.page-template-team .site-main-cover,
+    body.page-template-about-history .site-main-cover,
+    body.page-template-service-tier-3-fund-detail .site-main-cover,
     .site-main-cover.site-white{padding-top: 56px;}
+
     header.white-header::before{background-color: var(--White);}
     header.white-header .white-logo{display: none;}
 

@@ -2,7 +2,8 @@
 .asset-performance-lt{flex: 0 0 350px;}
 .asset-performance-rt{flex: 1; padding: 40px; border: 2px solid var(--Background-Gray);}
 .asset-performance-head h2{margin-bottom: 35px;}
-.asset-performance-icon{width: 23px; height: 20px;}
+.asset-performance-icon{width: 23px; height: 20px; vertical-align: top; display: inline-block;}
+.asset-performance-icon img{top: -1px; position: relative; vertical-align: top; display: inline-block;}
 .asset-performance-lists{gap: 16px}
 .asset-performance-list:hover { background-color: var(--Blue-80); }
 .asset-performance-list.current { background-color: var(--RF-Orange-10); }
@@ -97,7 +98,7 @@ table.fees-expenses-table tr:nth-child(n+4) td:first-child{padding-left: 32px;}
 
     .fees-expenses-main { padding: 40px 0 74px; display: block;}
     .fees-expenses-lt{margin-bottom: 40px;}
-
+    .asset-performance-rt{display: block;}
 }
 
 @media only screen and (max-width: 809px) and (min-width: 200px){
@@ -137,4 +138,5 @@ table.fees-expenses-table tr:nth-child(n+4) td:first-child{padding-left: 32px;}
     .asset-performance-btn-left svg path{fill: var(--RF-Orange);}
 
     .fees-expenses-lt p{font-size: 14px;}
+    .asset-performance-rt{display: block;}
 }
