@@ -3,7 +3,7 @@
 .news-update-video-banner-pos{width: 100%; height: 100%;}
 .news-update-video-banner-text{color: var(--White); flex: 1;}
 .news-update-video-banner-form{flex: 1; margin-top: -3px;}
-.news-update-video-banner-form .frm-show-form .frm_error_style{display: none;}
+.news-update-video-banner-form .frm-show-form .frm_error_style{display: none; }
 .news-update-video-banner-text h1{color: var(--White); font-size: 40px; margin-bottom: 22px; letter-spacing: -0.8px;}
 .news-update-video-banner-text hr[data-animate]{margin-bottom: 20px;}
 .news-update-video-banner-text p{margin-bottom: 0px; font-weight: 300;}
