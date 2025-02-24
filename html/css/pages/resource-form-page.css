@@ -39,6 +39,11 @@ ul.doc-form-q li a:hover{color: var(--Blue);}
 
 .no-results-message { font-size: 32px; letter-spacing: -.64px; margin-bottom: 18px; color: var(--Black); font-weight: 600; line-height: 125%; font-family: var(--heading-font); }
 
+ul.ui-categorys{justify-content: flex-start; flex-wrap: nowrap; overflow-x: auto; -ms-overflow-style: none; scrollbar-width: none;}
+ul.ui-categorys::-webkit-scrollbar{display: none;}
+ul.ui-categorys li{width: fit-content;}
+ul.ui-categorys li a{white-space: nowrap;}
+
 /* media css starts here */
 @media only screen  and (min-width: 810px){
     .doc-form-rows{gap: 61px; padding-top: 21px;}
@@ -49,25 +54,25 @@ ul.doc-form-q li a:hover{color: var(--Blue);}
 }
 @media only screen  and (min-width: 1024px){
     .doc-form-main{padding: 80px 0 80px; gap: 80px;}
-    .doc-form-aside{flex: 0 0 350px;}
-    .doc-form-article{flex: 1;}
+    .doc-form-aside{width: 350px;}
+    .doc-form-article{width: calc(100% - 430px);}
     .doc-form-text h1{font-size: 48px; margin-bottom: 27px;}
     .page-template-service-tier-3-fund-detail .doc-form-desc h2{margin-bottom: 25px;}
 }
 @media screen and (max-width: 1259px) and (min-width: 1024px){
     .doc-form-main{gap: 60px;}
-    .doc-form-aside{flex: 0 0 300px;}
+    .doc-form-aside{width: 300px;}
+    .doc-form-article{width: calc(100% - 360px);}
+
     .doc-form-rows{padding-top: 0;}
     .doc-form-lists{flex-direction: column;}
     .doc-form-head{flex-direction: column; gap: 24px; padding-bottom: 36px; align-items: flex-start;}
-    ul.ui-categorys.flex-content-end{justify-content: flex-start;}
 }
 @media screen and (max-width: 1023px) and (min-width: 810px){
     .doc-form-main{padding: 60px 0 60px; gap: 60px; flex-direction: column;}
     .doc-form-find{padding-top: 30px;}
     .doc-form-lists{flex-direction: column;}
     .doc-form-head{flex-direction: column; gap: 24px; padding-bottom: 36px; align-items: flex-start;}
-    ul.ui-categorys.flex-content-end{justify-content: flex-start;}
     .doc-form-rows{gap: 40px;}
 }
 @media screen and (max-width: 809px) and (min-width: 200px){
@@ -88,9 +93,7 @@ ul.doc-form-q li a:hover{color: var(--Blue);}
     .doc-form-report{flex: 1;}
 
 
-    ul.ui-categorys.flex-content-end{justify-content: flex-start;}
-    ul.ui-categorys{flex-wrap: nowrap; overflow-x: auto; padding-right: 24px; width: calc(100% + 24px); -ms-overflow-style: none; scrollbar-width: none;}
-    ul.ui-categorys::-webkit-scrollbar{display: none;}
+    ul.ui-categorys{padding-right: 24px; width: calc(100% + 24px);}
     ul.ui-categorys li {width: fit-content; white-space: nowrap;}
     ul.ui-categorys li a{font-size: 16px; padding: 12px 16px;}
     .doc-form-formrt span.fs-18{font-size: 16px; margin-bottom: 1px;}

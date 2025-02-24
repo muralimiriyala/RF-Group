@@ -10,12 +10,14 @@
 .news-update-video-article ul{margin: 0 0 26px 28px;}
 .news-update-video-article ul > li{position: relative; margin-bottom: 16px;}
 .news-update-video-article ul > li:before{display: none;}
-.news-update-video-article ul > li::after { content: "\f058"; font-family: "Font Awesome\ 6 Pro"; font-size: 20px; position: absolute; color: var(--Blue); left: -28px; display: block; top: 50%; transform: translateY(-50%);}
+.news-update-video-article ul > li::after { content: "\f058"; font-family: "Font Awesome\ 6 Pro"; font-size: 20px; position: absolute; color: var(--Blue); left: -28px; display: block; top: 1px;}
 .news-update-video-article ul > li:last-child{margin-bottom: 0;}
 
 .news-update-video-article .news-post-banner-row + p{margin-bottom: 38px;}
 
-.news-update-video-article .news-post-banner-list:not(:first-child)::after { background-color: var(--Black); width: 1px;}
+/* black line */
+.news-update-video-article .news-post-banner-list{font-weight: 700;}
+.news-update-video-article .news-post-banner-list::after { background-color: var(--Black); width: 1px; opacity: 1;}
 
 
 

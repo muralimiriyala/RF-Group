@@ -1,7 +1,7 @@
 .scrl-explainer-inner{padding: 28px; border: 4px solid var(--White);}
 .scrl-explainer{padding: 8px; border: 1px solid var(--Blue);}
 .scrl-explainer-btns{margin-top: 32px; padding: 8px; border: 1px solid var(--Blue); }
-.scrl-explainer-btns .button{width: 100%; gap: 8px; justify-content: space-between;}
+.scrl-explainer-btns .button{width: 100%; gap: 8px; justify-content: center;}
 .scrl-explainer-card:nth-child(1):last-child{flex: 0 0 100%;}
 .scrl-explainer-desc h2{margin-bottom: 9px;}
 .scrl-explainer-desc p{margin-bottom: 8px;}
@@ -20,7 +20,7 @@
 
     .page-template-campaign .scrl-explainer-main {padding: 80px 0 80px;}
     .page-template-service-tier-1 .scrl-explainer-section.repeater-top{margin: 80px 0 0 ;}
-
+    .scrl-explainer-btns .button{justify-content: space-between;}
 }
 @media only screen and (min-width: 860px){
     .scrl-explainer-inner hr[data-animate]{margin-bottom: 20px;}
@@ -49,7 +49,7 @@
     .scrl-explainer-icon svg{max-width: 48px;}
     .scrl-explainer-line{width: 100%; height: 2px; top: 0; left: 0; display: block;}
 
-    .page-template-service-tier-1 .scrl-explainer-btns .button {justify-content: center; font-size: 16px;}
+    .page-template-service-tier-1 .scrl-explainer-btns .button { font-size: 16px;}
 }
 @media only screen and (max-width: 389px) and (min-width: 200px){
     .scrl-explainer-inner{padding: 24px;}

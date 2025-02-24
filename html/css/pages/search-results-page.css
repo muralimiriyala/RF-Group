@@ -9,7 +9,7 @@ ul.page-content li p{padding-top: 16px;}
 .global_search .pagination {margin: 0 0 35px 0; }
 .global_search .wp-pagenavi {border: 0; gap: 1rem; display: flex; align-items: center; justify-content: center; flex-wrap: wrap; padding: 0 0 60px; margin: 0; text-align: center;} 
 .wp-pagenavi span.pages {display: none; }
-.wp-pagenavi a, .wp-pagenavi .current {font-size: 14px; display: inline-block; margin: 0; line-height: 26px; text-align: center; vertical-align: top; width: 26px; height: 26px; border: 0 none; padding: 0; color: var(--Black); background-color: var(--Background-Gray);}
+.wp-pagenavi a, .wp-pagenavi .current {font-size: 14px; display: flex; align-items: center; justify-content: center; margin: 0; line-height: 26px; text-align: center; vertical-align: top; width: 26px; height: 26px; border: 0 none; padding: 0; color: var(--Black); background-color: var(--Background-Gray);}
 .wp-pagenavi .current, .wp-pagenavi a:hover {border-radius: 4px; background-color: var(--Blue); color: #ffffff; }
 .wp-pagenavi a:hover, .wp-pagenavi span.current {border: none; }
 .wp-pagenavi span.current{font-weight: normal;}
@@ -21,6 +21,11 @@ ul.page-content li p{padding-top: 16px;}
 @media only screen and (min-width: 1024px){
     .page-header{padding-bottom: 32px;}
 }
+@media only screen and (max-width: 1023px) and (min-width: 810px){
+    body.search-no-results .global_search_cont{padding: 80px 0;}
+}
 @media only screen and (max-width: 809px) and (min-width: 200px){
     .global_search_cont{padding: 58px 0 6px;}
+    body.search-no-results .global_search_cont{padding: 50px 0;}
+
 }

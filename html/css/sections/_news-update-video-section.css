@@ -3,12 +3,24 @@
 .news-update-video-banner-pos{width: 100%; height: 100%;}
 .news-update-video-banner-text{color: var(--White); flex: 1;}
 .news-update-video-banner-form{flex: 1; margin-top: -3px;}
+.news-update-video-banner-form .frm-show-form .frm_error_style{display: none;}
 .news-update-video-banner-text h1{color: var(--White); font-size: 40px; margin-bottom: 22px; letter-spacing: -0.8px;}
 .news-update-video-banner-text hr[data-animate]{margin-bottom: 20px;}
 .news-update-video-banner-text p{margin-bottom: 0px; font-weight: 300;}
 .news-update-video-banner-text span.optional-text{margin-bottom: 17px;}
 .news-update-video-banner-btn{gap: 16px;} 
 .news-update-video-banner-text.no_about_banner_img{max-width: 100%;}
+
+.video-background-controls {top: calc(50% - 41px)!important; left: calc(50% - 23px)!important; right: auto !important; }
+.video-background-controls button.play-toggle{border-radius: 50%; width: 80px; height: 80px; background: transparent;}
+.video-background-controls button.play-toggle i{font-size: 24px;}
+.video-background-controls button.play-toggle i::before{content: '\f04c';}
+.video-background-controls button.play-toggle.paused i::before{content: '\f04b';}
+.video-background-controls button.play-toggle::before{backdrop-filter: blur(4px); background: rgba(37,40,42,.25); width: 100%; height: 100%;}
+.video-background-controls button.play-toggle::before{backdrop-filter: blur(4px); background: rgba(37,40,42,.25); width: 80px; height: 80px;}
+.video-background-controls button.play-toggle::after{content: " "; position: absolute; transition: all .5s ease; border-radius: 50%; backdrop-filter: blur(4px); background: var(--Blue); height: 60px; left: 50%; top: 50%; transform: translate(-50%,-50%); width: 60px; z-index: -1;}
+.video-background-controls button.play-toggle:hover { transform: scale(1.1); background: rgba(39,114,219,.25);}
+.video-background-controls button.play-toggle:hover::after { background: var(--Blue);}
 
 .news-update-video-banner video{width: 100%; height: 100%; top: 0; left: 0; display: block; min-height: 468px;}
 .before-gated-video{opacity: 0; visibility: hidden;}
