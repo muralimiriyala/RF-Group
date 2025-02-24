@@ -2,7 +2,7 @@ import $ from 'jquery';
 
 export const reports = {
   $header: document.querySelector('header'),
-  $el: document.querySelector('ul.report-links'),
+  $el: document.querySelector('ul.dist-js-links'),
   $rows: document.querySelectorAll('.doc-repo-ids'),
   $anims: document.querySelectorAll('[data-animate]'),
 
@@ -10,7 +10,7 @@ export const reports = {
     const __ = this;
     if (!__.$el) return;
 
-    document.querySelector('ul.report-links li a').classList.add('current');
+    document.querySelector('ul.dist-js-links li a').classList.add('current');
 
     let hash = window.location.hash.substring(1);
     if (hash !== '') {
