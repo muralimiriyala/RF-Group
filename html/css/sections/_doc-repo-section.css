@@ -45,7 +45,7 @@ ul.doc-repo-q li{margin: 0;}
 ul.doc-repo-q li a{color: var(--Text-Gray);}
 ul.doc-repo-q li a:hover{color: var(--Blue);}
 
-.doc-repo-ids:not(:first-child){display: none;}
+.doc-repo-article .doc-repo-ids:not(:first-child){display: none;}
 
 
 /* media css starts here */
