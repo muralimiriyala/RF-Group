@@ -393,8 +393,6 @@ body .have-questions-form .with_frm_style .frm_loading_form button.frm_button_su
     body .frm_forms .frm_form_fields .frm_fields_container{gap: 22px; flex-direction: column;}
     body .frm_forms .frm_form_fields .frm_form_field{width: 100%;}
     body .frm_forms .frm_form_fields .frm_form_field textarea{height: 162px;}
-    body .have-questions-form .frm_forms .frm_filed_wrapper label,  body .have-questions-form .frm_forms .frm_filed_wrapper .label-text{ margin-bottom: 20px; }
-
 }
 @media screen and (max-width: 389px) and (min-width: 200px){
     body .frm_forms .frm_form_fields .frm_form_field.vertical_checkbox .frm_opt_container, body .frm_forms .frm_form_fields .vertical_radio .frm_opt_container{flex-direction: column; margin-bottom: 8px;}

@@ -44,6 +44,7 @@ ul.have-questions-links li a.black:hover{color: var(--Black-50);}
     .page-template-campaign .have-questions-text h2 { font-size: 36px;}
     .page-template-campaign  .have-questions-main { padding: 24px; }
 
+    .have-questions-form .frm_forms .frm_filed_wrapper{gap: 16px; flex-direction: column-reverse;}
     .page-template-campaign .have-questions-text p { margin-bottom: 10px; font-size: 16px; line-height: 150%; }
     body.page-template-campaign .have-questions-form .frm_forms .frm_form_fields .frm_fields_container {gap: 18px;}
     body.page-template-campaign .have-questions-form .frm_forms .frm_filed_wrapper label {line-height: 150%; text-align: center;}
