@@ -16,10 +16,10 @@ ul.faqs-links{margin: 0 0 35px;}
 ul.faqs-links li{margin: 0 0 6px;}
 ul.faqs-links li::before{display: none;}
 ul.faqs-links li a{gap: 8px;}
-ul.faqs-links li a i{color: var(--Blue);}
-ul.faqs-links li a:hover i{transform: translateX(8px);}
-ul.faqs-links li a.current{color: var(--Blue);}
-ul.faqs-links li a.current i{opacity: 0; visibility: hidden;}
+ul.faqs-links li a em{color: var(--Blue);}
+ul.faqs-links li a:hover em{transform: translateX(8px);}
+ul.faqs-links li a.mPS2id-clicked, ul.faqs-links li a.current{color: var(--Blue);}
+ul.faqs-links li a.current em{opacity: 0; visibility: hidden;}
 
 .faqs-text h2 a{color: var(--Blue);}
 .faqs-text h2 a:hover{color: var(--Black);}
