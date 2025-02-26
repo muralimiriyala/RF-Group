@@ -29,9 +29,9 @@ ul.faqs-links li a.current em{opacity: 0; visibility: hidden;}
 .page-template-service-tier-2 .faqs-right .accordion-list{margin-bottom: 16px;}
 /* media css starts here */
 @media only screen  and (min-width: 1024px){
-    .faqs-main{padding: 78px 0 75px; grid-template-columns: 350px auto;}
-    .faqs-text{padding-top: 2px;}
-
+    .faqs-main{padding: 78px 0 75px; display: flex; flex-wrap: wrap;}
+    .faqs-text{padding-top: 2px; width: 350px;}
+    .faqs-right{width: calc(100% - 430px);}
     .faqs-main.faqs-rt-full{grid-template-columns: auto;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 810px){
