@@ -580,6 +580,7 @@ ul.slick-dots.orange:not(.pagination) li.slick-active{background-color: var(--RF
 
 
 .divider-line{width: 100%; height: 1px; opacity: 0.25; background: var(--Blue); margin: 12px 0;}
+.divider-line.gray{background: var(--Mid-Gray);}
 .is-sticky.sticksy-dummy-node{opacity: 0;}
 
 /*-- media css starts here --*/
