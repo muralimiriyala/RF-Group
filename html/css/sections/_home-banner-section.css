@@ -34,7 +34,7 @@
     .page-template-service-tier-1 .home-banner-main { padding: 160px 0 140px; }
 
     .home-banner-text{max-width: 804px; padding-bottom: 38px;}
-    .home-banner-row{gap: 48px 24px;}
+    .home-banner-row{gap: 48px 24px; justify-content: center;}
     .home-banner-list{flex: 0 0 calc(25% - 20px); padding: 0 24px;}
     .home-banner-list:not(:first-child)::after{width: 2px; height: 100%; top: 0; left: -12px; opacity: 0.25; background-color: var(--White); content: ""; display: block; position: absolute;}
     .home-banner-list:nth-child(4n+1)::after{display: none;}

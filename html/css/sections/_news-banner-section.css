@@ -33,6 +33,7 @@ ul.category-lists > li > a:hover > svg path{fill: var(--Black);}
 .news-banner-item:hover .play-btn-main span.circle::after{height: 27px; width: 20px;}
 .news-banner-item:hover .play-btn-main span:not(:first-child):nth-child(2){width: 80px; height: 80px; background: rgba(39, 114, 219, 0.25);}
 
+
 @media screen and (min-width: 1024px) {
     .news-banner-main{padding: 158px 0 80px;}
     .news-banner-head{gap: 30px; justify-content: space-between; margin-bottom: 40px;}
@@ -81,6 +82,9 @@ ul.category-lists > li > a:hover > svg path{fill: var(--Black);}
     .news-banner-item{min-height: 424px;}
 }
 
+@media screen and (min-width: 810px) {
+    .news-banner-image.news-banner-mobile-img{display: none;}
+}
 @media screen and (max-width: 809px) and (min-width: 200px) {
     .news-banner-main{padding: 40px 0;}
     .news-banner-head{margin-bottom: 32px;}
