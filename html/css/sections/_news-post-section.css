@@ -61,6 +61,8 @@ ul.blog_list{margin: 0;}
 @media screen and (max-width: 1199px) and (min-width: 1024px) {
     .news-post-row[count="1"] > .news-post-item:nth-child(1){flex: 0 0 calc(100% - 390px);}
     .news-post-row[count="1"] > .news-post-item:nth-child(2){flex: 0 0 350px;}
+    .news-post-row[count="3"] > .news-post-item:nth-child(1){flex: 0 0 350px;}
+    .news-post-row[count="3"] > .news-post-item:nth-child(2){flex: 0 0 calc(100% - 390px);}
 }
 @media screen and (max-width: 1023px) and (min-width: 810px) {
     ul.filter-links{width: calc(100% + 40px);}
