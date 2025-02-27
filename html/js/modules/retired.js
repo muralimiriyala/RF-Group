@@ -4,6 +4,7 @@ export const retired = {
   $iselect: document.getElementById('investment-select'),
   $ele: document.querySelectorAll('.investment-form-main'),
   $selectBox: document.querySelector('.cta-investment-form select'),
+  $wrap: document.querySelector('.cta-investment-wrap'),
   init() {
     const _ = this;
     const $select = jQuery(_.$iselect);
@@ -24,12 +25,15 @@ export const retired = {
         }
       });
     });
-    // _.$body.addEventListener('click', (e) => {
-    //   if (e.target.parentElement !== _.$main) {
-    //     _.$ele.forEach((ele) => {
-    //       ele.style.maxHeight = `0px`;
-    //     });
-    //   }
-    // });
+    _.$body.addEventListener('click', (e) => {
+      const $container = document.querySelector(
+        'ul.choose-selectBox-dropdown-menu'
+      );
+      if (!_.$wrap.contains(e.target) && !$container.contains(e.target)) {
+        _.$ele.forEach((ele) => {
+          ele.style.maxHeight = `0px`;
+        });
+      }
+    });
   },
 };
