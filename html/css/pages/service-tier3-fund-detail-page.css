@@ -139,4 +139,5 @@ table.fees-expenses-table tr:nth-child(n+4) td:first-child{padding-left: 32px;}
     .fees-expenses-lt p{font-size: 14px;}
     .asset-performance-rt{display: block; padding: 40px 8px;}
     .asset-mbl-graph canvas[data-conva="combo"]{height: 230px !important;}
+    table.fees-expenses-table tr td:last-child strong{display: block;}
 }
