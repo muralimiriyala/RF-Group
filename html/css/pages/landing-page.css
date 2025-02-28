@@ -8,16 +8,18 @@
 .landing-logo{flex: 0 0 60px;}
 .landing-desc{font-size: 22px; color: var(--White); line-height: 33px; letter-spacing: -0.44px; font-family: var(--heading-font); flex: 1; padding-left: 24px; margin-left: 24px; border-left: 1px solid rgba(255, 255, 255, 0.25);}
 
-.landing-flag-lists{gap: 120px;}
-.landing-flag-item{padding: 32px 0;}
+.landing-flag-lists{gap: 120px; justify-content: center;}
+.landing-flag-item{padding: 22px 0;}
 .landing-flag-item::before{content: ""; position: absolute; width: 1px; height: 100%; top: 0; right: -59.5px; background: rgba(255, 255, 255, 0.25);}
 .landing-flag-item:last-child::before{display: none;}
-.landing-flag-item img{max-width: 147px;}
+.landing-flag-item figure{height: auto;}
+.landing-flag-item img{max-height: 64px; object-fit: contain; display: block; margin: auto;}
 .landing-flag-item span{display: block; font-size: 14px; line-height: 17.5px; letter-spacing: 0.7px; text-transform: uppercase; color: var(--White); text-align: center; margin-top: 12px;}
 .landing-flag-item a:hover span{color: var(--Blue);}
 .hide-scroll{overflow: hidden;}
 
 
+/*-- media css starts here --*/
 @media screen and (max-width: 1023px) and (min-width: 200px){
   .landing-main{min-height: 844px;}
   .landing-text{max-width: 100%; justify-content: center;}

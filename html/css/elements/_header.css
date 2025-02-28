@@ -326,6 +326,7 @@ header.scrolly-header{transform: translateY(-100%);}
     
 
     nav.navigation ul.menu > li > a::after{ font-weight: 400; color: var(--Blue); top: 50%; transform: translateY(-50%); right: 21px; content: "\f324"; font-family: "Font Awesome 6 Sharp"; display: block; position: absolute; }
+    nav.navigation ul.menu > li.menu-item-has-children > a{cursor: pointer;}
     nav.navigation ul.menu > li.menu-item-has-children > a::after{content: "\f078";}
     nav.navigation ul.menu > li.menu-item-has-children > a.open::after{content: '\f077';}
 

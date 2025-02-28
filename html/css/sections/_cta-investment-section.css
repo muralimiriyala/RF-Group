@@ -45,7 +45,7 @@
   transition: var(--b-transition);
 }
 .investment-field label ~ input[type="checkbox"]:checked:before{
-  opacity: 0.75;
+  opacity: 1;
 }
 
 /*-- media css --*/

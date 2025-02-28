@@ -50,6 +50,7 @@ ul.toc-links li:last-child{margin: 0;}
 aside.default-aside:nth-child(1):last-child{flex: 1;}
 
 .sidebar-mgt-image.purple{border: 2px solid var(--RF-Purple);}
+body.page-template-service-tier-1 .sidebar-mgt-info a:hover{color: var(--RF-Purple);}
 .sidebar-mgt-info a.purple-em:hover{color: var(--RF-Purple);}
 
 /*-- media css --*/
