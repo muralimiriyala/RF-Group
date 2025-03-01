@@ -12,7 +12,7 @@
 .management-team-row{padding: 0 0 80px; align-items: flex-start; justify-content: center;}
 .management-team-image img{width: 160px; transition: var(--b-transition); outline: 8px solid rgba(0, 0, 0, 0.1); border-radius: 120px; height: 160px;}
 .management-team-list:hover img{transform: scale(1.025); outline-color: var(--Black-20);}
-.management-team-list{ text-align: center; display: flex; flex-direction: column;}
+.management-team-list{ text-align: center; display: flex; flex-direction: column; margin-top: auto;}
 .management-team-image{margin-bottom: 16px;}
 .management-team-info{margin-top: auto;}
 .management-team-info h4{font-size: 24px; font-weight: 600; line-height: 125%; letter-spacing: -0.48px; margin-bottom: -3px;}
@@ -68,4 +68,6 @@
 @media only screen and (max-width: 374px) and (min-width: 200px){
   .management-block h3{font-size: 28px;}
   .management-team-list{width: 100%;}
+
+  .management-team-list:first-child{margin-top: auto;}
 }
