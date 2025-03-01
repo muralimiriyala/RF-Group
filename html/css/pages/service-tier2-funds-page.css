@@ -24,6 +24,7 @@ ul.service-fund-banner-data li:before{display: none;}
 
 .fund-groups-main{padding: 80px 0;}
 .fund-group-desc h2{font-weight: 400; margin-bottom: 42px;}
+body.page-template-service-tier-1 .fund-group-desc h2{font-weight: 600;}
 .fund-group-desc{max-width: 960px; padding-bottom: 80px;}
 .fund-group-desc:only-child{padding-bottom: 0;}
 .fund-group-row{gap: 40px;}
@@ -91,6 +92,9 @@ ul.service-fund-banner-data li:before{display: none;}
     .service-fund-banner-list{flex: 0 0 288px;}
 
     .fund-groups-main { padding: 40px 0;}
+    body.page-template-service-tier-1 .fund-groups-main {padding: 52px 0 40px;}
+    body.page-template-service-tier-1 .fund-groups-main::after{margin: 0;}
+    body.page-template-service-tier-1 .fund-group-desc{font-size: 18px;}
     .fund-group-desc h2 {margin-bottom: 24px;}
     .fund-group-desc{padding-bottom: 48px;}
     .fund-group-row{display: flex; gap: 24px;}
