@@ -14,6 +14,8 @@ ul.breadcrumbs li a:hover{color: var(--Black);}
 .caption-desc { padding: 20px 0 16px 18px; } 
 .caption-line { width: 6px; height: 100%; left: 0; top: -4px; } 
 .caption-line::after, .caption-line::before{ content: ""; display: block; position: absolute; background-color: var(--Blue); } 
+body.page-template-service-tier-1 .caption-line::after, 
+body.page-template-service-tier-1 .caption-line::before{background-color: var(--RF-Purple);}
 .caption-line::before{ width: 6px; height: 6px; border-radius: 50%; top: 0; left: 0; } 
 .caption-line::after{ width: 2px; height: 100%; left: 2px; }
 .caption-desc p{line-height: 150%;}
@@ -50,7 +52,8 @@ ul.toc-links li:last-child{margin: 0;}
 aside.default-aside:nth-child(1):last-child{flex: 1;}
 
 .sidebar-mgt-image.purple{border: 2px solid var(--RF-Purple);}
-
+body.page-template-service-tier-1 .sidebar-mgt-info a:hover{color: var(--RF-Purple);}
+.sidebar-mgt-info a.purple-em:hover{color: var(--RF-Purple);}
 
 /*-- media css --*/
 @media screen and (min-width: 1024px) {

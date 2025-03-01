@@ -5,6 +5,8 @@
 .service-fund-banner-row{gap: 40px; padding: 40px 0;}
 .service-fund-banner-list{flex: 0 0 calc(25% - 30px); background-color: var(--White); padding: 24px 24px 18px;}
 .service-fund-banner-list > span { color: var(--Black); display: block; font-size: 20px; font-weight: 600; line-height: 25px; margin-bottom: 16px; }
+.service-fund-banner-list > span > a{color: var(--Black);}
+.service-fund-banner-list > span > a:hover{color: var(--Blue);}
 .service-fund-banner-list p { font-size: 14px; font-weight: 400; line-height: 125%; }
 ul.service-fund-banner-data { gap: 12px 28px; margin: 0; }
 ul.service-fund-banner-data li { flex: 0 0 calc(50% - 14px); justify-content: space-between; margin: 0; }
@@ -22,10 +24,11 @@ ul.service-fund-banner-data li:before{display: none;}
 
 .fund-groups-main{padding: 80px 0;}
 .fund-group-desc h2{font-weight: 400; margin-bottom: 42px;}
+body.page-template-service-tier-1 .fund-group-desc h2{font-weight: 600;}
 .fund-group-desc{max-width: 960px; padding-bottom: 80px;}
 .fund-group-desc:only-child{padding-bottom: 0;}
 .fund-group-row{gap: 40px;}
-.fund-group-list{flex: 0 0 calc(33.33% - 27px); background-color: var(--White); padding: 32px 32px 26px; border-left: 4px solid var(--RF-Orange); flex-grow: 1;}
+.fund-group-list{flex: 0 0 calc(33.33% - 27px); background-color: var(--White); padding: 32px 32px 26px; border-left: 4px solid var(--RF-Orange);}
 .fund-group-list.border-purple{border-left-color: var(--RF-Purple);}
 .fund-orange-block h3 a:hover{color: var(--RF-Orange);}
 .fund-group-list h3{font-weight: 400; margin-bottom: 10px;}
@@ -89,6 +92,9 @@ ul.service-fund-banner-data li:before{display: none;}
     .service-fund-banner-list{flex: 0 0 288px;}
 
     .fund-groups-main { padding: 40px 0;}
+    body.page-template-service-tier-1 .fund-groups-main {padding: 52px 0 40px;}
+    body.page-template-service-tier-1 .fund-groups-main::after{margin: 0;}
+    body.page-template-service-tier-1 .fund-group-desc{font-size: 18px;}
     .fund-group-desc h2 {margin-bottom: 24px;}
     .fund-group-desc{padding-bottom: 48px;}
     .fund-group-row{display: flex; gap: 24px;}

@@ -24,6 +24,7 @@ import { sidebyside } from './modules/sidebyside.js';
 import { retired } from './modules/retired.js';
 import { feeSchedule } from './modules/feeSchedule.js';
 import { reports } from './modules/reports.js';
+import { resforms } from './modules/resource-form.js';
 import { resource } from './modules/resource.js';
 import { resourcecategory } from './modules/resourcecategory.js';
 import { serviceTierTombstones } from './modules/service-tier-3-tombstones.js';
@@ -31,6 +32,7 @@ import { managementHover } from './modules/managementhover.js';
 import { uicategory } from './modules/uicategory.js';
 import { jumpto } from './modules/jumpto.js';
 import { servicetierfunddetails } from './modules/servicetierfunddetails.js';
+import { inputNumber } from './modules/inputNumber.js';
 
 document.addEventListener('DOMContentLoaded', function () {
   // (function () {
@@ -56,6 +58,7 @@ document.addEventListener('DOMContentLoaded', function () {
   retired.init();
   feeSchedule.init();
   reports.init();
+  resforms.init();
   serviceTierTombstones.tier();
   managementHover.me();
   resource.init();
@@ -63,6 +66,7 @@ document.addEventListener('DOMContentLoaded', function () {
   uicategory.init();
   jumpto.init();
   servicetierfunddetails.fund();
+  inputNumber.input();
   // })();
 });
 let scrolled = window.scrollY;

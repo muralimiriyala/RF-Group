@@ -8,7 +8,7 @@
 .comission-left-fee{flex: 1;}
 .comission-left-fee .h2{margin-bottom: 0;}
 .comission-right-fee:nth-child(1):last-child{flex: 1; text-align: right;}
-.comission-right-fee{flex: 0 0 148px;}
+.comission-right-fee{flex: 0 0 248px; text-align: right;}
 
 .comission-fee-lists{padding: 40px 0 0;}
 .counter-main{font-size: 72px; line-height: 100%; text-transform: uppercase; font-weight: 700; color: var(--Black); margin-bottom: 18px; display: block; }
@@ -35,7 +35,7 @@
     .comission-fee-rt p{max-width: 800px;} 
     .comission-fee-rt:only-child{max-width: 100%;}
     .comission-fee-lists{gap: 40px;}
-    .comission-fee-list{flex: 1 0 calc(25% -  30px);}
+    .comission-fee-list{flex: 0 0 calc(25% -  30px);}
     .comission-fee-list-inner{margin-top: auto;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 810px){

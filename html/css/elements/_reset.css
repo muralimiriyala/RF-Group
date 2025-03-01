@@ -10,6 +10,7 @@ a{color: var(--Blue);text-decoration: none; transition: var(--b-transition);}
 a:focus {outline: none;}
 a:hover, a:active {outline: 0;}
 a:hover{color: var(--Black);}
+a.text-black:hover{color: var(--Blue);}
 p a{color: var(--Black); text-decoration: underline; text-decoration-color: var(--Blue); font-weight: 700;}
 p a:hover{color: var(--Blue);}
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{clear: both; margin: 0; color: var(--Black); font-weight: 600; font-family: var(--heading-font); line-height: 125%; text-transform: none;}
@@ -491,7 +492,7 @@ picture.object-fit{width: 100%; height: 100%; display: block;}
 .dark-text ul > li > a:hover{color: var(--Orange);}
 
 .line-clamp{ display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden;}
-.clamp-3{ line-clamp: 3; }
+.clamp-3{ -webkit-line-clamp: 3; }
 
 .white-bg{background-color: var(--White);}
 .black-bg{background-color: var(--Black);}
@@ -580,6 +581,7 @@ ul.slick-dots.orange:not(.pagination) li.slick-active{background-color: var(--RF
 
 
 .divider-line{width: 100%; height: 1px; opacity: 0.25; background: var(--Blue); margin: 12px 0;}
+.divider-line.gray{background: var(--Mid-Gray); opacity: 1;}
 .is-sticky.sticksy-dummy-node{opacity: 0;}
 
 /*-- media css starts here --*/
@@ -636,7 +638,7 @@ ul.slick-dots.orange:not(.pagination) li.slick-active{background-color: var(--RF
     span.optional-text.md{margin-bottom: 6px;}
 
     .line-m-clamp{ display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden;}
-    .m-clamp-3{ line-clamp: 3; }
+    .m-clamp-3{ -webkit-line-clamp: 3; }
 
 
     div.slick-arrow{top: auto; transform: none; position: relative;}

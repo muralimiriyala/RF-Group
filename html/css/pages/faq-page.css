@@ -16,10 +16,10 @@ ul.faqs-links{margin: 0 0 35px;}
 ul.faqs-links li{margin: 0 0 6px;}
 ul.faqs-links li::before{display: none;}
 ul.faqs-links li a{gap: 8px;}
-ul.faqs-links li a i{color: var(--Blue);}
-ul.faqs-links li a:hover i{transform: translateX(8px);}
-ul.faqs-links li a.current{color: var(--Blue);}
-ul.faqs-links li a.current i{opacity: 0; visibility: hidden;}
+ul.faqs-links li a em{color: var(--Blue);}
+ul.faqs-links li a:hover em{transform: translateX(8px);}
+ul.faqs-links li a.mPS2id-clicked, ul.faqs-links li a.current{color: var(--Blue);}
+ul.faqs-links li a.current em{opacity: 0; visibility: hidden;}
 
 .faqs-text h2 a{color: var(--Blue);}
 .faqs-text h2 a:hover{color: var(--Black);}
@@ -27,12 +27,13 @@ ul.faqs-links li a.current i{opacity: 0; visibility: hidden;}
 
 .page-template-service-tier-2 .faqs-desc h2, .page-template-service-tier-1 .faqs-desc h2{margin-bottom: 26px;}
 .page-template-service-tier-2 .faqs-right .accordion-list{margin-bottom: 16px;}
+
 /* media css starts here */
 @media only screen  and (min-width: 1024px){
-    .faqs-main{padding: 78px 0 75px; grid-template-columns: 350px auto;}
-    .faqs-text{padding-top: 2px;}
-
-    .faqs-main.faqs-rt-full{grid-template-columns: auto;}
+    .faqs-main{padding: 78px 0 75px; gap: 80px;}
+    .faqs-text{padding-top: 2px; width: 350px;}
+    .faqs-right{width: calc(100% - 430px);}
+    .faqs-text:nth-child(1):last-child, .faqs-right:nth-child(1):last-child{width: 100%;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 810px){
     .faqs-main{padding: 78px 0 40px; display: block;}
