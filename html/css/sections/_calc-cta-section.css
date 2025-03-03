@@ -25,10 +25,12 @@
 }
 @media only screen and (max-width: 1299px) and (min-width: 810px){
     .calc-cta-section{background-image: linear-gradient(to top,var(--White) calc(100% - var(--mid-value)),var(--Gray) var(--mid-value));}
-    .calc-cta-main{gap: 24px; flex-direction: column;}
+    .calc-cta-main{gap: 24px;}
     .calc-cta-icon{flex: 0 0 64px;}
     .calc-cta-text{flex: 1;}
     .calc-cta-lt{gap: 24px; flex: 1; }
+    .calc-cta-rt{flex: 0 0 318px;}
+
     .calc-cta-rt{padding-left: 104px; align-items: flex-start;}
 }
 @media only screen and (max-width: 1199px) and (min-width: 200px){
