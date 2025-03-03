@@ -55,6 +55,9 @@ svg.repeater-icon-hover{top: 0; left: 0; opacity: 0;}
 
     .repeater-list.no_repeater_image{padding: 80px 0;}
 }
+@media only screen and (max-width: 1359px) and (min-width: 1024px) {
+    .no_repeater_img .repeater-text{padding: 0 40px;}
+}
 @media only screen and (max-width: 1299px) and (min-width: 1024px) {
     .repeater-list{ gap: 60px;}
     .repeater-text{flex: 0 0 calc(50% - 30px);}
