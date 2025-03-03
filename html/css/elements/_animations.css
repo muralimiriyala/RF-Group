@@ -6,7 +6,7 @@
 
 
 
-*[data-animate]:not([data-animate='ui ui-icon'], .counter-back){
+*[data-animate]:not(.counter-back){
   opacity: 0;
   visibility: hidden;
   transition: all 1s ease;
@@ -19,7 +19,7 @@
   -webkit-animation-timing-function: ease-out;
   animation-timing-function: ease-out;
 }
-*[data-animate]:not([data-animate='ui ui-icon'], .counter-back).visible { opacity: 1; visibility: visible; }
+*[data-animate]:not(.counter-back).visible { opacity: 1; visibility: visible; }
   
 .fade-in-right { -webkit-animation-name: fadeInRight; animation-name: fadeInRight; }
 @-webkit-keyframes fadeInRight { 0% { transform: translate3d(20px, 0, 0); opacity: 0; } 100% { transform: translate3d(0, 0, 0); opacity: 1; } } @keyframes fadeInRight { 0% { transform: translate3d(20px, 0, 0); opacity: 0; } 100% { transform: translate3d(0, 0, 0); opacity: 1; } }
