@@ -25,6 +25,7 @@ export const retired = {
         }
       });
     });
+    if (!_.$wrap) return;
     _.$body.addEventListener('click', (e) => {
       const $container = document.querySelector(
         'ul.choose-selectBox-dropdown-menu'
