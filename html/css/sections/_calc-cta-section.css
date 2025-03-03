@@ -29,7 +29,7 @@
     .calc-cta-icon{flex: 0 0 64px;}
     .calc-cta-text{flex: 1;}
     .calc-cta-lt{gap: 24px; flex: 1; }
-    .calc-cta-rt{padding-left: 104px; align-items: flex-start;}
+    /* .calc-cta-rt{padding-left: 104px; align-items: flex-start;} */
 }
 @media only screen and (max-width: 1199px) and (min-width: 200px){
     .calc-cta-main {flex-direction: column; gap: 24px; padding: 24px; text-align: center; }
