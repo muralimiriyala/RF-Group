@@ -30,6 +30,7 @@
 
 .management-team-info h4 a{font-size: 24px; font-weight: 600; letter-spacing: -0.48px;}
 
+.management-section.management-top-space{margin-top: 80px;}
 
 /*-- media css --*/
 @media only screen and (min-width: 1200px){
@@ -43,6 +44,7 @@
 @media only screen and (max-width: 1023px) and (min-width: 810px){
   .management-team-row { padding: 0 40px 64px; gap: 60px 40px;}
   .management-team-list {flex: 0 0 calc(50% - 20px)}
+  .management-section.management-top-space{margin-top: 50px;}
 }
 
 @media only screen and (max-width: 809px) and (min-width: 480px){
@@ -56,6 +58,7 @@
 @media only screen and (max-width: 809px) and (min-width: 200px){
   .management-section{background-image: linear-gradient(to top,var(--White) calc(100% - var(--low-value)),var(--Gray) var(--low-value));}
   .management-main{padding: 48px 24px 64px;}
+  .management-section.management-top-space{margin-top: 40px;}
 
   .navy-block-btn {display: block;}
   .navy-block-btn .button:first-child{flex-direction: row-reverse; margin-bottom: 8px;}

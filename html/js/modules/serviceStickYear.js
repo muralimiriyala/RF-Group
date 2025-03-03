@@ -57,7 +57,6 @@ export const servicestickyYear = {
         });
         const elements = $(`ul.service-history-years a[href="#${id}"]`);
         elements.addClass('active');
-        console.log(id, elements, 'gssssssssssss');
 
         const show = $(
           document.querySelector(`.service-year-list[id="${id}"]`)
