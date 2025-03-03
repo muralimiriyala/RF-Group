@@ -36,9 +36,7 @@
     .calc-cta-lt{flex-direction: column; gap: 16px;}
     .calc-cta-icon { max-width: 80px; margin: auto;}
     .calc-cta-rt{flex: 0 0 100%;}
-
 }
-
 @media only screen and (max-width: 809px) and (min-width: 200px){
     .calc-cta-section{background-image: linear-gradient(to top,var(--White) calc(100% - var(--low-value)),var(--Gray) var(--low-value));}
     body.page-template-service-tier-1 .calc-cta-section{background-image: linear-gradient(to top,var(--White) calc(100% - var(--low-mdl-value)),var(--Gray) var(--low-mdl-value));}
