@@ -451,6 +451,7 @@ nav.navigation ul.menu > li.nav-item-about > ul > li > ul > li a.text-link{margi
     ul.nav-mbl-locs li::before{width: 1px; height: 100%; top: 0; left: -22px; opacity: 0.25; background-color: var(--White);}
     ul.nav-mbl-locs li:nth-child(3n+1):before{display: none;}
     ul.nav-mbl-locs li a{padding: 8px 0 12px; gap: 12px; text-align: center;}
+    ul.nav-mbl-locs li a:hover{color: var(--Blue);}
     ul.nav-mbl-locs li a img{max-width: 80px;}
 }
 @media screen and (max-width: 809px) and (min-width: 200px){

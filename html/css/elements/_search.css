@@ -14,7 +14,7 @@ header.white-header .btn-srch:hover em{color: var(--Blue);}
 .srch-form-overlay{opacity: 0.9; display: none; position: fixed; z-index: 2800;}
 form.srch-form { max-width: 800px; position: fixed; top: 50%; left: 50%; z-index: 2900; transform: translate(-50%, -50%); display: none; }
 form.srch-form label{padding: 0 8px 12px;}
-form.srch-form input{padding: 20px 21px 20px; min-height: 48px; font-size: 32px; font-weight: 600; line-height: 150%; letter-spacing: -0.64px; border: none; background-color: var(--White); color: var(--Black); border: none; font-family: var(--heading-font);}
+form.srch-form input{padding: 20px 61px 21px 21px; min-height: 48px; font-size: 32px; font-weight: 600; line-height: 150%; letter-spacing: -0.64px; border: none; background-color: var(--White); color: var(--Black); border: none; font-family: var(--heading-font);}
 header.gray-header button.btn-srch em{color: var(--Black);}
 header.gray-header button.btn-srch em:hover, form.srch-form.open button.btn-srch em:hover{color: var(--Blue);}
 form.srch-form.open button.btn-srch em{color: var(--Black);}
