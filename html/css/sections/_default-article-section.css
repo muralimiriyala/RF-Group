@@ -40,6 +40,7 @@ ul.toc-links{margin: 0; padding: 5px 0 27px;}
 ul.toc-links li::before{display: none;}
 ul.toc-links li{margin: 0 0 9px;}
 ul.toc-links li:last-child{margin: 0;}
+ul.toc-links li a.mPS2id-clicked{color: var(--Blue);}
 .sidebar-gray-blk{padding: 40px; margin-bottom: 40px;}
 .sidebar-gray-btns{padding: 8px; border: 1px solid var(--Blue);}
 .sidebar-gray-btns .button{width: 100%;  justify-content: space-between;}
