@@ -15,11 +15,11 @@ body .modal-form .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm
 body .modal-form .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_radio label input{display: none !important;}
 body .modal-form .frm_style_formidable-style.with_frm_style .frm_error_style{display: none;}
 
-body .modal-form .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_radio label{font-size: 14px; line-height: 21px; display: block; color: var(--Text-Gray);}
+body .modal-form .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_radio label{font-size: 0.875rem; line-height: 21px; display: block; color: var(--Text-Gray);}
 
 .modal-text ul{margin: 0 0 36px 24px;}
 .modal-text ul > li{margin-bottom: 6px;}
-.modal-text ul > li::before { color: var(--Blue); content: "\f058"; font-family: "Font Awesome 6 Pro"; font-size: 16px; left: -24px; width: auto; height: auto; background-color: transparent; top: 0%; }
+.modal-text ul > li::before { color: var(--Blue); content: "\f058"; font-family: "Font Awesome 6 Pro"; font-size: 1rem; left: -24px; width: auto; height: auto; background-color: transparent; top: 0%; }
 
 .modal-image .repeater-icon{left: -40px;}
 .modal-image:hover .repeater-icon svg.repeater-icon-hover{transform: translateX(20px);}
@@ -31,7 +31,7 @@ body .modal-form .frm_success_style p, .modal-form body .with_frm_style .frm_mes
 
 body .modal-form .frm_forms .frm_form_fields .frm_form_field textarea{height: 186px;}
 body .modal-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submit{width: 100%; display: block;}
-.modal-disclaimer{padding-top: 7px; color: var(--Text-Gray); display: block; font-size: 14px; line-height: 21px;}
+.modal-disclaimer{padding-top: 7px; color: var(--Text-Gray); display: block; font-size: 0.875rem; line-height: 21px;}
 .modal-disclaimer.hide{display: none;}
 
 /*-- media css starts here --*/
@@ -79,7 +79,7 @@ body .modal-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submi
     .modal-main{padding: 12px;}
     .modal-container{padding: 12px; max-width: 100%; height: auto; margin: 0; border-radius: 0; min-width: 100%;}
     .modal-content{padding: 22px 19px 20px; display: block;}
-    .modal-text{font-size: 14px; line-height: 21px;}
+    .modal-text{font-size: 0.875rem; line-height: 21px;}
     .modal-text ul{margin: 0 0 0 24px;}
     .modal-text .h2{font-size: 2rem; line-height: 2.5rem; letter-spacing: -0.32px;}
     .modal-text hr{margin-bottom: 14px;}

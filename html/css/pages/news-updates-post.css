@@ -16,17 +16,17 @@
 blockquote.green{color: var(--RF-Aquamarine); margin: 38px 0 38px;}
 
 .view-block{padding: 22px; margin-top: 38px; justify-content: space-between;}
-.cta-view{gap: 4px; color: var(--Black); background-color: var(--White); font-size: 12px; padding: 0 6px;}
+.cta-view{gap: 4px; color: var(--Black); background-color: var(--White); font-size: 0.75rem; padding: 0 6px;}
 .view-block:hover .cta-view{background-color: var(--Blue); color: var(--White);}
-.cta-view em{top: -1px; position: relative; color: var(--RF-Aquamarine); font-size: 14px; font-weight: 900;}
+.cta-view em{top: -1px; position: relative; color: var(--RF-Aquamarine); font-size: 0.875rem; font-weight: 900;}
 .view-block:hover .cta-view em{color: var(--White);}
 .view-block.open .cta-view span{display: none;}
 .view-block.open .cta-view span.hide{display: block;}
 .view-block.open .cta-view em{top: 0.5px;}
 .view-block.open .cta-view em::before{content: "\f077";}
 .news-updates-post-audio {padding-bottom: 40px;}
-.news-updates-post-audio span{color: var(--Black); text-transform: uppercase; font-size: 14px; margin-bottom: 14px;}
-.view-txt-lt{flex:  1; padding-right: 10px; font-size: 16px; color: var(--Text-Gray2); font-weight: 600;}
+.news-updates-post-audio span{color: var(--Black); text-transform: uppercase; font-size: 0.875rem; margin-bottom: 14px;}
+.view-txt-lt{flex:  1; padding-right: 10px; font-size: 1rem; color: var(--Text-Gray2); font-weight: 600;}
 .view-txt-rt{flex: 0 0 62px;}
 .news-updates-post-article p a:hover{color: var(--RF-Aquamarine);}
 .news-updates-post-article p a{text-decoration-color: var(--RF-Aquamarine);}
@@ -56,7 +56,7 @@ blockquote.green{color: var(--RF-Aquamarine); margin: 38px 0 38px;}
   .news-updates-post-section .container{padding: inherit;}
   .news-updates-post-audio { padding-bottom: 24px; }
 
-  .news-updates-post-audio span{font-size: 14px;}
+  .news-updates-post-audio span{font-size: 0.875rem;}
   .news-updates-post-article h3 { margin-top: 22px; }
   .news-updates-post-article ul { margin: 0 0 23px 26px; }
   .news-updates-post-article .default-image-caption { margin-bottom: 28px; }

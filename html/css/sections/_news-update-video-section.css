@@ -86,7 +86,7 @@ span.lock-icon{ width: 64px; height: 64px; top: 50%; left: 50%; background: rgba
     .news-update-video-banner-wrap{display: block; background-color: var(--Black); padding: 40px 24px 52px;}
     .news-update-video-banner{position: relative;}
     .news-update-video-banner video {min-height: 285px;}
-    .news-update-video-banner-text p {font-size: 14px; line-height: 150%;}
+    .news-update-video-banner-text p {font-size: 0.875rem; line-height: 150%;}
     .news-update-video-banner, .news-update-video-banner img{min-height: 235px;}
  
 

@@ -78,10 +78,10 @@ ul.ui-categorys li a{white-space: nowrap;}
 @media screen and (max-width: 809px) and (min-width: 200px){
     .doc-form-main{padding: 40px 0 42px; display: block;}
     .doc-form-aside{padding-bottom: 25px;}
-    .doc-form-desc span.optional-text:not(.fs-16){font-size: 16px;}
+    .doc-form-desc span.optional-text:not(.fs-16){font-size: 1rem;}
     .doc-form-desc hr{margin-bottom: 23px;}
     .doc-form-text h1{font-size: 36px;}
-    .doc-form-text{font-size: 14px;}
+    .doc-form-text{font-size: 0.875rem;}
     .doc-form-text span.optional-text.fs-16{padding-top: 7px;}
     .doc-form-rows{gap: 38px;}
     .doc-form-lists{flex-direction: column;}
@@ -95,11 +95,11 @@ ul.ui-categorys li a{white-space: nowrap;}
 
     ul.ui-categorys{padding-right: 24px; width: calc(100% + 24px);}
     ul.ui-categorys li {width: fit-content; white-space: nowrap;}
-    ul.ui-categorys li a{font-size: 16px; padding: 12px 16px;}
-    .doc-form-formrt span.fs-18{font-size: 16px; margin-bottom: 1px;}
-    ul.doc-form-q li{font-size: 12px;}
+    ul.ui-categorys li a{font-size: 1rem; padding: 12px 16px;}
+    .doc-form-formrt span.fs-18{font-size: 1rem; margin-bottom: 1px;}
+    ul.doc-form-q li{font-size: 0.75rem;}
 }
 @media screen and (max-width: 374px) and (min-width: 200px){
     .doc-form-list{flex-direction: column; align-items: flex-start;}
-    ul.doc-form-q li{font-size: 12px;}
+    ul.doc-form-q li{font-size: 0.75rem;}
 }

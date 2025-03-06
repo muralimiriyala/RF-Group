@@ -4,7 +4,7 @@
 .service-who-desc{padding-bottom: 40px;}
 .service-who-list-wrap{gap: 40px;}
 .service-who-list{flex: 0 0 calc(50% - 20px);}
-.service-who-list p{font-size: 16px;}
+.service-who-list p{font-size: 1rem;}
 .service-who-desc h4{font-size: 40px;}
 .service-who-lt hr, .service-who-rt hr{width: 64px; background-color: var(--RF-Purple); margin:  0 0 18px;}
 .service-who-lt .service-icon em{font-size: 40px; margin-bottom: 16px; font-weight: 300; color: var(--RF-Purple)}

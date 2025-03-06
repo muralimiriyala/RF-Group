@@ -14,7 +14,7 @@ ul.have-questions-links li::before{display: none;}
 ul.have-questions-links li a{gap: 8px;}
 ul.have-questions-links li a.black:hover{color: var(--Black-50);}
 
-.page-template-campaign .have-questions-text span.optional-text{color: var(--Black); font-size: 14px;}
+.page-template-campaign .have-questions-text span.optional-text{color: var(--Black); font-size: 0.875rem;}
 .page-template-campaign .have-questions-text h2 { margin-bottom: 16px; font-size: 48px;}
 .page-template-campaign .have-questions-text hr[data-animate], .have-questions-text p { margin-bottom: 25px; }
 .page-template-campaign .have-questions-text p { margin-bottom: 0; }
@@ -39,13 +39,13 @@ ul.have-questions-links li a.black:hover{color: var(--Black-50);}
 @media only screen and (max-width: 809px) and (min-width: 200px){
     .have-questions-section{padding-bottom: 40px; display: block; background-image: linear-gradient(to top, var(--Gray) calc(100% - var(--low-value)) , var(--White) var(--low-value));}
     .have-questions-main{padding: 40px 28px; display: block;}
-    .have-questions-text{padding-bottom: 15px; font-size: 14px;}
+    .have-questions-text{padding-bottom: 15px; font-size: 0.875rem;}
 
     .page-template-campaign .have-questions-text h2 { font-size: 36px;}
     .page-template-campaign  .have-questions-main { padding: 24px; }
 
     body  .have-questions-text .frm_forms .frm_form_fields .frm_filed_wrapper .frm_form_field.vertical_radio{margin-bottom: 0;}
-    .page-template-campaign .have-questions-text p { margin-bottom: 10px; font-size: 16px; line-height: 150%; }
+    .page-template-campaign .have-questions-text p { margin-bottom: 10px; font-size: 1rem; line-height: 150%; }
     body.page-template-campaign .have-questions-form .frm_forms .frm_form_fields .frm_fields_container {gap: 18px;}
     
 }

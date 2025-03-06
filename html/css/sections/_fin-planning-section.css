@@ -7,12 +7,12 @@
 .fin-planning-list{background: var(--White); padding: 32px 32px 28px 32px; border-left: 4px solid var(--Yellow-2);}
 .fin-planning-list-head{gap: 20px; margin-bottom: 20px;}
 .fin-planning-list-title{flex: 1;}
-.fin-planning-list-title span{display: block; font-weight: 400; font-size: 14px; line-height: 17.5px; letter-spacing: 0.7px; text-transform: uppercase; color: var(--Light-Brown); margin-bottom: 8px;}
+.fin-planning-list-title span{display: block; font-weight: 400; font-size: 0.875rem; line-height: 17.5px; letter-spacing: 0.7px; text-transform: uppercase; color: var(--Light-Brown); margin-bottom: 8px;}
 .fin-planning-list-title .h5{margin-bottom: 0;}
 .fin-planning-list-icon{flex: 0 0 64px; max-height: 64px;}
 .fin-planning-list-icon svg{max-width: 64px; max-height: 64px;}
 .fin-planning-list-icon svg path{stroke: var(--Yellow-2);}
-.fin-planning-list-content{font-size: 16px; line-height: 24px; color: var(--Text-Gray);}
+.fin-planning-list-content{font-size: 1rem; line-height: 24px; color: var(--Text-Gray);}
 .fin-planning-list-content > a > i{color: var(--Yellow-2);}
 
 .fin-planning-list:last-child{background: transparent; padding: 0; border:none;}
@@ -85,6 +85,6 @@ ul.fin-planning-item li > a:hover .fin-item-icon > em:last-child{opacity: 0;}
     .fin-planning-list{width: 100%; padding: 32px 32px 30px 32px; margin-bottom: 24px;}
     .fin-planning-list:last-child{margin-bottom: 0;}
     .fin-planning-list-head{margin-bottom: 20px;}
-    .fin-planning-list-content{font-size: 14px; line-height: 21px;}
+    .fin-planning-list-content{font-size: 0.875rem; line-height: 21px;}
     ul.fin-planning-item li{margin: 0 0 8px;}
 }

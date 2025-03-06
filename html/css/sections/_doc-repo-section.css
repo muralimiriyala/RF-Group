@@ -77,9 +77,9 @@ ul.form-js-links li a.mPS2id-clicked{color: var(--Blue);}
 @media screen and (max-width: 809px) and (min-width: 200px){
     .doc-repo-main{padding: 40px 0 42px; display: block;}
     .doc-repo-aside{padding-bottom: 37px;}
-    .doc-repo-desc span.optional-text:not(.fs-16){font-size: 16px;}
+    .doc-repo-desc span.optional-text:not(.fs-16){font-size: 1rem;}
     .doc-repo-text h1{font-size: 36px;}
-    .doc-repo-text{font-size: 14px;}
+    .doc-repo-text{font-size: 0.875rem;}
     .doc-repo-text span.optional-text.fs-16{padding-top: 7px;}
     .doc-repo-rows{gap: 38px;}
     .doc-repo-lists{flex-direction: column;}
@@ -89,11 +89,11 @@ ul.form-js-links li a.mPS2id-clicked{color: var(--Blue);}
     .ui-years{flex-wrap: nowrap; overflow-x: auto; padding-right: 24px; width: calc(100% + 24px); -ms-overflow-style: none; scrollbar-width: none;}
     .ui-years::-webkit-scrollbar{display: none;}
     ul.ui-years li {width: fit-content;}
-    ul.ui-years li a{font-size: 16px;}
+    ul.ui-years li a{font-size: 1rem;}
     .doc-repo-find{padding-top: 37px;}
 }
 
 @media screen and (max-width: 374px) and (min-width: 200px){
     .doc-repo-list{flex-direction: column; align-items: flex-start;}
-    ul.doc-repo-q li{font-size: 12px;}
+    ul.doc-repo-q li{font-size: 0.75rem;}
 }

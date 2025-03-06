@@ -1,6 +1,6 @@
 
 
-.resource-form-lt{font-size: 16px; line-height: 24px;}
+.resource-form-lt{font-size: 1rem; line-height: 24px;}
 .resource-form-lt span.optional-text{margin-bottom: 23px;}
 .resource-form-lt hr{margin: 25px 0 23px;}
 
@@ -69,23 +69,23 @@ ul.resource-form-q li a:hover{color: var(--Blue);}
 }
 @media screen and (max-width: 809px) and (min-width: 200px){
     .resource-form-main{padding: 24px 0; display: block; width: 100%}
-    .resource-form-lt{width: 100%; margin-bottom: 24px; font-size: 14px; line-height: 21px;}
+    .resource-form-lt{width: 100%; margin-bottom: 24px; font-size: 0.875rem; line-height: 21px;}
 
     .form-category{margin-top: 23px; }
-    .form-category-btn{cursor: pointer; padding: 16px 44px 16px 16px; border: 1px solid var(--Text-Gray); background: var(--Background-Gray); display: block; width: 100%; font-size: 16px; line-height: 24px; color: var(--Black);}
+    .form-category-btn{cursor: pointer; padding: 16px 44px 16px 16px; border: 1px solid var(--Text-Gray); background: var(--Background-Gray); display: block; width: 100%; font-size: 1rem; line-height: 24px; color: var(--Black);}
     .form-category-btn em{top: 12px; right: 16px;}
     .form-category-btn.current em::before {content: "\f077";}
     ul.form-links{margin: 0; padding: 15px 0; border: 1px solid var(--Text-Gray); border-top: none; background: var(--Background-Gray); display: none;}
     ul.form-links li{padding: 0 16px;}
     ul.form-links li:last-child{margin-bottom: 0;}
-    ul.form-links li a{font-size: 16px; line-height: 24px;}
+    ul.form-links li a{font-size: 1rem; line-height: 24px;}
     ul.form-links li a i{display: none;}
 
     .resource-form-head{width: 100%; margin-bottom: 24px;}
     .resource-form-lists{gap: 12px; margin-bottom: 24px;}
     .resource-form-report{flex: 1;}
-    .resource-form-report > span{font-size: 16px; line-height: 24px;}
-    ul.resource-form-q li{font-size: 12px; line-height: 18px;}
+    .resource-form-report > span{font-size: 1rem; line-height: 24px;}
+    ul.resource-form-q li{font-size: 0.75rem; line-height: 18px;}
     .resource-form-btn-mob .button{width: 100%;}
 
 }

@@ -1,6 +1,6 @@
 
 .open-mutual-funds-main{padding: 80px 0 64px;}
-.open-mutual-lt{font-size: 16px; line-height: 24px;}
+.open-mutual-lt{font-size: 1rem; line-height: 24px;}
 .open-mutual-lt span.optional-text{margin-bottom: 23px;}
 .open-mutual-lt hr{margin: 25px 0 23px;}
 
@@ -18,11 +18,11 @@ ul.open-mutual-links li a.current i{display: none;}
 .open-mutual-title{flex: 1;}
 .open-mutual-btn{width: fit-content;}
 
-.open-mutual-rt p{font-size: 14px; line-height: 14px; color: var(--Text-Gray); margin-bottom: 0;}
+.open-mutual-rt p{font-size: 0.875rem; line-height: 14px; color: var(--Text-Gray); margin-bottom: 0;}
 .open-mutual-fund-list{padding: 24px 24px 18px; background-color: var(--White);}
 .open-mutual-fund-list > span{font-size: 20px; line-height: 25px; display: block; font-weight: 600; color: var(--Black); margin-bottom: 16px;}
 .open-mutual-fund-list hr{margin: 16px 0; background-color: var(--RF-Orange-10);}
-.open-mutual-fund-list p{font-size: 14px; line-height: 125%; font-weight: 400; }
+.open-mutual-fund-list p{font-size: 0.875rem; line-height: 125%; font-weight: 400; }
 .open-mutual-fund-list ul.faqs-links{margin: 0;}
 .open-mutual-fund-list ul.faqs-links li:only-child{margin-bottom: 0;}
 .open-mutual-fund-row + p{margin-bottom: 0;}
@@ -30,7 +30,7 @@ ul.open-mutual-links li a.current i{display: none;}
 ul.open-mutual-fund-data{margin: 0; gap: 12px 28px;}
 ul.open-mutual-fund-data li{flex: 0 0 calc(50% - 14px); margin: 0; justify-content: space-between}
 ul.open-mutual-fund-data li::before{display: none;}
-ul.open-mutual-fund-data li > span{font-size: 14px; line-height: 14px;}
+ul.open-mutual-fund-data li > span{font-size: 0.875rem; line-height: 14px;}
 ul.open-mutual-fund-data li > span:last-child{color: var(--Text-Gray2);}
 ul.open-mutual-fund-data li > span.red{color: var(--Pure-Red);}
 ul.open-mutual-fund-data li > span.green{color: var(--Pure-Green);}
@@ -68,13 +68,13 @@ ul.open-mutual-fund-data + hr{margin-bottom: 11px;}
     .open-mutual-lt{width: 100%; margin-bottom: 24px;}
 
     .open-mutual-category{margin-top: 23px; }
-    .open-mutual-category-btn{cursor: pointer; padding: 16px 44px 16px 16px; border: 1px solid var(--Text-Gray); background: var(--Background-Gray); display: block; width: 100%; font-size: 16px; line-height: 24px; color: var(--Black);}
+    .open-mutual-category-btn{cursor: pointer; padding: 16px 44px 16px 16px; border: 1px solid var(--Text-Gray); background: var(--Background-Gray); display: block; width: 100%; font-size: 1rem; line-height: 24px; color: var(--Black);}
     .open-mutual-category-btn i{top: 12px; right: 16px;}
     .open-mutual-category-btn.current i::before {content: "\f077";}
     ul.open-mutual-links{margin: 0; padding: 15px 0; border: 1px solid var(--Text-Gray); border-top: none; background: var(--Background-Gray); display: none;}
     ul.open-mutual-links li{padding: 0 16px; margin: 0 0 12px;}
     ul.open-mutual-links li:last-child{margin-bottom: 0;}
-    ul.open-mutual-links li a{font-size: 16px; line-height: 24px;}
+    ul.open-mutual-links li a{font-size: 1rem; line-height: 24px;}
     ul.open-mutual-links li a i{display: none;}
 
     .open-mutual-head{width: 100%; margin-bottom: 48px;}

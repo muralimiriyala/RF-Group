@@ -38,20 +38,20 @@ ul.faqs-links li a.current em{opacity: 0; visibility: hidden;}
 @media only screen and (max-width: 1023px) and (min-width: 810px){
     .faqs-main{padding: 78px 0 40px; display: block;}
     .faqs-text{padding-bottom: 64px;}
-    .faqs-text span.optional-text{font-size: 16px;}
+    .faqs-text span.optional-text{font-size: 1rem;}
     .faqs-text h1{font-size: 28px;}
-    .faqs-text{font-size: 14px;}
+    .faqs-text{font-size: 0.875rem;}
     ul.faqs-links{margin: 0;}
-    ul.faqs-links li a{font-size: 16px;}
+    ul.faqs-links li a{font-size: 1rem;}
 }
 @media only screen and (max-width: 809px) and (min-width: 200px){
     .faqs-main{padding: 41px 0 40px; display: block;}
     .faqs-text{padding-bottom: 24px;}
-    .faqs-text span.optional-text{font-size: 16px;}
+    .faqs-text span.optional-text{font-size: 1rem;}
     .faqs-text h1{font-size: 28px;}
-    .faqs-text{font-size: 14px;}
+    .faqs-text{font-size: 0.875rem;}
     ul.faqs-links{margin: 0;}
-    ul.faqs-links li a{font-size: 16px;}
+    ul.faqs-links li a{font-size: 1rem;}
     .faqs-desc{margin-bottom: 24px;}
     form.srch-faqs-form{margin-bottom: 44px;}
     .faqs-mobile{padding-top: 40px;}

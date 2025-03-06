@@ -11,8 +11,8 @@ ul.contact-links > li em{color: var(--Blue); font-size: 20px; font-weight: 400; 
 ul.contact-links > li::before{display: none;}
 ul.contact-links > li:last-child{display: flex; gap: 12px; margin-bottom: 0;}
 
-.contact-address{font-size: 16px; line-height: 150%;  color: var(--Text-Gray);}
-.contact-address span{margin-bottom: 5px; font-weight: 700; font-size: 14px; line-height: 125%; letter-spacing: 0.7px; display: block; color: var(--Black);}
+.contact-address{font-size: 1rem; line-height: 150%;  color: var(--Text-Gray);}
+.contact-address span{margin-bottom: 5px; font-weight: 700; font-size: 0.875rem; line-height: 125%; letter-spacing: 0.7px; display: block; color: var(--Black);}
 .contact-right{flex: 1;}
 
 /*-- media css starts here --*/
@@ -25,7 +25,7 @@ ul.contact-links > li:last-child{display: flex; gap: 12px; margin-bottom: 0;}
 }
 @media only screen and (max-width: 809px) and (min-width: 200px){
     .contact-main{display: block; padding: 35px 0 40px;}
-    .contact-left{margin-bottom: 22px; font-size: 14px; line-height: 21px;}
+    .contact-left{margin-bottom: 22px; font-size: 0.875rem; line-height: 21px;}
     ul.contact-links{padding-top: 15px;}
-    .contact-address{font-size: 14px;}
+    .contact-address{font-size: 0.875rem;}
 }

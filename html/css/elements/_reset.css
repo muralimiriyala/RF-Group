@@ -319,8 +319,8 @@ body{margin: 0; font-size: 18px; line-height: 150%; letter-spacing: 0; font-weig
 .d-block{display: block;}
 span.optional-text.ls-07{letter-spacing: 0.7px;}
 span.optional-text{color: var(--Blue); display: block; font-size: 18px; font-weight: 700; line-height: 100%; letter-spacing: 0; margin-bottom: 20px; text-transform: none;}
-span.optional-text.fs-16{font-size: 16px; margin-bottom: 6px;}
-span.optional-text.fs-14{font-size: 14px; margin-bottom: 6px;}
+span.optional-text.fs-16{font-size: 1rem; margin-bottom: 6px;}
+span.optional-text.fs-14{font-size: 0.875rem; margin-bottom: 6px;}
 span.optional-text.white{color: var(--White);}
 span.optional-text.purple{color: var(--RF-Purple);}
 span.optional-text.blue{color: var(--Blue);-webkit-text-fill-color: var(--Blue); opacity: 0.6; background: none;}
@@ -371,9 +371,9 @@ span.optional-text.lg{margin-bottom: 8px; font-size: 1.125rem; line-height: 1.12
 /*-- Dont change here --*/
 .fs-0{font-size: 0; line-height: 0;}
 .fs-12{font-size: 0.75rem; line-height: 1.25rem;}
-.fs-14{font-size: 14px; line-height: 125%;}
+.fs-14{font-size: 0.875rem; line-height: 125%;}
 .fs-15{font-size: 0.938rem; line-height: 1.188rem;}
-.fs-16{font-size: 16px; line-height: 150%;}
+.fs-16{font-size: 1rem; line-height: 150%;}
 .fs-18{font-size: 18px; line-height: 150%;}
 .fs-20{font-size: 20px; line-height: 150%;}
 .fs-22{font-size: 1.375rem; line-height: 2.063rem;}
@@ -618,7 +618,7 @@ ul.slick-dots.orange:not(.pagination) li.slick-active{background-color: var(--RF
     img.aligncenter, img.alignleft, img.alignnone, img.alignright{margin: 25px auto; clear: both; float: none; display: block; width: auto;}
 }
 @media only screen and (max-width: 809px) and (min-width: 200px){
-    body{font-size: 16px;}
+    body{font-size: 1rem;}
     .container{padding: 0 24px;}
     .mobile-0{padding-left: 0; padding-right: 0;}
     .hide-mobile{display: none;} 
@@ -631,8 +631,8 @@ ul.slick-dots.orange:not(.pagination) li.slick-active{background-color: var(--RF
 
 
 
-    .button.transparent{font-size: 16px;}
-    a.text-link{font-size: 16px;}
+    .button.transparent{font-size: 1rem;}
+    a.text-link{font-size: 1rem;}
     
     blockquote{margin: 22px 0 3px; font-size: 24px; font-weight: 400; letter-spacing: -0.48px;}
     span.optional-text.md{margin-bottom: 6px;}

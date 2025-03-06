@@ -4,7 +4,7 @@
 .speaker-icon i{font-size: 20px;}
 .speaker-line { background-color: var(--Blue);  height: calc(100% - 31px); left: 50%; position: absolute; top: 34px; width: 1px; transform: translateX(-50%); }
 .speaker-text{flex: 0 0 calc(100% - 28px); padding-top: 5px; }
-.speaker-text span{font-size: 14px; line-height: 125%; letter-spacing: 0.7px; text-transform: uppercase; font-family: var(--body-font); display: block; margin-bottom: 12px; font-weight: 700;}
+.speaker-text span{font-size: 0.875rem; line-height: 125%; letter-spacing: 0.7px; text-transform: uppercase; font-family: var(--body-font); display: block; margin-bottom: 12px; font-weight: 700;}
 .speaker-wrap h4{font-size: 32px; line-height: 40px; letter-spacing: -0.64px; margin-bottom: 40px;}
 .speaker-wrap hr{margin-top: 40px;}
 .speaker-list:last-child{margin-bottom: 0;}

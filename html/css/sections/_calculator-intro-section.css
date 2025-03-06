@@ -60,7 +60,7 @@
     .calculator-intro-content h1{font-size: 36px; letter-spacing: -.72px; margin-bottom: 24px;}
     .calculator-intro-inner{position: relative;}
     .calculator-intro-icon-inner{height: 80px; padding: 16px; width: 80px;}
-    .calculator-intro-desc{padding-right: 126px; font-size: 16px; line-height: 24px;}
+    .calculator-intro-desc{padding-right: 126px; font-size: 1rem; line-height: 24px;}
     .calculator-intro-icon{right: 20px; top: 0; height: 100%;}
     .calculator-intro-icon-inner svg{width: 48px; height: 48px;}
     .calculator-intro-line {height: calc(100% + 40px);}
