@@ -37,7 +37,7 @@ ul.doc-form-q li a:hover{color: var(--Blue);}
 
 .ui-tier-2-row:not(:first-child){display: none;}
 
-.no-results-message { font-size: 32px; letter-spacing: -.64px; margin-bottom: 18px; color: var(--Black); font-weight: 600; line-height: 125%; font-family: var(--heading-font); }
+.no-results-message { font-size: 2rem; letter-spacing: -.64px; margin-bottom: 18px; color: var(--Black); font-weight: 600; line-height: 125%; font-family: var(--heading-font); }
 
 ul.ui-categorys{justify-content: flex-start; flex-wrap: nowrap; overflow-x: auto; -ms-overflow-style: none; scrollbar-width: none;}
 ul.ui-categorys::-webkit-scrollbar{display: none;}
@@ -56,7 +56,7 @@ ul.ui-categorys li a{white-space: nowrap;}
     .doc-form-main{padding: 80px 0 80px; gap: 80px;}
     .doc-form-aside{width: 350px;}
     .doc-form-article{width: calc(100% - 430px);}
-    .doc-form-text h1{font-size: 48px; margin-bottom: 27px;}
+    .doc-form-text h1{font-size: 3rem; margin-bottom: 27px;}
     .page-template-service-tier-3-fund-detail .doc-form-desc h2{margin-bottom: 25px;}
 }
 @media screen and (max-width: 1259px) and (min-width: 1024px){
@@ -80,7 +80,7 @@ ul.ui-categorys li a{white-space: nowrap;}
     .doc-form-aside{padding-bottom: 25px;}
     .doc-form-desc span.optional-text:not(.fs-16){font-size: 1rem;}
     .doc-form-desc hr{margin-bottom: 23px;}
-    .doc-form-text h1{font-size: 36px;}
+    .doc-form-text h1{font-size: 2.25rem;}
     .doc-form-text{font-size: 0.875rem;}
     .doc-form-text span.optional-text.fs-16{padding-top: 7px;}
     .doc-form-rows{gap: 38px;}

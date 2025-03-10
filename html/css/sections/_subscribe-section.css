@@ -33,9 +33,9 @@ body .subscribe-email .with_frm_style .frm_message p { color: var(--White);}
     .subscribe-email{flex: 100%;}
 }
 @media screen and (max-width: 809px) and (min-width: 200px) {
-    .subscribe-text h3{font-size: 32px; line-height: 40px; letter-spacing: -0.64px;}
+    .subscribe-text h3{font-size: 2rem; line-height: 40px; letter-spacing: -0.64px;}
     body.category-news-updates .subscribe-text h3,
-    body.single-post .subscribe-text h3{font-size: 24px; line-height: 30px; letter-spacing: -0.48px;}
+    body.single-post .subscribe-text h3{font-size: 1.5rem; line-height: 30px; letter-spacing: -0.48px;}
     body .subscribe-email .form_field_wrapper > .form-field{width: 100%;}
     body .subscribe-email .frm_forms .frm_form_fields .frm_form_field input{padding: 13px 16px 13px 40px;}
     body .subscribe-email .frm_forms .frm_form_fields .form_field_wrapper .frm_form_field:first-child{display: block;}

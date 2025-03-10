@@ -5,10 +5,10 @@
 .service-who-list-wrap{gap: 40px;}
 .service-who-list{flex: 0 0 calc(50% - 20px);}
 .service-who-list p{font-size: 1rem;}
-.service-who-desc h4{font-size: 40px;}
+.service-who-desc h4{font-size: 2.5rem;}
 .service-who-lt hr, .service-who-rt hr{width: 64px; background-color: var(--RF-Purple); margin:  0 0 18px;}
-.service-who-lt .service-icon em{font-size: 40px; margin-bottom: 16px; font-weight: 300; color: var(--RF-Purple)}
-.service-who-rt .service-icon em{font-size: 40px; margin-bottom: 16px; font-weight: 300; color: var(--Text-gray); opacity: 0.5;}
+.service-who-lt .service-icon em{font-size: 2.5rem; margin-bottom: 16px; font-weight: 300; color: var(--RF-Purple)}
+.service-who-rt .service-icon em{font-size: 2.5rem; margin-bottom: 16px; font-weight: 300; color: var(--Text-gray); opacity: 0.5;}
 .service-who-list h5{margin-bottom: 8px;}
 
 
@@ -29,7 +29,7 @@
 .service-who-list:last-child{margin-bottom: 0;}
 .service-who-rt{padding: 24px;}
 
-.service-who-desc h4 { font-size: 28px; }
+.service-who-desc h4 { font-size: 1.75rem; }
 
 
 

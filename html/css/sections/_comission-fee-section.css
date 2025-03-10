@@ -11,7 +11,7 @@
 .comission-right-fee{flex: 0 0 248px; text-align: right;}
 
 .comission-fee-lists{padding: 40px 0 0;}
-.counter-main{font-size: 72px; line-height: 100%; text-transform: uppercase; font-weight: 700; color: var(--Black); margin-bottom: 18px; display: block; }
+.counter-main{font-size: 4.5rem; line-height: 100%; text-transform: uppercase; font-weight: 700; color: var(--Black); margin-bottom: 18px; display: block; }
 .counter-back{display: none; color: transparent; -webkit-text-stroke: 1px var(--Blue); top: 2px; z-index: -1; left: 2px;}
 .counter-text{left: -9px;}
 
@@ -40,10 +40,10 @@
 }
 @media only screen and (max-width: 1023px) and (min-width: 810px){
     .comission-fee-main { padding: 64px 0; }
-    .comission-left-fee{font-weight: 600; font-size: 36px; letter-spacing: -0.72px; } 
+    .comission-left-fee{font-weight: 600; font-size: 2.25rem; letter-spacing: -0.72px; } 
     .comission-fee{margin: 0 0 32px;}
     .comission-fee-head { padding: 32px 0; }
-    .comission-fee-head h1{font-size: 64px; line-height: 100%; margin-bottom: 32px;}
+    .comission-fee-head h1{font-size: 4rem; line-height: 100%; margin-bottom: 32px;}
     .comission-fee-lists { padding: 32px 0 0;  gap: 32px;}
     .comission-fee-list{flex: 0 0 calc(50% -  16px);}
     .comission-fee-list-inner{margin-top: auto;}
@@ -57,5 +57,5 @@
     .comission-fee-lists { padding: 24px 0 0; }
     .comission-fee-list{margin-bottom: 24px;}
     .comission-fee-list:last-child{margin-bottom: 0;}
-    .comission-fee-rt{font-size: 18px;}
+    .comission-fee-rt{font-size: 1.125rem;}
 }

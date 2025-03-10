@@ -2,8 +2,8 @@
 .management-bg{height: calc(100% + 80px);}
 .no_next_section .management-bg{height: 100%;}
 .management-block{color: var(--White); text-align: center; }
-.management-block p{font-size: 18px; font-weight: 700; line-height: 100%; margin-bottom: 32px;}
-.management-block h3{font-size: 40px; font-weight: 600; line-height: 125%; letter-spacing: -0.8px; color: var(--White); margin-bottom: 30px;}
+.management-block p{font-size: 1.125rem; font-weight: 700; line-height: 100%; margin-bottom: 32px;}
+.management-block h3{font-size: 2.5rem; font-weight: 600; line-height: 125%; letter-spacing: -0.8px; color: var(--White); margin-bottom: 30px;}
 .navy-block-btns { display: block; margin: 0 auto; max-width: 458px; width: 100%; }
 .navy-block-btn{ border: 1px solid var(--White); display: flex; gap: 8px; padding: 8px; }
 .navy-block-btn .button { font-size: 1rem; gap: 8px; justify-content: center; padding: 12px 8px; width: 100%; flex: 1;}
@@ -15,7 +15,7 @@
 .management-team-list{ text-align: center; display: flex; flex-direction: column; margin-top: auto;}
 .management-team-image{margin-bottom: 16px;}
 .management-team-info{margin-top: auto;}
-.management-team-info h4{font-size: 24px; font-weight: 600; line-height: 125%; letter-spacing: -0.48px; margin-bottom: -3px;}
+.management-team-info h4{font-size: 1.5rem; font-weight: 600; line-height: 125%; letter-spacing: -0.48px; margin-bottom: -3px;}
 .management-team-info span{font-size: 0.875rem; color: var(--Text-Gray); font-weight: 400;}
 
 .management-team-info hr{border: none; border-radius: 1px; display: block; margin: 12px auto 12px;}
@@ -28,7 +28,7 @@
 
 .page-template-service-tier-1 .management-section { background-image: linear-gradient(to top,var(--Gray) calc(100% - var(--top-value)),var(--White) var(--top-value)); } 
 
-.management-team-info h4 a{font-size: 24px; font-weight: 600; letter-spacing: -0.48px;}
+.management-team-info h4 a{font-size: 1.5rem; font-weight: 600; letter-spacing: -0.48px;}
 
 .management-section.management-top-space{margin-top: 80px;}
 
@@ -69,7 +69,7 @@
   .management-team-list:last-child{margin-bottom: 0;}
 }
 @media only screen and (max-width: 374px) and (min-width: 200px){
-  .management-block h3{font-size: 28px;}
+  .management-block h3{font-size: 1.75rem;}
   .management-team-list{width: 100%;}
 
   .management-team-list:first-child{margin-top: auto;}

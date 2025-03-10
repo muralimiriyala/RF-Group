@@ -2,8 +2,8 @@
 ul.action-links{padding: 40px 0; gap: 32px; margin: 0;}
 ul.action-links > li{margin: 0; flex: 1; border: 1px solid var(--Blue-Reverse); padding: 8px;}
 ul.action-links > li::before{display: none;}
-ul.action-links > li > a{gap: 16px; background: var(--White); padding: 16px; font-size: 20px; line-height: 25px; color: var(--Dark); height: 100%;}
-.action-link-text{flex: 1; font-size: 20px; line-height: 25px;}
+ul.action-links > li > a{gap: 16px; background: var(--White); padding: 16px; font-size: 1.25rem; line-height: 25px; color: var(--Dark); height: 100%;}
+.action-link-text{flex: 1; font-size: 1.25rem; line-height: 25px;}
 .action-link-icon{flex: 0 0 21px;}
 .action-link-icon > em{color: var(--Blue); transition: var(--b-transition);}
 .action-link-icon > em:first-child{left: 0; opacity: 0; position: absolute; transform: translateX(calc(-100% - 10px));}

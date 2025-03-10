@@ -60,7 +60,7 @@ ul.form-js-links li a.mPS2id-clicked{color: var(--Blue);}
     .doc-repo-main{padding: 80px 0 80px; gap: 80px;}
     .doc-repo-aside{flex: 0 0 350px;}
     .doc-repo-article{flex: 1; gap: 80px;}
-    .doc-repo-text h1{font-size: 48px;}
+    .doc-repo-text h1{font-size: 3rem;}
 }
 @media screen and (max-width: 1199px) and (min-width: 1024px){
     .doc-repo-main{gap: 60px;}
@@ -78,7 +78,7 @@ ul.form-js-links li a.mPS2id-clicked{color: var(--Blue);}
     .doc-repo-main{padding: 40px 0 42px; display: block;}
     .doc-repo-aside{padding-bottom: 37px;}
     .doc-repo-desc span.optional-text:not(.fs-16){font-size: 1rem;}
-    .doc-repo-text h1{font-size: 36px;}
+    .doc-repo-text h1{font-size: 2.25rem;}
     .doc-repo-text{font-size: 0.875rem;}
     .doc-repo-text span.optional-text.fs-16{padding-top: 7px;}
     .doc-repo-rows{gap: 38px;}

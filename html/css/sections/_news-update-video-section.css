@@ -4,7 +4,7 @@
 .news-update-video-banner-text{color: var(--White); flex: 1;}
 .news-update-video-banner-form{flex: 1; margin-top: -3px;}
 /* .news-update-video-banner-form .frm-show-form .frm_error_style{display: none; } */
-.news-update-video-banner-text h1{color: var(--White); font-size: 40px; margin-bottom: 22px; letter-spacing: -0.8px;}
+.news-update-video-banner-text h1{color: var(--White); font-size: 2.5rem; margin-bottom: 22px; letter-spacing: -0.8px;}
 .news-update-video-banner-text hr[data-animate]{margin-bottom: 20px;}
 .news-update-video-banner-text p{margin-bottom: 0px; font-weight: 300;}
 .news-update-video-banner-text span.optional-text{margin-bottom: 17px;}
@@ -13,7 +13,7 @@
 
 .video-background-controls {top: calc(50% - 41px)!important; left: calc(50% - 23px)!important; right: auto !important; }
 .video-background-controls button.play-toggle{border-radius: 50%; width: 80px; height: 80px; background: transparent;}
-.video-background-controls button.play-toggle i{font-size: 24px;}
+.video-background-controls button.play-toggle i{font-size: 1.5rem;}
 .video-background-controls button.play-toggle i::before{content: '\f04c';}
 .video-background-controls button.play-toggle.paused i::before{content: '\f04b';}
 .video-background-controls button.play-toggle::before{backdrop-filter: blur(4px); background: rgba(37,40,42,.25); width: 100%; height: 100%;}
@@ -27,8 +27,8 @@
 
 
 body .news-update-video-banner-form .frm_forms .frm_form_fields .frm_fields_container{gap: 12px;}
-body .news-update-video-banner-form .frm_forms .frm_form_fields .frm_form_field input{background: var(--White-16); background-size: 14px; background-repeat: no-repeat; background-position: 15px 50%; padding: 12px 16px 11px 38px; color: var(--White); border: 1px solid var(--White); box-shadow: none; font-size: 18px; font-weight: 400;}
-body .news-update-video-banner-form .frm_forms .frm_form_fields .frm_form_field input::placeholder{color: var(--White); font-size: 18px;}
+body .news-update-video-banner-form .frm_forms .frm_form_fields .frm_form_field input{background: var(--White-16); background-size: 14px; background-repeat: no-repeat; background-position: 15px 50%; padding: 12px 16px 11px 38px; color: var(--White); border: 1px solid var(--White); box-shadow: none; font-size: 1.125rem; font-weight: 400;}
+body .news-update-video-banner-form .frm_forms .frm_form_fields .frm_form_field input::placeholder{color: var(--White); font-size: 1.125rem;}
 body .news-update-video-banner-form .frm_forms .frm_form_fields .frm_form_field input:not([type="file"]):not([type="range"]):not([readonly]):focus{background-color: var(--White-25); border-color: var(--White-25); color: var(--White);}
 body .news-update-video-banner-form .frm_forms .frm_submit{width: 100%; padding-top: 12px;}
 body .news-update-video-banner-form .frm_forms .frm_submit button.frm_button_submit{width: 100%; color: var(--White) !important;}
@@ -54,7 +54,7 @@ span.lock-icon{ width: 64px; height: 64px; top: 50%; left: 50%; background: rgba
 }
 @media screen and (max-width: 1439px) and (min-width: 1024px){
     .news-update-video-banner-wrap{padding: 78px 40px 87px; gap: 32px;}
-    .news-update-video-banner-text h1{font-size: 36px;}
+    .news-update-video-banner-text h1{font-size: 2.25rem;}
     .news-update-video-banner-main{ width: calc(100% - 284px);}
 }
 @media screen and (min-width: 810px){
@@ -73,15 +73,15 @@ span.lock-icon{ width: 64px; height: 64px; top: 50%; left: 50%; background: rgba
     .news-update-video-article{ padding: 48px 48px 32px!important;}
     .news-update-video-aside {padding-bottom: 64px; background: var(--White);}
     .news-update-video-aside .social-share-icons{padding: 8px 40px; ;}
-    .news-update-video-banner-text h1 {font-size: 36px;}
+    .news-update-video-banner-text h1 {font-size: 2.25rem;}
     .news-update-video-banner-wrap { padding: 48px 40px 122px; gap: 72px; }
 }
 @media screen and (max-width: 809px) and (min-width: 200px) {
     .news-update-video-banner-main{padding: 0;}
     .news-update-video-banner-overlay{opacity: 0.5;}
     .news-update-video-banner-image{position: relative; display: none;}
-    .news-update-video-banner-text{padding: 0; font-size: 18px; background-color: var(--Black); margin-bottom: 24px; }
-    .news-update-video-banner-text h1{margin-bottom: 21px; font-size: 28px; line-height: 35px;}
+    .news-update-video-banner-text{padding: 0; font-size: 1.125rem; background-color: var(--Black); margin-bottom: 24px; }
+    .news-update-video-banner-text h1{margin-bottom: 21px; font-size: 1.75rem; line-height: 35px;}
 
     .news-update-video-banner-wrap{display: block; background-color: var(--Black); padding: 40px 24px 52px;}
     .news-update-video-banner{position: relative;}

@@ -7,7 +7,7 @@
 .faqs-desc hr[data-animate]{margin-bottom: 24px;}
 
 form.srch-faqs-form{margin-bottom: 37px;} 
-form.srch-faqs-form input{padding: 15px 50px 15px 16px; font-size: 18px; line-height: 18px; font-weight: 400; color: var(--Black);}
+form.srch-faqs-form input{padding: 15px 50px 15px 16px; font-size: 1.125rem; line-height: 18px; font-weight: 400; color: var(--Black);}
 form.srch-faqs-form input::placeholder{color: var(--Black-50);}
 button[type="submit"].srch-faqs-btn{right: 16px; top: 50%; transform: translateY(-50%); padding: 0; background-color: transparent; color: var(--Blue);}
 button[type="submit"].srch-faqs-btn:hover{color: var(--Black);}
@@ -39,7 +39,7 @@ ul.faqs-links li a.current em{opacity: 0; visibility: hidden;}
     .faqs-main{padding: 78px 0 40px; display: block;}
     .faqs-text{padding-bottom: 64px;}
     .faqs-text span.optional-text{font-size: 1rem;}
-    .faqs-text h1{font-size: 28px;}
+    .faqs-text h1{font-size: 1.75rem;}
     .faqs-text{font-size: 0.875rem;}
     ul.faqs-links{margin: 0;}
     ul.faqs-links li a{font-size: 1rem;}
@@ -48,7 +48,7 @@ ul.faqs-links li a.current em{opacity: 0; visibility: hidden;}
     .faqs-main{padding: 41px 0 40px; display: block;}
     .faqs-text{padding-bottom: 24px;}
     .faqs-text span.optional-text{font-size: 1rem;}
-    .faqs-text h1{font-size: 28px;}
+    .faqs-text h1{font-size: 1.75rem;}
     .faqs-text{font-size: 0.875rem;}
     ul.faqs-links{margin: 0;}
     ul.faqs-links li a{font-size: 1rem;}

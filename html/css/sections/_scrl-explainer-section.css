@@ -55,6 +55,6 @@
     .scrl-explainer-inner{padding: 24px;}
 }
 @media only screen and (max-width: 374px) and (min-width: 200px){
-    .scrl-explainer-btns .button{font-size: 13px;}
+    .scrl-explainer-btns .button{font-size: 0.813rem;}
     
 }

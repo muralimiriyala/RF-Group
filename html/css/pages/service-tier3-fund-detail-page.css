@@ -38,7 +38,7 @@
  .fund-detail-image {width: 80px; height: 80px;  border: 4px solid var(--RF-Orange);}
 .fund-detail-image figure{padding: 0;}
 .fund-detail-image figure img{border-radius: 50%; max-width: 80px; max-height: 80px;}
-.fund-detail-info h4{margin-bottom: 0; font-size: 20px;}
+.fund-detail-info h4{margin-bottom: 0; font-size: 1.25rem;}
 .fund-detail-info h4 a:hover{color: var(--RF-Orange);}
 .fund-detail-info  p{margin-bottom: 8px;}
 /* .fund-detail-info  p:hover{color: var(--RF-Orange)} */
@@ -109,7 +109,7 @@ table.fees-expenses-table tr:nth-child(n+4) td:first-child{padding-left: 32px;}
     .asset-performance-btn-left{padding-right: 32px; gap: 8px;}
     .asset-performance-btn em{top: 50%; right: 16px; transform: translateY(-50%);}
   
-    .asset-performance-report em{font-size: 20px; width: 20px; height: 20px;}
+    .asset-performance-report em{font-size: 1.25rem; width: 20px; height: 20px;}
     .asset-performance-report-lt{display: flex; align-items: center; gap: 8px;}
     .asset-performance-lt{margin-bottom: 24px;}
 
@@ -120,9 +120,9 @@ table.fees-expenses-table tr:nth-child(n+4) td:first-child{padding-left: 32px;}
     
 
     .fund-detail-report-main {padding: 40px 0; display: block;}
-    .fund-detail-report-article .doc-form-title h2{font-size: 32px;}
+    .fund-detail-report-article .doc-form-title h2{font-size: 2rem;}
     .fund-detail-report-article .doc-form-report span { margin-bottom: 8px; display: block; line-height: 100%;}
-    .fund-detail-report-article .doc-repo-title h2{font-size: 32px;}
+    .fund-detail-report-article .doc-repo-title h2{font-size: 2rem;}
     .fund-detail-report-article .doc-repo-head {gap: 20px;}
     .fund-detail-report-article ul.ui-years li a { padding: 12px 20px; }
     .fund-detail-report-article ul.faqs-links{margin: 24px 0 40px;}

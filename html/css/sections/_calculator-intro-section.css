@@ -19,7 +19,7 @@
 .intro-aquamarine .calculator-intro-content ul.breadcrumbs > li:first-child{color: var(--RF-Aquamarine);}
 .intro-aquamarine .calculator-intro-content ul.breadcrumbs > li a:hover{color: var(--Black);}
 
-.calculator-intro-content h1{font-size: 48px; letter-spacing: -0.96px; margin-bottom: 24px;}
+.calculator-intro-content h1{font-size: 3rem; letter-spacing: -0.96px; margin-bottom: 24px;}
 
 .intro-yellow .calculator-intro-icon svg path{stroke: var(--Yellow-3);}
 .intro-blue .calculator-intro-icon svg path{stroke: var(--Blue);}
@@ -57,7 +57,7 @@
 }
 @media screen and (max-width: 809px) and (min-width: 200px){
     .calculator-intro-main{padding: 40px 0;}
-    .calculator-intro-content h1{font-size: 36px; letter-spacing: -.72px; margin-bottom: 24px;}
+    .calculator-intro-content h1{font-size: 2.25rem; letter-spacing: -.72px; margin-bottom: 24px;}
     .calculator-intro-inner{position: relative;}
     .calculator-intro-icon-inner{height: 80px; padding: 16px; width: 80px;}
     .calculator-intro-desc{padding-right: 126px; font-size: 1rem; line-height: 24px;}

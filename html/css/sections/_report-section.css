@@ -19,7 +19,7 @@ ul.report-links li a.current em{display: none;}
 
 .report-rt p{font-size: 0.875rem; line-height: 14px; color: var(--Text-Gray); margin-bottom: 0;}
 .report-fund-list{padding: 24px;}
-.report-fund-list > span{font-size: 20px; line-height: 25px; display: block; font-weight: 600; color: var(--Black); margin-bottom: 16px;}
+.report-fund-list > span{font-size: 1.25rem; line-height: 25px; display: block; font-weight: 600; color: var(--Black); margin-bottom: 16px;}
 ul.report-fund-data{margin: 0; gap: 12px 28px;}
 ul.report-fund-data li{flex: 0 0 calc(50% - 14px); margin: 0; justify-content: space-between}
 ul.report-fund-data li::before{display: none;}

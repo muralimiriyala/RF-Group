@@ -1,10 +1,10 @@
 .service-fund-banner-main{padding: 80px 0 104px;}
 .service-fund-banner-desc{width: 960px; padding-bottom: 40px;}
-.service-fund-banner-desc h1{font-size: 48px; letter-spacing: -0.96px; line-height: 125%; margin-bottom: 44px;}
+.service-fund-banner-desc h1{font-size: 3rem; letter-spacing: -0.96px; line-height: 125%; margin-bottom: 44px;}
 
 .service-fund-banner-row{gap: 40px; padding: 40px 0;}
 .service-fund-banner-list{flex: 0 0 calc(25% - 30px); background-color: var(--White); padding: 24px 24px 18px;}
-.service-fund-banner-list > span { color: var(--Black); display: block; font-size: 20px; font-weight: 600; line-height: 25px; margin-bottom: 16px; }
+.service-fund-banner-list > span { color: var(--Black); display: block; font-size: 1.25rem; font-weight: 600; line-height: 25px; margin-bottom: 16px; }
 .service-fund-banner-list > span > a{color: var(--Black);}
 .service-fund-banner-list > span > a:hover{color: var(--Blue);}
 .service-fund-banner-list p { font-size: 0.875rem; font-weight: 400; line-height: 125%; }
@@ -66,7 +66,7 @@ body.page-template-service-tier-1 .fund-group-desc h2{font-weight: 600;}
 @media screen and (max-width: 1023px) and (min-width: 810px){
     .service-fund-banner-main{display: block; padding: 64px 0 90px;}
     .service-fund-banner-desc{width: inherit; padding-bottom: 32px;}
-    .service-fund-banner-desc h1 { font-size: 40px; margin-bottom: 32px;}
+    .service-fund-banner-desc h1 { font-size: 2.5rem; margin-bottom: 32px;}
     ul.service-tier-order { margin: 0 0 28px; }
     .service-fund-banner-row {padding: 32px 0; gap: 20px;}
     .service-fund-banner-list {flex: 0 0 calc(50% - 10px);}
@@ -76,7 +76,7 @@ body.page-template-service-tier-1 .fund-group-desc h2{font-weight: 600;}
     .fund-group-desc{padding-bottom: 64px;}
     .fund-group-row { gap: 32px; }
     .fund-group-list{padding: 24px;}
-    .fund-group-list h3{font-size: 24px;}
+    .fund-group-list h3{font-size: 1.5rem;}
 
     .page-template-service-tier-2 .faqs-main{padding: 60px 0 64px;}
     .page-template-service-tier-2 .management-team-row { padding: 0 0 88px; }
@@ -87,15 +87,15 @@ body.page-template-service-tier-1 .fund-group-desc h2{font-weight: 600;}
     .service-fund-banner-main { padding: 40px 0 65px; }
     .service-fund-banner-main ul.service-tier-order li:first-child { min-width: 66px; }
     .service-fund-banner-desc{width: inherit; padding-bottom: 24px;}
-    .service-fund-banner-desc h1 {font-size: 36px; margin-bottom: 24px;}
-    .service-fund-banner-desc p{font-size: 18px; padding-bottom: 0; line-height: 150%;}
+    .service-fund-banner-desc h1 {font-size: 2.25rem; margin-bottom: 24px;}
+    .service-fund-banner-desc p{font-size: 1.125rem; padding-bottom: 0; line-height: 150%;}
     .service-fund-banner-row {padding: 24px 0; gap: 24px;}
     .service-fund-banner-list{flex: 0 0 288px;}
 
     .fund-groups-main { padding: 40px 0;}
     body.page-template-service-tier-1 .fund-groups-main {padding: 52px 0 40px;}
     body.page-template-service-tier-1 .fund-groups-main::after{margin: 0;}
-    body.page-template-service-tier-1 .fund-group-desc{font-size: 18px;}
+    body.page-template-service-tier-1 .fund-group-desc{font-size: 1.125rem;}
     .fund-group-desc h2 {margin-bottom: 24px;}
     .fund-group-desc{padding-bottom: 48px;}
     .fund-group-row{display: flex; gap: 24px;}

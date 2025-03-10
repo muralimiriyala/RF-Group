@@ -6,7 +6,7 @@
 .landing-main{min-height: 1024px;}
 .landing-text{max-width: 800px; align-items: center; margin-bottom: 40px}
 .landing-logo{flex: 0 0 60px;}
-.landing-desc{font-size: 22px; color: var(--White); line-height: 33px; letter-spacing: -0.44px; font-family: var(--heading-font); flex: 1; padding-left: 24px; margin-left: 24px; border-left: 1px solid rgba(255, 255, 255, 0.25);}
+.landing-desc{font-size: 1.375rem; color: var(--White); line-height: 33px; letter-spacing: -0.44px; font-family: var(--heading-font); flex: 1; padding-left: 24px; margin-left: 24px; border-left: 1px solid rgba(255, 255, 255, 0.25);}
 
 .landing-flag-lists{gap: 120px; justify-content: center;}
 .landing-flag-item{padding: 22px 0;}
@@ -27,11 +27,11 @@
   .landing-flag-item{padding: 8px 0; flex: 0 0 80px;}
   .landing-flag-item::before{right: -20px;}
   .landing-flag-item img{max-width: 80px;}
-  .landing-desc-mob{font-size: 22px; color: var(--White); line-height: 33px; letter-spacing: -0.44px; font-family: var(--heading-font); width: 100%; text-align: center;}
+  .landing-desc-mob{font-size: 1.375rem; color: var(--White); line-height: 33px; letter-spacing: -0.44px; font-family: var(--heading-font); width: 100%; text-align: center;}
 }
 @media screen and (max-width: 374px) and (min-width: 200px){
   .landing-flag-item{padding: 8px 0; flex: 0 0 60px;}
   .landing-flag-item img{max-width: 60px;}
-  .landing-flag-item span{font-size: 11px; line-height: 14.5px;}
-  .landing-desc-mob{font-size: 18px; line-height: 26px;}
+  .landing-flag-item span{font-size: 0.688rem; line-height: 14.5px;}
+  .landing-desc-mob{font-size: 1.125rem; line-height: 26px;}
 }

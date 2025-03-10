@@ -93,8 +93,8 @@ body .modal-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submi
     body .modal-form .frm_forms .frm_form_fields .frm_form_field.vertical_radio .frm_radio label{opacity: 0.75;}
 
     .modal-image{margin-bottom: 21px;}
-    .modal-left span.optional-text{font-size: 18px;}
-    .modal-left .h3{font-size: 32px; margin-bottom: 14px;}
+    .modal-left span.optional-text{font-size: 1.125rem;}
+    .modal-left .h3{font-size: 2rem; margin-bottom: 14px;}
     .modal-left hr{margin-bottom: 14px;}
 }
 @media screen and (max-width: 389px) and (min-width: 200px){

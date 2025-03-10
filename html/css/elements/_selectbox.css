@@ -5,8 +5,8 @@ body .selectBox-dropdown span.selectBox-label a{color: inherit;}
 body .selectBox-dropdown .selectBox-label{padding: 0; line-height: normal; display: block; white-space: nowrap; text-overflow: ellipsis;}
 body .selectBox-dropdown.selectBox-menuShowing{border-radius: 0;}
 
-body .white-dropdown.selectBox-dropdown{font-size: 20px; font-family: var(--heading-font); background: var(--White); border: 1px solid var(--Light-Gray);}
-body .white-dropdown.selectBox-dropdown .selectBox-arrow{font-size: 24px; top: calc(50% - 2px);}
+body .white-dropdown.selectBox-dropdown{font-size: 1.25rem; font-family: var(--heading-font); background: var(--White); border: 1px solid var(--Light-Gray);}
+body .white-dropdown.selectBox-dropdown .selectBox-arrow{font-size: 1.5rem; top: calc(50% - 2px);}
 body ul.selectBox-dropdown-menu.white-dropdown-selectBox-dropdown-menu{background-color: var(--White); border: 1px solid var(--Light-Gray);}
 body .white-dropdown.selectBox-dropdown .selectBox-label{line-height: 20px;}
 body .selectBox-dropdown .selectBox-arrow{right: 16px; top: calc(50% + 1px); transform: translateY(-50%); position: absolute; font-family: "Font Awesome 6 Sharp";  font-size: 0.875rem; color: var(--Blue); width: auto; height: auto; background: none; font-weight: 400;}
