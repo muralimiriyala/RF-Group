@@ -25,16 +25,17 @@ export const retired = {
         }
       });
     });
-    if (!_.$wrap) return;
-    _.$body.addEventListener('click', (e) => {
-      const $container = document.querySelector(
-        'ul.choose-selectBox-dropdown-menu'
-      );
-      if (!_.$wrap.contains(e.target) && !$container.contains(e.target)) {
-        _.$ele.forEach((ele) => {
-          ele.style.maxHeight = `0px`;
-        });
-      }
-    });
+    if (_.$wrap) {
+      _.$body.addEventListener('click', (e) => {
+        const $container = document.querySelector(
+          'ul.choose-selectBox-dropdown-menu'
+        );
+        if (!_.$wrap.contains(e.target) && !$container.contains(e.target)) {
+          _.$ele.forEach((ele) => {
+            ele.style.maxHeight = `0px`;
+          });
+        }
+      });
+    }
   },
 };

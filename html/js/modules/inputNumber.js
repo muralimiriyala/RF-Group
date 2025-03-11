@@ -4,7 +4,7 @@ export const inputNumber = {
     const _ = this;
     _.$ele.forEach((ele) => {
       ele.addEventListener('input', function (e) {
-        this.value = this.value.replace(/[^0-9.-]/g, '');
+        this.value = this.value.replace(/[^0-9]/g, '');
       });
     });
   },
