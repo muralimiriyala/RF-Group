@@ -4,9 +4,9 @@
 
 table.calculator-table{margin: 0;}
 table.calculator-table, table.calculator-table th {border: none;}
-table.calculator-table tr > th{background-color: var(--Background-Gray); color: var(--Text-Gray); font-size: 14px; line-height: 14px; font-weight: 600; letter-spacing: 0.7px; text-transform: uppercase; text-align: right; padding: 21px 16px;}
+table.calculator-table tr > th{background-color: var(--Background-Gray); color: var(--Text-Gray); font-size: 0.875rem; line-height: 14px; font-weight: 600; letter-spacing: 0.7px; text-transform: uppercase; text-align: right; padding: 21px 16px;}
 table.calculator-table tr > th:first-child{padding-left: 32px; text-align: left;}
-table.calculator-table tr > td{font-size: 20px; line-height: 20px; color: var(--Black); text-align: right;}
+table.calculator-table tr > td{font-size: 1.25rem; line-height: 20px; color: var(--Black); text-align: right;}
 table.calculator-table tr > td span{margin-right: 15px;}
 table.calculator-table tr > td span i{color: var(--Blue);}
 table.calculator-table tr > td:first-child{text-align: left;}

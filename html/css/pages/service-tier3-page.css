@@ -2,7 +2,7 @@
 .service-years-main { gap: 80px; padding: 80px 0 80px; }
 .service-year-aside { flex: 0 0 78px; }
 .service-year-article{ flex: 0 0 calc(100% - 159px); display: flex; flex-direction: column;}
-.service-year-list h2{font-size: 48px; line-height: 125%; letter-spacing: -0.96px; margin-bottom: 20px;}
+.service-year-list h2{font-size: 3rem; line-height: 125%; letter-spacing: -0.96px; margin-bottom: 20px;}
 .service-years-row{gap: 40px;}
 .service-years-company{background-color: var(--White); padding: 20px; flex: 0 0 calc(25% - 30px);}
 .service-company-img{margin-bottom: 20px; padding: 16px; border: 1px solid var(--Black-10);}
@@ -10,9 +10,9 @@
 span.service-company-name{color: var(--Text-Gray); display: block; margin-bottom: 12px;}
 .service-company-desc{color: var(--Text-Gray); padding-top: 16px;}
 
-.service-company-text h3{font-size: 24px; line-height: 125%; font-weight: 600; margin-bottom: 12px;}
+.service-company-text h3{font-size: 1.5rem; line-height: 125%; font-weight: 600; margin-bottom: 12px;}
 .service-company-text ul{margin: 0 0 0 10px;}
-.service-company-text ul > li{font-size: 14px; font-weight: 400; line-height: 150%;}
+.service-company-text ul > li{font-size: 0.875rem; font-weight: 400; line-height: 150%;}
 .service-company-text ul > li::before{left: -10px; background-color: var(--Blue); border-radius: 8px; width: 4px; height: 4px; top: 9px;}
 .service-company-text ul > li:last-child{margin-bottom: 0;}
 
@@ -32,7 +32,7 @@ ul.service-history-years > li a.active { background-color: var(--White); color: 
 ul.service-history-years > li a::before { background-color: var(--Blue); border-radius: 0; content: ""; display: block; height: 100%; left: 0; opacity: 0; position: absolute; top: 0; transition: var(--b-transition); width: 4px;}
 ul.service-history-years > li::before{display: none;}
 ul.service-history-years > li a.active { background-color: var(--White); color: var(--Black); }
-ul.service-history-years > li a { color: var(--Text-Gray); display: block; font-family: var(--heading-font); font-size: 20px; padding: 9px 16px; }
+ul.service-history-years > li a { color: var(--Text-Gray); display: block; font-family: var(--heading-font); font-size: 1.25rem; padding: 9px 16px; }
 
 
 /*-- media css starts here --*/
@@ -47,9 +47,9 @@ ul.service-history-years > li a { color: var(--Text-Gray); display: block; font-
     .service-years-main{padding: 64px 0; gap: 40px;}
     .service-years-row{gap: 32px;}
     .service-years-company{flex: 0 0 calc(50% - 25px);}
-    .service-company-text h3 { font-size: 20px;}
+    .service-company-text h3 { font-size: 1.25rem;}
     .service-year-article { gap: 64px;}
-    .service-year-list h2 { font-size: 40px;}
+    .service-year-list h2 { font-size: 2.5rem;}
 }
 @media only screen and (max-width: 809px) and (min-width: 200px){
     .service-years-main{padding: 48px 0 40px; display: block;}
@@ -57,8 +57,8 @@ ul.service-history-years > li a { color: var(--Text-Gray); display: block; font-
     .service-year h2{display: none;}
     .service-years-company {flex:  0 0 260px;}
 
-    span.service-company-name {font-size: 16px;}
-    .service-company-text h3 {font-size: 18px; letter-spacing: -0.36px;}
+    span.service-company-name {font-size: 1rem;}
+    .service-company-text h3 {font-size: 1.125rem; letter-spacing: -0.36px;}
     .service-years-main .about-history-appends {margin-top: 10px;}
     .service-year-article .slick-list{overflow: inherit;}
     .service-years-row{gap: 24px;}
@@ -69,7 +69,7 @@ ul.service-history-years > li a { color: var(--Text-Gray); display: block; font-
 
     .service-history-years.sticky-element{display: none;}
     .service-history-btn { border: 1px solid var(--Text-Gray); cursor: pointer; justify-content: space-between; padding: 15px 16px; transition: var(--b-transition); }
-    .service-history-btn em{font-size: 20px;}
+    .service-history-btn em{font-size: 1.25rem;}
     .service-history-btn.open em{transform: rotate(180deg);  transition: var(--b-transition)}
 
     ul.service-history-years{display: none; max-height: 300px; width: 100%; top: 100%; left: 0; overflow-y: auto; box-shadow: 0 2px 2px #dfdfdf; background-color: var(--White); position: absolute;}
@@ -78,6 +78,6 @@ ul.service-history-years > li a { color: var(--Text-Gray); display: block; font-
 
     .service-history-appends{margin-top: 24px;}
 
-    .service-company-text ul > li {font-size: 12px;}
+    .service-company-text ul > li {font-size: 0.75rem;}
 }
 

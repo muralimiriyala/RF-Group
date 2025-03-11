@@ -3,21 +3,21 @@ ul.about-history-years{margin: 0; position: relative;}
 ul.about-history-years::before{position: absolute; display: block; content: ""; top: 0; left: 0; width: 4px; height: 100%; background-color: var(--White);}
 ul.about-history-years > li{margin-bottom: 0;}
 ul.about-history-years > li::before{display: none;}
-ul.about-history-years > li a{padding: 9px 16px 9px 16px; color: var(--Text-Gray); font-family: var(--heading-font); display: block; font-size: 20px;}
+ul.about-history-years > li a{padding: 9px 16px 9px 16px; color: var(--Text-Gray); font-family: var(--heading-font); display: block; font-size: 1.25rem;}
 ul.about-history-years > li a.active{background-color: var(--White); color: var(--Black);}
 ul.about-history-years > li:hover a{color: var(--Black);}
 ul.about-history-years > li a::before{opacity: 0; transition: var(--b-transition); position: absolute; display: block; content: ""; top: 0; left: 0; width: 4px; height: 100%; background-color: var(--Blue); border-radius: 0;}
 ul.about-history-years > li a:hover::before{opacity: 1;}
 
 
-.about-history-list .about-history-num{font-size: 64px; font-weight: 600; line-height: 125%; letter-spacing: -1.28px; color: var(--Black); font-family: var(--heading-font);}
-.about-history-intro ul > li{font-size: 16px; line-height: 150%; margin-bottom: 4px;}
+.about-history-list .about-history-num{font-size: 4rem; font-weight: 600; line-height: 125%; letter-spacing: -1.28px; color: var(--Black); font-family: var(--heading-font);}
+.about-history-intro ul > li{font-size: 1rem; line-height: 150%; margin-bottom: 4px;}
 .about-history-intro ul{margin: 0 0 0 12px;}
 .about-history-intro ul:not(:last-child){margin-bottom: 16px;}
 .about-history-intro ol {margin: 0 0 28px 13px;}
 .about-history-intro ul > li::before{left: -13px; top: 10px; background-color: var(--Blue); width: 6px; height: 6px; border-radius: 50%;}
 .about-history-intro ol > li::before {left: -16px; color: var(--Blue);}
-.about-history-intro ol > li{font-size: 16px; margin-bottom: 4px;}
+.about-history-intro ol > li{font-size: 1rem; margin-bottom: 4px;}
 .about-history-intro p{margin-bottom: 16px;}
 .about-history-list:last-child{margin-bottom: 0;}
 .about-history-list:before{position: absolute; display: block; content: ""; top: 0; left: 0; width: 4px; height: 100%; background-color: var(--Blue);}
@@ -49,12 +49,12 @@ ul.about-history-years > li a:hover::before{opacity: 1;}
     .about-history-article{flex: 0 0 calc(100% - 118px)}
 
     .about-history-list {padding: 32px; margin-bottom: 32px;}
-    .about-history-list .about-history-num {font-size: 48px; letter-spacing: -0.96px;}
+    .about-history-list .about-history-num {font-size: 3rem; letter-spacing: -0.96px;}
 
 }
 @media only screen and (max-width: 809px) and (min-width: 200px){
     .about-history-main{padding: 40px 0 40px; display: block;}
-    .about-history-list .about-history-num{font-size: 40px;}
+    .about-history-list .about-history-num{font-size: 2.5rem;}
     
     .about-history-article .slick-list{overflow: inherit;}
     .about-history-article .slick-slide{ width: 320px; margin-right: 24px; }
@@ -70,7 +70,7 @@ ul.about-history-years > li a:hover::before{opacity: 1;}
     article.about-history-article{padding-top: 40px;}
 
     .about-history-list{padding: 24px;}
-    .about-history-btn em{color: var(--Blue); width: 20px; height: 20px; line-height: 100%; font-weight: 400; font-size: 20px;}
+    .about-history-btn em{color: var(--Blue); width: 20px; height: 20px; line-height: 100%; font-weight: 400; font-size: 1.25rem;}
 }
 @media only screen and (max-width: 389px) and (min-width: 200px){
     .about-history-article .slick-slide{ width: 305px; }

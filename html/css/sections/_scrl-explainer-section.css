@@ -49,12 +49,12 @@
     .scrl-explainer-icon svg{max-width: 48px;}
     .scrl-explainer-line{width: 100%; height: 2px; top: 0; left: 0; display: block;}
 
-    .page-template-service-tier-1 .scrl-explainer-btns .button { font-size: 16px;}
+    .page-template-service-tier-1 .scrl-explainer-btns .button { font-size: 1rem;}
 }
 @media only screen and (max-width: 389px) and (min-width: 200px){
     .scrl-explainer-inner{padding: 24px;}
 }
 @media only screen and (max-width: 374px) and (min-width: 200px){
-    .scrl-explainer-btns .button{font-size: 13px;}
+    .scrl-explainer-btns .button{font-size: 0.813rem;}
     
 }

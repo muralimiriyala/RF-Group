@@ -38,7 +38,7 @@
  .fund-detail-image {width: 80px; height: 80px;  border: 4px solid var(--RF-Orange);}
 .fund-detail-image figure{padding: 0;}
 .fund-detail-image figure img{border-radius: 50%; max-width: 80px; max-height: 80px;}
-.fund-detail-info h4{margin-bottom: 0; font-size: 20px;}
+.fund-detail-info h4{margin-bottom: 0; font-size: 1.25rem;}
 .fund-detail-info h4 a:hover{color: var(--RF-Orange);}
 .fund-detail-info  p{margin-bottom: 8px;}
 /* .fund-detail-info  p:hover{color: var(--RF-Orange)} */
@@ -57,8 +57,8 @@ table.fees-expenses-table tr:nth-child(-n+3) td:first-child{font-weight: 700; co
 table.fees-expenses-table tr:nth-child(odd) td{background-color: transparent;}
 table.fees-expenses-table tr td:nth-child(1) strong{color: var(--Black);}
 table.fees-expenses-table tr:first-child td{border-top: 1px solid var(--Light-Gray);}
-table.fees-expenses-table tr td:last-child{font-weight: 400; color: var(--Text-Gray); font-size: 14px;}
-table.fees-expenses-table tr td:last-child strong{font-weight: 600; color: var(--Black); font-size: 16px;}
+table.fees-expenses-table tr td:last-child{font-weight: 400; color: var(--Text-Gray); font-size: 0.875rem;}
+table.fees-expenses-table tr td:last-child strong{font-weight: 600; color: var(--Black); font-size: 1rem;}
 table.fees-expenses-table tr:nth-child(n+4) td:first-child{padding-left: 32px;}
 .fees-expenses-main::after{bottom:0; width: 100%; height: 2px; display: block; border: none; border-radius: 1px; background-color: var(--RF-Orange); opacity: 0.25; position: absolute; margin:0 0 12px;  content:"";}
 
@@ -109,20 +109,20 @@ table.fees-expenses-table tr:nth-child(n+4) td:first-child{padding-left: 32px;}
     .asset-performance-btn-left{padding-right: 32px; gap: 8px;}
     .asset-performance-btn em{top: 50%; right: 16px; transform: translateY(-50%);}
   
-    .asset-performance-report em{font-size: 20px; width: 20px; height: 20px;}
+    .asset-performance-report em{font-size: 1.25rem; width: 20px; height: 20px;}
     .asset-performance-report-lt{display: flex; align-items: center; gap: 8px;}
     .asset-performance-lt{margin-bottom: 24px;}
 
     table.fees-expenses-table{padding-top: 10px;}
-    table.fees-expenses-table tr td{font-size: 16px; line-height: 150%;}
+    table.fees-expenses-table tr td{font-size: 1rem; line-height: 150%;}
     table.fees-expenses-table tr td:first-child{width: 170px; line-height: 100%;}
     table.fees-expenses-table tr:nth-child(n+4) td:nth-child(2){padding-left: 20px;}
     
 
     .fund-detail-report-main {padding: 40px 0; display: block;}
-    .fund-detail-report-article .doc-form-title h2{font-size: 32px;}
+    .fund-detail-report-article .doc-form-title h2{font-size: 2rem;}
     .fund-detail-report-article .doc-form-report span { margin-bottom: 8px; display: block; line-height: 100%;}
-    .fund-detail-report-article .doc-repo-title h2{font-size: 32px;}
+    .fund-detail-report-article .doc-repo-title h2{font-size: 2rem;}
     .fund-detail-report-article .doc-repo-head {gap: 20px;}
     .fund-detail-report-article ul.ui-years li a { padding: 12px 20px; }
     .fund-detail-report-article ul.faqs-links{margin: 24px 0 40px;}
@@ -136,7 +136,7 @@ table.fees-expenses-table tr:nth-child(n+4) td:first-child{padding-left: 32px;}
     .asset-performance-btn.open em::before{content: "\f077";}
     .asset-performance-btn-left svg path{fill: var(--RF-Orange);}
 
-    .fees-expenses-lt p{font-size: 14px;}
+    .fees-expenses-lt p{font-size: 0.875rem;}
     .asset-performance-rt{display: block; padding: 40px 8px;}
     .asset-mbl-graph canvas[data-conva="combo"]{height: 230px !important;}
     table.fees-expenses-table tr td:last-child strong{display: block;}

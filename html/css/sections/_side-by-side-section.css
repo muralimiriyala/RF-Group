@@ -90,7 +90,7 @@ ul.side-by-links li a span{flex: 1;}
     .side-by-head{gap: 20px; flex-direction: row;}
     .side-by-title{flex: 1;}
     .side-by-title span.optional-text{margin-bottom: 8px;}
-    .side-by-title h2{margin: 0; font-size: 36px;}   
+    .side-by-title h2{margin: 0; font-size: 2.25rem;}   
     .side-by-ipad hr{display: none;}
     ul.side-by-links{gap: 8px;}
 

@@ -1,14 +1,14 @@
 
 .customer-support-main{padding: 80px 0;}
-.customer-support-list{font-size: 16px; font-weight: 400; line-height: 150%; color: var(--Text-Gray)}
-.customer-support-list h2{font-size: 32px; font-weight: 600; line-height: 125%; margin-bottom: 16px;}
+.customer-support-list{font-size: 1rem; font-weight: 400; line-height: 150%; color: var(--Text-Gray)}
+.customer-support-list h2{font-size: 2rem; font-weight: 600; line-height: 125%; margin-bottom: 16px;}
 .customer-support-icon{max-width: 48px; height: auto; margin-bottom: 16px;}
 .customer-support-icon svg, .customer-support-icon img{object-fit: contain; }
 
 ul.customer-links{margin: 0; color: var(--Black);}
-ul.customer-links > li > a{ font-weight: 700; font-size: 18px; gap: 12px; color: var(--Black);}
+ul.customer-links > li > a{ font-weight: 700; font-size: 1.125rem; gap: 12px; color: var(--Black);}
 ul.customer-links > li > a:hover{color: var(--Blue);}
-ul.customer-links > li i{color: var(--Blue); font-size: 20px; font-weight: 400; width: 20px; text-align: center;}
+ul.customer-links > li i{color: var(--Blue); font-size: 1.25rem; font-weight: 400; width: 20px; text-align: center;}
 ul.customer-links > li::before{display: none;}
 ul.customer-links > li:last-child{display: flex; gap: 12px; }
 
@@ -34,14 +34,14 @@ ul.customer-links > li:last-child{display: flex; gap: 12px; }
     .customer-support-main{padding: 64px 0; gap: 0 40px;}
     .customer-support-list-3 { flex: 0 0 calc(33.333% - 28px); }
     .customer-support-list-2 { flex: 0 0 calc(50% - 20px); }
-    .customer-support-list h2 { font-size: 28px;}
+    .customer-support-list h2 { font-size: 1.75rem;}
     ul.customer-links > li:last-child{margin-bottom: 0;}  
-    ul.customer-links > li > a{font-size: 16px;} 
+    ul.customer-links > li > a{font-size: 1rem;} 
 }
 @media only screen and (max-width: 809px) and (min-width: 200px){
     .customer-support-main{display: block; padding: 40px 0;}
-    .customer-support-list{margin-bottom: 48px; font-size: 14px; line-height: 21px;}
-    .customer-support-list h2{font-size: 24px;}
+    .customer-support-list{margin-bottom: 48px; font-size: 0.875rem; line-height: 21px;}
+    .customer-support-list h2{font-size: 1.5rem;}
     .customer-support-list:last-child{margin-bottom: 0;}
     ul.customer-links{display: flex; gap: 12px}
     ul.customer-links > li {flex: 0 0 48%; margin-bottom: 0; border: 1px solid var(--Blue);}

@@ -51,8 +51,8 @@
     .home-banner-list:nth-child(-n+2){border-bottom: 2px solid var(--White-25);}
     .home-banner-list:nth-child(even)::after{width: 2px; height: calc(100% - 24px); top: 16px; left: 0; opacity: 0.25; background-color: var(--White); content: ""; display: block; position: absolute;}
     .home-banner-list:nth-child(-n+2)::after{top: 8px;}
-    .home-banner-text h1{font-size: 48px; letter-spacing: -0.96px;}
-    .home-banner-count{font-size: 28px;}
+    .home-banner-text h1{font-size: 3rem; letter-spacing: -0.96px;}
+    .home-banner-count{font-size: 1.75rem;}
 }
 @media screen and (max-width: 809px) and (min-width: 200px) {
     .home-banner-video{min-height: 220px; max-height: 220px; position: relative; overflow: hidden;}
@@ -61,17 +61,17 @@
     .home-banner-image{position: relative;}
     .home-banner-image img{min-height: 211px;}
     .home-banner-overlay{opacity: 0.5;}
-    .home-banner-text{font-size: 16px; padding-bottom: 0; max-width: 526px;}
-    .home-banner-text h1{font-size: 40px; line-height: 50px; letter-spacing: -0.8px; margin-bottom: 6px;}
+    .home-banner-text{font-size: 1rem; padding-bottom: 0; max-width: 526px;}
+    .home-banner-text h1{font-size: 2.5rem; line-height: 50px; letter-spacing: -0.8px; margin-bottom: 6px;}
     body.page-template-about .home-banner-text h1{margin: 0 0 25px;}
-    .home-banner-list{font-size: 14px;}
-    .home-banner-count {font-size: 24px;}
+    .home-banner-list{font-size: 0.875rem;}
+    .home-banner-count {font-size: 1.5rem;}
     .home-banner-text p{margin-bottom: 12px;}
 }
 @media screen and (max-width: 559px) and (min-width: 200px){
     .home-banner-text h1{max-width: 334px; margin-left: auto; margin-right: auto;}
 }
 @media screen and (max-width: 374px) and (min-width: 200px){
-    .home-banner-text h1{font-size: 36px;}
-    .home-banner-count{font-size: 20px;}
+    .home-banner-text h1{font-size: 2.25rem;}
+    .home-banner-count{font-size: 1.25rem;}
 }

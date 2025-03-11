@@ -1,0 +1,27 @@
+
+.calculator-wrapper h5{font-weight: 700; letter-spacing: normal; margin-bottom: 24px;}
+.calculator-tabs{gap: 40px; padding-bottom: 40px; margin-bottom: 40px; border-bottom: 2px solid rgba(39, 114, 219, 0.25);}
+.calculator-tabs-list{width: fit-content; gap: 12px; flex-direction: row-reverse;}
+.calculator-tabs-list label{padding: 0; color: var(--Black); font-size: 20px; font-weight: 600; line-height: 1.5rem;}
+
+.dividend-list{gap: 12px; margin-bottom: 20px; color: var(--Black); align-items: center;}
+.dividend-list:last-child{margin-bottom: 0;}
+.dividend-list input{background: transparent; border: none; padding: 8px 8px 4px 8px; border-bottom: 3px solid var(--Blue); width: fit-content; max-width: 138px; color: var(--Blue); font-size: 24px;}
+.dividend-list .selectBox{background: transparent; border: none; padding: 8px 8px 4px 8px; border-bottom: 3px solid var(--Blue); width: fit-content; max-width: 138px; color: var(--Blue); font-size: 24px;}
+.dividend-list span{font-size: 1.5rem; line-height: 30px;}
+.calculator-wrapper  button{margin-top: 44px;}
+
+.calc-tab{border: 1px solid rgba(39, 114, 219, 0.25); background: linear-gradient(0deg, rgba(255, 255, 255, 0.80) 0%, rgba(255, 255, 255, 0.80) 100%), var(--Blue); width: 32px; height: 32px; margin: 0; padding: 0;}
+
+#investment::-webkit-inner-spin-button, 
+#investment::-webkit-outer-spin-button { -webkit-appearance: none; margin: 0; }
+#investment { -moz-appearance: textfield;}
+#dividendYield::-webkit-inner-spin-button, 
+#dividendYield::-webkit-outer-spin-button { -webkit-appearance: none; margin: 0; }
+#dividendYield{ -moz-appearance: textfield;}
+
+
+
+@media screen and (min-width: 1024px) {
+    .calculator-wrapper{padding: 64px;}
+}

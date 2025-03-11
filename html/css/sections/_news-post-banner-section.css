@@ -3,12 +3,12 @@
 .news-post-banner-overlay{opacity: 0.7; z-index: 0;}
 
 .news-post-banner-text{color: var(--White);}
-.news-post-banner-text h1{color: var(--White);  font-size: 48px; margin-bottom: 0; line-height: 125%;}
+.news-post-banner-text h1{color: var(--White);  font-size: 3rem; margin-bottom: 0; line-height: 125%;}
 .news-post-banner-text p{margin-bottom: 24px;}
 
 .news-post-banner-text.no_about_banner_img{max-width: 100%;}
 
-.news-post-banner-list span{font-size: 18px; font-weight: 700; line-height: 100%;}
+.news-post-banner-list span{font-size: 1.125rem; font-weight: 700; line-height: 100%;}
 .news-post-banner-desc span{color: var(--White);}
 .news-post-banner-list span a{color: var(--White); text-decoration: none;}
 .news-post-banner-list span a:hover{color: var(--RF-Aquamarine);}
@@ -32,19 +32,19 @@
     .news-post-banner-text{max-width: 804px; padding-bottom: 38px;}
    
  
-    .news-post-banner-text h1{font-size: 48px; letter-spacing: -0.96px;}
-    .news-post-banner-count{font-size: 28px;}
+    .news-post-banner-text h1{font-size: 3rem; letter-spacing: -0.96px;}
+    .news-post-banner-count{font-size: 1.75rem;}
 }
 @media screen and (max-width: 809px) and (min-width: 200px) {
     .news-post-banner-main{padding: 44px 0 52px;}
     .news-post-banner-image{position: relative;}
     .news-post-banner-overlay{opacity: 0.5;}
-    .news-post-banner-text{font-size: 16px; padding-bottom: 0; ;}
-    .news-post-banner-text h1{font-size: 36px; letter-spacing: -0.72px; margin-bottom: 24px; line-height: 125%;}
-    .news-post-banner-list p{font-size: 16px;}
+    .news-post-banner-text{font-size: 1rem; padding-bottom: 0; ;}
+    .news-post-banner-text h1{font-size: 2.25rem; letter-spacing: -0.72px; margin-bottom: 24px; line-height: 125%;}
+    .news-post-banner-list p{font-size: 1rem;}
     .news-post-banner-list{margin: 0 0 8px}
     .news-post-banner-row{margin-bottom: 14px;}
-    .news-post-banner-desc{font-size: 18px; line-height: 150%;}
+    .news-post-banner-desc{font-size: 1.125rem; line-height: 150%;}
     .news-post-banner-list:nth-last-child(2):after{display: none;}
 
 }

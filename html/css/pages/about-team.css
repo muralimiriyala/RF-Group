@@ -16,10 +16,10 @@
 .team-info-desc h3 a{color: var(--White);}
 .team-info-desc h3 a:hover{color: var(--Blue);}
 
-.team-info-desc span{font-size: 16px; color: var(--White-50); transition: var(--b-transition);}
+.team-info-desc span{font-size: 1rem; color: var(--White-50); transition: var(--b-transition);}
 .team-info-desc span:hover{color: var(--White);}
 .team-info-btn{border-left: 1px solid var(--Blue); padding-left: 10px; width: fit-content; align-items: center; display: flex;}
-.team-info-btn em{font-size: 24px; color: var(--Blue); transition: var(--b-transition)}
+.team-info-btn em{font-size: 1.5rem; color: var(--Blue); transition: var(--b-transition)}
 .team-info-btn em:hover{color: var(--White);transition: var(--b-transition);}
 .team-mem-list > a:hover .team-info-btn em{transform: translateX(4px);}
 .team-info-btn.no-desc{display: none;}
@@ -57,7 +57,7 @@
     .team-mem-inner-lt{gap: 24px; margin-bottom: 32px;}
     .team-mem-icon{flex: 0 0 64px;}
     .team-mem-text{flex: 0 0 calc(100% - 88px);}
-    .team-mem-text h3{font-size: 28px;}
+    .team-mem-text h3{font-size: 1.75rem;}
 }
 @media only screen and (max-width: 809px) and (min-width: 200px){
     .team-mem-main{padding: 40px 0;}
@@ -71,7 +71,7 @@
     body.page-template-team .team-mem-inner {text-align: center;}
     .team-mem-inner {padding: 24px; display: block;}
     .career-short-section .team-mem-inner{box-shadow: 0px 12px 32px 0px rgba(0, 0, 0, 0.15);}
-    .team-mem-text span {font-size: 16px; line-height: 150%;}
+    .team-mem-text span {font-size: 1rem; line-height: 150%;}
     .team-mem-inner-lt {margin-bottom: 24px;}
     body.page-template-careers .team-mem-inner-lt {margin-bottom: 40px;}
     body.page-template-careers .team-mem-inner-rt .button{width: 100%;}

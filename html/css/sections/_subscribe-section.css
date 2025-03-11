@@ -10,7 +10,7 @@ body .subscribe-email .frm_forms .frm_form_fields .frm_form_field{margin-bottom:
 body .subscribe-email .frm_forms .frm_form_fields .frm_form_field input{background-color: rgba(255, 255, 255, 0.20); background-image: url("../../images/at-icon.svg"); background-repeat: no-repeat; background-position: 16px 50%;  border: none; border-radius: 0; font-size: 1.125rem; color: var(--White); padding: 16px 16px 16px 40px;}
 body .subscribe-email .frm_forms .frm_form_fields .frm_form_field input:focus{background-color: rgba(255, 255, 255, 0.20) !important; color: var(--White) !important;}
 body .subscribe-email .frm_forms .frm_form_fields .frm_form_field input::placeholder{color: var(--White); font-weight: 400; }
-body .subscribe-email .frm_forms .frm_form_fields .frm_form_field .frm_submit button{border: none; font-size: 16px; padding: 19.5px 20px;}
+body .subscribe-email .frm_forms .frm_form_fields .frm_form_field .frm_submit button{border: none; font-size: 1rem; padding: 19.5px 20px;}
 body .subscribe-email .frm_forms .frm_form_fields .form_field_wrapper .frm_form_field:first-child{display: flex; flex: 1;}
 body .subscribe-email .frm_forms form .frm_required_field div.frm_error { bottom: -25px; right: auto; left: 0; }
 body .subscribe-email .with_frm_style .frm_message p { color: var(--White);}
@@ -33,9 +33,9 @@ body .subscribe-email .with_frm_style .frm_message p { color: var(--White);}
     .subscribe-email{flex: 100%;}
 }
 @media screen and (max-width: 809px) and (min-width: 200px) {
-    .subscribe-text h3{font-size: 32px; line-height: 40px; letter-spacing: -0.64px;}
+    .subscribe-text h3{font-size: 2rem; line-height: 40px; letter-spacing: -0.64px;}
     body.category-news-updates .subscribe-text h3,
-    body.single-post .subscribe-text h3{font-size: 24px; line-height: 30px; letter-spacing: -0.48px;}
+    body.single-post .subscribe-text h3{font-size: 1.5rem; line-height: 30px; letter-spacing: -0.48px;}
     body .subscribe-email .form_field_wrapper > .form-field{width: 100%;}
     body .subscribe-email .frm_forms .frm_form_fields .frm_form_field input{padding: 13px 16px 13px 40px;}
     body .subscribe-email .frm_forms .frm_form_fields .form_field_wrapper .frm_form_field:first-child{display: block;}

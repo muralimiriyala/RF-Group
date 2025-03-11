@@ -6,7 +6,7 @@ body.page-template-service-tier-1 .about-intro-main hr{background-color: var(--R
 
 .about-intro span{margin-bottom: 0; letter-spacing: -0.8px; line-height: 125%}
 .about-intro-head{padding: 40px 0;}
-.about-intro-lt > p{font-size: 20px; font-weight: 400; line-height: 150%;}
+.about-intro-lt > p{font-size: 1.25rem; font-weight: 400; line-height: 150%;}
 .about-intro-lt h1{margin-bottom: 0; line-height: 100%; letter-spacing: normal;}
 
 .about-intro{gap: 40px;}
@@ -15,10 +15,10 @@ body.page-template-service-tier-1 .about-intro-main hr{background-color: var(--R
 .about-right-intro:nth-child(1):last-child{flex: 1; text-align: right;}
 
 .about-intro-lists{padding: 40px 0 0 ;}
-.counter-main{font-size: 72px; line-height: 100%; text-transform: uppercase; font-weight: 700; color: var(--Black); margin-bottom: 18px; display: block; }
+.counter-main{font-size: 4.5rem; line-height: 100%; text-transform: uppercase; font-weight: 700; color: var(--Black); margin-bottom: 18px; display: block; }
 .counter-text{left: -9px;}
 
-.about-intro-list p{font-size: 16px; font-weight: 400; line-height: 150%;}
+.about-intro-list p{font-size: 1rem; font-weight: 400; line-height: 150%;}
 .about-intro-list h2{margin-bottom: 10px;}
 
 .about-intro-main .about-intro-lists:only-child{padding: 0;}
@@ -51,10 +51,10 @@ body.page-template-service-tier-1 .about-intro-main hr{background-color: var(--R
 }
 @media only screen and (max-width: 1023px) and (min-width: 810px){
     .about-intro-main { padding: 64px 0; }
-    .about-left-intro{font-weight: 600; font-size: 36px; letter-spacing: -0.72px; } 
+    .about-left-intro{font-weight: 600; font-size: 2.25rem; letter-spacing: -0.72px; } 
     .about-intro{margin: 0 0 32px;}
     .about-intro-head { padding: 32px 0; }
-    .about-intro-head h1{font-size: 64px; line-height: 100%; margin-bottom: 32px;}
+    .about-intro-head h1{font-size: 4rem; line-height: 100%; margin-bottom: 32px;}
     .about-intro-lists { padding: 32px 0 0;  gap: 32px;}
     .about-intro-list{flex: 0 0 calc(50% -  16px);}
     body.page-template-about .about-intro-section:nth-child(5) .about-intro-main{padding: 120px 0 80px;}
@@ -63,16 +63,16 @@ body.page-template-service-tier-1 .about-intro-main hr{background-color: var(--R
 @media only screen and (max-width: 809px) and (min-width: 200px){
     .about-intro-main { padding: 40px 0; }
     .about-left-intro {margin-bottom: 24px; display: block;}
-    .about-intro .button{width: 100%; font-size: 16px;}
+    .about-intro .button{width: 100%; font-size: 1rem;}
     .about-intro{margin: 0 0 24px; display: block;}
     .about-intro-head{padding: 24px 0 26px;}
-    .about-intro-lt h1 {font-size: 48px;}
+    .about-intro-lt h1 {font-size: 3rem;}
     .about-intro-lt{margin-bottom: 24px;}
     .about-intro-lists { padding: 24px 0 0; }
     .about-intro-list{margin-bottom: 24px;}
     .about-intro-list:last-child{margin-bottom: 0;}
-    .about-intro-list p{font-size: 14px;}
-    .about-intro-rt{font-size: 18px;}
+    .about-intro-list p{font-size: 0.875rem;}
+    .about-intro-rt{font-size: 1.125rem;}
 
     .page-template-campaign .about-intro-main { padding: 40px 0 40px; }
     body.page-template-about .about-intro-section:nth-child(5) .about-intro-main{padding: 40px 0 40px;}

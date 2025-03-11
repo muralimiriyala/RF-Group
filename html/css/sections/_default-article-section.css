@@ -74,14 +74,14 @@ body.page-template-service-tier-1 .sidebar-mgt-info a:hover{color: var(--RF-Purp
     .default-article-main{gap: 60px;}   
     aside.default-aside{flex: 0 0 300px;}
     .sidebar-gray-blk{padding: 32px;}
-    .sidebar-gray-btns .button{font-size: 15px; gap: 8px;}
+    .sidebar-gray-btns .button{font-size: 0.938rem; gap: 8px;}
 }
 @media screen and (max-width: 1023px) and (min-width: 810px) {
     .default-article-main{padding: 61px 0 54px; display: block;}
     .default-article{padding-bottom: 30px;}
     ul.breadcrumbs{width: calc(100% + 24px); margin-bottom: 24px; flex-wrap: nowrap; overflow-x: auto; min-width: fit-content; -ms-overflow-style: none; scrollbar-width: none;}
     ul.breadcrumbs::-webkit-scrollbar{display: none;}
-    ul.breadcrumbs li{min-width: fit-content; font-size: 16px;}
+    ul.breadcrumbs li{min-width: fit-content; font-size: 1rem;}
     .default-article h2{margin-bottom: 16px;}
     .default-line-wrap{padding: 5px 0 22px;}
     .sidebar-mgt-main{gap: 40px; display: flex; flex-wrap: wrap;}
@@ -94,7 +94,7 @@ body.page-template-service-tier-1 .sidebar-mgt-info a:hover{color: var(--RF-Purp
     .default-article ol > li::before{top: -2px;}
     ul.breadcrumbs{width: calc(100% + 24px); padding-right: 24px; margin-bottom: 24px; flex-wrap: nowrap; overflow-x: auto; min-width: fit-content; -ms-overflow-style: none; scrollbar-width: none;}
     ul.breadcrumbs::-webkit-scrollbar{display: none;}
-    ul.breadcrumbs li{min-width: fit-content; font-size: 16px;}
+    ul.breadcrumbs li{min-width: fit-content; font-size: 1rem;}
     .default-image-caption{margin-bottom: 24px;}
     .default-article h2{margin-bottom: 16px;}
     .default-article ol{margin-bottom: 0;}
@@ -104,7 +104,7 @@ body.page-template-service-tier-1 .sidebar-mgt-info a:hover{color: var(--RF-Purp
     .default-article .accordion-list:last-child{margin-bottom: 0;}
     .default-article  blockquote{margin: 22px 0 17px;}
     .default-line-wrap{padding: 24px 0; }
-    .sidebar-gray-blk{padding: 22px 24px 24px; margin-bottom: 22px; font-size: 14px; line-height: 21px;}
+    .sidebar-gray-blk{padding: 22px 24px 24px; margin-bottom: 22px; font-size: 0.875rem; line-height: 21px;}
     .sidebar-mgt-team:not(:last-child){margin-bottom: 20px;}
     figure.RF-small{margin-top: 20px;}
     ul.toc-links{padding: 5px 0 22px;}
@@ -112,7 +112,7 @@ body.page-template-service-tier-1 .sidebar-mgt-info a:hover{color: var(--RF-Purp
     
 }
 @media screen and (max-width: 374px) and (min-width: 200px) {
-    .navy-block-btn .button{font-size: 15px;}
-    .navy-block-btn .button i{font-size: 14px;}
+    .navy-block-btn .button{font-size: 0.938rem;}
+    .navy-block-btn .button i{font-size: 0.875rem;}
     .sidebar-gray-btns .button{flex-direction: column; gap: 8px;}
 }
