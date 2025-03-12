@@ -34,7 +34,7 @@
 .accordion-header:not(.open):hover svg:not(:first-child){bottom: 0;}
 .accordion-header.open svg{ transform: rotate(180deg); } 
 
-.accordion-content{border: 1px solid transparent; margin-top: -2px; max-height: 0; transition: max-height 0.9s; overflow: hidden; } 
+.accordion-content{border: 1px solid transparent; margin-top: -2px; display: none;} 
 .open .accordion-content{border-color: var(--Gray); border-top-color: transparent; }
 .accordion-desc {padding: 12px 29px 29px;}
 .accordion-desc ul>li::before { top: 9px; left: -17px; width: 5px; height: 5px; } 

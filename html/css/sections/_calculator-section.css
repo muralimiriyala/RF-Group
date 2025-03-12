@@ -11,11 +11,15 @@
 .dividend-list input{background: transparent; background-image: url("../../images/close-gray.svg"); background-repeat: no-repeat; background-size: 12px 16px; background-position: right 9px top 14px; border: none; padding: 8px 23px 0 8px; border-bottom: 3px solid var(--Blue); width: fit-content; max-width: 138px; color: var(--Blue); font-size: 24px; position: relative;}
 /* .dividend-list input::before{content: "\e59b"; position: absolute; font-family: "Font Awesome 6 Pro"; top: 0; right: 5px; width: 12px; height: 12px;} */
 
-ul.selectBox-dropdown-menu.calcultor-selectbox-dropdown{background-color: var(--White); border: 1px solid rgba(39,114,219,.25); margin: 0;}
+body ul.calcultor-selectBox-dropdown-menu{background-color: var(--White); border: 1px solid rgba(39,114,219,.25);border-top: 1px solid rgba(39,114,219,.25) !important; margin: 0;}
+body .calcultor.selectBox-dropdown .selectBox-arrow {top: calc(50% + 4px);}
+body .calcultor.selectBox-dropdown.selectBox-menuShowing .selectBox-arrow{top: calc(50% + 19px); }
 
-.dividend-list .selectBox{background: transparent; border: none; padding: 8px 8px 4px 8px; border-bottom: 3px solid var(--Blue); width: fit-content; max-width: 138px; color: var(--Blue); font-size: 24px;}
+.dividend-list .selectBox{background: transparent; border: none; padding: 8px 40px 0 8px; border-bottom: 3px solid var(--Blue); width: fit-content; color: var(--Blue); font-size: 24px;}
+.dividend-list .selectBox:focus{border-color: var(--Blue); }
 .dividend-list span{font-size: 1.5rem; line-height: 30px;}
-.calculator-wrapper  button{margin-top: 44px;}
+.calculator-wrapper .btn-wrapper{margin-top: 44px; gap: 20px;}
+a.text-link.reset-btn:hover em { left: 0; transform: rotate(-65deg); }
 
 #investment::-webkit-inner-spin-button, 
 #investment::-webkit-outer-spin-button { -webkit-appearance: none; margin: 0; }
@@ -24,7 +28,13 @@ ul.selectBox-dropdown-menu.calcultor-selectbox-dropdown{background-color: var(--
 #dividendYield::-webkit-outer-spin-button { -webkit-appearance: none; margin: 0; }
 #dividendYield{ -moz-appearance: textfield;}
 
-
+.result-wrap{padding-top: 64px; margin-top: 64px; gap: 30px; position: relative;}
+.result-wrap::before { content: ""; position: absolute; width: calc(100% + 128px); height: 2px; background: var(--Gray); top: 0; left: -64px; }
+.result-text{font-size: 40px; font-weight: 600; line-height: 48px; letter-spacing: -0.8px; color: var(--Black); font-family: var(--heading-font); margin-bottom: 12px;}
+.result-text strong{color: var(--Blue);}
+.result-text:last-child{margin-bottom: 0;}
+.result-desc{flex: 1;}
+.result-btn{width: fit-content; margin-top: auto;}
 
 @media screen and (min-width: 1024px) {
     .calculator-main-wrapper{padding-bottom: 80px;}
@@ -39,4 +49,21 @@ ul.selectBox-dropdown-menu.calcultor-selectbox-dropdown{background-color: var(--
     .calculator-main-wrapper{padding-bottom: 40px;}
     .calculator-wrapper{padding: 20px;}
     .calculator-tabs{gap: 20px;}
+
+    .mobile-dividend-calculator{padding-bottom: 40px;}
+    .mobile-dividend-calculator .question-main{padding: 20px; background: var(--White);}
+    .mobile-dividend-calculator .accordion-desc::before, .mobile-dividend-calculator .accordion-header::before{display: none;}
+    .mobile-dividend-calculator .accordion-header{background: var(--Gray); border: none; border-left: 4px solid var(--Blue);}
+    .mobile-dividend-calculator .accordion-content{border: none;} 
+    .mobile-dividend-calculator .accordion-desc{padding: 16px 0 0;}
+    .dividend-list{margin-bottom: 12px;}
+    .mobile-dividend-calculator .question-lists{margin-bottom: 0;}
+    .dividend-list input, .dividend-list .selectBox{width: 100%; max-width: 100%;}
+    .mobile-dividend-calculator .btn-wrapper{gap: 20px;}
+
+    .result-wrap{margin-top: 40px; padding-top: 40px;}
+    .result-desc, .result-btn{flex: 100%; }
+    .result-text{font-size: 28px; letter-spacing: -0.56px; line-height: 35px; margin-bottom: 0;}
 }
+
+

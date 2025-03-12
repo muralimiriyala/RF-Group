@@ -1,4 +1,3 @@
-/*-- accordions starts here --*/
 export const uiAccordion = {
   init() {
     const accordions = (aList, aHeader, aContent) => {
@@ -9,6 +8,8 @@ export const uiAccordion = {
         const header = el.querySelector(aHeader);
         const content = el.querySelector(aContent);
 
+        jQuery(content).hide(); // Ensure all content sections are initially hidden
+
         header.addEventListener('click', () => {
           if (el.dataset.open !== 'true') {
             // Close all siblings
@@ -16,13 +17,13 @@ export const uiAccordion = {
               if (item !== el) {
                 item.dataset.open = 'false';
                 const itemHeader = item.querySelector(aHeader);
+                const itemContent = item.querySelector(aContent);
                 if (itemHeader) {
                   itemHeader.parentElement.classList.remove('open');
                   itemHeader.classList.remove('open');
                 }
-                const itemContent = item.querySelector(aContent);
                 if (itemContent) {
-                  itemContent.style.maxHeight = '';
+                  jQuery(itemContent).slideUp(800);
                 }
               }
             });
@@ -30,26 +31,16 @@ export const uiAccordion = {
             el.dataset.open = 'true';
             header.parentElement.classList.add('open');
             header.classList.add('open');
-            content.style.maxHeight = `${content.scrollHeight}px`;
+            jQuery(content).slideDown(800);
           } else {
             el.dataset.open = 'false';
             header.parentElement.classList.remove('open');
             header.classList.remove('open');
-            content.style.maxHeight = '';
+            jQuery(content).slideUp(800);
           }
         });
-
-        const onResize = () => {
-          if (el.dataset.open === 'true') {
-            if (Number(content.style.maxHeight) !== content.scrollHeight) {
-              content.style.maxHeight = `${content.scrollHeight}px`;
-            }
-          }
-        };
-        window.addEventListener('resize', onResize);
       });
     };
     accordions('.accordion-list', '.accordion-header', '.accordion-content');
-    /*-- accordions ends here --*/
   },
 };
