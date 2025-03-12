@@ -60,6 +60,10 @@ a.text-link.reset-btn:hover em { left: 0; transform: rotate(-65deg); }
     .mobile-dividend-calculator .question-lists{margin-bottom: 0;}
     .dividend-list input, .dividend-list .selectBox{width: 100%; max-width: 100%;}
     .mobile-dividend-calculator .btn-wrapper{gap: 20px;}
+
+    .result-wrap{margin-top: 40px; padding-top: 40px;}
+    .result-desc, .result-btn{flex: 100%; }
+    .result-text{font-size: 28px; letter-spacing: -0.56px; line-height: 35px; margin-bottom: 0;}
 }
 
 
