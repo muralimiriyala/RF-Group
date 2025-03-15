@@ -16,7 +16,7 @@ export const selectBox = {
     jQuery('.contact-form select').each(function () {
       jQuery(this).addClass('contact');
     });
-    jQuery('.dividend-list select#frequency').each(function () {
+    jQuery('.dividend-list select').each(function () {
       jQuery(this).addClass('calcultor');
     });
     jQuery('select').selectBox({

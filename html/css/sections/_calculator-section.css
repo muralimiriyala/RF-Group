@@ -19,15 +19,22 @@ label:has(input:checked){color: var(--Blue);}
 .dividend-list .dividend-percentage-main input{padding: 8px 50px 0 8px; text-align: right;}
 
 .Purple .dividend-list input{border-bottom: 3px solid var(--RF-Purple); color: var(--RF-Purple);}
-.Purple .dividend-dollar-main span{color: var(--RF-Purple);}
-.Purple .dividend-percentage-main span{color: var(--RF-Purple);}
+.Purple .dividend-dollar-main span, .Purple .dividend-percentage-main span{color: var(--RF-Purple); }
+.Purple .dividend-list .selectBox{border-bottom: 3px solid var(--RF-Purple); color: var(--RF-Purple);}
+.Purple .dividend-list .selectBox:focus{border-color: var(--RF-Purple);}
+body.page-template-calculator-retirement ul.selectBox-dropdown-menu li.selectBox-selected a{background-color: var(--RF-Purple);}
+body .Purple .calcultor.selectBox-dropdown .selectBox-arrow{color: var(--RF-Purple);}
+body.page-template-calculator-retirement ul.calcultor-selectBox-dropdown-menu { background-color: var(--White); border: 1px solid rgba(111, 34, 118,.25); border-top: 1px solid rgba(111, 34, 118,.25) !important;}
+body.page-template-calculator-retirement ul.calcultor-selectBox-dropdown-menu li a:hover{ background-color: var(--RF-Purple);}
+body.page-template-calculator-retirement .dividend-list .selectBox{top: 0;}
 
 .dividend-select{display: flex; flex-wrap: wrap; gap: 12px;}
+body.page-template-calculator-retirement .dividend-select{position: relative;}
 body ul.calcultor-selectBox-dropdown-menu{background-color: var(--White); border: 1px solid rgba(39,114,219,.25);border-top: 1px solid rgba(39,114,219,.25) !important; margin: 0;}
-body .calcultor.selectBox-dropdown .selectBox-arrow {top: calc(50% + 4px); right: 10px;}
+body .calcultor.selectBox-dropdown .selectBox-arrow {right: 8px; top: calc(50% + 3px); font-size: 18px;}
 body .calcultor.selectBox-dropdown.selectBox-menuShowing .selectBox-arrow{top: calc(50% + 19px); }
 
-.dividend-list .selectBox{background: transparent; border: none; padding: 8px 40px 0 8px; border-bottom: 3px solid var(--Blue); width: fit-content; color: var(--Blue); font-size: 24px; position: relative; top: -5px;}
+.dividend-list .selectBox{background: transparent; border: none; padding: 8px 40px 0 8px; border-bottom: 3px solid var(--Blue); width: fit-content; color: var(--Blue); font-size: 24px; position: relative; top: -8px;}
 .dividend-list .selectBox:focus{border-color: var(--Blue); }
 .dividend-list span{font-size: 1.5rem; line-height: 30px;}
 .calculator-wrapper .btn-wrapper{margin-top: 44px; gap: 20px;}
@@ -58,17 +65,17 @@ a.text-link.reset-btn:hover em { left: 0; transform: rotate(-65deg); }
 .retirement-result-wrapper::before{background: var(--Gray); content: ""; height: 2px; left: -64px; position: absolute; top: 0; width: calc(100% + 128px); }
 .result-row{gap: 20px; margin-bottom: 20px;}
 .result-row-wrapper{max-width: 560px; gap: 20px;}
-.result-box{display: flex; gap: 20px; flex: 0 0 calc(33.333% - 14px); flex-grow: 1; line-height: 115%; padding: 31px 12px 16px 12px; flex-direction: column; justify-content: center; align-items: center;}
+.result-box{display: flex; gap: 20px; flex: 0 0 calc(33.333% - 14px); flex-grow: 1; line-height: 115%; padding: 31px 12px 16px 12px; flex-direction: column; justify-content: center; align-items: center; word-wrap: break-word;}
 .result-desc{flex: 1; gap: 16px;}
-.num{display: block; font-size: 28px; width: 100%; text-align: center; color: var(--Black); font-family: var(--heading-font); letter-spacing: -0.56px; font-weight: 600; margin-bottom: 18px;}
-.result-txt{display: block; text-align: center; font-size: 13px; font-family: var(--body-font); line-height: 115%; max-width: 110px;}
+.num{display: block; font-size: 28px; line-height: 30px; width: 100%; text-align: center; color: var(--Black); font-family: var(--heading-font); letter-spacing: -0.56px; font-weight: 600; margin-bottom: 18px;}
+.result-txt{display: block; text-align: center; font-size: 13px; font-family: var(--body-font); line-height: 115%; max-width: 110px; margin: 0 auto;}
 
 span.error-message{position: absolute; right: 0; font-size: 16px; line-height: 16px; left: 100%; width: 100%; display: block; color: var(--Red); padding-left: 10px; right: 0;}
 span.error{position: absolute; top: auto; bottom: -14px; right: 0; text-align: right; line-height: 12px; color: var(--Red); font-size: 12px;}
-.Purple span.error{color: var(--Red);}
+.Purple span.error{color: var(--Red); top: auto;}
 
 span.clear{left: auto; right: 9px; top: calc(50% + 1px); transform: translateY(-50%); line-height: 12px; position: absolute;}
-span.clear em{font-size: 12px; font-weight: 900; color: var(--Black); line-height: 12px; opacity: .4; cursor: pointer;}
+span.clear em{font-size: 14px; font-weight: 900; color: var(--Black); line-height: 12px; opacity: .4; cursor: pointer;}
 
 .heading-wrapper{gap: 40px; align-items: center; margin-bottom: 40px;}
 .heading-wrapper h3{font-size: 40px; line-height: 50px; margin: 0; flex: 1;}
@@ -79,11 +86,16 @@ span.tooltip{cursor: pointer; padding-left: 8px;}
 @media screen and (min-width: 1024px) {
     .calculator-main-wrapper{padding-bottom: 80px;}
     .calculator-wrapper{padding: 64px;}
+    .result-box .result-desc{width: 100%; max-width: 150px;}
 }
 
 @media screen and (max-width: 1023px) and (min-width: 810px){
     .calculator-main-wrapper{padding-bottom: 40px;}
     .calculator-wrapper{padding: 40px;}
+    span.error{bottom: -2px; position: relative; left: 0; display: block;}
+    body.page-template-calculator-retirement .dividend-select{gap: 0; flex-direction: column-reverse;}
+    body.page-template-calculator-retirement span.clear{top: 16px; transform: none;}
+    .result-box .result-desc{width: 100%; max-width: 150px;}
 }
 @media screen and (max-width: 809px) and (min-width: 200px){
     .calculator-main-wrapper{padding-bottom: 40px;}
@@ -103,7 +115,7 @@ span.tooltip{cursor: pointer; padding-left: 8px;}
     .mobile-dividend-calculator .btn-wrapper{gap: 20px;}
 
     .result-wrap{margin-top: 40px; padding-top: 40px;}
-    .result-desc, .result-btn{flex: 100%; }
+    .result-desc, .result-btn{width: 100%; }
     .result-btn .button{width: 100%;}
     .result-text{font-size: 28px; letter-spacing: -0.56px; line-height: 35px; margin-bottom: 0;}
 
@@ -112,27 +124,38 @@ span.tooltip{cursor: pointer; padding-left: 8px;}
     .heading-wrapper{margin-bottom: 20px;}
     .heading-wrapper h3{font-size: 28px; line-height: 35px; letter-spacing: -0.56px;}
     .result-row-wrapper{gap: 12px; max-width: 100%;}
-    .result-box {flex: 0 0 calc(50% - 6px); max-width: 100%;}
+    .result-box {width: calc(50% - 6px); max-width: 100%; flex: auto;}
+    .num{font-size: 24px; letter-spacing: -0.48px; line-height: 24px;}
     .tab-lists{margin-bottom: 20px;}
     ul.tab{margin: 0; gap: 9px;}
     ul.tab > li{margin: 0;}
-    ul.tab > li a{display: inline-block; min-width: 95px; min-height: 48px; padding: 4px 16px 2px; border-bottom: 4px solid var(--Gray); background: transparent; font-size: 16px; line-height: 16px; font-weight: 600; font-family: var(--heading-font); color: var(--Text-Gray); align-items: center; justify-content: center;}
+    ul.tab > li a{min-width: 95px; min-height: 48px; padding: 4px 16px 2px; border-bottom: 4px solid var(--Gray); background: transparent; font-size: 16px; line-height: 16px; font-weight: 600; font-family: var(--heading-font); color: var(--Text-Gray); align-items: center; justify-content: center;}
     ul.tab > li a.active{background: var(--Gray);}
     ul.tab > li::before{display: none;}
     .result-btn.mobile-result{width: 100%; margin-top: 24px;}
+    span.error{bottom: -2px; position: relative; left: 0; display: block;}
+    body .calcultor.selectBox-dropdown .selectBox-arrow {right: 6px;}
+    .dividend-dollar-main span, .dividend-percentage-main span{font-size: 20px;}
+    .dividend-dollar-main span.error, .dividend-percentage-main span.error{font-size: 12px;}
+    .dividend-list .selectBox{font-size: 20px;}
+    body.page-template-calculator-retirement .dividend-select{gap: 0; flex-direction: column-reverse;}
+    body.page-template-calculator-retirement span.clear{top: 16px; transform: none;}
 }
 
 @media screen and (max-width: 767px) and (min-width: 200px){
     span.error-message { bottom: 0; left: 0; text-align: right; top: auto; position: relative;}
-    
 }
 @media screen and (min-width: 501px){
-    .dividend-list input#savings{max-width: 150px;}
+    .dividend-list input#savings{max-width: 155px;}
+    .dividend-list input#currentincome{max-width: 155px;}
+    .dividend-select, .dividend-percentage-main, .dividend-dollar-main, .dividend-plain-main{margin-top: -4px;}
+    /* body.page-template-calculator-retirement .dividend-select, body.page-template-calculator-retirement .dividend-percentage-main, body.page-template-calculator-retirement .dividend-dollar-main, body.page-template-calculator-retirement .dividend-plain-main{margin-top: -4px;} */
 }
 @media screen and (max-width: 500px) and (min-width: 200px){
+    .dividend-list{width: 100%;}
     .dividend-list input, .dividend-list .selectBox{width: 100%; max-width: 100%;}
-    span.error{bottom: -2px; position: relative; left: 0; display: block;}
-    body.page-template-calculator-retirement span.clear{top: 13px; transform: none; }
+    .dividend-percentage-main, .dividend-dollar-main, .dividend-select{width: 100%;}
+    .dividend-plain-main{width: 100%;}
     
 }
 
