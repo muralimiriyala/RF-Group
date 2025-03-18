@@ -85,11 +85,19 @@ span.clear em{font-size: 14px; font-weight: 900; color: var(--Black); line-heigh
 .heading-wrapper .result-btn{margin-top: 0;}
 span.tooltip{cursor: pointer; padding-left: 8px;}
 
+.retiremnt-plan-table-wrapper{width: 100%; overflow-x: auto;}
 table.retiremnt-plan-table{border: none;}
-table.retiremnt-plan-table th{background-color: var(--Background-Gray); color: var(--Text-Gray); font-weight: 600; font-size: 14px; line-height: 14px; border: none; padding: 14px 16px 15px; text-transform: uppercase;}
-table.retiremnt-plan-table td{font-size: 1.25rem; line-height: 20px; padding: 14px 16px 15px; color: var(--Black); }
+table.retiremnt-plan-table th{background-color: var(--Background-Gray); color: var(--Text-Gray); font-weight: 600; font-size: 14px; line-height: 14px; border: none; padding: 14px 16px 15px; text-transform: uppercase; text-align: right;}
+table.retiremnt-plan-table td{font-size: 1.25rem; line-height: 20px; padding: 14px 16px 15px; color: var(--Black); text-align: right;}
+table.retiremnt-plan-table tr:nth-child(2n+1) td{background-color: var(--White);}
+table tr th:first-child{text-align: left;}
 
-
+.dividend-age-main{border: 1px solid var(--Text-Gray); background: var(--Background-Gray); padding: 16px; gap: 8px;}
+.dividend-age-textwrap{flex: 1; gap: 5px; justify-content: center;}
+.dividend-age-text, #dividend-age-num{font-size: 24px; font-weight: 700; color: var(--Black); line-height: 24px;}
+.dividend-minus-btn, .dividend-plus-btn{display: flex; flex-wrap: wrap; width: fit-content; cursor: pointer;}
+.dividend-minus-btn em, .dividend-plus-btn em{color: var(--Blue); font-size: 20px;}
+#graph, #table { display: none;}
 
 @media screen and (min-width: 1024px) {
     .calculator-main-wrapper{padding-bottom: 80px;}
@@ -131,8 +139,9 @@ table.retiremnt-plan-table td{font-size: 1.25rem; line-height: 20px; padding: 14
     body.page-template-calculator-retirement .calculator-wrapper .btn-wrapper{margin-top: 10px; }
     .heading-wrapper{margin-bottom: 20px;}
     .heading-wrapper h3{font-size: 28px; line-height: 35px; letter-spacing: -0.56px;}
-    .result-row-wrapper{gap: 12px; max-width: 100%;}
-    .result-box {width: calc(50% - 6px); max-width: 100%; flex: auto;}
+    .result-row-wrapper{gap: 12px; max-width: 100%; padding-bottom: 0; }
+    .result-row-wrapper::before{display: none;}
+    .result-box {width: calc(50% - 10px); max-width: 100%; flex: auto;}
     .num{font-size: 24px; letter-spacing: -0.48px; line-height: 24px;}
     .tab-lists{margin-bottom: 20px;}
     ul.tab{margin: 0; gap: 9px;}
