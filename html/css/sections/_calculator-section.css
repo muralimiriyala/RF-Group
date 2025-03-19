@@ -28,6 +28,15 @@ body.page-template-calculator-retirement ul.calcultor-selectBox-dropdown-menu { 
 body.page-template-calculator-retirement ul.calcultor-selectBox-dropdown-menu li a:hover{ background-color: var(--RF-Purple);}
 body.page-template-calculator-retirement .dividend-list .selectBox{top: 0;}
 
+.red .calculator-tabs{border-color: rgba(138, 37, 51, .25);}
+.red .dividend-list input{border-bottom: 3px solid var(--RF-Red); color: var(--RF-Red);}
+.red .dividend-dollar-main span, .red .dividend-percentage-main span{color: var(--RF-Red); }
+.red .dividend-list .selectBox{border-bottom: 3px solid var(--RF-Red); color: var(--RF-Red);}
+.red .dividend-list .selectBox:focus{border-color: var(--RF-Red);}
+.red .calculator-tabs-list input.checked{background-color: var(--RF-Red);}
+.red #dividendcal{color: var(--RF-Red);}
+.red .result-text strong{color: var(--RF-Red);}
+
 .dividend-select{display: flex; flex-wrap: wrap; gap: 12px;}
 body.page-template-calculator-retirement .dividend-select{position: relative;}
 body ul.calcultor-selectBox-dropdown-menu{background-color: var(--White); border: 1px solid rgba(39,114,219,.25);border-top: 1px solid rgba(39,114,219,.25) !important; margin: 0;}
@@ -97,7 +106,10 @@ table tr th:first-child{text-align: left;}
 .dividend-age-text, #dividend-age-num{font-size: 24px; font-weight: 700; color: var(--Black); line-height: 24px;}
 .dividend-minus-btn, .dividend-plus-btn{display: flex; flex-wrap: wrap; width: fit-content; cursor: pointer;}
 .dividend-minus-btn em, .dividend-plus-btn em{color: var(--Blue); font-size: 20px;}
-#graph, #table { display: none;}
+
+body.page-template-calculator-compound-interest .calculator-tabs-list label{padding: 0; color: var(--RF-Red); cursor: auto;}
+.calculator-tabs.com-cal-no-heading{padding-bottom: 25px;}
+
 
 @media screen and (min-width: 1024px) {
     .calculator-main-wrapper{padding-bottom: 80px;}
@@ -112,6 +124,7 @@ table tr th:first-child{text-align: left;}
     body.page-template-calculator-retirement .dividend-select{gap: 0; flex-direction: column-reverse;}
     body.page-template-calculator-retirement span.clear{top: 16px; transform: none;}
     .result-box .result-desc{width: 100%; max-width: 150px;}
+    body.page-template-calculator-compound-interest span.error-message{position: relative; bottom: 0; left: auto; padding: 0; text-align: right;}
 }
 @media screen and (max-width: 809px) and (min-width: 200px){
     .calculator-main-wrapper{padding-bottom: 40px;}
@@ -129,6 +142,9 @@ table tr th:first-child{text-align: left;}
     .dividend-select{gap: 8px;}
     .mobile-dividend-calculator .question-lists{margin-bottom: 0;}
     .mobile-dividend-calculator .btn-wrapper{gap: 20px;}
+
+    .red.mobile-dividend-calculator .accordion-header{border-color: var(--RF-Red);}
+    .red.mobile-dividend-calculator .accordion-header .accordion-plus svg path{fill: var(--RF-Red);}
 
     .result-wrap{margin-top: 40px; padding-top: 40px;}
     .result-desc, .result-btn{width: 100%; }
@@ -157,6 +173,17 @@ table tr th:first-child{text-align: left;}
     .dividend-list .selectBox{font-size: 20px;}
     body.page-template-calculator-retirement .dividend-select{gap: 0; flex-direction: column-reverse;}
     body.page-template-calculator-retirement span.clear{top: 16px; transform: none;}
+    #graph, #table { display: none;}
+
+    span.error-message { bottom: 0; left: 0; text-align: right; top: auto; position: relative;}
+
+    body.page-template-calculator-compound-interest .dividend-list input{border-bottom: 3px solid var(--RF-Red); color: var(--RF-Red);}
+    body.page-template-calculator-compound-interest .dividend-dollar-main span, 
+    body.page-template-calculator-compound-interest .dividend-percentage-main span{color: var(--RF-Red); }
+    body.page-template-calculator-compound-interest .dividend-list .selectBox{border-bottom: 3px solid var(--RF-Red); color: var(--RF-Red);}
+    body.page-template-calculator-compound-interest .dividend-list .selectBox:focus{border-color: var(--RF-Red);}
+    body.page-template-calculator-compound-interest .calculator-tabs-list input.checked{background-color: var(--RF-Red);}
+    body.page-template-calculator-compound-interest .result-text strong{color: var(--RF-Red);}
 }
 
 @media screen and (max-width: 767px) and (min-width: 200px){

@@ -147,7 +147,8 @@ hr.w-64{width: 64px;}
 .button.border-orange{border-color: var(--RF-Orange);}
 .button.border-orange::before{background-color: var(--RF-Orange);}
 
-
+.button.border-red{border-color: var(--RF-Red);}
+.button.border-red::before{background-color: var(--RF-Red);}
 
 .button.border-purple{border-color: var(--RF-Purple);}
 .button.border-purple::before{background-color: var(--RF-Purple);}
