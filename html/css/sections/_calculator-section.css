@@ -62,7 +62,7 @@ a.text-link.reset-btn:hover em { left: 0; transform: rotate(-65deg); }
 .result-wrap{padding-top: 64px; margin-top: 64px; gap: 30px; position: relative;}
 .result-wrap::before { content: ""; position: absolute; width: calc(100% + 128px); height: 2px; background: var(--Gray); top: 0; left: -64px; }
 .result-text{font-size: 40px; font-weight: 600; line-height: 48px; letter-spacing: -0.8px; color: var(--Black); font-family: var(--heading-font); margin-bottom: 12px;}
-.result-text strong{color: var(--Blue);}
+.result-text strong{color: var(--Blue); word-break: break-all;}
 .result-text:last-child{margin-bottom: 0;}
 .result-desc{flex: 1;}
 .result-btn{width: fit-content; margin-top: auto;}
@@ -92,9 +92,9 @@ span.clear em{font-size: 14px; font-weight: 900; color: var(--Black); line-heigh
 .heading-wrapper{gap: 40px; align-items: center; margin-bottom: 40px;}
 .heading-wrapper h3{font-size: 40px; line-height: 50px; margin: 0; flex: 1;}
 .heading-wrapper .result-btn{margin-top: 0;}
-span.tooltip{cursor: pointer; padding-left: 8px;}
+span.tooltip{cursor: pointer; padding-left: 8px; position: relative;}
 
-.retiremnt-plan-table-wrapper{width: 100%; overflow-x: auto;}
+.retiremnt-plan-table-wrapper{width: 100%; overflow-x: auto; padding-top: 64px;}
 table.retiremnt-plan-table{border: none;}
 table.retiremnt-plan-table th{background-color: var(--Background-Gray); color: var(--Text-Gray); font-weight: 600; font-size: 14px; line-height: 14px; border: none; padding: 14px 16px 15px; text-transform: uppercase; text-align: right;}
 table.retiremnt-plan-table td{font-size: 1.25rem; line-height: 20px; padding: 14px 16px 15px; color: var(--Black); text-align: right;}
@@ -110,6 +110,40 @@ table tr th:first-child{text-align: left;}
 body.page-template-calculator-compound-interest .calculator-tabs-list label{padding: 0; color: var(--RF-Red); cursor: auto;}
 .calculator-tabs.com-cal-no-heading{padding-bottom: 25px;}
 
+span.tooltip-txt{position: absolute;
+	background-color: var(--White);
+	font-size: 10px;
+	display: block;
+	padding: 6px;
+	z-index: 999;
+	line-height: 16px;
+	color: var(--Black);
+	font-weight: normal;
+	border-radius: 12px;
+    visibility: hidden;
+    opacity: 0;
+	width: fit-content;
+	left: calc(50% + 4px);
+    top: 100%;
+    bottom: auto;
+    transform: translateX(-50%);
+  max-width: 600px;
+  min-width: 400px;
+  text-align: center;
+  transition: all .5s ease;
+  border: 1px solid var(--Text-Gray);
+}
+.tooltip .tooltip-txt::before {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -7px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent var(--Text-Gray) transparent;
+    }
+.tooltip:hover .tooltip-txt, .tooltip.open .tooltip-txt{visibility: visible; opacity: 1;}
 
 @media screen and (min-width: 1024px) {
     .calculator-main-wrapper{padding-bottom: 80px;}
@@ -125,6 +159,9 @@ body.page-template-calculator-compound-interest .calculator-tabs-list label{padd
     body.page-template-calculator-retirement span.clear{top: 16px; transform: none;}
     .result-box .result-desc{width: 100%; max-width: 150px;}
     body.page-template-calculator-compound-interest span.error-message{position: relative; bottom: 0; left: auto; padding: 0; text-align: right;}
+
+    .tooltip .tooltip-txt::before{left: auto; right: 45px;}
+    span.tooltip-txt {left: auto; transform: none;right: -40px; min-width: 250px;}
 }
 @media screen and (max-width: 809px) and (min-width: 200px){
     .calculator-main-wrapper{padding-bottom: 40px;}
@@ -184,6 +221,11 @@ body.page-template-calculator-compound-interest .calculator-tabs-list label{padd
     body.page-template-calculator-compound-interest .dividend-list .selectBox:focus{border-color: var(--RF-Red);}
     body.page-template-calculator-compound-interest .calculator-tabs-list input.checked{background-color: var(--RF-Red);}
     body.page-template-calculator-compound-interest .result-text strong{color: var(--RF-Red);}
+
+    .tooltip .tooltip-txt::before{left: auto; right: 45px;}
+    span.tooltip-txt {left: auto; transform: none;right: -40px; min-width: 180px;}
+
+    .retiremnt-plan-table-wrapper{padding-top: 40px;}
 }
 
 @media screen and (max-width: 767px) and (min-width: 200px){
