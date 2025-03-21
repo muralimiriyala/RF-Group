@@ -30,12 +30,16 @@ body.page-template-calculator-retirement .dividend-list .selectBox{top: 0;}
 
 .red .calculator-tabs{border-color: rgba(138, 37, 51, .25);}
 .red .dividend-list input{border-bottom: 3px solid var(--RF-Red); color: var(--RF-Red);}
+.red .dividend-list input#investmentDate{max-width: 230px;}
 .red .dividend-dollar-main span, .red .dividend-percentage-main span{color: var(--RF-Red); }
 .red .dividend-list .selectBox{border-bottom: 3px solid var(--RF-Red); color: var(--RF-Red);}
 .red .dividend-list .selectBox:focus{border-color: var(--RF-Red);}
 .red .calculator-tabs-list input.checked{background-color: var(--RF-Red);}
 .red #dividendcal{color: var(--RF-Red);}
 .red .result-text strong{color: var(--RF-Red);}
+body .red .calcultor.selectBox-dropdown .selectBox-arrow{color: var(--RF-Red);}
+body.page-template-calculator-compound-interest ul.calcultor-selectBox-dropdown-menu { background-color: var(--White); border: 1px solid rgba(138, 37, 51, .25); border-top: 1px solid rgba(138, 37, 51, .25) !important;}
+body.page-template-calculator-compound-interest ul.calcultor-selectBox-dropdown-menu li a:hover{ background-color: var(--RF-Red);}
 
 .dividend-select{display: flex; flex-wrap: wrap; gap: 12px;}
 body.page-template-calculator-retirement .dividend-select{position: relative;}
@@ -242,6 +246,7 @@ span.tooltip-txt{position: absolute;
     .dividend-list input, .dividend-list .selectBox{width: 100%; max-width: 100%;}
     .dividend-percentage-main, .dividend-dollar-main, .dividend-select{width: 100%;}
     .dividend-plain-main{width: 100%;}
+    .red .dividend-list input#investmentDate { max-width: 100%; }
     
 }
 
