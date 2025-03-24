@@ -111,7 +111,7 @@ table tr th:first-child{text-align: left;}
 .dividend-minus-btn, .dividend-plus-btn{display: flex; flex-wrap: wrap; width: fit-content; cursor: pointer;}
 .dividend-minus-btn em, .dividend-plus-btn em{color: var(--Blue); font-size: 20px;}
 
-body.page-template-calculator-compound-interest .calculator-tabs-list label{padding: 0; color: var(--RF-Red); cursor: auto;}
+body.page-template-calculator-compound-interest .calculator-tabs-list label{color: var(--RF-Red); cursor: auto;}
 .calculator-tabs.com-cal-no-heading{padding-bottom: 25px;}
 
 span.tooltip-txt{position: absolute;
