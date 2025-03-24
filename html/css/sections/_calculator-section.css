@@ -38,7 +38,7 @@ body.page-template-calculator-retirement .dividend-list .selectBox{top: 0;}
 .red #dividendcal{color: var(--RF-Red);}
 .red .result-text strong{color: var(--RF-Red);}
 body .red .calcultor.selectBox-dropdown .selectBox-arrow{color: var(--RF-Red);}
-body.page-template-calculator-compound-interest ul.calcultor-selectBox-dropdown-menu { background-color: var(--White); border: 1px solid rgba(138, 37, 51, .25); border-top: 1px solid rgba(138, 37, 51, .25) !important;}
+body.page-template-calculator-compound-interest ul.calcultor-selectBox-dropdown-menu { background-color: var(--White); border: 1px solid rgba(138, 37, 51, .25); border-top: 1px solid rgba(138, 37, 51, .25) !important; min-width: 205px; width: fit-content;}
 body.page-template-calculator-compound-interest ul.calcultor-selectBox-dropdown-menu li a:hover{ background-color: var(--RF-Red);}
 
 .dividend-select{display: flex; flex-wrap: wrap; gap: 12px;}
@@ -66,7 +66,7 @@ a.text-link.reset-btn:hover em { left: 0; transform: rotate(-65deg); }
 .result-wrap{padding-top: 64px; margin-top: 64px; gap: 30px; position: relative;}
 .result-wrap::before { content: ""; position: absolute; width: calc(100% + 128px); height: 2px; background: var(--Gray); top: 0; left: -64px; }
 .result-text{font-size: 40px; font-weight: 600; line-height: 48px; letter-spacing: -0.8px; color: var(--Black); font-family: var(--heading-font); margin-bottom: 12px;}
-.result-text strong{color: var(--Blue); word-break: break-all;}
+.result-text strong{color: var(--Blue); word-break: break-word;}
 .result-text:last-child{margin-bottom: 0;}
 .result-desc{flex: 1;}
 .result-btn{width: fit-content; margin-top: auto;}
@@ -224,6 +224,7 @@ span.tooltip-txt{position: absolute;
     body.page-template-calculator-compound-interest .dividend-list .selectBox{border-bottom: 3px solid var(--RF-Red); color: var(--RF-Red);}
     body.page-template-calculator-compound-interest .dividend-list .selectBox:focus{border-color: var(--RF-Red);}
     body.page-template-calculator-compound-interest .calculator-tabs-list input.checked{background-color: var(--RF-Red);}
+    body.page-template-calculator-compound-interest .result-text{margin-bottom: 10px; font-size: 25px; line-height: 32px;}
     body.page-template-calculator-compound-interest .result-text strong{color: var(--RF-Red);}
 
     .tooltip .tooltip-txt::before{left: auto; right: 45px;}
