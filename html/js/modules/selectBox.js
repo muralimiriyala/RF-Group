@@ -39,5 +39,16 @@ export const selectBox = {
       .change(function () {
         jQuery(this).parent().children('.frm_error').remove();
       });
+
+    jQuery(document).on('click', '.reset-btn, .start-over', function (e) {
+      var calculator = jQuery(this).closest('.future-value-calculator');
+      calculator.find('select').each(function () {
+        const ele = jQuery(this);
+        const firstvalue = ele.prop('selectedIndex', 0).selectBox('refresh');
+
+        let eletext = ele.find('option:first-of-type').val();
+        jQuery('.dividend-list span.selectBox-label').text(eletext);
+      });
+    });
   },
 };
