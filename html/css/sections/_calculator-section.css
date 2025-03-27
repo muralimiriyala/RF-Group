@@ -17,7 +17,7 @@ label:has(input:checked){color: var(--Blue);}
 /* .dividend-list input#savings{max-width: 150px;} */
 
 .dividend-list .dividend-dollar-main input{padding: 8px 23px 0 24px;}
-.dividend-list .dividend-percentage-main input{padding: 8px 50px 0 8px; text-align: right;}
+.dividend-list .dividend-percentage-main input{padding: 8px 52px 0 8px; text-align: right;}
 
 .Purple .dividend-list input{border-bottom: 3px solid var(--RF-Purple); color: var(--RF-Purple);}
 .Purple .dividend-dollar-main span, .Purple .dividend-percentage-main span{color: var(--RF-Purple); }
@@ -103,7 +103,7 @@ span.error-message{position: absolute; right: 0; font-size: 16px; line-height: 1
 span.error{position: absolute; top: auto; bottom: -14px; right: 0; text-align: right; line-height: 12px; color: var(--Red); font-size: 12px;}
 .Purple span.error{color: var(--Red); top: auto;}
 
-span.clear{left: auto; right: 9px; top: calc(50% + 1px); transform: translateY(-50%); line-height: 12px; position: absolute;}
+span.clear{left: auto; right: 9px; top: calc(50% + 1px); transform: translateY(-50%); line-height: 12px; position: absolute; display: block;}
 span.clear em{font-size: 14px; font-weight: 900; color: var(--Black); line-height: 12px; opacity: .4; cursor: pointer;}
 
 .heading-wrapper{gap: 40px; align-items: center; margin-bottom: 40px;}
@@ -115,7 +115,7 @@ span.tooltip{cursor: pointer; padding-left: 8px; position: relative;}
 table.retiremnt-plan-table{border: none;}
 table.retiremnt-plan-table th{background-color: var(--Background-Gray); color: var(--Text-Gray); font-weight: 600; font-size: 14px; line-height: 14px; border: none; padding: 14px 16px 15px; text-transform: uppercase; text-align: right;}
 table.retiremnt-plan-table td{font-size: 1.25rem; line-height: 20px; padding: 14px 16px 15px; color: var(--Black); text-align: right;}
-table.retiremnt-plan-table tr:nth-child(2n+1) td{background-color: var(--White);}
+table.retiremnt-plan-table tr:nth-child(2n+1) td, .mobile-retirment-plan table tr:nth-child(2n+1) td{background-color: var(--White);}
 table.retiremnt-plan-table tr th:first-child{text-align: left;}
 
 .dividend-age-main{border: 1px solid var(--Text-Gray); background: var(--Background-Gray); padding: 16px; gap: 8px;}
@@ -269,16 +269,23 @@ span.tooltip-txt{position: absolute;
     .tooltip .tooltip-txt::before{left: auto; right: 45px;}
     span.tooltip-txt {left: auto; transform: none;right: -40px; min-width: 180px;}
 
-    .retiremnt-plan-table-wrapper{padding-top: 40px;}
+    .retiremnt-plan-table-wrapper{padding-top: 0;}
     .mobile-retirement{width: 100%; }
     .compound-plan-table-wrapper {padding-top: 0;}
-    .compound-calc-chart canvas{width: 100% !important; height: auto !important;}
+    .compound-calc-chart canvas{height: auto !important; width: calc(100% + 40px) !important;
+        left: -25px;
+        position: relative; max-width: calc(100% + 40px);}
 
+    span.clear{z-index: 999; pointer-events: auto;}
     span.clear em{font-size: 20px; line-height: 20px;}
     .dividend-percentage-main span:not(.clear) { right: 35px; }
-    .dividend-list em.fa-calendar {top: 20px; right: 40px;}
+    .dividend-list em.fa-calendar {right: 40px;}
     .red .dividend-list .dividend-percentage-main input { padding: 8px 53px 0 8px;}
     .red .dividend-list input#investmentDate{min-height: 52px;}
+
+    .mobile-retirment-plan table{margin: 20px 0; border: none;}
+    .mobile-retirment-plan table tr td{font-weight: 600;}
+    .mobile-retirment-plan table tr td:last-child{color: var(--Black);}
 
 }
 
