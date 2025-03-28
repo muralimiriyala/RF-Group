@@ -104,7 +104,7 @@ span.error{position: absolute; top: auto; bottom: -14px; right: 0; text-align: r
 .Purple span.error{color: var(--Red); top: auto;}
 
 span.clear{left: auto; right: 9px; top: calc(50% + 1px); transform: translateY(-50%); line-height: 12px; position: absolute; display: block;}
-span.clear em{font-size: 14px; font-weight: 900; color: var(--Black); line-height: 12px; opacity: .4; cursor: pointer;}
+span.clear em{font-size: 11px; font-weight: 900; color: var(--Black); line-height: 11px; opacity: .4; cursor: pointer;}
 
 .heading-wrapper{gap: 40px; align-items: center; margin-bottom: 40px;}
 .heading-wrapper h3{font-size: 40px; line-height: 50px; margin: 0; flex: 1;}
@@ -150,13 +150,13 @@ span.tooltip-txt{position: absolute;
 	border-radius: 12px;
     visibility: hidden;
     opacity: 0;
-	width: fit-content;
+	width: max-content;
 	left: calc(50% + 4px);
     top: 100%;
     bottom: auto;
     transform: translateX(-50%);
-  max-width: 600px;
-  min-width: 400px;
+  max-width: 450px;
+  min-width: fit-content;
   text-align: center;
   transition: all .5s ease;
   border: 1px solid var(--Text-Gray);
@@ -196,7 +196,7 @@ span.tooltip-txt{position: absolute;
     body.page-template-calculator-compound-interest .result-text{font-size: 30px; line-height: 38px;}
 
     .tooltip .tooltip-txt::before{left: auto; right: 45px;}
-    span.tooltip-txt {left: auto; transform: none;right: -40px; min-width: 250px;}
+    span.tooltip-txt {left: auto; transform: none;right: -40px; max-width: 250px;}
     body.page-template-calculator-compound-interest .result-row-wrapper{gap: 60px; padding-bottom: 50px;}
     body.page-template-calculator-compound-interest .result-row-wrapper .result-btn{width: 100%;}
 }
@@ -267,7 +267,7 @@ span.tooltip-txt{position: absolute;
     table.compound-plan-table th {text-align: left;}
 
     .tooltip .tooltip-txt::before{left: auto; right: 45px;}
-    span.tooltip-txt {left: auto; transform: none;right: -40px; min-width: 180px;}
+    span.tooltip-txt {left: auto; transform: none;right: -40px; max-width: 200px;}
 
     .retiremnt-plan-table-wrapper{padding-top: 0;}
     .mobile-retirement{width: 100%; }
@@ -303,7 +303,9 @@ span.tooltip-txt{position: absolute;
     .dividend-list input, .dividend-list .selectBox{width: 100%; max-width: 100%;}
     .dividend-percentage-main, .dividend-dollar-main, .dividend-select{width: 100%;}
     .dividend-plain-main{width: 100%;}
-    .red .dividend-list input#investmentDate { max-width: 100%; }
+    .red .dividend-list input#investmentDate{max-width: 100%;}
+    /* .Purple .dividend-list:last-child span.tooltip-txt { left: 0;}
+    .Purple .dividend-list:last-child span.tooltip-txt::before{left: 17px; right: auto;} */
     
 }
 
