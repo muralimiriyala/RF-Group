@@ -52,6 +52,7 @@ body.page-template-calculator-retirement .dividend-list .selectBox{top: 0;}
 body .red .calcultor.selectBox-dropdown .selectBox-arrow{color: var(--RF-Red);}
 body.page-template-calculator-compound-interest ul.calcultor-selectBox-dropdown-menu { background-color: var(--White); border: 1px solid rgba(138, 37, 51, .25); border-top: 1px solid rgba(138, 37, 51, .25) !important; min-width: 205px; width: fit-content;}
 body.page-template-calculator-compound-interest ul.calcultor-selectBox-dropdown-menu li a:hover{ background-color: var(--RF-Red);}
+body.page-template-calculator-compound-interest ul.calcultor-selectBox-dropdown-menu li.selectBox-selected a{ background-color: var(--RF-Red);}
 
 .dividend-select{display: flex; flex-wrap: wrap; gap: 12px;}
 body.page-template-calculator-retirement .dividend-select{position: relative;}
@@ -173,6 +174,11 @@ span.tooltip-txt{position: absolute;
     }
 .tooltip:hover .tooltip-txt, .tooltip.open .tooltip-txt{visibility: visible; opacity: 1;}
 
+.chart-legend{margin-bottom: 10px; gap: 15px;}
+.custom-label{font-size: 16px; color: var(--Black); position: relative; padding-left: 20px;}
+.custom-label::before{content: ""; position: absolute; width: 14px; height: 14px; border-radius: 2px; background: var(--RF-Red); top: 50%; left: 0; transform: translateY(-50%); }
+.custom-label.rect-label::before{height: 4px; border-radius: 0;}
+
 @media screen and (max-width: 1199px) and (min-width: 1024px) {
     body.page-template-calculator-compound-interest .result-text{font-size: 35px; line-height: 43px;}
 }
@@ -286,6 +292,9 @@ span.tooltip-txt{position: absolute;
     .mobile-retirment-plan table{margin: 20px 0; border: none;}
     .mobile-retirment-plan table tr td{font-weight: 600;}
     .mobile-retirment-plan table tr td:last-child{color: var(--Black);}
+
+    .chart-legend-mob{gap: 15px; margin-bottom: 10px; }
+    .custom-label{font-size: 14px;}
 
 }
 
