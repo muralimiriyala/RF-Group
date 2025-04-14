@@ -7,7 +7,7 @@ body.page-template-service-tier-1 .about-intro-main hr{background-color: var(--R
 .about-intro span{margin-bottom: 0; letter-spacing: -0.8px; line-height: 125%}
 .about-intro-head{padding: 40px 0;}
 .about-intro-lt > p{font-size: 1.25rem; font-weight: 400; line-height: 150%;}
-.about-intro-lt h1{margin-bottom: 0; line-height: 100%; letter-spacing: normal;}
+.about-intro-lt h1, .about-intro-lt h2{margin-bottom: 0; line-height: 100%; letter-spacing: normal;}
 
 .about-intro{gap: 40px;}
 .about-left-intro{flex: 1;}
@@ -66,7 +66,7 @@ body.page-template-service-tier-1 .about-intro-main hr{background-color: var(--R
     .about-intro .button{width: 100%; font-size: 1rem;}
     .about-intro{margin: 0 0 24px; display: block;}
     .about-intro-head{padding: 24px 0 26px;}
-    .about-intro-lt h1 {font-size: 3rem;}
+    .about-intro-lt h1, .about-intro-lt h2{font-size: 3rem;}
     .about-intro-lt{margin-bottom: 24px;}
     .about-intro-lists { padding: 24px 0 0; }
     .about-intro-list{margin-bottom: 24px;}
