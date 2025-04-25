@@ -50,9 +50,25 @@ ul.copyrights-menu > li::before{display: none;}
 ul.copyrights-menu > li > a{color: rgba(255, 255, 255, 0.5);}
 ul.copyrights-menu > li > a:hover{color: var(--Blue);}
 
+/* Marquee css start*/
+.marqueelist-section{overflow: hidden; width: 100%; background: linear-gradient(0deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.10) 100%), var(--Black); position: fixed; bottom: 0; height: 87px; z-index: 10;}
+.marqueelist-section .container{overflow: hidden; position: relative; z-index: 1;}
+.marqueelist-section .container::before{background: linear-gradient(-90deg,hsla(0,0%,100%,0),#1a1a1a); content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100px; z-index: 2; }
+.marqueelist-section .container::after{background: linear-gradient(90deg,hsla(0,0%,100%,0),#1a1a1a); content: ""; height: 100%; right: 0; position: absolute; top: 0; width: 100px; z-index: 2; }
+.marquee-wrapper{white-space: nowrap; display: flex; padding: 20px 0 40px; }
+.marquee-main{display: inline-block; white-space: nowrap; }
+.marqueelist{display: flex; gap: 30px; list-style: none; padding: 0; margin: 0; }
+.marqueelist li{font-size: 12px; color: var(--White); display: inline-block; margin-bottom: 0; font-weight: 400;}
+.marqueelist li::before{width: 1px; height: 16px; background: var(--White-25); top: 5px;}
+.marquee-stockname{padding-left: 6px; }
+.greentxt{color: var(--Green); font-weight: 500; }
+.redtxt{color: var(--red); font-weight: 500; }
+/* Marquee css end*/
+  
+
 
 @media screen and (min-width: 1024px) {
-    .footer{padding: 80px 0 40px;}
+    .footer{padding: 80px 0 127px;}
     .footer-top{margin-bottom: 61px;}
     .footer-top-lt{flex: 0 0 680px;}
     .footer-top-rt{flex: 0 0 calc(100% - 680px);}
@@ -72,7 +88,7 @@ ul.copyrights-menu > li > a:hover{color: var(--Blue);}
     .footer-address-main::before{left: -32px;}
 }
 @media screen and (max-width: 1023px) and (min-width: 810px) {
-    .footer{padding: 40px 0;}
+    .footer{padding: 40px 0 127px;}
     .footer-bg{bottom: -5px; right: -10px; z-index: -1; max-width: 418px;}
     .footer-top{margin-bottom: 61px;}
     .footer-top-lt{flex: 0 0 calc(100% - 190px);}
@@ -85,7 +101,7 @@ ul.copyrights-menu > li > a:hover{color: var(--Blue);}
     ul.copyrights-menu > li{padding: 0 8px;}
 }
 @media screen and (max-width: 809px) and (min-width: 200px) {
-    .footer{padding: 40px 0;}
+    .footer{padding: 40px 0 127px;}
     .footer-top{margin-bottom: 40px;}
     .footer-top-lt{width: 100%; margin-bottom: 32px;}
     .footer-top-rt{width: 100%;}
