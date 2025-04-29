@@ -54,6 +54,13 @@ body.page-template-calculator-compound-interest ul.calcultor-selectBox-dropdown-
 body.page-template-calculator-compound-interest ul.calcultor-selectBox-dropdown-menu li a:hover{ background-color: var(--RF-Red);}
 body.page-template-calculator-compound-interest ul.calcultor-selectBox-dropdown-menu li.selectBox-selected a{ background-color: var(--RF-Red);}
 
+.yellow .calculator-tabs{border-color: rgba(195, 124, 0, .25);}
+.yellow .dividend-list input{border-bottom: 3px solid var(--Light-Brown); color: var(--Light-Brown);}
+.yellow .dividend-dollar-main span, .yellow .dividend-percentage-main span{color: var(--Light-Brown); }
+.yellow .dividend-list .selectBox{border-bottom: 3px solid var(--Light-Brown); color: var(--Light-Brown);}
+.yellow .dividend-list .selectBox:focus{border-color: var(--Light-Brown);}
+.yellow .calculator-tabs-list input.checked{background-color: var(--Light-Brown);}
+
 .dividend-select{display: flex; flex-wrap: wrap; gap: 12px;}
 body.page-template-calculator-retirement .dividend-select{position: relative;}
 body ul.calcultor-selectBox-dropdown-menu{background-color: var(--White); border: 1px solid rgba(39,114,219,.25);border-top: 1px solid rgba(39,114,219,.25) !important; margin: 0;}

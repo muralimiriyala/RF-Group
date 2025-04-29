@@ -153,6 +153,9 @@ hr.w-64{width: 64px;}
 .button.border-purple{border-color: var(--RF-Purple);}
 .button.border-purple::before{background-color: var(--RF-Purple);}
 
+.button.border-brown{border-color: var(--Light-Brown);}
+.button.border-brown::before{background-color: var(--Light-Brown);}
+
 
 
 .button.btn-red-bg{background: var(--RF-Red); }
