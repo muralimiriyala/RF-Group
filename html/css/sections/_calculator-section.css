@@ -56,10 +56,17 @@ body.page-template-calculator-compound-interest ul.calcultor-selectBox-dropdown-
 
 .yellow .calculator-tabs{border-color: rgba(195, 124, 0, .25);}
 .yellow .dividend-list input{border-bottom: 3px solid var(--Light-Brown); color: var(--Light-Brown);}
-.yellow .dividend-dollar-main span, .yellow .dividend-percentage-main span{color: var(--Light-Brown); }
+.yellow .dividend-dollar-main span:not(.error), .yellow .dividend-percentage-main span:not(.error){color: var(--Light-Brown); }
+.yellow .result-text strong{color: var(--Light-Brown);}
 .yellow .dividend-list .selectBox{border-bottom: 3px solid var(--Light-Brown); color: var(--Light-Brown);}
 .yellow .dividend-list .selectBox:focus{border-color: var(--Light-Brown);}
 .yellow .calculator-tabs-list input.checked{background-color: var(--Light-Brown);}
+body.page-template-calculator-education .result-row-wrapper{padding-bottom: 0;}
+body.page-template-calculator-education .result-row-wrapper::before{display: none;}
+body.page-template-calculator-education .result-wrap{padding-top: 0; margin-top: 0; gap: 0;}
+body.page-template-calculator-education .result-wrap::before {display: none;}
+.education-result-wrapper{margin-top: 64px; padding-top: 64px; position: relative; }
+.education-result-wrapper::before{background: var(--Gray); content: ""; height: 2px; left: -64px; position: absolute; top: 0; width: calc(100% + 128px); }
 
 .dividend-select{display: flex; flex-wrap: wrap; gap: 12px;}
 body.page-template-calculator-retirement .dividend-select{position: relative;}
@@ -205,13 +212,18 @@ span.tooltip-txt{position: absolute;
     body.page-template-calculator-retirement span.clear{top: 16px; transform: none;}
     .result-box .result-desc{width: 100%; max-width: 150px;}
     body.page-template-calculator-compound-interest span.error-message{position: relative; bottom: 0; left: auto; padding: 0; text-align: right;}
-    body.page-template-calculator-compound-interest .result-row-wrapper{align-items: center;}
     body.page-template-calculator-compound-interest .result-text{font-size: 30px; line-height: 38px;}
+    body.page-template-calculator-compound-interest .result-row-wrapper{gap: 60px; padding-bottom: 50px; align-items: center;}
+    body.page-template-calculator-compound-interest .result-row-wrapper .result-btn{width: 100%;}
+
+    body.page-template-calculator-education span.error-message{position: relative; bottom: 0; left: auto; padding: 0; text-align: right;}
+    body.page-template-calculator-education .result-text{font-size: 30px; line-height: 38px;}
+    body.page-template-calculator-education .result-row-wrapper{gap: 60px; align-items: center;}
+    body.page-template-calculator-education .result-row-wrapper .result-btn{width: 100%;}
 
     .tooltip .tooltip-txt::before{left: auto; right: 45px;}
     span.tooltip-txt {left: auto; transform: none;right: -40px; max-width: 250px;}
-    body.page-template-calculator-compound-interest .result-row-wrapper{gap: 60px; padding-bottom: 50px;}
-    body.page-template-calculator-compound-interest .result-row-wrapper .result-btn{width: 100%;}
+    
 }
 @media screen and (max-width: 809px) and (min-width: 200px){
     .calculator-main-wrapper{padding-bottom: 40px;}
@@ -232,6 +244,13 @@ span.tooltip-txt{position: absolute;
 
     .red.mobile-dividend-calculator .accordion-header{border-color: var(--RF-Red);}
     .red.mobile-dividend-calculator .accordion-header .accordion-plus svg path{fill: var(--RF-Red);}
+
+    .yellow.mobile-dividend-calculator .accordion-header{border-color: var(--Light-Brown);}
+    .yellow.mobile-dividend-calculator .accordion-header .accordion-plus svg path{fill: var(--Light-Brown);}
+    body.page-template-calculator-education .result-row-wrapper{margin-top: 40px; padding-top: 40px;}
+    body.page-template-calculator-education .result-row-wrapper::after{background: var(--Gray); content: ""; height: 2px; left: -64px; position: absolute; top: 0; width: calc(100% + 128px); }
+    body.page-template-calculator-education .result-btn{display: none;}
+    body.page-template-calculator-education .result-text{ margin-bottom: 10px; font-size: 25px; line-height: 32px;}
 
     .result-wrap{margin-top: 40px; padding-top: 40px;}
     .result-desc, .result-btn{width: 100%; }
