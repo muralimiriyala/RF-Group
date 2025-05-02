@@ -54,9 +54,11 @@ body.page-template-calculator-compound-interest ul.calcultor-selectBox-dropdown-
 body.page-template-calculator-compound-interest ul.calcultor-selectBox-dropdown-menu li a:hover{ background-color: var(--RF-Red);}
 body.page-template-calculator-compound-interest ul.calcultor-selectBox-dropdown-menu li.selectBox-selected a{ background-color: var(--RF-Red);}
 
-.yellow .calculator-tabs{border-color: rgba(195, 124, 0, .25);}
+.yellow .calculator-head{padding-bottom: 40px; margin-bottom: 40px; border-bottom: 2px solid rgba(195, 124, 0, .25);}
+body.page-template-calculator-education .calculator-tabs{padding-bottom: 0; margin-bottom: 0; border: none;}
+.cal-no-heading h5{margin-bottom: 0;}
 .yellow .dividend-list input{border-bottom: 3px solid var(--Light-Brown); color: var(--Light-Brown);}
-.yellow .dividend-dollar-main span:not(.error), .yellow .dividend-percentage-main span:not(.error){color: var(--Light-Brown); }
+.yellow .dividend-dollar-main span:not(.error-message), .yellow .dividend-percentage-main span:not(.error-message){color: var(--Light-Brown); }
 .yellow .result-text strong{color: var(--Light-Brown);}
 .yellow .dividend-list .selectBox{border-bottom: 3px solid var(--Light-Brown); color: var(--Light-Brown);}
 .yellow .dividend-list .selectBox:focus{border-color: var(--Light-Brown);}
@@ -247,6 +249,7 @@ span.tooltip-txt{position: absolute;
 
     .yellow.mobile-dividend-calculator .accordion-header{border-color: var(--Light-Brown);}
     .yellow.mobile-dividend-calculator .accordion-header .accordion-plus svg path{fill: var(--Light-Brown);}
+    .yellow .dividend-dollar-main span.error-message, .yellow .dividend-percentage-main span.error-message{font-size: 16px;}
     body.page-template-calculator-education .result-row-wrapper{margin-top: 40px; padding-top: 40px;}
     body.page-template-calculator-education .result-row-wrapper::after{background: var(--Gray); content: ""; height: 2px; left: -64px; position: absolute; top: 0; width: calc(100% + 128px); }
     body.page-template-calculator-education .result-btn{display: none;}
