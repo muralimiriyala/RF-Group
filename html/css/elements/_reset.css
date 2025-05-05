@@ -156,6 +156,9 @@ hr.w-64{width: 64px;}
 .button.border-brown{border-color: var(--Light-Brown);}
 .button.border-brown::before{background-color: var(--Light-Brown);}
 
+.button.border-aquamarine{border-color: var(--RF-Aquamarine);}
+.button.border-aquamarine::before{background-color: var(--RF-Aquamarine);}
+
 
 
 .button.btn-red-bg{background: var(--RF-Red); }

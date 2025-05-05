@@ -70,6 +70,22 @@ body.page-template-calculator-education .result-wrap::before {display: none;}
 .education-result-wrapper{margin-top: 64px; padding-top: 64px; position: relative; }
 .education-result-wrapper::before{background: var(--Gray); content: ""; height: 2px; left: -64px; position: absolute; top: 0; width: calc(100% + 128px); }
 
+.aquamarine .calculator-head{padding-bottom: 40px; margin-bottom: 40px; border-bottom: 2px solid rgba(0, 111, 100, .25);}
+body.page-template-calculator-margin-interest .calculator-tabs{padding-bottom: 0; margin-bottom: 0; border: none;}
+.cal-no-heading h5{margin-bottom: 0;}
+.aquamarine .dividend-list input{border-bottom: 3px solid var(--RF-Aquamarine); color: var(--RF-Aquamarine);}
+.aquamarine .dividend-dollar-main span:not(.error-message), .aquamarine .dividend-percentage-main span:not(.error-message){color: var(--RF-Aquamarine); }
+.aquamarine .result-text strong{color: var(--RF-Aquamarine);}
+.aquamarine .dividend-list .selectBox{border-bottom: 3px solid var(--RF-Aquamarine); color: var(--RF-Aquamarine);}
+.aquamarine .dividend-list .selectBox:focus{border-color: var(--RF-Aquamarine);}
+.aquamarine .calculator-tabs-list input.checked{background-color: var(--RF-Aquamarine);}
+body.page-template-calculator-margin-interest .result-row-wrapper{padding-bottom: 0;}
+body.page-template-calculator-margin-interest .result-row-wrapper::before{display: none;}
+body.page-template-calculator-margin-interest .result-wrap{padding-top: 0; margin-top: 0; gap: 0;}
+body.page-template-calculator-margin-interest .result-wrap::before {display: none;}
+.margin-result-wrapper{margin-top: 64px; padding-top: 64px; position: relative; }
+.margin-result-wrapper::before{background: var(--Gray); content: ""; height: 2px; left: -64px; position: absolute; top: 0; width: calc(100% + 128px);}
+
 .dividend-select{display: flex; flex-wrap: wrap; gap: 12px;}
 body.page-template-calculator-retirement .dividend-select{position: relative;}
 body ul.calcultor-selectBox-dropdown-menu{background-color: var(--White); border: 1px solid rgba(39,114,219,.25);border-top: 1px solid rgba(39,114,219,.25) !important; margin: 0;}
@@ -218,10 +234,11 @@ span.tooltip-txt{position: absolute;
     body.page-template-calculator-compound-interest .result-row-wrapper{gap: 60px; padding-bottom: 50px; align-items: center;}
     body.page-template-calculator-compound-interest .result-row-wrapper .result-btn{width: 100%;}
 
-    body.page-template-calculator-education span.error-message{position: relative; bottom: 0; left: auto; padding: 0; text-align: right;}
+    body.page-template-calculator-education span.error-message{position: relative; bottom: 0; left: auto; padding: 0; text-align: right; top: 2px;}
     body.page-template-calculator-education .result-text{font-size: 30px; line-height: 38px;}
     body.page-template-calculator-education .result-row-wrapper{gap: 60px; align-items: center;}
     body.page-template-calculator-education .result-row-wrapper .result-btn{width: 100%;}
+    body.page-template-calculator-education span.clear{top: 14px; transform: none;}
 
     .tooltip .tooltip-txt::before{left: auto; right: 45px;}
     span.tooltip-txt {left: auto; transform: none;right: -40px; max-width: 250px;}
@@ -254,6 +271,16 @@ span.tooltip-txt{position: absolute;
     body.page-template-calculator-education .result-row-wrapper::after{background: var(--Gray); content: ""; height: 2px; left: -64px; position: absolute; top: 0; width: calc(100% + 128px); }
     body.page-template-calculator-education .result-btn{display: none;}
     body.page-template-calculator-education .result-text{ margin-bottom: 10px; font-size: 25px; line-height: 32px;}
+    body.page-template-calculator-education span.clear{top: 14px; transform: none;}
+
+    .aquamarine.mobile-dividend-calculator .accordion-header{border-color: var(--RF-Aquamarine);}
+    .aquamarine.mobile-dividend-calculator .accordion-header .accordion-plus svg path{fill: var(--RF-Aquamarine);}
+    .aquamarine .dividend-dollar-main span.error-message, .aquamarine .dividend-percentage-main span.error-message{font-size: 16px;}
+    body.page-template-calculator-margin-interest .result-row-wrapper{margin-top: 40px; padding-top: 40px;}
+    body.page-template-calculator-margin-interest .result-row-wrapper::after{background: var(--Gray); content: ""; height: 2px; left: -64px; position: absolute; top: 0; width: calc(100% + 128px); }
+    body.page-template-calculator-margin-interest .result-btn{display: none;}
+    body.page-template-calculator-margin-interest .result-text{ margin-bottom: 10px; font-size: 25px; line-height: 32px;}
+    .mobile-margin{width: 100%; }
 
     .result-wrap{margin-top: 40px; padding-top: 40px;}
     .result-desc, .result-btn{width: 100%; }
