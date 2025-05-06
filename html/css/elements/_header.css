@@ -41,17 +41,21 @@ nav.navigation ul.menu > li.nav-item-about > ul > li > ul > li a.text-link{margi
     header.gray-header.white-bg::before{background-color: var(--White); border-bottom-color: var(--Light-Gray);} 
     body.page-template-calculator-education header.gray-header::before,
     body.page-template-calculator-retirement header.gray-header::before,
+    body.page-template-calculator-retirement-new header.gray-header::before,
     body.page-template-calculator-compound-interest header.gray-header::before,
     body.page-template-calculator-dividend header.gray-header::before,
     body.page-template-calculator-pension header.gray-header::before,
+    body.page-template-calculator-pension-new header.gray-header::before,
     body.page-template-calculator-margin-interest header.gray-header::before{background-color: var(--White);} 
 
     body.page-template-resources .site-main-cover,
     body.page-template-calculator-margin-interest .site-main-cover,
     body.page-template-calculator-pension .site-main-cover,
+    body.page-template-calculator-pension-new .site-main-cover,
     body.page-template-calculator-dividend .site-main-cover,
     body.page-template-calculator-compound-interest .site-main-cover,
     body.page-template-calculator-retirement .site-main-cover,
+    body.page-template-calculator-retirement-new .site-main-cover,
     body.page-template-calculator-education .site-main-cover,
     body.page-template-resource-fees .site-main-cover,
     body.tax-reports-category .site-main-cover,
