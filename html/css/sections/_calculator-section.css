@@ -86,6 +86,15 @@ body.page-template-calculator-margin-interest .result-wrap::before {display: non
 .margin-result-wrapper{margin-top: 64px; padding-top: 64px; position: relative; }
 .margin-result-wrapper::before{background: var(--Gray); content: ""; height: 2px; left: -64px; position: absolute; top: 0; width: calc(100% + 128px);}
 
+body.page-template-calculator-retirement-new  .retirement-result-wrapper #annuity{display: flex; flex-wrap: wrap; flex: 1; gap: 20px;}
+body.page-template-calculator-retirement-new .dividend-list .dividend-dollar-main input{max-width: 175px;}
+body.page-template-calculator-retirement-new .retirement-result-wrapper .num{margin-bottom: 0;}
+body.page-template-calculator-retirement-new .retirement-result-wrapper .num > div{margin-bottom: 18px;}
+body.page-template-calculator-retirement-new .retirement-result-wrapper .result-txt{color: var(--Text-Gray); letter-spacing: 0; font-weight: 400; display: block; text-align: center; font-size: 13px; font-family: var(--body-font); line-height: 115%; max-width: 110px; margin: 0 auto;}
+body.page-template-calculator-retirement-new .retirement-result-wrapper #reverseannuity{display: none;}
+body.page-template-calculator-retirement-new .retirement-result-wrapper .reverseannuity-open #reverseannuity{display: flex; flex-wrap: wrap; flex: 1; gap: 20px;}
+body.page-template-calculator-retirement-new .retirement-result-wrapper .reverseannuity-open #annuity{display: none;}
+
 .dividend-select{display: flex; flex-wrap: wrap; gap: 12px;}
 body.page-template-calculator-pension-new .dividend-select{position: relative;}
 body ul.calcultor-selectBox-dropdown-menu{background-color: var(--White); border: 1px solid rgba(39,114,219,.25);border-top: 1px solid rgba(39,114,219,.25) !important; margin: 0;}
@@ -211,6 +220,7 @@ span.tooltip-txt{position: absolute;
 .custom-label::before{content: ""; position: absolute; width: 14px; height: 14px; border-radius: 2px; background: var(--RF-Red); top: 50%; left: 0; transform: translateY(-50%); }
 .custom-label.rect-label::before{height: 4px; border-radius: 0;}
 
+
 @media screen and (max-width: 1199px) and (min-width: 1024px) {
     body.page-template-calculator-compound-interest .result-text{font-size: 35px; line-height: 43px;}
 }
@@ -218,8 +228,10 @@ span.tooltip-txt{position: absolute;
     .calculator-main-wrapper{padding-bottom: 80px;}
     .calculator-wrapper{padding: 64px;}
     .result-box .result-desc{width: 100%; max-width: 150px;}
+    .retirement-result-wrapper .result-box .result-desc{width: 100%; max-width: 100%;}
     body.page-template-calculator-compound-interest .result-row-wrapper{gap: 60px; padding-bottom: 50px;}
     body.page-template-calculator-compound-interest .result-row-wrapper .result-btn{width: 100%;}
+    body.page-template-calculator-retirement-new .dividend-list{width: 100%;}
 }
 
 @media screen and (max-width: 1023px) and (min-width: 810px){
