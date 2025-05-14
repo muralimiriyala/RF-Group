@@ -164,7 +164,7 @@ table.retiremnt-plan-table tr th:first-child{text-align: left;}
 
 .dividend-age-main{border: 1px solid var(--Text-Gray); background: var(--Background-Gray); padding: 16px; gap: 8px;}
 .dividend-age-textwrap{flex: 1; gap: 5px; justify-content: center;}
-.dividend-age-text, #dividend-age-num{font-size: 24px; font-weight: 700; color: var(--Black); line-height: 24px;}
+.dividend-age-text, .dividendage{font-size: 24px; font-weight: 700; color: var(--Black); line-height: 24px;}
 .dividend-minus-btn, .dividend-plus-btn{display: flex; flex-wrap: wrap; width: fit-content; cursor: pointer;}
 .dividend-minus-btn em, .dividend-plus-btn em{color: var(--Blue); font-size: 20px;}
 
