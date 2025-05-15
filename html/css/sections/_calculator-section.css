@@ -96,6 +96,8 @@ body.page-template-calculator-retirement-new .retirement-result-wrapper .result-
 body.page-template-calculator-retirement-new .retirement-result-wrapper .reverseannuity-open #annuity{display: none;} */
 body.page-template-calculator-retirement-new .dividend-list span.tooltip em{color: var(--Blue);}
 body.page-template-calculator-retirement-new .dividend-list input{text-align: right;}
+body.page-template-calculator-retirement-new .result-desc{display: flex; align-items: center; flex-wrap: wrap;}
+body.page-template-calculator-retirement-new .compound-calc-chart{height: 560px;}
 
 .dividend-select{display: flex; flex-wrap: wrap; gap: 12px;}
 body.page-template-calculator-pension-new .dividend-select{position: relative;}
@@ -138,7 +140,7 @@ a.text-link.reset-btn:hover em { left: 0; transform: rotate(-65deg); }
 /* .result-row-wrapper::after{background: var(--Gray); content: ""; height: 2px; left: -64px; position: absolute; top: 0; width: calc(100% + 128px);} */
 .result-box-main{gap: 20px; flex:  1;}
 .retirment-result-graph{flex: 1;}
-.result-box{display: flex; gap: 20px; flex: 0 0 calc(33.333% - 14px); flex-grow: 1; line-height: 115%; padding: 31px 12px 16px 12px; flex-direction: column; justify-content: center; align-items: center; word-wrap: break-word;}
+.result-box{display: flex; gap: 20px; flex: 0 0 calc(33.333% - 14px); flex-grow: 1; line-height: 115%; padding: 31px 12px 16px 12px; justify-content: center; align-items: center; word-wrap: break-word;}
 .result-desc{flex: 1; gap: 16px;}
 .num{display: block; font-size: 28px; line-height: 30px; width: 100%; text-align: center; color: var(--Black); font-family: var(--heading-font); letter-spacing: -0.56px; font-weight: 600; margin-bottom: 18px;}
 .result-txt{display: block; text-align: center; font-size: 13px; font-family: var(--body-font); line-height: 115%; max-width: 110px; margin: 0 auto;}
@@ -262,6 +264,8 @@ span.tooltip-txt{position: absolute;
     table.retiremnt-plan-table{margin-bottom: 0;}
 
     body.page-template-calculator-retirement-new .calculator-tabs-list label > .accordion-plus{display: none;}
+    body.page-template-calculator-retirement-new .result-row-wrapper .result-box-main,
+    body.page-template-calculator-retirement-new .result-row-wrapper .retirment-result-graph{flex: 0 0 100%;}
     
 }
 @media screen and (max-width: 809px) and (min-width: 200px){
@@ -355,9 +359,7 @@ span.tooltip-txt{position: absolute;
     .retiremnt-plan-table-wrapper{padding-top: 0;}
     .mobile-retirement{width: 100%; }
     .compound-plan-table-wrapper {padding-top: 0;}
-    .compound-calc-chart canvas{height: auto !important; width: calc(100% + 40px) !important;
-        left: -25px;
-        position: relative; max-width: calc(100% + 40px);}
+    .compound-calc-chart canvas{height: auto !important; width: calc(100% + 40px) !important; left: -25px; position: relative; max-width: calc(100% + 40px);}
 
     span.clear{z-index: 999; pointer-events: auto;}
     span.clear em{font-size: 20px; line-height: 20px;}
@@ -389,6 +391,9 @@ span.tooltip-txt{position: absolute;
     body.page-template-calculator-retirement-new .dividend-list .dividend-dollar-main input, body.page-template-calculator-retirement-new .dividend-list input{padding: 8px 27px 0 24px;}
     body.page-template-calculator-retirement-new .dividend-list .dividend-percentage-main input{padding: 8px 52px 0 8px;}
     body.page-template-calculator-retirement-new .dividend-calculator{padding: 19px 0 24px; }
+    body.page-template-calculator-retirement-new .result-desc{display: block; }
+    body.page-template-calculator-retirement-new .compound-calc-chart{margin-bottom: 25px;}
+    body.page-template-calculator-retirement-new .compound-calc-chart canvas{width: calc(100% + 20px) !important; left: -10px; position: relative; max-width: calc(100% + 20px); height: 100% !important;}
 
 }
 
