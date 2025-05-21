@@ -28,6 +28,7 @@ body .Purple .calcultor.selectBox-dropdown .selectBox-arrow{color: var(--RF-Purp
 body.page-template-calculator-pension-new ul.calcultor-selectBox-dropdown-menu { background-color: var(--White); border: 1px solid rgba(111, 34, 118,.25); border-top: 1px solid rgba(111, 34, 118,.25) !important;}
 body.page-template-calculator-pension-new ul.calcultor-selectBox-dropdown-menu li a:hover{ background-color: var(--RF-Purple);}
 body.page-template-calculator-pension-new .dividend-list .selectBox{top: 0;}
+/* body.page-template-calculator-pension-new .dividend-list input{text-align: right;} */
 
 .red .calculator-tabs{border-color: rgba(138, 37, 51, .25);}
 .red .dividend-list input{border-bottom: 3px solid var(--RF-Red); color: var(--RF-Red);}
@@ -95,7 +96,7 @@ body.page-template-calculator-retirement-new .retirement-result-wrapper .result-
 /* body.page-template-calculator-retirement-new .retirement-result-wrapper .reverseannuity-open #reverseannuity{display: flex; flex-wrap: wrap; flex: 1; gap: 20px;}
 body.page-template-calculator-retirement-new .retirement-result-wrapper .reverseannuity-open #annuity{display: none;} */
 body.page-template-calculator-retirement-new .dividend-list span.tooltip em{color: var(--Blue);}
-body.page-template-calculator-retirement-new .dividend-list input{text-align: right;}
+/* body.page-template-calculator-retirement-new .dividend-list input{text-align: right;} */
 body.page-template-calculator-retirement-new .result-desc{display: flex; align-items: center; flex-wrap: wrap;}
 body.page-template-calculator-retirement-new .compound-calc-chart{height: 560px;}
 
