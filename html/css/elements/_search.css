@@ -2,7 +2,7 @@
 .btn-srch-pos{width: 24px; top: 52px; right: 2px; z-index: 1800;}
 header.white-header .btn-srch-pos{top: 4px; right: 50px;}
 
-.btn-srch{font-size: 0; line-height: 0; padding: 0; top: 12px; right: -2px; position: absolute; background: none;}
+.btn-srch{padding: 0; top: 12px; right: -2px; position: absolute; background: none;}
 .btn-srch::before{display: none;}
 .btn-srch em{font-size: 1.5rem; line-height: 24px; color: var(--White);}
 .btn-srch:hover em{color: var(--Blue);}
