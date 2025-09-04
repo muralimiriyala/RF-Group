@@ -16,9 +16,18 @@ ul.service-fund-banner-data li:before{display: none;}
 .service-fund-banner-list ul.faqs-links{margin: 0;}
 .service-fund-banner-list ul.faqs-links li:only-child{margin-bottom: 0;}
 .service-lists{gap: 24px}
-.service-list{flex: 1; }
-.service-list span.num{color: var(--Black); font-weight: 600; line-height: 100%;}
-.service-list:first-child:before{background-color: var(--RF-Orange-10); width: 1px; height: 100%; position: absolute; content: ""; right: -13px;}
+.service-list{flex: 1; font-size: 14px; line-height: 125%; color: var(--Text-Gray); text-transform: uppercase;}
+.service-list span.num{
+    color: var(--Text-Gray2);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 100%;
+    margin-bottom: 0;
+    letter-spacing: 0;
+    font-family: var(--body-font);
+}
+.service-list:before{background-color: var(--RF-Orange-10); width: 1px; height: 100%; position: absolute; content: ""; right: -13px;}
+.service-list:last-child::before, .service-list:only-child::before { display: none; }
 
 .service-fund-banner-main:after{bottom:0; width: 100%; height: 2px; display: block; border: none; border-radius: 1px; background-color: var(--RF-Orange); opacity: 0.25; position: absolute; content:""; margin: 12px 0;}
 
