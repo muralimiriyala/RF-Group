@@ -33,6 +33,7 @@ import { uicategory } from './modules/uicategory.js';
 import { jumpto } from './modules/jumpto.js';
 import { servicetierfunddetails } from './modules/servicetierfunddetails.js';
 import { inputNumber } from './modules/inputNumber.js';
+import { notification } from './modules/notification.js';
 
 document.addEventListener('DOMContentLoaded', function () {
   // (function () {
@@ -67,6 +68,7 @@ document.addEventListener('DOMContentLoaded', function () {
   jumpto.init();
   servicetierfunddetails.fund();
   inputNumber.input();
+  notification.init();
   // })();
 });
 let scrolled = window.scrollY;
