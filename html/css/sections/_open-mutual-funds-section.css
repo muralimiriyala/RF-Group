@@ -21,6 +21,10 @@ ul.open-mutual-links li a.current i{display: none;}
 .open-mutual-rt p{font-size: 0.875rem; line-height: 14px; color: var(--Text-Gray); margin-bottom: 0;}
 .open-mutual-fund-list{padding: 24px 24px 18px; background-color: var(--White);}
 .open-mutual-fund-list > span{font-size: 1.25rem; line-height: 25px; display: block; font-weight: 600; color: var(--Black); margin-bottom: 16px;}
+
+.open-mutual-fund-list > span > a{color: var(--Black);}
+.open-mutual-fund-list > span > a:hover{color: var(--Blue);}
+
 .open-mutual-fund-list hr{margin: 16px 0; background-color: var(--RF-Orange-10);}
 .open-mutual-fund-list p{font-size: 0.875rem; line-height: 125%; font-weight: 400; }
 .open-mutual-fund-list ul.faqs-links{margin: 0;}

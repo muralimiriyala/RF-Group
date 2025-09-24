@@ -1,47 +1,33 @@
 import $ from 'jquery';
 export const megamenu = {
-  $navforlinks: document.querySelectorAll(
-    'nav.navigation ul.menu > li.nav-item-for > a'
-  ),
   $navfor: document.querySelectorAll(
-    'nav.navigation ul.menu > li.nav-item-for > ul'
+    'nav.navigation ul.menu > li.nav-item-for > ul > li > a'
   ),
   init() {
     const __ = this;
     const desktopmenu = () => {
-      __.$navfor.forEach((ulele) => {
-        ulele.children[0].classList.add('hover');
+      __.$navfor[0].parentElement.classList.add('hover');
 
-        ulele.querySelectorAll('li').forEach((eleHasClass) => {
-          if (eleHasClass.classList.contains('current_page_item')) {
-            eleHasClass.parentElement.querySelectorAll('li').forEach((ele) => {
-              ele
-                .querySelectorAll('ul')
-                .forEach((ul) => (ul.style.display = 'none'));
+      //mouse enter
+      __.$navfor.forEach((ele) => {
+        ele.addEventListener('mouseenter', function (e) {
+          let show = e.currentTarget.parentElement.querySelector('ul');
+          let currentLi = e.currentTarget.parentElement;
+          let prevLi = Array.from(
+            e.currentTarget.parentElement.parentElement.children
+          );
+
+          if (prevLi !== currentLi) {
+            // hide except hover
+            prevLi.forEach((ele) => {
               ele.classList.remove('hover');
             });
-            eleHasClass.classList.add('hover');
-            $(eleHasClass.querySelector('ul')).fadeIn(200);
+            prevLi.forEach((ele) => {
+              ele.children[1].style.display = 'none';
+            });
           }
-        });
-        //mouse enter
-        ulele.querySelectorAll('a').forEach((ele) => {
-          ele.addEventListener('mouseenter', function (e) {
-            let show = e.target.parentElement.querySelector('ul');
-            let currentLi = e.target.parentElement;
-            let prevLi = ulele.children;
-            if (prevLi !== currentLi) {
-              // hide except hover
-              currentLi.parentElement.querySelectorAll('li').forEach((ele) => {
-                ele.classList.remove('hover');
-                ele
-                  .querySelectorAll('ul')
-                  .forEach((ul) => (ul.style.display = 'none'));
-              });
-            }
-            e.target.parentElement.classList.add('hover');
-            jQuery(show).fadeIn(200);
-          });
+          e.target.parentElement.classList.add('hover');
+          $(show).fadeIn(200);
         });
       });
     };
