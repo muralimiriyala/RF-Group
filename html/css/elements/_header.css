@@ -35,7 +35,7 @@ nav.navigation ul.menu > li.nav-item-advice > ul > li > ul > li a.text-link{marg
 nav.navigation ul.menu > li.nav-item-about > ul > li > ul > li a.text-link{margin-top: 14px;}
 
 
-.notification-bar{background: var(--Blue); z-index: 801; position: relative; transition: all .5s ease;}
+.notification-bar{background: var(--Blue); z-index: 801; position: relative; transition: all .5s ease; opacity: 1; transform: translateY(0); transition: opacity 5s ease, transform 5s ease; will-change: opacity, transform;}
 .notification-main{justify-content: center; padding: 12px 40px; align-items: center; font-size: 16px; font-weight: 700; color: var(--White); gap: 40px; }
 .notification-main p{margin-bottom: 0;}
 .notification-close{position: absolute; top: 50%; transform: translateY(-50%); right: 40px; line-height: normal; cursor: pointer;}
@@ -44,7 +44,7 @@ nav.navigation ul.menu > li.nav-item-about > ul > li > ul > li a.text-link{margi
 .notification-main .button{background: var(--White); color: var(--Blue); font-size: 1rem; padding: 8px 19px;}
 .notification-main .button:hover{color: var(--White);}
 .notification-main .button::before{background: var(--Navy); }
-.notification-bar.hide{opacity: 0; height: 0; overflow: hidden; padding: 0; margin: 0; }
+.notification-bar.hide{opacity: 0; overflow: hidden; padding: 0; margin: 0; transform: translateY(-100%);}
 
 
 
