@@ -35,7 +35,7 @@ ul.jumpto-links > li a.active em::before{content: "\f077";}
 .page-template-service-tier-3-fund-detail .service-tier-banner-main{padding: 0 0 44px;}
 .page-template-service-tier-3-fund-detail .service-tier-block::after, .page-template-service-tier-3-fund-detail .service-tier-block::before{background-color: var(--RF-Orange);}
 .page-template-service-tier-3-fund-detail .service-tier-block .number {margin:  14px  0 0;}
-.page-template-service-tier-3-fund-detail .service-tier-block:nth-child(2) .number { color: var(--Pure-Red); }
+.page-template-service-tier-3-fund-detail .service-tier-block:nth-child(2) .number{color: var(--Black); }
 
 
 .service-fund-details-wrap{padding: 40px 0;}
@@ -68,7 +68,7 @@ ul.jumpto-links > li a.active em::before{content: "\f077";}
 
     .service-tier-block{ flex: 0 0 50%;}
     .service-tier-block::after, .service-tier-block::before{background-color: var(--RF-Red); content: ""; display: block; position: absolute;}
-    .service-tier-block:nth-child(odd)::before{width: 1px; height: calc(100% + 16px); right: 0; top: -8px;}
+    .service-tier-block:nth-child(odd)::before{width: 1px; height: 100%; right: 0; top: 0;}
     .service-tier-block::after{width: calc(100% + 16px); height: 1px; left: -8px; top: 0;}
     .service-tier-block:nth-child(-n+2)::after{display: none;}
 
@@ -91,7 +91,7 @@ ul.jumpto-links > li a.active em::before{content: "\f077";}
     .service-tier-banner-rt{padding: 8px; }
     .service-tier-blocks{ gap: 17px; }
     .service-tier-block{  flex: 0 0 calc(25% - 13px); background-color: var(--White)}
-    .service-tier-block::after{background-color: var(--RF-Red); content: ""; display: block; position: absolute; width: 1px; height: calc(100% + 16px); right: -8px; top: -8px;}
+    .service-tier-block::after{background-color: var(--RF-Red); content: ""; display: block; position: absolute; width: 1px; height: 100%; right: -8px; top: 0;}
     .service-tier-banner-lt h1{font-size: 2.25rem; margin-bottom: 32px;}
     .service-tier-banner-lt p{margin-bottom: 32px;}
     .service-tier-block:last-child::after{display: none;}
@@ -127,7 +127,7 @@ ul.jumpto-links > li a.active em::before{content: "\f077";}
     
     .service-tier-block{ flex: 0 0 50%;}
     .service-tier-block::after, .service-tier-block::before{background-color: var(--RF-Red); content: ""; display: block; position: absolute;}
-    .service-tier-block:nth-child(odd)::before{width: 1px; height: calc(100% + 16px); right: 0; top: -8px;}
+    .service-tier-block:nth-child(odd)::before{width: 1px; height: 100%; right: 0; top: 0;}
     .service-tier-block::after{width: calc(100% + 16px); height: 1px; left: -8px; top: 0;}
     .service-tier-block:nth-child(-n+2)::after{display: none;}
     .service-tier-block .number{font-size: 1.5rem; letter-spacing: -0.48px;}

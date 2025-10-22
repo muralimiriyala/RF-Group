@@ -34,8 +34,27 @@ header.scrolly-header{transform: translateY(-100%);}
 nav.navigation ul.menu > li.nav-item-advice > ul > li > ul > li a.text-link{margin-top: 25px;}
 nav.navigation ul.menu > li.nav-item-about > ul > li > ul > li a.text-link{margin-top: 14px;}
 
+
+.notification-bar{background: var(--Blue); opacity: 1; position: absolute; transition: all .5s ease; z-index: 801; width: 100%; height: auto; top: 0; visibility: hidden;}
+.notification-bar.show-notification{visibility: visible;}   
+.notification-main{justify-content: center; padding: 12px 40px; align-items: center; font-size: 16px; font-weight: 700; color: var(--White); gap: 40px; }
+.notification-main p{margin-bottom: 0;}
+.notification-close{position: absolute; top: 50%; transform: translateY(-50%); right: 40px; line-height: normal; cursor: pointer;}
+.notification-close span{font-size: 30px;}
+.notification-close span:hover{color: var(--Black);}
+.notification-main .button{background: var(--White); color: var(--Blue); font-size: 1rem; padding: 8px 19px;}
+.notification-main .button:hover{color: var(--White);}
+.notification-main .button::before{background: var(--Navy);}
+.notification-bar.hide-notification{transform: translateY(-100%);}
+
+
+
+
+
 /* media css starts here */
 @media screen and (min-width: 1024px) {
+
+    header.site-header.with-notification{top: 56px;}
     
     header.gray-header::before{width: 100%; height: 100%; top: 0; left: 0; position: absolute; content: ""; display: block; background-color: var(--Background-Gray); border-bottom: 1px solid transparent; z-index: -1; transition: all 0.5s ease;}
     header.gray-header.white-bg::before{background-color: var(--White); border-bottom-color: var(--Light-Gray);} 
@@ -303,6 +322,12 @@ nav.navigation ul.menu > li.nav-item-about > ul > li > ul > li a.text-link{margi
 }
 @media screen and (max-width: 1023px) and (min-width: 810px){
     .header_bar_main{max-height: 62px; min-height: 62px; overflow: hidden;}
+
+    .notification-main{ padding: 17px 80px 20px 40px; }
+    .notification-main p{flex: 1; }
+    .notification-main .button{width: fit-content;}
+
+    header.site-header.with-notification{top: 91px;}
 }
 @media screen and (max-width: 1023px) and (min-width: 200px){
     header.site-header::before{width: 100%; height: 100%; top: 0; left: 0; position: absolute; content: ""; display: block; background-color: var(--Black); z-index: -1; transition: all 0.5s ease;}
@@ -492,6 +517,8 @@ nav.navigation ul.menu > li.nav-item-about > ul > li > ul > li a.text-link{margi
 }
 @media screen and (max-width: 809px) and (min-width: 200px){
 
+    header.site-header.with-notification{top: 135px;}
+
     .header_right{left: -24px;}
     .header_bar_main{min-height: 82px; max-height: 82px; overflow: hidden;}
     .header_bar_left {justify-content: flex-start; gap: 8px;}
@@ -502,4 +529,9 @@ nav.navigation ul.menu > li.nav-item-about > ul > li > ul > li a.text-link{margi
     nav.navigation ul.menu > li > a{padding: 17px 48px 17px 20px;}
     nav.navigation ul.menu > li > ul > li > a{padding: 9px 20px 10px;}
     nav.navigation ul.menu > li > ul > li > ul > li > a{padding: 6px 20px 9px;}
+
+    .notification-main {gap: 15px; justify-content: flex-start; padding: 20px 45px 20px 25px;}
+    .notification-main p{width: 100%;}
+    .notification-close{right: 24px;}
+    .notification-close span{font-size: 23px; }
 }
