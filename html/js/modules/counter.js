@@ -5,7 +5,7 @@ export const counter = {
   $back: document.querySelectorAll('.counter-back'),
   init() {
     const _ = this;
-    if (!_.$ele) return;
+    if (!_.$ele.length === 0) return;
 
     _.$ele.forEach(($el) => {
       const $target = $el.getAttribute('id');
@@ -15,7 +15,7 @@ export const counter = {
 
       const countTo = parseFloat($el.getAttribute('data-count-to'));
       const decimalPlaces =
-        countTo % 1 !== 0 ? countTo.toString().split('.')[1].length : 0;
+        countTo % 1 !== 0 ? countTo.toString().split('.')[1]?.length : 0;
 
       $el.counter = new CountUp(`${$target}`, countTo, {
         startVal: 0,

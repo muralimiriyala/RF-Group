@@ -6,7 +6,9 @@ export const megamenu = {
   init() {
     const __ = this;
     const desktopmenu = () => {
-      __.$navfor[0].parentElement.classList.add('hover');
+      if (__.$navfor[0]) {
+        __.$navfor[0].parentElement.classList.add('hover');
+      }
 
       //mouse enter
       __.$navfor.forEach((ele) => {

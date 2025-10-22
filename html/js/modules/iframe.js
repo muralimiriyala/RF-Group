@@ -15,7 +15,6 @@ export const iframe = {
     _.postiframes.forEach((iframe) => {
       if (!iframe) return;
       const $iframe = jQuery(iframe);
-      console.log($iframe);
       $iframe.youtube_background({
         lazyloading: false,
         autoplay: false,

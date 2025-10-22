@@ -68,8 +68,8 @@ function calculateDividend() {
 
   // Display the result in the correct calculator
   if (activeCalculator) {
-    console.log(activeCalculator, outputHtml);
-    console.log(document.querySelector('body'));
+    // console.log(activeCalculator, outputHtml);
+    // console.log(document.querySelector('body'));
     // activeCalculator.querySelector('.result').innerHTML = outputHtml;
   }
 }
