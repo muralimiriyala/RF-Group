@@ -38,7 +38,9 @@ ul.bio-links > li em{font-size: 1.25rem;  font-weight: 400; color: var(--Blue); 
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .about-bio-img img{ max-height: 350px; object-position: top center;}
+    .about-bio-left{max-width: 350px;}
+    .about-bio-img img{ height: auto; object-position: top center;}
+    /* max-height: 350px; */
     .blue-block-wrap{margin-top: -100px; padding: 40px;}
 }
 @media only screen and (max-width: 1199px) and (min-width: 1024px){
