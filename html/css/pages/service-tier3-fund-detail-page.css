@@ -67,6 +67,10 @@ table.fees-expenses-table tr:nth-child(n+4) td:first-child{padding-left: 32px;}
 
 .fund-detail-report-aside.no-fund-article{flex: 0 0 100%;}
 
+body.service-color-d57800 .doc-form-list .doc-form-line{background-color: var(--RF-Orange) !important;}
+body.service-color-d57800 .doc-form-list:hover { background-color: var(--RF-Orange-10) !important;}
+body.service-color-d57800 .doc-form-list:hover .doc-form-icon{background-color:var(--RF-Orange) !important;}
+
 /* media css starts here */
 @media only screen  and (min-width: 1200px){
     .asset-performance-graph canvas#assetPieChart{height: 500px !important; width: 500px !important;}

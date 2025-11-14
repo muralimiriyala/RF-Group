@@ -4,6 +4,9 @@
 
 body.page-template-service-tier-1 .about-intro-main hr{background-color: var(--RF-Purple);}
 
+body.service-color-d57800 .about-intro-main hr{background-color: var(--RF-Orange) !important;}
+body.service-color-d57800 .about-intro-lt h2{color: var(--RF-Orange) !important;}
+
 .about-intro span{margin-bottom: 0; letter-spacing: -0.8px; line-height: 125%}
 .about-intro-head{padding: 40px 0;}
 .about-intro-lt > p{font-size: 1.25rem; font-weight: 400; line-height: 150%;}

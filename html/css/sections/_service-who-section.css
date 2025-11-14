@@ -11,6 +11,11 @@
 .service-who-rt .service-icon em{font-size: 2.5rem; margin-bottom: 16px; font-weight: 300; color: var(--Text-gray); opacity: 0.5;}
 .service-who-list h5{margin-bottom: 8px;}
 
+body.service-color-d57800  .service-who-lt{border: 1px solid var(--RF-Orange) !important;}
+body.service-color-d57800 .service-who-lt hr, body.service-color-d57800 .service-who-rt hr{background-color: var(--RF-Orange) !important;}
+body.service-color-d57800 .service-who-lt .service-icon em{color: var(--RF-Orange) !important;}
+
+
 
 @media screen and (max-width: 1199px) and (min-width: 1024px) {
     .service-who-list-wrap{flex-direction: column;}

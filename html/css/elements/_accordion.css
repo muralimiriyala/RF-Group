@@ -45,6 +45,10 @@
 .accordion-head-lt h3 { margin-bottom: 0; font-size: 2.5rem; }
 .accordion-main:last-child{padding-bottom: 0;}
 
+body.service-color-d57800 .accordion-list:not(.open) .accordion-header:hover{border-color: var(--RF-Orange) !important;}
+body.service-color-d57800 .accordion-list:not(.open) .accordion-header:hover::before { background: var(--RF-Orange-10) !important;}
+body.service-color-d57800 .accordion-list .accordion-header svg path{fill: var(--RF-Orange) !important;}
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .accordion-main{padding: 0 0 57px;}

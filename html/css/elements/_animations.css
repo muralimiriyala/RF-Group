@@ -87,6 +87,8 @@
 [data-animate="anim-once"]{animation-play-state: paused;}
 .anim-once{animation-play-state: running; animation-iteration-count: 1;}
 
+body.service-color-d57800 .animated-border{background-color: var(--RF-Orange) !important;}
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 810px){
   [data-animate*="vr-100"].visible{height: 100%;}
