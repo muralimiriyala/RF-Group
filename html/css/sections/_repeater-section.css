@@ -27,9 +27,6 @@ svg.repeater-icon-hover{top: 0; left: 0; opacity: 0;}
 
 .purple-block ul > li::before, ul.purple > li::before{background-color: var(--RF-Purple);}
 
-body.service-color-d57800 span.optional-text{color: var(--RF-Orange) !important;}
-
-
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1300px) {

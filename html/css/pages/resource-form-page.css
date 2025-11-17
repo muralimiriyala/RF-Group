@@ -44,9 +44,6 @@ ul.ui-categorys::-webkit-scrollbar{display: none;}
 ul.ui-categorys li{width: fit-content;}
 ul.ui-categorys li a{white-space: nowrap;}
 
-body.service-color-d57800 .doc-form-list .doc-form-icon path{stroke: var(--RF-Orange) !important;}
-body.service-color-d57800 .doc-form-list:hover .doc-form-icon path{stroke: var(--White) !important;}
-
 /* media css starts here */
 @media only screen  and (min-width: 810px){
     .doc-form-rows{gap: 61px; padding-top: 21px;}

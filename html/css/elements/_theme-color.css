@@ -1,0 +1,68 @@
+
+/* accordion css */
+body[class*="dynamic-color"] .accordion-list:not(.open) .accordion-header:hover{border-color: var(--dynamic-color) !important;}
+body[class*="dynamic-color"] .accordion-list:not(.open) .accordion-header:hover::before { background:color-mix(in srgb, var(--dynamic-color) 10%, transparent) !important;}
+body[class*="dynamic-color"] .accordion-list .accordion-header svg path{fill: var(--dynamic-color) !important;}
+
+/* animation css */
+body[class*="dynamic-color"] .animated-border{background-color: var(--dynamic-color) !important;}
+
+/* reset css */
+body[class*="dynamic-color"] .button.transparent{border: 2px solid var(--dynamic-color) !important;}
+body[class*="dynamic-color"] .button.transparent::before{background: var(--dynamic-color) !important;}
+
+body[class*="dynamic-color"] .button.btn-purple-bg{background-color: var(--dynamic-color) !important;}
+body[class*="dynamic-color"] .button.btn-hover-navy::before{background: var(--dynamic-color) !important;}
+body[class*="dynamic-color"] .button.btn-hover-blue::before{background: var(--dynamic-color) !important;}
+body[class*="dynamic-color"] .button.btn-white-bg{color: var(--dynamic-color) !important;}
+body[class*="dynamic-color"] .button.btn-white-bg:hover{color: var(--White) !important;}
+body[class*="dynamic-color"] .button.btn-hover-navy::before{background: var(--dynamic-color) !important;}
+
+body[class*="dynamic-color"] a.text-link:hover{color: var(--dynamic-color);}
+body[class*="dynamic-color"] a.text-link em{color: var(--dynamic-color);}
+
+/* faq css */
+body[class*="dynamic-color"] .faqs-desc hr[data-animate]{background-color: var(--dynamic-color) !important;}
+body[class*="dynamic-color"] .faqs-text h2.h5{color: var(--dynamic-color) !important;}
+body[class*="dynamic-color"] .faqs-top-line::before{background-color: var(--dynamic-color) !important;}
+
+/* resources css */
+body[class*="dynamic-color"] .doc-form-list .doc-form-icon path{stroke: var(--dynamic-color) !important;}
+body[class*="dynamic-color"] .doc-form-list:hover .doc-form-icon path{stroke: var(--White) !important;}
+
+/* service trie 2 css */
+body[class*="dynamic-color"] .fund-group-list{border-left-color: var(--dynamic-color) !important;}
+
+/* service trie 3 css */
+body[class*="dynamic-color"] .doc-form-list .doc-form-line{background-color: var(--dynamic-color) !important;}
+body[class*="dynamic-color"] .doc-form-list:hover { background-color: color-mix(in srgb, var(--dynamic-color) 10%, transparent) !important;}
+body[class*="dynamic-color"] .doc-form-list:hover .doc-form-icon{background-color:var(--dynamic-color) !important;}
+body[class*="dynamic-color"] a:hover span.gray-line{background-color:var(--dynamic-color) !important; }
+
+/* about intro css */
+body[class*="dynamic-color"] .about-intro-main hr{background-color: var(--dynamic-color) !important;}
+body[class*="dynamic-color"] .about-intro-lt h2{color: var(--dynamic-color) !important;}
+body[class*="dynamic-color"] .about-intro-main .feature-icon svg path{stroke: var(--dynamic-color) !important;}
+
+/* calc cta css */
+body[class*="dynamic-color"] .calc-cta-text h3 input{border-bottom-color: var(--dynamic-color) !important;}
+
+/* home banner css */
+body[class*="dynamic-color"] .home-banner-text span.optional-text{color: var(--dynamic-color);}
+body[class*="dynamic-color"] .home-banner-text hr[data-animate]{background-color: var(--dynamic-color);}
+
+/* managment css */
+body[class*="dynamic-color"] .management-bg{background: var(--dynamic-color) !important;}
+
+/* repeater section css */
+body[class*="dynamic-color"] span.optional-text{color: var(--dynamic-color) !important;}
+
+/* scrl explainer css */
+body[class*="dynamic-color"] .scrl-explainer-inner hr{background-color: var(--dynamic-color) !important;}
+body[class*="dynamic-color"] .scrl-explainer-btns{border: 1px solid var(--dynamic-color) !important;}
+body[class*="dynamic-color"] .scrl-explainer-line{background: var(--dynamic-color) !important;}
+
+/* service who section css */
+body[class*="dynamic-color"]  .service-who-lt{border: 1px solid var(--dynamic-color) !important;}
+body[class*="dynamic-color"] .service-who-lt hr, body[class*="dynamic-color"] .service-who-rt hr{background-color: var(--dynamic-color) !important;}
+body[class*="dynamic-color"] .service-who-lt .service-icon em{color: var(--dynamic-color) !important;}

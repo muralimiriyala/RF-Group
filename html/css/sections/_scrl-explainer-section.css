@@ -12,10 +12,6 @@
 .page-template-campaign .scrl-explainer-main{padding: 40px 0;}
 .scrl-explainer-inner hr.purple{background-color: var(--RF-Purple);}
 
-body.service-color-d57800 .scrl-explainer-inner hr{background-color: var(--RF-Orange) !important;}
-body.service-color-d57800 .scrl-explainer-btns{border: 1px solid var(--RF-Orange) !important;}
-body.service-color-d57800 .scrl-explainer-line{background: var(--RF-Orange) !important;}
-
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){

@@ -63,8 +63,6 @@ body.page-template-service-tier-1 .fund-group-desc h2{font-weight: 600;}
 .faqs-top-line.orange-line::before{background-color: var(--RF-Orange);}
 .faqs-top-line.yellow-line::before{background-color: var(--RF-Yellow);}
 
-body.service-color-d57800 .fund-group-list{border-left-color: var(--RF-Orange) !important;}
-
 
 @media screen and (max-width: 1199px) and (min-width: 1024px){
     .service-fund-banner-desc{width: inherit;}

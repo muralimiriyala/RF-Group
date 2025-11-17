@@ -140,8 +140,7 @@ hr.w-64{width: 64px;}
 .button.transparent::before, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparent::before{background: var(--Blue);}
 .button.transparent:hover, .frm_submit button.frm_button_submit.transparent:hover, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparent:hover{color: var(--White);}
 
-body.service-color-d57800 .button.transparent{border: 2px solid var(--RF-Orange) !important;}
-body.service-color-d57800 .button.transparent::before{background: var(--RF-Orange) !important;}
+
 
 .button.no-bg{background-color: transparent;}
 .button.no-bg.button.btn-hover-blue:hover em{color: var(--White);}
@@ -179,14 +178,6 @@ body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparen
 .button.btn-navy-bg{background-color: var(--Navy);}
 .button.btn-yellow-bg{background-color: var(--Yellow-3);}
 .button.btn-purple-bg{background-color: var(--RF-Purple);}
-
-body.service-color-d57800 .button.btn-purple-bg{background-color: var(--RF-Orange) !important;}
-body.service-color-d57800 .button.btn-hover-navy::before{background: var(--RF-Orange) !important;}
-body.service-color-d57800 .button.btn-hover-blue::before{background: var(--RF-Orange) !important;}
-body.service-color-d57800 .button.btn-white-bg{color: var(--RF-Orange) !important;}
-body.service-color-d57800 .button.btn-white-bg:hover{color: var(--White) !important;}
-body.service-color-d57800 .button.btn-hover-navy::before{background: var(--RF-Orange) !important;}
-
 
 .button.btn-white-bg.text-black{color: var(--Black);}
 .button.btn-white-bg.aquamarine-i i{color: var(--RF-Aquamarine);}
@@ -266,9 +257,6 @@ a.text-link.aquamarine-em em{color: var(--RF-Aquamarine);}
 
 a.text-link.yellow-em:hover{color: var(--Yellow-2);}
 a.text-link.yellow-em em{color: var(--Yellow-2);}
-
-body.service-color-d57800 a.text-link:hover{color: var(--RF-Orange);}
-body.service-color-d57800 a.text-link em{color: var(--RF-Orange);}
 
 a.purple-uderline{text-decoration-color: var(--RF-Purple);}
 a.purple-uderline:hover{color: var(--RF-Purple);}

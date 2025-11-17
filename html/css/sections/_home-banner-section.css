@@ -22,9 +22,6 @@
 .home-banner-count{margin-bottom: 2px; gap: 8px;}
 .home-banner-num{width: fit-content;}
 
-body.service-color-d57800 .home-banner-text span.optional-text{color: var(--RF-Orange);}
-body.service-color-d57800 .home-banner-text hr[data-animate]{background-color: var(--RF-Orange);}
-
 /*-- media css --*/
 @media screen and (min-width: 810px) {
     .home-banner-iframe iframe{max-width: inherit;}
