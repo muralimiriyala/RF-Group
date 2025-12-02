@@ -55,7 +55,7 @@
     .comission-fee{margin: 0 0 24px; display: block;}
     .comission-fee-head{padding: 24px 0 26px;}
     .comission-fee-lists { padding: 24px 0 0; }
-    .comission-fee-list{margin-bottom: 24px;}
+    .comission-fee-list{margin-bottom: 24px; width: 100%;}
     .comission-fee-list:last-child{margin-bottom: 0;}
     .comission-fee-rt{font-size: 1.125rem;}
 }

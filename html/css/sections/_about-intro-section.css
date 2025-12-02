@@ -70,7 +70,7 @@ body.page-template-service-tier-1 .about-intro-main hr{background-color: var(--R
     .about-intro-lt h1, .about-intro-lt h2{font-size: 3rem;}
     .about-intro-lt{margin-bottom: 24px;}
     .about-intro-lists { padding: 24px 0 0; }
-    .about-intro-list{margin-bottom: 24px;}
+    .about-intro-list{margin-bottom: 24px; width: 100%;}
     .about-intro-list:last-child{margin-bottom: 0;}
     .about-intro-list p{font-size: 0.875rem;}
     .about-intro-rt{font-size: 1.125rem;}

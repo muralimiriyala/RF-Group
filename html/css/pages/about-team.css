@@ -30,8 +30,8 @@
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-  .team-mem-row{margin: 0 0 40px; gap: 40px;}
-  .team-mem-list{flex: 0 0 calc(33.33% - 27px);}
+  .team-mem-row{margin: 0 0 40px; gap: 80px;}
+  .team-mem-list{flex: 0 0 calc(33.33% - 54px);}
   .team-info-desc{flex: 1; }
   
   .team-mem-inner-lt{gap: 24px; flex: 0 0 calc(100% - 300px); flex-grow: 1;}
