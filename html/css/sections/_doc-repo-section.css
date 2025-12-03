@@ -47,7 +47,7 @@ ul.doc-repo-q li a:hover{color: var(--Blue);}
 ul.form-js-links li a.mPS2id-clicked{color: var(--Blue);}
 
 /* media css starts here */
-@media only screen  and (min-width: 810px){
+@media only screen  and (min-width: 760px){
     .doc-repo-head{gap: 40px; padding-bottom: 26px;}
     .doc-repo-rows{gap: 70px; padding-top: 21px;}
     .doc-repo-title{width: fit-content;}
@@ -70,11 +70,11 @@ ul.form-js-links li a.mPS2id-clicked{color: var(--Blue);}
     .doc-repo-head{flex-direction: column; gap: 24px; padding-bottom: 36px; align-items: flex-start;}
     .ui-years.flex-content-end{justify-content: flex-start;}
 }
-@media screen and (max-width: 1023px) and (min-width: 810px){
+@media screen and (max-width: 1023px) and (min-width: 760px){
     .doc-repo-main{padding: 60px 0 60px; gap: 60px; flex-direction: column;}
     .doc-repo-find{padding-top: 30px;}
 }
-@media screen and (max-width: 809px) and (min-width: 200px){
+@media screen and (max-width: 759px) and (min-width: 200px){
     .doc-repo-main{padding: 40px 0 42px; display: block;}
     .doc-repo-aside{padding-bottom: 37px;}
     .doc-repo-desc span.optional-text:not(.fs-16){font-size: 1rem;}

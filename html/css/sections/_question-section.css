@@ -55,7 +55,7 @@ ul.question-booking-links li a.current i{opacity: 0; visibility: hidden;}
     .question-lists .accordion-list:last-child{margin-bottom: 0;}
     ul.question-booking-links{margin-bottom: 0;}
 }
-@media screen and (max-width: 809px) and (min-width: 200px) {
+@media screen and (max-width: 759px) and (min-width: 200px) {
     .question-main{padding: 40px 0;}
     .question-text{margin-bottom: 24px; font-size: 0.875rem; line-height: 21px;}
     .question-lists{margin-bottom: 24px; width: 100%;}

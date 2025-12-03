@@ -7,7 +7,7 @@ body.page-template-about .home-banner-text{font-size: 1.25rem;}
     body.page-template-about .default-banner-btn {margin-top: 32px;}
 }
 
-@media screen and (max-width: 809px) and (min-width: 200px){
+@media screen and (max-width: 759px) and (min-width: 200px){
     body.page-template-about .home-banner-text{font-size: 1.125rem; line-height: 27px;}
     body.page-template-about .home-banner-text .default-banner-btn{margin-top: 25px;}
 }

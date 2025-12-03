@@ -53,6 +53,7 @@ body[class*="dynamic-color"] .home-banner-text hr[data-animate]{background-color
 
 /* managment css */
 body[class*="dynamic-color"] .management-bg{background: var(--dynamic-color) !important;}
+body[class*="dynamic-color"] .management-team-info hr{background: var(--dynamic-color) !important;}
 
 /* repeater section css */
 body[class*="dynamic-color"] span.optional-text{color: var(--dynamic-color) !important;}
@@ -66,3 +67,11 @@ body[class*="dynamic-color"] .scrl-explainer-line{background: var(--dynamic-colo
 body[class*="dynamic-color"]  .service-who-lt{border: 1px solid var(--dynamic-color) !important;}
 body[class*="dynamic-color"] .service-who-lt hr, body[class*="dynamic-color"] .service-who-rt hr{background-color: var(--dynamic-color) !important;}
 body[class*="dynamic-color"] .service-who-lt .service-icon em{color: var(--dynamic-color) !important;}
+
+
+body[class*="dynamic-color"] .repeater-icon svg.repeater-icon-hover path{stroke: var(--dynamic-color) !important;}
+
+/* campaign-section  */
+body[class*="dynamic-color"] .default-line-wrap .default-line-text h4{color: var(--dynamic-color) !important;}
+body[class*="dynamic-color"] .default-line-wrap .default-line-in{border-left: 2px solid var(--dynamic-color) !important;}
+body[class*="dynamic-color"] .campaign-lt hr{background-color: var(--dynamic-color) !important;}

@@ -49,7 +49,7 @@
     .team-mem-inner-lt{gap: 24px; flex: 0 0 calc(100% - 225px); }
     .team-mem-inner-rt{flex: 0 0 200px;}
 }
-@media only screen and (max-width: 1023px) and (min-width: 810px){
+@media only screen and (max-width: 1023px) and (min-width: 760px){
     .team-mem-main{padding: 64px 0;}
     .team-mem-row{margin: 0 0 32px; gap: 32px;}
     .team-mem-list{flex: 0 0 calc(50% - 16px);}
@@ -59,7 +59,7 @@
     .team-mem-text{flex: 0 0 calc(100% - 88px);}
     .team-mem-text h3{font-size: 1.75rem;}
 }
-@media only screen and (max-width: 809px) and (min-width: 200px){
+@media only screen and (max-width: 759px) and (min-width: 200px){
     .team-mem-main{padding: 40px 0;}
     .team-mem-list{margin-bottom: 24px;}
     .team-mem-heading { margin: 0 0 24px; }

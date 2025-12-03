@@ -45,7 +45,7 @@ ul.ui-categorys li{width: fit-content;}
 ul.ui-categorys li a{white-space: nowrap;}
 
 /* media css starts here */
-@media only screen  and (min-width: 810px){
+@media only screen  and (min-width: 760px){
     .doc-form-rows{gap: 61px; padding-top: 21px;}
     .doc-form-report{flex: 1;}
     .doc-form-head{padding-bottom: 16px; gap: 32px;}
@@ -68,14 +68,14 @@ ul.ui-categorys li a{white-space: nowrap;}
     .doc-form-lists{flex-direction: column;}
     .doc-form-head{flex-direction: column; gap: 24px; padding-bottom: 36px; align-items: flex-start;}
 }
-@media screen and (max-width: 1023px) and (min-width: 810px){
+@media screen and (max-width: 1023px) and (min-width: 760px){
     .doc-form-main{padding: 60px 0 60px; gap: 60px; flex-direction: column;}
     .doc-form-find{padding-top: 30px;}
     .doc-form-lists{flex-direction: column;}
     .doc-form-head{flex-direction: column; gap: 24px; padding-bottom: 36px; align-items: flex-start;}
     .doc-form-rows{gap: 40px;}
 }
-@media screen and (max-width: 809px) and (min-width: 200px){
+@media screen and (max-width: 759px) and (min-width: 200px){
     .doc-form-main{padding: 40px 0 42px; display: block;}
     .doc-form-aside{padding-bottom: 25px;}
     .doc-form-desc span.optional-text:not(.fs-16){font-size: 1rem;}

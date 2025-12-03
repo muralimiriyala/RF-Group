@@ -100,7 +100,7 @@ export const servicestickyYear = {
     };
 
     const handleResize = () => {
-      if (window.matchMedia('(max-width: 809px)').matches) {
+      if (window.matchMedia('(min-width: 759px)').matches) {
         if (!_.mobileInitialized) {
           mobileToggle();
           _.mobileInitialized = true;

@@ -6,7 +6,7 @@ export const resourcecategory = {
     const __ = this;
     if (!__.$el) return;
 
-    if (window.matchMedia('(max-width: 809px)').matches) {
+    if (window.matchMedia('(min-width: 759px)').matches) {
       __.$el.addEventListener('click', function (e) {
         if (e.target.tagName === 'A') {
           e.target.classList.toggle('current');

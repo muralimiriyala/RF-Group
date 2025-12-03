@@ -84,7 +84,7 @@ ul.jumpto-links > li a.active em::before{content: "\f077";}
 }
 
 
-@media only screen and (max-width: 1023px) and (min-width: 810px){
+@media only screen and (max-width: 1023px) and (min-width: 760px){
     .service-tier-banner-section{padding: 64px 0;}
     .service-tier-banner-main{display: block; }
     .service-tier-banner-lt{margin-bottom: 40px;}
@@ -106,7 +106,7 @@ ul.jumpto-links > li a.active em::before{content: "\f077";}
 }
 
 
-@media only screen and (max-width: 809px) and (min-width: 200px){
+@media only screen and (max-width: 759px) and (min-width: 200px){
     .service-tier-banner-section{padding: 40px 0 40px;}
     .service-tier-banner-main {  display: block; }
     .service-tier-banner-lt{margin-bottom: 32px;}

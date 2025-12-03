@@ -6,7 +6,7 @@ export const resource = {
     const __ = this;
     if (!__.$el) return;
 
-    if (window.matchMedia('(max-width: 809px)').matches) {
+    if (window.matchMedia('(min-width: 759px)').matches) {
       __.$el.forEach((ele) => {
         ele.addEventListener('click', function (e) {
           if (e.target.tagName === 'A') {

@@ -85,7 +85,7 @@ ul.side-by-links li a span{flex: 1;}
     .side-by-arrow{position: relative; z-index: 2;}
     .side-by-arrow{display: none;}
 }
-@media only screen and (max-width: 1259px) and (min-width: 810px){
+@media only screen and (max-width: 1259px) and (min-width: 760px){
     .side-by-text{text-align: left; padding-bottom: 29px;}
     .side-by-head{gap: 20px; flex-direction: row;}
     .side-by-title{flex: 1;}
@@ -95,7 +95,7 @@ ul.side-by-links li a span{flex: 1;}
     ul.side-by-links{gap: 8px;}
 
 }
-@media only screen and (max-width: 1023px) and (min-width: 810px){
+@media only screen and (max-width: 1023px) and (min-width: 760px){
     .side-by-main{flex-direction: column; gap: 40px; padding: 60px 40px 60px;}
     .side-by-side{gap: 48px; flex-direction: row-reverse;}
     .side-by-right{flex-direction: row;}
@@ -103,7 +103,7 @@ ul.side-by-links li a span{flex: 1;}
     .side-by-ipad{flex: 1;}
 
 }
-@media only screen and (max-width: 809px) and (min-width: 200px){
+@media only screen and (max-width: 759px) and (min-width: 200px){
     .side-by-main{flex-direction: column; gap: 40px; padding: 40px 24px 80px;}
     .side-by-side{gap: 24px;}
     .side-by-bg{position: relative;}

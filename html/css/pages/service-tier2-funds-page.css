@@ -72,7 +72,7 @@ body.page-template-service-tier-1 .fund-group-desc h2{font-weight: 600;}
 }
 
 
-@media screen and (max-width: 1023px) and (min-width: 810px){
+@media screen and (max-width: 1023px) and (min-width: 760px){
     .service-fund-banner-main{display: block; padding: 64px 0 90px;}
     .service-fund-banner-desc{width: inherit; padding-bottom: 32px;}
     .service-fund-banner-desc h1 { font-size: 2.5rem; margin-bottom: 32px;}
@@ -92,7 +92,7 @@ body.page-template-service-tier-1 .fund-group-desc h2{font-weight: 600;}
     .faqs-section.service-fund-faq .faqs-main { padding: 90px 0 75px; }
 }
 
-    @media screen and (max-width: 809px) and (min-width: 200px){
+    @media screen and (max-width: 759px) and (min-width: 200px){
     .service-fund-banner-main { padding: 40px 0 65px; }
     .service-fund-banner-main ul.service-tier-order li:first-child { min-width: 66px; }
     .service-fund-banner-desc{width: inherit; padding-bottom: 24px;}

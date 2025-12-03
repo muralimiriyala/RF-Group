@@ -20,7 +20,7 @@ export const feeSchedule = {
         if (row) {
           $(row).fadeIn(800);
         }
-        if (window.matchMedia('(max-width: 809px)').matches) {
+        if (window.matchMedia('(min-width: 759px)').matches) {
           __.$btn.classList.remove('current');
           $(__.$el).slideUp(800);
           const $text = e.target.textContent;

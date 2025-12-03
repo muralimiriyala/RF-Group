@@ -35,7 +35,7 @@ ul.faqs-links li a.current em{opacity: 0; visibility: hidden;}
     .faqs-right{width: calc(100% - 430px);}
     .faqs-text:nth-child(1):last-child, .faqs-right:nth-child(1):last-child{width: 100%;}
 }
-@media only screen and (max-width: 1023px) and (min-width: 810px){
+@media only screen and (max-width: 1023px) and (min-width: 760px){
     .faqs-main{padding: 78px 0 40px; display: block;}
     .faqs-text{padding-bottom: 64px;}
     .faqs-text span.optional-text{font-size: 1rem;}
@@ -44,7 +44,7 @@ ul.faqs-links li a.current em{opacity: 0; visibility: hidden;}
     ul.faqs-links{margin: 0;}
     ul.faqs-links li a{font-size: 1rem;}
 }
-@media only screen and (max-width: 809px) and (min-width: 200px){
+@media only screen and (max-width: 759px) and (min-width: 200px){
     .faqs-main{padding: 41px 0 40px; display: block;}
     .faqs-text{padding-bottom: 24px;}
     .faqs-text span.optional-text{font-size: 1rem;}

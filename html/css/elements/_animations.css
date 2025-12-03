@@ -89,6 +89,6 @@
 
 
 /*-- media css starts here --*/
-@media only screen and (min-width: 810px){
+@media only screen and (min-width: 760px){
   [data-animate*="vr-100"].visible{height: 100%;}
 }

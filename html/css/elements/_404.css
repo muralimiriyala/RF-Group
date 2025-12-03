@@ -5,6 +5,6 @@
 .page-not-text p { margin-bottom: 24px }
 
 /*-- media css starts here --*/
-@media screen and (max-width: 809px) and (min-width:200px) {
+@media screen and (min-width: 759px) and (min-width:200px) {
     .page-not-main { max-width:100%; }
 }

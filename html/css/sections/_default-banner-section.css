@@ -14,13 +14,13 @@
     .default-banner-text{padding: 161px 0 178px;}
     body.page-template-careers .default-banner-text{padding-bottom: 160px;}
 }
-@media screen and (min-width: 810px){
+@media screen and (min-width: 760px){
     .default-banner-text{max-width: 695px;}
 }
-@media screen and (max-width: 1023px) and (min-width: 810px) {
+@media screen and (max-width: 1023px) and (min-width: 760px) {
     .default-banner-text{padding: 144px 0 80px;}
 }
-@media screen and (max-width: 809px) and (min-width: 200px) {
+@media screen and (max-width: 759px) and (min-width: 200px) {
     .default-banner-overlay{opacity: 0.5;}
     .default-banner-image{position: relative;}
     .default-banner-text{padding: 40px 20px 80px; font-size: 1.125rem; background-color: var(--Black); }

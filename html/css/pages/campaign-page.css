@@ -10,11 +10,11 @@
     .campaign-news-bg{height: calc(100% - 80px);}
     .campaign-news-wrap .news-update-main{padding-top: 78px;}
 }
-@media only screen and (max-width: 1023px) and (min-width: 810px){
+@media only screen and (max-width: 1023px) and (min-width: 760px){
     .campaign-news-bg{height: calc(100% - 40px);}
     .campaign-news-wrap .news-update-section .subscribe-wrap{padding-top: 40px;}
 }
-@media only screen and (max-width: 809px) and (min-width: 200px){
+@media only screen and (max-width: 759px) and (min-width: 200px){
     .campaign-news-bg{height: calc(100% - 24px);}
     .campaign-news-wrap .news-update-title h2:not(.h3){font-size: 2rem; line-height: 125%;}
 }

@@ -20,10 +20,10 @@ ul.contact-links > li:last-child{display: flex; gap: 12px; margin-bottom: 0;}
     .contact-left{flex: 0 0 350px;}
     ul.contact-links{padding-top: 15px;}
 }
-@media only screen and (max-width: 1023px) and (min-width: 810px){
+@media only screen and (max-width: 1023px) and (min-width: 760px){
     .contact-left h1{font-size: 2.25rem;}
 }
-@media only screen and (max-width: 809px) and (min-width: 200px){
+@media only screen and (max-width: 759px) and (min-width: 200px){
     .contact-main{display: block; padding: 35px 0 40px;}
     .contact-left{margin-bottom: 22px; font-size: 0.875rem; line-height: 21px;}
     ul.contact-links{padding-top: 15px;}

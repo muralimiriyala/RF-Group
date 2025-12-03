@@ -16,10 +16,10 @@
     .service-who-list{flex: 0 0 100%;}
 }
 
-@media screen and (max-width: 1023px) and (min-width: 810px) {
+@media screen and (max-width: 1023px) and (min-width: 760px) {
     .service-who-rt, .service-who-lt{flex: 100%;}
 }
-@media screen and (max-width: 809px) and (min-width: 200px) {
+@media screen and (max-width: 759px) and (min-width: 200px) {
 .service-who-main{padding: 40px 0; display: block;}
 .service-who-lt{padding: 24px; margin-bottom: 24px;}
 .service-who-desc{padding-bottom: 24px;}

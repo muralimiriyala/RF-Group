@@ -53,7 +53,7 @@ ul.bio-links > li em{font-size: 1.25rem;  font-weight: 400; color: var(--Blue); 
     .about-bio-main{display: block; padding: 40px 0;}
     .about-bio-info span {margin-bottom: 20px;}
 }
-@media only screen and (max-width: 1023px) and (min-width: 810px){
+@media only screen and (max-width: 1023px) and (min-width: 760px){
     .about-bio-left{margin: 0 0 40px;}
     .about-bio-list{display: flex; flex-wrap: wrap; align-items: center; }
     .about-bio-img{flex: 0 0 50%; }
@@ -66,7 +66,7 @@ ul.bio-links > li em{font-size: 1.25rem;  font-weight: 400; color: var(--Blue); 
     .blue-block-desc h3{font-size: 2.25rem; letter-spacing: -0.72px;}
     .blue-block{padding: 40px 40px 0 40px;}
 }
-@media only screen and (max-width: 809px) and (min-width: 200px){
+@media only screen and (max-width: 759px) and (min-width: 200px){
     .about-bio-con{padding: 24px;}
     .about-bio-left{margin: 0 0 24px;}
     .about-bio-info h1 {font-size: 2.25rem; line-height: 125%; letter-spacing: -0.72px;}

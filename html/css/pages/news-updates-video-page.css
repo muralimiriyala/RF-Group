@@ -23,7 +23,7 @@
 .speaker-list.green .speaker-line{background-color: var(--RF-Aquamarine);}
 
 
-@media screen and (max-width: 809px) and (min-width: 200px) {
+@media screen and (max-width: 759px) and (min-width: 200px) {
 .speaker-wrap h4 {font-size: 1.5rem; margin-bottom: 20px;}
 .speaker-wrap hr{margin: 20px 0;}
 .speaker-list{margin-bottom: 24px;}

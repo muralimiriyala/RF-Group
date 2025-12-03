@@ -53,7 +53,7 @@ ul.res-js-links li a.current{color: var(--Blue);}
     .report-lt{flex: 0 0 300px;}
     ul.report-fund-data li{flex: 100%;}
 }
-@media screen and (max-width: 1023px) and (min-width: 810px){
+@media screen and (max-width: 1023px) and (min-width: 760px){
     .report-main{padding: 40px 0; display: block; width: 100%;}
     .report-lt{width: 100%; margin-bottom: 40px;}
     ul.report-links{display: flex; gap: 14px 29px; flex-wrap: wrap; width: 100%; margin: 27px 0 0;}
@@ -66,7 +66,7 @@ ul.res-js-links li a.current{color: var(--Blue);}
     ul.res-js-links{display: flex; flex-wrap: wrap; gap: 14px 29px; margin: 27px 0 0; width: 100%;}
     ul.res-js-links li{width: fit-content;}
 }
-@media screen and (max-width: 809px) and (min-width: 200px){
+@media screen and (max-width: 759px) and (min-width: 200px){
     .report-main{padding: 24px 0; display: block; width: 100%;}
     .report-lt{width: 100%; margin-bottom: 24px; font-size: 0.875rem; line-height: 21px;}
 

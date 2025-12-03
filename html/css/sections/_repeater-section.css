@@ -64,7 +64,7 @@ svg.repeater-icon-hover{top: 0; left: 0; opacity: 0;}
     .repeater-desc{font-size: 1rem; line-height: 150%;}
     .repeater-desc h2{font-size: 1.688rem; margin-bottom: 16px;}
 }
-@media only screen and (max-width: 1023px) and (min-width: 810px) {
+@media only screen and (max-width: 1023px) and (min-width: 760px) {
     .repeater-list{margin-bottom: 44px; flex-direction: column-reverse;}
     .repeater-list.row-reverse{flex-direction: column-reverse;}
     .repeater-list:last-child{margin-bottom: 0;}
@@ -75,7 +75,7 @@ svg.repeater-icon-hover{top: 0; left: 0; opacity: 0;}
     .page-template-about .repeater-list.row-reverse{padding: 0;}
 
 }
-@media only screen and (max-width: 809px) and (min-width: 200px) {
+@media only screen and (max-width: 759px) and (min-width: 200px) {
     .repeater-list{margin-bottom: 44px; flex-direction: column-reverse;}
     .repeater-desc { padding: 47px 24px; }
     .repeater-main{padding: 40px 0;}

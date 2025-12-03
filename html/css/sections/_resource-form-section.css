@@ -42,7 +42,7 @@ ul.resource-form-q li a:hover{color: var(--Blue);}
 
 
 /* Media Query css start */
-@media only screen  and (min-width: 810px){
+@media only screen  and (min-width: 760px){
     .resource-form-report{flex: 1;}
 }
 
@@ -59,7 +59,7 @@ ul.resource-form-q li a:hover{color: var(--Blue);}
     .resource-form-lists{flex-direction: column;}
 }
 
-@media screen and (max-width: 1023px) and (min-width: 810px){
+@media screen and (max-width: 1023px) and (min-width: 760px){
     .resource-form-main{padding: 40px 0; display: block; width: 100%;}
     .resource-form-lt{width: 100%; margin-bottom: 40px;}
     ul.form-links{display: flex; gap: 14px 29px; flex-wrap: wrap; width: 100%; margin: 27px 0 0;}
@@ -67,7 +67,7 @@ ul.resource-form-q li a:hover{color: var(--Blue);}
     .resource-form-head{margin-bottom: 32px;}
 
 }
-@media screen and (max-width: 809px) and (min-width: 200px){
+@media screen and (max-width: 759px) and (min-width: 200px){
     .resource-form-main{padding: 24px 0; display: block; width: 100%}
     .resource-form-lt{width: 100%; margin-bottom: 24px; font-size: 0.875rem; line-height: 21px;}
 

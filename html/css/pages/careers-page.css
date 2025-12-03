@@ -5,9 +5,9 @@
 @media only screen and (min-width: 1024px){
     .career-short-section{margin-top: -80px;}
 }
-@media only screen and (max-width: 1024px) and (min-width: 810px) {
+@media only screen and (max-width: 1024px) and (min-width: 760px) {
     .career-short-section {margin-top: -40px; background-image: linear-gradient(to bottom,transparent calc(100% - var(--low-value)),var(--Gray) var(--low-value)); }
 }
-@media only screen and (max-width: 809px) and (min-width: 200px) {
+@media only screen and (max-width: 759px) and (min-width: 200px) {
     .career-short-section{background-image: linear-gradient(to top,transparent calc(100% - var(--low-50)),var(--Black) var(--top-value));}
 }

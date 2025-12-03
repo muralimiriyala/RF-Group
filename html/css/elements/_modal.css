@@ -35,7 +35,7 @@ body .modal-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submi
 .modal-disclaimer.hide{display: none;}
 
 /*-- media css starts here --*/
-@media only screen and (min-width: 810px){
+@media only screen and (min-width: 760px){
     .modal-text span.optional-text{margin-bottom: 10px;}
     .modal-text hr, .modal-left hr{margin-bottom: 16px;}
 
@@ -66,7 +66,7 @@ body .modal-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submi
     .modal-window{z-index: 9991200;}
     .modal-main{z-index: 9991202;}
 }
-@media screen and (max-width: 1023px) and (min-width: 810px){
+@media screen and (max-width: 1023px) and (min-width: 760px){
     .modal-main{padding: 40px;}
     .modal-content{padding: 40px; gap: 40px; display: block;}
     .modal-text{padding-bottom: 40px;}
@@ -74,7 +74,7 @@ body .modal-form .frm_forms .frm_form_fields .frm_submit button.frm_button_submi
     body .modal-form .frm_forms .frm_form_fields .frm_form_field.frm_half{width: calc(50% - 13px);}
     .modal-image{margin-bottom: 60px;}
 }
-@media screen and (max-width: 809px) and (min-width: 200px){
+@media screen and (max-width: 759px) and (min-width: 200px){
     .modal-form{padding-top: 13px;}
     .modal-main{padding: 12px;}
     .modal-container{padding: 12px; max-width: 100%; height: auto; margin: 0; border-radius: 0; min-width: 100%;}

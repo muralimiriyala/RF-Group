@@ -31,12 +31,12 @@ ul.have-questions-links li a.black:hover{color: var(--Black-50);}
 @media only screen and (max-width: 1199px) and (min-width: 1024px){
     .have-questions-main{padding: 79px 40px;}
 }
-@media only screen and (max-width: 1023px) and (min-width: 810px){
+@media only screen and (max-width: 1023px) and (min-width: 760px){
     .have-questions-section{padding-bottom: 64px; display: block; background-image: linear-gradient(to top, var(--Gray) calc(100% - var(--mid-value)) , var(--White) var(--mid-value));}
     .have-questions-main{padding: 40px;}
     .have-questions-text{padding-bottom: 30px;}
 }
-@media only screen and (max-width: 809px) and (min-width: 200px){
+@media only screen and (max-width: 759px) and (min-width: 200px){
     .have-questions-section{padding-bottom: 40px; display: block; background-image: linear-gradient(to top, var(--Gray) calc(100% - var(--low-value)) , var(--White) var(--low-value));}
     .have-questions-main{padding: 40px 28px; display: block;}
     .have-questions-text{padding-bottom: 15px; font-size: 0.875rem;}

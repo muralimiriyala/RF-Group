@@ -32,7 +32,7 @@ body .subscribe-email .with_frm_style .frm_message p { color: var(--White);}
     .subscribe-text{flex: 100%;}
     .subscribe-email{flex: 100%;}
 }
-@media screen and (max-width: 809px) and (min-width: 200px) {
+@media screen and (max-width: 759px) and (min-width: 200px) {
     .subscribe-text h3{font-size: 2rem; line-height: 40px; letter-spacing: -0.64px;}
     body.category-news-updates .subscribe-text h3,
     body.single-post .subscribe-text h3{font-size: 1.5rem; line-height: 30px; letter-spacing: -0.48px;}
