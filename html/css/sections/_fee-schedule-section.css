@@ -23,11 +23,54 @@ table.fee-schd-table tr:last-child td{border-bottom-color: var(--Black-8); borde
     ul.fee-schd-links li a.current{background-color: var(--Gray); color: var(--Text-Gray);}
 
     /* Target only this specific UL */
-ul.fee-schd-links { overflow-x: auto; scrollbar-width: thin; scrollbar-color: var(--Blue) #e5e5e5; cursor: pointer;}
+/* ul.fee-schd-links { overflow-x: auto; scrollbar-width: thin; scrollbar-color: var(--Blue) #e5e5e5; cursor: pointer;}
 ul.fee-schd-links::-webkit-scrollbar { height: 6px; padding: 5px; border-radius: 5px;}
 ul.fee-schd-links::-webkit-scrollbar-track { background: #e5e5e5; border-radius: 10px; }
 ul.fee-schd-links::-webkit-scrollbar-thumb { background: var(--Blue); border-radius: 10px; }
-ul.fee-schd-links::-webkit-scrollbar-thumb:hover { background: var(--Blue); }
+ul.fee-schd-links::-webkit-scrollbar-thumb:hover { background: var(--Blue); } */
+
+/* Container */
+ul.fee-schd-links {
+  overflow-x: auto;
+  cursor: pointer;
+
+  /* Firefox: set thumb + track */
+  scrollbar-width: thin;
+  scrollbar-color: #2772DB #e5e5e5;
+}
+
+/* WebKit browsers (Chrome, Edge, Safari) */
+ul.fee-schd-links::-webkit-scrollbar {
+  height: 6px;
+}
+
+/* track */
+ul.fee-schd-links::-webkit-scrollbar-track {
+  background: #e5e5e5;
+  border-radius: 10px;
+  box-shadow: none !important;
+}
+
+/* thumb — force the same color in every state */
+ul.fee-schd-links::-webkit-scrollbar-thumb,
+ul.fee-schd-links::-webkit-scrollbar-thumb:hover,
+ul.fee-schd-links::-webkit-scrollbar-thumb:active,
+ul.fee-schd-links::-webkit-scrollbar-thumb:focus {
+  background-color: #2772DB !important;
+  border-radius: 10px;
+  opacity: 1 !important;              /* prevent auto-opacity changes */
+  -webkit-appearance: none !important; /* prevent platform styling */
+  box-shadow: none !important;        /* remove any inset/outer shadow */
+  transition: none !important;        /* disable transition that could show different color */
+}
+
+/* Ensure no global rule (e.g. using CSS var) overwrites it via cascade */
+ul.fee-schd-links { --Blue: #2772DB !important; }
+
+
+
+
+
 
 }
 @media only screen and (min-width: 1024px){

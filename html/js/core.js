@@ -34,6 +34,7 @@ import { jumpto } from './modules/jumpto.js';
 import { servicetierfunddetails } from './modules/servicetierfunddetails.js';
 import { inputNumber } from './modules/inputNumber.js';
 import { notification } from './modules/notification.js';
+// import { feeLinks } from './modules/scrollbar.js';
 
 document.addEventListener('DOMContentLoaded', function () {
   // (function () {
@@ -69,6 +70,7 @@ document.addEventListener('DOMContentLoaded', function () {
   servicetierfunddetails.fund();
   inputNumber.input();
   notification.init();
+  // feeLinks.init();
   // })();
 });
 let scrolled = window.scrollY;
