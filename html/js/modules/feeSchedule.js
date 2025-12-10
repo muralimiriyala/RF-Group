@@ -5,7 +5,7 @@ export const feeSchedule = {
   $btn: document.querySelector('.fee-schd-mbl-btn'),
   init() {
     const __ = this;
-    if(__.$el) return
+
     const toggle = (e) => {
       if (e.target.tagName === 'A') {
         e.preventDefault();
@@ -21,9 +21,18 @@ export const feeSchedule = {
         if (row) {
           $(row).fadeIn(800);
         }
+
+        if (window.matchMedia('(max-width: 759px)').matches) {
+          __.$btn.classList.remove('current');
+          $(__.$el).slideUp(800);
+          const $text = e.target.textContent;
+          __.$btn.querySelector('span').textContent = $text;
+        }
       }
     };
+    if (!__.$el) return;
     __.$el.addEventListener('click', toggle);
+
     const mbltoggle = (e) => {
       e.currentTarget.classList.toggle('current');
       $(__.$el).slideToggle(800);
