@@ -15,11 +15,20 @@ table.fee-schd-table tr:last-child td{border-bottom-color: var(--Black-8); borde
     .fee-schd-effective{flex: 1; gap: 16px;}
     table.fee-schd-table{padding: 40px 0;}
     table.fee-schd-table tr td:nth-child(1){width: 454px;}
-    ul.fee-schd-links{margin: 0; gap: 9px; width: calc(100% + 40px); padding-right: 40px; padding-top: 40px; flex-wrap: nowrap; overflow-x: auto; min-width: fit-content; -ms-overflow-style: none; scrollbar-width: none;}
-    ul.fee-schd-links::-webkit-scrollbar{display: none;}
+    ul.fee-schd-links{margin: 0; gap: 9px; width: calc(100% + 40px); padding-right: 40px; padding-top: 40px; padding-bottom: 20px; flex-wrap: nowrap; overflow-x: auto; min-width: fit-content; -ms-overflow-style: none;}
+    /* ul.fee-schd-links{margin: 0; gap: 9px; width: calc(100% + 40px); padding-right: 40px; padding-top: 40px; flex-wrap: nowrap; overflow-x: auto; min-width: fit-content; -ms-overflow-style: none; scrollbar-width: none;} */
+    /* ul.fee-schd-links::-webkit-scrollbar{display: none;} */
     ul.fee-schd-links li{min-width: fit-content; margin: 0;}
     ul.fee-schd-links li a{padding: 10px 17px 8px; display: block; color: var(--Text-Gray);}
     ul.fee-schd-links li a.current{background-color: var(--Gray); color: var(--Text-Gray);}
+
+    /* Target only this specific UL */
+ul.fee-schd-links { overflow-x: auto; scrollbar-width: thin; scrollbar-color: var(--Blue) #e5e5e5; cursor: pointer;}
+ul.fee-schd-links::-webkit-scrollbar { height: 6px; padding: 5px; border-radius: 5px;}
+ul.fee-schd-links::-webkit-scrollbar-track { background: #e5e5e5; border-radius: 10px; }
+ul.fee-schd-links::-webkit-scrollbar-thumb { background: var(--Blue); border-radius: 10px; }
+ul.fee-schd-links::-webkit-scrollbar-thumb:hover { background: var(--Blue); }
+
 }
 @media only screen and (min-width: 1024px){
     .fee-schd-main{padding: 89px 0 79px;}

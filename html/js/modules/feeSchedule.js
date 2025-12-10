@@ -20,7 +20,7 @@ export const feeSchedule = {
         if (row) {
           $(row).fadeIn(800);
         }
-        if (window.matchMedia('(min-width: 759px)').matches) {
+        if (window.matchMedia('(min-width: 760px)').matches) {
           __.$btn.classList.remove('current');
           $(__.$el).slideUp(800);
           const $text = e.target.textContent;
@@ -29,11 +29,13 @@ export const feeSchedule = {
       }
     };
     if (!__.$el) return;
+    if (window.matchMedia('(max-width: 759px)').matches) {
     __.$el.addEventListener('click', toggle);
     const mbltoggle = (e) => {
       e.currentTarget.classList.toggle('current');
       $(__.$el).slideToggle(800);
     };
     __.$btn.addEventListener('click', mbltoggle);
+  }
   },
 };
