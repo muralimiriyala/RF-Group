@@ -4,6 +4,6 @@
 @media screen and (min-width:810px) {
     body.newsbg{background-image: url("../../images/news-bg@2x.jpg"); background-repeat: no-repeat; background-size: cover;}
 }
-@media screen and (max-width: 809px)  and (min-width: 200px){
+@media screen and (min-width: 759px)  and (min-width: 200px){
     body.newsbg{background-image: url("../../images/news-bg-mob@2x.jpg"); background-repeat: no-repeat; background-size: cover;}
 }

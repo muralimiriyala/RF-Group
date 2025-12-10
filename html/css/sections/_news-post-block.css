@@ -17,12 +17,12 @@
 @media screen and (max-width: 1439px) and (min-width: 1024px){
     .news-post-block .white-back{max-width: calc(100% - 160px); margin: 0 auto;}
 }
-@media screen and (max-width: 1023px) and (min-width: 810px) {
+@media screen and (max-width: 1023px) and (min-width: 760px) {
     .news-post-block-desc {padding: 48px;}
     .news-post-block .white-back {display: none;}
 
 }
-@media screen and (max-width: 809px) and (min-width: 200px) {
+@media screen and (max-width: 759px) and (min-width: 200px) {
     .news-post-block-desc {padding: 24px;}
     .news-post-block{padding: 0;}
     .news-post-block-desc p{font-size: 1rem; margin-bottom: 30px;}

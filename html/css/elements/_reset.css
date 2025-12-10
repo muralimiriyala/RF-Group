@@ -141,6 +141,7 @@ hr.w-64{width: 64px;}
 .button.transparent:hover, .frm_submit button.frm_button_submit.transparent:hover, body .frm_forms .frm_form_fields .frm_submit button.frm_button_submit.transparent:hover{color: var(--White);}
 
 
+
 .button.no-bg{background-color: transparent;}
 .button.no-bg.button.btn-hover-blue:hover em{color: var(--White);}
 
@@ -611,11 +612,11 @@ ul.slick-dots.orange:not(.pagination) li.slick-active{background-color: var(--RF
 @media only screen and (max-width: 1359px) and (min-width: 1200px){
     .container:not(.sm){padding: 0 40px; max-width: 100%;}
 }
-@media only screen and (max-width: 1199px) and (min-width: 810px){
+@media only screen and (max-width: 1199px) and (min-width: 760px){
     .container{padding: 0 40px; max-width: 100%;}
     blockquote{font-size: 2.375rem;}
 }
-@media only screen and (max-width: 1023px) and (min-width: 810px){
+@media only screen and (max-width: 1023px) and (min-width: 760px){
     .hide-tablet{display: none;}
     .ipad-0{padding-left: 0; padding-right: 0;}
 
@@ -624,7 +625,7 @@ ul.slick-dots.orange:not(.pagination) li.slick-active{background-color: var(--RF
 
     img.aligncenter, img.alignleft, img.alignnone, img.alignright{margin: 25px auto; clear: both; float: none; display: block; width: auto;}
 }
-@media only screen and (max-width: 809px) and (min-width: 200px){
+@media only screen and (max-width: 759px) and (min-width: 200px){
     body{font-size: 1rem;}
     .container{padding: 0 24px;}
     .mobile-0{padding-left: 0; padding-right: 0;}

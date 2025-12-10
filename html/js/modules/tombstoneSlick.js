@@ -16,7 +16,7 @@ export const tombstoneSlick = {
       $tombstoneSlider.each(function () {
         const $tombSlider = $(this);
         const sha = $tombSlider.parent().children('.service-history-appends');
-        if (window.matchMedia('(max-width: 809px)').matches) {
+        if (window.matchMedia('(min-width: 759px)').matches) {
           if (!$tombSlider.hasClass('slick-initialized')) {
             $tombSlider.slick({
               slidesToShow: 1,

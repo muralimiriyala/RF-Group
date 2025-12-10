@@ -13,11 +13,11 @@
     .resource-intro-rt .button{font-size: 1.063rem;}
 }
 
-@media screen and (max-width: 1023px) and (min-width: 810px) {
+@media screen and (max-width: 1023px) and (min-width: 760px) {
     .resource-intro-main{padding: 40px 0; display: block; width: 100%;}
     .resource-intro-lt{margin-bottom: 40px; width: 100%;}
 }
-@media screen and (max-width: 809px) and (min-width: 200px) {
+@media screen and (max-width: 759px) and (min-width: 200px) {
     .resource-intro-main{display: block; width: 100%; padding: 40px 0;}
     .resource-intro-lt{font-size: 1.125rem; line-height: 27px; margin-bottom: 24px; width: 100%;}
     .resource-intro-lt span.optional-text{margin-bottom: 23px;}

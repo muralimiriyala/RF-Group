@@ -69,7 +69,7 @@ export const myslick = {
         const historyAppend = $historySlider
           .parent()
           .children('.about-history-appends');
-        if (window.matchMedia('(max-width: 809px)').matches) {
+        if (window.matchMedia('(min-width: 759px)').matches) {
           if (!$historySlider.hasClass('slick-initialized')) {
             $historySlider.slick({
               slidesToShow: 1,
@@ -177,7 +177,7 @@ export const myslick = {
         const mutualAppend = $mutualSlider
           .parent()
           .children('.mutual-fund-appends');
-        if (window.matchMedia('(max-width: 809px)').matches) {
+        if (window.matchMedia('(min-width: 759px)').matches) {
           if (!$mutualSlider.hasClass('slick-initialized')) {
             $mutualSlider.slick({
               slidesToShow: 1,

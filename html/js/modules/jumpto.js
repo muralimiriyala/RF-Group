@@ -26,7 +26,7 @@ export const jumpto = {
         }
       });
     };
-    let media = window.matchMedia('(max-width: 809px)');
+    let media = window.matchMedia('(min-width: 759px)');
     if (media.matches) {
       jumptoulMobile();
     }

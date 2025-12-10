@@ -45,12 +45,13 @@
 .accordion-head-lt h3 { margin-bottom: 0; font-size: 2.5rem; }
 .accordion-main:last-child{padding-bottom: 0;}
 
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .accordion-main{padding: 0 0 57px;}
     .accordion-main h3{margin-bottom: 26px;}
 }
-@media screen and (max-width: 1023px) and (min-width: 810px){
+@media screen and (max-width: 1023px) and (min-width: 760px){
     .accordion-main{padding: 0 0 57px;}
     body.page-template-resource-faq .faqs-right .accordion-header{padding: 20px 64px 20px 20px;}
     body.page-template-resource-faq .faqs-right .accordion-desc {padding: 14px 28px 28px 28px;}
@@ -60,7 +61,7 @@
     .accordion-wrap { padding: 50px 0 20px; }
     .accordion-head-lt h3 {font-size: 2rem;}
 }
-@media screen and (max-width: 809px) and (min-width: 200px){
+@media screen and (max-width: 759px) and (min-width: 200px){
     .accordion-main{padding: 0 0 35px;}
     body.page-template-resource-faq .faqs-right .accordion-header{padding: 20px 64px 20px 20px;}
     body.page-template-resource-faq .faqs-right .accordion-desc { padding: 14px 28px 28px 28px; font-size: 0.75rem; }

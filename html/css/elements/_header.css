@@ -35,7 +35,7 @@ nav.navigation ul.menu > li.nav-item-advice > ul > li > ul > li a.text-link{marg
 nav.navigation ul.menu > li.nav-item-about > ul > li > ul > li a.text-link{margin-top: 14px;}
 
 
-.notification-bar{background: var(--Blue); opacity: 1; position: absolute; transition: all .5s ease; z-index: 801; width: 100%; height: auto; top: 0; visibility: hidden;}
+.notification-bar{background: var(--Blue); opacity: 1; position: fixed; transition: all .5s ease; z-index: 801; width: 100%; height: auto; top: 0; visibility: hidden;}
 .notification-bar.show-notification{visibility: visible;}   
 .notification-main{justify-content: center; padding: 12px 40px; align-items: center; font-size: 16px; font-weight: 700; color: var(--White); gap: 40px; }
 .notification-main p{margin-bottom: 0;}
@@ -320,7 +320,7 @@ nav.navigation ul.menu > li.nav-item-about > ul > li > ul > li a.text-link{margi
     nav.navigation ul.menu{gap: 0 26px;}
   
 }
-@media screen and (max-width: 1023px) and (min-width: 810px){
+@media screen and (max-width: 1023px) and (min-width: 760px){
     .header_bar_main{max-height: 62px; min-height: 62px; overflow: hidden;}
 
     .notification-main{ padding: 17px 80px 20px 40px; }
@@ -421,9 +421,9 @@ nav.navigation ul.menu > li.nav-item-about > ul > li > ul > li a.text-link{margi
     nav.navigation ul.menu > li.nav-item-for > ul > li > ul{display: none;}
     nav.navigation ul.menu > li > ul > li > ul > li > a:not(.text-link){display: none;}
    
-    nav.navigation ul.menu > li.nav-item-for > ul > li > ul > li > ul:nth-child(2){padding-bottom: 0; padding-top: 16px;}
+    /* nav.navigation ul.menu > li.nav-item-for > ul > li > ul > li > ul:nth-child(2){padding-bottom: 0; padding-top: 16px;} */
     nav.navigation ul.menu > li.nav-item-for > ul > li > ul > li > ul:nth-child(2) > li:not(:first-child){display: none;}
-    nav.navigation ul.menu > li.nav-item-for > ul > li > ul > li > ul{margin: 0; padding: 0 20px 18px;}
+    nav.navigation ul.menu > li.nav-item-for > ul > li > ul > li > ul{margin: 0; padding: 18px 20px 18px;}
     nav.navigation ul.menu > li.nav-item-for > ul > li > ul > li > ul > li:not(:last-child){margin-bottom: 17px;}
     nav.navigation ul.menu > li.nav-item-for > ul > li > ul > li > ul > li > a{gap: 10px; padding-right: 30px; align-items: center; display: flex; font-size: 16px; line-height: 24px; font-weight: 700; color: var(--White); position: relative;}
     nav.navigation ul.menu > li.nav-item-for > ul > li > ul > li > ul > li > a i{font-size: 22px; line-height: 22px; color: var(--Blue); display: none;}
@@ -515,7 +515,7 @@ nav.navigation ul.menu > li.nav-item-about > ul > li > ul > li a.text-link{margi
     ul.nav-mbl-locs li a:hover{color: var(--Blue);}
     ul.nav-mbl-locs li a img{max-width: 80px;}
 }
-@media screen and (max-width: 809px) and (min-width: 200px){
+@media screen and (max-width: 759px) and (min-width: 200px){
 
     header.site-header.with-notification{top: 135px;}
 
@@ -529,6 +529,7 @@ nav.navigation ul.menu > li.nav-item-about > ul > li > ul > li a.text-link{margi
     nav.navigation ul.menu > li > a{padding: 17px 48px 17px 20px;}
     nav.navigation ul.menu > li > ul > li > a{padding: 9px 20px 10px;}
     nav.navigation ul.menu > li > ul > li > ul > li > a{padding: 6px 20px 9px;}
+    nav.navigation ul.menu > li > ul > li > ul > li span.heading-font{display: none;}
 
     .notification-main {gap: 15px; justify-content: flex-start; padding: 20px 45px 20px 25px;}
     .notification-main p{width: 100%;}

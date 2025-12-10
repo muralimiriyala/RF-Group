@@ -66,7 +66,7 @@ ul.fin-planning-item li > a:hover .fin-item-icon > em:last-child{opacity: 0;}
     .fin-planning-list{flex: 0 0 calc(33.333% - 27px);}
 }
 
-@media screen and (max-width: 1023px) and (min-width: 810px){
+@media screen and (max-width: 1023px) and (min-width: 760px){
     .fin-planning-main{padding: 64px 0;}
     .fin-planning-intro{display: block; width: 100%; margin-bottom: 32px;}
     .fin-planning-head{width: 100%; margin-bottom: 32px;}
@@ -76,7 +76,7 @@ ul.fin-planning-item li > a:hover .fin-item-icon > em:last-child{opacity: 0;}
     ul.fin-planning-item li{margin: 0 0 20px;}
 }
 
-@media screen and (max-width: 809px) and (min-width: 200px){
+@media screen and (max-width: 759px) and (min-width: 200px){
     .fin-planning-main{padding: 40px 0;}
     .fin-planning-intro{display: block; width: 100%; margin-bottom: 24px;}
     .fin-planning-head{width: 100%; margin-bottom: 24px;}

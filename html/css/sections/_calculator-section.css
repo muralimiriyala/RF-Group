@@ -242,7 +242,7 @@ span.tooltip-txt{position: absolute;
     body.page-template-calculator-retirement-new .calculator-tabs-list label > .accordion-plus{display: none;}
 }
 
-@media screen and (max-width: 1023px) and (min-width: 810px){
+@media screen and (max-width: 1023px) and (min-width: 760px){
     .calculator-main-wrapper{padding-bottom: 40px;}
     .calculator-wrapper{padding: 40px;}
     span.error{bottom: -2px; position: relative; left: 0; display: block;}
@@ -269,7 +269,7 @@ span.tooltip-txt{position: absolute;
     body.page-template-calculator-retirement-new .result-row-wrapper .retirment-result-graph{flex: 0 0 100%;}
     
 }
-@media screen and (max-width: 809px) and (min-width: 200px){
+@media screen and (max-width: 759px) and (min-width: 200px){
     .calculator-main-wrapper{padding-bottom: 40px;}
     .calculator-wrapper{padding: 20px;}
     .calculator-tabs{gap: 20px;}

@@ -36,14 +36,14 @@ ul.service-history-years > li a { color: var(--Text-Gray); display: block; font-
 
 
 /*-- media css starts here --*/
-@media only screen and (min-width: 810px){
+@media only screen and (min-width: 760px){
     ul.service-history-years.sticky-element {margin: 0; position: relative;}
 }
 @media only screen and (min-width: 1024px){
     .service-year-main{padding: 85px 0 80px;}
     .service-year-article { gap: 80px;}
 }
-@media only screen and (max-width: 1023px) and (min-width: 810px){
+@media only screen and (max-width: 1023px) and (min-width: 760px){
     .service-years-main{padding: 64px 0; gap: 40px;}
     .service-years-row{gap: 32px;}
     .service-years-company{flex: 0 0 calc(50% - 25px);}
@@ -51,7 +51,7 @@ ul.service-history-years > li a { color: var(--Text-Gray); display: block; font-
     .service-year-article { gap: 64px;}
     .service-year-list h2 { font-size: 2.5rem;}
 }
-@media only screen and (max-width: 809px) and (min-width: 200px){
+@media only screen and (max-width: 759px) and (min-width: 200px){
     .service-years-main{padding: 48px 0 40px; display: block;}
     .service-year-aside{margin-bottom: 24px;}
     .service-year h2{display: none;}

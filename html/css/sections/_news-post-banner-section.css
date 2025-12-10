@@ -35,7 +35,7 @@
     .news-post-banner-text h1{font-size: 3rem; letter-spacing: -0.96px;}
     .news-post-banner-count{font-size: 1.75rem;}
 }
-@media screen and (max-width: 809px) and (min-width: 200px) {
+@media screen and (max-width: 759px) and (min-width: 200px) {
     .news-post-banner-main{padding: 44px 0 52px;}
     .news-post-banner-image{position: relative;}
     .news-post-banner-overlay{opacity: 0.5;}

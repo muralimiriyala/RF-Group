@@ -37,11 +37,11 @@ ul.about-history-years > li a:hover::before{opacity: 1;}
    .sticky ul.about-history-years{position: fixed; top: 104px; min-width: 78px;}
 
 }
-@media only screen and (min-width: 810px){
+@media only screen and (min-width: 760px){
     .about-history-appends{display: none;}
 }
 
-@media only screen and (max-width: 1023px) and (min-width: 810px){
+@media only screen and (max-width: 1023px) and (min-width: 760px){
     .about-history-main{gap: 40px; padding: 64px 0;}
     .about-history-aside{flex: 0 0 78px;}
    .sticky ul.about-history-years{position: fixed; top: 68px; min-width: 78px;}
@@ -52,7 +52,7 @@ ul.about-history-years > li a:hover::before{opacity: 1;}
     .about-history-list .about-history-num {font-size: 3rem; letter-spacing: -0.96px;}
 
 }
-@media only screen and (max-width: 809px) and (min-width: 200px){
+@media only screen and (max-width: 759px) and (min-width: 200px){
     .about-history-main{padding: 40px 0 40px; display: block;}
     .about-history-list .about-history-num{font-size: 2.5rem;}
     

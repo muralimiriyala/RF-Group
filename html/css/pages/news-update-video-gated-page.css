@@ -39,14 +39,14 @@
 }
 
 
-@media screen and (max-width: 1023px) and (min-width: 810px) {
+@media screen and (max-width: 1023px) and (min-width: 760px) {
 
 .news-update-video-article .news-top-line { left: 0px; width: 100%; }
 
 
 }
 
-@media screen and (max-width: 809px) and (min-width: 200px) {
+@media screen and (max-width: 759px) and (min-width: 200px) {
 
 .news-update-video-article { padding: 24px; }
 .news-update-video-article h2 { font-size: 2.25rem; font-weight: 600; line-height: 125%; margin-bottom: 14px; letter-spacing: -0.72px; }

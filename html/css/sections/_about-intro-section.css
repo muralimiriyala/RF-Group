@@ -50,7 +50,7 @@ body.page-template-service-tier-1 .about-intro-main hr{background-color: var(--R
     body.page-template-careers .about-intro-section:nth-child(4) .about-intro-main{padding: 80px 0; }
     .about-intro-list h2{line-height: 110%;}
 }
-@media only screen and (max-width: 1023px) and (min-width: 810px){
+@media only screen and (max-width: 1023px) and (min-width: 760px){
     .about-intro-main { padding: 64px 0; }
     .about-left-intro{font-weight: 600; font-size: 2.25rem; letter-spacing: -0.72px; } 
     .about-intro{margin: 0 0 32px;}
@@ -61,7 +61,7 @@ body.page-template-service-tier-1 .about-intro-main hr{background-color: var(--R
     body.page-template-about .about-intro-section:nth-child(5) .about-intro-main{padding: 120px 0 80px;}
     body.page-template-careers .about-intro-section:nth-child(4) .about-intro-main{padding: 0 0 80px;}
 }
-@media only screen and (max-width: 809px) and (min-width: 200px){
+@media only screen and (max-width: 759px) and (min-width: 200px){
     .about-intro-main { padding: 40px 0; }
     .about-left-intro {margin-bottom: 24px; display: block;}
     .about-intro .button{width: 100%; font-size: 1rem;}
@@ -70,7 +70,7 @@ body.page-template-service-tier-1 .about-intro-main hr{background-color: var(--R
     .about-intro-lt h1, .about-intro-lt h2{font-size: 3rem;}
     .about-intro-lt{margin-bottom: 24px;}
     .about-intro-lists { padding: 24px 0 0; }
-    .about-intro-list{margin-bottom: 24px;}
+    .about-intro-list{margin-bottom: 24px; width: 100%;}
     .about-intro-list:last-child{margin-bottom: 0;}
     .about-intro-list p{font-size: 0.875rem;}
     .about-intro-rt{font-size: 1.125rem;}
