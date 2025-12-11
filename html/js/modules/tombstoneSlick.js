@@ -16,7 +16,7 @@ export const tombstoneSlick = {
       $tombstoneSlider.each(function () {
         const $tombSlider = $(this);
         const sha = $tombSlider.parent().children('.service-history-appends');
-        if (window.matchMedia('(min-width: 759px)').matches) {
+        if (window.matchMedia('(max-width: 759px)').matches) {
           if (!$tombSlider.hasClass('slick-initialized')) {
             $tombSlider.slick({
               slidesToShow: 1,
@@ -52,7 +52,7 @@ export const tombstoneSlick = {
     function tombstonedestroySlider() {
       $tombstoneSlider.each(function () {
         const $this = $(this);
-        $(window).width() >= 810 && $this.hasClass('slick-initialized')
+        $(window).width() >= 760 && $this.hasClass('slick-initialized')
           ? $this.slick('unslick')
           : '';
       });
