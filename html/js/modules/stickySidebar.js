@@ -6,6 +6,7 @@ export const sticky = {
   init() {
     const _ = this;
     if (!_.$sticky) return;
+
     const $height = _.$ele.getBoundingClientRect().height;
     _.$sticky.forEach((ele) => {
       let $ptop = null;
