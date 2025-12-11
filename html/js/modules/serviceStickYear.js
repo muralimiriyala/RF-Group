@@ -16,33 +16,36 @@ export const servicestickyYear = {
     const $year = $siblings[0].getAttribute('href').substring(1);
     _.$btn.querySelector('span').textContent = $year;
 
-    // new func
-    const newfunc = (e) => {
-      e.preventDefault();
-      if (e.target.tagName === 'A') {
-        $siblings.forEach((sibling) => sibling.classList.remove('active'));
-        e.target.classList.add('active');
-        const id = e.target.getAttribute('href').substring(1);
-        const show = $(
-          document.querySelector(`.service-year-list[id="${id}"]`)
-        );
-        $(show).fadeIn(800);
-        setTimeout(() => {
-          $('html, body').animate(
-            {
-              scrollTop: $(show).offset().top - $height,
-            },
-            1000
+    if (window.matchMedia('(min-width: 760px)').matches) {
+      // new func
+      const newfunc = (e) => {
+        e.preventDefault();
+        if (e.target.tagName === 'A') {
+          $siblings.forEach((sibling) => sibling.classList.remove('active'));
+          e.target.classList.add('active');
+          const id = e.target.getAttribute('href').substring(1);
+          const show = $(
+            document.querySelector(`.service-year-list[id="${id}"]`)
           );
-        });
-        if ($(e.target.parentElement).next().length === 0) {
-          $('.service-year-list').fadeIn(800);
-          $('.load-service-year').hide(0);
+          $(show).fadeIn(800);
+          setTimeout(() => {
+            $('html, body').animate(
+              {
+                scrollTop: $(show).offset().top - $height,
+              },
+              1000
+            );
+          });
+          if ($(e.target.parentElement).next().length === 0) {
+            $('.service-year-list').fadeIn(800);
+            $('.load-service-year').hide(0);
+          }
         }
-      }
-    };
-    // new func
-    _.$ele.addEventListener('click', newfunc);
+      };
+      // new func
+      _.$ele.addEventListener('click', newfunc);
+    }
+
     // top func
     const topfunc = (e) => {
       e.preventDefault();
@@ -58,6 +61,11 @@ export const servicestickyYear = {
         const elements = $(`ul.service-history-years a[href="#${id}"]`);
         elements.addClass('active');
 
+        _.$btn.querySelector('span').textContent = id;
+
+        document.querySelectorAll(`.service-year-list`).forEach((ele) => {
+          $(ele).hide();
+        });
         const show = $(
           document.querySelector(`.service-year-list[id="${id}"]`)
         );
@@ -85,6 +93,7 @@ export const servicestickyYear = {
       if (_.$ele) {
         _.$ele.addEventListener('click', (e) => {
           e.preventDefault();
+          e.stopImmediatePropagation();
           _.$btn.classList.remove('open');
           $(e.currentTarget).slideUp(700);
           const $t = e.target.textContent;
