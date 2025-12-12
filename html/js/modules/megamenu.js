@@ -3,6 +3,13 @@ export const megamenu = {
   $navfor: document.querySelectorAll(
     'nav.navigation ul.menu > li.nav-item-for > ul > li > a'
   ),
+  $navOdd: document.querySelectorAll(
+    'nav.navigation ul.menu > li.nav-item-for > ul > li.odd > a'
+  ),
+  $navul: document.querySelectorAll(
+    'nav.navigation ul.menu > li.nav-item-for > ul > li > ul'
+  ),
+
   init() {
     const __ = this;
     const desktopmenu = () => {
@@ -21,7 +28,7 @@ export const megamenu = {
 
           if (prevLi !== currentLi) {
             // hide except hover
-            prevLi.forEach((ele) => {
+            prevLi.forEach((ele, i) => {
               ele.classList.remove('hover');
             });
             prevLi.forEach((ele) => {
@@ -29,9 +36,38 @@ export const megamenu = {
             });
           }
           e.target.parentElement.classList.add('hover');
+
           $(show).fadeIn(200);
         });
       });
+      // step1 for odd lis enter into mouse
+      __.$navOdd.forEach((ele, i) => {
+        ele.addEventListener('mouseenter', function (e) {
+          let currentLi = e.currentTarget.parentElement;
+          let prevLi = Array.from(
+            e.currentTarget.parentElement.parentElement.children
+          );
+          if (prevLi !== currentLi) {
+            prevLi.forEach((ele, i) => {
+              if (i % 2 === 1) {
+                ele.classList.add('siblingsme');
+              }
+            });
+          }
+          e.target.parentElement.classList.remove('siblingsme');
+        });
+      });
+      //mouse enter for ul starts
+      if (__.$navul && __.$navul.length) {
+        __.$navul.forEach((ul) => {
+          ul.addEventListener('mousemove', (e) => {
+            __.$navfor.forEach((ele) => {
+              ele.parentElement.classList.remove('siblingsme');
+            });
+          });
+        });
+      }
+      //mouse enter for ul ends
     };
     const media = window.matchMedia('(min-width: 1024px)');
     if (media.matches) {
