@@ -188,6 +188,11 @@ nav.navigation ul.menu > li.nav-item-about > ul > li > ul > li a.text-link{margi
     /*-- nav-item-for --*/
 
 
+    nav.navigation ul.menu > li.nav-item-for > ul > li > ul > li > ul > li > ul > li > ul > li > a{font-size: 14px; line-height: 17.5px; display: block; font-weight: 600; color: var(--Black);}
+    nav.navigation ul.menu > li.nav-item-for > ul > li > ul > li > ul > li > ul > li > ul > li > a:hover{color: var(--Blue);}
+    nav.navigation ul.menu > li.nav-item-for > ul > li > ul > li > ul > li > ul > li > ul > li::before{background-color: var(--Blue); display: block; height: 4px; left: -14px; top: 8px; width: 4px;}
+
+
     /*-- nav-item-advice --*/
     nav.navigation ul.menu > li.nav-item-advice > ul{padding: 60px 71px 59px 68px; min-width: 820px; border: 1px solid var(--Blue); border-top-color: transparent; gap: 40px; display: flex; flex-wrap: wrap; }
     nav.navigation ul.menu > li.nav-item-advice > ul::before{width: calc(100% - 16px); height: calc(100% - 8px); top: 0; left: 8px; content: ""; display: block; position: absolute; background-color: var(--White); box-shadow: 0 12px 32px 0 var(--Black-15);}
