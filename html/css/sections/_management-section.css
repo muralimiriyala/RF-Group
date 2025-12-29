@@ -47,7 +47,7 @@
   .management-section.management-top-space{margin-top: 50px;}
 }
 
-@media only screen and (min-width: 759px) and (min-width: 480px){
+@media only screen and (max-width: 759px) and (min-width: 480px){
   .management-team-row { padding: 0 20px 80px; gap:24px;}
   .management-team-list {flex: 0 0 calc(50% - 20px); }
 
@@ -65,7 +65,7 @@
   .navy-block-btn{flex-direction: column;}
   .navy-block-btn .button.btn-white {flex-direction: row-reverse;}
 
-  .management-team-list {margin: 0 auto 40px; }
+  .management-team-list {margin: auto auto 40px; }
   .management-team-list:last-child{margin-bottom: 0;}
 }
 @media only screen and (max-width: 374px) and (min-width: 200px){
