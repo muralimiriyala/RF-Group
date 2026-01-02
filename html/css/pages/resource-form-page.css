@@ -92,7 +92,7 @@ ul.ui-categorys li a{white-space: nowrap;}
     .doc-form-lists{flex-direction: column;}
     .doc-form-list{padding: 16px 16px 22px 24px;}
     .doc-full-bg .doc-form-list{padding: 16px 10px 22px 24px;}
-    .doc-full-bg .doc-post-wrapper{padding: 20px 12px;}
+    .doc-full-bg .doc-post-wrapper{padding: 20px 12px 20px 20px;}
     .doc-form-head{gap: 16px; padding-bottom: 16px; flex-direction: column; align-items: flex-start;}
     .doc-form-title{width: 100%;}
     .doc-form-find{padding-top: 37px;}
