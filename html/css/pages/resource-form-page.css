@@ -44,6 +44,8 @@ ul.ui-categorys::-webkit-scrollbar{display: none;}
 ul.ui-categorys li{width: fit-content;}
 ul.ui-categorys li a{white-space: nowrap;}
 
+.doc-form-lists .h4{width: 100%;}
+
 /* media css starts here */
 @media only screen  and (min-width: 760px){
     .doc-form-rows{gap: 61px; padding-top: 21px;}
@@ -58,6 +60,8 @@ ul.ui-categorys li a{white-space: nowrap;}
     .doc-form-article{width: calc(100% - 430px);}
     .doc-form-text h1{font-size: 3rem; margin-bottom: 27px;}
     .page-template-service-tier-3-fund-detail .doc-form-desc h2{margin-bottom: 25px;}
+
+    .doc-form-2 .doc-form-list{flex: 0 0 calc(50% - 10px); }
 }
 @media screen and (max-width: 1259px) and (min-width: 1024px){
     .doc-form-main{gap: 60px;}
