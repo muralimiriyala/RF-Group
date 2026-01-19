@@ -69,7 +69,7 @@ export const myslick = {
         const historyAppend = $historySlider
           .parent()
           .children('.about-history-appends');
-        if (window.matchMedia('(min-width: 759px)').matches) {
+        if (window.matchMedia('(max-width: 767px)').matches) {
           if (!$historySlider.hasClass('slick-initialized')) {
             $historySlider.slick({
               slidesToShow: 1,
@@ -102,7 +102,7 @@ export const myslick = {
     function historydestroySlider() {
       $hSlider.each(function () {
         const $this = $(this);
-        $(window).width() >= 810 && $this.hasClass('slick-initialized')
+        $(window).width() >= 768 && $this.hasClass('slick-initialized')
           ? $this.slick('unslick')
           : '';
       });
@@ -177,7 +177,7 @@ export const myslick = {
         const mutualAppend = $mutualSlider
           .parent()
           .children('.mutual-fund-appends');
-        if (window.matchMedia('(min-width: 759px)').matches) {
+        if (window.matchMedia('(max-width: 767px)').matches) {
           if (!$mutualSlider.hasClass('slick-initialized')) {
             $mutualSlider.slick({
               slidesToShow: 1,
@@ -204,7 +204,7 @@ export const myslick = {
     function mutualdestroySlider() {
       $mutualSliderMain.each(function () {
         const $this = $(this);
-        $(window).width() >= 810 && $this.hasClass('slick-initialized')
+        $(window).width() >= 768 && $this.hasClass('slick-initialized')
           ? $this.slick('unslick')
           : '';
       });

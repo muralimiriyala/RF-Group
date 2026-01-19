@@ -37,7 +37,7 @@ export const stickyYear = {
     };
 
     const handleResize = () => {
-      if (window.matchMedia('(min-width: 759px)').matches) {
+      if (window.matchMedia('(max-width: 767px)').matches) {
         if (!_.mobileInitialized) {
           mobileToggle();
           _.mobileInitialized = true;
