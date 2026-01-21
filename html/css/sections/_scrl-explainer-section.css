@@ -34,10 +34,10 @@
     .scrl-explainer-line{width: 2px; height: 100%; bottom: 0; left: 0; display: block;}
     .scrl-explainer-rect{clip-path: polygon(0 0, 100% 100%, 100% 0);}
 }
-@media only screen and (max-width: 1023px) and (min-width: 760px){
+@media only screen and (max-width: 1023px) and (min-width: 768px){
     .scrl-explainer-main{flex-direction: column; gap: 60px; padding: 60px 0 68px;}
 }
-@media only screen and (max-width: 759px) and (min-width: 560px){
+@media only screen and (max-width: 767px) and (min-width: 560px){
     .scrl-explainer-main{gap: 31px; padding: 40px 0 40px; flex-direction: column;}
     .scrl-explainer-line{height: 100%;}
 }
