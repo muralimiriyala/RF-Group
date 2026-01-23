@@ -66,6 +66,8 @@ body.page-template-service-tier-1 .fund-group-desc h2{font-weight: 600;}
 .fund-group-desc:not(:has(p)){padding-bottom: 40px;}
 .fund-group-desc:not(:has(p)) h2{margin-bottom: 0; }
 
+.no-faqs-top-line .faqs-top-line::before{display: none;}
+
 
 @media screen and (max-width: 1199px) and (min-width: 1024px){
     .service-fund-banner-desc{width: inherit;}

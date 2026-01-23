@@ -2,6 +2,8 @@
 .scrl-explainer{padding: 8px; border: 1px solid var(--Blue);}
 .scrl-explainer-btns{margin-top: 32px; padding: 8px; border: 1px solid var(--Blue); }
 .scrl-explainer-btns .button{width: 100%; gap: 8px; justify-content: center;}
+.scrl-explainer-btns .button span{flex: 1;}
+.scrl-explainer-btns .button em{width: 16px;}
 .scrl-explainer-card:nth-child(1):last-child{flex: 0 0 100%;}
 .scrl-explainer-desc h2{margin-bottom: 9px;}
 .scrl-explainer-desc p{margin-bottom: 8px;}

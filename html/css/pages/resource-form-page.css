@@ -47,6 +47,9 @@ ul.ui-categorys li a{white-space: nowrap;}
 .doc-form-lists .h4{width: 100%;}
 .doc-full-bg .doc-post-wrapper{background: var(--Gray); padding: 20px; display: flex; flex-direction: column; gap: 20px; width: 100%;}
 
+.sub-cat-btn{color: var(--Text-Gray); display: block; padding: 8px 16px;}
+.sub-cat-btn.current{background-color: var(--Gray); color: var(--Text-Gray);}
+
 /* media css starts here */
 @media only screen  and (min-width: 760px){
     .doc-form-rows{gap: 61px; padding-top: 21px;}
@@ -54,6 +57,7 @@ ul.ui-categorys li a{white-space: nowrap;}
     .doc-form-head{padding-bottom: 16px; gap: 32px;}
     .doc-form-title{width: fit-content;}
     ul.ui-categorys{flex: 1;}
+    .doc-form-filter{gap: 9px;}
 }
 @media only screen  and (min-width: 1024px){
     .doc-form-main{padding: 80px 0 80px; gap: 80px;}
@@ -100,9 +104,9 @@ ul.ui-categorys li a{white-space: nowrap;}
     .doc-form-report{flex: 1;}
     .doc-form-report a{word-break: break-all;}
 
-
-    ul.ui-categorys{padding-right: 24px; width: calc(100% + 24px);}
-    ul.ui-categorys li {width: fit-content; white-space: nowrap;}
+    .doc-form-filter{gap: 9px;}
+    ul.ui-categorys{flex: 1;}
+    ul.ui-categorys li {width: fit-content;}
     ul.ui-categorys li a{font-size: 1rem; padding: 12px 16px;}
     .doc-form-formrt span.fs-18{font-size: 1rem; margin-bottom: 1px;}
     ul.doc-form-q li{font-size: 0.75rem;}
