@@ -18,6 +18,11 @@ export const iframe = {
       $iframe.youtube_background({
         lazyloading: false,
         autoplay: false,
+        autoplay: true,
+        mute: true,
+        loop: true,
+        mobile: true,
+        fitToBackground: true
       });
     });
     setTimeout(() => {

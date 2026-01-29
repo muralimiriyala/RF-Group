@@ -22,6 +22,9 @@
 @media screen and (max-width: 759px) and (min-width: 200px) {
 .service-who-main{padding: 40px 0; display: block;}
 .service-who-lt{padding: 24px; margin-bottom: 24px;}
+.service-who-lt tr{display: flex; flex-wrap: wrap; width: 100%;}
+.service-who-lt tr td{width: 100% !important;}
+.service-who-lt tr td img{width: 40px;}
 .service-who-desc{padding-bottom: 24px;}
 .service-who-list-wrap {display: block;}
 .service-who-list{margin-bottom: 24px;}

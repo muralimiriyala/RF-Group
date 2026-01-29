@@ -10,7 +10,7 @@ a.text-link em, a.text-link:hover{color: var(--Blue);}
 
 .campaign-lt:nth-child(1):last-child{flex: 1;}
 
-.page-template-service-tier-1 .campaign-main {padding: 80px 0 0;}
+/* .page-template-service-tier-1 .campaign-main {padding: 80px 0 0;} */
 .page-template-service-tier-1 .campaign-lt hr{background-color: var(--RF-Purple);}
 
 .caption-line.purple::before, .caption-line.purple::after{background-color: var(--RF-Purple);}
@@ -19,7 +19,7 @@ a.text-link em, a.text-link:hover{color: var(--Blue);}
 
 
 @media only screen and (min-width: 1024px){
-    .campaign-main{padding: 80px 0 225px;}
+    .campaign-main{padding: 80px 0;}
     .campaign-lt{flex: 0 0 350px;}
     .campaign-rt{flex: 1;}
 
@@ -27,6 +27,7 @@ a.text-link em, a.text-link:hover{color: var(--Blue);}
 }
 
 @media only screen and (max-width: 1023px) and (min-width: 760px){
+  .campaign-main{padding: 40px 0;}
   .campaign-wrap{display: block;}
   .campaign-wrap .campaign-rt + .sidebar-main{display: flex; flex-wrap: wrap; gap: 32px; margin-top: 20px;}
   .campaign-wrap .campaign-rt + .sidebar-main .sidebar-mgt-team{flex: 0 0 calc(33.33% - 22px);}
@@ -47,7 +48,7 @@ a.text-link em, a.text-link:hover{color: var(--Blue);}
 .campaign-lt ul.toc-links {padding: 5px 0 24px;}
 .campaign-rt .default-line-wrap { padding: 40px 0 22px; }
 
-.page-template-service-tier-1 .campaign-main {padding: 24px 0 0;}
+/* .page-template-service-tier-1 .campaign-main {padding: 24px 0 0;} */
 .campaign-wrap .campaign-rt + .sidebar-main{ margin-top: 20px;}
 }
 

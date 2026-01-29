@@ -592,6 +592,9 @@ ul.slick-dots.orange:not(.pagination) li.slick-active{background-color: var(--RF
 .divider-line.gray{background: var(--Mid-Gray); opacity: 1;}
 .is-sticky.sticksy-dummy-node{opacity: 0;}
 
+.ytp-cued-thumbnail-overlay{display: none !important; }
+.ytp-pause-overlay-container{display: none !important; }
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .container.x-lg{max-width: 100%;}
