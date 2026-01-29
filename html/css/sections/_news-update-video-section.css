@@ -41,7 +41,7 @@ body .news-update-video-banner-form .frm_forms .frm_form_fields .frm_form_field 
 
 span.lock-icon-bg{width: 80px; height: 80px; background-color: rgba(39, 114, 219, 0.25);;}
 span.lock-icon{ width: 64px; height: 64px; top: 50%; left: 50%; background: rgba(39, 114, 219, 0.75); transform: translate(-50%, -50%); }
-.post-banner-iframe, .post-banner-iframe iframe{opacity: 0; max-width: inherit; object-position: top center;}
+.post-banner-iframe, .post-banner-iframe iframe{opacity: 0; object-position: top center;}
 .news-update-video-banner,  .news-update-video-banner img{min-height: 480px;}
 .post-banner-iframe, .post-banner-iframe iframe{height: 480px !important;}
 
@@ -89,7 +89,9 @@ span.lock-icon{ width: 64px; height: 64px; top: 50%; left: 50%; background: rgba
     .news-update-video-banner{position: relative;}
     .news-update-video-banner video {min-height: 285px;}
     .news-update-video-banner-text p {font-size: 0.875rem; line-height: 150%;}
-    /* .news-update-video-banner, .news-update-video-banner img{min-height: 300px;} */
+    
+    .news-update-video-banner,  .news-update-video-banner img{min-height: 223px;}
+    .post-banner-iframe, .post-banner-iframe iframe{height: 211px !important;}
  
 
 }

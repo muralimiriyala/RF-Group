@@ -48,7 +48,7 @@
 
 @media screen and (max-width: 759px) and (min-width: 200px) {
 
-.news-update-video-article { padding: 24px; }
+.news-update-video-article { padding: 24px; width: 100%;}
 .news-update-video-article h2 { font-size: 2.25rem; font-weight: 600; line-height: 125%; margin-bottom: 14px; letter-spacing: -0.72px; }
 
 .news-update-video-article  .news-post-banner-list { padding: 0 11px; }
