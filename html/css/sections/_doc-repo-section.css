@@ -19,12 +19,14 @@ a:hover span.gray-line{background-color: var(--Blue);}
 a.current span.gray-line{background-color: var(--RF-Orange); display: none;}
 
 .doc-repo-lists{gap: 20px;}
-.doc-repo-list{padding: 16px 16px 16px 24px; gap: 16px; flex: 1 0 calc(50% - 10px);}
+.doc-repo-list{padding: 16px 16px 16px 24px; gap: 16px; width: 100%;}
 .doc-repo-line{width: 4px; right: auto; background-color: var(--Blue);}
 .doc-repo-list:hover .doc-repo-line, .doc-repo-list.current .doc-repo-line, .doc-form-list:hover .doc-repo-line, .doc-form-list.current .doc-repo-line{width: 8px;}
 .doc-repo-list:hover{ background-color: var(--Blue-80); }
 .doc-repo-list:hover .doc-repo-icon{background-color: var(--Blue);}
 .doc-repo-list:hover .doc-repo-icon path{stroke: var(--White);}
+.doc-repo-post-full-bg{width: 100%; background: var(--Gray); display: flex; flex-wrap: wrap; gap: 20px; padding: 20px; width: 100%;}
+.doc-repo-post-full-bg .post-title{width: 100%;}
 
 .doc-repo-list.current .doc-repo-line{background-color: var(--RF-Orange);}
 .doc-repo-list.current{ background-color: var(--RF-Orange-10); }
@@ -46,6 +48,8 @@ ul.doc-repo-q li a:hover{color: var(--Blue);}
 .doc-repo-ids:not(:first-child){display: none;}
 ul.form-js-links li a.mPS2id-clicked{color: var(--Blue);}
 
+.doc-repo-lists-inner{gap: 20px;}
+
 /* media css starts here */
 @media only screen  and (min-width: 760px){
     .doc-repo-head{gap: 40px; padding-bottom: 26px;}
@@ -55,12 +59,15 @@ ul.form-js-links li a.mPS2id-clicked{color: var(--Blue);}
     .doc-form-head{padding-bottom: 16px;}
     .doc-form-title{width: fit-content;}
     ul.ui-categorys{flex: 1;}
+
 }
 @media only screen  and (min-width: 1024px){
     .doc-repo-main{padding: 80px 0 80px; gap: 80px;}
     .doc-repo-aside{flex: 0 0 350px;}
     .doc-repo-article{flex: 1; gap: 80px;}
     .doc-repo-text h1{font-size: 3rem;}
+
+    .doc-repo-lists-inner .doc-repo-list{ width: calc(50% - 10px);}
 }
 @media screen and (max-width: 1199px) and (min-width: 1024px){
     .doc-repo-main{gap: 60px;}
@@ -69,10 +76,14 @@ ul.form-js-links li a.mPS2id-clicked{color: var(--Blue);}
     .doc-repo-lists{flex-direction: column;}
     .doc-repo-head{flex-direction: column; gap: 24px; padding-bottom: 36px; align-items: flex-start;}
     .ui-years.flex-content-end{justify-content: flex-start;}
+
+    .doc-repo-lists-inner .doc-repo-list{width: 100%;}
 }
 @media screen and (max-width: 1023px) and (min-width: 760px){
     .doc-repo-main{padding: 60px 0 60px; gap: 60px; flex-direction: column;}
     .doc-repo-find{padding-top: 30px;}
+
+    .doc-repo-lists-inner .doc-repo-list{ width: calc(50% - 10px);}
 }
 @media screen and (max-width: 759px) and (min-width: 200px){
     .doc-repo-main{padding: 40px 0 42px; display: block;}

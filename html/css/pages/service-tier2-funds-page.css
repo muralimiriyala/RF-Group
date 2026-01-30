@@ -9,7 +9,8 @@
 .service-fund-banner-list > span > a:hover{color: var(--Blue);}
 .service-fund-banner-list p { font-size: 0.875rem; font-weight: 400; line-height: 125%; }
 ul.service-fund-banner-data { gap: 12px 28px; margin: 0; }
-ul.service-fund-banner-data li { flex: 0 0 calc(50% - 14px); justify-content: space-between; margin: 0; }
+/* ul.service-fund-banner-data li { flex: 0 0 calc(50% - 14px); justify-content: space-between; margin: 0; } */
+ul.service-fund-banner-data li { flex: fit-content; justify-content: space-between; margin: 0; gap: 10px; }
 .service-fund-banner-list hr { background-color: var(--RF-Orange-10); margin: 12px 0 14px; }
 ul.service-fund-banner-data li > span { font-size: 0.875rem; line-height: 14px; }
 ul.service-fund-banner-data li:before{display: none;}
