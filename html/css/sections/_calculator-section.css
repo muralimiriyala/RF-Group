@@ -235,7 +235,7 @@ span.tooltip-txt{position: absolute;
     .result-box .result-desc{width: 100%; max-width: 150px;}
     .retirement-result-wrapper .result-box .result-desc{width: 100%; max-width: 100%;}
     body.page-template-calculator-compound-interest .result-row-wrapper{gap: 60px; padding-bottom: 50px;}
-    body.page-template-calculator-compound-interest .result-row-wrapper .result-btn{width: 100%;}
+    /* body.page-template-calculator-compound-interest .result-row-wrapper .result-btn{width: 100%;} */
     body.page-template-calculator-retirement-new .dividend-list{width: 100%;}
     table.retiremnt-plan-table{margin-bottom: 0;}
 
@@ -252,7 +252,7 @@ span.tooltip-txt{position: absolute;
     body.page-template-calculator-compound-interest span.error-message{position: relative; bottom: 0; left: auto; padding: 0; text-align: right;}
     body.page-template-calculator-compound-interest .result-text{font-size: 30px; line-height: 38px;}
     body.page-template-calculator-compound-interest .result-row-wrapper{gap: 60px; padding-bottom: 50px; align-items: center;}
-    body.page-template-calculator-compound-interest .result-row-wrapper .result-btn{width: 100%;}
+    /* body.page-template-calculator-compound-interest .result-row-wrapper .result-btn{width: 100%;} */
 
     body.page-template-calculator-education span.error-message{position: relative; bottom: 0; left: auto; padding: 0; text-align: right; top: 2px;}
     body.page-template-calculator-education .result-text{font-size: 30px; line-height: 38px;}

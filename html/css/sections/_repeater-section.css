@@ -1,5 +1,5 @@
 .repeater-section{clear: both; width: 100%; overflow: hidden;}
-.repeater-main{padding: 80px 0 0;}
+.repeater-main{padding: 80px 0;}
 .repeater-text h2{font-family: var(--heading-font); margin-bottom: 32px;}
 .repeater-text span{margin: 0 0 16px 0;}
 .repeater-list.row-reverse{flex-direction: row-reverse;}
@@ -38,9 +38,11 @@ svg.repeater-icon-hover{top: 0; left: 0; opacity: 0;}
     .repeater-list.row-reverse .repeater-desc{margin-left: 0; margin-right: auto;}
 }
 @media only screen and (min-width: 1024px) {
-    .repeater-list{margin-bottom: 80px;}
-    .repeater-list:last-child{margin-bottom: 0;}
-    .repeater-desc{  padding: 40px 64px 80px 64px; margin-top: auto; margin-bottom: auto;}
+    /* .repeater-list{margin-bottom: 80px;} */
+    /* .repeater-list:last-child{margin-bottom: 0;} */
+    .repeater-list:not(:last-child){margin-bottom: 80px;}
+    /* .repeater-desc{  padding: 40px 64px 80px 64px; margin-top: auto; margin-bottom: auto;} */
+    .repeater-desc{  padding: 40px 64px 0 64px; margin-top: auto; margin-bottom: auto;}
     body.page-template-about .repeater-desc{padding: 30px 64px 30px;}
     body.page-template-about .repeater-text.no-img .repeater-desc {padding: 80px 0 0;}
 
@@ -65,11 +67,13 @@ svg.repeater-icon-hover{top: 0; left: 0; opacity: 0;}
     .repeater-desc h2{font-size: 1.688rem; margin-bottom: 16px;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 760px) {
-    .repeater-list{margin-bottom: 44px; flex-direction: column-reverse;}
+    /* .repeater-list{margin-bottom: 44px; flex-direction: column-reverse;} */
+    .repeater-list{ flex-direction: column-reverse;}
     .repeater-list.row-reverse{flex-direction: column-reverse;}
-    .repeater-list:last-child{margin-bottom: 0;}
+    /* .repeater-list:last-child{margin-bottom: 0;} */
+    .repeater-list:not(:last-child){margin-bottom: 44px;}
     .repeater-img{margin-bottom: 54px;}
-    .repeater-desc { padding: 64px 40px; }
+    .repeater-desc { padding: 64px 40px 0; }
     .repeater-icon { height: 160px; left: 64px; right: auto; top: inherit; width: 120px; bottom: -74px; transform: rotate(-90deg);}
 
     .page-template-about .repeater-list.row-reverse{padding: 0;}
